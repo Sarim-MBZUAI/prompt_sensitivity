@@ -1,0 +1,189 @@
+{
+    "file_name": "question_121_variants.json",
+    "overall_posix": 5.217958648753767,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5167202325094313,
+            "Variation 2": 0.5706367379143125,
+            "Variation 3": 8.704399013519287,
+            "Variation 4": 13.857868380844593,
+            "Variation 5": 7.443948805332184,
+            "Variation 6": 5.890805120053499,
+            "Variation 7": 2.466098732948303,
+            "Variation 8": 1.906724686525306,
+            "Variation 9": 0.9215072555975481,
+            "Variation 10": 2.492739939689636
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no evidence of fluid in the lung spaces on the chest X-ray. The image shows a normal chest X-ray with no signs of fluid or other abnormalities.",
+                "No, there is no indication of alveolar flooding on the chest X-ray. The image shows a normal chest X-ray with the lungs appearing clear and well-aerated.",
+                "No, there is no evidence of fluid in the lung spaces on the chest X-ray. The X-ray appears to show a clear view of the lungs without any signs of fluid accumulation.",
+                "No, there are no visible signs of pulmonary edema on the radiograph.",
+                "Yes, the chest X-ray shows evidence of air space disease.",
+                "Yes, there is a visible increase in lung markings suggestive of interstitial fluid.",
+                "No, there are no indications of cardiogenic edema on the chest X-ray.",
+                "No, the radiograph does not show any signs of pleural effusion with alveolar flooding. The image appears to be a chest X-ray, but it does not show any evidence of fluid accumulation in the pleural space or",
+                "No, there is no visible increase in lung density suggestive of pulmonary congestion on the chest X-ray. The image shows a normal chest X-ray with the lungs appearing clear and well-aerated.",
+                "No, there are no visible signs of air space consolidation due to fluid accumulation on the radiograph. The image shows a chest X-ray with the lungs appearing clear and well-aerated.",
+                "No, the chest X-ray does not show evidence of increased vascular markings suggestive of pulmonary congestion. The image appears to be a normal chest X-ray with no signs of congestion or other abnormalities"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -366.27801036834717,
+                    -387.9802601337433,
+                    -390.2447533607483,
+                    -192.19003009796143,
+                    -144.55211627483368,
+                    -202.51113665103912,
+                    -230.7894926071167,
+                    -489.58294701576233,
+                    -459.70752000808716,
+                    -406.8243296146393,
+                    -490.915007352829
+                ],
+                [
+                    -366.27801036834717,
+                    -387.9802601337433,
+                    -390.2447533607483,
+                    -192.19003009796143,
+                    -144.55211627483368,
+                    -202.51113665103912,
+                    -230.7894926071167,
+                    -489.58294701576233,
+                    -459.70752000808716,
+                    -406.8243296146393,
+                    -490.915007352829
+                ],
+                [
+                    -366.27801036834717,
+                    -387.9802601337433,
+                    -390.2447533607483,
+                    -192.19003009796143,
+                    -144.55211627483368,
+                    -202.51113665103912,
+                    -230.7894926071167,
+                    -489.58294701576233,
+                    -459.70752000808716,
+                    -406.8243296146393,
+                    -490.915007352829
+                ],
+                [
+                    -359.6894314289093,
+                    -354.1638240814209,
+                    -375.1876952648163,
+                    -199.54098391532898,
+                    -152.17032027244568,
+                    -214.8687674999237,
+                    -210.49368369579315,
+                    -495.64331698417664,
+                    -468.3244346380234,
+                    -419.6428453922272,
+                    -502.13556718826294
+                ],
+                [
+                    -390.2887783050537,
+                    -388.3918266296387,
+                    -400.26876640319824,
+                    -192.79430770874023,
+                    -158.0117118358612,
+                    -211.29021692276,
+                    -219.04602980613708,
+                    -516.594539642334,
+                    -447.0652229785919,
+                    -398.89193654060364,
+                    -547.8653223514557
+                ],
+                [
+                    -380.5311361551285,
+                    -392.1620398759842,
+                    -368.9009920358658,
+                    -201.701012134552,
+                    -137.79898858070374,
+                    -211.95539045333862,
+                    -207.70313930511475,
+                    -493.8874123096466,
+                    -445.8659944534302,
+                    -406.70218420028687,
+                    -482.9000687599182
+                ],
+                [
+                    -371.9471797943115,
+                    -379.35611844062805,
+                    -391.4852840900421,
+                    -186.32711231708527,
+                    -136.0964436531067,
+                    -203.27807760238647,
+                    -223.0779571533203,
+                    -509.54860830307007,
+                    -479.7566418647766,
+                    -407.14524102211,
+                    -492.3049921989441
+                ],
+                [
+                    -371.9471797943115,
+                    -379.35611844062805,
+                    -391.4852840900421,
+                    -186.32711231708527,
+                    -136.0964436531067,
+                    -203.27807760238647,
+                    -223.0779571533203,
+                    -509.54860830307007,
+                    -479.7566418647766,
+                    -407.14524102211,
+                    -492.3049921989441
+                ],
+                [
+                    -378.8538097143173,
+                    -386.36585903167725,
+                    -381.6974763870239,
+                    -199.94131898880005,
+                    -150.82203817367554,
+                    -214.25542902946472,
+                    -218.65001153945923,
+                    -502.36023139953613,
+                    -451.65286898612976,
+                    -437.9714813232422,
+                    -510.99187779426575
+                ],
+                [
+                    -353.8786916732788,
+                    -369.7826886177063,
+                    -377.7293484210968,
+                    -199.07368278503418,
+                    -157.94556283950806,
+                    -225.97007751464844,
+                    -222.53236198425293,
+                    -510.975989818573,
+                    -489.7590718269348,
+                    -421.75779938697815,
+                    -514.6875247955322
+                ],
+                [
+                    -378.8538097143173,
+                    -386.36585903167725,
+                    -381.6974763870239,
+                    -199.94131898880005,
+                    -150.82203817367554,
+                    -214.25542902946472,
+                    -218.65001153945923,
+                    -502.36023139953613,
+                    -451.65286898612976,
+                    -437.9714813232422,
+                    -510.99187779426575
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            5.217958648753767
+        ],
+        "posix": 5.217958648753767
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_355_variants.json",
+    "overall_posix": 0.36808526742068987,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.48571428571428577,
+            "Variation 2": 0.25764192139737996,
+            "Variation 3": 0.3977695167286246,
+            "Variation 4": 0.23113207547169812,
+            "Variation 5": 0.27312775330396477,
+            "Variation 6": 0.43356643356643354,
+            "Variation 7": 0.20398009950248752,
+            "Variation 8": 0.5317919075144508,
+            "Variation 9": 0.4370629370629371,
+            "Variation 10": 0.4290657439446367
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tDoes the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The chest X-ray shows a large right pleural effusion. The patient has a history of a right pleural effusion and a right pleural e",
+                "<s> Question::: Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> QUESTION:Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pleural efusion\n B:Pneumothorax\n C:Pneumonia\n D:Pneumonitis",
+                "<s> QUESTION:Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> q:::Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n\n 10.Question:What is the most likely diagnosis?\n A.Pleural effusion\n B.Pneumothorax\n C.Pneumonia\n",
+                "<s> Q:Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: 166.1: 166.1: 166.1: 166.1:\n 1",
+                "<s> QUESTION:Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Explanation:\n The patient has a large right pleural effusion. The patient has a large right pleural effusion. The patient has a large right pleural effusion.",
+                "<s> Question:Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n Reason: The patient has a large pleural effusion as seen on the chest X-ray.\n 10.10.1  Case ",
+                "<s> question:Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked [2] as the answer.The patient has a large pleural effusion as seen on the chest X-ray"
+            ]
+        ],
+        "sensitivities": [
+            0.36808526742068987
+        ],
+        "posix": 0.36808526742068987
+    }
+}

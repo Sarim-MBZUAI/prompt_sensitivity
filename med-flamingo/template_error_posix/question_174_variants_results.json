@@ -1,0 +1,42 @@
+{
+    "file_name": "question_174_variants.json",
+    "overall_posix": 0.4561450813202207,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.47509578544061304,
+            "Variation 2": 0.4329501915708812,
+            "Variation 3": 0.4382022471910112,
+            "Variation 4": 0.446969696969697,
+            "Variation 5": 0.48659003831417624,
+            "Variation 6": 0.5019157088122606,
+            "Variation 7": 0.5057471264367817,
+            "Variation 8": 0.47892720306513414,
+            "Variation 9": 0.4262820512820513,
+            "Variation 10": 0.3687707641196013
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 2.1. Pleural effusion can be seen on the patient's chest X-ray.\n 2.2. Pleural effusion cannot be seen on the patient's chest X-ray.\n 2",
+                "<s> Q::Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n   Ans:\n C\n Reference:\n 1.Hilton L. Radiology Review Manual. 2nd ed. Philadelphia: Lipp",
+                "<s> Question:Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n 10.\n Question:What is the most likely diagnosis?\n A.Pleural effusion\n B.Pneumothorax\n C.Pneumonia\n D.Pneumonitis",
+                "<s> question::Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The chest X-ray shows a pleural effusion.\n B: The chest X-ray does not show a pleural effusion.\n 10.\n 11.\n 12.",
+                "<s> Question::: Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1:\n Option 2:\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n",
+                "<s> Q::: Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 0:\n -\n 10:\n 9:\n 8:\n 7:\n 6:\n 5:",
+                "<s> QUESTION:Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Correct Answer:\n Option 1\n Explanation:\n The patient has a large right pleural effusion. The pleural effusion is seen as a homogeneous,\n an",
+                "<s> question:Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> Yes\n [no, yes]\n 3.\n question:Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n answer:\n Yes"
+            ]
+        ],
+        "sensitivities": [
+            0.4561450813202207
+        ],
+        "posix": 0.4561450813202207
+    }
+}

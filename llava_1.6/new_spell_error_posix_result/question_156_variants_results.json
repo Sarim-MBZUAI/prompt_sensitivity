@@ -1,0 +1,189 @@
+{
+    "file_name": "question_156_variants.json",
+    "overall_posix": 1.5235464794103,
+    "detailed_scores": [
+        {
+            "Variation 1": 5.200765810906887,
+            "Variation 2": 0.5083220100402832,
+            "Variation 3": 0.4401187181472778,
+            "Variation 4": 2.343784899246402,
+            "Variation 5": 0.6514039802551269,
+            "Variation 6": 0.8821568393707275,
+            "Variation 7": 0.6153505897521973,
+            "Variation 8": 0.6939581489562988,
+            "Variation 9": 0.8821568393707275,
+            "Variation 10": 0.062356762264085853
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the chest X-ray is not clear of any acute abnormalities. There is a significant amount of fluid visible in the chest cavity, which could indicate a condition such as pleural effusion.",
+                "No, the chest X-ray does not show any acute abnormalities. It appears to be a normal X-ray of the chest.",
+                "Based on the image provided, it appears that the chest X-ray is clear of any acute abnormalities. The lungs and heart appear normal, and there are no signs of infection, inflammation, or other pathological conditions.",
+                "Based on the image provided, it appears that the chest X-ray is clear of any acute abnormalities. The lungs and heart appear normal, and there are no signs of infection, inflammation, or other significant issues. However,",
+                "No, the chest X-ray is not clear of an acute abnormality. There is a visible mass in the chest, which could indicate a tumor or other abnormal growth.",
+                "Based on the image provided, it is not possible for me to make a definitive assessment of the chest X-ray. The image is of low resolution and quality, which makes it difficult to discern any specific details or abnormalities. To",
+                "Based on the image provided, it is not possible for me to make a definitive assessment of the chest X-ray. As an AI, I do not have the ability to interpret medical images or provide medical diagnoses. It is important for any",
+                "Based on the image provided, it is not possible for me to make a definitive assessment of the chest X-ray. The image is of low resolution and quality, which makes it difficult to discern any specific details or abnormalities. A",
+                "Based on the image provided, it is not possible for me to make a definitive assessment of the chest X-ray. The image is of low resolution and quality, which makes it difficult to discern any specific details that would allow me to determine",
+                "Based on the image provided, it is not possible for me to make a definitive assessment of the chest X-ray. As an AI, I do not have the ability to interpret medical images or provide medical diagnoses. It is important for any",
+                "No, the chest X-ray is not clear. There are acute abnormalities visible, including a significant amount of fluid in the chest cavity, which could indicate a condition such as pleural effusion."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -489.73098039627075,
+                    -323.30647444725037,
+                    -515.1470808982849,
+                    -511.73691630363464,
+                    -393.6357995271683,
+                    -522.3011794090271,
+                    -533.8388223648071,
+                    -520.4985098838806,
+                    -524.4288878440857,
+                    -533.8388223648071,
+                    -486.8625693321228
+                ],
+                [
+                    -470.3649697303772,
+                    -305.7513041496277,
+                    -530.2483689785004,
+                    -523.2303929328918,
+                    -396.07774686813354,
+                    -516.1559934616089,
+                    -514.9210116863251,
+                    -515.0146865844727,
+                    -525.7653012275696,
+                    -514.9210116863251,
+                    -470.4189109802246
+                ],
+                [
+                    -468.4039828777313,
+                    -326.6719741821289,
+                    -520.9579162299633,
+                    -519.9835861623287,
+                    -414.6524438858032,
+                    -504.31604942679405,
+                    -505.3796193599701,
+                    -500.04954275488853,
+                    -503.7828653752804,
+                    -505.3796193599701,
+                    -470.0040943622589
+                ],
+                [
+                    -468.4039828777313,
+                    -326.6719741821289,
+                    -520.9579162299633,
+                    -519.9835861623287,
+                    -414.6524438858032,
+                    -504.31604942679405,
+                    -505.3796193599701,
+                    -500.04954275488853,
+                    -503.7828653752804,
+                    -505.3796193599701,
+                    -470.0040943622589
+                ],
+                [
+                    -489.73098039627075,
+                    -323.30647444725037,
+                    -515.1470808982849,
+                    -511.73691630363464,
+                    -393.6357995271683,
+                    -522.3011794090271,
+                    -533.8388223648071,
+                    -520.4985098838806,
+                    -524.4288878440857,
+                    -533.8388223648071,
+                    -486.8625693321228
+                ],
+                [
+                    -470.3649697303772,
+                    -305.7513041496277,
+                    -530.2483689785004,
+                    -523.2303929328918,
+                    -396.07774686813354,
+                    -516.1559934616089,
+                    -514.9210116863251,
+                    -515.0146865844727,
+                    -525.7653012275696,
+                    -514.9210116863251,
+                    -470.4189109802246
+                ],
+                [
+                    -484.6434519290924,
+                    -342.86535453796387,
+                    -491.80470210313797,
+                    -497.30959367752075,
+                    -430.03077602386475,
+                    -510.0964288711548,
+                    -513.1632113456726,
+                    -504.81183099746704,
+                    -512.172776222229,
+                    -513.1632113456726,
+                    -489.3928039073944
+                ],
+                [
+                    -484.6434519290924,
+                    -342.86535453796387,
+                    -491.80470210313797,
+                    -497.30959367752075,
+                    -430.03077602386475,
+                    -510.0964288711548,
+                    -513.1632113456726,
+                    -504.81183099746704,
+                    -512.172776222229,
+                    -513.1632113456726,
+                    -489.3928039073944
+                ],
+                [
+                    -470.3649697303772,
+                    -305.7513041496277,
+                    -530.2483689785004,
+                    -523.2303929328918,
+                    -396.07774686813354,
+                    -516.1559934616089,
+                    -514.9210116863251,
+                    -515.0146865844727,
+                    -525.7653012275696,
+                    -514.9210116863251,
+                    -470.4189109802246
+                ],
+                [
+                    -468.4039828777313,
+                    -326.6719741821289,
+                    -520.9579162299633,
+                    -519.9835861623287,
+                    -414.6524438858032,
+                    -504.31604942679405,
+                    -505.3796193599701,
+                    -500.04954275488853,
+                    -503.7828653752804,
+                    -505.3796193599701,
+                    -470.0040943622589
+                ],
+                [
+                    -489.73098039627075,
+                    -323.30647444725037,
+                    -515.1470808982849,
+                    -511.73691630363464,
+                    -393.6357995271683,
+                    -522.3011794090271,
+                    -533.8388223648071,
+                    -520.4985098838806,
+                    -524.4288878440857,
+                    -533.8388223648071,
+                    -486.8625693321228
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.5235464794103
+        ],
+        "posix": 1.5235464794103
+    }
+}

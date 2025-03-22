@@ -1,0 +1,42 @@
+{
+    "file_name": "question_392_variants.json",
+    "overall_posix": 0.30547922027314756,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.26940639269406397,
+            "Variation 2": 0.41698841698841704,
+            "Variation 3": 0.38211382113821135,
+            "Variation 4": 0.22549019607843135,
+            "Variation 5": 0.2277227722772277,
+            "Variation 6": 0.44525547445255476,
+            "Variation 7": 0.2277227722772277,
+            "Variation 8": 0.4758620689655173,
+            "Variation 9": 0.23529411764705888,
+            "Variation 10": 0.14893617021276595
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question::: Are there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> question:Are there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\nyes\n 1.The X-ray shows a right-sided pneumothorax.\n 2.The X-ray shows a left-sided pneumothorax.\n 3.The X-ray",
+                "<s> Q:Are there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n Q:What is the most likely diagnosis?\n A:Pneumonia\n B:Tuberculosis\n C:Pulmonary edema\n D",
+                "<s> QUESTION\tAre there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question:Are there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Are there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n Acute respiratory distress syndrome\n C:\n Pulmonary edema\n D",
+                "<s> QUESTION:Are there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Are there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10.\n 10.Question:Is there any evidence of a pneumothorax? Please choose from the following two options: [yes, no]||Answer:\n Yes\n 11.\n ",
+                "<s> question::Are there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> q:Are there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 1"
+            ]
+        ],
+        "sensitivities": [
+            0.30547922027314756
+        ],
+        "posix": 0.30547922027314756
+    }
+}

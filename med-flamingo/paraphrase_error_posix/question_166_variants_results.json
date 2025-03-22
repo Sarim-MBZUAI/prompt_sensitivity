@@ -1,0 +1,42 @@
+{
+    "file_name": "question_166_variants.json",
+    "overall_posix": 0.5942791941951606,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6571428571428571,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6857142857142857,
+            "Variation 4": 0.6326530612244898,
+            "Variation 5": 0.63003663003663,
+            "Variation 6": 0.7714285714285715,
+            "Variation 7": 0.5454545454545454,
+            "Variation 8": 0.5952380952380952,
+            "Variation 9": 0.7254901960784313,
+            "Variation 10": 0.6996336996336996
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the heart appear enlarged in this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the heart appear enlarged in this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the heart is enlarged.\n 2. No, the heart is not enlarged.\n 1. Yes, the heart is enlarged.\n 2. No, the heart is not en",
+                "<s> Is the cardiac silhouette greater than 50% of the thoracic diameter on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does the heart appear enlarged in this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the heart is enlarged.\n 2. No, the heart is not enlarged.\n 1. Yes, the heart is enlarged.\n 2. No, the heart is not en",
+                "<s> Does the left hemithorax appear widened due to cardiomegaly in this anterior-posterior chest radiograph? Please choose from the following two options: [yes, no]\n<image> 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n",
+                "<s> Is the cardiothoracic ratio greater than 0.5 on this erect chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Does the cardiac silhouette appear to occupy more than half of the thoracic diameter in this supine chest radiograph? Please choose from the following two options: [yes, no]\n<image> a\n b\n Fig. 1.16a,b\n 1 The Normal Chest X-Ray17\n 1.4.2  Case 2\n A 65-year-old man with a",
+                "<s> Is there evidence of cardiomegaly on this lateral chest X-ray, where the cardiac shadow exceeds 50% of the thoracic diameter? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does the left heart border appear to be elevated and displaced anteriorly in this chest radiograph, suggesting an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image> 1. The left heart border is displaced anteriorly.\n 2. The left heart border is not displaced anteriorly.\n 1. The left heart border is displaced anteriorly.\n 2. The",
+                "<s> Is the heart size greater than normal on this PA chest X-ray, as indicated by a cardiothoracic ratio of 0.5 or more? Please choose from the following two options: [yes, no]\n<image> 11.10.15  Answer\n The heart size is normal.\n The cardiothoracic ratio is 0.46, which is less than 0.5.\n 11.10",
+                "<s> Does the cardiac contour appear irregular and enlarged in this AP chest radiograph, with the left border being most prominently affected? Please choose from the following two options: [yes, no]\n<image> 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 23\n 24\n 2",
+                "<s> Is there marked cardiomegaly present on this erect chest X-ray, where the heart silhouette occupies more than 50% of the thoracic diameter? Please choose from the following two options: [yes, no]\n<image> a\n b\n Fig. 1.11a,b\n 1.indd 1110/10/19 12:53 PM\n 12  Chapter 1\n 1."
+            ]
+        ],
+        "sensitivities": [
+            0.5942791941951606
+        ],
+        "posix": 0.5942791941951606
+    }
+}

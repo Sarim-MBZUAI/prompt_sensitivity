@@ -1,0 +1,42 @@
+{
+    "file_name": "question_303_variants.json",
+    "overall_posix": 0.4230821504575733,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.275,
+            "Variation 2": 0.5730994152046783,
+            "Variation 3": 0.0,
+            "Variation 4": 0.5777027027027027,
+            "Variation 5": 0.6637931034482759,
+            "Variation 6": 0.5871886120996441,
+            "Variation 7": 0.40703517587939697,
+            "Variation 8": 0.2535885167464115,
+            "Variation 9": 0.27083333333333326,
+            "Variation 10": 0.6225806451612903
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographically evident lung neoplasms present on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Please choose from the following two options: [yes, no]\n<image> 1.Do you have any pain in your chest?\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n ",
+                "<s> Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is a pulmonary tumor visible on the anterior-posterior projection of this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, a pulmonary tumor is visible.\n b. No, a pulmonary tumor is not visible.\n 4.\n What is the most likely diagnosis?\n a. A pulmonary tumor",
+                "<s> Are there any lesions suggestive of lung cancer on the radiograph provided? Please choose from the following two options: [yes, no]\n<image> 1. Are there any lesions suggestive of lung cancer on the radiograph provided? Please choose from the following two options: [yes, no]\n 2. Are there any lesions suggestive of lung cancer on the radiograph",
+                "<s> Does this chest X-ray reveal a lung tumor that is visible to the naked eye? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the tumor is visible to the naked eye.\n 2.  No, the tumor is not visible to the naked eye.\n 1.  Yes, the tumor is visible to the",
+                "<s> Is there a radiographically apparent primary lung neoplasm present on this image? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Are any suspicious lesions consistent with lung cancer visible on the chest X-ray provided? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray reveal a pulmonary mass that is readily identifiable? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a radiographically evident lung tumor or mass present on this imaging study? Please choose from the following two options: [yes, no]\n<image> 11.  A 65-year-old man with a history of hypertension and diabetes presents to the emergency department with a 2-week history of fever, chills, and malaise."
+            ]
+        ],
+        "sensitivities": [
+            0.4230821504575733
+        ],
+        "posix": 0.4230821504575733
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_345_variants.json",
+    "overall_posix": 0.4022229270117343,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.24083769633507857,
+            "Variation 2": 0.5018587360594795,
+            "Variation 3": 0.26041666666666674,
+            "Variation 4": 0.5263157894736842,
+            "Variation 5": 0.5395189003436426,
+            "Variation 6": 0.5238095238095238,
+            "Variation 7": 0.303921568627451,
+            "Variation 8": 0.30731707317073176,
+            "Variation 9": 0.49442379182156126,
+            "Variation 10": 0.32380952380952377
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tIs the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Q:Is the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Q:Is the pulmonary vascularity abnormal on the CT? Please choose from the following two options: [yes, no]\n A: [yes]\n B: [no]\n C",
+                "<s> Q:Is the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n L:\n U:\n X:\n Y:\n L:\n U:\n S:",
+                "<s> Question:Is the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Question:Is the pulmonary vascularity abnormal on the CT? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no]",
+                "<s> Question:Is the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The X-ray shows a right-sided pneumothorax. The right hemidiaphragm is lower than the left, and the right hilum is shift",
+                "<s> Question::: Is the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Congenital pulmonary airway malformation\n B. Congenital lobar emphysema\n C. Congenital lobar",
+                "<s> q:::Is the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q::: Is the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> question:Is the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n The X-ray shows a normal pulmonary vascularity.\n 10.Question 10:\n A 55-year-old man with a history of a myocardial infarction and a",
+                "<s> Q::Is the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::"
+            ]
+        ],
+        "sensitivities": [
+            0.4022229270117343
+        ],
+        "posix": 0.4022229270117343
+    }
+}

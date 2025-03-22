@@ -1,0 +1,189 @@
+{
+    "file_name": "question_232_variants.json",
+    "overall_posix": 10.171012213095207,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.07995362281799316,
+            "Variation 3": 79.00270509719849,
+            "Variation 4": 6.083177517200339,
+            "Variation 5": 2.5493880051832933,
+            "Variation 6": 3.222122585072237,
+            "Variation 7": 19.774257946014405,
+            "Variation 8": 0.0,
+            "Variation 9": 2.1856489419937133,
+            "Variation 10": 19.774257946014405
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an enlarged heart on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the X-ray does not show an enlarged heart. The image appears to be a lateral chest X-ray, which is used to examine the lungs and heart. The heart shadow is visible, but it does not appear to",
+                "No, the X-ray does not show an enlarged heart. The image appears to be a lateral chest X-ray, which is used to examine the lungs and heart. The heart shadow is visible, but it does not appear to",
+                "No, the X-ray does not show an enlarged heart. The image appears to be a lateral chest X-ray, which is used to examine the lungs and heart. The heart appears to be of normal size in relation to the",
+                "[o]",
+                "No, the patient does not have an enlarged heart on the X-ray. The image shows a normal-sized heart.",
+                "No, the X-ray does not show an enlarged heart. The image appears to be a normal chest X-ray, showing the lungs and heart in a typical position.",
+                "No, the patient does not have an enlarged heart on the X-ray. The image shows a normal-sized heart within the chest cavity.",
+                "Yes, the X-ray shows an enlarged heart.",
+                "No, the X-ray does not show an enlarged heart. The image appears to be a lateral chest X-ray, which is used to examine the lungs and heart. The heart shadow is visible, but it does not appear to",
+                "Based on the X-ray image provided, it appears that the patient does not have an enlarged heart. The heart size appears to be within normal limits.",
+                "Yes, the X-ray shows an enlarged heart."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -441.13040924072266,
+                    -441.13040924072266,
+                    -445.1280903816223,
+                    -46.116883754730225,
+                    -264.71826124191284,
+                    -341.7042770385742,
+                    -331.5782413482666,
+                    -144.5165400505066,
+                    -441.13040924072266,
+                    -364.6326962709427,
+                    -144.5165400505066
+                ],
+                [
+                    -450.8915021419525,
+                    -450.8915021419525,
+                    -458.18567156791687,
+                    -45.262657165527344,
+                    -255.81064665317535,
+                    -344.3367576599121,
+                    -310.9461451768875,
+                    -135.31413984298706,
+                    -450.8915021419525,
+                    -323.5236406326294,
+                    -135.31413984298706
+                ],
+                [
+                    -443.18034625053406,
+                    -443.18034625053406,
+                    -438.53133893013,
+                    -44.550293654203415,
+                    -264.0920810699463,
+                    -336.4294686317444,
+                    -304.47711968421936,
+                    -125.08768033981323,
+                    -443.18034625053406,
+                    -320.4699926376343,
+                    -125.08768033981323
+                ],
+                [
+                    -446.9217369556427,
+                    -446.9217369556427,
+                    -444.9148573875427,
+                    -44.75817108154297,
+                    -255.1600477695465,
+                    -352.45275020599365,
+                    -320.3046272993088,
+                    -138.5671923160553,
+                    -446.9217369556427,
+                    -346.1390633583069,
+                    -138.5671923160553
+                ],
+                [
+                    -446.9217369556427,
+                    -446.9217369556427,
+                    -444.9148573875427,
+                    -44.75817108154297,
+                    -255.1600477695465,
+                    -352.45275020599365,
+                    -320.3046272993088,
+                    -138.5671923160553,
+                    -446.9217369556427,
+                    -346.1390633583069,
+                    -138.5671923160553
+                ],
+                [
+                    -443.18034625053406,
+                    -443.18034625053406,
+                    -438.53133893013,
+                    -44.550293654203415,
+                    -264.0920810699463,
+                    -336.4294686317444,
+                    -304.47711968421936,
+                    -125.08768033981323,
+                    -443.18034625053406,
+                    -320.4699926376343,
+                    -125.08768033981323
+                ],
+                [
+                    -441.13040924072266,
+                    -441.13040924072266,
+                    -445.1280903816223,
+                    -46.116883754730225,
+                    -264.71826124191284,
+                    -341.7042770385742,
+                    -331.5782413482666,
+                    -144.5165400505066,
+                    -441.13040924072266,
+                    -364.6326962709427,
+                    -144.5165400505066
+                ],
+                [
+                    -450.8915021419525,
+                    -450.8915021419525,
+                    -458.18567156791687,
+                    -45.262657165527344,
+                    -255.81064665317535,
+                    -344.3367576599121,
+                    -310.9461451768875,
+                    -135.31413984298706,
+                    -450.8915021419525,
+                    -323.5236406326294,
+                    -135.31413984298706
+                ],
+                [
+                    -443.18034625053406,
+                    -443.18034625053406,
+                    -438.53133893013,
+                    -44.550293654203415,
+                    -264.0920810699463,
+                    -336.4294686317444,
+                    -304.47711968421936,
+                    -125.08768033981323,
+                    -443.18034625053406,
+                    -320.4699926376343,
+                    -125.08768033981323
+                ],
+                [
+                    -450.8915021419525,
+                    -450.8915021419525,
+                    -458.18567156791687,
+                    -45.262657165527344,
+                    -255.81064665317535,
+                    -344.3367576599121,
+                    -310.9461451768875,
+                    -135.31413984298706,
+                    -450.8915021419525,
+                    -323.5236406326294,
+                    -135.31413984298706
+                ],
+                [
+                    -443.18034625053406,
+                    -443.18034625053406,
+                    -438.53133893013,
+                    -44.550293654203415,
+                    -264.0920810699463,
+                    -336.4294686317444,
+                    -304.47711968421936,
+                    -125.08768033981323,
+                    -443.18034625053406,
+                    -320.4699926376343,
+                    -125.08768033981323
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            10.171012213095207
+        ],
+        "posix": 10.171012213095207
+    }
+}

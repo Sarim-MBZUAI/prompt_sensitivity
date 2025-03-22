@@ -1,0 +1,42 @@
+{
+    "file_name": "question_4_variants.json",
+    "overall_posix": 0.3893191213518056,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.41224489795918373,
+            "Variation 2": 0.39518900343642605,
+            "Variation 3": 0.3902439024390244,
+            "Variation 4": 0.3202846975088969,
+            "Variation 5": 0.4163265306122449,
+            "Variation 6": 0.40816326530612246,
+            "Variation 7": 0.3793103448275862,
+            "Variation 8": 0.39591836734693875,
+            "Variation 9": 0.36734693877551017,
+            "Variation 10": 0.40816326530612246
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Degenerative disease\n The X-ray shows a thoracic kyphosis of 40\u00b0. This is a",
+                "<s> question::Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question::: Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Congenital scoliosis\n B. Neurofibromatosis\n C. Spondylolysis\n D. Sp",
+                "<s> QUESTION\tIs there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n The X-ray shows a thoracic spine fracture. The thoracic spine is composed of 12 vertebrae. The first",
+                "<s> Question:Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer:\n [yes, no]\n The X-ray shows a thoracic kyphosis of 40\u00b0.\n The X-ray shows a thoracic kyphosis of",
+                "<s> QUESTION:Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Q:Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there any evidence of degenerative disease in the lumbar spine on the X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no",
+                "<s> q:::Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> q:Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Question:Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n"
+            ]
+        ],
+        "sensitivities": [
+            0.3893191213518056
+        ],
+        "posix": 0.3893191213518056
+    }
+}

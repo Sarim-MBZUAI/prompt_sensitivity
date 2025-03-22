@@ -1,0 +1,42 @@
+{
+    "file_name": "question_307_variants.json",
+    "overall_posix": 0.26299906345030377,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.23671497584541057,
+            "Variation 2": 0.28181818181818175,
+            "Variation 3": 0.1717171717171717,
+            "Variation 4": 0.16425120772946866,
+            "Variation 5": 0.4307116104868913,
+            "Variation 6": 0.18974358974358974,
+            "Variation 7": 0.2654028436018958,
+            "Variation 8": 0.2850678733031674,
+            "Variation 9": 0.22705314009661837,
+            "Variation 10": 0.3775100401606426
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:Are there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> q:::Are there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Are there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2\n 1\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 11\n 12\n 13\n 14\n",
+                "<s> Question:Are there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Q::Are there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A: Aortic dissection\n B: Aortic aneurysm\n C: Aortic rupture\n D: Aortic thrombus\n",
+                "<s> Q:Are there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 5:\n 4:\n 3:\n 6:\n 2:\n 7:\n 1:\n 8",
+                "<s> Question:Are there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n 1.Yes\n 2.No\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Q::: Are there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION\tAre there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 15\n 15\n 15\n 15\n 15\n 15\n 15\n 15\n 15\n 15\n 15\n",
+                "<s> question::Are there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1\n answer::What is the most likely diagnosis?\n answer::Asthma\n 10.10.10.10.10.10.10.10.10."
+            ]
+        ],
+        "sensitivities": [
+            0.26299906345030377
+        ],
+        "posix": 0.26299906345030377
+    }
+}

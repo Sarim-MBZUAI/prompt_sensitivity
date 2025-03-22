@@ -1,0 +1,42 @@
+{
+    "file_name": "question_229_variants.json",
+    "overall_posix": 0.3580367413241573,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.30097087378640774,
+            "Variation 2": 0.34736842105263155,
+            "Variation 3": 0.5266666666666666,
+            "Variation 4": 0.45374449339207046,
+            "Variation 5": 0.3393665158371041,
+            "Variation 6": 0.1467391304347826,
+            "Variation 7": 0.22613065326633164,
+            "Variation 8": 0.4326530612244899,
+            "Variation 9": 0.48897058823529416,
+            "Variation 10": 0.31775700934579443
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:::Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question-Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+                "<s> QUESTION\tIs there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a large mass in the left lung, which is causing atelectasis of the left lung.\n The patient has a large mass in the left",
+                "<s> Q:Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe\tchest\tX-ray\tshows\ta\thuge\tmass\tin\tthe\tright\tupper\tlobe\tof\tthe\tlung\tand\ta\tsmal\tmass\tin",
+                "<s> q::Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n 19.  A 55-year-old man with a history",
+                "<s> QUESTION:Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> question::Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n ANSWER:\n Yes\n 10.\n 10.\n 10.\n 10.\n 10.\n 10.\n 10.\n 10.\n",
+                "<s> Question:Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the differential diagnosis?\n 1.Pleural effusion\n 2.Lung tumor\n 3.Pneumonia\n 4.Pneumothorax\n",
+                "<s> question:Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n A.Yes\n B.No\n 10.Question10.A23-year-old man presents to the emergency department with a 2-day history of fever, chills, and a cough.",
+                "<s> q:Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n 16.  If the answer to question 15 is \u201cyes,\u201d"
+            ]
+        ],
+        "sensitivities": [
+            0.3580367413241573
+        ],
+        "posix": 0.3580367413241573
+    }
+}

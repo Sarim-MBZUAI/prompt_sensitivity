@@ -1,0 +1,42 @@
+{
+    "file_name": "question_217_variants.json",
+    "overall_posix": 0.32513869761583813,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5166666666666667,
+            "Variation 2": 0.1518324607329843,
+            "Variation 3": 0.1428571428571428,
+            "Variation 4": 0.4664310954063604,
+            "Variation 5": 0.245,
+            "Variation 6": 0.3076923076923077,
+            "Variation 7": 0.535031847133758,
+            "Variation 8": 0.3076923076923077,
+            "Variation 9": 0.3318777292576419,
+            "Variation 10": 0.24630541871921185
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tDoes the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n REASONING\n The chest X-ray shows a right-sided pneumothorax. The right hemidiaphragm is lower than the left, and the right costophrenic angle",
+                "<s> q:Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> Q:Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Question-Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is there any evidence of a pleural effusion?\n [yes, no]\n 11.\n Question-Is there any evidence of a pneumothorax?",
+                "<s> question:Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\nanswer:\n<image> Yes\n100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 109",
+                "<s> q::Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION:Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer: Yes\n The chest X-ray shows a focal area of airspace disease in the right lower zone. This is due to atelectasis of the right lower lobe.\n 1",
+                "<s> Q::Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question:Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n",
+                "<s> Q:Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n E:\n R:\n D:\n E:\n L:\n U:\n S:\n E:\n R:\n D:\n E:\n L:\n U:\n S:"
+            ]
+        ],
+        "sensitivities": [
+            0.32513869761583813
+        ],
+        "posix": 0.32513869761583813
+    }
+}

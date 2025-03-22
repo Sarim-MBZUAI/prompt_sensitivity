@@ -1,0 +1,42 @@
+{
+    "file_name": "question_37_variants.json",
+    "overall_posix": 0.4221500787019005,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.16763005780346818,
+            "Variation 2": 0.3349753694581281,
+            "Variation 3": 0.31472081218274117,
+            "Variation 4": 0.45934959349593496,
+            "Variation 5": 0.5,
+            "Variation 6": 0.5186567164179104,
+            "Variation 7": 0.5092936802973977,
+            "Variation 8": 0.44351464435146437,
+            "Variation 9": 0.467741935483871,
+            "Variation 10": 0.5056179775280899
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:Can a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> Q::Can a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> q:::Can a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Can a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n 3.\n QUESTION:What is the most likely diagnosis?\n A:",
+                "<s> Question::: Can a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumothorax\n B. Pleural effusion\n C. Pneumonia\n D. Pulmonary embolism\n E",
+                "<s> Q:Can a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:What is the most likely diagnosis?\n A:Pleural efusion\n Q:What is the most likely cause?\n A:Pneumonia\n Q:What is the most likely cause?\n A:",
+                "<s> QUESTION\tCan a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a right-sided pleural effusion. The pleural line is indistinct and the right hemithorax is opaque",
+                "<s> Question:Can a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n 1.10.10  Answer: Yes\n The X-ray shows a pleural effusion.\n 1.10.11  Answer: No\n The X-ray does not",
+                "<s> QUESTION:Can a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pleural effusion\n B.Pneumothorax\n C.Pneumonia\n D.Pneumonitis\n",
+                "<s> Question:Can a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a pleural effusion.\n 1.The X-ray shows a pleural effusion.\n 2.The X-ray does not"
+            ]
+        ],
+        "sensitivities": [
+            0.4221500787019005
+        ],
+        "posix": 0.4221500787019005
+    }
+}

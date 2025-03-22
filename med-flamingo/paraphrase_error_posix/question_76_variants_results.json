@@ -1,0 +1,42 @@
+{
+    "file_name": "question_76_variants.json",
+    "overall_posix": 0.33187753687555344,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.25,
+            "Variation 2": 0.0,
+            "Variation 3": 0.3248730964467005,
+            "Variation 4": 0.21739130434782605,
+            "Variation 5": 0.475,
+            "Variation 6": 0.664756446991404,
+            "Variation 7": 0.3008849557522124,
+            "Variation 8": 0.36086956521739133,
+            "Variation 9": 0.3916666666666666,
+            "Variation 10": 0.33333333333333326
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of alveolar filling on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiograph demonstrate any features consistent with lung infiltration? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Are there any opacities visible on the chest X-ray that would suggest lung consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can consolidation of the lung parenchyma be identified on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Is there alveolar opacification visible on the chest X-ray, indicating possible infection or inflammation? Please choose from the following two options: [yes, no]\n<image> 2. Is there any evidence of atelectasis on the chest X-ray? Please choose from the following two options: [yes, no]\n 3. Is there any evidence of pleural effusion on the chest",
+                "<s> Does the radiologic image display any abnormal density in the lung fields that might indicate consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there signs of atelectasis or alveolar collapse visible on the chest X-ray, which could suggest obstruction? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you observe any increased opacity in the lung fields on the radiograph that might indicate pneumonia or consolidation? Please choose from the following two options: [yes, no]\n<image> 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.\n 13",
+                "<s> Does the provided chest X-ray show features consistent with pulmonary edema or atelectasis, which could suggest fluid accumulation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.33187753687555344
+        ],
+        "posix": 0.33187753687555344
+    }
+}

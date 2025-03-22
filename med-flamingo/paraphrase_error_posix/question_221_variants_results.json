@@ -1,0 +1,42 @@
+{
+    "file_name": "question_221_variants.json",
+    "overall_posix": 0.5143215300157687,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5342465753424658,
+            "Variation 2": 0.5258964143426295,
+            "Variation 3": 0.5795454545454546,
+            "Variation 4": 0.5827338129496403,
+            "Variation 5": 0.28260869565217384,
+            "Variation 6": 0.5748299319727891,
+            "Variation 7": 0.49063670411985016,
+            "Variation 8": 0.3526570048309179,
+            "Variation 9": 0.6158940397350994,
+            "Variation 10": 0.6041666666666666
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any large pleural effusions present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any large pleural effusions present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there significant pleural collections evident on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any significant findings on the chest X-ray?\n 12.  What is the most likely diagnosis?\n 13.  What is the most likely cause of this patient\u2019s",
+                "<s> Do large bilateral pleural effusions appear on the radiograph? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pulmonary edema\n B.Pulmonary hemorrhage\n C.Pulmonary infarction\n D.Pulmonary em",
+                "<s> Is there notable fluid accumulation within the pleural space visible on the CXR? Please choose from the following two options: [yes, no]\n<image> 11. Is there a pleural effusion?\n 12. Is there a pneumothorax?\n 13. Is there a pneumomediastinum?\n 14. Is there a p",
+                "<s> Can a substantial amount of free fluid be identified in the thoracic cavity on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n The X-ray shows a large amount of free fluid in the thoracic cavity.\n 11.10.2  Diagnosis\n Pneumothorax\n",
+                "<s> Does the chest film show evidence of significant pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are sizable pleural collections present, as seen on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> A. Yes, sizable pleural effusions are present.\n B. No, no sizable pleural effusions are present.\n 2. What is the most likely diagnosis?\n A. Pneumonia\n B",
+                "<s> Would you agree that there are large pleural effusions apparent on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pleural empyema\n B.Pleural effusion\n C.Pneumothorax\n D.Pneumonia\n E.Tuberculosis",
+                "<s> Is a notable volume of fluid within the pleural space visible on the chest film? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> Can one identify extensive pleural effusion on the provided X-ray image? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is extensive pleural effusion\n b. No, there is no extensive pleural effusion\n 4. What is the most likely diagnosis?\n a. Pneumonia\n b. Tuberculosis\n",
+                "<s> Do significant amounts of free fluid appear in the thoracic cavity, as seen on the radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Correct Answer: Yes\n The radiograph shows a large amount of free air in the thoracic cavity.\n 11."
+            ]
+        ],
+        "sensitivities": [
+            0.5143215300157687
+        ],
+        "posix": 0.5143215300157687
+    }
+}

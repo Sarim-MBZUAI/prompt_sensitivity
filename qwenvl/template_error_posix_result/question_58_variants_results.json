@@ -1,0 +1,189 @@
+{
+    "file_name": "question_58_variants.json",
+    "overall_posix": 2.665614637159125,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5897260393415179,
+            "Variation 2": 0.5837144820313704,
+            "Variation 3": 2.046875,
+            "Variation 4": 0.7795255211266604,
+            "Variation 5": 0.5127462810940213,
+            "Variation 6": 0.6104352551121865,
+            "Variation 7": 0.5127462810940213,
+            "Variation 8": 0.6812354638462975,
+            "Variation 9": 0.5430041982772502,
+            "Variation 10": 0.5794271230697632
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities detected in the lung fields? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes",
+                "Yes, there are abnormalities detected in the lung fields. There is a density consistent with a lung abscess in the left lower lobe.",
+                "Yes, there are abnormalities detected in the lung fields. There is a dense, diffuse, and bilateral infiltrate in the lung fields, which suggests the presence of pneumonia or other lung infections.",
+                "Yes.",
+                "Yes, there are abnormalities detected in the lung fields. There is a dense, diffuse, bilateral infiltrate with a predominantly alveolar pattern, predominantly in the lower lung fields, consistent with COVID-19 pneumonia.",
+                "Yes, there are abnormalities detected in the lung fields. There is a mass or density in the left lower lobe of the lung.",
+                "Yes, there are abnormalities detected in the lung fields. The patient has a history of smoking and the chest X-ray shows a left lower lobe pneumonia.",
+                "Yes, there are abnormalities detected in the lung fields. There is a mass or density in the left lower lobe of the lung.",
+                "Yes, there are abnormalities detected in the lung fields. There is a dense, irregular infiltrate involving the right middle and lower lobes, with some sparing of the left lung. This is consistent with pneumonia.",
+                "Yes, there are abnormalities detected in the lung fields. There is a dense opacity in the left lower lobe and a dense opacity in the right upper lobe, which suggests the presence of lung diseases such as pneumonia or lung cancer.",
+                "Yes, there are abnormalities detected in the lung fields. The patient has a history of smoking and the chest X-ray shows a right upper lobe infiltrate, which is a collection of fluid, pus or debris in the lung tissue. This suggests that the patient may have a lung infection or inflammation."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -7.6875,
+                    -24.1998291015625,
+                    -29.868650317192078,
+                    -11.78125,
+                    -41.98662292957306,
+                    -21.531649589538574,
+                    -26.610992908477783,
+                    -21.531649589538574,
+                    -36.299389481544495,
+                    -33.20869731903076,
+                    -42.45312738418579
+                ],
+                [
+                    -5.90625,
+                    -21.113574504852295,
+                    -26.712450861930847,
+                    -11.96875,
+                    -40.50898230075836,
+                    -19.456275939941406,
+                    -24.247992515563965,
+                    -19.456275939941406,
+                    -33.7741003036499,
+                    -33.86240267753601,
+                    -40.65143871307373
+                ],
+                [
+                    -4.84375,
+                    -21.048278331756592,
+                    -25.917836904525757,
+                    -8.65625,
+                    -38.86787676811218,
+                    -19.12213897705078,
+                    -23.284330368041992,
+                    -19.12213897705078,
+                    -33.71831512451172,
+                    -31.624055981636047,
+                    -38.64332914352417
+                ],
+                [
+                    -5.5,
+                    -20.59314739704132,
+                    -25.52292799949646,
+                    -8.125,
+                    -39.3475296497345,
+                    -17.925333976745605,
+                    -23.65855312347412,
+                    -17.925333976745605,
+                    -32.502092599868774,
+                    -30.22493004798889,
+                    -39.73496913909912
+                ],
+                [
+                    -6.625,
+                    -20.957807660102844,
+                    -27.265077114105225,
+                    -12.78125,
+                    -39.35912728309631,
+                    -18.751860737800598,
+                    -25.56113874912262,
+                    -18.751860737800598,
+                    -34.094249844551086,
+                    -33.910579800605774,
+                    -41.60780203342438
+                ],
+                [
+                    -7.6875,
+                    -22.976242303848267,
+                    -26.744345545768738,
+                    -12.65625,
+                    -40.81172430515289,
+                    -19.652124881744385,
+                    -23.956921696662903,
+                    -19.652124881744385,
+                    -32.790921092033386,
+                    -33.30303418636322,
+                    -40.657031297683716
+                ],
+                [
+                    -8.5,
+                    -22.304231762886047,
+                    -28.17393398284912,
+                    -13.90625,
+                    -40.1791969537735,
+                    -19.435290336608887,
+                    -24.708641052246094,
+                    -19.435290336608887,
+                    -34.808146595954895,
+                    -32.34620416164398,
+                    -39.41540575027466
+                ],
+                [
+                    -8.125,
+                    -22.43386936187744,
+                    -26.209713101387024,
+                    -14.0625,
+                    -40.88329839706421,
+                    -19.136088252067566,
+                    -25.496995210647583,
+                    -19.136088252067566,
+                    -32.89619195461273,
+                    -32.04554522037506,
+                    -42.23047995567322
+                ],
+                [
+                    -5.0,
+                    -19.809850335121155,
+                    -24.083414673805237,
+                    -9.25,
+                    -37.27453577518463,
+                    -16.95290505886078,
+                    -22.932352781295776,
+                    -16.95290505886078,
+                    -30.716505885124207,
+                    -30.647593021392822,
+                    -40.49852728843689
+                ],
+                [
+                    -5.65625,
+                    -20.90130865573883,
+                    -25.44128394126892,
+                    -10.71875,
+                    -38.304505825042725,
+                    -17.685834884643555,
+                    -22.636549949645996,
+                    -17.685834884643555,
+                    -32.590301752090454,
+                    -31.03022074699402,
+                    -37.860225677490234
+                ],
+                [
+                    -7.96875,
+                    -22.754955887794495,
+                    -28.271373510360718,
+                    -13.03125,
+                    -40.97101032733917,
+                    -20.42898464202881,
+                    -23.744847297668457,
+                    -20.42898464202881,
+                    -34.70549154281616,
+                    -33.54208827018738,
+                    -37.4849967956543
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.665614637159125
+        ],
+        "posix": 2.665614637159125
+    }
+}

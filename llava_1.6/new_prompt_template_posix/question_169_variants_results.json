@@ -1,0 +1,189 @@
+{
+    "file_name": "question_169_variants.json",
+    "overall_posix": 38.70749786245883,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.421486648646268,
+            "Variation 2": 140.9588849345843,
+            "Variation 3": 140.9588849345843,
+            "Variation 4": 1.0755901288986207,
+            "Variation 5": 140.9588849345843,
+            "Variation 6": 140.9588849345843,
+            "Variation 7": 1.0755901288986207,
+            "Variation 8": 0.8949689817428589,
+            "Variation 9": 10.411603007997785,
+            "Variation 10": 1.5607756161689759
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the X-ray image provided, the patient appears to have normal cardiac contours. The heart is clearly visible and the contours of the heart and lungs are consistent with typical anatomical structures.",
+                "Based on the X-ray image provided, the patient appears to have normal cardiac contours. The heart is well-defined, and there are no obvious abnormalities visible in the silhouette.",
+                "No",
+                "No",
+                "Based on the X-ray image provided, the patient appears to have normal cardiac contours. The heart is visible and appears to be of normal size and shape. There are no obvious abnormalities or deformities visible in the image.",
+                "No",
+                "No",
+                "Based on the X-ray image provided, the patient appears to have normal cardiac contours. The heart is visible and appears to be of normal size and shape. There are no obvious abnormalities or deformities visible in the image.",
+                "Based on the X-ray image provided, it is not possible to definitively determine if the patient has normal cardiac contours. The image is a lateral chest X-ray, which primarily shows the lungs and heart silhouette. However",
+                "No, the patient does not have normal cardiac contours according to the X-ray.",
+                "No, the patient does not have normal cardiac contours according to the X-ray. The X-ray shows a heart with an abnormal shape, which could indicate a congenital heart defect or other cardiac abnormality."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -448.67214035987854,
+                    -430.12672781944275,
+                    -25.79548555612564,
+                    -25.79548555612564,
+                    -502.45164680480957,
+                    -25.79548555612564,
+                    -25.79548555612564,
+                    -502.45164680480957,
+                    -493.4205894470215,
+                    -230.02847719192505,
+                    -526.7109211683273
+                ],
+                [
+                    -421.83767557144165,
+                    -418.62857949733734,
+                    -24.49092149734497,
+                    -24.49092149734497,
+                    -502.8504319190979,
+                    -24.49092149734497,
+                    -24.49092149734497,
+                    -502.8504319190979,
+                    -515.6733450889587,
+                    -207.07173562049866,
+                    -517.8605036735535
+                ],
+                [
+                    -419.6694686412811,
+                    -411.0188510417938,
+                    -26.058839082717896,
+                    -26.058839082717896,
+                    -480.4500813484192,
+                    -26.058839082717896,
+                    -26.058839082717896,
+                    -480.4500813484192,
+                    -506.45054030418396,
+                    -205.63273358345032,
+                    -499.74787759780884
+                ],
+                [
+                    -418.7172546386719,
+                    -420.93324303627014,
+                    -30.846759796142578,
+                    -30.846759796142578,
+                    -494.51033306121826,
+                    -30.846759796142578,
+                    -30.846759796142578,
+                    -494.51033306121826,
+                    -483.1718475818634,
+                    -195.90831971168518,
+                    -497.2493886947632
+                ],
+                [
+                    -421.83767557144165,
+                    -418.62857949733734,
+                    -24.49092149734497,
+                    -24.49092149734497,
+                    -502.8504319190979,
+                    -24.49092149734497,
+                    -24.49092149734497,
+                    -502.8504319190979,
+                    -515.6733450889587,
+                    -207.07173562049866,
+                    -517.8605036735535
+                ],
+                [
+                    -418.7172546386719,
+                    -420.93324303627014,
+                    -30.846759796142578,
+                    -30.846759796142578,
+                    -494.51033306121826,
+                    -30.846759796142578,
+                    -30.846759796142578,
+                    -494.51033306121826,
+                    -483.1718475818634,
+                    -195.90831971168518,
+                    -497.2493886947632
+                ],
+                [
+                    -421.83767557144165,
+                    -418.62857949733734,
+                    -24.49092149734497,
+                    -24.49092149734497,
+                    -502.8504319190979,
+                    -24.49092149734497,
+                    -24.49092149734497,
+                    -502.8504319190979,
+                    -515.6733450889587,
+                    -207.07173562049866,
+                    -517.8605036735535
+                ],
+                [
+                    -416.08623147010803,
+                    -429.5942417383194,
+                    -26.125471591949463,
+                    -26.125471591949463,
+                    -479.7183862924576,
+                    -26.125471591949463,
+                    -26.125471591949463,
+                    -479.7183862924576,
+                    -511.2480525970459,
+                    -208.2168092727661,
+                    -502.0804491043091
+                ],
+                [
+                    -421.83767557144165,
+                    -418.62857949733734,
+                    -24.49092149734497,
+                    -24.49092149734497,
+                    -502.8504319190979,
+                    -24.49092149734497,
+                    -24.49092149734497,
+                    -502.8504319190979,
+                    -515.6733450889587,
+                    -207.07173562049866,
+                    -517.8605036735535
+                ],
+                [
+                    -421.83767557144165,
+                    -418.62857949733734,
+                    -24.49092149734497,
+                    -24.49092149734497,
+                    -502.8504319190979,
+                    -24.49092149734497,
+                    -24.49092149734497,
+                    -502.8504319190979,
+                    -515.6733450889587,
+                    -207.07173562049866,
+                    -517.8605036735535
+                ],
+                [
+                    -416.08623147010803,
+                    -429.5942417383194,
+                    -26.125471591949463,
+                    -26.125471591949463,
+                    -479.7183862924576,
+                    -26.125471591949463,
+                    -26.125471591949463,
+                    -479.7183862924576,
+                    -511.2480525970459,
+                    -208.2168092727661,
+                    -502.0804491043091
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            38.70749786245883
+        ],
+        "posix": 38.70749786245883
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_206_variants.json",
+    "overall_posix": 0.347659251129239,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1968911917098446,
+            "Variation 2": 0.3035714285714286,
+            "Variation 3": 0.48797250859106533,
+            "Variation 4": 0.3700787401574803,
+            "Variation 5": 0.4157303370786517,
+            "Variation 6": 0.5032467532467533,
+            "Variation 7": 0.3539094650205761,
+            "Variation 8": 0.47796610169491527,
+            "Variation 9": 0.22660098522167482,
+            "Variation 10": 0.140625
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 5:\n 4:\n 3:\n 6:\n 7:\n 2:\n 8:\n 9",
+                "<s> Q::Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:What is the most likely diagnosis?\n A:Aortic stenosis\n Q:What is the most likely cause of the aortic stenosis?\n A:Rheumatic heart disease\n Q",
+                "<s> Question:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please mark the box corresponding to your answer.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9",
+                "<s> question:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes, the heart is enlarged.\n 2.No, the heart is not enlarged.\n 1.Yes, the heart is enlarged.\n 2.No, the heart is",
+                "<s> QUESTION:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Correct Answer:\n Option 1\n Given that the X-ray shows a normal heart size and shape, the answer is yes.\n QUESTION:Does the X-ray",
+                "<s> Question:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the possible diagnosis?\n Congenital heart disease.\n 10\n 10\n 10\n 10\n 10\n 10\n 1",
+                "<s> QUESTION\tDoes the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a normal heart size and shape. The heart is not enlarged, and the cardiac silhouette is not\n displaced",
+                "<s> QUESTION:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9."
+            ]
+        ],
+        "sensitivities": [
+            0.347659251129239
+        ],
+        "posix": 0.347659251129239
+    }
+}

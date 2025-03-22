@@ -1,0 +1,189 @@
+{
+    "file_name": "question_185_variants.json",
+    "overall_posix": 16.001613590731765,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.10199410915374756,
+            "Variation 2": 0.4543669080734253,
+            "Variation 3": 0.34581264019012453,
+            "Variation 4": 161.91288693745932,
+            "Variation 5": 0.0,
+            "Variation 6": 0.12842795848846436,
+            "Variation 7": 0.11872231483459472,
+            "Variation 8": 2.8658163249492645,
+            "Variation 9": 0.5374548006057739,
+            "Variation 10": 0.2946210050582886
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the frontal view of the chest X-ray indicate low lung volumes? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it is not possible to definitively determine if the frontal view of the chest X-ray indicates low lung volumes. The image is of low resolution and quality, which makes it difficult to accurately assess the lung volumes or",
+                "Based on the image provided, it is not possible to definitively determine if there is a decrease in lung volumes. The anterior-posterior projection of a chest X-ray is a two-dimensional image that may not fully represent the three-",
+                "Based on the image provided, it is not possible to definitively determine if there is reduced lung capacity due to underlying pathology. The image appears to be of low quality, which makes it difficult to discern specific details about the lungs or any potential",
+                "Yes, there are radiographic signs indicative of decreased pulmonary volume on this frontal chest X-ray view. The lungs appear to be less dense than normal, which could suggest a decrease in pulmonary volume. This could be",
+                "No",
+                "Based on the image provided, it is not possible to definitively determine if the frontal view of the chest X-ray indicates low lung volumes. The image is of low resolution and quality, which makes it difficult to accurately assess the lung volumes or",
+                "Yes, the presence of low lung volumes can be detected on this frontal chest X-ray reading. The image shows a decreased amount of air in the lungs, which is indicative of low lung volumes. This could be due to various conditions",
+                "Based on the image provided, it is not possible to definitively determine if there is diminished lung expansion due to anatomic or pathologic factors. The image is a lateral chest X-ray projection, which is a standard view used to",
+                "No, there are no diagnostic findings suggesting decreased pulmonary volume in this anterior-posterior chest X-ray image. The lungs appear to be of normal volume and density.",
+                "Based on the image provided, it appears that the lung volumes are reduced. The lung fields are not fully expanded, which could be indicative of underlying disease processes such as chronic obstructive pulmonary disease (COPD), interstitial",
+                "Based on the image provided, it is not possible to definitively determine if the lung capacity is diminished compared to expected normal values. The radiographic appearance of the chest X-ray shows the lungs, but without specific measurements or a comparison to normal"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -512.7942907810211,
+                    -507.69458532333374,
+                    -535.5126361846924,
+                    -530.0849227905273,
+                    -27.05562996864319,
+                    -512.7942907810211,
+                    -506.3728928565979,
+                    -506.8581750392914,
+                    -398.16163778305054,
+                    -539.6670308113098,
+                    -527.5253410339355
+                ],
+                [
+                    -496.51618099212646,
+                    -483.185932636261,
+                    -516.0131294727325,
+                    -517.249106168747,
+                    -27.00663161277771,
+                    -496.51618099212646,
+                    -507.71684074401855,
+                    -487.3532085418701,
+                    -415.4429757595062,
+                    -540.2010436058044,
+                    -497.13387966156006
+                ],
+                [
+                    -499.248685836792,
+                    -509.8505873680115,
+                    -531.191565990448,
+                    -524.904185295105,
+                    -27.6546049118042,
+                    -499.248685836792,
+                    -513.6802263259888,
+                    -507.1889786720276,
+                    -421.92805576324463,
+                    -545.0422291755676,
+                    -530.2727673053741
+                ],
+                [
+                    -504.7911729812622,
+                    -508.3505630493164,
+                    -532.9264938831329,
+                    -533.6435708999634,
+                    -25.10335338115692,
+                    -504.7911729812622,
+                    -507.9948139190674,
+                    -501.91530656814575,
+                    -413.5090615749359,
+                    -544.7724361419678,
+                    -529.7673096656799
+                ],
+                [
+                    -477.46926498413086,
+                    -489.99588775634766,
+                    -499.77965688705444,
+                    -538.5147747993469,
+                    -24.80800724029541,
+                    -477.46926498413086,
+                    -511.73300886154175,
+                    -499.841992855072,
+                    -397.51349544525146,
+                    -535.9544746875763,
+                    -502.04397535324097
+                ],
+                [
+                    -512.7942907810211,
+                    -507.69458532333374,
+                    -535.5126361846924,
+                    -530.0849227905273,
+                    -27.05562996864319,
+                    -512.7942907810211,
+                    -506.3728928565979,
+                    -506.8581750392914,
+                    -398.16163778305054,
+                    -539.6670308113098,
+                    -527.5253410339355
+                ],
+                [
+                    -498.4047603607178,
+                    -508.13976430892944,
+                    -509.6691565513611,
+                    -533.5451126098633,
+                    -27.553327322006226,
+                    -498.4047603607178,
+                    -517.185378074646,
+                    -503.79161405563354,
+                    -406.1524283885956,
+                    -551.2913937568665,
+                    -514.527649641037
+                ],
+                [
+                    -506.4727256298065,
+                    -485.41225004196167,
+                    -516.8231465816498,
+                    -544.9736676216125,
+                    -28.836673259735107,
+                    -506.4727256298065,
+                    -515.8234386444092,
+                    -497.93503069877625,
+                    -416.11121797561646,
+                    -539.4759080410004,
+                    -516.8257749080658
+                ],
+                [
+                    -504.7911729812622,
+                    -508.3505630493164,
+                    -532.9264938831329,
+                    -533.6435708999634,
+                    -25.10335338115692,
+                    -504.7911729812622,
+                    -507.9948139190674,
+                    -501.91530656814575,
+                    -413.5090615749359,
+                    -544.7724361419678,
+                    -529.7673096656799
+                ],
+                [
+                    -506.4727256298065,
+                    -485.41225004196167,
+                    -516.8231465816498,
+                    -544.9736676216125,
+                    -28.836673259735107,
+                    -506.4727256298065,
+                    -515.8234386444092,
+                    -497.93503069877625,
+                    -416.11121797561646,
+                    -539.4759080410004,
+                    -516.8257749080658
+                ],
+                [
+                    -506.4727256298065,
+                    -485.41225004196167,
+                    -516.8231465816498,
+                    -544.9736676216125,
+                    -28.836673259735107,
+                    -506.4727256298065,
+                    -515.8234386444092,
+                    -497.93503069877625,
+                    -416.11121797561646,
+                    -539.4759080410004,
+                    -516.8257749080658
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            16.001613590731765
+        ],
+        "posix": 16.001613590731765
+    }
+}

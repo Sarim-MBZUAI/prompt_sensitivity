@@ -1,0 +1,189 @@
+{
+    "file_name": "question_237_variants.json",
+    "overall_posix": 38.473437051049565,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1410876853125436,
+            "Variation 2": 1.5473975706100465,
+            "Variation 3": 1.7266477823257447,
+            "Variation 4": 1.7266477823257447,
+            "Variation 5": 126.30523618062337,
+            "Variation 6": 126.30523618062337,
+            "Variation 7": 2.1577178192138673,
+            "Variation 8": 126.30523618062337,
+            "Variation 9": 126.30523618062337,
+            "Variation 10": 23.437195301055908
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have any pleural effusion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it appears that there is a pleural effusion present. The fluid is visible in the lower part of the chest, which is indicative of pleural effusion.",
+                "Based on the image provided, it appears that there is a pleural effusion present. The fluid is visible between the lung and the chest wall, which is indicative of pleural effusion.",
+                "Based on the image provided, it appears that there is a pleural effusion present. The fluid is visible in the pleural space, which is the space between the chest wall and the lungs. This can be seen as the darker area surrounding",
+                "Based on the image provided, it appears that there is a pleural effusion present. The presence of a pleural effusion is indicated by the fluid collection visible in the lower part of the chest, which is the pleural space. This is",
+                "Based on the image provided, it appears that there is a pleural effusion present. The presence of a pleural effusion is indicated by the fluid collection visible in the lower part of the chest, which is the pleural space. This is",
+                "Yes",
+                "Yes",
+                "Based on the image provided, it appears that there is a pleural effusion present. The pleural space is filled with fluid, which is visible as a darker area surrounding the lung. This is indicative of pleural effusion, which",
+                "Yes",
+                "Yes",
+                "Yes, the patient has pleural effusion."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -405.6094777584076,
+                    -411.5351605415344,
+                    -482.9793562889099,
+                    -491.9418668746948,
+                    -491.9418668746948,
+                    -26.693769216537476,
+                    -26.693769216537476,
+                    -513.495368719101,
+                    -26.693769216537476,
+                    -26.693769216537476,
+                    -124.3631341457367
+                ],
+                [
+                    -421.7529271841049,
+                    -432.53076815605164,
+                    -475.75615894794464,
+                    -525.0054666996002,
+                    -525.0054666996002,
+                    -28.76605772972107,
+                    -28.76605772972107,
+                    -515.7873077392578,
+                    -28.76605772972107,
+                    -28.76605772972107,
+                    -115.51646375656128
+                ],
+                [
+                    -416.6609904766083,
+                    -419.2734272480011,
+                    -482.07883191108704,
+                    -491.6351571083069,
+                    -491.6351571083069,
+                    -33.036437034606934,
+                    -33.036437034606934,
+                    -500.96770548820496,
+                    -33.036437034606934,
+                    -33.036437034606934,
+                    -116.19799256324768
+                ],
+                [
+                    -421.7529271841049,
+                    -432.53076815605164,
+                    -475.75615894794464,
+                    -525.0054666996002,
+                    -525.0054666996002,
+                    -28.76605772972107,
+                    -28.76605772972107,
+                    -515.7873077392578,
+                    -28.76605772972107,
+                    -28.76605772972107,
+                    -115.51646375656128
+                ],
+                [
+                    -421.7529271841049,
+                    -432.53076815605164,
+                    -475.75615894794464,
+                    -525.0054666996002,
+                    -525.0054666996002,
+                    -28.76605772972107,
+                    -28.76605772972107,
+                    -515.7873077392578,
+                    -28.76605772972107,
+                    -28.76605772972107,
+                    -115.51646375656128
+                ],
+                [
+                    -415.4739656448364,
+                    -416.0636818408966,
+                    -470.5507791042328,
+                    -494.71996426582336,
+                    -494.71996426582336,
+                    -24.9808349609375,
+                    -24.9808349609375,
+                    -498.97132658958435,
+                    -24.9808349609375,
+                    -24.9808349609375,
+                    -124.64587593078613
+                ],
+                [
+                    -392.5421061515808,
+                    -400.6132068634033,
+                    -481.8309876918793,
+                    -502.16447162628174,
+                    -502.16447162628174,
+                    -28.1799054145813,
+                    -28.1799054145813,
+                    -498.09288692474365,
+                    -28.1799054145813,
+                    -28.1799054145813,
+                    -116.41563868522644
+                ],
+                [
+                    -416.6609904766083,
+                    -419.2734272480011,
+                    -482.07883191108704,
+                    -491.6351571083069,
+                    -491.6351571083069,
+                    -33.036437034606934,
+                    -33.036437034606934,
+                    -500.96770548820496,
+                    -33.036437034606934,
+                    -33.036437034606934,
+                    -116.19799256324768
+                ],
+                [
+                    -410.19704616069794,
+                    -424.11050248146057,
+                    -499.92011737823486,
+                    -479.04307222366333,
+                    -479.04307222366333,
+                    -25.891148805618286,
+                    -25.891148805618286,
+                    -502.0568108558655,
+                    -25.891148805618286,
+                    -25.891148805618286,
+                    -115.68875122070312
+                ],
+                [
+                    -392.5421061515808,
+                    -400.6132068634033,
+                    -481.8309876918793,
+                    -502.16447162628174,
+                    -502.16447162628174,
+                    -28.1799054145813,
+                    -28.1799054145813,
+                    -498.09288692474365,
+                    -28.1799054145813,
+                    -28.1799054145813,
+                    -116.41563868522644
+                ],
+                [
+                    -415.4739656448364,
+                    -416.0636818408966,
+                    -470.5507791042328,
+                    -494.71996426582336,
+                    -494.71996426582336,
+                    -24.9808349609375,
+                    -24.9808349609375,
+                    -498.97132658958435,
+                    -24.9808349609375,
+                    -24.9808349609375,
+                    -124.64587593078613
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            38.473437051049565
+        ],
+        "posix": 38.473437051049565
+    }
+}

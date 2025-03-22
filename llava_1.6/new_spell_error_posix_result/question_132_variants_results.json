@@ -1,0 +1,189 @@
+{
+    "file_name": "question_132_variants.json",
+    "overall_posix": 2.813675803397954,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.1526050615310668,
+            "Variation 2": 2.217350336221548,
+            "Variation 3": 0.923575989035673,
+            "Variation 4": 1.4436041259765624,
+            "Variation 5": 13.42050347328186,
+            "Variation 6": 1.1526050615310668,
+            "Variation 7": 0.0,
+            "Variation 8": 0.7049176494280497,
+            "Variation 9": 0.0,
+            "Variation 10": 0.7049176494280497
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no evidence of acute lung pathology on the chest X-ray. The image shows a normal chest X-ray with no signs of infection, inflammation, or other acute lung conditions.",
+                "Based on the image provided, there is no evidence of acute lung pathology on the chest X-ray. The lungs appear clear, and there are no signs of consolidation, pleural effusion, or other acute lung pathologies.",
+                "Yes, there is evidence of acute lung pathology on the chest X-ray. The image shows a pattern of infiltration that is indicative of pneumonia.",
+                "Yes, there is evidence of acute lung pathology on the chest X-ray. The image shows a significant amount of fluid in the lungs, which is indicative of acute lung pathology.",
+                "Based on the image provided, there is no evidence of acute lung pathology such as acute respiratory distress syndrome (ARDS) or acute lung injury (ALI) on the chest X-ray. The lungs appear to be",
+                "Yes, there is evidence of acute lung pathology on the chest X-ray.",
+                "Based on the image provided, there is no evidence of acute lung pathology on the chest X-ray. The lungs appear clear, and there are no signs of consolidation, pleural effusion, or other acute lung pathologies.",
+                "No, there is no evidence of acute lung pathology on the chest X-ray. The image shows a normal chest X-ray with no signs of infection, inflammation, or other acute lung conditions.",
+                "Based on the image provided, there is no evidence of acute lung pathology on the chest X-ray. The lungs appear clear, and there are no signs of infection, inflammation, or other acute conditions.",
+                "No, there is no evidence of acute lung pathology on the chest X-ray. The image shows a normal chest X-ray with no signs of infection, inflammation, or other acute lung conditions.",
+                "Based on the image provided, there is no evidence of acute lung pathology on the chest X-ray. The lungs appear clear, and there are no signs of infection, inflammation, or other acute conditions."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -458.5829887390137,
+                    -516.213241815567,
+                    -372.1063256263733,
+                    -418.86922121047974,
+                    -530.7631950378418,
+                    -190.17291927337646,
+                    -516.213241815567,
+                    -458.5829887390137,
+                    -492.41903591156006,
+                    -458.5829887390137,
+                    -492.41903591156006
+                ],
+                [
+                    -474.6872591972351,
+                    -505.5834690332413,
+                    -374.66296577453613,
+                    -414.4278974533081,
+                    -538.7510805130005,
+                    -187.8152379989624,
+                    -505.5834690332413,
+                    -474.6872591972351,
+                    -480.4969139099121,
+                    -474.6872591972351,
+                    -480.4969139099121
+                ],
+                [
+                    -460.78405237197876,
+                    -519.9903321266174,
+                    -369.5328823328018,
+                    -405.0320397615433,
+                    -520.6128830909729,
+                    -178.02432465553284,
+                    -519.9903321266174,
+                    -460.78405237197876,
+                    -471.5159846544266,
+                    -460.78405237197876,
+                    -471.5159846544266
+                ],
+                [
+                    -458.5829887390137,
+                    -516.213241815567,
+                    -372.1063256263733,
+                    -418.86922121047974,
+                    -530.7631950378418,
+                    -190.17291927337646,
+                    -516.213241815567,
+                    -458.5829887390137,
+                    -492.41903591156006,
+                    -458.5829887390137,
+                    -492.41903591156006
+                ],
+                [
+                    -474.6872591972351,
+                    -505.5834690332413,
+                    -374.66296577453613,
+                    -414.4278974533081,
+                    -538.7510805130005,
+                    -187.8152379989624,
+                    -505.5834690332413,
+                    -474.6872591972351,
+                    -480.4969139099121,
+                    -474.6872591972351,
+                    -480.4969139099121
+                ],
+                [
+                    -473.5168602466583,
+                    -504.2745363712311,
+                    -370.78927969932556,
+                    -409.80522561073303,
+                    -503.13995456695557,
+                    -186.96496331691742,
+                    -504.2745363712311,
+                    -473.5168602466583,
+                    -477.2893371582031,
+                    -473.5168602466583,
+                    -477.2893371582031
+                ],
+                [
+                    -460.1049129962921,
+                    -524.8898630142212,
+                    -381.6282181739807,
+                    -401.10563945770264,
+                    -523.9907047748566,
+                    -192.64764261245728,
+                    -524.8898630142212,
+                    -460.1049129962921,
+                    -482.1474871635437,
+                    -460.1049129962921,
+                    -482.1474871635437
+                ],
+                [
+                    -460.1049129962921,
+                    -524.8898630142212,
+                    -381.6282181739807,
+                    -401.10563945770264,
+                    -523.9907047748566,
+                    -192.64764261245728,
+                    -524.8898630142212,
+                    -460.1049129962921,
+                    -482.1474871635437,
+                    -460.1049129962921,
+                    -482.1474871635437
+                ],
+                [
+                    -460.78405237197876,
+                    -519.9903321266174,
+                    -369.5328823328018,
+                    -405.0320397615433,
+                    -520.6128830909729,
+                    -178.02432465553284,
+                    -519.9903321266174,
+                    -460.78405237197876,
+                    -471.5159846544266,
+                    -460.78405237197876,
+                    -471.5159846544266
+                ],
+                [
+                    -460.1049129962921,
+                    -524.8898630142212,
+                    -381.6282181739807,
+                    -401.10563945770264,
+                    -523.9907047748566,
+                    -192.64764261245728,
+                    -524.8898630142212,
+                    -460.1049129962921,
+                    -482.1474871635437,
+                    -460.1049129962921,
+                    -482.1474871635437
+                ],
+                [
+                    -460.78405237197876,
+                    -519.9903321266174,
+                    -369.5328823328018,
+                    -405.0320397615433,
+                    -520.6128830909729,
+                    -178.02432465553284,
+                    -519.9903321266174,
+                    -460.78405237197876,
+                    -471.5159846544266,
+                    -460.78405237197876,
+                    -471.5159846544266
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.813675803397954
+        ],
+        "posix": 2.813675803397954
+    }
+}

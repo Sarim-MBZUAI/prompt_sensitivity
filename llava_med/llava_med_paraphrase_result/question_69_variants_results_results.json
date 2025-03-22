@@ -1,0 +1,189 @@
+{
+    "file_name": "question_69_variants_results.json",
+    "overall_posix": 1.025505364318096,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3062809428089075,
+            "Variation 2": 0.0,
+            "Variation 3": 0.9981026695967218,
+            "Variation 4": 0.5956614224476167,
+            "Variation 5": 0.2644151412331215,
+            "Variation 6": 1.1010234254779228,
+            "Variation 7": 1.097685450374347,
+            "Variation 8": 0.7512165358529058,
+            "Variation 9": 0.7836511276132601,
+            "Variation 10": 0.8312737371677892
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "It's difficult to determine the presence of a focal infiltrate on the patient's chest X-ray without actually seeing the image. However, a focal infiltrate is a localized area of increased density in the",
+                "Yes, the chest X-ray shows evidence of a localized pulmonary infiltrate. ",
+                "It's difficult to determine the presence of a focal infiltrate on the patient's chest X-ray without actually seeing the image. However, a focal infiltrate is a localized area of increased density in the",
+                "Yes, the chest radiograph shows a well-defined area of increased density corresponding to a focal pneumonitis. ",
+                "No, there are no discrete areas of alveolar consolidation visible on the patient's chest X-ray. ",
+                "Yes, the chest X-ray shows a circumscribed infiltrate. ",
+                "Yes, a discrete area of increased opacity on a chest radiograph can be identified as representative of a focal lung lesion. This means that the radiograph shows a localized region in the lung that appears denser or more opaque than the",
+                "The chest x-ray does not show a distinct infiltrate corresponding to an inflammatory or infectious process within the lungs. ",
+                "The chest radiograph does not show any visible signs of a focal alveolar consolidation. ",
+                "Yes, the chest X-ray shows a localized area of increased density, which is consistent with a pneumonitic process. ",
+                "Yes, a circumscribed infiltrate on a chest radiograph can be indicative of an infectious or inflammatory lung lesion. A circumscribed infiltrate is an area of increased density in the lung tissue that has"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -51.48926934769756,
+                    -58.84001197511134,
+                    -51.48926934769756,
+                    -79.43614409640577,
+                    -67.5721277537832,
+                    -56.513157031126866,
+                    -107.64146404707162,
+                    -86.61520375967666,
+                    -68.76724967231439,
+                    -75.78245430370862,
+                    -93.88422994325481
+                ],
+                [
+                    -73.59072237230674,
+                    -41.81342044695819,
+                    -73.59072237230674,
+                    -85.37737090419978,
+                    -70.45719628985717,
+                    -60.16714546757066,
+                    -120.26039007692862,
+                    -84.7139441907857,
+                    -70.75209383445326,
+                    -72.81382768807998,
+                    -101.85903318705448
+                ],
+                [
+                    -51.48926934769756,
+                    -58.84001197511134,
+                    -51.48926934769756,
+                    -79.43614409640577,
+                    -67.5721277537832,
+                    -56.513157031126866,
+                    -107.64146404707162,
+                    -86.61520375967666,
+                    -68.76724967231439,
+                    -75.78245430370862,
+                    -93.88422994325481
+                ],
+                [
+                    -82.9764334782418,
+                    -72.26121372611328,
+                    -82.9764334782418,
+                    -41.73719316638608,
+                    -80.10410238539043,
+                    -69.57830419419815,
+                    -104.24265023278258,
+                    -85.1310439645049,
+                    -68.13157352324924,
+                    -71.08363271360213,
+                    -104.63199951197169
+                ],
+                [
+                    -75.25549862113712,
+                    -70.0991107435757,
+                    -75.25549862113712,
+                    -87.9649033389287,
+                    -40.462098607119515,
+                    -65.70618915601335,
+                    -114.22831882761943,
+                    -90.81454354512971,
+                    -68.84364290183294,
+                    -77.13443574191842,
+                    -107.97552315516225
+                ],
+                [
+                    -77.5843051604594,
+                    -63.594657164163436,
+                    -77.5843051604594,
+                    -84.41586520598503,
+                    -77.10154956853876,
+                    -43.146457643539975,
+                    -121.99870829885663,
+                    -84.6508665592064,
+                    -76.85275264759548,
+                    -76.98002677948625,
+                    -92.37112828745285
+                ],
+                [
+                    -82.40991000150893,
+                    -74.25614443670611,
+                    -82.40991000150893,
+                    -76.23980080414913,
+                    -78.45761419333576,
+                    -70.66115830885246,
+                    -49.56195328100168,
+                    -89.72378012529225,
+                    -68.72978817552575,
+                    -81.94424602163781,
+                    -93.25773213881814
+                ],
+                [
+                    -78.19156526324957,
+                    -64.30098672989152,
+                    -78.19156526324957,
+                    -81.6819530648645,
+                    -76.34332674050529,
+                    -58.78414626974745,
+                    -121.07518760009157,
+                    -41.590809932201296,
+                    -76.35432804274024,
+                    -74.710804000591,
+                    -98.91816825915447
+                ],
+                [
+                    -75.66577279101409,
+                    -70.27583465108182,
+                    -75.66577279101409,
+                    -77.5165912799057,
+                    -60.8444182740659,
+                    -70.04908628102021,
+                    -108.79495319899047,
+                    -94.03345127538887,
+                    -43.68724515033273,
+                    -81.45529805450678,
+                    -102.14882354697909
+                ],
+                [
+                    -74.95690944886849,
+                    -61.489530333931725,
+                    -74.95690944886849,
+                    -72.86261959961848,
+                    -73.04091236861314,
+                    -63.25659835872921,
+                    -113.28510975143809,
+                    -87.7404822729477,
+                    -72.9922562665306,
+                    -41.85640246257674,
+                    -104.34578752219204
+                ],
+                [
+                    -76.44855747727183,
+                    -75.4471724112509,
+                    -76.44855747727183,
+                    -86.96573263627943,
+                    -76.50273024697344,
+                    -62.605302074102156,
+                    -93.04196979514063,
+                    -86.61007935437738,
+                    -71.66106346563902,
+                    -89.08226893325627,
+                    -46.552701504291626
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.025505364318096
+        ],
+        "posix": 1.025505364318096
+    }
+}

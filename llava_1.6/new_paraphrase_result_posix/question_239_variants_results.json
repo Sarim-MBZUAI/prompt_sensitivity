@@ -1,0 +1,189 @@
+{
+    "file_name": "question_239_variants.json",
+    "overall_posix": 13.343744889828221,
+    "detailed_scores": [
+        {
+            "Variation 1": 68.53075734774272,
+            "Variation 2": 0.12266472252932462,
+            "Variation 3": 4.371564648151398,
+            "Variation 4": 1.8328189024558434,
+            "Variation 5": 1.9973696385111128,
+            "Variation 6": 1.2042689235122115,
+            "Variation 7": 5.126713941097259,
+            "Variation 8": 2.695471736692613,
+            "Variation 9": 4.9331858241558075,
+            "Variation 10": 3.345856624264871
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the cardiomediastinal silhouette appears abnormal on the chest X-ray.",
+                "Yes",
+                "No, the cardiomediastinal silhouette on the chest X-ray appears normal.",
+                "No, there is no evidence of cardiomegaly or a widened mediastinal contour on the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and bones clearly visible.",
+                "Yes, the cardiomediastinal silhouette on the frontal chest radiograph shows asymmetrical expansion.",
+                "No, the cardiac silhouette on the PA chest X-ray is irregularly shaped and borders indistinct.",
+                "No, the mediastinal contour on the chest radiograph does not appear abnormal with a notable increase in width.",
+                "No, there is no irregularity or asymmetry of the cardiomediastinal silhouette visible on the supine chest X-ray. The image shows a normal chest X-ray with the heart and lungs clearly visible.",
+                "No, the cardiac contour on the erect chest radiograph does not show signs of abnormal prominence or enlargement.",
+                "No, there is no notable alteration in the normal cardiomediastinal silhouette seen on the lateral chest X-ray. The image shows a typical lateral chest X-ray with the heart, lungs, and mediastin",
+                "No, the mediastinal silhouette on the PA chest radiograph does not show evidence of abnormal widening or enlargement."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -234.93683195114136,
+                    -29.344559907913208,
+                    -232.23820805549622,
+                    -453.51506435871124,
+                    -282.5901234149933,
+                    -290.8631818294525,
+                    -267.45209288597107,
+                    -491.27252900600433,
+                    -318.49645578861237,
+                    -481.59612315893173,
+                    -338.65838730335236
+                ],
+                [
+                    -253.94286346435547,
+                    -30.716572761535645,
+                    -234.70991957187653,
+                    -478.9352583885193,
+                    -281.9449279308319,
+                    -283.4419536590576,
+                    -280.97022676467896,
+                    -494.8074061870575,
+                    -308.54089975357056,
+                    -498.5461778640747,
+                    -327.0621032714844
+                ],
+                [
+                    -234.93683195114136,
+                    -29.344559907913208,
+                    -232.23820805549622,
+                    -453.51506435871124,
+                    -282.5901234149933,
+                    -290.8631818294525,
+                    -267.45209288597107,
+                    -491.27252900600433,
+                    -318.49645578861237,
+                    -481.59612315893173,
+                    -338.65838730335236
+                ],
+                [
+                    -239.5072054862976,
+                    -27.002907156944275,
+                    -224.5234317779541,
+                    -446.5195486545563,
+                    -281.3103107213974,
+                    -285.1577295064926,
+                    -270.41616612672806,
+                    -496.4830906391144,
+                    -326.58846032619476,
+                    -477.77531242370605,
+                    -329.3536204099655
+                ],
+                [
+                    -225.87333059310913,
+                    -24.864083766937256,
+                    -228.43029356002808,
+                    -473.521986246109,
+                    -279.1310089826584,
+                    -287.9073302745819,
+                    -276.55117440223694,
+                    -497.6876332759857,
+                    -317.50154066085815,
+                    -498.9660179615021,
+                    -331.6782908439636
+                ],
+                [
+                    -242.9201889038086,
+                    -25.704369068145752,
+                    -227.1226568222046,
+                    -469.6571125984192,
+                    -279.3426294326782,
+                    -301.2261272072792,
+                    -275.3412753343582,
+                    -489.22273111343384,
+                    -325.90685534477234,
+                    -487.10873460769653,
+                    -341.8944981098175
+                ],
+                [
+                    -234.57755661010742,
+                    -26.049214005470276,
+                    -231.25703465938568,
+                    -474.73212814331055,
+                    -285.3871908187866,
+                    -295.38249921798706,
+                    -283.98370695114136,
+                    -512.4784693717957,
+                    -330.28347051143646,
+                    -479.52014446258545,
+                    -319.8470207452774
+                ],
+                [
+                    -225.81494051218033,
+                    -24.5466251373291,
+                    -223.12644469738007,
+                    -472.9122529029846,
+                    -270.5450999736786,
+                    -290.17562222480774,
+                    -265.08428609371185,
+                    -487.54480838775635,
+                    -305.0372257232666,
+                    -480.53739643096924,
+                    -323.74411153793335
+                ],
+                [
+                    -244.79070377349854,
+                    -30.87030005455017,
+                    -224.91161727905273,
+                    -438.3793339729309,
+                    -277.3860140442848,
+                    -291.2607433795929,
+                    -287.1330374479294,
+                    -463.1566512584686,
+                    -328.90735507011414,
+                    -484.09568214416504,
+                    -335.79077887535095
+                ],
+                [
+                    -225.87333059310913,
+                    -24.864083766937256,
+                    -228.43029356002808,
+                    -473.521986246109,
+                    -279.1310089826584,
+                    -287.9073302745819,
+                    -276.55117440223694,
+                    -497.6876332759857,
+                    -317.50154066085815,
+                    -498.9660179615021,
+                    -331.6782908439636
+                ],
+                [
+                    -244.79070377349854,
+                    -30.87030005455017,
+                    -224.91161727905273,
+                    -438.3793339729309,
+                    -277.3860140442848,
+                    -291.2607433795929,
+                    -287.1330374479294,
+                    -463.1566512584686,
+                    -328.90735507011414,
+                    -484.09568214416504,
+                    -335.79077887535095
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            13.343744889828221
+        ],
+        "posix": 13.343744889828221
+    }
+}

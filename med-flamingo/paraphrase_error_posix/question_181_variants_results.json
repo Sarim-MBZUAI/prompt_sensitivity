@@ -1,0 +1,42 @@
+{
+    "file_name": "question_181_variants.json",
+    "overall_posix": 0.4892074115896003,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4011299435028248,
+            "Variation 2": 0.5571955719557196,
+            "Variation 3": 0.7002801120448179,
+            "Variation 4": 0.27127659574468077,
+            "Variation 5": 0.39639639639639634,
+            "Variation 6": 0.45999999999999996,
+            "Variation 7": 0.44104803493449785,
+            "Variation 8": 0.6697247706422018,
+            "Variation 9": 0.5892255892255892,
+            "Variation 10": 0.4057971014492754
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of cardiomegaly on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Does the cardiac silhouette appear to be larger than expected in this patient? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Aortic aneurysm\n B.Aortic dissection\n C.Pericardial effusion\n D.Pulmonary embolism\n",
+                "<s> Please indicate if the heart size is increased compared to normal. Please choose from the following two options: [yes, no]\n<image> Please indicate if the heart size is decreased compared to normal. Please choose from the following two options: [yes, no]\n 10.  Please indicate if the heart is enlarged compared to normal. Please choose from the following",
+                "<s> Are the cardiothoracic borders more prominent than usual on this film? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this patient's cardiac silhouette appear enlarged when compared to a similar-sized reference image? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is there evidence of cardiac hypertrophy or dilatation visible on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Should the cardiac silhouette be considered larger than expected in this patient based on the provided imaging? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Please choose if the heart appears excessively large on this chest X-ray. Please choose from the following two options: [yes, no]\n<image> 1. The heart appears excessively large on this chest X-ray.\n 2. The heart does not appear excessively large on this chest X-ray.\n Please select if the lungs appear hyperinflated on this",
+                "<s> Does this patient's cardiac size appear greater than would be expected for their age and sex? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pulmonary hypertension\n B.Aortic stenosis\n C.Aortic regurgitation\n D.Left ventricular hypertro",
+                "<s> Are the cardiothoracic borders enlarged when compared to a similar-sized reference image? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2"
+            ]
+        ],
+        "sensitivities": [
+            0.4892074115896003
+        ],
+        "posix": 0.4892074115896003
+    }
+}

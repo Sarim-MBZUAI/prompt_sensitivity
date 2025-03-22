@@ -1,0 +1,42 @@
+{
+    "file_name": "question_106_variants.json",
+    "overall_posix": 0.44906946681746185,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.37869822485207094,
+            "Variation 2": 0.43767313019390586,
+            "Variation 3": 0.4822485207100592,
+            "Variation 4": 0.43575418994413406,
+            "Variation 5": 0.4545454545454546,
+            "Variation 6": 0.4556213017751479,
+            "Variation 7": 0.46153846153846156,
+            "Variation 8": 0.4881656804733727,
+            "Variation 9": 0.45857988165680474,
+            "Variation 10": 0.4378698224852071
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\n 2. Are there any",
+                "<s> question:Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n A.Yes, there are signs of COPD visible on this chest X-ray.\n B.No, there are no signs of COPD visible on this chest X-ray.\n 2.Question:Are",
+                "<s> Question:Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The patient has a history of smoking and is a heavy smoker. The chest X-ray shows a bilateral basal reticular pattern, which is a typical finding",
+                "<s> Q:Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n\n C:\n D:\n\n E:\n\n F:\n\n G:\n\n H:\n\n I:\n\n J:\n\n K:\n\n L:\n\n M:\n\n 66",
+                "<s> Question:Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n The patient has a right-sided pneumothorax. The right hemithorax is collapsed and the mediastinum is shifted to the left. The left lung is hyperinflated. The left hemidia",
+                "<s> Question::: Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n Model Answer\n This is a frontal chest radiograph of a 65-year-old man with chronic obstructive pulmonary disease (COPD). There is a mild degree of cardiomegaly,",
+                "<s> question::Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n ANSWER:\n No\n 10.\n question::What is the most likely diagnosis?\n answer::Pulmonary tuberculosis (TB)\n 11.\n question::What is the",
+                "<s> q::Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question-Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n No\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 1",
+                "<s> QUESTION:Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n [No]\n The patient has a right-sided pneumothorax.\n The patient has a right-sided pneumothorax. The right hem",
+                "<s> q:Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n   d:\n   e:\n   f:\n   g:\n   h:\n   i:\n   j:\n   k:\n   l:\n   m:\n   n:\n   o:"
+            ]
+        ],
+        "sensitivities": [
+            0.44906946681746185
+        ],
+        "posix": 0.44906946681746185
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_274_variants.json",
+    "overall_posix": 0.5072303888635081,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4921259842519685,
+            "Variation 2": 0.547244094488189,
+            "Variation 3": 0.47637795275590555,
+            "Variation 4": 0.5393700787401575,
+            "Variation 5": 0.5196850393700787,
+            "Variation 6": 0.5433070866141733,
+            "Variation 7": 0.5196850393700787,
+            "Variation 8": 0.5078740157480315,
+            "Variation 9": 0.4778156996587031,
+            "Variation 10": 0.44881889763779526
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, the left lung is clear\n b. No, the left lung is not clear\n 3.\n What is the most likely diagnosis?\n a. Pneumothorax\n b. Pulmonary edema\n",
+                "<s> q:Is the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n 10.\n 11.\n 12.\n 1",
+                "<s> QUESTION:Is the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Is the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n [yes, no]\n C:\n [yes, no]\n D:\n [yes, no]\n E:\n [yes, no]\n 3.15.15:\n 156",
+                "<s> Q::: Is the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question::: Is the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> QUESTION\tIs the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> q:::Is the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q::Is the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question:Is the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Rationale:The patient has a left pneumothorax. The left lung is not visible on the chest X-ray. The right lung is clear. The patient has a",
+                "<s> Q:Is the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n \u2022\tThe\tleft\tlung\tis\tclear\ton\tthe\tchest\tX-ray.\n \u2022\tThe\tleft\tlung\tis\tnot\tclear\ton\tthe\tchest\tX"
+            ]
+        ],
+        "sensitivities": [
+            0.5072303888635081
+        ],
+        "posix": 0.5072303888635081
+    }
+}

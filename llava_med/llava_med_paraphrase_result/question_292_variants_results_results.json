@@ -1,0 +1,189 @@
+{
+    "file_name": "question_292_variants_results.json",
+    "overall_posix": 1.653035703316662,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.5111976956314277,
+            "Variation 2": 1.246984243987968,
+            "Variation 3": 0.0,
+            "Variation 4": 1.57427629511774,
+            "Variation 5": 1.629162790346293,
+            "Variation 6": 1.8377862463949812,
+            "Variation 7": 1.9697372139848037,
+            "Variation 8": 1.6464148023886969,
+            "Variation 9": 1.812809629781441,
+            "Variation 10": 1.723627849523187
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the patient has normal cardiomediastinal contours considering their lung volumes and patient rotation. ",
+                "Yes, the mediastinal silhouette appears to be appropriately sized in proportion to the lung fields, considering the patient's posture and respiratory effort. ",
+                "The image is likely related to a question or statement that requires a yes or no answer. Without more context, it's difficult to determine the specific question or statement. However, the image is likely used to visually represent the options or choices for",
+                "Yes, the patient has normal cardiomediastinal contours considering their lung volumes and patient rotation. ",
+                "Yes, the cardiac contours appear to be adequately aligned with the midline of the thorax, taking into account the patient's rotation and breathing position. ",
+                "Yes, the chest X-ray shows normal proportions between the cardiac silhouette and lung volumes, considering factors such as posture and respiration. ",
+                "The mediastinal contours in the image are consistent with expected patterns in a patient of this age and sex given typical lung volumes and patient rotation. ",
+                "Yes, the cardiac contours appear normal relative to the thoracic spine on the chest X-ray image, considering factors such as posture and breathing effort. ",
+                "Yes, the mediastinal silhouette appears to be appropriately sized in proportion to the lung fields given the patient's age, sex, and typical lung volumes. ",
+                "Yes, the cardiac contours in the image appear to be consistent with normal patterns on a chest X-ray, considering factors such as posture, breathing effort, and patient rotation. ",
+                "Yes, the chest X-ray shows normal proportions between the cardiac silhouette and lung volumes in this patient, considering typical age-related changes. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -40.41725682087326,
+                    -99.35396695049894,
+                    -104.01345326425962,
+                    -40.41725682087326,
+                    -101.81403233046512,
+                    -97.43795448299352,
+                    -101.06420295190765,
+                    -115.2672709522958,
+                    -104.62743411403244,
+                    -114.74245164191234,
+                    -100.74423155418481
+                ],
+                [
+                    -100.38507631947869,
+                    -42.52340006752161,
+                    -104.66202818325337,
+                    -100.38507631947869,
+                    -100.26738410655526,
+                    -93.0372316067369,
+                    -121.05398053407544,
+                    -101.85007577110446,
+                    -73.54117750557339,
+                    -117.71425942789574,
+                    -104.06143365505704
+                ],
+                [
+                    -107.2802886980935,
+                    -108.933311697524,
+                    -63.47161440090895,
+                    -107.2802886980935,
+                    -110.74240952636319,
+                    -110.06965079400834,
+                    -132.71061926113907,
+                    -123.05346316489158,
+                    -114.08176930522313,
+                    -128.75845102629683,
+                    -113.55590595690592
+                ],
+                [
+                    -40.41725682087326,
+                    -99.35396695049894,
+                    -104.01345326425962,
+                    -40.41725682087326,
+                    -101.81403233046512,
+                    -97.43795448299352,
+                    -101.06420295190765,
+                    -115.2672709522958,
+                    -104.62743411403244,
+                    -114.74245164191234,
+                    -100.74423155418481
+                ],
+                [
+                    -100.10660584521247,
+                    -105.35143907846759,
+                    -104.64496337113314,
+                    -100.10660584521247,
+                    -43.02713589283644,
+                    -106.40032883053209,
+                    -123.93304553197231,
+                    -110.31197804704425,
+                    -119.41044714476993,
+                    -112.48244321309903,
+                    -115.32009042604477
+                ],
+                [
+                    -99.68231765198288,
+                    -79.70763153110693,
+                    -111.23994993815177,
+                    -99.68231765198288,
+                    -104.18171040415473,
+                    -43.40217920825978,
+                    -128.88388781668618,
+                    -94.00002569226672,
+                    -94.49314778319513,
+                    -108.9257780338121,
+                    -73.97426846687392
+                ],
+                [
+                    -75.33876421488822,
+                    -101.0873907343846,
+                    -98.77061263334417,
+                    -75.33876421488822,
+                    -106.54760472215276,
+                    -103.83118832205582,
+                    -45.22592539509333,
+                    -120.09248309764735,
+                    -85.53651747620438,
+                    -106.40184991405476,
+                    -102.90890329424292
+                ],
+                [
+                    -103.58015493124549,
+                    -93.74393190416413,
+                    -114.7479520783545,
+                    -103.58015493124549,
+                    -89.51214826515616,
+                    -84.33686628830037,
+                    -128.311694091768,
+                    -42.716278360857785,
+                    -112.3479703377725,
+                    -85.85146268093013,
+                    -104.41781193076167
+                ],
+                [
+                    -99.81358911690768,
+                    -73.38460773402312,
+                    -104.26666293008884,
+                    -99.81358911690768,
+                    -114.69080550419767,
+                    -101.5376602605429,
+                    -109.19254273664797,
+                    -120.15570369298075,
+                    -42.24158011845702,
+                    -129.4258001976741,
+                    -98.76279308741505
+                ],
+                [
+                    -94.47051908390131,
+                    -97.6964396326166,
+                    -103.42604776899589,
+                    -94.47051908390131,
+                    -89.96037144244474,
+                    -88.67929173192897,
+                    -109.68330327712465,
+                    -78.34282811300727,
+                    -112.80893923517215,
+                    -43.06263895738539,
+                    -104.52357244812083
+                ],
+                [
+                    -105.68813780709752,
+                    -98.68335350247162,
+                    -114.29113974556094,
+                    -105.68813780709752,
+                    -122.43201152670008,
+                    -74.03044825832387,
+                    -126.09521999640856,
+                    -114.34765257238541,
+                    -90.5139391148673,
+                    -127.18299320012193,
+                    -45.369343926817805
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.653035703316662
+        ],
+        "posix": 1.653035703316662
+    }
+}

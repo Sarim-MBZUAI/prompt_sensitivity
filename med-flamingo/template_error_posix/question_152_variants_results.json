@@ -1,0 +1,42 @@
+{
+    "file_name": "question_152_variants.json",
+    "overall_posix": 0.37440840383683494,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.526813880126183,
+            "Variation 2": 0.2647058823529411,
+            "Variation 3": 0.24878048780487805,
+            "Variation 4": 0.5146579804560261,
+            "Variation 5": 0.3035714285714286,
+            "Variation 6": 0.5049833887043189,
+            "Variation 7": 0.40234375,
+            "Variation 8": 0.29147982062780264,
+            "Variation 9": 0.2844036697247707,
+            "Variation 10": 0.40234375
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: Yes\n The chest X-ray shows a widened mediastinum.\n The mediastinum is the central portion of the thorax between the pleural cavities. It is",
+                "<s> Question-Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> question::Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Q::Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of a pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there any evidence of",
+                "<s> q::Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there any evidence of a right-sided pleural effusion? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n Q:Is there",
+                "<s> Question:Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n A.Lymphoma\n B.Pneumonia\n C.Pneumothorax\n D.Tuberculosis\n E.Pul",
+                "<s> q:Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 19.  If the answer to question 18 is",
+                "<s> q:::Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n A.Lymphoma\n B.Pneumonia\n C.Pneumothorax\n D.Tuberculosis\n E.Pul"
+            ]
+        ],
+        "sensitivities": [
+            0.37440840383683494
+        ],
+        "posix": 0.37440840383683494
+    }
+}

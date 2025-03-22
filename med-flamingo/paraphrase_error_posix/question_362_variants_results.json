@@ -1,0 +1,42 @@
+{
+    "file_name": "question_362_variants.json",
+    "overall_posix": 0.5164582274395182,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.47945205479452047,
+            "Variation 2": 0.4981549815498155,
+            "Variation 3": 0.35344827586206895,
+            "Variation 4": 0.627906976744186,
+            "Variation 5": 0.5597014925373134,
+            "Variation 6": 0.45035460992907805,
+            "Variation 7": 0.4928057553956835,
+            "Variation 8": 0.4316546762589928,
+            "Variation 9": 0.6851385390428212,
+            "Variation 10": 0.5859649122807018
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a pneumothorax visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a pneumothorax visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray demonstrate the presence of air in the pleural space indicative of pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is there visualization of an air collection within the thoracic cavity on the provided radiograph that would be consistent with a pneumothorax diagnosis? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Are there findings on the chest X-ray suggestive of air leakage into the pleural space, indicating a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiographic examination reveal evidence of pneumothorax as defined by the presence of free air in the pleural space? Please choose from the following two options: [yes, no]\n<image> 1. Free air in the pleural space\n 2. No free air in the pleural space\n 3. Free air in the pleural space\n 4. No free air in the pleural space\n 5. Free",
+                "<s> Is pneumothorax evident on the chest X-ray based on the visualization of an air collection within the thoracic cavity surrounding the lung parenchyma? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are there any findings on the chest X-ray that would confirm or suggest a diagnosis of pneumothorax, characterized by the presence of free air in the pleural space? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there demonstration of pneumothorax on the provided radiograph through visualization of an air collection within the thoracic cavity adjacent to lung tissue? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Does the chest X-ray reveal evidence supporting the presence of a pneumothorax as indicated by the appearance of air in the pleural space surrounding the lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are findings on the chest X-ray consistent with a diagnosis of pneumothorax based on the visualization of free air in the pleural space adjacent to lung tissue? Please choose from the following two options: [yes, no]\n<image> 1. Free air in the pleural space adjacent to the lung tissue is a sign of a pneumothorax.\n 2. Free air in the pleural space adjacent to the lung tissue is a sign of a p",
+                "<s> Is pneumothorax identifiable on the provided radiograph through the detection of an air collection within the thoracic cavity that may compromise normal lung function? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1"
+            ]
+        ],
+        "sensitivities": [
+            0.5164582274395182
+        ],
+        "posix": 0.5164582274395182
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_292_variants.json",
+    "overall_posix": 22.095889172051983,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2507149529457092,
+            "Variation 2": 0.8461621141433716,
+            "Variation 3": 1.0870225069134734,
+            "Variation 4": 1.1719862294197083,
+            "Variation 5": 0.3794334840774536,
+            "Variation 6": 88.51448123455047,
+            "Variation 7": 88.51448123455047,
+            "Variation 8": 0.8461621141433716,
+            "Variation 9": 88.51448123455047,
+            "Variation 10": 0.9639473009109497
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it appears that the patient has normal cardiomediastinal contours. The lung volumes are well-defined, and the rotation of the patient does not seem to distort the contours of the chest. The heart",
+                "Based on the image provided, it appears that the patient has normal cardiomediastinal contours. The lung volumes and patient rotation do not seem to be significantly affecting the contours of the chest. The heart is visible in the center of the",
+                "No, the patient does not have normal cardiomediastinal contours. The image shows a lateral chest X-ray, and the cardiomediastinal silhouette is not clearly visible. This could be due to the patient'",
+                "Based on the image provided, it appears that the patient has normal cardiomediastinal contours. The lung volumes and patient rotation do not seem to be significantly affecting the contours of the chest.",
+                "No, the patient does not have normal cardiomediastinal contours. The image shows a chest X-ray with a significant deviation from the normal contours of the cardiomediastinal silhouette. This deviation is likely",
+                "Based on the image provided, it appears that the patient has normal cardiomediastinal contours. The lung volumes and patient rotation do not seem to be significantly affecting the contours of the chest. The heart and lungs are visible and appear to",
+                "[no]",
+                "[no]",
+                "No, the patient does not have normal cardiomediastinal contours. The image shows a lateral chest X-ray, and the cardiomediastinal silhouette is not clearly visible. This could be due to the patient'",
+                "[no]",
+                "No, the patient does not have normal cardiomediastinal contours. The image shows a lateral chest X-ray, and the cardiomediastinal silhouette is not clearly visible. The lung volumes appear to be normal,"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -488.47900903224945,
+                    -501.0147566795349,
+                    -530.787114739418,
+                    -441.7370412349701,
+                    -547.0783205032349,
+                    -507.45068323612213,
+                    -45.90660285949707,
+                    -45.90660285949707,
+                    -530.787114739418,
+                    -45.90660285949707,
+                    -536.6763740777969
+                ],
+                [
+                    -505.09869861602783,
+                    -487.58921098709106,
+                    -535.4798202514648,
+                    -430.51259112358093,
+                    -542.2519693374634,
+                    -498.1155400276184,
+                    -47.785298585891724,
+                    -47.785298585891724,
+                    -535.4798202514648,
+                    -47.785298585891724,
+                    -551.1143445968628
+                ],
+                [
+                    -515.3756227493286,
+                    -495.1044660806656,
+                    -518.4436407089233,
+                    -432.72340071201324,
+                    -538.8614559173584,
+                    -491.9930354356766,
+                    -47.24817085266113,
+                    -47.24817085266113,
+                    -518.4436407089233,
+                    -47.24817085266113,
+                    -520.4070796966553
+                ],
+                [
+                    -515.3756227493286,
+                    -495.1044660806656,
+                    -518.4436407089233,
+                    -432.72340071201324,
+                    -538.8614559173584,
+                    -491.9930354356766,
+                    -47.24817085266113,
+                    -47.24817085266113,
+                    -518.4436407089233,
+                    -47.24817085266113,
+                    -520.4070796966553
+                ],
+                [
+                    -480.471173286438,
+                    -506.0472388267517,
+                    -523.4373071193695,
+                    -438.4697308540344,
+                    -552.5996186733246,
+                    -500.04069924354553,
+                    -49.410268783569336,
+                    -49.410268783569336,
+                    -523.4373071193695,
+                    -49.410268783569336,
+                    -529.2473576068878
+                ],
+                [
+                    -515.3756227493286,
+                    -495.1044660806656,
+                    -518.4436407089233,
+                    -432.72340071201324,
+                    -538.8614559173584,
+                    -491.9930354356766,
+                    -47.24817085266113,
+                    -47.24817085266113,
+                    -518.4436407089233,
+                    -47.24817085266113,
+                    -520.4070796966553
+                ],
+                [
+                    -515.3756227493286,
+                    -495.1044660806656,
+                    -518.4436407089233,
+                    -432.72340071201324,
+                    -538.8614559173584,
+                    -491.9930354356766,
+                    -47.24817085266113,
+                    -47.24817085266113,
+                    -518.4436407089233,
+                    -47.24817085266113,
+                    -520.4070796966553
+                ],
+                [
+                    -501.2450089454651,
+                    -498.2187571525574,
+                    -503.9577922821045,
+                    -432.0303750038147,
+                    -538.0791006088257,
+                    -500.8100199699402,
+                    -47.0352463722229,
+                    -47.0352463722229,
+                    -503.9577922821045,
+                    -47.0352463722229,
+                    -509.437869310379
+                ],
+                [
+                    -501.2450089454651,
+                    -498.2187571525574,
+                    -503.9577922821045,
+                    -432.0303750038147,
+                    -538.0791006088257,
+                    -500.8100199699402,
+                    -47.0352463722229,
+                    -47.0352463722229,
+                    -503.9577922821045,
+                    -47.0352463722229,
+                    -509.437869310379
+                ],
+                [
+                    -515.3756227493286,
+                    -495.1044660806656,
+                    -518.4436407089233,
+                    -432.72340071201324,
+                    -538.8614559173584,
+                    -491.9930354356766,
+                    -47.24817085266113,
+                    -47.24817085266113,
+                    -518.4436407089233,
+                    -47.24817085266113,
+                    -520.4070796966553
+                ],
+                [
+                    -501.2450089454651,
+                    -498.2187571525574,
+                    -503.9577922821045,
+                    -432.0303750038147,
+                    -538.0791006088257,
+                    -500.8100199699402,
+                    -47.0352463722229,
+                    -47.0352463722229,
+                    -503.9577922821045,
+                    -47.0352463722229,
+                    -509.437869310379
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            22.095889172051983
+        ],
+        "posix": 22.095889172051983
+    }
+}

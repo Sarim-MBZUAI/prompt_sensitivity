@@ -1,0 +1,189 @@
+{
+    "file_name": "question_40_variants.json",
+    "overall_posix": 1.0683469748663734,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.48560994995964896,
+            "Variation 2": 0.2073846459388733,
+            "Variation 3": 0.4414953047578985,
+            "Variation 4": 0.9112337589263916,
+            "Variation 5": 3.516911325783565,
+            "Variation 6": 0.1850303332010905,
+            "Variation 7": 0.8225664138793946,
+            "Variation 8": 0.5126114162531766,
+            "Variation 9": 0.1276182068718804,
+            "Variation 10": 0.5620265793800354
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no acute bone fractures or abnormalities observed in the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and ribs clearly visible.",
+                "No, there are no visible acute bone fractures or lesions in the provided chest X-ray. The image shows the chest and lungs, but there are no signs of bone fractures or lesions.",
+                "No, there are no acute bone fractures or abnormalities observed in the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and bones clearly visible.",
+                "No, there is no acute bone fracture or abnormality evident on the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and ribs visible.",
+                "No, the image does not reveal any acute bone-related pathology in the chest region. It appears to be a standard X-ray of the chest, showing the lungs, heart, and bones. There are no visible fractures or other",
+                "No, there are no visible acute skeletal abnormalities or fractures within the chest area on the X-ray.",
+                "No, the chest X-ray does not show evidence of recent bone injury or abnormality. It appears to be a normal chest X-ray with no signs of fracture or other bone-related issues.",
+                "No, there are no acute bone fractures or lesions visible in the provided chest radiograph. The image shows the chest and lungs, but there is no indication of any bone fractures or lesions.",
+                "No, the chest X-ray does not reveal any acute bone-related findings. The image shows the lungs and heart, but there are no signs of bone fractures or other bone-related issues.",
+                "No, there is no evidence of acute bone injury or abnormality on the chest X-ray. The image shows the chest and lungs, but there is no indication of bone injury or abnormality.",
+                "No, the image does not indicate the presence of an acute bone fracture or lesion within the chest region. It appears to be an X-ray of a human chest, showing the lungs, heart, and ribs. There are no"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -409.0486307144165,
+                    -430.9010784626007,
+                    -399.9237062931061,
+                    -389.62283730506897,
+                    -454.6103186607361,
+                    -307.0582022666931,
+                    -417.3749957084656,
+                    -446.06411933898926,
+                    -431.6035330295563,
+                    -414.7914500236511,
+                    -437.1499596834183
+                ],
+                [
+                    -409.0486307144165,
+                    -430.9010784626007,
+                    -399.9237062931061,
+                    -389.62283730506897,
+                    -454.6103186607361,
+                    -307.0582022666931,
+                    -417.3749957084656,
+                    -446.06411933898926,
+                    -431.6035330295563,
+                    -414.7914500236511,
+                    -437.1499596834183
+                ],
+                [
+                    -409.0486307144165,
+                    -430.9010784626007,
+                    -399.9237062931061,
+                    -389.62283730506897,
+                    -454.6103186607361,
+                    -307.0582022666931,
+                    -417.3749957084656,
+                    -446.06411933898926,
+                    -431.6035330295563,
+                    -414.7914500236511,
+                    -437.1499596834183
+                ],
+                [
+                    -428.34093475341797,
+                    -439.3738331794739,
+                    -428.6881515979767,
+                    -418.366436958313,
+                    -486.11049020290375,
+                    -299.8167657852173,
+                    -422.26293420791626,
+                    -451.9382801055908,
+                    -417.66253900527954,
+                    -439.82715821266174,
+                    -443.5924565792084
+                ],
+                [
+                    -414.02042841911316,
+                    -429.6103358268738,
+                    -411.1451987028122,
+                    -410.9830106496811,
+                    -462.3487811088562,
+                    -299.4173114299774,
+                    -447.84933137893677,
+                    -434.45683431625366,
+                    -440.9477459192276,
+                    -413.70350337028503,
+                    -443.4192273616791
+                ],
+                [
+                    -407.06807255744934,
+                    -428.96388149261475,
+                    -402.8629252910614,
+                    -400.4340784549713,
+                    -445.90548276901245,
+                    -277.61070132255554,
+                    -433.39531087875366,
+                    -447.57798957824707,
+                    -404.996591091156,
+                    -427.6302146911621,
+                    -390.9128932952881
+                ],
+                [
+                    -414.02042841911316,
+                    -429.6103358268738,
+                    -411.1451987028122,
+                    -410.9830106496811,
+                    -462.3487811088562,
+                    -299.4173114299774,
+                    -447.84933137893677,
+                    -434.45683431625366,
+                    -440.9477459192276,
+                    -413.70350337028503,
+                    -443.4192273616791
+                ],
+                [
+                    -429.8745950460434,
+                    -443.67569518089294,
+                    -412.3980883359909,
+                    -412.0600332021713,
+                    -453.8747344017029,
+                    -297.53961062431335,
+                    -422.11993300914764,
+                    -435.12161684036255,
+                    -395.79888808727264,
+                    -427.3694956302643,
+                    -434.7669163942337
+                ],
+                [
+                    -430.1150588989258,
+                    -451.3052158355713,
+                    -420.72404289245605,
+                    -416.9207899570465,
+                    -486.31998085975647,
+                    -295.9930810928345,
+                    -454.10900712013245,
+                    -440.933069229126,
+                    -430.99566316604614,
+                    -439.0908703804016,
+                    -453.1850743293762
+                ],
+                [
+                    -428.34093475341797,
+                    -439.3738331794739,
+                    -428.6881515979767,
+                    -418.366436958313,
+                    -486.11049020290375,
+                    -299.8167657852173,
+                    -422.26293420791626,
+                    -451.9382801055908,
+                    -417.66253900527954,
+                    -439.82715821266174,
+                    -443.5924565792084
+                ],
+                [
+                    -429.8745950460434,
+                    -443.67569518089294,
+                    -412.3980883359909,
+                    -412.0600332021713,
+                    -453.8747344017029,
+                    -297.53961062431335,
+                    -422.11993300914764,
+                    -435.12161684036255,
+                    -395.79888808727264,
+                    -427.3694956302643,
+                    -434.7669163942337
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.0683469748663734
+        ],
+        "posix": 1.0683469748663734
+    }
+}

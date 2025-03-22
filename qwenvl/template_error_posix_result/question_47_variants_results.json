@@ -1,0 +1,189 @@
+{
+    "file_name": "question_47_variants.json",
+    "overall_posix": 2.4168022658058286,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.7531054615974426,
+            "Variation 2": 0.5810201780216114,
+            "Variation 3": 0.48654020319179614,
+            "Variation 4": 0.7424851591522629,
+            "Variation 5": 0.8545150756835938,
+            "Variation 6": 0.7312691581660303,
+            "Variation 7": 0.8591737013596755,
+            "Variation 8": 0.7966317070855035,
+            "Variation 9": 0.6265619066026475,
+            "Variation 10": 0.754711282455315
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "yes",
+                "Yes, there are abnormalities detected in the chest X-ray. The lungs are infiltrated with numerous small opacities, which are likely due to bacterial pneumonia.",
+                "Yes, there are abnormalities detected in the chest X-ray. The image shows a patient with a history of smoking with infiltrates in both lungs, likely due to smoking-related lung disease.",
+                "Yes, there are abnormalities detected in the chest X-ray. The lungs appear to be infiltrated by a density similar to that of water, which suggests the presence of a lung infection or inflammation. This condition can be caused by various pathogens, such as bacteria, viruses, or fungi, and can lead to respiratory symptoms such as cough, chest pain, and difficulty breathing. It is important to seek medical attention and start appropriate treatment as soon as possible to prevent complications and ensure a full recovery.",
+                "Yes, there are abnormalities detected in the chest X-ray. The lungs are infiltrated with numerous small opacities, which are likely due to the presence of various types of pneumonia.",
+                "Yes, there are abnormalities detected in the chest X-ray. The lungs are infiltrated by a infiltrate, and there are also some calcifications.",
+                "Yes, there are abnormalities detected in the chest X-ray. The lungs are infiltrated by a dense opacity, which suggests the presence of pneumonia.",
+                "Yes, there are lung abnormalities detected in the chest X-ray.",
+                "Yes, there are abnormalities detected in the chest X-ray. The lungs are described as Consolidation and Bacterial pneumonia are also present.",
+                "Yes, there are abnormalities detected in the chest X-ray. The lungs are infiltrated with numerous small opacities, and there is also a large mass in the left lung.",
+                "Yes, there are abnormalities detected in the chest X-ray. The lungs are infiltrated by a density similar to that of water, with a density greater than that of air. This is most likely due to the presence of lung infiltrates, which can be caused by various infections or inflammatory conditions."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -6.875,
+                    -30.974374771118164,
+                    -28.37274658679962,
+                    -54.55593991279602,
+                    -34.34695088863373,
+                    -32.51045227050781,
+                    -28.08180558681488,
+                    -18.04425811767578,
+                    -28.384056091308594,
+                    -29.431228637695312,
+                    -51.402965664863586
+                ],
+                [
+                    -5.25,
+                    -24.63647758960724,
+                    -24.436421155929565,
+                    -49.45151162147522,
+                    -28.563141465187073,
+                    -27.905254364013672,
+                    -22.271194338798523,
+                    -12.277984619140625,
+                    -25.367799758911133,
+                    -23.409231185913086,
+                    -45.11509561538696
+                ],
+                [
+                    -6.6875,
+                    -29.197190642356873,
+                    -26.711112141609192,
+                    -48.346396684646606,
+                    -33.52842819690704,
+                    -29.625566244125366,
+                    -23.721707344055176,
+                    -15.42970085144043,
+                    -27.25046443939209,
+                    -27.65627908706665,
+                    -45.8136180639267
+                ],
+                [
+                    -6.5625,
+                    -27.25973653793335,
+                    -24.281071186065674,
+                    -44.354745984077454,
+                    -30.82364332675934,
+                    -26.964519262313843,
+                    -21.944052577018738,
+                    -14.694995880126953,
+                    -25.38177800178528,
+                    -24.626911640167236,
+                    -43.867860317230225
+                ],
+                [
+                    -7.34375,
+                    -27.903269290924072,
+                    -27.242321848869324,
+                    -45.75644016265869,
+                    -31.46020519733429,
+                    -29.328628063201904,
+                    -24.47336184978485,
+                    -13.888171195983887,
+                    -26.364477157592773,
+                    -25.605616569519043,
+                    -46.96214842796326
+                ],
+                [
+                    -5.34375,
+                    -25.53099763393402,
+                    -24.829885244369507,
+                    -49.41468298435211,
+                    -29.989869117736816,
+                    -27.87698006629944,
+                    -21.93277621269226,
+                    -13.089593887329102,
+                    -25.601754188537598,
+                    -24.36762833595276,
+                    -43.882638573646545
+                ],
+                [
+                    -5.0,
+                    -27.609851002693176,
+                    -24.484615921974182,
+                    -47.96821057796478,
+                    -31.215020537376404,
+                    -28.77553939819336,
+                    -23.317896127700806,
+                    -12.832042694091797,
+                    -25.317493438720703,
+                    -25.008575439453125,
+                    -45.770331144332886
+                ],
+                [
+                    -7.875,
+                    -27.372768759727478,
+                    -25.064003348350525,
+                    -47.486096262931824,
+                    -30.29688549041748,
+                    -29.27918767929077,
+                    -23.989102840423584,
+                    -13.030295372009277,
+                    -25.758931636810303,
+                    -25.30365800857544,
+                    -46.72732329368591
+                ],
+                [
+                    -7.4375,
+                    -28.193869471549988,
+                    -26.259292602539062,
+                    -46.91793751716614,
+                    -31.790886282920837,
+                    -28.72947120666504,
+                    -24.409623622894287,
+                    -13.98870849609375,
+                    -25.314844131469727,
+                    -25.635310173034668,
+                    -45.47416710853577
+                ],
+                [
+                    -4.4375,
+                    -24.957408547401428,
+                    -25.20869016647339,
+                    -46.17682504653931,
+                    -29.086121320724487,
+                    -28.023170471191406,
+                    -22.855494379997253,
+                    -12.243644714355469,
+                    -26.007909774780273,
+                    -23.676551818847656,
+                    -45.983020544052124
+                ],
+                [
+                    -4.21875,
+                    -26.579668283462524,
+                    -26.590438842773438,
+                    -53.34312570095062,
+                    -31.43729519844055,
+                    -29.25168800354004,
+                    -24.334712147712708,
+                    -14.075008392333984,
+                    -27.374788284301758,
+                    -25.39920425415039,
+                    -46.70172131061554
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.4168022658058286
+        ],
+        "posix": 2.4168022658058286
+    }
+}

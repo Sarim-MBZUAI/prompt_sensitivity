@@ -1,0 +1,189 @@
+{
+    "file_name": "question_151_variants.json",
+    "overall_posix": 4.586713551557116,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5191996964541349,
+            "Variation 2": 0.6898150682449341,
+            "Variation 3": 0.4552474606270884,
+            "Variation 4": 0.7127534917422703,
+            "Variation 5": 1.2265625,
+            "Variation 6": 3.625,
+            "Variation 7": 0.4681329616280489,
+            "Variation 8": 0.375,
+            "Variation 9": 0.4507700602213542,
+            "Variation 10": 0.0
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show any evidence of a cardiac or mediastinal abnormality on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "yes",
+                "Yes, the patient shows evidence of a cardiac abnormality on the chest X-ray, specifically a heart shape that is not typical for a heart. This could be a sign of a cardiac abnormality or a mediastinal abnormality, such as a tumor or an infection.",
+                "Yes, the chest X-ray shows evidence of a cardiac abnormality. The heart is enlarged, which is a finding consistent with cardiomegaly.",
+                "Yes, the patient shows evidence of a cardiac abnormality on the chest X-ray, specifically a heart size greater than expected for the patient's age and gender. This could be due to a variety of conditions, such as left heart disease or heart failure.",
+                "Yes, the chest X-ray shows evidence of a cardiac abnormality. The heart is enlarged, which is a finding consistent with heart disease.",
+                "Yes.",
+                "No.",
+                "Yes, the patient shows evidence of a cardiac abnormality on the chest X-ray, specifically a heart shape that is not typical for a healthy heart. This could be a sign of a heart condition or abnormality.",
+                "Yes",
+                "Yes, the patient shows evidence of a cardiac abnormality on the chest X-ray. The heart is enlarged, which is a finding consistent with cardiomegaly.",
+                "yes"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -5.375,
+                    -33.93098330497742,
+                    -26.069452047348022,
+                    -28.592620491981506,
+                    -25.33209776878357,
+                    -7.828125,
+                    -12.625,
+                    -25.504717350006104,
+                    -5.0,
+                    -20.250411987304688,
+                    -5.375
+                ],
+                [
+                    -5.3125,
+                    -32.0606507062912,
+                    -24.00344944000244,
+                    -26.269046306610107,
+                    -24.473506927490234,
+                    -7.828125,
+                    -10.921875,
+                    -24.355164647102356,
+                    -4.75,
+                    -18.809507846832275,
+                    -5.3125
+                ],
+                [
+                    -5.0,
+                    -29.468449473381042,
+                    -22.06565809249878,
+                    -24.477285981178284,
+                    -21.993194580078125,
+                    -8.171875,
+                    -11.921875,
+                    -21.111937522888184,
+                    -4.3125,
+                    -16.236173152923584,
+                    -5.0
+                ],
+                [
+                    -6.78125,
+                    -34.853551030159,
+                    -25.985743284225464,
+                    -29.335535645484924,
+                    -27.052208065986633,
+                    -7.765625,
+                    -10.4375,
+                    -26.452651858329773,
+                    -5.65625,
+                    -22.1889431476593,
+                    -6.78125
+                ],
+                [
+                    -5.4375,
+                    -33.23886168003082,
+                    -23.912325263023376,
+                    -26.226754546165466,
+                    -23.783612966537476,
+                    -6.71875,
+                    -11.203125,
+                    -23.907026886940002,
+                    -3.796875,
+                    -19.01089358329773,
+                    -5.4375
+                ],
+                [
+                    -6.375,
+                    -32.82469618320465,
+                    -24.08080768585205,
+                    -27.784159660339355,
+                    -24.24019706249237,
+                    -7.0,
+                    -12.75,
+                    -23.889875292778015,
+                    -4.3125,
+                    -18.0268075466156,
+                    -6.375
+                ],
+                [
+                    -6.75,
+                    -31.64767611026764,
+                    -23.387149572372437,
+                    -27.676419615745544,
+                    -24.436349034309387,
+                    -7.5859375,
+                    -12.734375,
+                    -23.685129642486572,
+                    -5.5,
+                    -18.680765390396118,
+                    -6.75
+                ],
+                [
+                    -6.875,
+                    -31.85034203529358,
+                    -21.39604413509369,
+                    -26.669936418533325,
+                    -21.534551739692688,
+                    -8.578125,
+                    -12.78125,
+                    -23.325981378555298,
+                    -4.75,
+                    -16.98577880859375,
+                    -6.875
+                ],
+                [
+                    -4.9375,
+                    -30.86415410041809,
+                    -21.050174236297607,
+                    -25.25124204158783,
+                    -21.659642696380615,
+                    -7.609375,
+                    -10.921875,
+                    -22.981457471847534,
+                    -4.125,
+                    -16.46251368522644,
+                    -4.9375
+                ],
+                [
+                    -6.03125,
+                    -31.66422152519226,
+                    -22.924432158470154,
+                    -27.776395082473755,
+                    -23.31371021270752,
+                    -8.0,
+                    -9.984375,
+                    -23.819985032081604,
+                    -5.09375,
+                    -19.04410755634308,
+                    -6.03125
+                ],
+                [
+                    -5.5,
+                    -32.28086864948273,
+                    -23.15923583507538,
+                    -26.18355429172516,
+                    -23.850261211395264,
+                    -7.3125,
+                    -10.375,
+                    -23.541651248931885,
+                    -4.625,
+                    -17.9298574924469,
+                    -5.5
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.586713551557116
+        ],
+        "posix": 4.586713551557116
+    }
+}

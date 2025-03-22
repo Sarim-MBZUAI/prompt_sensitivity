@@ -1,0 +1,189 @@
+{
+    "file_name": "question_93_variants.json",
+    "overall_posix": 34.051922717903615,
+    "detailed_scores": [
+        {
+            "Variation 1": 86.08768756389618,
+            "Variation 2": 0.39277167558670045,
+            "Variation 3": 0.12040659427642822,
+            "Variation 4": 0.25355642318725585,
+            "Variation 5": 150.50085151195526,
+            "Variation 6": 0.12766280889511109,
+            "Variation 7": 0.6334094333648682,
+            "Variation 8": 150.50085151195526,
+            "Variation 9": 0.12040659427642822,
+            "Variation 10": 86.08768756389618
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, the cardiomediastinal silhouette appears to be normal. The heart shadow is visible and the lungs are well-defined, indicating that the patient's chest X-ray is within normal limits.",
+                "[no]",
+                "No, the cardiomediastinal silhouette of the patient is not normal. The image shows a chest X-ray with a significant amount of fluid or air in the mediastinal space, which is the area between the lungs and the",
+                "Based on the image provided, the cardiomediastinal silhouette of the patient appears to be normal. The heart shadow is visible and the lungs are well-defined, indicating that the patient's chest X-ray is within normal limits",
+                "Based on the image provided, the cardiomediastinal silhouette of the patient appears to be normal. The heart and lungs are clearly visible, and there are no obvious abnormalities or pathologies that can be identified from this view.",
+                "No",
+                "The image you've provided appears to be an X-ray of a patient's chest. However, without additional context or medical expertise, it's not possible for me to provide a definitive assessment of whether the cardiomediastinal",
+                "Based on the image provided, it appears that the cardiomediastinal silhouette of the patient is normal. The heart shadow is visible and appears to be of normal size and shape. There are no obvious abnormalities or pathologies visible",
+                "No",
+                "Based on the image provided, the cardiomediastinal silhouette of the patient appears to be normal. The heart shadow is visible and the lungs are well-defined, indicating that the patient's chest X-ray is within normal limits",
+                "[no]"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -475.64149701595306,
+                    -45.20305919647217,
+                    -495.2800807952881,
+                    -481.6618267297745,
+                    -488.31931817531586,
+                    -24.13894248008728,
+                    -482.0246374607086,
+                    -507.3119686841965,
+                    -24.13894248008728,
+                    -481.6618267297745,
+                    -45.20305919647217
+                ],
+                [
+                    -510.1782066822052,
+                    -39.54809844493866,
+                    -505.5575475692749,
+                    -494.79677152633667,
+                    -509.53876781463623,
+                    -23.945687532424927,
+                    -469.15159845352173,
+                    -514.3435711860657,
+                    -23.945687532424927,
+                    -494.79677152633667,
+                    -39.54809844493866
+                ],
+                [
+                    -510.1782066822052,
+                    -39.54809844493866,
+                    -505.5575475692749,
+                    -494.79677152633667,
+                    -509.53876781463623,
+                    -23.945687532424927,
+                    -469.15159845352173,
+                    -514.3435711860657,
+                    -23.945687532424927,
+                    -494.79677152633667,
+                    -39.54809844493866
+                ],
+                [
+                    -510.01518082618713,
+                    -45.81193661689758,
+                    -494.33708333969116,
+                    -494.2441964149475,
+                    -508.7654707431793,
+                    -26.16743242740631,
+                    -470.9282054901123,
+                    -503.26500415802,
+                    -26.16743242740631,
+                    -494.2441964149475,
+                    -45.81193661689758
+                ],
+                [
+                    -479.81860399246216,
+                    -42.17740595340729,
+                    -497.2356381416321,
+                    -509.817852973938,
+                    -502.0405082702637,
+                    -26.015026092529297,
+                    -503.63854360580444,
+                    -507.8019518852234,
+                    -26.015026092529297,
+                    -509.817852973938,
+                    -42.17740595340729
+                ],
+                [
+                    -479.81860399246216,
+                    -42.17740595340729,
+                    -497.2356381416321,
+                    -509.817852973938,
+                    -502.0405082702637,
+                    -26.015026092529297,
+                    -503.63854360580444,
+                    -507.8019518852234,
+                    -26.015026092529297,
+                    -509.817852973938,
+                    -42.17740595340729
+                ],
+                [
+                    -510.01518082618713,
+                    -45.81193661689758,
+                    -494.33708333969116,
+                    -494.2441964149475,
+                    -508.7654707431793,
+                    -26.16743242740631,
+                    -470.9282054901123,
+                    -503.26500415802,
+                    -26.16743242740631,
+                    -494.2441964149475,
+                    -45.81193661689758
+                ],
+                [
+                    -479.81860399246216,
+                    -42.17740595340729,
+                    -497.2356381416321,
+                    -509.817852973938,
+                    -502.0405082702637,
+                    -26.015026092529297,
+                    -503.63854360580444,
+                    -507.8019518852234,
+                    -26.015026092529297,
+                    -509.817852973938,
+                    -42.17740595340729
+                ],
+                [
+                    -502.26302778720856,
+                    -46.81929326057434,
+                    -506.97922003269196,
+                    -494.3880397081375,
+                    -510.2760764360428,
+                    -29.34730052947998,
+                    -467.1122353076935,
+                    -514.9477912187576,
+                    -29.34730052947998,
+                    -494.3880397081375,
+                    -46.81929326057434
+                ],
+                [
+                    -510.01518082618713,
+                    -45.81193661689758,
+                    -494.33708333969116,
+                    -494.2441964149475,
+                    -508.7654707431793,
+                    -26.16743242740631,
+                    -470.9282054901123,
+                    -503.26500415802,
+                    -26.16743242740631,
+                    -494.2441964149475,
+                    -45.81193661689758
+                ],
+                [
+                    -479.81860399246216,
+                    -42.17740595340729,
+                    -497.2356381416321,
+                    -509.817852973938,
+                    -502.0405082702637,
+                    -26.015026092529297,
+                    -503.63854360580444,
+                    -507.8019518852234,
+                    -26.015026092529297,
+                    -509.817852973938,
+                    -42.17740595340729
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            34.051922717903615
+        ],
+        "posix": 34.051922717903615
+    }
+}

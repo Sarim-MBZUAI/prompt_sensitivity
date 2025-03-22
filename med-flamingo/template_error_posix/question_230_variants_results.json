@@ -1,0 +1,42 @@
+{
+    "file_name": "question_230_variants.json",
+    "overall_posix": 0.41798016766520735,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2704626334519573,
+            "Variation 2": 0.48091603053435117,
+            "Variation 3": 0.27177700348432055,
+            "Variation 4": 0.4379310344827586,
+            "Variation 5": 0.4501718213058419,
+            "Variation 6": 0.47709923664122145,
+            "Variation 7": 0.4007633587786259,
+            "Variation 8": 0.4364820846905537,
+            "Variation 9": 0.47709923664122145,
+            "Variation 10": 0.47709923664122145
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there evidence of pneumothorax on the patient's chest X-ray?\n 12.  What is the most likely diagnosis?\n A.  Pneumothorax\n B",
+                "<s> Q:Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n\n Q:Is there evidence of pneumomediastinum on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n\n Q:",
+                "<s> Q::: Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B",
+                "<s> Q:Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n\n Explanation:\n The patient has a right-sided pneumothorax. The right hemithorax is hyperlucent, and the right hemidiaphragm is depressed.",
+                "<s> Question::: Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n Correct Answer: Option 1\n [10 points]\n 10.\n Question: The patient's chest X-ray shows a right-sided pneumoth",
+                "<s> Question:Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\t\tNo.\n \u2022\t\tYes.\n \u2022\t\tNo.\n \u2022\t\tYes.\n \u2022\t\tNo.\n \u2022\t\tYes.\n \u2022\t\tNo.\n \u2022\t",
+                "<s> q:Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 16.  If the answer to question 15 is",
+                "<s> Question:Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale:The patient has a right-sided pneumothorax. The chest X-ray shows a right-sided pleural effusion. The patient also",
+                "<s> Question:Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\t\tNo.\n \u2022\t\tYes.\n \u2022\t\tNo.\n \u2022\t\tYes.\n \u2022\t\tNo.\n \u2022\t\tYes.\n \u2022\t\tNo.\n \u2022\t",
+                "<s> question::Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10"
+            ]
+        ],
+        "sensitivities": [
+            0.41798016766520735
+        ],
+        "posix": 0.41798016766520735
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_172_variants.json",
+    "overall_posix": 0.4228860818650316,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5852090032154341,
+            "Variation 2": 0.0,
+            "Variation 3": 0.581081081081081,
+            "Variation 4": 0.25688073394495414,
+            "Variation 5": 0.5807453416149069,
+            "Variation 6": 0.6705882352941176,
+            "Variation 7": 0.3162790697674418,
+            "Variation 8": 0.545751633986928,
+            "Variation 9": 0.3665338645418327,
+            "Variation 10": 0.32579185520361986
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pulmonary infiltrates consistent with pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Is there evidence of a hemothor",
+                "<s> Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiographic examination reveal signs of alveolar consolidation indicative of pneumonia? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Yes\n The radiographic examination reveals signs of alveolar consolidation indicative of pneumonia.\n 11",
+                "<s> Are there findings suggestive of an infectious process such as pneumonia visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient display radiographic evidence of pneumonitis or pneumonia on the chest film? Please choose from the following two options: [yes, no]\n<image> 11.  Is the patient\u2019s chest film suggestive of atelectasis? Please choose from the following two options: [yes, no]\n 12.  Is the patient\u2019s chest film suggestive",
+                "<s> Is there a visible infiltrative pattern on the chest X-ray consistent with acute respiratory infection? Please choose from the following two options: [yes, no]\n<image> 11. Is there a visible infiltrative pattern on the chest X-ray consistent with acute respiratory infection?\n 12. Is there a visible infiltrative pattern on the chest X-",
+                "<s> Does the radiographic examination reveal any abnormalities that could be indicative of pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there signs of lung consolidation or increased pulmonary markings suggestive of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pleural effusion?\n [yes, no]\n 12. Is there any evidence of a pneumothorax?\n [yes, no]\n 13. Is",
+                "<s> Does the patient's chest X-ray show radiographic features consistent with an infectious process such as community-acquired pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there visible evidence of alveolar damage or inflammation on the chest film suggestive of pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.4228860818650316
+        ],
+        "posix": 0.4228860818650316
+    }
+}

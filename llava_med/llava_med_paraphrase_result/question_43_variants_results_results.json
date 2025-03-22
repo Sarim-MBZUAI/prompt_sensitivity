@@ -1,0 +1,189 @@
+{
+    "file_name": "question_43_variants_results.json",
+    "overall_posix": 1.0112786439201638,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6728864489853983,
+            "Variation 2": 0.0,
+            "Variation 3": 1.1061444041035888,
+            "Variation 4": 0.704232082270372,
+            "Variation 5": 1.3621854901980353,
+            "Variation 6": 1.357199175398763,
+            "Variation 7": 1.1627321953667848,
+            "Variation 8": 1.066516800842768,
+            "Variation 9": 0.9574696123643327,
+            "Variation 10": 1.243003209545274
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray shows signs of chronic obstructive pulmonary disease (copd). ",
+                "Yes, the chest X-ray shows emphysematous changes. ",
+                "The chest x-ray shows signs of chronic obstructive pulmonary disease (copd). ",
+                "The chest radiograph does not show signs of airway obstruction typical for COPD. ",
+                "Yes, the presence of hyperinflated lungs and decreased lung markings on the chest X-ray is consistent with a diagnosis of chronic obstructive pulmonary disease (COPD). ",
+                "Yes, the chest film shows radiographic findings suggestive of chronic bronchitis and emphysema. ",
+                "Yes, the lung volume reduction and airway dilation on the X-ray can be indicative of a diagnosis of COPD (Chronic Obstructive Pulmonary Disease). These findings are consistent with the typical changes seen in patients with",
+                "Yes, the chest radiograph shows clear evidence of obstructive pulmonary disease based on the presence of air trapping and hyperinflation. ",
+                "Yes, the chest X-ray shows characteristic changes associated with COPD, including bullae and lung hyperinflation. ",
+                "Yes, the chest radiograph shows signs of chronic airflow limitation, which is consistent with a diagnosis of COPD. The image reveals airway dilation and emphysema, which are characteristic features of COPD. ",
+                "Yes, the chest X-ray findings of lung hyperinflation, decreased vascular markings, and signs of air trapping can be indicative of a diagnosis of COPD. These imaging features are often associated with the presence of chronic"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -42.44462249214825,
+                    -54.55657857388542,
+                    -42.44462249214825,
+                    -65.67365497832361,
+                    -72.02236994750388,
+                    -76.49925974709913,
+                    -111.66178043748516,
+                    -80.81478493925215,
+                    -71.24057611490298,
+                    -88.40316388563622,
+                    -105.83778617895723
+                ],
+                [
+                    -53.40552262835581,
+                    -39.43381596650511,
+                    -53.40552262835581,
+                    -79.046404118184,
+                    -81.76086338991888,
+                    -75.15318473155821,
+                    -120.24607154511375,
+                    -91.06243705437964,
+                    -78.31925860410047,
+                    -109.48288493407017,
+                    -129.8450472781151
+                ],
+                [
+                    -42.44462249214825,
+                    -54.55657857388542,
+                    -42.44462249214825,
+                    -65.67365497832361,
+                    -72.02236994750388,
+                    -76.49925974709913,
+                    -111.66178043748516,
+                    -80.81478493925215,
+                    -71.24057611490298,
+                    -88.40316388563622,
+                    -105.83778617895723
+                ],
+                [
+                    -55.653862947225264,
+                    -61.96905009688635,
+                    -55.653862947225264,
+                    -41.748554828845954,
+                    -80.35694374392881,
+                    -78.90978285390338,
+                    -105.65962835347705,
+                    -77.20700358669774,
+                    -80.71263932199099,
+                    -85.18958074908141,
+                    -112.45080491249132
+                ],
+                [
+                    -58.98201695139437,
+                    -64.1363779471144,
+                    -58.98201695139437,
+                    -78.47900089520408,
+                    -42.71909779746119,
+                    -82.71728229219934,
+                    -102.37365309654314,
+                    -86.77941533504747,
+                    -87.9943976980071,
+                    -103.40267080953709,
+                    -104.96606660092584
+                ],
+                [
+                    -57.80283726969503,
+                    -56.85505300330988,
+                    -57.80283726969503,
+                    -78.89569364720955,
+                    -83.44745830889471,
+                    -42.38270182969569,
+                    -129.31539905738362,
+                    -88.16840712985618,
+                    -88.72616593148632,
+                    -103.44145224412202,
+                    -121.57633555801658
+                ],
+                [
+                    -59.1835152418989,
+                    -61.56443134505162,
+                    -59.1835152418989,
+                    -76.7720225297362,
+                    -70.98729354770512,
+                    -82.89517409842847,
+                    -53.30081765112834,
+                    -88.08277226981488,
+                    -82.40583073080549,
+                    -84.51094213002057,
+                    -93.45279414458457
+                ],
+                [
+                    -61.345379814220905,
+                    -64.27474708684895,
+                    -61.345379814220905,
+                    -71.6028619928984,
+                    -78.98515845687118,
+                    -82.22044103645021,
+                    -115.26835187164272,
+                    -44.2371419010795,
+                    -89.43813368066185,
+                    -97.3839577058061,
+                    -118.87144853834252
+                ],
+                [
+                    -54.04526697481202,
+                    -55.50861684578376,
+                    -54.04526697481202,
+                    -72.69888000832088,
+                    -80.55588648334776,
+                    -79.73408041930088,
+                    -107.17231011335298,
+                    -87.7754883771479,
+                    -44.24003446645378,
+                    -100.12140338968857,
+                    -113.0979940974812
+                ],
+                [
+                    -55.919095120897055,
+                    -58.760948416362226,
+                    -55.919095120897055,
+                    -64.46427692888756,
+                    -76.7291721005322,
+                    -72.5032813512737,
+                    -98.87107098755098,
+                    -82.80655504468496,
+                    -80.99990675541255,
+                    -49.063660041357195,
+                    -107.1995704462928
+                ],
+                [
+                    -59.96409944490753,
+                    -63.229592946230696,
+                    -59.96409944490753,
+                    -74.93951036170074,
+                    -69.01240515819427,
+                    -80.96074142376983,
+                    -95.63160422914393,
+                    -78.95036751368173,
+                    -81.13605805725996,
+                    -97.34096823150682,
+                    -57.647358965631376
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.0112786439201638
+        ],
+        "posix": 1.0112786439201638
+    }
+}

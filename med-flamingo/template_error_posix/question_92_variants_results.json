@@ -1,0 +1,42 @@
+{
+    "file_name": "question_92_variants.json",
+    "overall_posix": 0.37389038350141435,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5171102661596958,
+            "Variation 2": 0.5749128919860628,
+            "Variation 3": 0.23888888888888893,
+            "Variation 4": 0.5315985130111525,
+            "Variation 5": 0.24242424242424243,
+            "Variation 6": 0.2752808988764045,
+            "Variation 7": 0.2584269662921348,
+            "Variation 8": 0.5547445255474452,
+            "Variation 9": 0.28415300546448086,
+            "Variation 10": 0.26136363636363635
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the mediastinal contours abnormal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the mediastinal contours abnormal? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Are the mediastinal contours abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 11.\n Question:Is the heart enlarged? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n 12.\n Question:",
+                "<s> Question-Are the mediastinal contours abnormal? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n\n Question-Is there a mass in the mediastinum? Please choose from the following two options: [yes, no]\n Answer\n [yes, no]\n Question-Is there a mass in the",
+                "<s> question::Are the mediastinal contours abnormal? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n [no]\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.",
+                "<s> Question:Are the mediastinal contours abnormal? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n 11.\n Question:Is the heart size normal? Please choose from the following two options: [yes, no]||Answer:\n [yes, no]\n 12.\n Question:Is",
+                "<s> Q:Are the mediastinal contours abnormal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: 166.1: 166.1: 166.1: 166.1\n 16",
+                "<s> q:Are the mediastinal contours abnormal? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> QUESTION\tAre the mediastinal contours abnormal? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 12\n 12\n 12\n 12\n 12\n 12\n 12\n 12\n 12\n 12\n 12\n",
+                "<s> Q:Are the mediastinal contours abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there a mass in the right hilar region? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n Q:Is there a mass in the",
+                "<s> QUESTION:Are the mediastinal contours abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 1",
+                "<s> QUESTION:Are the mediastinal contours abnormal? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n"
+            ]
+        ],
+        "sensitivities": [
+            0.37389038350141435
+        ],
+        "posix": 0.37389038350141435
+    }
+}

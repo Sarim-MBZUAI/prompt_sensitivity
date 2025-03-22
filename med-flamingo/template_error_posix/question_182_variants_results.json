@@ -1,0 +1,42 @@
+{
+    "file_name": "question_182_variants.json",
+    "overall_posix": 0.37991976701187613,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5584415584415584,
+            "Variation 2": 0.4638783269961977,
+            "Variation 3": 0.4600760456273765,
+            "Variation 4": 0.25773195876288657,
+            "Variation 5": 0.24083769633507857,
+            "Variation 6": 0.4875444839857651,
+            "Variation 7": 0.2538860103626943,
+            "Variation 8": 0.30097087378640774,
+            "Variation 9": 0.47148288973384034,
+            "Variation 10": 0.30434782608695654
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale: The patient has bilateral pneumothoraces. The chest X-ray shows bilateral airspace opacities, which are consistent withpneum",
+                "<s> QUESTION:Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n Acute respiratory distress syndrome\n C:\n Pulmonary edema\n D",
+                "<s> Question:Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Question:What is the most likely diagnosis?\n A.Pneumonia\n B.Asthma\n C.Acute bronchitis\n D.Chronic obstructive",
+                "<s> Q:Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n L:\n U:\n X:\n E:\n D:\n E:\n L:",
+                "<s> QUESTION:Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question::: Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumonia\n B. Pulmonary edema\n C. Pulmonary embolism\n D. Pulmonary infarction",
+                "<s> q:Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> q:::Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question-Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n\n Question-Is there a pneumothorax?\n [yes, no]\n Answer\n [yes, no]\n Question-Is there a pneumomediastinum?\n [yes, no",
+                "<s> Q::: Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::"
+            ]
+        ],
+        "sensitivities": [
+            0.37991976701187613
+        ],
+        "posix": 0.37991976701187613
+    }
+}

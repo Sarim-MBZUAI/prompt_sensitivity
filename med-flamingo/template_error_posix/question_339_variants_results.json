@@ -1,0 +1,42 @@
+{
+    "file_name": "question_339_variants.json",
+    "overall_posix": 0.49611156145506136,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.539568345323741,
+            "Variation 2": 0.44964028776978415,
+            "Variation 3": 0.47122302158273377,
+            "Variation 4": 0.4683098591549295,
+            "Variation 5": 0.5107913669064749,
+            "Variation 6": 0.4928057553956835,
+            "Variation 7": 0.46402877697841727,
+            "Variation 8": 0.5467625899280576,
+            "Variation 9": 0.45683453237410077,
+            "Variation 10": 0.5611510791366906
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a pleural effusion on the right side.\n b. No, there is no pleural effusion on the right side.\n 10. Is there any pleural effusion on the left side?",
+                "<s> q:::Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n Q:What is the most likely diagnosis?\n a.Pneumothorax\n b.Pleural effusion\n c.Pneumonia\n d.Pneumonitis\n e.",
+                "<s> QUESTION:Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pleural effusion\n B:\n 3.\n QUESTION:What is the most likely diagnosis?\n",
+                "<s> QUESTION\tAre there any indications of pleural effusion? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The chest radiograph shows a right-sided pleural effusion.\n The pleural effusion is a fluid colection between the visceral and",
+                "<s> Question-Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n [Yes, yes]\n [No, no]\n [No, yes]\n [Yes, yes]\n [Yes, no]\n [No, yes]\n [Yes, yes]\n [Yes",
+                "<s> Question:Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n 3.Question:What is the most likely diagnosis?\n a.Pneumothorax\n b.Pleural effusion\n c.Pneumonia\n d.Pneumonitis",
+                "<s> question::Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A chest radiograph shows a right-sided pleural effusion.\n 10.10.2  Case 10.10.3  Case 10.10.4  Case ",
+                "<s> Question::: Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q::Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the differential diagnosis of pleural effusion?\n A:Pleural effusion\n B:Pneumonia\n C:Pulmonary edema\n D:Pneumothorax\n E",
+                "<s> QUESTION:Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [Yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n"
+            ]
+        ],
+        "sensitivities": [
+            0.49611156145506136
+        ],
+        "posix": 0.49611156145506136
+    }
+}

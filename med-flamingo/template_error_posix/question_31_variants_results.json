@@ -1,0 +1,42 @@
+{
+    "file_name": "question_31_variants.json",
+    "overall_posix": 0.3977497292882689,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2660550458715596,
+            "Variation 2": 0.4697986577181208,
+            "Variation 3": 0.5353846153846153,
+            "Variation 4": 0.46099290780141844,
+            "Variation 5": 0.2660550458715596,
+            "Variation 6": 0.32579185520361986,
+            "Variation 7": 0.3632478632478633,
+            "Variation 8": 0.2660550458715596,
+            "Variation 9": 0.5080906148867314,
+            "Variation 10": 0.5160256410256411
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.",
+                "<s> QUESTION:Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please indicate your answer by marking the circle in front of the appropriate choice.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.",
+                "<s> Question-Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no",
+                "<s> QUESTION:Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n Acute respiratory distress syndrome (ARDS)\n 3.\n QUE",
+                "<s> Question:Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n L:\n U:\n X:\n Y:\n L:\n U:\n X:",
+                "<s> Q::: Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale:The chest X-ray shows a focal infiltrate in the right lower lobe. This is a pneumonia.\n 6.Question:",
+                "<s> Q:Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Q:Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]\n 1."
+            ]
+        ],
+        "sensitivities": [
+            0.3977497292882689
+        ],
+        "posix": 0.3977497292882689
+    }
+}

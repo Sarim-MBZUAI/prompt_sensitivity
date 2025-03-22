@@ -1,0 +1,42 @@
+{
+    "file_name": "question_329_variants.json",
+    "overall_posix": 0.31272554116210094,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.32093023255813957,
+            "Variation 2": 0.5087108013937283,
+            "Variation 3": 0.29807692307692313,
+            "Variation 4": 0.5172413793103449,
+            "Variation 5": 0.17010309278350522,
+            "Variation 6": 0.27722772277227725,
+            "Variation 7": 0.21761658031088082,
+            "Variation 8": 0.14516129032258063,
+            "Variation 9": 0.35443037974683544,
+            "Variation 10": 0.31775700934579443
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n",
+                "<s> Question::: Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n Discussion:\n The patient has a right-sided pneumothorax. The chest X-ray shows a right-sided pneumothorax with a",
+                "<s> q:::Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: Yes\n The chest X-ray shows a right pneumothorax.\n The chest X-ray shows a right pneumothorax. The right hemithorax is over",
+                "<s> Question-Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Q:Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Is there",
+                "<s> Q::: Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n",
+                "<s> QUESTION:Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> question:Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked:\n 1.Yes\n 2.No\n You have correctly marked:\n 1.Yes\n 2.No",
+                "<s> Q::Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::"
+            ]
+        ],
+        "sensitivities": [
+            0.31272554116210094
+        ],
+        "posix": 0.31272554116210094
+    }
+}

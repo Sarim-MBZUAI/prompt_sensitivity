@@ -1,0 +1,42 @@
+{
+    "file_name": "question_194_variants.json",
+    "overall_posix": 0.34213638464270546,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5534591194968553,
+            "Variation 2": 0.2583732057416268,
+            "Variation 3": 0.2757009345794392,
+            "Variation 4": 0.23857868020304562,
+            "Variation 5": 0.295774647887324,
+            "Variation 6": 0.23857868020304562,
+            "Variation 7": 0.49128919860627174,
+            "Variation 8": 0.25,
+            "Variation 9": 0.2924528301886793,
+            "Variation 10": 0.5271565495207667
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is the heart normal in size and position? Please choose from the following two options: [yes, no]\n A:Yes\n Q:Is the heart enlarged? Please choose from the following two",
+                "<s> question:Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No",
+                "<s> Question::: Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> QUESTION:Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes]\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 2",
+                "<s> Q::: Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21",
+                "<s> QUESTION:Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\n A:\n B:\n 2.\n 1",
+                "<s> Q:Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n T:\n Y:\n R:\n E:\n D:\n E:\n L:\n U:\n X:\n E:\n R:",
+                "<s> q:::Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\nANSWER:\n<image>\n 1.Yes\n 2.No\n REASONING:\n The lungs are not fully expanded. There is a right lower lobe opacity that is not visible on the lateral view. The right lower lobe opacity is"
+            ]
+        ],
+        "sensitivities": [
+            0.34213638464270546
+        ],
+        "posix": 0.34213638464270546
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_227_variants.json",
+    "overall_posix": 0.461111652405798,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5181518151815182,
+            "Variation 2": 0.4892857142857143,
+            "Variation 3": 0.5181518151815182,
+            "Variation 4": 0.22162162162162158,
+            "Variation 5": 0.48958333333333326,
+            "Variation 6": 0.5086505190311419,
+            "Variation 7": 0.4982698961937716,
+            "Variation 8": 0.27699530516431925,
+            "Variation 9": 0.5670731707317073,
+            "Variation 10": 0.5233333333333333
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Rationale:The heart silhouette is normal in size on the chest X-ray. The heart is not enlarged. The heart is not enlarged.\n Question",
+                "<s> QUESTION:Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n ",
+                "<s> Question:Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Rationale:The heart silhouette is normal in size on the chest X-ray. The heart is not enlarged. The heart is not enlarged.\n Question",
+                "<s> Q:Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: 166.2: 166.3: 166.4:\n 167.1: 1",
+                "<s> QUESTION\tIs the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASON\tThe heart is normal in size on the chest X-ray. The heart is not enlarged. The heart is not\n enlarged because the heart is",
+                "<s> QUESTION:Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n 10.\n QUESTION:Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\n ANSW",
+                "<s> QUESTION:Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Explanation:\n The heart silhouette is normal in size.\n 10.\n QUESTION:Is the heart silhouette of normal size on the chest X-ray? Please",
+                "<s> Question::: Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question:Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following radiograph is of a 55-year-old woman with a history of hypertension and hyperlipidemia. The patient was admitted to the emergency department with a 2-",
+                "<s> Question-Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes, no"
+            ]
+        ],
+        "sensitivities": [
+            0.461111652405798
+        ],
+        "posix": 0.461111652405798
+    }
+}

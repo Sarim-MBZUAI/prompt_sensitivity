@@ -1,0 +1,189 @@
+{
+    "file_name": "question_310_variants.json",
+    "overall_posix": 6.1761800239547835,
+    "detailed_scores": [
+        {
+            "Variation 1": 3.1286017684375538,
+            "Variation 2": 1.3534892251094182,
+            "Variation 3": 4.29983989965348,
+            "Variation 4": 4.616280092749485,
+            "Variation 5": 5.852055275440216,
+            "Variation 6": 4.631458640098572,
+            "Variation 7": 3.469049755264731,
+            "Variation 8": 2.6818813646540924,
+            "Variation 9": 5.469910848140716,
+            "Variation 10": 4.73452424287796
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the included osseous (bone) structures appearing intact on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the osseous structures on the X-ray appear to be broken or fractured.",
+                "No, the skeletal elements are not visible on this radiograph.",
+                "No, the osseous structures within this image appear to be intact with no evidence of abnormality.",
+                "Yes, there is an abnormality in the bony morphology depicted on this X-ray. The ribs are not aligned properly, which could indicate a fracture or a dislocation.",
+                "No, the X-ray does not show the bone structures to be normally formed and without disruption. There is a significant fracture visible in the ribcage, which is not a normal finding.",
+                "No, the skeletal elements in the image are not demonstrating normal anatomical integrity. The ribs are not aligned properly, and the spine appears to be curved, which are indicative of a spinal deformity such as",
+                "Yes, there is a deviation from normal osseous architecture evident on this radiograph. The ribs are not aligned properly, which could indicate a fracture or other abnormality.",
+                "No, the bones visible on this X-ray appear to be broken.",
+                "No, the bony components of this image show structural irregularities.",
+                "No, the X-ray does not show the bone structures to be normally aligned and without abnormality. There is a significant deformity visible in the chest area, which indicates a condition such as scoliosis or a similar spinal",
+                "No, the skeletal elements depicted on this X-ray are not normal. The image shows a chest X-ray with a significant amount of lung collapse, which is not a normal finding. This could be indicative of a medical condition such"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -214.4275907278061,
+                    -161.24136066436768,
+                    -246.91133213043213,
+                    -395.02086651325226,
+                    -412.92763471603394,
+                    -507.0303544998169,
+                    -404.31739497184753,
+                    -155.45374488830566,
+                    -168.83560752868652,
+                    -487.9231331348419,
+                    -451.1538028717041
+                ],
+                [
+                    -220.6409637928009,
+                    -155.84378814697266,
+                    -236.81559747457504,
+                    -407.51924979686737,
+                    -421.4496819972992,
+                    -516.2234678268433,
+                    -425.4231091737747,
+                    -155.4858899116516,
+                    -170.3253345489502,
+                    -489.3957853317261,
+                    -492.23420763015747
+                ],
+                [
+                    -213.5505232810974,
+                    -173.32275199890137,
+                    -239.89358973503113,
+                    -393.2844947576523,
+                    -438.5158681869507,
+                    -504.2599045038223,
+                    -430.00897347927094,
+                    -152.62360620498657,
+                    -179.33633708953857,
+                    -499.9557616710663,
+                    -494.8539698123932
+                ],
+                [
+                    -201.91125869750977,
+                    -159.35452318191528,
+                    -233.0919725894928,
+                    -419.5878746509552,
+                    -419.1226202249527,
+                    -505.30565732717514,
+                    -427.54715967178345,
+                    -159.9849500656128,
+                    -172.34470224380493,
+                    -502.7491328716278,
+                    -452.1626260280609
+                ],
+                [
+                    -214.4275907278061,
+                    -161.24136066436768,
+                    -246.91133213043213,
+                    -395.02086651325226,
+                    -412.92763471603394,
+                    -507.0303544998169,
+                    -404.31739497184753,
+                    -155.45374488830566,
+                    -168.83560752868652,
+                    -487.9231331348419,
+                    -451.1538028717041
+                ],
+                [
+                    -220.6409637928009,
+                    -155.84378814697266,
+                    -236.81559747457504,
+                    -407.51924979686737,
+                    -421.4496819972992,
+                    -516.2234678268433,
+                    -425.4231091737747,
+                    -155.4858899116516,
+                    -170.3253345489502,
+                    -489.3957853317261,
+                    -492.23420763015747
+                ],
+                [
+                    -206.42438691854477,
+                    -167.26354229450226,
+                    -245.65152645111084,
+                    -407.4802145957947,
+                    -417.23111867904663,
+                    -485.88327741622925,
+                    -423.8322105407715,
+                    -167.88316357135773,
+                    -173.9420462846756,
+                    -504.76721930503845,
+                    -473.55128836631775
+                ],
+                [
+                    -206.42438691854477,
+                    -167.26354229450226,
+                    -245.65152645111084,
+                    -407.4802145957947,
+                    -417.23111867904663,
+                    -485.88327741622925,
+                    -423.8322105407715,
+                    -167.88316357135773,
+                    -173.9420462846756,
+                    -504.76721930503845,
+                    -473.55128836631775
+                ],
+                [
+                    -204.20355892181396,
+                    -161.56281900405884,
+                    -239.5720113515854,
+                    -408.1878674030304,
+                    -420.65529322624207,
+                    -503.0436885356903,
+                    -430.12338626384735,
+                    -157.4003734588623,
+                    -183.3941307067871,
+                    -501.82767963409424,
+                    -482.24468421936035
+                ],
+                [
+                    -201.91125869750977,
+                    -159.35452318191528,
+                    -233.0919725894928,
+                    -419.5878746509552,
+                    -419.1226202249527,
+                    -505.30565732717514,
+                    -427.54715967178345,
+                    -159.9849500656128,
+                    -172.34470224380493,
+                    -502.7491328716278,
+                    -452.1626260280609
+                ],
+                [
+                    -206.42438691854477,
+                    -167.26354229450226,
+                    -245.65152645111084,
+                    -407.4802145957947,
+                    -417.23111867904663,
+                    -485.88327741622925,
+                    -423.8322105407715,
+                    -167.88316357135773,
+                    -173.9420462846756,
+                    -504.76721930503845,
+                    -473.55128836631775
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            6.1761800239547835
+        ],
+        "posix": 6.1761800239547835
+    }
+}

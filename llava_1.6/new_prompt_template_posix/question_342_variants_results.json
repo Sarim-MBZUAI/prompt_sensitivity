@@ -1,0 +1,189 @@
+{
+    "file_name": "question_342_variants.json",
+    "overall_posix": 0.21297700242562734,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.18215465545654297,
+            "Variation 2": 0.23591103553771972,
+            "Variation 3": 0.37341848373413083,
+            "Variation 4": 0.6211786460876465,
+            "Variation 5": 0.9858678817749024,
+            "Variation 6": 0.24724655151367186,
+            "Variation 7": 0.23591103553771972,
+            "Variation 8": 0.18215465545654297,
+            "Variation 9": 0.0,
+            "Variation 10": 0.059192533493041995
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it is not possible to definitively determine if there is any acute cardiopulmonary disease. The X-ray appears to show a normal chest structure, but without additional context or medical expertise, it is not",
+                "Based on the image provided, it is not possible to definitively determine if the chest X-ray is indicative of any acute cardiopulmonary disease. The image is of low resolution and does not provide enough detail to make a diagnosis",
+                "Based on the image provided, it is not possible to definitively determine if the chest X-ray is indicative of any acute cardiopulmonary disease. The image is of low resolution and lacks clarity, making it difficult to disc",
+                "Based on the image provided, it is not possible to definitively determine if there is any acute cardiopulmonary disease. The X-ray shows the chest and lungs, but without additional context or medical expertise, it is not appropriate to",
+                "Based on the image provided, it is not possible for me to definitively determine if the chest X-ray is indicative of any acute cardiopulmonary disease. The image is of low resolution and does not provide enough detail to make",
+                "Based on the image provided, it is not possible to definitively determine if there is an acute cardiopulmonary disease. The image shows a chest X-ray with the label \"RT MCH,\" which likely stands for \"Right T",
+                "No, the chest X-ray does not indicate any acute cardiopulmonary disease. The image shows a normal chest X-ray with no signs of pneumothorax, pleural effusion, or other acute cardiop",
+                "Based on the image provided, it is not possible to definitively determine if the chest X-ray is indicative of any acute cardiopulmonary disease. The image is of low resolution and lacks clarity, making it difficult to disc",
+                "Based on the image provided, it is not possible to definitively determine if the chest X-ray is indicative of any acute cardiopulmonary disease. The image is of low resolution and does not provide enough detail to make a diagnosis",
+                "Based on the image provided, it is not possible to definitively determine if there is any acute cardiopulmonary disease. The X-ray appears to show a normal chest structure, but without additional context or medical expertise, it is not",
+                "Based on the image provided, it is not possible to definitively determine if there is any acute cardiopulmonary disease. The X-ray appears to show a normal chest structure, but a more detailed analysis would be required to make a"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -551.8430609703064,
+                    -542.7353281974792,
+                    -540.0475091934204,
+                    -533.1721367835999,
+                    -520.7841286659241,
+                    -502.5496668815613,
+                    -539.4807333946228,
+                    -540.0475091934204,
+                    -542.7353281974792,
+                    -551.8430609703064,
+                    -554.8026876449585
+                ],
+                [
+                    -526.3424944877625,
+                    -531.7267994880676,
+                    -541.2419204711914,
+                    -524.38782954216,
+                    -524.7530043125153,
+                    -515.6073246002197,
+                    -544.4202206134796,
+                    -541.2419204711914,
+                    -531.7267994880676,
+                    -526.3424944877625,
+                    -528.7715609073639
+                ],
+                [
+                    -550.1604616641998,
+                    -552.5261487960815,
+                    -551.6963305473328,
+                    -541.3460605144501,
+                    -548.000476360321,
+                    -527.8873660564423,
+                    -524.791995882988,
+                    -551.6963305473328,
+                    -552.5261487960815,
+                    -550.1604616641998,
+                    -540.123566865921
+                ],
+                [
+                    -550.1604616641998,
+                    -552.5261487960815,
+                    -551.6963305473328,
+                    -541.3460605144501,
+                    -548.000476360321,
+                    -527.8873660564423,
+                    -524.791995882988,
+                    -551.6963305473328,
+                    -552.5261487960815,
+                    -550.1604616641998,
+                    -540.123566865921
+                ],
+                [
+                    -550.1604616641998,
+                    -552.5261487960815,
+                    -551.6963305473328,
+                    -541.3460605144501,
+                    -548.000476360321,
+                    -527.8873660564423,
+                    -524.791995882988,
+                    -551.6963305473328,
+                    -552.5261487960815,
+                    -550.1604616641998,
+                    -540.123566865921
+                ],
+                [
+                    -537.1302509307861,
+                    -534.0620610713959,
+                    -542.8811988830566,
+                    -540.050567150116,
+                    -537.535261631012,
+                    -516.4297022819519,
+                    -557.9673843383789,
+                    -542.8811988830566,
+                    -534.0620610713959,
+                    -537.1302509307861,
+                    -542.0578546524048
+                ],
+                [
+                    -526.3424944877625,
+                    -531.7267994880676,
+                    -541.2419204711914,
+                    -524.38782954216,
+                    -524.7530043125153,
+                    -515.6073246002197,
+                    -544.4202206134796,
+                    -541.2419204711914,
+                    -531.7267994880676,
+                    -526.3424944877625,
+                    -528.7715609073639
+                ],
+                [
+                    -523.7268900871277,
+                    -520.8830211162567,
+                    -523.6312863826752,
+                    -519.5718245506287,
+                    -530.076159954071,
+                    -507.18390369415283,
+                    -539.729326248169,
+                    -523.6312863826752,
+                    -520.8830211162567,
+                    -523.7268900871277,
+                    -521.0593647956848
+                ],
+                [
+                    -550.1604616641998,
+                    -552.5261487960815,
+                    -551.6963305473328,
+                    -541.3460605144501,
+                    -548.000476360321,
+                    -527.8873660564423,
+                    -524.791995882988,
+                    -551.6963305473328,
+                    -552.5261487960815,
+                    -550.1604616641998,
+                    -540.123566865921
+                ],
+                [
+                    -550.1604616641998,
+                    -552.5261487960815,
+                    -551.6963305473328,
+                    -541.3460605144501,
+                    -548.000476360321,
+                    -527.8873660564423,
+                    -524.791995882988,
+                    -551.6963305473328,
+                    -552.5261487960815,
+                    -550.1604616641998,
+                    -540.123566865921
+                ],
+                [
+                    -526.3424944877625,
+                    -531.7267994880676,
+                    -541.2419204711914,
+                    -524.38782954216,
+                    -524.7530043125153,
+                    -515.6073246002197,
+                    -544.4202206134796,
+                    -541.2419204711914,
+                    -531.7267994880676,
+                    -526.3424944877625,
+                    -528.7715609073639
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.21297700242562734
+        ],
+        "posix": 0.21297700242562734
+    }
+}

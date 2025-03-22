@@ -1,0 +1,189 @@
+{
+    "file_name": "question_249_variants_results.json",
+    "overall_posix": 0.7583339322548813,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.6758969019355058,
+            "Variation 3": 0.755359570222748,
+            "Variation 4": 0.6944323765629001,
+            "Variation 5": 0.6735481203795872,
+            "Variation 6": 0.7795649327758368,
+            "Variation 7": 0.6191436397304497,
+            "Variation 8": 0.9650743646821475,
+            "Variation 9": 1.1813130269962708,
+            "Variation 10": 0.8894769917261028
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lung fields overinflated, suggesting a possible obstructive lung disease like COPD? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the lung fields appear to be overinflated, which is a characteristic finding in some cases of obstructive lung diseases, such as chronic obstructive pulmonary disease (COPD). ",
+                "Yes, the lung fields appear to be overinflated, which is a characteristic finding in some cases of obstructive lung diseases, such as chronic obstructive pulmonary disease (COPD). ",
+                "The image shows a chest X-ray of a patient with a history of chronic obstructive pulmonary disease (COPD). In this case, the lungs appear to be excessively hyperinflated, which is a common finding in patients with",
+                "The lung fields in the image do not show evidence of overexpansion. ",
+                "Yes, the chest X-ray shows signs of hyperinflation in the lungs, which is a common feature of obstructive lung diseases like chronic bronchitis or emphysema. ",
+                "The imaging suggests that the lungs are overdistended, which could be indicative of an obstructive lung disease like COPD. ",
+                "Yes, the image suggests that there is excessive air trapping in the lungs, which could be indicative of an obstructive lung disease such as emphysema or bronchiolitis. ",
+                "The lung fields in the image do not display characteristics consistent with overinflation. This means that the lung fields do not show signs of COPD or other obstructive lung diseases based on the image alone. ",
+                "The image shows a normal chest X-ray, which means that the lungs are not excessively inflated and there are no signs of chronic bronchitis or emphysema. ",
+                "The image does not show signs of overexpansion in the lungs. ",
+                "Yes, the chest X-ray shows radiographic signs of air trapping and hyperinflation in the lungs, which are suggestive of an obstructive lung disease such as emphysema or bronchiolitis. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -46.17194842526416,
+                    -46.17194842526416,
+                    -80.64269042397495,
+                    -59.768420689273626,
+                    -75.33810824090597,
+                    -67.05194015703137,
+                    -79.69324053462515,
+                    -74.0334122131344,
+                    -84.77492301255006,
+                    -66.25426988420077,
+                    -89.7563210198432
+                ],
+                [
+                    -46.17194842526416,
+                    -46.17194842526416,
+                    -80.64269042397495,
+                    -59.768420689273626,
+                    -75.33810824090597,
+                    -67.05194015703137,
+                    -79.69324053462515,
+                    -74.0334122131344,
+                    -84.77492301255006,
+                    -66.25426988420077,
+                    -89.7563210198432
+                ],
+                [
+                    -58.480553548173695,
+                    -58.480553548173695,
+                    -59.49359769043667,
+                    -66.94563791691326,
+                    -69.35976636288979,
+                    -64.84992086804493,
+                    -76.65599717857776,
+                    -90.37408644884727,
+                    -74.96951044665389,
+                    -65.13380136853084,
+                    -87.86720921904453
+                ],
+                [
+                    -58.1260914123566,
+                    -58.1260914123566,
+                    -81.8992187073261,
+                    -43.372379847074626,
+                    -76.14745652400961,
+                    -77.2895051055848,
+                    -86.89669925949329,
+                    -78.14857074878907,
+                    -89.1510441516084,
+                    -54.27145009499509,
+                    -92.09242719069971
+                ],
+                [
+                    -71.50966562988287,
+                    -71.50966562988287,
+                    -81.8380166347439,
+                    -72.315845196601,
+                    -46.92230473337091,
+                    -87.51440466024178,
+                    -85.43475847155065,
+                    -108.02398018020995,
+                    -75.68210293858584,
+                    -66.16325567953754,
+                    -82.05729288003869
+                ],
+                [
+                    -64.18235283675241,
+                    -64.18235283675241,
+                    -82.02222959894948,
+                    -68.0964793273015,
+                    -75.91988043229912,
+                    -45.96513781201406,
+                    -78.80598578770264,
+                    -94.23067613400002,
+                    -83.61393935264732,
+                    -62.600280242506415,
+                    -89.3422412008149
+                ],
+                [
+                    -69.60590293640882,
+                    -69.60590293640882,
+                    -80.17309575639763,
+                    -71.77918845124077,
+                    -72.69992338681138,
+                    -80.50307412831444,
+                    -43.67930939325936,
+                    -110.91978927134733,
+                    -82.57497866706717,
+                    -67.22813870909158,
+                    -66.61939893894294
+                ],
+                [
+                    -56.47924931826648,
+                    -56.47924931826648,
+                    -84.81559213405006,
+                    -60.70972862734925,
+                    -78.04873753819493,
+                    -77.00721376752881,
+                    -87.94249175635741,
+                    -51.23586564462971,
+                    -87.52795794554959,
+                    -66.28713828907348,
+                    -91.38591879763044
+                ],
+                [
+                    -69.78867716235493,
+                    -69.78867716235493,
+                    -70.77546283604693,
+                    -65.09935434203362,
+                    -60.0781425369064,
+                    -84.68272107612165,
+                    -82.10612536320593,
+                    -102.81263245096397,
+                    -52.46717815244571,
+                    -64.33232679677894,
+                    -92.81253293563128
+                ],
+                [
+                    -67.78364787663097,
+                    -67.78364787663097,
+                    -83.92214286394574,
+                    -59.76723982754629,
+                    -71.70332504325734,
+                    -70.81729469468507,
+                    -83.7213148345786,
+                    -92.69506249776794,
+                    -88.40765762383307,
+                    -45.35471769457217,
+                    -88.52472425162432
+                ],
+                [
+                    -70.28562903044144,
+                    -70.28562903044144,
+                    -83.63507048975043,
+                    -75.94141220697202,
+                    -70.04651608876813,
+                    -82.63120552153578,
+                    -63.16169508413043,
+                    -114.6842939557082,
+                    -87.55628387528986,
+                    -69.60357206268236,
+                    -44.625143506455004
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.7583339322548813
+        ],
+        "posix": 0.7583339322548813
+    }
+}

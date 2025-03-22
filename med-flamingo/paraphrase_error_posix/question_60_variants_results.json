@@ -1,0 +1,42 @@
+{
+    "file_name": "question_60_variants.json",
+    "overall_posix": 0.5776453585574544,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6366782006920415,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6228373702422145,
+            "Variation 4": 0.5978552278820375,
+            "Variation 5": 0.6782006920415224,
+            "Variation 6": 0.6643598615916955,
+            "Variation 7": 0.6388059701492538,
+            "Variation 8": 0.6401384083044983,
+            "Variation 9": 0.6366782006920415,
+            "Variation 10": 0.6608996539792388
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\n<image> 2. Is the heart size normal? Please choose from the following two options: [yes, no]\n 3. Is the diaphragm normal? Please choose from the following two options: [yes, no]\n 4",
+                "<s> Is there evidence of pleural effusion visible on this chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\n<image> 2. Is the heart size normal? Please choose from the following two options: [yes, no]\n 3. Is the diaphragm normal? Please choose from the following two options: [yes, no]\n 4",
+                "<s> Does a pleural effusion, as evidenced by increased opacity and/or blunting of the costophrenic angle, exist in this radiograph? Please choose from the following two options: [yes, no]\n<image> 2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Can you see a pleural effusion with its characteristic appearance on this X-ray image, characterized by increased density in the dependent portions of the thoracic cavity? Please choose from the following two options: [yes, no]\n<image> 16.1.1.1  Answer\n The correct answer is no. The X-ray image shows a normal appearance of the thoracic cavity.\n 16.1.1.2  Explanation\n",
+                "<s> Are there radiographic findings suggestive of a pleural effusion, such as blurring or obliteration of the lung-kidney lines, visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\u2002\u2002Chest\u2002X-Ray\u2002(Figure\u200211.10)\n 11.10.1.1\u2002Answer\n No.\n 11.1",
+                "<s> Is there increased opacity in the costophrenic angle that could be indicative of a significant pleural effusion seen on this X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does a radiographic pattern consistent with a moderate to large-sized pleural effusion exist within this chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 24.\n A.  Yes, a moderate-sized pleural effusion is present in the left hemithorax.\n B.  No, a moderate-sized pleural effusion is not present in",
+                "<s> Are there findings on this chest X-ray suggestive of an accumulation of fluid in the pleural space, which could be considered a pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you confirm the presence of a pleural effusion based on the radiographic features observed within this X-ray image? Please choose from the following two options: [yes, no]\n<image> 15.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.",
+                "<s> Is there clear evidence of a pleural effusion as defined by increased opacity or blunting of the costophrenic angle present in this chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.5776453585574544
+        ],
+        "posix": 0.5776453585574544
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_198_variants.json",
+    "overall_posix": 0.42820785242596004,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5508196721311476,
+            "Variation 2": 0.36309523809523814,
+            "Variation 3": 0.23606557377049175,
+            "Variation 4": 0.4950819672131148,
+            "Variation 5": 0.27213114754098355,
+            "Variation 6": 0.5508196721311476,
+            "Variation 7": 0.5639344262295082,
+            "Variation 8": 0.35504885993485336,
+            "Variation 9": 0.41639344262295075,
+            "Variation 10": 0.478688524590164
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is the heart size within normal limits on the chest X-",
+                "<s> Question::: Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question-Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n Comments: The heart size is within normal limits on the chest X-ray. The heart size is normal. The heart size is normal. The heart size is normal. The heart size is normal. The heart",
+                "<s> Q:Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n\n Q:Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n Q:Is",
+                "<s> question:Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked [2] as the answer.The chest X-ray shows a normal heart size.\n 1.What is",
+                "<s> QUESTION:Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n 2.",
+                "<s> Q:Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 5:\n 4:\n 3:\n 6:\n 2:\n 7:\n 1:\n 8",
+                "<s> Question:Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21",
+                "<s> Question:Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n\n 10.Question:Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:",
+                "<s> QUESTION\tIs the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The chest X-ray shows a normal cardiothoracic ratio (CTR) of 50%.\n The heart size is within normal limits",
+                "<s> Question:Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale:The chest X-ray demonstrates a normal-sized heart.\n The heart is the size of the patient\u2019s fist.\n The heart is the"
+            ]
+        ],
+        "sensitivities": [
+            0.42820785242596004
+        ],
+        "posix": 0.42820785242596004
+    }
+}

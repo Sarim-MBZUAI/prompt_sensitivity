@@ -1,0 +1,42 @@
+{
+    "file_name": "question_95_variants.json",
+    "overall_posix": 0.48435794986744607,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5777777777777777,
+            "Variation 2": 0.5966101694915255,
+            "Variation 3": 0.6496815286624203,
+            "Variation 4": 0.42156862745098045,
+            "Variation 5": 0.5129533678756477,
+            "Variation 6": 0.3761904761904762,
+            "Variation 7": 0.31219512195121957,
+            "Variation 8": 0.44059405940594054,
+            "Variation 9": 0.4326923076923077,
+            "Variation 10": 0.5233160621761658
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the cardiac silhouette enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2. Is the cardiac silhouette enlarged on the lateral chest X-ray? Please choose from the following two options: [yes, no]\n a. Yes\n b",
+                "<s> Does the heart appear larger than normal in size on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the heart is larger than normal in size.\n 2. No, the heart is not larger than normal in size.\n 1. Yes, the heart is larger than normal in size.\n 2. No",
+                "<s> Is there cardiomegaly evident on the anterior-posterior projection? Please choose from the following two options: [yes, no]\n<image> 11. Is there a pericardial effusion evident on the lateral projection? Please choose from the following two options: [yes, no]\n 12. Is there a pericardial effusion evident on the",
+                "<s> Is the cardiac contour excessively large compared to thoracic dimensions on this film? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Please confirm if the cardiac silhouette exceeds the expected boundaries on the portable X-ray. Please choose from the following two options: [yes, no]\n<image> \u2460\n \u2461\n \u2462\n \u2463\n \u2464\n \u2465\n \u2466\n \u2467\n \u2468\n \u2469\n",
+                "<s> Is the heart's girth significantly increased beyond the normative range on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Does the imaging suggest that the cardiac volume is expanded beyond typical dimensions? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there marked cardiomegaly present in the mediastinal region of this lateral view? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Is the cardiothoracic ratio greater than 50% indicating an enlarged heart on this AP film? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Please verify if the cardiac size exceeds the expected limits on the standard chest radiograph. Please choose from the following two options: [yes, no]\n<image> \u2460\n \u2461\n \u2462\n \u2463\n \u2464\n \u2465\n \u2466\n \u2467\n \u2468\n \u2469\n"
+            ]
+        ],
+        "sensitivities": [
+            0.48435794986744607
+        ],
+        "posix": 0.48435794986744607
+    }
+}

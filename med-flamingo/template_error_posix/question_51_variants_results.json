@@ -1,0 +1,42 @@
+{
+    "file_name": "question_51_variants.json",
+    "overall_posix": 0.3848960811482748,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5304659498207885,
+            "Variation 2": 0.44017094017094016,
+            "Variation 3": 0.6204819277108434,
+            "Variation 4": 0.3349753694581281,
+            "Variation 5": 0.2827225130890052,
+            "Variation 6": 0.25,
+            "Variation 7": 0.31472081218274117,
+            "Variation 8": 0.2663043478260869,
+            "Variation 9": 0.5508771929824562,
+            "Variation 10": 0.2582417582417582
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Are any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n 11.Question:Is there any evidence of atelectasis? Please choose from the following two options: [yes, no],Answer:\n [yes, no]\n 12.Question:",
+                "<s> Question:Are any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no]\nAnswer:\n<image>\nYes\n \u2756\u2756What is the most likely diagnosis?\n A.  Adenocarcinoma\n B.  Lymphoma\n C.  Sarcoidosis\n D.  Metast",
+                "<s> Question-Are any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no]\nAnswer\n<image> Question-Is there any evidence of a mass or nodule in the right upper lobe? Please choose from the following two options: [yes, no]\n Answer\n Question-Is there any evidence of a mass or nodule in the left",
+                "<s> q::Are any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION\tAre any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n 1.\tNo\n 2.\tYes\n 1.\tNo\n 2.\tYes\n 1.\tNo\n 2.\tYes\n 1",
+                "<s> QUESTION:Are any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> q:::Are any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> q:Are any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Q:Are any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there any evidence of atelectasis? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n Q:Is there any evidence of pleural",
+                "<s> Question:Are any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21"
+            ]
+        ],
+        "sensitivities": [
+            0.3848960811482748
+        ],
+        "posix": 0.3848960811482748
+    }
+}

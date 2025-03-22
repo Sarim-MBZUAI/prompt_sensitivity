@@ -1,0 +1,189 @@
+{
+    "file_name": "question_386_variants.json",
+    "overall_posix": 4.437712171576289,
+    "detailed_scores": [
+        {
+            "Variation 1": 5.769862860441208,
+            "Variation 2": 0.0,
+            "Variation 3": 2.4885946256773814,
+            "Variation 4": 5.042907328709312,
+            "Variation 5": 5.659098065176676,
+            "Variation 6": 2.586322466532389,
+            "Variation 7": 0.8686080412431196,
+            "Variation 8": 5.741031169891357,
+            "Variation 9": 4.699478930234909,
+            "Variation 10": 5.907002038955689
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities noted in the bony structures in the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no abnormalities noted in the bony structures in the X-ray.",
+                "No, there are no radiographic findings indicating abnormal bone architecture in the provided X-ray. The image shows a normal chest X-ray with no signs of fractures, dislocations, or other abnormalities.",
+                "No, there are no abnormalities noted in the bony structures in the X-ray.",
+                "No, the bony structures within the X-ray image do not exhibit any signs of pathologic fracture or trauma.",
+                "Yes, there are visible abnormalities in the bone's cortical and cancellous structure as depicted on the radiograph. The image shows a rib with a fracture, which is a clear abnormality.",
+                "No, the X-ray image does not reveal any evidence of bony lesions or tumor-like formations. The image shows a normal chest X-ray with no abnormalities visible.",
+                "No, there is no noticeable presence of bone resorption or lytic lesions in the radiographic image.",
+                "Yes, there are irregularities in bone density and architecture as observed on the X-ray.",
+                "No, the provided images do not show any bony abnormalities that could be related to a metabolic or nutritional disorder. The bones appear to be of normal density and structure, which is consistent with a healthy skeletal system",
+                "No, there is no radiographic indication of bone destruction or erosion in the X-ray image. The image shows a normal chest X-ray with no signs of pathology.",
+                "No, there are no noticeable changes in bone architecture that could be suggestive of an infectious process in the image provided. The image shows a chest X-ray with the ribs and lungs visible, but there are no signs of bone destruction"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -199.23019933700562,
+                    -476.1836166381836,
+                    -199.23019933700562,
+                    -268.9108488559723,
+                    -431.203936457634,
+                    -442.57141613960266,
+                    -269.0609059333801,
+                    -218.33957624435425,
+                    -486.2817578315735,
+                    -387.209356546402,
+                    -494.58030128479004
+                ],
+                [
+                    -199.23019933700562,
+                    -476.1836166381836,
+                    -199.23019933700562,
+                    -268.9108488559723,
+                    -431.203936457634,
+                    -442.57141613960266,
+                    -269.0609059333801,
+                    -218.33957624435425,
+                    -486.2817578315735,
+                    -387.209356546402,
+                    -494.58030128479004
+                ],
+                [
+                    -199.23019933700562,
+                    -476.1836166381836,
+                    -199.23019933700562,
+                    -268.9108488559723,
+                    -431.203936457634,
+                    -442.57141613960266,
+                    -269.0609059333801,
+                    -218.33957624435425,
+                    -486.2817578315735,
+                    -387.209356546402,
+                    -494.58030128479004
+                ],
+                [
+                    -184.64683485031128,
+                    -461.1918399333954,
+                    -184.64683485031128,
+                    -286.5153932571411,
+                    -416.7597177028656,
+                    -413.9168827533722,
+                    -278.32664918899536,
+                    -211.19728326797485,
+                    -484.94559240341187,
+                    -383.6447343826294,
+                    -467.1918522119522
+                ],
+                [
+                    -197.58616256713867,
+                    -460.0729818344116,
+                    -197.58616256713867,
+                    -275.28490829467773,
+                    -437.07392406463623,
+                    -410.83976006507874,
+                    -263.90364360809326,
+                    -197.87008476257324,
+                    -487.77176451683044,
+                    -389.55900979042053,
+                    -472.7448742389679
+                ],
+                [
+                    -203.512775182724,
+                    -479.0999083518982,
+                    -203.512775182724,
+                    -277.3064212799072,
+                    -444.80768299102783,
+                    -426.7696542739868,
+                    -273.007119178772,
+                    -216.31803011894226,
+                    -491.9255418777466,
+                    -398.7498822212219,
+                    -499.61676692962646
+                ],
+                [
+                    -184.64683485031128,
+                    -461.1918399333954,
+                    -184.64683485031128,
+                    -286.5153932571411,
+                    -416.7597177028656,
+                    -413.9168827533722,
+                    -278.32664918899536,
+                    -211.19728326797485,
+                    -484.94559240341187,
+                    -383.6447343826294,
+                    -467.1918522119522
+                ],
+                [
+                    -203.82332921028137,
+                    -494.3757371902466,
+                    -203.82332921028137,
+                    -263.50689220428467,
+                    -445.60291814804077,
+                    -419.87052822113037,
+                    -270.98845648765564,
+                    -210.27913546562195,
+                    -479.8617272377014,
+                    -391.79070806503296,
+                    -465.5652103424072
+                ],
+                [
+                    -213.26988554000854,
+                    -469.5415816307068,
+                    -213.26988554000854,
+                    -287.06697487831116,
+                    -439.694233417511,
+                    -400.9576964378357,
+                    -273.1794533729553,
+                    -204.06029868125916,
+                    -492.3107533454895,
+                    -368.29987478256226,
+                    -470.5816078186035
+                ],
+                [
+                    -203.5314121246338,
+                    -467.3771471977234,
+                    -203.5314121246338,
+                    -268.86694264411926,
+                    -433.67257285118103,
+                    -425.95178413391113,
+                    -268.784996509552,
+                    -214.9114489555359,
+                    -476.25048565864563,
+                    -398.45402359962463,
+                    -477.1467356681824
+                ],
+                [
+                    -203.5314121246338,
+                    -467.3771471977234,
+                    -203.5314121246338,
+                    -268.86694264411926,
+                    -433.67257285118103,
+                    -425.95178413391113,
+                    -268.784996509552,
+                    -214.9114489555359,
+                    -476.25048565864563,
+                    -398.45402359962463,
+                    -477.1467356681824
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.437712171576289
+        ],
+        "posix": 4.437712171576289
+    }
+}

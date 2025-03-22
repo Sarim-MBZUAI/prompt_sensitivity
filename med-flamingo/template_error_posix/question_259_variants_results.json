@@ -1,0 +1,42 @@
+{
+    "file_name": "question_259_variants.json",
+    "overall_posix": 0.4127249518266005,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5233333333333333,
+            "Variation 2": 0.35775862068965525,
+            "Variation 3": 0.33920704845814975,
+            "Variation 4": 0.47349823321554774,
+            "Variation 5": 0.3739837398373984,
+            "Variation 6": 0.32743362831858414,
+            "Variation 7": 0.38524590163934425,
+            "Variation 8": 0.2924528301886793,
+            "Variation 9": 0.5201342281879194,
+            "Variation 10": 0.5342019543973942
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer:\n [yes]\n The patient has a left-sided pneumothorax. The left hemithorax is collapsed, and the mediastinum is shifted to the right",
+                "<s> Q::: Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n 10.10.1 Chest X-ray image of a patient with a pneumothorax.\n 10.",
+                "<s> q:Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n 19.  If there is a pneumothorax, what is the next step",
+                "<s> Question::: Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Tension pneumothorax\n B. Pleural effusion\n C. Pneumonia\n D. Pneumothorax\n",
+                "<s> question:Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked:\n [1]Yes\n [2]No\n The correct answer is:\n [1]\n Explanation:\n",
+                "<s> q::Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n 19.  A 55-year-old man is brought to",
+                "<s> question::Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\nanswer::\n<image> No, there is no sign of pneumothorax on the chest X-ray image.\n 10.10.10  Answer 10.10.9\n 10.10.1",
+                "<s> q:::Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 10.Question:Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\n Answer:\n [yes",
+                "<s> QUESTION:Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer: Yes\n The chest X-ray shows a right-sided pneumothorax (arrow).\n The patient is in the supine position, and the right hemithorax is more"
+            ]
+        ],
+        "sensitivities": [
+            0.4127249518266005
+        ],
+        "posix": 0.4127249518266005
+    }
+}

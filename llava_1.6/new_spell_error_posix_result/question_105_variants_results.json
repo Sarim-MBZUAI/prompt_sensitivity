@@ -1,0 +1,189 @@
+{
+    "file_name": "question_105_variants.json",
+    "overall_posix": 3.0022703110770546,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.04659624099731445,
+            "Variation 2": 0.7652596950531005,
+            "Variation 3": 8.101895620425543,
+            "Variation 4": 1.2840825939178466,
+            "Variation 5": 1.3117799687385558,
+            "Variation 6": 1.3903018426895142,
+            "Variation 7": 10.176707278598439,
+            "Variation 8": 0.5805684157780239,
+            "Variation 9": 0.8590607881546021,
+            "Variation 10": 0.06094059652211715
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the image you provided is a chest X-ray, not a lumbar X-ray. Scoliosis is typically assessed on a lateral spine X-ray, which is not visible in this image.",
+                "No, the image you provided is a chest X-ray, not a lumbar X-ray. It shows the thoracic region, which includes the lungs, heart, and ribs. Scoliosis is typically detected in a",
+                "No, the image you provided is a chest X-ray, not a lumbar X-ray. It shows the thoracic region, which includes the lungs and heart, but not the lumbar region where scoliosis would typically",
+                "No, the lumbar region does not show signs of scoliosis on the chest X-ray.",
+                "Based on the image provided, it is not possible to definitively determine if there are signs of scoliosis in the lumbar region. Scoliosis is typically characterized by a lateral curvature of the spine, which is not clearly",
+                "Based on the image provided, it is not possible to definitively determine if there are signs of scoliosis in the lumbar region. Scoliosis is typically assessed by looking at the curvature of the spine, which is not",
+                "Based on the image provided, it is not possible to definitively determine if there are signs of scoliosis in the lumbar region. Scoliosis is typically visible on a lateral chest X-ray as a sideways curvature",
+                "No, the X-ray does not show signs of scoliosis on the chest region.",
+                "No, the image you provided is a chest X-ray, not a lumbar X-ray. Therefore, it is not possible to determine if there are signs of scoliosis in the lumbar region from this image.",
+                "No, the image you provided does not show signs of scoliosis on the chest X-ray. Scoliosis is a condition where the spine is curved sideways, which is not visible in this image. The image shows a",
+                "No, the image you provided is a chest X-ray, not a lumbar X-ray. Scoliosis is typically assessed on a lateral lumbar X-ray, which is not visible in this image."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -425.47665429115295,
+                    -427.8064663410187,
+                    -463.739639043808,
+                    -231.03115940093994,
+                    -489.6807839870453,
+                    -491.06565272808075,
+                    -494.99174642562866,
+                    -201.5890941619873,
+                    -453.9245066642761,
+                    -468.42969369888306,
+                    -422.4905650615692
+                ],
+                [
+                    -413.89963775873184,
+                    -450.12277871370316,
+                    -462.48500472307205,
+                    -226.46676796674728,
+                    -472.62344193458557,
+                    -479.8211898803711,
+                    -497.44012546539307,
+                    -181.4263214468956,
+                    -441.0815113186836,
+                    -457.18480998277664,
+                    -419.6311975121498
+                ],
+                [
+                    -425.47665429115295,
+                    -427.8064663410187,
+                    -463.739639043808,
+                    -231.03115940093994,
+                    -489.6807839870453,
+                    -491.06565272808075,
+                    -494.99174642562866,
+                    -201.5890941619873,
+                    -453.9245066642761,
+                    -468.42969369888306,
+                    -422.4905650615692
+                ],
+                [
+                    -420.25595331192017,
+                    -464.2301506996155,
+                    -479.555597782135,
+                    -225.55685663223267,
+                    -467.627011179924,
+                    -469.93033599853516,
+                    -475.9636082649231,
+                    -199.5774621963501,
+                    -456.52773332595825,
+                    -473.57208466529846,
+                    -447.88119530677795
+                ],
+                [
+                    -420.25595331192017,
+                    -464.2301506996155,
+                    -479.555597782135,
+                    -225.55685663223267,
+                    -467.627011179924,
+                    -469.93033599853516,
+                    -475.9636082649231,
+                    -199.5774621963501,
+                    -456.52773332595825,
+                    -473.57208466529846,
+                    -447.88119530677795
+                ],
+                [
+                    -413.89963775873184,
+                    -450.12277871370316,
+                    -462.48500472307205,
+                    -226.46676796674728,
+                    -472.62344193458557,
+                    -479.8211898803711,
+                    -497.44012546539307,
+                    -181.4263214468956,
+                    -441.0815113186836,
+                    -457.18480998277664,
+                    -419.6311975121498
+                ],
+                [
+                    -431.7825597524643,
+                    -455.3118072748184,
+                    -463.61617624759674,
+                    -218.5561261177063,
+                    -488.78811740875244,
+                    -476.3125088214874,
+                    -505.1917653083801,
+                    -196.40514278411865,
+                    -457.30934393405914,
+                    -463.45308208465576,
+                    -441.27751553058624
+                ],
+                [
+                    -416.2298743724823,
+                    -448.74824833869934,
+                    -475.46420073509216,
+                    -236.4338231086731,
+                    -482.26116394996643,
+                    -478.2687175273895,
+                    -498.05820059776306,
+                    -206.65464878082275,
+                    -471.99831545352936,
+                    -456.2862820625305,
+                    -435.5477205514908
+                ],
+                [
+                    -431.7825597524643,
+                    -455.3118072748184,
+                    -463.61617624759674,
+                    -218.5561261177063,
+                    -488.78811740875244,
+                    -476.3125088214874,
+                    -505.1917653083801,
+                    -196.40514278411865,
+                    -457.30934393405914,
+                    -463.45308208465576,
+                    -441.27751553058624
+                ],
+                [
+                    -413.89963775873184,
+                    -450.12277871370316,
+                    -462.48500472307205,
+                    -226.46676796674728,
+                    -472.62344193458557,
+                    -479.8211898803711,
+                    -497.44012546539307,
+                    -181.4263214468956,
+                    -441.0815113186836,
+                    -457.18480998277664,
+                    -419.6311975121498
+                ],
+                [
+                    -416.2298743724823,
+                    -448.74824833869934,
+                    -475.46420073509216,
+                    -236.4338231086731,
+                    -482.26116394996643,
+                    -478.2687175273895,
+                    -498.05820059776306,
+                    -206.65464878082275,
+                    -471.99831545352936,
+                    -456.2862820625305,
+                    -435.5477205514908
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.0022703110770546
+        ],
+        "posix": 3.0022703110770546
+    }
+}

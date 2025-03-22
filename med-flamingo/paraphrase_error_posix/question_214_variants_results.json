@@ -1,0 +1,42 @@
+{
+    "file_name": "question_214_variants.json",
+    "overall_posix": 0.5332081167969348,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.615686274509804,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5898123324396782,
+            "Variation 4": 0.4798534798534799,
+            "Variation 5": 0.5947368421052631,
+            "Variation 6": 0.6823529411764706,
+            "Variation 7": 0.6705882352941176,
+            "Variation 8": 0.43365695792880254,
+            "Variation 9": 0.6026490066225165,
+            "Variation 10": 0.6627450980392157
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any focal consolidation present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any focal consolidation present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pneumonia\n B.Asthma\n C.Chronic obstructive pulmonary disease\n D.Pneumothorax\n E.Tuber",
+                "<s> Is there consolidation of lung tissue within the right lower lobe visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any focal consolidation present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pneumonia\n B.Asthma\n C.Chronic obstructive pulmonary disease\n D.Pneumothorax\n E.Tuber",
+                "<s> Are there any areas of increased opacity within the lung fields on the chest X-ray suggestive of focal consolidation? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any areas of increased opacity within the lung fields on the chest X-ray suggestive of focal consolidation? Please choose from the following two options: [yes, no]\n A.  Yes",
+                "<s> Is the presence of focal alveolar consolidation detectable on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n The chest X-ray shows a focal alveolar consolidation in the right lower lobe.\n 11.10.2  Imaging Findings\n The",
+                "<s> Are there signs of localized inflammation or infection in the lung parenchyma visible on the chest X-ray consistent with focal consolidation? Please choose from the following two options: [yes, no]\n<image> 11. Is there a pleural effusion? Please choose from the following two options: [yes, no]\n 12. Is there a pneumothorax? Please choose from the following two options: [yes,",
+                "<s> Is focal alveolar filling evident within the right middle lobe on the provided chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Does the chest X-ray reveal any focal areas of increased lung density suggestive of consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there detectable opacity within the left upper lobe on the chest X-ray indicative of focal alveolar consolidation? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pneumonia\n B.Atelectasis\n C.Pleural effusion\n D.Pneumothorax\n E.Tension pneumothor",
+                "<s> Are any localized lung lesions visible on the chest X-ray consistent with a diagnosis of focal consolidation? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Correct Answer: Yes\n The chest X-ray shows a focal consolidation in the right lower lobe.\n The X",
+                "<s> Does the chest X-ray show evidence of focal alveolar exudation or filling within the right lower lobe? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.5332081167969348
+        ],
+        "posix": 0.5332081167969348
+    }
+}

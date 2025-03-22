@@ -1,0 +1,189 @@
+{
+    "file_name": "question_106_variants.json",
+    "overall_posix": 1.9305277118739796,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.30007027024808136,
+            "Variation 2": 1.2644684102800157,
+            "Variation 3": 10.015977854530016,
+            "Variation 4": 0.19381964206695557,
+            "Variation 5": 0.12207026282946269,
+            "Variation 6": 0.3818854609131813,
+            "Variation 7": 0.29640730381011965,
+            "Variation 8": 0.02438982155012048,
+            "Variation 9": 0.1084181833267212,
+            "Variation 10": 0.03629233837127686
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray. The image shows a normal chest X-ray with no abnormalities or signs of respiratory disease.",
+                "No, there is no evidence of chronic airflow limitation visible on this chest radiograph. The image shows a normal chest radiograph with no signs of emphysema or other indicators of chronic airflow limitation.",
+                "No, there are no signs of obstructive lung disease on this X-ray. The image shows a normal chest X-ray with the lungs appearing clear and the heart and diaphragm visible.",
+                "No, the chest film does not show features suggestive of emphysema or chronic bronchitis.",
+                "No, there are no findings consistent with COPD on this radiographic image. The image shows a lateral chest X-ray, but there are no signs of hyperinflation, bullae, or emphysema, which are common features",
+                "No, there are no visible signs of air trapping or hyperinflation in the lungs in this image. The lungs appear to be of normal size and shape, and there are no signs of overinflation or trapped air.",
+                "Based on the image provided, it is not possible to definitively determine if there are signs of pulmonary emphysematous changes. The X-ray shows the chest and lungs, but without specific medical training and additional context, it is",
+                "Based on the radiograph provided, it is not possible to definitively determine if the patient has developed a pattern of obstructive lung disease. The image shows a lateral chest X-ray, which is a common diagnostic tool for evaluating the",
+                "No, the chest film does not demonstrate typical findings of chronic bronchitis or emphysema. The image shows a normal chest X-ray with no signs of chronic bronchitis or emphysema.",
+                "No, there are no radiographic features in this image that would support a diagnosis of COPD. The image shows a chest X-ray of a pregnant woman, and there are no signs of emphysema or hyperinflation that are characteristic",
+                "Yes, the image shows a chest X-ray with evidence of airway obstruction and parenchymal destruction. The presence of a large mass in the chest and the distortion of the rib cage suggest that there is significant pathology affecting"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -496.6461880207062,
+                    -482.84295558929443,
+                    -439.74510955810547,
+                    -256.2627195119858,
+                    -506.33717012405396,
+                    -490.78681540489197,
+                    -515.7404610663652,
+                    -511.46655321121216,
+                    -495.52425622940063,
+                    -502.06709718704224,
+                    -498.46080493927
+                ],
+                [
+                    -505.8240547180176,
+                    -487.71635913848877,
+                    -455.77395009994507,
+                    -253.21653413772583,
+                    -519.5100705623627,
+                    -468.65612602233887,
+                    -525.9419732093811,
+                    -514.7257523536682,
+                    -475.4882094860077,
+                    -496.9867866039276,
+                    -524.037871837616
+                ],
+                [
+                    -528.7928712368011,
+                    -497.2513771057129,
+                    -460.64424300193787,
+                    -259.5300316810608,
+                    -530.5681617259979,
+                    -501.40038681030273,
+                    -526.3513267040253,
+                    -510.61501955986023,
+                    -501.66184878349304,
+                    -497.31970405578613,
+                    -523.2422964572906
+                ],
+                [
+                    -510.10540413856506,
+                    -489.67676305770874,
+                    -429.7650339603424,
+                    -245.52437233924866,
+                    -517.9882328510284,
+                    -480.7270631790161,
+                    -550.9014105796814,
+                    -517.4924895763397,
+                    -474.7799220085144,
+                    -501.7822165489197,
+                    -521.4147794246674
+                ],
+                [
+                    -505.8240547180176,
+                    -487.71635913848877,
+                    -455.77395009994507,
+                    -253.21653413772583,
+                    -519.5100705623627,
+                    -468.65612602233887,
+                    -525.9419732093811,
+                    -514.7257523536682,
+                    -475.4882094860077,
+                    -496.9867866039276,
+                    -524.037871837616
+                ],
+                [
+                    -508.10762453079224,
+                    -505.2356584072113,
+                    -431.7238874435425,
+                    -240.13454842567444,
+                    -474.1040630340576,
+                    -467.35331439971924,
+                    -509.8790544271469,
+                    -492.2504732608795,
+                    -468.0973472595215,
+                    -495.3662519454956,
+                    -517.1665380001068
+                ],
+                [
+                    -510.10540413856506,
+                    -489.67676305770874,
+                    -429.7650339603424,
+                    -245.52437233924866,
+                    -517.9882328510284,
+                    -480.7270631790161,
+                    -550.9014105796814,
+                    -517.4924895763397,
+                    -474.7799220085144,
+                    -501.7822165489197,
+                    -521.4147794246674
+                ],
+                [
+                    -513.3892819881439,
+                    -491.63085889816284,
+                    -455.39201378822327,
+                    -243.83664798736572,
+                    -512.058208823204,
+                    -484.90634202957153,
+                    -526.1301727294922,
+                    -485.02552580833435,
+                    -484.3259620666504,
+                    -517.9916744232178,
+                    -500.4701671600342
+                ],
+                [
+                    -525.0968384742737,
+                    -457.0594654083252,
+                    -422.84661388397217,
+                    -248.9386749267578,
+                    -521.2316770553589,
+                    -492.3706283569336,
+                    -523.8658652305603,
+                    -513.5288329124451,
+                    -476.21765899658203,
+                    -493.4480154514313,
+                    -502.19594740867615
+                ],
+                [
+                    -525.0968384742737,
+                    -457.0594654083252,
+                    -422.84661388397217,
+                    -248.9386749267578,
+                    -521.2316770553589,
+                    -492.3706283569336,
+                    -523.8658652305603,
+                    -513.5288329124451,
+                    -476.21765899658203,
+                    -493.4480154514313,
+                    -502.19594740867615
+                ],
+                [
+                    -494.30966782569885,
+                    -514.6857447624207,
+                    -448.260626077652,
+                    -241.7490292787552,
+                    -488.8409540653229,
+                    -482.6078932285309,
+                    -508.1152092218399,
+                    -498.42542839050293,
+                    -470.26486444473267,
+                    -510.93272137641907,
+                    -511.42227125167847
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.9305277118739796
+        ],
+        "posix": 1.9305277118739796
+    }
+}

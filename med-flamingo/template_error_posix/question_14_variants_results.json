@@ -1,0 +1,42 @@
+{
+    "file_name": "question_14_variants.json",
+    "overall_posix": 0.39862597826996937,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5527950310559007,
+            "Variation 2": 0.20197044334975367,
+            "Variation 3": 0.5166666666666667,
+            "Variation 4": 0.5130718954248366,
+            "Variation 5": 0.44897959183673475,
+            "Variation 6": 0.4825174825174825,
+            "Variation 7": 0.13684210526315788,
+            "Variation 8": 0.27586206896551724,
+            "Variation 9": 0.34615384615384615,
+            "Variation 10": 0.511400651465798
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Question:Does the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale: The mediastinum is displaced to the right, and the trachea is deviated to the left. This is a typical finding in patients with a",
+                "<s> QUESTION\tDoes the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Does the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n COMMENT:This is a frontal chest radiograph of a 55-year-old man with a history of a cough and fever. The mediastinum is not enlarged. The heart is",
+                "<s> Question:Does the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of chest pain. The patient is in acute respiratory distress.\n 1.The patient is intubated.\n",
+                "<s> Q:Does the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n \u2022\tThe\tmediastinum\tappears\tto\tbe\tabnormal\ton\tthis\tchest\tX-ray.\tThe\theart\tis\tdisplaced\tto\tthe\tleft",
+                "<s> question::Does the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The mediastinum is enlarged.\n B: The mediastinum is not enlarged.\n 3.Question::What is the most likely diagnosis?\n A: Lymphoma\n",
+                "<s> Q:Does the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q:Does the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> QUESTION:Does the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n [no]\n s\n r\n e\n Figure 10.1\n s\n r\n e\n Figure 10.2\n 10.1A 65-year-old man with a",
+                "<s> Question::: Does the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n The mediastinum is displaced to the right, and the trachea is displaced to the left.\n 10.\n Question:\n What is the most likely diagnosis?\n Answer:\n T"
+            ]
+        ],
+        "sensitivities": [
+            0.39862597826996937
+        ],
+        "posix": 0.39862597826996937
+    }
+}

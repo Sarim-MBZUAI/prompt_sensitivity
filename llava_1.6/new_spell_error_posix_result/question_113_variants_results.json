@@ -1,0 +1,189 @@
+{
+    "file_name": "question_113_variants.json",
+    "overall_posix": 1.31115059039737,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.11315447330474854,
+            "Variation 2": 0.0025328683853149416,
+            "Variation 3": 0.02163240432739258,
+            "Variation 4": 0.15784909725189208,
+            "Variation 5": 0.1404076352411387,
+            "Variation 6": 0.28712037776378874,
+            "Variation 7": 0.15647341012954713,
+            "Variation 8": 0.7045294857025146,
+            "Variation 9": 4.1229879591200085,
+            "Variation 10": 4.1229879591200085
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no evidence of a collapsed lung, or pneumothorax, on this chest X-ray. The lung fields appear to be well-expanded and there are no signs of air or fluid accumulation that would indicate a",
+                "No, there is no evidence of a collapsed lung, or pneumothorax, on this chest X-ray. The lung fields appear to be well-aerated and there are no signs of consolidation or atelectasis that would",
+                "No, there is no evidence of a collapsed lung or pneumothorax on this chest X-ray. The lungs appear to be well-expanded and there are no signs of air or fluid accumulation in the pleural space, which",
+                "No, there is no evidence of a collapsed lung, or pneumothorax, in this chest X-ray. The lung fields appear to be well-expanded and there are no signs of air or fluid accumulation that would suggest a",
+                "Based on the image provided, there is no clear evidence of a collapsed lung or pneumothorax. The lung fields appear to be of normal density, and there are no signs of air or fluid accumulation that would indicate a pneumoth",
+                "No, there is no evidence of a collapsed lung or pneumothorax on this chest X-ray. The lungs appear to be well-expanded and there are no signs of air leaks or other abnormalities.",
+                "No, there is no evidence of acollapsed lung or pneumothorax on this chest X-ray. The lung fields appear to be well-expanded and there are no signs of collapse or air leak.",
+                "No, there is no evidence of a collapsed lung or pneumothorax on this chest X-ray. The lung fields appear to be well-expanded and there are no signs of air or fluid accumulation that would indicate a pneum",
+                "Yes, there is evidence of a collapsed lung, or pneumothorax, on this chest X-ray. The lung appears to be deflated and not fully expanded, which is indicative of a pneumothorax.",
+                "No, there is no evidence of a collapsed lung or pneumothorax on this chest X-ray. The lung appears to be intact and properly inflated.",
+                "No, there is no evidence of a collapsed lung or pneumothorax on this chest X-ray. The lung appears to be intact and properly inflated."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -479.26966190338135,
+                    -473.6119382381439,
+                    -479.3963053226471,
+                    -478.1880416870117,
+                    -487.16211676597595,
+                    -472.38968777656555,
+                    -465.7750041484833,
+                    -487.0933324098587,
+                    -444.0431876182556,
+                    -330.84209537506104,
+                    -330.84209537506104
+                ],
+                [
+                    -479.6417467594147,
+                    -480.78593468666077,
+                    -480.06694293022156,
+                    -478.39006447792053,
+                    -492.51225686073303,
+                    -464.1501581668854,
+                    -477.6329870223999,
+                    -473.82501125335693,
+                    -464.3043301105499,
+                    -327.25889348983765,
+                    -327.25889348983765
+                ],
+                [
+                    -479.26966190338135,
+                    -473.6119382381439,
+                    -479.3963053226471,
+                    -478.1880416870117,
+                    -487.16211676597595,
+                    -472.38968777656555,
+                    -465.7750041484833,
+                    -487.0933324098587,
+                    -444.0431876182556,
+                    -330.84209537506104,
+                    -330.84209537506104
+                ],
+                [
+                    -479.26966190338135,
+                    -473.6119382381439,
+                    -479.3963053226471,
+                    -478.1880416870117,
+                    -487.16211676597595,
+                    -472.38968777656555,
+                    -465.7750041484833,
+                    -487.0933324098587,
+                    -444.0431876182556,
+                    -330.84209537506104,
+                    -330.84209537506104
+                ],
+                [
+                    -473.4579498767853,
+                    -482.36411809921265,
+                    -482.2352454662323,
+                    -472.50523948669434,
+                    -492.90128087997437,
+                    -472.6528568267822,
+                    -444.1564555168152,
+                    -483.55999064445496,
+                    -455.69404554367065,
+                    -333.49639534950256,
+                    -333.49639534950256
+                ],
+                [
+                    -473.4579498767853,
+                    -482.36411809921265,
+                    -482.2352454662323,
+                    -472.50523948669434,
+                    -492.90128087997437,
+                    -472.6528568267822,
+                    -444.1564555168152,
+                    -483.55999064445496,
+                    -455.69404554367065,
+                    -333.49639534950256,
+                    -333.49639534950256
+                ],
+                [
+                    -473.4579498767853,
+                    -482.36411809921265,
+                    -482.2352454662323,
+                    -472.50523948669434,
+                    -492.90128087997437,
+                    -472.6528568267822,
+                    -444.1564555168152,
+                    -483.55999064445496,
+                    -455.69404554367065,
+                    -333.49639534950256,
+                    -333.49639534950256
+                ],
+                [
+                    -479.26966190338135,
+                    -473.6119382381439,
+                    -479.3963053226471,
+                    -478.1880416870117,
+                    -487.16211676597595,
+                    -472.38968777656555,
+                    -465.7750041484833,
+                    -487.0933324098587,
+                    -444.0431876182556,
+                    -330.84209537506104,
+                    -330.84209537506104
+                ],
+                [
+                    -479.26966190338135,
+                    -473.6119382381439,
+                    -479.3963053226471,
+                    -478.1880416870117,
+                    -487.16211676597595,
+                    -472.38968777656555,
+                    -465.7750041484833,
+                    -487.0933324098587,
+                    -444.0431876182556,
+                    -330.84209537506104,
+                    -330.84209537506104
+                ],
+                [
+                    -474.88221168518066,
+                    -475.10490918159485,
+                    -488.71878039836884,
+                    -473.1340208053589,
+                    -480.20001661777496,
+                    -476.5846983194351,
+                    -459.0094131231308,
+                    -501.06141424179077,
+                    -463.1819843053818,
+                    -348.1503403186798,
+                    -348.1503403186798
+                ],
+                [
+                    -473.4579498767853,
+                    -482.36411809921265,
+                    -482.2352454662323,
+                    -472.50523948669434,
+                    -492.90128087997437,
+                    -472.6528568267822,
+                    -444.1564555168152,
+                    -483.55999064445496,
+                    -455.69404554367065,
+                    -333.49639534950256,
+                    -333.49639534950256
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.31115059039737
+        ],
+        "posix": 1.31115059039737
+    }
+}

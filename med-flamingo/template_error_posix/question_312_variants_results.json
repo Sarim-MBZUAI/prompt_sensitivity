@@ -1,0 +1,42 @@
+{
+    "file_name": "question_312_variants.json",
+    "overall_posix": 0.3607473238378071,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.20218579234972678,
+            "Variation 2": 0.5132450331125827,
+            "Variation 3": 0.3776824034334765,
+            "Variation 4": 0.2990654205607477,
+            "Variation 5": 0.24102564102564106,
+            "Variation 6": 0.4742647058823529,
+            "Variation 7": 0.4193548387096775,
+            "Variation 8": 0.5135135135135135,
+            "Variation 9": 0.2657004830917875,
+            "Variation 10": 0.3014354066985646
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> Q:Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 3:\n 4:\n 5:\n 6:\n 7:\n 8:\n 9:\n 1",
+                "<s> QUESTION:Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Explanation:The patient has a left pneumothorax. The left hemithorax is collapsed, and the\n pleural line is not visible. The right hem",
+                "<s> Question:Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, yes]\n [no, no]\n [yes, yes]\n [no, no]\n [yes, no]\n [yes, yes]\n [no, no]\n [yes",
+                "<s> Q::Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> q:Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> QUESTION:Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B:",
+                "<s> Q:Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Q:What is the most likely diagnosis?\n A:Pneumothorax\n B:Pneumonia\n C:Pneumonia and pneumothorax\n D:",
+                "<s> Question-Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is there a pneumomediastinum present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n",
+                "<s> Question::: Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1:\n Option 2:\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n",
+                "<s> Q::: Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::"
+            ]
+        ],
+        "sensitivities": [
+            0.3607473238378071
+        ],
+        "posix": 0.3607473238378071
+    }
+}

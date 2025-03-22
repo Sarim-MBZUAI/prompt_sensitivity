@@ -1,0 +1,42 @@
+{
+    "file_name": "question_203_variants.json",
+    "overall_posix": 0.4717035849926269,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6369426751592356,
+            "Variation 2": 0.33854166666666674,
+            "Variation 3": 0.4553191489361702,
+            "Variation 4": 0.3855421686746988,
+            "Variation 5": 0.5109489051094891,
+            "Variation 6": 0.3486238532110092,
+            "Variation 7": 0.3730769230769231,
+            "Variation 8": 0.4263565891472868,
+            "Variation 9": 0.6888888888888889,
+            "Variation 10": 0.5527950310559007
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of a pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of a pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray show a significant collection of fluid in the pleural space? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the X-ray shows a significant collection of fluid in the pleural space.\n 2. No, the X-ray shows no collection of fluid in the pleural space.\n 1. Yes, the X",
+                "<s> Is there a clear visual indication of pleural effusion on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Can you confirm the presence or absence of a notable increase in density in the pleural spaces on the provided image? Please choose from the following two options: [yes, no]\n<image> 2\n 1\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 1\n 2\n 3\n 4\n 5\n 6\n ",
+                "<s> Please identify whether the lung silhouette appears to be compromised by a substantial accumulation of fluid in the pleural cavity. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this X-ray demonstrate the characteristic appearance of pleural effusion, characterized by an increased lucency in the dependent portions of the lungs? Please choose from the following two options: [yes, no]\n<image> 18\n 19\n 20\n 21\n 22\n 23\n 24\n 25\n 26\n 27\n 28\n 29\n 3",
+                "<s> Is there radiographic evidence suggesting significant pleural fluid accumulation on the given image? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Please assess whether the lung contours appear displaced or obscured due to a substantial amount of pleural fluid on the provided chest X-ray. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this film show the expected pattern of increased opacity and volume expansion associated with pleural effusion in the lower lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n [Yes, no]\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Is there visual confirmation of a notable displacement of the diaphragm or cardiac borders by an abnormal quantity of pleural fluid on the given radiograph? Please choose from the following two options: [yes, no]\n<image> 11. Is there a visible mass or mass-like opacity in the chest on the given radiograph? Please choose from the following two options: [yes, no]\n 12. Is there a visible mass or mass-",
+                "<s> Are there any features indicative of pleural effusion, such as blunting of the costophrenic angles or a significant increase in density in the dependent portions of the lungs, visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 2\n 1\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 11\n 12\n 13\n 14\n 15"
+            ]
+        ],
+        "sensitivities": [
+            0.4717035849926269
+        ],
+        "posix": 0.4717035849926269
+    }
+}

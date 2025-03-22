@@ -1,0 +1,42 @@
+{
+    "file_name": "question_213_variants.json",
+    "overall_posix": 0.36721898555753524,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.13235294117647056,
+            "Variation 2": 0.2857142857142857,
+            "Variation 3": 0.41634241245136194,
+            "Variation 4": 0.484375,
+            "Variation 5": 0.46179401993355484,
+            "Variation 6": 0.48765432098765427,
+            "Variation 7": 0.21395348837209305,
+            "Variation 8": 0.4653465346534653,
+            "Variation 9": 0.21395348837209305,
+            "Variation 10": 0.5107033639143731
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q:Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n 16.  If the answer to question 15 is \u201cyes,\u201d",
+                "<s> Q:Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe\tpatient\thas\ta\tcollapsed\tleft\tlung\t(arrows)\tdue\tto\ta\tlarge\tleft\tpulmonary\tembolus\t(PE).\n \u2022\t",
+                "<s> QUESTION\tIs there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a history of a large right pleural effusion. The X-ray shows a large right pleural effusion with atelectasis of the",
+                "<s> QUESTION:Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there evidence of pneumothorax on the current chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n",
+                "<s> Question::: Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n Is there evidence of atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n 11.",
+                "<s> Question:Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   Explanation:\n   A:The X-ray shows a right-sided pneumothorax. The right lung is\n partially collapsed and the mediastinum is shifted to the left.\n",
+                "<s> Question:Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question-Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n Comments: The patient\u2019s chest X-ray shows a right upper lobe consolidation with air bronchograms. This is consistent with a right upper lobe pneumonia.\n 1"
+            ]
+        ],
+        "sensitivities": [
+            0.36721898555753524
+        ],
+        "posix": 0.36721898555753524
+    }
+}

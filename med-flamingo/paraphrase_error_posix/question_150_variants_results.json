@@ -1,0 +1,42 @@
+{
+    "file_name": "question_150_variants.json",
+    "overall_posix": 0.38876743845801354,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.33476394849785407,
+            "Variation 2": 0.0,
+            "Variation 3": 0.37339055793991416,
+            "Variation 4": 0.3629343629343629,
+            "Variation 5": 0.6201780415430267,
+            "Variation 6": 0.39405204460966536,
+            "Variation 7": 0.6878172588832487,
+            "Variation 8": 0.3605947955390334,
+            "Variation 9": 0.35930735930735924,
+            "Variation 10": 0.3946360153256705
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest radiograph demonstrate any findings consistent with pulmonary consolidation suggestive of pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any evidence on the X-ray of lung abnormalities characteristic of a typical bacterial pneumonia infection? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient's chest radiograph reveal any patterns or features indicative of acute lower respiratory tract infections such as pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any indication on the X-ray of inflammation or consolidation within the lung parenchyma consistent with an infectious process like pneumonia? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pneumonia\n B.Pleural effusion\n C.Pneumothorax\n D.Tuberculosis\n E.Emphysema\n 1",
+                "<s> Does the chest X-ray show any abnormalities that could be suggestive of a bacterial infection affecting the lower respiratory tract, such as pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there clear evidence on the radiograph of alveolar consolidation or other lung changes typical for a diagnosis of community-acquired pneumonia? Please choose from the following two options: [yes, no]\n<image> 11. Is there evidence of cardiomegaly on the chest radiograph? Please choose from the following two options: [yes, no]\n 12. Is there evidence of pleural effusion on the chest radi",
+                "<s> Does the patient's X-ray show any features indicative of an infectious process such as pulmonary infiltrates or consolidations suggestive of pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visible sign on the chest radiograph of lung inflammation consistent with an infection like pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the X-ray reveal any abnormalities in the lung fields that could be suggestive of an acute infectious process such as bacterial pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.38876743845801354
+        ],
+        "posix": 0.38876743845801354
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_214_variants.json",
+    "overall_posix": 3.5949264020179426,
+    "detailed_scores": [
+        {
+            "Variation 1": 2.6974147191414466,
+            "Variation 2": 0.0,
+            "Variation 3": 2.9155190977556953,
+            "Variation 4": 1.9970849553744,
+            "Variation 5": 6.04620087146759,
+            "Variation 6": 2.788122607128961,
+            "Variation 7": 2.92585565493657,
+            "Variation 8": 3.3694019466638565,
+            "Variation 9": 5.177271244200793,
+            "Variation 10": 3.781869814313691
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any focal consolidation present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, there is a focal consolidation present on the chest X-ray.",
+                "No, there is no consolidation of lung tissue within the right lower lobe visible on the chest X-ray.",
+                "Yes, there is a focal consolidation present on the chest X-ray.",
+                "Yes, there is an area of increased opacity within the lung fields on the chest X-ray suggestive of focal consolidation.",
+                "Yes, the presence of focal alveolar consolidation is detectable on the chest X-ray.",
+                "No, there are no signs of localized inflammation or infection in the lung parenchyma visible on the chest X-ray consistent with focal consolidation. The image shows a normal chest X-ray with no abnormalities",
+                "No, there is no focal alveolar filling evident within the right middle lobe on the provided chest X-ray.",
+                "No, the chest X-ray does not reveal any focal areas of increased lung density suggestive of consolidation.",
+                "Yes, there is detectable opacity within the left upper lobe on the chest X-ray indicative of focal alveolar consolidation.",
+                "No, there are no localized lung lesions visible on the chest X-ray consistent with a diagnosis of focal consolidation. The image shows a normal chest X-ray with no abnormalities.",
+                "Yes, the chest X-ray shows evidence of focal alveolar exudation or filling within the right lower lobe."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -183.25658583641052,
+                    -253.38936853408813,
+                    -183.25658583641052,
+                    -267.8066396713257,
+                    -231.18662476539612,
+                    -485.56662940979004,
+                    -261.3240188360214,
+                    -259.32883286476135,
+                    -291.07744812965393,
+                    -411.0565205812454,
+                    -292.93081045150757
+                ],
+                [
+                    -181.80338382720947,
+                    -244.20920038223267,
+                    -181.80338382720947,
+                    -279.0744047164917,
+                    -230.93007028102875,
+                    -496.0211865901947,
+                    -281.4595937728882,
+                    -242.9379861354828,
+                    -312.3317713737488,
+                    -433.96360540390015,
+                    -291.11385202407837
+                ],
+                [
+                    -183.25658583641052,
+                    -253.38936853408813,
+                    -183.25658583641052,
+                    -267.8066396713257,
+                    -231.18662476539612,
+                    -485.56662940979004,
+                    -261.3240188360214,
+                    -259.32883286476135,
+                    -291.07744812965393,
+                    -411.0565205812454,
+                    -292.93081045150757
+                ],
+                [
+                    -174.40762495994568,
+                    -252.837890625,
+                    -174.40762495994568,
+                    -285.6481566429138,
+                    -241.99468564987183,
+                    -496.7675166130066,
+                    -285.7457432746887,
+                    -265.9188230037689,
+                    -326.1221532821655,
+                    -419.070348739624,
+                    -294.37532591819763
+                ],
+                [
+                    -187.0927119255066,
+                    -246.40610456466675,
+                    -187.0927119255066,
+                    -277.95894837379456,
+                    -240.90718960762024,
+                    -502.87548422813416,
+                    -286.93909645080566,
+                    -263.5517330169678,
+                    -318.7382378578186,
+                    -420.8088445663452,
+                    -298.75667905807495
+                ],
+                [
+                    -182.03837251663208,
+                    -241.95660316944122,
+                    -182.03837251663208,
+                    -294.1864333152771,
+                    -221.96123886108398,
+                    -489.2828197479248,
+                    -282.7472925186157,
+                    -251.33063328266144,
+                    -327.7845540046692,
+                    -432.1802408695221,
+                    -275.5532560348511
+                ],
+                [
+                    -177.5304138660431,
+                    -252.2494034767151,
+                    -177.5304138660431,
+                    -279.08034563064575,
+                    -228.0217854976654,
+                    -506.51632165908813,
+                    -283.17627477645874,
+                    -268.9660654067993,
+                    -313.8364329338074,
+                    -423.7471194267273,
+                    -297.46347284317017
+                ],
+                [
+                    -181.80338382720947,
+                    -244.20920038223267,
+                    -181.80338382720947,
+                    -279.0744047164917,
+                    -230.93007028102875,
+                    -496.0211865901947,
+                    -281.4595937728882,
+                    -242.9379861354828,
+                    -312.3317713737488,
+                    -433.96360540390015,
+                    -291.11385202407837
+                ],
+                [
+                    -175.6766996383667,
+                    -250.84243416786194,
+                    -175.6766996383667,
+                    -292.0278272628784,
+                    -242.43523454666138,
+                    -492.70206665992737,
+                    -288.0734646320343,
+                    -262.0317268371582,
+                    -325.019047498703,
+                    -437.68618178367615,
+                    -289.1470670700073
+                ],
+                [
+                    -176.82660591602325,
+                    -241.68646144866943,
+                    -176.82660591602325,
+                    -280.40595626831055,
+                    -230.3333878517151,
+                    -512.5037708282471,
+                    -273.55433464050293,
+                    -267.3023419380188,
+                    -306.0716989040375,
+                    -414.7983729839325,
+                    -300.067262172699
+                ],
+                [
+                    -176.8479676246643,
+                    -253.15014553070068,
+                    -176.8479676246643,
+                    -279.2602436542511,
+                    -244.59430694580078,
+                    -504.9592933654785,
+                    -271.1497120857239,
+                    -269.2268371582031,
+                    -313.06748509407043,
+                    -404.85802364349365,
+                    -296.5731544494629
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.5949264020179426
+        ],
+        "posix": 3.5949264020179426
+    }
+}

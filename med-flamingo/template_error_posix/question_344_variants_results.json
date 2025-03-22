@@ -1,0 +1,42 @@
+{
+    "file_name": "question_344_variants.json",
+    "overall_posix": 0.34168811622060896,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.26582278481012656,
+            "Variation 2": 0.4318181818181819,
+            "Variation 3": 0.5508021390374331,
+            "Variation 4": 0.28099173553719003,
+            "Variation 5": 0.12857142857142856,
+            "Variation 6": 0.20814479638009054,
+            "Variation 7": 0.4970414201183432,
+            "Variation 8": 0.2627118644067796,
+            "Variation 9": 0.24017467248908297,
+            "Variation 10": 0.5508021390374331
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::: Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> question:Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n A.Yes\n B.No\n C.No\n D.Yes\n E.No\n 4.Question:The X-ray shows a large mass in the right lower lobe of the lung. What is the most likely diagn",
+                "<s> Question:Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Model Answer\n This is a frontal chest radiograph of a young adult male patient. The borders of the mediastinum are not obscured and there are noabnormalities.\n To answer this question, you should know",
+                "<s> q::Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> QUESTION:Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> question::Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The borders of the mediastinum are obscured.\n B: The borders of the mediastinum are not obscured.\n 3.Question:\n Is the heart size normal in the current chest X",
+                "<s> q:::Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:What is",
+                "<s> Question:Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Model Answer\n This is a frontal chest radiograph of a young adult male patient. The borders of the mediastinum are not obscured and there are noabnormalities.\n To answer this question, you should know"
+            ]
+        ],
+        "sensitivities": [
+            0.34168811622060896
+        ],
+        "posix": 0.34168811622060896
+    }
+}

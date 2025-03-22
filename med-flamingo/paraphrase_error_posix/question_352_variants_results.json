@@ -1,0 +1,42 @@
+{
+    "file_name": "question_352_variants.json",
+    "overall_posix": 0.4038754761914696,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.14358974358974352,
+            "Variation 2": 0.28205128205128205,
+            "Variation 3": 0.3271028037383177,
+            "Variation 4": 0.4678899082568808,
+            "Variation 5": 0.6436781609195402,
+            "Variation 6": 0.2037914691943128,
+            "Variation 7": 0.3222748815165877,
+            "Variation 8": 0.6153846153846154,
+            "Variation 9": 0.6064516129032258,
+            "Variation 10": 0.42654028436018954
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there opacity indicative of lung consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is consolidation in the lung fields present as per the radiographic findings? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the X-ray demonstrate a pattern consistent with alveolar filling, indicating consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there signs of consolidation within the lungs, such as increased density, on the provided image? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Can lung consolidation be identified by the presence of homogeneous opacification on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Homogeneous opacification on the chest X-ray is not a reliable sign of lung consolidation.\n 2. Homogeneous opacification on the chest X-ray is a reliable sign of lung consolid",
+                "<s> Is there evidence of increased opacity corresponding to lung consolidation on the radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the X-ray show features suggestive of parenchymal disease leading to lung consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic findings that indicate the presence of consolidation in the lungs? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are.\n b. No, there are not.\n 10. Please select from the following two options: [left, right] which of the folowing is the most common\n cause of pneumonia",
+                "<s> Can consolidation within the lung tissue be visualized as a result of pulmonary pathology on the provided image? Please choose from the following two options: [yes, no]\n<image> a. No\n b. Yes\n 5. What is the most likely diagnosis?\n a. Pneumonia\n b. Pulmonary edema\n c. Pulmonary hemorrhage\n d. Pulmonary inf",
+                "<s> Is lung consolidation evident from the increased density and opacification seen on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1"
+            ]
+        ],
+        "sensitivities": [
+            0.4038754761914696
+        ],
+        "posix": 0.4038754761914696
+    }
+}

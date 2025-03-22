@@ -1,0 +1,189 @@
+{
+    "file_name": "question_107_variants_results.json",
+    "overall_posix": 0.9971022810521497,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.7257328687573321,
+            "Variation 2": 0.6481489385642605,
+            "Variation 3": 0.7910069207326329,
+            "Variation 4": 1.5898710403692105,
+            "Variation 5": 1.009145607013728,
+            "Variation 6": 1.320218705841668,
+            "Variation 7": 0.9328952403004089,
+            "Variation 8": 0.9014940796622358,
+            "Variation 9": 1.1433669623818776,
+            "Variation 10": 0.8854943617928939
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray does not show any signs of lung infection, such as focal consolidation. ",
+                "The chest x-ray does not show any evidence of lung infection, including focal consolidation, such as that typically seen with pneumonia. ",
+                "The chest X-ray shows bilateral focal consolidation, which is suggestive of a lung infection, such as pneumonia. ",
+                "The chest x-ray does not show any signs of lung consolidation, which is consistent with an infectious process like pneumonia. ",
+                "The chest x-ray does not show evidence of lung inflammation due to infection, including areas of increased opacity. ",
+                "The chest x-ray does not show any radiographic features indicative of pneumonia or other lower respiratory tract infections, such as focal alveolar opacities. ",
+                "Yes, the chest X-ray demonstrates consolidation in one or both lungs consistent with an infectious process like community-acquired pneumonia. ",
+                "The chest X-ray does not show any evidence of lung infection characterized by alveolar consolidation or pleural effusion. ",
+                "The chest x-ray does not show any radiographic signs of lobar or segmental consolidation, which would suggest the presence of a lower respiratory tract infection. ",
+                "The chest x-ray does not show features consistent with an infectious process like pneumonia. ",
+                "The chest x-ray does not show any abnormal radiographic findings that would indicate the presence of pneumonia or other forms of lung infection. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -43.32402826424607,
+                    -67.27321293323803,
+                    -63.41664535973814,
+                    -67.84524280695769,
+                    -86.25054635421475,
+                    -85.70814375882264,
+                    -89.53168296870444,
+                    -70.37799023295793,
+                    -77.58080329141103,
+                    -69.62146839902925,
+                    -72.54534220341156
+                ],
+                [
+                    -51.294795216006605,
+                    -44.452735665154705,
+                    -60.2184277213139,
+                    -68.77775108309288,
+                    -79.34123680294579,
+                    -83.97994244016627,
+                    -86.83095985382579,
+                    -69.32327713741051,
+                    -81.80061689958029,
+                    -65.16526995065215,
+                    -69.63811892160447
+                ],
+                [
+                    -57.81228713927521,
+                    -76.82034695255197,
+                    -45.234929670809606,
+                    -71.74176419424111,
+                    -90.45267454492932,
+                    -89.33626870552052,
+                    -86.2095906402235,
+                    -76.25865092210779,
+                    -82.13121670325427,
+                    -70.19603944902519,
+                    -77.3606412885947
+                ],
+                [
+                    -62.96303272592377,
+                    -77.74105719176441,
+                    -67.6786655159649,
+                    -44.88119331954226,
+                    -86.59010489190769,
+                    -83.44794161609707,
+                    -73.26908628268393,
+                    -75.7720297345395,
+                    -79.91103940271569,
+                    -52.076387189788875,
+                    -76.07471815829558
+                ],
+                [
+                    -63.274972737004646,
+                    -75.60822358760925,
+                    -72.35835225716164,
+                    -68.83090620010626,
+                    -43.126638564404175,
+                    -85.24191623258776,
+                    -90.325643780061,
+                    -72.79236096772456,
+                    -81.50268331366442,
+                    -68.193377065385,
+                    -74.29417143331375
+                ],
+                [
+                    -63.456649400289734,
+                    -79.98116988679885,
+                    -72.14977199823443,
+                    -71.87836017147401,
+                    -85.54885485186969,
+                    -44.95103491833714,
+                    -92.58868929647042,
+                    -76.43600193822567,
+                    -75.5419556598124,
+                    -68.65666104803495,
+                    -71.60482846098421
+                ],
+                [
+                    -69.91528172074322,
+                    -85.72285789293528,
+                    -70.79021448208914,
+                    -62.51014774541636,
+                    -91.20541161609799,
+                    -87.3572180103306,
+                    -41.867181807333054,
+                    -80.54145038322713,
+                    -84.98380007904143,
+                    -57.93093258420777,
+                    -78.39172492688158
+                ],
+                [
+                    -61.008306877683935,
+                    -75.54461450091912,
+                    -66.66274519096896,
+                    -70.53860631877978,
+                    -82.82736895043126,
+                    -85.785579975774,
+                    -85.51956760357643,
+                    -44.375554136666096,
+                    -81.523021079091,
+                    -68.18200275357958,
+                    -71.50581676522779
+                ],
+                [
+                    -62.59920528427938,
+                    -82.54813527404622,
+                    -70.03809626838665,
+                    -69.81761390306201,
+                    -88.46157881643376,
+                    -78.3254033396754,
+                    -91.7997325192905,
+                    -74.26235631335294,
+                    -46.50855428968521,
+                    -73.53236053867295,
+                    -71.61893332529326
+                ],
+                [
+                    -69.88544171527428,
+                    -84.50035650679274,
+                    -73.37101429907034,
+                    -60.451386774579305,
+                    -86.29433439516288,
+                    -86.77752298947053,
+                    -82.02606156637705,
+                    -82.42478621434748,
+                    -86.22146721721356,
+                    -45.15559401364317,
+                    -76.04160442620196
+                ],
+                [
+                    -62.633939137978814,
+                    -79.82283409988668,
+                    -72.6578351313492,
+                    -72.85386742917399,
+                    -92.58486027246545,
+                    -79.86526492032772,
+                    -92.51680215414854,
+                    -75.6660120616234,
+                    -81.62101793597458,
+                    -71.5820319296181,
+                    -45.579899142719114
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.9971022810521497
+        ],
+        "posix": 0.9971022810521497
+    }
+}

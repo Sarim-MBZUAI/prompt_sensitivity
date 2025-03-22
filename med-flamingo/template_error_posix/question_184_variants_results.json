@@ -1,0 +1,42 @@
+{
+    "file_name": "question_184_variants.json",
+    "overall_posix": 0.4833751795888873,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4683098591549295,
+            "Variation 2": 0.49295774647887325,
+            "Variation 3": 0.5105633802816901,
+            "Variation 4": 0.49295774647887325,
+            "Variation 5": 0.4683098591549295,
+            "Variation 6": 0.46896551724137936,
+            "Variation 7": 0.49295774647887325,
+            "Variation 8": 0.4964788732394366,
+            "Variation 9": 0.4668989547038327,
+            "Variation 10": 0.47535211267605626
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a right pleural effusion.\n b. No, there is no right pleural effusion.\n 10. Please describe the right hemithorax.\n a. Normal.\n b. Normal",
+                "<s> q::Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:::Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question:Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> q:Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 1",
+                "<s> QUESTION:Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there any abnormality noted in the left costophrenic angle? Please choose from the following two options: [yes, no]\n A:\n B:\n 3",
+                "<s> Question:Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Q:Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 5:\n 4:\n 3:\n 6:\n 7:\n 2:\n 8:\n 9",
+                "<s> Question::: Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumonia\n B. Pleural effusion\n C. Pneumothorax\n D. Pulmonary embolism\n E",
+                "<s> QUESTION:Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, yes]\n 10.\n QUESTION:What is the most likely diagnosis?\n [A]Pneumonia\n [B]Pneumothorax\n [C]"
+            ]
+        ],
+        "sensitivities": [
+            0.4833751795888873
+        ],
+        "posix": 0.4833751795888873
+    }
+}

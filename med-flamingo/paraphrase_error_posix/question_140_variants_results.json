@@ -1,0 +1,42 @@
+{
+    "file_name": "question_140_variants.json",
+    "overall_posix": 0.4269537429074381,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.25116279069767444,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5658682634730539,
+            "Variation 4": 0.3013698630136986,
+            "Variation 5": 0.5847457627118644,
+            "Variation 6": 0.6314285714285715,
+            "Variation 7": 0.4962121212121212,
+            "Variation 8": 0.6149870801033591,
+            "Variation 9": 0.39357429718875503,
+            "Variation 10": 0.43018867924528303
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there visible air collections between the lung tissue and the chest wall on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there signs of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a presence of pneumatoceles or other evidence suggesting the development of a pneumothorax in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there a presence of a pneumothorax in the patient's chest X-ray?\n 12.  Is there a presence of a pneumothorax in the patient's ch",
+                "<s> Does this chest X-ray show signs of air leakage into the pleural space, indicative of a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographic findings consistent with a spontaneous or traumatic pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other pertinent findings on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Is there any evidence of a p",
+                "<s> Does this chest image demonstrate the presence of a free air collection within the thoracic cavity, suggestive of a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1. Free air in the pleural space is present.\n 2. Free air in the pleural space is absent.\n 3. The correct response is 1.\n 4. The correct response is 2.\n",
+                "<s> Is there evidence on this radiograph of an air-filled space between the lung parenchyma and the parietal pleura, characteristic of a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Are there visible signs of a tension or simple pneumothorax on the patient's chest X-ray, as indicated by the presence of air within the thoracic cavity? Please choose from the following two options: [yes, no]\n<image> 11. Is there a visible pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there a visible fracture of the",
+                "<s> Does this chest image reveal any radiographic abnormalities consistent with an iatrogenic or traumatic pneumothorax in the patient? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there clinical and imaging findings suggestive of a pneumothorax, as evidenced by air collections within the pleural space on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.4269537429074381
+        ],
+        "posix": 0.4269537429074381
+    }
+}

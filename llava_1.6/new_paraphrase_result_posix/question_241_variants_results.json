@@ -1,0 +1,189 @@
+{
+    "file_name": "question_241_variants.json",
+    "overall_posix": 4.493458512362127,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.7094639587402343,
+            "Variation 2": 9.10653954744339,
+            "Variation 3": 2.0797678947448732,
+            "Variation 4": 6.062114419937134,
+            "Variation 5": 6.925167766484347,
+            "Variation 6": 0.1576254339445205,
+            "Variation 7": 1.4676310237573118,
+            "Variation 8": 9.077204835414886,
+            "Variation 9": 4.787345078256395,
+            "Variation 10": 0.09381592273712158
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, there is an abnormality in the mediastinum as seen on the chest X-ray. There is a mass or nodule located in the right lower lobe of the lung.",
+                "Yes, there is a notable finding in the mediastinal region on the chest radiograph. There is a mass in the mediastinal region, which is an area between the lungs and the heart. This mass could be indicative of a variety",
+                "Yes, there is evidence of mediastinal pathology visible on the X-ray.",
+                "Yes, the chest X-ray shows an abnormality within the mediastinum. There is a mass or nodule visible in the central part of the chest, which is within the mediastinum. This could be indicative of",
+                "Yes, there is a noticeable lesion or mass in the mediastinum as seen on the film.",
+                "Yes, there are pathologic changes visible on the radiograph within the mediastinal space.",
+                "No, the mediastinum on the chest X-ray is not free of abnormal findings. There is a mass visible in the mediastinum, which is an area of concern.",
+                "Yes, the image reveals an abnormality within the central compartment of the thorax, specifically within the mediastinum. There is a mass visible in the mediastinum, which is not a normal finding.",
+                "Yes, there is a notable mediastinal abnormality on the X-ray.",
+                "No, there are findings of note visible on the chest radiograph. The mediastinum is not unremarkable.",
+                "No, the mediastinal region in the chest X-ray appears abnormal. There is a mass or lesion in the mediastinal region, which is not a normal finding."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -387.69077587127686,
+                    -473.1639738082886,
+                    -205.55998492240906,
+                    -491.6791706085205,
+                    -236.1379153728485,
+                    -235.33708500862122,
+                    -394.3110440969467,
+                    -459.60469603538513,
+                    -206.14667916297913,
+                    -258.4324587583542,
+                    -383.938138961792
+                ],
+                [
+                    -392.2313630580902,
+                    -478.009840965271,
+                    -199.86958169937134,
+                    -475.1533498764038,
+                    -240.81761288642883,
+                    -223.96466094255447,
+                    -383.51783990859985,
+                    -484.3114986419678,
+                    -201.31137084960938,
+                    -261.55004835128784,
+                    -376.95548248291016
+                ],
+                [
+                    -416.8676199913025,
+                    -495.36579608917236,
+                    -183.63378620147705,
+                    -470.4133858680725,
+                    -236.99510526657104,
+                    -226.88916146755219,
+                    -398.5562355518341,
+                    -447.0769114494324,
+                    -191.24263954162598,
+                    -247.83674836158752,
+                    -385.1671986579895
+                ],
+                [
+                    -410.62349796295166,
+                    -475.0205738544464,
+                    -193.88577830791473,
+                    -483.58970642089844,
+                    -223.28262972831726,
+                    -212.96312880516052,
+                    -389.8094344139099,
+                    -462.61166501045227,
+                    -192.22291839122772,
+                    -249.24128580093384,
+                    -389.15451979637146
+                ],
+                [
+                    -387.69077587127686,
+                    -473.1639738082886,
+                    -205.55998492240906,
+                    -491.6791706085205,
+                    -236.1379153728485,
+                    -235.33708500862122,
+                    -394.3110440969467,
+                    -459.60469603538513,
+                    -206.14667916297913,
+                    -258.4324587583542,
+                    -383.938138961792
+                ],
+                [
+                    -405.86835289001465,
+                    -464.2276952266693,
+                    -188.03371405601501,
+                    -479.9542853832245,
+                    -222.37717378139496,
+                    -219.6297504901886,
+                    -387.296489238739,
+                    -438.6285277605057,
+                    -187.82896065711975,
+                    -253.8823356628418,
+                    -401.1762031316757
+                ],
+                [
+                    -410.62349796295166,
+                    -475.0205738544464,
+                    -193.88577830791473,
+                    -483.58970642089844,
+                    -223.28262972831726,
+                    -212.96312880516052,
+                    -389.8094344139099,
+                    -462.61166501045227,
+                    -192.22291839122772,
+                    -249.24128580093384,
+                    -389.15451979637146
+                ],
+                [
+                    -375.08528113365173,
+                    -473.142879486084,
+                    -185.75289952754974,
+                    -478.8614263534546,
+                    -228.4444031715393,
+                    -202.1337287425995,
+                    -385.43904876708984,
+                    -467.19333362579346,
+                    -190.388476729393,
+                    -234.16581535339355,
+                    -379.0792427062988
+                ],
+                [
+                    -408.96752309799194,
+                    -477.8533732891083,
+                    -196.77489018440247,
+                    -483.86157619953156,
+                    -239.35525357723236,
+                    -226.9011435508728,
+                    -399.2822165489197,
+                    -457.8466696739197,
+                    -192.71988034248352,
+                    -262.3270432949066,
+                    -399.5341194868088
+                ],
+                [
+                    -391.4451472759247,
+                    -471.0346484184265,
+                    -188.19547593593597,
+                    -482.29979968070984,
+                    -239.5758466720581,
+                    -216.89276552200317,
+                    -362.1947524547577,
+                    -466.8708281517029,
+                    -187.8327454328537,
+                    -250.9778733253479,
+                    -370.0132327079773
+                ],
+                [
+                    -403.32030069828033,
+                    -488.4221124649048,
+                    -190.5358813405037,
+                    -462.6908702850342,
+                    -233.95619344711304,
+                    -231.83074641227722,
+                    -383.23297333717346,
+                    -457.37656474113464,
+                    -198.01083880662918,
+                    -250.7734889984131,
+                    -379.1916403770447
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.493458512362127
+        ],
+        "posix": 4.493458512362127
+    }
+}

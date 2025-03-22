@@ -1,0 +1,42 @@
+{
+    "file_name": "question_48_variants.json",
+    "overall_posix": 0.3779105817443134,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.41463414634146334,
+            "Variation 2": 0.34246575342465757,
+            "Variation 3": 0.32727272727272727,
+            "Variation 4": 0.5607476635514018,
+            "Variation 5": 0.59375,
+            "Variation 6": 0.3924050632911392,
+            "Variation 7": 0.1901408450704225,
+            "Variation 8": 0.1901408450704225,
+            "Variation 9": 0.34838709677419355,
+            "Variation 10": 0.41916167664670656
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "0 cm? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> 0 cm? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::0 cm? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:0 cm? Please choose from the following two options: [yes, no]||A:\n<image> B:\n C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:\n R:",
+                "<s> Question:0 cm? Please choose from the following two options: [yes, no]||Answer:\n<image> 1 cm\n 2 cm\n 3 cm\n 4 cm\n 5 cm\n 6 cm\n 7 cm\n 8 cm\n 9 cm\n 10 cm\n 11 cm\n 12 cm",
+                "<s> Q:0 cm? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 1.\n Q:0 cm? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no]\n 2.\n Q:0 cm? Please choose from",
+                "<s> Question:0 cm? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no], [yes, no], [yes, no], [yes, no].\n 10.\n Question:0 cm? Please choose from the following two options: [yes, no],\n [yes, no],",
+                "<s> q:::0 cm? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:0 cm? Please choose from the following two options: [yes, no]\nAnswer:\n<image> 0 cm\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n",
+                "<s> QUESTION:0 cm? Please choose from the following two options: [yes, no]\nANSWER:\n<image> 0 cm\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n",
+                "<s> Question:0 cm? Please choose from the following two options: [yes, no]\nAnswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> q:0 cm? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 15.What is the most likely diagnosis?\n a"
+            ]
+        ],
+        "sensitivities": [
+            0.3779105817443134
+        ],
+        "posix": 0.3779105817443134
+    }
+}

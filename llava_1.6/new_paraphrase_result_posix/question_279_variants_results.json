@@ -1,0 +1,189 @@
+{
+    "file_name": "question_279_variants.json",
+    "overall_posix": 0.3647137404138393,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.37269092321395875,
+            "Variation 2": 0.552983648777008,
+            "Variation 3": 0.4933973240852356,
+            "Variation 4": 0.04412726879119873,
+            "Variation 5": 0.19239423751831056,
+            "Variation 6": 0.07579676151275634,
+            "Variation 7": 0.6900670218467713,
+            "Variation 8": 0.15977484464645386,
+            "Variation 9": 0.04546937704086304,
+            "Variation 10": 0.7872086882591247
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, a chest X-ray is not the appropriate imaging modality to assess the stability or progression of a spine deformity. A chest X-ray primarily focuses on the lungs and heart, and it does not provide sufficient detail to",
+                "No, a chest X-ray is not the appropriate imaging modality to evaluate the stability or progression of spinal deformities. It is primarily used to assess the lungs and heart, and does not provide sufficient detail to evaluate the spine",
+                "No, a chest X-ray is not designed to assess the stability or progression of a spinal deformity. It is primarily used to examine the lungs and heart, and does not provide sufficient information about the spine. To assess the spine",
+                "No, the chest X-ray does not provide sufficient information to determine if the noted spinal deformity is static or has undergone change. The X-ray is focused on the chest and lungs, and the spinal deformity",
+                "No, the findings on the chest X-ray do not provide information about the degree of progression or stability of the spine deformity. Chest X-rays are primarily used to assess the lungs and heart, and they do not provide",
+                "No, there is not sufficient evidence on the chest X-ray to confirm whether the spine deformity is static or has progressed over time. The X-ray is focused on the chest and lungs, and the spine is not clearly visible.",
+                "No, a chest X-ray is not the appropriate imaging modality to provide a definitive answer regarding the stability or progression of a spinal deformity. A chest X-ray primarily focuses on the lungs and heart, and it",
+                "No, the image does not provide enough information to determine if there is progression or stability of the spine deformity. The focus of the image is on the chest and lungs, and there is no clear view of the spine to assess its condition",
+                "Yes, the findings on the chest X-ray can be used to establish a baseline for assessing the stability or progression of the noted spinal deformity. The X-ray provides a clear view of the chest and spine, allowing for",
+                "No, there is not sufficient information on this chest X-ray to make an informed decision about the stability or progression of the spine deformity. The image is focused on the chest and does not provide a clear view of the spine.",
+                "No, a chest X-ray is not the appropriate imaging modality to evaluate spinal deformities. It is primarily used to evaluate the lungs and heart. To assess spinal deformities, a lateral or frontal spinal"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -486.1828387975693,
+                    -504.8173849582672,
+                    -513.8320212364197,
+                    -510.85270500183105,
+                    -483.97647535800934,
+                    -476.56312692165375,
+                    -482.39300072193146,
+                    -520.6861898899078,
+                    -478.1940965652466,
+                    -483.9093699455261,
+                    -525.5432732105255
+                ],
+                [
+                    -472.74863600730896,
+                    -499.5965052843094,
+                    -479.2374994754791,
+                    -455.1517640352249,
+                    -462.37002825737,
+                    -456.79870200157166,
+                    -475.48751056194305,
+                    -452.4461520910263,
+                    -464.27518117427826,
+                    -461.5848169326782,
+                    -501.7827482223511
+                ],
+                [
+                    -486.1828387975693,
+                    -504.8173849582672,
+                    -513.8320212364197,
+                    -510.85270500183105,
+                    -483.97647535800934,
+                    -476.56312692165375,
+                    -482.39300072193146,
+                    -520.6861898899078,
+                    -478.1940965652466,
+                    -483.9093699455261,
+                    -525.5432732105255
+                ],
+                [
+                    -476.27363443374634,
+                    -478.7038987874985,
+                    -473.2152955532074,
+                    -464.80605256557465,
+                    -486.83181869983673,
+                    -454.098379611969,
+                    -452.7297303676605,
+                    -470.20083487033844,
+                    -489.4638273715973,
+                    -468.965852022171,
+                    -498.4190936088562
+                ],
+                [
+                    -491.6571100950241,
+                    -509.02096378803253,
+                    -509.80388927459717,
+                    -469.8245817422867,
+                    -493.87376046180725,
+                    -475.5055710077286,
+                    -518.4209189414978,
+                    -451.9924168586731,
+                    -490.6531844139099,
+                    -480.4455187320709,
+                    -508.4366943836212
+                ],
+                [
+                    -464.2113399505615,
+                    -483.2421997785568,
+                    -487.47744929790497,
+                    -475.40374970436096,
+                    -494.30373525619507,
+                    -460.9471731185913,
+                    -466.72174525260925,
+                    -478.20685720443726,
+                    -476.66543555259705,
+                    -479.69021809101105,
+                    -478.83121490478516
+                ],
+                [
+                    -480.59505903720856,
+                    -508.37412452697754,
+                    -486.4979099035263,
+                    -492.3195176124573,
+                    -481.6059299707413,
+                    -449.2746299505234,
+                    -474.31390857696533,
+                    -470.6695923805237,
+                    -483.4652523994446,
+                    -475.4845304489136,
+                    -523.5606482028961
+                ],
+                [
+                    -480.59505903720856,
+                    -508.37412452697754,
+                    -486.4979099035263,
+                    -492.3195176124573,
+                    -481.6059299707413,
+                    -449.2746299505234,
+                    -474.31390857696533,
+                    -470.6695923805237,
+                    -483.4652523994446,
+                    -475.4845304489136,
+                    -523.5606482028961
+                ],
+                [
+                    -477.18327617645264,
+                    -519.4622383117676,
+                    -471.5877842903137,
+                    -487.73993372917175,
+                    -471.9601502418518,
+                    -445.30894434452057,
+                    -500.37082278728485,
+                    -485.6263551712036,
+                    -490.2101241350174,
+                    -476.7748055458069,
+                    -506.898907661438
+                ],
+                [
+                    -476.27363443374634,
+                    -478.7038987874985,
+                    -473.2152955532074,
+                    -464.80605256557465,
+                    -486.83181869983673,
+                    -454.098379611969,
+                    -452.7297303676605,
+                    -470.20083487033844,
+                    -489.4638273715973,
+                    -468.965852022171,
+                    -498.4190936088562
+                ],
+                [
+                    -474.2260240316391,
+                    -482.795227766037,
+                    -492.17601692676544,
+                    -513.1077299118042,
+                    -480.1950385570526,
+                    -459.1968094110489,
+                    -478.352915763855,
+                    -493.63669061660767,
+                    -480.21159267425537,
+                    -463.0747011899948,
+                    -490.96708512306213
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.3647137404138393
+        ],
+        "posix": 0.3647137404138393
+    }
+}

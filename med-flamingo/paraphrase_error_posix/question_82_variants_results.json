@@ -1,0 +1,42 @@
+{
+    "file_name": "question_82_variants.json",
+    "overall_posix": 0.6326032928819814,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6428571428571429,
+            "Variation 2": 0.6461038961038961,
+            "Variation 3": 0.6623376623376623,
+            "Variation 4": 0.6428571428571429,
+            "Variation 5": 0.6396103896103896,
+            "Variation 6": 0.6363636363636364,
+            "Variation 7": 0.6266233766233766,
+            "Variation 8": 0.6038251366120219,
+            "Variation 9": 0.6168831168831169,
+            "Variation 10": 0.6085714285714285
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pleural effusion? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of a pneumothorax? Please choose from the following",
+                "<s> Are there observable lung opacities on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pulmonary infiltrates visible on the provided image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you identify any consolidations or ground-glass densities within the lungs on the radiograph? Please choose from the following two options: [yes, no]\n<image> 1.Yes, I can see consolidations and ground-glass densities.\n 2.No, I cannot see any consolidations or ground-glass densities.\n 1.\n 2.\n 11",
+                "<s> Are there discernible signs of alveolar consolidation or interstitial disease in the thoracic cavity as seen on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please confirm if the chest X-ray reveals any abnormal lung patterns. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visible indication of pulmonary edema, consolidation, or infiltration on the film? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the images depict any abnormalities within the lung parenchyma consistent with an infiltrative process? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the images characteristic of interstitial lung disease or alveolar consolidation? Please choose from the following two options: [yes, no]\n<image> a. Yes, the images are characteristic of interstitial lung disease\n b. No, the images are not characteristic of interstitial lung disease\n 3. Are the images characteristic of alveolar consolidation? Please choose",
+                "<s> Can you observe any unusual densities or opacities within the lungs that might suggest a pathological condition? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please select whether there are visible indications of respiratory distress-related changes on the X-ray. Please choose from the following two options: [yes, no]\n<image> \u2460Yes, there are visible indications of respiratory distress-related changes on the X-ray.\n \u2461No, there are not visible indications of respiratory distress-related changes on the"
+            ]
+        ],
+        "sensitivities": [
+            0.6326032928819814
+        ],
+        "posix": 0.6326032928819814
+    }
+}

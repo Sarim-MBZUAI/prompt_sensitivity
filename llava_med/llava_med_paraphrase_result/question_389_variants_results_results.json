@@ -1,0 +1,189 @@
+{
+    "file_name": "question_389_variants_results.json",
+    "overall_posix": 1.0957904479286968,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5795438967202025,
+            "Variation 2": 0.0,
+            "Variation 3": 0.8457527997187216,
+            "Variation 4": 1.6373837355095247,
+            "Variation 5": 0.9292658681003104,
+            "Variation 6": 1.6179377549927776,
+            "Variation 7": 1.1996304436016942,
+            "Variation 8": 1.525357584127164,
+            "Variation 9": 1.273357995387913,
+            "Variation 10": 1.2952220336881872
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the cardiac silhouette size appears to be within normal limits on this chest X-ray. ",
+                "Yes, the cardiac silhouette size in the chest X-ray appears to be within the expected normal range for an adult male. ",
+                "Yes, the cardiac silhouette size appears to be within normal limits on this chest X-ray. ",
+                "Yes, the cardiac silhouette appears to be within the normal limits for a patient of similar body habitus on this chest X-ray. ",
+                "Yes, the cardiac contour and size in the image appear to be consistent with expected findings in an average-sized adult male. ",
+                "Yes, the cardiac silhouette appears to be of normal size relative to the thoracic cage dimensions in this supine chest X-ray. ",
+                "Yes, the cardiac silhouette appears to be within the normal boundaries for an average-sized adult female as depicted on this chest radiograph. ",
+                "Yes, the size and contour of the cardiac silhouette in the chest X-ray appear to be consistent with expected findings in a patient without known cardiovascular disease. ",
+                "Yes, the cardiac silhouette appears to be within the normal limits for an average-sized adult male based on the available reference data and the provided imaging study. ",
+                "Yes, the size of the cardiac silhouette appears to be within the expected range for a patient with a similar body mass index on this chest radiograph. ",
+                "Yes, the cardiac silhouette size and contour in the chest X-ray appear to be consistent with normal findings in an average-sized adult without known heart disease. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -40.67353497545196,
+                    -58.63939577377823,
+                    -40.67353497545196,
+                    -68.58337736616977,
+                    -89.7950470407377,
+                    -73.19784035896282,
+                    -94.06548089021362,
+                    -88.65875271951973,
+                    -98.63712317228419,
+                    -86.51442280941683,
+                    -91.18719428929126
+                ],
+                [
+                    -51.549791482053934,
+                    -41.12294324016875,
+                    -51.549791482053934,
+                    -74.63407247791747,
+                    -81.6789781651969,
+                    -75.19980798829329,
+                    -92.43278561429452,
+                    -93.73209507606134,
+                    -93.10977910778729,
+                    -90.54269770198607,
+                    -89.87445707828374
+                ],
+                [
+                    -40.67353497545196,
+                    -58.63939577377823,
+                    -40.67353497545196,
+                    -68.58337736616977,
+                    -89.7950470407377,
+                    -73.19784035896282,
+                    -94.06548089021362,
+                    -88.65875271951973,
+                    -98.63712317228419,
+                    -86.51442280941683,
+                    -91.18719428929126
+                ],
+                [
+                    -55.534737995307296,
+                    -72.63737099326227,
+                    -55.534737995307296,
+                    -42.08235651512189,
+                    -91.00709250006184,
+                    -78.75158107073366,
+                    -90.23994348647102,
+                    -90.62069194966716,
+                    -94.44015833701815,
+                    -77.37826151490117,
+                    -96.9557601839706
+                ],
+                [
+                    -59.98138426798687,
+                    -61.200287788626156,
+                    -59.98138426798687,
+                    -76.55639718625753,
+                    -40.01479952853697,
+                    -76.69456897668715,
+                    -78.35820982037694,
+                    -78.0099056047402,
+                    -83.77886983871576,
+                    -86.85204756207531,
+                    -78.7083923895334
+                ],
+                [
+                    -57.26673191031841,
+                    -71.58620448536385,
+                    -57.26673191031841,
+                    -70.45802185866796,
+                    -88.12131116940873,
+                    -42.78474694363899,
+                    -93.81624881662083,
+                    -92.69544051084267,
+                    -98.50360352520602,
+                    -93.11044391606447,
+                    -99.24213598666302
+                ],
+                [
+                    -63.51406727494759,
+                    -73.37105636260094,
+                    -63.51406727494759,
+                    -77.2945768326008,
+                    -84.76815793726564,
+                    -81.66879414822324,
+                    -42.97426227118376,
+                    -100.62567821812809,
+                    -91.05265098049858,
+                    -88.5322529735513,
+                    -93.89664533363975
+                ],
+                [
+                    -56.056982997912655,
+                    -71.43850718380554,
+                    -56.056982997912655,
+                    -72.04195223740453,
+                    -78.27938342111884,
+                    -78.05532647681093,
+                    -95.75197103483379,
+                    -41.84650985996478,
+                    -103.00090748776483,
+                    -88.75696736145164,
+                    -73.87961141429605
+                ],
+                [
+                    -66.35382044979815,
+                    -63.880066507956144,
+                    -66.35382044979815,
+                    -78.08060727583688,
+                    -76.43585068915854,
+                    -81.03992317383563,
+                    -88.01374483575091,
+                    -98.75090502532112,
+                    -43.120001987342675,
+                    -99.43415089068003,
+                    -93.51501826047934
+                ],
+                [
+                    -60.543808449598146,
+                    -69.63852929872519,
+                    -60.543808449598146,
+                    -69.08797416251036,
+                    -91.42178826534655,
+                    -80.92558866154286,
+                    -87.8595882669324,
+                    -92.67054225741185,
+                    -101.1048888140358,
+                    -43.87070585565789,
+                    -97.82105673271963
+                ],
+                [
+                    -53.14771226771609,
+                    -68.60716468108149,
+                    -53.14771226771609,
+                    -77.16266772281688,
+                    -75.75726530664542,
+                    -78.74390374775703,
+                    -83.16801805929299,
+                    -76.40254649148937,
+                    -98.838320983411,
+                    -102.2162964528743,
+                    -41.21943459991007
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.0957904479286968
+        ],
+        "posix": 1.0957904479286968
+    }
+}

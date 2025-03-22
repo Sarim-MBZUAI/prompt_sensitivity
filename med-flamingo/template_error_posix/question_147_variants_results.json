@@ -1,0 +1,42 @@
+{
+    "file_name": "question_147_variants.json",
+    "overall_posix": 0.36234827395946206,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.505338078291815,
+            "Variation 2": 0.28365384615384615,
+            "Variation 3": 0.30434782608695654,
+            "Variation 4": 0.5369127516778524,
+            "Variation 5": 0.30097087378640774,
+            "Variation 6": 0.2642487046632125,
+            "Variation 7": 0.320754716981132,
+            "Variation 8": 0.5594855305466238,
+            "Variation 9": 0.38842975206611574,
+            "Variation 10": 0.15934065934065933
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question-Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n\n Question-Is the patient\u2019s heart size normal?\n [yes, no]\n Answer\n [yes, no]\n Question-Is the patient\u2019s heart size normal?\n [yes, no]",
+                "<s> Question::: Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q::: Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n S:\n T:\n A 24-year-old woman with a history of a heart murmur and a family history of cardiac disease presents to the emergency department with a 2-day history of chest",
+                "<s> q:::Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 1.1.1\n 1.1.2\n 1.1.3\n 1.1.4\n 1.1.5\n 1.1.6\n 1",
+                "<s> Q::Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct Answer: Yes\n The patient has an enlarged cardiac silhouette. The cardiac silhouette is the outline of the heart on a chest radiograph. The cardiac silhouette is",
+                "<s> Question:Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please mark the box corresponding to your answer.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9",
+                "<s> q:Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1"
+            ]
+        ],
+        "sensitivities": [
+            0.36234827395946206
+        ],
+        "posix": 0.36234827395946206
+    }
+}

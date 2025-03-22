@@ -1,0 +1,42 @@
+{
+    "file_name": "question_151_variants.json",
+    "overall_posix": 0.5388695191701143,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.49851632047477745,
+            "Variation 2": 0.6238244514106583,
+            "Variation 3": 0.6246153846153846,
+            "Variation 4": 0.5,
+            "Variation 5": 0.5471698113207547,
+            "Variation 6": 0.6865203761755486,
+            "Variation 7": 0.0,
+            "Variation 8": 0.6175548589341693,
+            "Variation 9": 0.7053291536050157,
+            "Variation 10": 0.5851648351648352
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show any evidence of a cardiac or mediastinal abnormality on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show any evidence of a cardiac or mediastinal abnormality on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Does the patient have any evidence of a cardiac or mediastinal abnormality on the chest X-ray?\n [Yes, no]\n 12.  Does the patient have any evidence of a",
+                "<s> Is there any abnormal cardiac or mediastinal structure visible on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a mediastinal mass? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of a pericardial effusion? Please choose from the",
+                "<s> Does the chest X-ray reveal any signs of cardiopulmonary or thoracic disease? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any notable abnormalities in the cardiac silhouette or surrounding soft tissues on this anterior-posterior (AP) chest film? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Aortic aneurysm\n B.Aortic dissection\n C.Aortic regurgitation\n D.Aortic stenosis\n E",
+                "<s> Can you see any evidence of a mediastinal mass, lesion, or other abnormality on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  When you look at the radiograph, do you see any evidence of a mediastinal mass, lesion, or other abnormality?\n [yes, no]\n 12.  If you answered \u201c",
+                "<s> Is there an apparent abnormality within the heart or adjacent mediastinum that would be worthy of further investigation? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other abnormalities of the chest radiograph that you would like to comment on? Please choose from the following two options: [yes, no]\n 12.  Are there any other ab",
+                "<s> Please choose from the following two options: [yes, no]\n<image> 1.Do you have any symptoms of heart failure?\n 2.Do you have any symptoms of heart failure?\n 3.Do you have any symptoms of heart failure?\n 4.Do you have any sympt",
+                "<s> Does the patient show any evidence of a cardiac or mediastinal abnormality on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Does the patient have any evidence of a cardiac or mediastinal abnormality on the chest X-ray?\n [Yes, no]\n 12.  Does the patient have any evidence of a",
+                "<s> Do the chest X-ray findings indicate any cardiac or thoracic abnormalities requiring attention? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you observe any notable abnormalities in the heart's contour or surrounding soft tissues on this radiograph? Please choose from the following two options: [yes, no]\n<image> 2.2\n 2.3\n 2.4\n 2.5\n 2.6\n 2.7\n 2.8\n 2.9\n 2.10\n 2.1",
+                "<s> Is there a visible abnormality within the mediastinum that would necessitate further evaluation? Please choose from the following two options: [yes, no]\n<image> 11. Is there a visible abnormality within the mediastinum that would necessitate further evaluation? Please choose from the following two options: [yes, no]\n 12. Is there a visible abnormality within"
+            ]
+        ],
+        "sensitivities": [
+            0.5388695191701143
+        ],
+        "posix": 0.5388695191701143
+    }
+}

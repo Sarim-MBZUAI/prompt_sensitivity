@@ -1,0 +1,189 @@
+{
+    "file_name": "question_141_variants.json",
+    "overall_posix": 3.0277279956957663,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.6240604366574969,
+            "Variation 2": 0.1102726970400129,
+            "Variation 3": 1.1064796650663336,
+            "Variation 4": 3.446150860478801,
+            "Variation 5": 2.065509469509125,
+            "Variation 6": 0.35345696294030476,
+            "Variation 7": 1.727990324156625,
+            "Variation 8": 8.275863424591396,
+            "Variation 9": 1.4452685546875,
+            "Variation 10": 2.022238528728485
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the patient's chest X-ray is not completely unremarkable. There is a visible mass in the chest area, which is an indication of a medical condition or issue that requires further investigation.",
+                "No, the chest radiograph is not entirely unremarkable. There is a visible mass in the lung, which is an abnormality that requires further investigation.",
+                "No, the patient's chest X-ray is not completely unremarkable. There is a visible shadow on the X-ray, which could indicate a tumor or other abnormality.",
+                "No, the patient's chest X-ray does not demonstrate a completely normal appearance. There are visible abnormalities, such as the presence of a mass or a foreign object, which require further investigation and medical attention.",
+                "No, there are no notable abnormalities or findings on the chest X-ray. It appears to be a normal chest X-ray.",
+                "Based on the image provided, it is not possible to definitively determine if the chest radiograph is devoid of significant pathology. Radiographs are typically used to diagnose or monitor various conditions, and a thorough examination by a qualified medical",
+                "No, the patient's chest X-ray does not show a completely normal mediastinum and lung fields. There are some areas of opacity and potential abnormalities that would require further evaluation.",
+                "No, there are no unusual or unexpected features on the chest radiograph. It appears to be a standard frontal chest radiograph with the lungs and heart visible.",
+                "No, the chest X-ray shows notable opacities in the lung parenchyma.",
+                "No, the patient's chest radiograph does not demonstrate a completely normal thoracic spine and upper abdomen silhouette. There are visible abnormalities, such as the presence of a mass or a foreign object, which are",
+                "Yes, there is a significant abnormality visible on the chest X-ray. The image shows a large mass in the chest, which could be indicative of a tumor or other pathology. This would require further medical evaluation and imaging"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -420.22603046894073,
+                    -363.38391518592834,
+                    -415.5945771932602,
+                    -472.2305747270584,
+                    -313.3953537940979,
+                    -523.501503944397,
+                    -435.42467987537384,
+                    -359.74636912345886,
+                    -229.88117170333862,
+                    -492.48945820331573,
+                    -521.337956905365
+                ],
+                [
+                    -440.93334436416626,
+                    -363.9403131008148,
+                    -399.6764051914215,
+                    -477.33839201927185,
+                    -280.34998750686646,
+                    -520.8226327896118,
+                    -450.6124324798584,
+                    -335.63618659973145,
+                    -250.67407703399658,
+                    -515.7248029708862,
+                    -466.7716553211212
+                ],
+                [
+                    -420.22603046894073,
+                    -363.38391518592834,
+                    -415.5945771932602,
+                    -472.2305747270584,
+                    -313.3953537940979,
+                    -523.501503944397,
+                    -435.42467987537384,
+                    -359.74636912345886,
+                    -229.88117170333862,
+                    -492.48945820331573,
+                    -521.337956905365
+                ],
+                [
+                    -425.10931718349457,
+                    -336.2566717863083,
+                    -406.5328588485718,
+                    -457.6120285987854,
+                    -306.62769055366516,
+                    -522.5958333015442,
+                    -409.49525785446167,
+                    -338.87181544303894,
+                    -229.22802066802979,
+                    -475.36609268188477,
+                    -500.53349709510803
+                ],
+                [
+                    -433.36965680122375,
+                    -370.78948068618774,
+                    -417.46609330177307,
+                    -457.3648452758789,
+                    -296.7742431163788,
+                    -544.2400660514832,
+                    -439.86239540576935,
+                    -359.40162563323975,
+                    -248.52979493141174,
+                    -495.55956292152405,
+                    -500.3831534385681
+                ],
+                [
+                    -446.37766671180725,
+                    -343.83694100379944,
+                    -431.9952695965767,
+                    -466.6275781393051,
+                    -284.35475635528564,
+                    -543.5813784599304,
+                    -437.1163372993469,
+                    -353.3324227333069,
+                    -240.7100658416748,
+                    -502.1525502204895,
+                    -484.5730743408203
+                ],
+                [
+                    -417.01728773117065,
+                    -353.5812842845917,
+                    -421.34712505340576,
+                    -455.89593839645386,
+                    -294.94368720054626,
+                    -515.2633948326111,
+                    -444.1129696369171,
+                    -359.3700258731842,
+                    -234.6116328239441,
+                    -524.3937840461731,
+                    -497.7268693447113
+                ],
+                [
+                    -425.7006895542145,
+                    -355.94984126091003,
+                    -417.8822515010834,
+                    -455.5447986125946,
+                    -313.2439546585083,
+                    -519.0956444740295,
+                    -447.2862753868103,
+                    -338.472083568573,
+                    -237.0639624595642,
+                    -495.48118686676025,
+                    -490.1391236782074
+                ],
+                [
+                    -424.7177543640137,
+                    -366.6320858001709,
+                    -404.27031898498535,
+                    -452.3754758834839,
+                    -313.0119559764862,
+                    -513.6780064105988,
+                    -436.470094203949,
+                    -354.77171564102173,
+                    -237.89180707931519,
+                    -500.50696849823,
+                    -489.180212020874
+                ],
+                [
+                    -426.5470612049103,
+                    -347.60132598876953,
+                    -419.3613908290863,
+                    -455.8181416988373,
+                    -321.4946799278259,
+                    -510.8820354938507,
+                    -443.8562934398651,
+                    -343.87107849121094,
+                    -231.3565957546234,
+                    -506.0469949245453,
+                    -477.937016248703
+                ],
+                [
+                    -419.173415184021,
+                    -345.83403784036636,
+                    -391.6906723976135,
+                    -460.01671504974365,
+                    -296.9862666130066,
+                    -513.5807890892029,
+                    -450.48935651779175,
+                    -335.09000420570374,
+                    -229.84454011917114,
+                    -515.6158121824265,
+                    -513.7415518760681
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.0277279956957663
+        ],
+        "posix": 3.0277279956957663
+    }
+}

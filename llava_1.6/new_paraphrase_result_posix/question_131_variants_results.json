@@ -1,0 +1,189 @@
+{
+    "file_name": "question_131_variants.json",
+    "overall_posix": 15.646006914535874,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4940061187744141,
+            "Variation 2": 155.58823855717978,
+            "Variation 3": 0.2274244499206543,
+            "Variation 4": 9.095368917171772,
+            "Variation 5": 0.3489968776702881,
+            "Variation 6": 0.44756423473358153,
+            "Variation 7": 0.1238401985168457,
+            "Variation 8": 0.49781935453414916,
+            "Variation 9": 0.34422499656677247,
+            "Variation 10": 0.6020602165384495
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the X-ray image provided, it appears that the lung volumes are within normal limits. The lungs are well-expanded, and there are no obvious signs of overinflation or underinflation. However, it is important to note",
+                "Based on the image provided, it appears that the lung volumes are within the normal range for an adult patient. The lungs are well-expanded, and there are no obvious signs of over-expansion or under-expansion. However, it",
+                "No",
+                "Based on the X-ray image provided, it appears that the lung volumes are not considered to be normal. The lung fields are not fully expanded, which could indicate a condition such as lung collapse, pneumothorax, or other respir",
+                "No, the lung fields in this anterior-posterior chest radiograph appear to be of reduced volume and size.",
+                "Based on the image provided, it appears that the lung dimensions are within the expected limits for an individual without respiratory disease. The lungs are symmetrical and there are no obvious signs of abnormality or disease. However, it is important to",
+                "Based on the image provided, it is not possible for me to accurately assess the lung volumes and determine if they are consistent with normal lung function and capacity. The image is a black and white X-ray film, which may not provide sufficient detail to",
+                "Based on the image provided, it appears that the lung size and volume are within the normal parameters for a healthy adult individual. The lungs are symmetrical and there are no obvious signs of abnormalities or pathologies. However, it is important to",
+                "No, the chest X-ray image does not indicate that the patient's lung volumes are at or near the normal upper limit of expected values. The lung fields appear to be significantly compressed, which suggests that the patient's lung volumes are",
+                "Based on the image provided, the lungs appear to be of average size and shape, which is consistent with those of an average adult without respiratory disease. The proportions and dimensions of the lungs seem to be within the normal range for an adult",
+                "No, the radiograph shows lung volumes that are outside the expected normal range for a typical adult patient. The lung fields appear to be significantly reduced in size, which could indicate a medical condition such as lung disease or collapse."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -495.34103631973267,
+                    -520.0413422584534,
+                    -28.57632064819336,
+                    -506.7122588157654,
+                    -258.8614444732666,
+                    -512.7908802032471,
+                    -472.9628245830536,
+                    -501.53304624557495,
+                    -470.4500685930252,
+                    -512.5522861480713,
+                    -467.04420614242554
+                ],
+                [
+                    -489.04930210113525,
+                    -508.6730351448059,
+                    -26.93992018699646,
+                    -485.9052052497864,
+                    -248.35216188430786,
+                    -499.8455548286438,
+                    -476.3275775909424,
+                    -478.90839076042175,
+                    -468.2825393676758,
+                    -487.5259006023407,
+                    -480.3644700050354
+                ],
+                [
+                    -487.4782853126526,
+                    -487.92862200737,
+                    -25.38963484764099,
+                    -484.64714550971985,
+                    -244.9218327999115,
+                    -490.0367889404297,
+                    -486.3222041130066,
+                    -488.67503237724304,
+                    -461.10140442848206,
+                    -500.0728163719177,
+                    -478.91957998275757
+                ],
+                [
+                    -495.34103631973267,
+                    -520.0413422584534,
+                    -28.57632064819336,
+                    -506.7122588157654,
+                    -258.8614444732666,
+                    -512.7908802032471,
+                    -472.9628245830536,
+                    -501.53304624557495,
+                    -470.4500685930252,
+                    -512.5522861480713,
+                    -467.04420614242554
+                ],
+                [
+                    -501.22420740127563,
+                    -504.1015968322754,
+                    -27.06614089012146,
+                    -488.97706031799316,
+                    -251.08144783973694,
+                    -502.965211391449,
+                    -492.0799255371094,
+                    -501.7185227870941,
+                    -474.530277967453,
+                    -502.45870304107666,
+                    -460.5254530906677
+                ],
+                [
+                    -501.22420740127563,
+                    -504.1015968322754,
+                    -27.06614089012146,
+                    -488.97706031799316,
+                    -251.08144783973694,
+                    -502.965211391449,
+                    -492.0799255371094,
+                    -501.7185227870941,
+                    -474.530277967453,
+                    -502.45870304107666,
+                    -460.5254530906677
+                ],
+                [
+                    -487.258642911911,
+                    -489.63781332969666,
+                    -27.8745756149292,
+                    -488.74810242652893,
+                    -250.1593679189682,
+                    -502.7942576408386,
+                    -493.4278109073639,
+                    -494.3460738658905,
+                    -495.37029242515564,
+                    -495.7584583759308,
+                    -467.3287150859833
+                ],
+                [
+                    -487.258642911911,
+                    -489.63781332969666,
+                    -27.8745756149292,
+                    -488.74810242652893,
+                    -250.1593679189682,
+                    -502.7942576408386,
+                    -493.4278109073639,
+                    -494.3460738658905,
+                    -495.37029242515564,
+                    -495.7584583759308,
+                    -467.3287150859833
+                ],
+                [
+                    -498.40990447998047,
+                    -498.58251190185547,
+                    -29.599189043045044,
+                    -490.1830081939697,
+                    -248.61309719085693,
+                    -505.2442030906677,
+                    -493.9838128089905,
+                    -500.0487275123596,
+                    -495.49549102783203,
+                    -499.37844014167786,
+                    -480.26189398765564
+                ],
+                [
+                    -500.995530128479,
+                    -489.4357490539551,
+                    -29.605114459991455,
+                    -489.3755280971527,
+                    -247.45002627372742,
+                    -505.61760783195496,
+                    -478.6250104904175,
+                    -489.25147438049316,
+                    -478.3430337905884,
+                    -498.56476163864136,
+                    -478.44870948791504
+                ],
+                [
+                    -488.14445209503174,
+                    -496.05109000205994,
+                    -25.86320424079895,
+                    -491.82577896118164,
+                    -248.0214136838913,
+                    -513.3361315727234,
+                    -486.1349186897278,
+                    -513.3870100975037,
+                    -482.7650237083435,
+                    -493.9593839645386,
+                    -470.228835105896
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            15.646006914535874
+        ],
+        "posix": 15.646006914535874
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_336_variants.json",
+    "overall_posix": 7.196921312339632,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.9630572381226913,
+            "Variation 2": 4.482563407524772,
+            "Variation 3": 0.5283897717793783,
+            "Variation 4": 4.996523575782776,
+            "Variation 5": 0.8413140033853466,
+            "Variation 6": 0.9630572381226913,
+            "Variation 7": 4.59091917514801,
+            "Variation 8": 23.955741677965438,
+            "Variation 9": 0.2754147748152415,
+            "Variation 10": 4.019849486972975
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the lungs in the chest X-ray appear to be poorly inflated and there is evidence of collapse.",
+                "Based on the chest X-ray, the lungs appear to be well-inflated and without collapse.",
+                "Based on the chest X-ray, the lungs appear to be well-inflated and without collapse. The image shows the lungs filling the chest cavity, and there are no obvious signs of collapse or deflation.",
+                "Based on the chest X-ray provided, the lungs appear to be well-inflated and without collapse.",
+                "Based on the chest X-ray provided, the lungs appear to be well-inflated and without any obvious signs of collapse. The lung fields are visible and appear to be of normal density, which suggests that there is no significant collapse or other ab",
+                "No, the lungs in the chest X-ray appear to be poorly inflated and there is a collapse visible on the right side.",
+                "Based on the chest X-ray, the lungs appear to be well-inflated and without collapse.",
+                "Based on the chest X-ray provided, the lungs appear to be well-inflated and without collapse. The image shows the lungs filling the chest cavity, and there is no evidence of lung collapse or significant air trapping. The heart and",
+                "[no, no]",
+                "Based on the chest X-ray, the lungs appear to be well-inflated and without colapse.",
+                "Based on the chest X-ray provided, the lungs appear to be well-inflated and without collapse. The image shows the lungs in a normal position and there are no signs of collapse or significant abnormalities."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -232.53714036941528,
+                    -210.38682389259338,
+                    -438.7350571155548,
+                    -219.8557858467102,
+                    -482.3633191585541,
+                    -256.93524646759033,
+                    -210.38682389259338,
+                    -462.0830991268158,
+                    -64.84694862365723,
+                    -225.9271857738495,
+                    -417.4502167701721
+                ],
+                [
+                    -232.53714036941528,
+                    -210.38682389259338,
+                    -438.7350571155548,
+                    -219.8557858467102,
+                    -482.3633191585541,
+                    -256.93524646759033,
+                    -210.38682389259338,
+                    -462.0830991268158,
+                    -64.84694862365723,
+                    -225.9271857738495,
+                    -417.4502167701721
+                ],
+                [
+                    -238.6990451812744,
+                    -214.42773962020874,
+                    -423.7197389602661,
+                    -223.76652908325195,
+                    -483.4309985637665,
+                    -266.0265386104584,
+                    -214.42773962020874,
+                    -468.5706500560045,
+                    -63.14388245344162,
+                    -232.75355052947998,
+                    -434.45450496673584
+                ],
+                [
+                    -237.51137018203735,
+                    -207.92326545715332,
+                    -415.83689403533936,
+                    -214.13167524337769,
+                    -467.1027023792267,
+                    -258.06357753276825,
+                    -207.92326545715332,
+                    -460.7460973262787,
+                    -66.81922721862793,
+                    -218.6231336593628,
+                    -420.9593336582184
+                ],
+                [
+                    -223.28629565238953,
+                    -216.80721712112427,
+                    -435.77826404571533,
+                    -224.43909358978271,
+                    -482.00648760795593,
+                    -247.28268432617188,
+                    -216.80721712112427,
+                    -462.1374307870865,
+                    -65.86925315856934,
+                    -226.3479413986206,
+                    -447.79140996932983
+                ],
+                [
+                    -238.6990451812744,
+                    -214.42773962020874,
+                    -423.7197389602661,
+                    -223.76652908325195,
+                    -483.4309985637665,
+                    -266.0265386104584,
+                    -214.42773962020874,
+                    -468.5706500560045,
+                    -63.14388245344162,
+                    -232.75355052947998,
+                    -434.45450496673584
+                ],
+                [
+                    -232.53714036941528,
+                    -210.38682389259338,
+                    -438.7350571155548,
+                    -219.8557858467102,
+                    -482.3633191585541,
+                    -256.93524646759033,
+                    -210.38682389259338,
+                    -462.0830991268158,
+                    -64.84694862365723,
+                    -225.9271857738495,
+                    -417.4502167701721
+                ],
+                [
+                    -227.7061185836792,
+                    -209.06340646743774,
+                    -448.10091757774353,
+                    -231.8479232788086,
+                    -483.1828124523163,
+                    -265.4622690677643,
+                    -209.06340646743774,
+                    -468.31743907928467,
+                    -73.0422191619873,
+                    -223.8791012763977,
+                    -444.6466431617737
+                ],
+                [
+                    -227.7061185836792,
+                    -209.06340646743774,
+                    -448.10091757774353,
+                    -231.8479232788086,
+                    -483.1828124523163,
+                    -265.4622690677643,
+                    -209.06340646743774,
+                    -468.31743907928467,
+                    -73.0422191619873,
+                    -223.8791012763977,
+                    -444.6466431617737
+                ],
+                [
+                    -223.28629565238953,
+                    -216.80721712112427,
+                    -435.77826404571533,
+                    -224.43909358978271,
+                    -482.00648760795593,
+                    -247.28268432617188,
+                    -216.80721712112427,
+                    -462.1374307870865,
+                    -65.86925315856934,
+                    -226.3479413986206,
+                    -447.79140996932983
+                ],
+                [
+                    -238.6990451812744,
+                    -214.42773962020874,
+                    -423.7197389602661,
+                    -223.76652908325195,
+                    -483.4309985637665,
+                    -266.0265386104584,
+                    -214.42773962020874,
+                    -468.5706500560045,
+                    -63.14388245344162,
+                    -232.75355052947998,
+                    -434.45450496673584
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            7.196921312339632
+        ],
+        "posix": 7.196921312339632
+    }
+}

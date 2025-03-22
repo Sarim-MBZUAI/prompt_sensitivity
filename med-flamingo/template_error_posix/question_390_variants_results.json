@@ -1,0 +1,42 @@
+{
+    "file_name": "question_390_variants.json",
+    "overall_posix": 0.39933096326473894,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.29670329670329676,
+            "Variation 2": 0.3163265306122449,
+            "Variation 3": 0.46799999999999997,
+            "Variation 4": 0.4980988593155893,
+            "Variation 5": 0.5265017667844523,
+            "Variation 6": 0.5415162454873647,
+            "Variation 7": 0.3349753694581281,
+            "Variation 8": 0.31979695431472077,
+            "Variation 9": 0.43724696356275305,
+            "Variation 10": 0.2541436464088398
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Figure 1.\n 10673-10684.qxd  3/10/09  11:07 AM  Page 1068\n 10",
+                "<s> q:::Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question:Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n Yes\n [score: 1]\n 10.Question:\n Is there any mass or tumor in the lungs?\n [score: 1]\n 11.Question:\n Is there any mass or",
+                "<s> QUESTION:Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Which of the following is the most likely diagnosis?\n A:\n B:\n 3.\n QUESTION:Which of the following is the most likely diagn",
+                "<s> Question::: Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the diagnosis?\n Answer:\n Lung cancer\n 11.\n Question:\n What is the most likely cause of the patient\u2019s symptoms?\n Answer:\n",
+                "<s> Q::Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Can any mass or tumor be seen in the",
+                "<s> Question:Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n \u2756\u2756What is the diagnosis?\n Lung cancer\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 1",
+                "<s> Q::: Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> question::Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: No mass or tumor can be seen in the lungs.\n B: Yes, a mass or tumor can be seen in the lungs.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n"
+            ]
+        ],
+        "sensitivities": [
+            0.39933096326473894
+        ],
+        "posix": 0.39933096326473894
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_165_variants.json",
+    "overall_posix": 0.41794127266718073,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5067567567567568,
+            "Variation 2": 0.45353159851301117,
+            "Variation 3": 0.4965277777777778,
+            "Variation 4": 0.5034013605442177,
+            "Variation 5": 0.46570397111913353,
+            "Variation 6": 0.3119266055045872,
+            "Variation 7": 0.4552238805970149,
+            "Variation 8": 0.4842105263157894,
+            "Variation 9": 0.20967741935483875,
+            "Variation 10": 0.2924528301886793
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of a cough. He has no other\n symptoms.\n 1.The patient's lungs are clear on the chest",
+                "<s> QUESTION:Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n Acute respiratory distress syndrome\n C:\n Pulmonary edema\n D",
+                "<s> Q::Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n 166\n   Online Case",
+                "<s> Question:Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Rationale:The patient's lungs are clear on the chest X-ray. The patient's lungs are clear on the chest X-ray.\n The patient",
+                "<s> question:Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n A.Yes, the lungs are clear.\n B.No, the lungs are not clear.\n C.Yes, the lungs are clear, but the patient is coughing.\n D.No, the l",
+                "<s> q::Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tYes, the lungs are clear.\n \u2022\tNo, the lungs are not clear.\n \u2022\tNo, the lungs are not clear.\n \u2022\tYes, the lungs are clear",
+                "<s> QUESTION\tAre the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n The patient\u2019s lungs are clear on the chest X-ray. The lungs are clear because the X-ray is a frontal view of the",
+                "<s> Q:Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16:10\n 16:11\n 16:12\n 16:13\n 16:14\n 16",
+                "<s> q:::Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::"
+            ]
+        ],
+        "sensitivities": [
+            0.41794127266718073
+        ],
+        "posix": 0.41794127266718073
+    }
+}

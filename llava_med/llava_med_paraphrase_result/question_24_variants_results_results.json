@@ -1,0 +1,189 @@
+{
+    "file_name": "question_24_variants_results.json",
+    "overall_posix": 1.065758679619226,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.528164143156833,
+            "Variation 2": 0.0,
+            "Variation 3": 0.8958956449967769,
+            "Variation 4": 1.3663529751787675,
+            "Variation 5": 1.179099586990638,
+            "Variation 6": 1.056063774558452,
+            "Variation 7": 1.0022808281296876,
+            "Variation 8": 1.179504500401061,
+            "Variation 9": 0.7750724391060334,
+            "Variation 10": 0.9192671461535681
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest X-ray does not show any signs of congestion or fluid overload in the lung fields. ",
+                "Yes, the chest X-ray shows bilateral lung fields opacities, which are suggestive of fluid overload. ",
+                "The chest X-ray does not show any signs of congestion or fluid overload in the lung fields. ",
+                "Yes, the chest X-ray shows evidence of cardiogenic pulmonary edema with diffuse alveolar pattern and increased interstitial markings. ",
+                "The chest radiograph does not show signs of acute respiratory distress syndrome (ARDS) characterized by homogeneous lung consolidation. ",
+                "The anterior-posterior chest X-ray does not demonstrate perihilar opacities indicative of pulmonary congestion or edema. ",
+                "Yes, the chest radiograph shows bilateral lung fields with increased density and loss of vascular markings, which are consistent with fluid overload. ",
+                "The chest X-ray does not show any signs of congestive heart failure, as there are no Kerley B lines or perihilar opacities present in the image. ",
+                "Yes, the posterior-anterior chest radiograph shows diffuse alveolar pattern with interstitial edema, which suggests fluid overload. ",
+                "Yes, the chest X-ray shows radiographic signs of pulmonary congestion, which is characterized by increased lung markings and perihilar opacities. ",
+                "The chest X-ray shows bilateral alveolar consolidation, which is suggestive of atelectasis. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -43.78592712383306,
+                    -58.574523132224385,
+                    -43.78592712383306,
+                    -77.82996163371058,
+                    -86.14286935437485,
+                    -85.05441266850539,
+                    -78.63603168426198,
+                    -83.87716024902056,
+                    -83.88908013746914,
+                    -73.23867980986233,
+                    -67.68687292382583
+                ],
+                [
+                    -58.09334459626825,
+                    -40.57522449645603,
+                    -58.09334459626825,
+                    -88.25816044668841,
+                    -89.23241073231475,
+                    -81.00478092199046,
+                    -78.65513417171269,
+                    -87.01927241607791,
+                    -83.21454935938527,
+                    -85.9629771655741,
+                    -65.55240800062438
+                ],
+                [
+                    -43.78592712383306,
+                    -58.574523132224385,
+                    -43.78592712383306,
+                    -77.82996163371058,
+                    -86.14286935437485,
+                    -85.05441266850539,
+                    -78.63603168426198,
+                    -83.87716024902056,
+                    -83.88908013746914,
+                    -73.23867980986233,
+                    -67.68687292382583
+                ],
+                [
+                    -63.634880080197036,
+                    -75.64638082367401,
+                    -63.634880080197036,
+                    -41.7717702961703,
+                    -85.04251115745319,
+                    -84.61169566523222,
+                    -94.928664272069,
+                    -81.83833248650262,
+                    -88.74748929292036,
+                    -82.88275274793432,
+                    -66.50012974712809
+                ],
+                [
+                    -72.48439856080222,
+                    -78.57668584452767,
+                    -72.48439856080222,
+                    -86.0411698534017,
+                    -42.15269500318749,
+                    -94.01319647926721,
+                    -86.28427749012917,
+                    -91.38247068722558,
+                    -94.79632289008441,
+                    -89.76944453148462,
+                    -71.91914957682093
+                ],
+                [
+                    -64.45602110937216,
+                    -76.38719321703184,
+                    -64.45602110937216,
+                    -85.64069930025335,
+                    -88.97436324489718,
+                    -42.86782075374707,
+                    -95.8050132346907,
+                    -76.53258251396437,
+                    -92.01418130972706,
+                    -70.54969110334514,
+                    -69.12489739152988
+                ],
+                [
+                    -60.37907308935246,
+                    -63.88268395939167,
+                    -60.37907308935246,
+                    -84.39621244064222,
+                    -84.85492463641276,
+                    -85.14392435282298,
+                    -41.6898291295513,
+                    -89.85703709149675,
+                    -78.82550931925653,
+                    -85.55491935783357,
+                    -70.73929913953543
+                ],
+                [
+                    -61.6701220711866,
+                    -70.44465006907103,
+                    -61.6701220711866,
+                    -81.73484313053655,
+                    -87.66277857088062,
+                    -76.96380578562412,
+                    -93.00230736755475,
+                    -45.973099875911885,
+                    -96.60560772098324,
+                    -69.42547272507227,
+                    -69.19510403785443
+                ],
+                [
+                    -64.26939540346211,
+                    -68.99904156944831,
+                    -64.26939540346211,
+                    -70.92927131764009,
+                    -79.96882182893023,
+                    -83.64846959464717,
+                    -81.69092550340429,
+                    -88.63739776276634,
+                    -42.25533174942859,
+                    -87.88965920378541,
+                    -70.68905206147974
+                ],
+                [
+                    -63.56241208022766,
+                    -73.3853878669106,
+                    -63.56241208022766,
+                    -79.70526448455053,
+                    -82.7129526737117,
+                    -75.38163552173592,
+                    -90.41744531733275,
+                    -77.17672526708702,
+                    -96.79906103235407,
+                    -43.117722563984614,
+                    -69.87306331898071
+                ],
+                [
+                    -65.9976740877105,
+                    -74.64601637620024,
+                    -65.9976740877105,
+                    -82.68954608453083,
+                    -88.42907307445421,
+                    -82.73187482846242,
+                    -96.19995178100089,
+                    -84.0387041114027,
+                    -96.46976192908915,
+                    -89.6851644924966,
+                    -44.35777841716185
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.065758679619226
+        ],
+        "posix": 1.065758679619226
+    }
+}

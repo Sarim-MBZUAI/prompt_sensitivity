@@ -1,0 +1,42 @@
+{
+    "file_name": "question_389_variants.json",
+    "overall_posix": 0.32769346585758086,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1839622641509434,
+            "Variation 2": 0.3070539419087137,
+            "Variation 3": 0.48013245033112584,
+            "Variation 4": 0.5078864353312302,
+            "Variation 5": 0.2666666666666666,
+            "Variation 6": 0.1428571428571428,
+            "Variation 7": 0.3730769230769231,
+            "Variation 8": 0.5078864353312302,
+            "Variation 9": 0.2857142857142857,
+            "Variation 10": 0.22169811320754718
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> QUESTION:Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes]\n [No]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 1",
+                "<s> question::Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n Aortic arch calcification is present.\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 10",
+                "<s> Q:Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n \u2022\tThe cardiac silhouette is within normal limits.\n \u2022\tThe cardiac silhouette is enlarged.\n \u2022\tThe cardiac silhouette is diminished.\n \u2022\tThe cardiac",
+                "<s> Question:Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image>\n[yes, no]\n\n Reasoning:\n The cardiac silhouette is not enlarged on this chest X-ray. The cardiac silhouette is within normal limits.\n The correct answer is [yes",
+                "<s> q:::Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 20\n 19\n 18\n 17\n 16\n 15\n 14\n 13\n 12\n 11\n 10\n 9\n",
+                "<s> Q:Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n Test Block 10\u2022Question 167\n Clinical Presentation: A 55-year-old man with a history of hypert",
+                "<s> Question:Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image>\n[yes, no]\n\n Reasoning:\n The cardiac silhouette is not enlarged on this chest X-ray. The cardiac silhouette is within normal limits.\n The correct answer is [yes",
+                "<s> q::Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:"
+            ]
+        ],
+        "sensitivities": [
+            0.32769346585758086
+        ],
+        "posix": 0.32769346585758086
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_54_variants.json",
+    "overall_posix": 0.38335405961233116,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3317073170731708,
+            "Variation 2": 0.43775100401606426,
+            "Variation 3": 0.18279569892473124,
+            "Variation 4": 0.5298245614035088,
+            "Variation 5": 0.26344086021505375,
+            "Variation 6": 0.5470383275261324,
+            "Variation 7": 0.18279569892473124,
+            "Variation 8": 0.2918918918918919,
+            "Variation 9": 0.5513698630136986,
+            "Variation 10": 0.5149253731343284
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q::Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> question:Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked [2] for option [1] and [2] for option [2]. The correct answer is [2]. The",
+                "<s> Question:Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Question::: Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n Explanation:\n Option 1: The chest X-ray shows a right upper lobe consolidation with air bronchograms.\n Option 2: The ch",
+                "<s> Q:Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n N:\n O:\n I:\n L:\n U:\n X:\n E:\n D:\n E:\n F:\n S:\n R",
+                "<s> Q::Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Are there any other findings on the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Are there any other findings on the ch",
+                "<s> Question:Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Question-Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> question::Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n ANSWER:\n The chest X-ray shows bilateral, patchy, airspace opacities. These are most likely due to pneumonia.\n The patient is likely to have a chest tube",
+                "<s> Q:Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Pulmonary tuberculosis\n Q:What is the most likely cause of the patient\u2019s symptoms?\n A:Pulmon"
+            ]
+        ],
+        "sensitivities": [
+            0.38335405961233116
+        ],
+        "posix": 0.38335405961233116
+    }
+}

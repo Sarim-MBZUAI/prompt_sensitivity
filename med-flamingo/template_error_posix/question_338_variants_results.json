@@ -1,0 +1,42 @@
+{
+    "file_name": "question_338_variants.json",
+    "overall_posix": 0.30405169804534177,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.32618025751072954,
+            "Variation 2": 0.2863636363636364,
+            "Variation 3": 0.13705583756345174,
+            "Variation 4": 0.30222222222222217,
+            "Variation 5": 0.24154589371980673,
+            "Variation 6": 0.2831050228310502,
+            "Variation 7": 0.13989637305699487,
+            "Variation 8": 0.32618025751072954,
+            "Variation 9": 0.45833333333333326,
+            "Variation 10": 0.5396341463414634
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n",
+                "<s> Q::: Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> q::Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n E:\n R:\n D:\n E:\n F:\n I:\n L:\n U:\n S:\n E:\n N:\n A:\n R:\n E:",
+                "<s> q:::Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Question:Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n",
+                "<s> Question::: Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumonia\n B. Pulmonary edema\n C. Pulmonary embolism\n D. Atelectasis\n E",
+                "<s> Question:Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: Yes\n The patient has a left lower lobe consolidation.\n The patient is a 65-year-old man with a history of diabetes and hypertension who presents with"
+            ]
+        ],
+        "sensitivities": [
+            0.30405169804534177
+        ],
+        "posix": 0.30405169804534177
+    }
+}

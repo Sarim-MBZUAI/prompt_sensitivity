@@ -1,0 +1,42 @@
+{
+    "file_name": "question_69_variants.json",
+    "overall_posix": 0.4170810275362264,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5357142857142857,
+            "Variation 2": 0.22999999999999998,
+            "Variation 3": 0.4386617100371748,
+            "Variation 4": 0.3105022831050228,
+            "Variation 5": 0.4763636363636363,
+            "Variation 6": 0.4742647058823529,
+            "Variation 7": 0.4391143911439115,
+            "Variation 8": 0.47349823321554774,
+            "Variation 9": 0.5182724252491694,
+            "Variation 10": 0.27441860465116275
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> question::Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A focal infiltrate can be seen on the patient's chest X-ray.\n description:The patient is a 55-year-old male with a history of chronic obstructive pulmonary",
+                "<s> QUESTION\tCan a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question:Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.\n Question:What is the most likely diagnosis?\n A.Pneumonia\n B.Pneumothorax\n C.Pleural effusion\n D.Tuberculosis\n E.P",
+                "<s> Q::Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> QUESTION:Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n   ANSWER:\n No, a focal infiltrate cannot be seen on the patient's chest X-ray.\n The patient's chest X-ray shows bilateral, diffuse",
+                "<s> Q:Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tYes, a focal infiltrate can be seen on the patient's chest X-ray.\n The patient's chest X-ray shows a focal infiltrate in",
+                "<s> question:Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have chosen option 1.\n The patient's chest X-ray shows a focal infiltrate in the right lower lo",
+                "<s> QUESTION:Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n The patient's chest X-ray shows a focal infiltrate in the right lower lobe.\n 10.\n QUESTION:What is the most likely diagnosis?\n   A.P",
+                "<s> Question-Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The patient's chest X-ray shows a focal infiltrate in the right lower lobe.\n Question-What is the most likely diagnosis?\n A. Pneumonia\n B. Pulmonary ed",
+                "<s> Question::: Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n"
+            ]
+        ],
+        "sensitivities": [
+            0.4170810275362264
+        ],
+        "posix": 0.4170810275362264
+    }
+}

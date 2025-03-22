@@ -1,0 +1,189 @@
+{
+    "file_name": "question_355_variants.json",
+    "overall_posix": 3.971602468751005,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.0672737995783488,
+            "Variation 3": 0.7932427685435225,
+            "Variation 4": 10.669851454821499,
+            "Variation 5": 10.70803072235801,
+            "Variation 6": 0.23488518086875357,
+            "Variation 7": 10.669851454821499,
+            "Variation 8": 0.841544451713562,
+            "Variation 9": 0.12038026854049327,
+            "Variation 10": 8.905507187048594
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the patient does not have a large pleural effusion as seen on the chest X-ray. The image shows a normal chest X-ray with no signs of pleural effusion.",
+                "No, the patient does not have a large pleural effusion as seen on the chest X-ray. The image shows a normal chest X-ray with no signs of pleural effusion.",
+                "No, the pjatient does not have a large pleural effusion as seen on the chest X-ray. The image shows a normal chest X-ray with no signs of pleural effusion.",
+                "No, the patient does not have a large pleural effusion as seen on the chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "Yes, the patient has a large pleural effusion as seen on the chest X-ray.",
+                "Yes, the patient appears to have a large pleural effusion on the chest X-ray.",
+                "No, the patient does not have a large pleural effusion as seen on the chest X-ray. The image shows a normal chest X-ray with no significant pleural effusion.",
+                "Yes, the patient has a large pleural effusion as seen on the chest X-ray.",
+                "No, the patient does not have a large pleural effusion as seen on the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and ribs visible. There is no significant fluid accumulation in",
+                "No, the patient does not have a large pleural effusion as seen on the chest X-ray. The image shows a normal chest X-ray with no evidence of a pleural effusion.",
+                "Yes, the patient appears to have a large pleural effusion as seen on the chest X-ray."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -442.72092604637146,
+                    -442.72092604637146,
+                    -445.74824702739716,
+                    -410.19797253608704,
+                    -207.98419404029846,
+                    -207.14425015449524,
+                    -433.09063363075256,
+                    -207.98419404029846,
+                    -484.79814863204956,
+                    -437.54457449913025,
+                    -228.9887535572052
+                ],
+                [
+                    -409.1888840198517,
+                    -409.1888840198517,
+                    -440.88588416576385,
+                    -386.53533244132996,
+                    -206.19049286842346,
+                    -216.96402382850647,
+                    -411.50375485420227,
+                    -206.19049286842346,
+                    -471.1942242383957,
+                    -421.0798587799072,
+                    -232.51657104492188
+                ],
+                [
+                    -413.19711470603943,
+                    -413.19711470603943,
+                    -428.076607465744,
+                    -386.6944899559021,
+                    -202.00382888317108,
+                    -198.03865897655487,
+                    -409.1914396286011,
+                    -202.00382888317108,
+                    -466.59678864479065,
+                    -418.9349367618561,
+                    -223.78149795532227
+                ],
+                [
+                    -407.4979735612869,
+                    -407.4979735612869,
+                    -452.3603903055191,
+                    -371.81144881248474,
+                    -204.30469059944153,
+                    -200.28778290748596,
+                    -398.9310805797577,
+                    -204.30469059944153,
+                    -453.2322577238083,
+                    -406.1878094673157,
+                    -218.44246697425842
+                ],
+                [
+                    -416.1480917930603,
+                    -416.1480917930603,
+                    -445.3385398387909,
+                    -382.37825536727905,
+                    -202.07449579238892,
+                    -204.7845642566681,
+                    -403.64780378341675,
+                    -202.07449579238892,
+                    -478.8324248790741,
+                    -420.4543933868408,
+                    -225.06320810317993
+                ],
+                [
+                    -442.72092604637146,
+                    -442.72092604637146,
+                    -445.74824702739716,
+                    -410.19797253608704,
+                    -207.98419404029846,
+                    -207.14425015449524,
+                    -433.09063363075256,
+                    -207.98419404029846,
+                    -484.79814863204956,
+                    -437.54457449913025,
+                    -228.9887535572052
+                ],
+                [
+                    -409.1888840198517,
+                    -409.1888840198517,
+                    -440.88588416576385,
+                    -386.53533244132996,
+                    -206.19049286842346,
+                    -216.96402382850647,
+                    -411.50375485420227,
+                    -206.19049286842346,
+                    -471.1942242383957,
+                    -421.0798587799072,
+                    -232.51657104492188
+                ],
+                [
+                    -409.1888840198517,
+                    -409.1888840198517,
+                    -440.88588416576385,
+                    -386.53533244132996,
+                    -206.19049286842346,
+                    -216.96402382850647,
+                    -411.50375485420227,
+                    -206.19049286842346,
+                    -471.1942242383957,
+                    -421.0798587799072,
+                    -232.51657104492188
+                ],
+                [
+                    -409.1888840198517,
+                    -409.1888840198517,
+                    -440.88588416576385,
+                    -386.53533244132996,
+                    -206.19049286842346,
+                    -216.96402382850647,
+                    -411.50375485420227,
+                    -206.19049286842346,
+                    -471.1942242383957,
+                    -421.0798587799072,
+                    -232.51657104492188
+                ],
+                [
+                    -416.1480917930603,
+                    -416.1480917930603,
+                    -445.3385398387909,
+                    -382.37825536727905,
+                    -202.07449579238892,
+                    -204.7845642566681,
+                    -403.64780378341675,
+                    -202.07449579238892,
+                    -478.8324248790741,
+                    -420.4543933868408,
+                    -225.06320810317993
+                ],
+                [
+                    -409.1888840198517,
+                    -409.1888840198517,
+                    -440.88588416576385,
+                    -386.53533244132996,
+                    -206.19049286842346,
+                    -216.96402382850647,
+                    -411.50375485420227,
+                    -206.19049286842346,
+                    -471.1942242383957,
+                    -421.0798587799072,
+                    -232.51657104492188
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.971602468751005
+        ],
+        "posix": 3.971602468751005
+    }
+}

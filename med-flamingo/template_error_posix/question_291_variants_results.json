@@ -1,0 +1,42 @@
+{
+    "file_name": "question_291_variants.json",
+    "overall_posix": 0.3445563914861392,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.26442307692307687,
+            "Variation 2": 0.22999999999999998,
+            "Variation 3": 0.3076923076923077,
+            "Variation 4": 0.2949308755760369,
+            "Variation 5": 0.24257425742574257,
+            "Variation 6": 0.5148514851485149,
+            "Variation 7": 0.5379746835443038,
+            "Variation 8": 0.45985401459854014,
+            "Variation 9": 0.1724137931034483,
+            "Variation 10": 0.4208494208494209
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:What is",
+                "<s> QUESTION:Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> q::Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n",
+                "<s> q:Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> QUESTION:Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n [no]\n Rationale:The chest X-ray shows a small calcified lymph node in the right hilum. The calcified lymph node is a benign finding.\n The patient is",
+                "<s> question::Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A 48-year-old man presented with a 2-week history of a nonproductive cough. He had been in good health until 2 months ago, when he developed a fever and malaise.",
+                "<s> Question:Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 10.Question:Is there a pleural effusion?\n [yes, no]\n 11.Question:Is there a calcified pleural effusion?\n [yes, no]\n",
+                "<s> Question:Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> QUESTION:Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Aspiration pneumonia\n B:Lymphoma\n C:Pneumonia\n D:Pneumothorax"
+            ]
+        ],
+        "sensitivities": [
+            0.3445563914861392
+        ],
+        "posix": 0.3445563914861392
+    }
+}

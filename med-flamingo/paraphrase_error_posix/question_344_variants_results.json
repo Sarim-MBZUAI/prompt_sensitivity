@@ -1,0 +1,42 @@
+{
+    "file_name": "question_344_variants.json",
+    "overall_posix": 0.44393129942575904,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2524752475247525,
+            "Variation 2": 0.0,
+            "Variation 3": 0.4088669950738917,
+            "Variation 4": 0.5541795665634675,
+            "Variation 5": 0.6453488372093024,
+            "Variation 6": 0.43568464730290457,
+            "Variation 7": 0.4672897196261683,
+            "Variation 8": 0.6080691642651297,
+            "Variation 9": 0.5427509293680297,
+            "Variation 10": 0.5246478873239436
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the borders of the mediastinum visibly obscured or abnormal in this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the outline of the mediastinum appear distorted or irregular on this radiograph? Please choose from the following two options: [yes, no]\n<image> 2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are there any visible abnormalities or obscuration of the normal contours of the mediastinum in this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are.\n b. No, there are not.\n 1. The correct response is a. Yes, there are.\n 2. The correct response is b. No, there are not.\n 3",
+                "<s> Can the typical anatomical borders of the mediastinum be clearly visualized on this radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, the mediastinum can be visualized.\n b. No, the mediastinum cannot be visualized.\n 4. Please select the option that best describes the appearance of the trachea on this radi",
+                "<s> Are there any notable deviations or irregularities in the normal silhouette of the mediastinum evident on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does the mediastinum appear to be blurred or obscured by adjacent structures on this radiograph? Please choose from the following two options: [yes, no]\n<image> 2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are there any visible lesions or abnormalities that affect the normal outline of the mediastinum in this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are multiple nodules in the right lung.\n b. No, there are no visible lesions or abnormalities.\n 4.\n What is the most likely diagnosis?\n a. Lymphoma",
+                "<s> Can the typical anatomical boundaries of the mediastinum be clearly distinguished on this radiograph? Please choose from the following two options: [yes, no]\n<image> a\n b\n Fig. 1.16a,b. Chest radiograph. a Normal mediastinum. b Enlarged mediastinum.\n 1.indd 1210/22",
+                "<s> Are there any notable obscuration or irregularities in the normal silhouette of the mediastinum evident on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.15  Answer\n The X-ray shows a right-sided pneumothorax.\n 11.10.16  Case 2\n A 55-year-"
+            ]
+        ],
+        "sensitivities": [
+            0.44393129942575904
+        ],
+        "posix": 0.44393129942575904
+    }
+}

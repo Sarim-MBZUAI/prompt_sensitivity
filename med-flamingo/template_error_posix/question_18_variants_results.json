@@ -1,0 +1,42 @@
+{
+    "file_name": "question_18_variants.json",
+    "overall_posix": 0.3548607443183523,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.49146757679180886,
+            "Variation 2": 0.5416666666666666,
+            "Variation 3": 0.295774647887324,
+            "Variation 4": 0.23115577889447236,
+            "Variation 5": 0.23350253807106602,
+            "Variation 6": 0.331858407079646,
+            "Variation 7": 0.14516129032258063,
+            "Variation 8": 0.2562814070351759,
+            "Variation 9": 0.5217391304347826,
+            "Variation 10": 0.5
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> question:Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.What is the most likely diagnosis?\n 2.What is the most likely cause of this patient\u2019s symptoms?\n 3.What is the most likely treatment?",
+                "<s> Question:Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The radiograph is of a 55-year-old man who presented to the emergency department with a 2-day history of fever, chills, and cough. He has a history",
+                "<s> Q::: Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION\tIs there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> QUESTION:Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> q:Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n 10.  If the answer to question 9 is \u201cyes,\u201d please",
+                "<s> Q:Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> question::Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Question:Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Reasoning:\n The patient has a history of a right pneumothorax. The chest X-ray shows a right-sided pleural effusion. The right hemidiaphragm is",
+                "<s> Q:Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there any evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n A:\n [Yes, no]\n Q"
+            ]
+        ],
+        "sensitivities": [
+            0.3548607443183523
+        ],
+        "posix": 0.3548607443183523
+    }
+}

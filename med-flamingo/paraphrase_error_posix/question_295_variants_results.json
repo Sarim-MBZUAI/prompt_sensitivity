@@ -1,0 +1,42 @@
+{
+    "file_name": "question_295_variants.json",
+    "overall_posix": 0.5528332923811536,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5272727272727272,
+            "Variation 2": 0.4136363636363636,
+            "Variation 3": 0.5657894736842105,
+            "Variation 4": 0.5636363636363636,
+            "Variation 5": 0.5846645367412141,
+            "Variation 6": 0.5,
+            "Variation 7": 0.6090909090909091,
+            "Variation 8": 0.6652719665271967,
+            "Variation 9": 0.6147186147186147,
+            "Variation 10": 0.48425196850393704
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient demonstrate cardiomegaly on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient demonstrate cardiomegaly on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.10.13 Cardiomegaly\n 1.10.13.1 Correct Answer: Yes\n 1.10.13.2 Incorrect Answer: No\n 1.10.",
+                "<s> Does the chest radiograph show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of cardiomegaly on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Would you rate the cardiothoracic silhouette as normal or enlarged on this film? Please choose from the following two options: [yes, no]\n<image> 1. Normal\n 2. Enlarged\n 3. Both\n 4. Neither\n 5. Uncertain\n 1.\n 2.\n 3.\n 4.\n 5.\n ",
+                "<s> Can we document an increase in cardiac size relative to thoracic diameter on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1a\n 1.1b\n 1.1c\n 1.1d\n 1.1e\n 1.1f\n 1.1g\n 1.1h\n 1",
+                "<s> Please confirm whether this patient's cardiac silhouette is within normal limits or appears enlarged. Please choose from the following two options: [yes, no]\n<image> 1. The cardiac silhouette is enlarged.\n 2. The cardiac silhouette is within normal limits.\n 2. The cardiac silhouette is enlarged.\n 1. The card",
+                "<s> Is cardiomegaly visible on the provided chest imaging? Please choose from the following two options: [yes, no]\n<image> 1.10.1\n 1.10.2\n 1.10.3\n 1.10.4\n 1.10.5\n 1.10.6\n 1",
+                "<s> Does the heart appear disproportionately large for the individual's body habitus on this radiograph? Please choose from the following two options: [yes, no]\n<image> 2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Would you classify the cardiac contour as regular or irregular in appearance, with possible implications of cardiomegaly? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Can we determine if there is an abnormal increase in cardiac size compared to expected norms on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is the cardiothoracic silhouette abnormal due to enlargement of the heart chamber(s)? Please choose from the following two options: [yes, no]\n<image> 1.10.10  Cardiothoracic Silhouette\n 1.10.10.1  Normal\n The cardiothoracic silhouette is normal.\n 1.1"
+            ]
+        ],
+        "sensitivities": [
+            0.5528332923811536
+        ],
+        "posix": 0.5528332923811536
+    }
+}

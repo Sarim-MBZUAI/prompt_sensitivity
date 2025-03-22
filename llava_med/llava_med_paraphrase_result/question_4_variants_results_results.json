@@ -1,0 +1,189 @@
+{
+    "file_name": "question_4_variants_results.json",
+    "overall_posix": 1.1520400638703499,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.8042204219263472,
+            "Variation 2": 1.2098642470032477,
+            "Variation 3": 1.0565794608628238,
+            "Variation 4": 1.2839545259536767,
+            "Variation 5": 1.02329438438083,
+            "Variation 6": 1.2114814677014507,
+            "Variation 7": 0.8824406342804626,
+            "Variation 8": 0.951370176273458,
+            "Variation 9": 2.1586236554595475,
+            "Variation 10": 1.259743508757734
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the X-ray shows degenerative disease in the thoracic spine. ",
+                "The provided X-ray of the thoracic spine does not show any evidence of degenerative joint disease (DJD). ",
+                "The x-ray does not show any characteristic changes consistent with spondylosis in the thoracic region. ",
+                "The radiograph does not show any findings suggestive of osteoarthritic changes within the thoracic spine. ",
+                "The given image is a CT scan of the lumbar spine, not the thoracic vertebral bodies. However, degenerative disc disease or spondylotic change is not visible in the lumbar spine on this particular image.",
+                "Yes, the image shows radiographic features consistent with spinal stenosis due to degeneration in the thoracic spine. ",
+                "The thoracic spine region appears to be normal, with no signs of facet joint hypertrophy or uncovertebral joint osteoarthritis. ",
+                "The radiograph does not show any abnormal changes within the intervertebral discs or vertebral bodies that would indicate degenerative disease in the thoracic spine. ",
+                "The thoracic spine x-ray image shows no clear evidence of degenerative spondylolisthesis. ",
+                "The x-ray does not show any characteristics changes consistent with posterior element degeneration (ped) in the thoracic region. ",
+                "Yes, the image shows visible radiographic features that suggest spinal instability due to degenerative disease in the thoracic spine. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.40922630209826,
+                    -65.53583895988868,
+                    -74.07556097118595,
+                    -72.05003066712015,
+                    -106.89090712573577,
+                    -72.10805783352316,
+                    -89.86848501015629,
+                    -78.47173294187769,
+                    -67.09622106148163,
+                    -106.16793596588468,
+                    -80.46127507358801
+                ],
+                [
+                    -51.72300315901066,
+                    -44.817220947452824,
+                    -77.52263803097776,
+                    -72.57531647597716,
+                    -108.3977688875311,
+                    -75.59145845953844,
+                    -91.79739854537183,
+                    -84.40271789902977,
+                    -70.31065723506617,
+                    -108.76978600887378,
+                    -87.9050823629841
+                ],
+                [
+                    -61.942079527397254,
+                    -76.40337154625877,
+                    -42.1497052382274,
+                    -77.02253956588538,
+                    -120.50397594745755,
+                    -78.86133562687291,
+                    -90.29523243640142,
+                    -92.21302490252265,
+                    -73.36962020456849,
+                    -82.6335512200385,
+                    -95.56296062921228
+                ],
+                [
+                    -63.58772882712583,
+                    -72.79324059143619,
+                    -78.26938613177481,
+                    -43.148832909930206,
+                    -115.30571055904144,
+                    -75.64507581020189,
+                    -87.53421359846834,
+                    -81.73495382428155,
+                    -73.21413669045432,
+                    -114.53219104972231,
+                    -88.97104654018585
+                ],
+                [
+                    -62.98802612101417,
+                    -76.01314050197107,
+                    -79.53766368197421,
+                    -77.02663948282316,
+                    -58.22459176253687,
+                    -82.03209387214338,
+                    -94.66543289093534,
+                    -90.79830739222098,
+                    -75.00235165344202,
+                    -114.0927509513258,
+                    -93.8323635939596
+                ],
+                [
+                    -60.2778696305204,
+                    -73.0288885568607,
+                    -80.90859902202283,
+                    -72.28148567163225,
+                    -112.34573026634823,
+                    -41.63645208500674,
+                    -86.57838318719587,
+                    -86.1818820248327,
+                    -69.39837357675424,
+                    -108.99602994788802,
+                    -76.89656386556544
+                ],
+                [
+                    -62.698823731801895,
+                    -73.32654751601194,
+                    -77.34144759324226,
+                    -73.19259888025226,
+                    -121.05756650555662,
+                    -80.31531419259954,
+                    -47.81985788818531,
+                    -89.71139230756944,
+                    -72.14917702189996,
+                    -112.67934016676736,
+                    -90.22091364588596
+                ],
+                [
+                    -56.7986419973663,
+                    -75.16765922034983,
+                    -77.47548045058375,
+                    -63.21664448294382,
+                    -111.80520102639454,
+                    -74.7169497777179,
+                    -89.77951059286715,
+                    -43.69246314369508,
+                    -71.90561298429384,
+                    -114.3317286543388,
+                    -84.12520264466548
+                ],
+                [
+                    -61.603323153752626,
+                    -73.3657733621867,
+                    -80.92978764687723,
+                    -78.46551312411611,
+                    -115.7077767523196,
+                    -74.91876312535624,
+                    -90.55901571788127,
+                    -89.8014334970203,
+                    -47.165461950681674,
+                    -108.37852703550016,
+                    -86.5421590308838
+                ],
+                [
+                    -58.15211995026402,
+                    -73.22237474718168,
+                    -59.18868864910473,
+                    -76.8137132503889,
+                    -119.90538497994561,
+                    -74.44440033061983,
+                    -91.26394279691158,
+                    -88.35702322666748,
+                    -73.07995649182703,
+                    -42.54472155089388,
+                    -88.5025461391474
+                ],
+                [
+                    -55.33197719157033,
+                    -72.48770480184658,
+                    -83.85762662373963,
+                    -75.9310319608976,
+                    -110.60705862221218,
+                    -63.57135954518253,
+                    -91.06487677653786,
+                    -78.11897055005966,
+                    -68.90276473847916,
+                    -112.63844101445284,
+                    -43.55830552443922
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.1520400638703499
+        ],
+        "posix": 1.1520400638703499
+    }
+}

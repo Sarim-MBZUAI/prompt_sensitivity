@@ -1,0 +1,42 @@
+{
+    "file_name": "question_207_variants.json",
+    "overall_posix": 0.26360683232324955,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.18500000000000005,
+            "Variation 2": 0.0,
+            "Variation 3": 0.25888324873096447,
+            "Variation 4": 0.2068965517241379,
+            "Variation 5": 0.2741116751269035,
+            "Variation 6": 0.42380952380952386,
+            "Variation 7": 0.3285024154589372,
+            "Variation 8": 0.31221719457013575,
+            "Variation 9": 0.373015873015873,
+            "Variation 10": 0.2736318407960199
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographically evident fractures of the bony thorax on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray show any visible bone fractures within the thoracic cage? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any osseous abnormalities suggesting fracture of the ribcage on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you identify any rib or sternum fractures visible on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of bony disruption or fracture within the thoracic skeleton on this X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Are there any detectable bone fractures within the chest wall visible on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Does the chest X-ray show any osseous lesions suggestive of fracture of the thoracic vertebrae or ribs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you confirm whether there are any radiographically apparent fractures within the bony structures of the thorax on this X-ray? Please choose from the following two options: [yes, no]\n<image> 25.\n a.\n b.\n c.\n d.\n e.\n 26.\n 27.\n 28.\n 29.\n 30.\n 31.\n",
+                "<s> Is there a fracture visible in the chest wall or thoracic spine on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.26360683232324955
+        ],
+        "posix": 0.26360683232324955
+    }
+}

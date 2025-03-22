@@ -1,0 +1,42 @@
+{
+    "file_name": "question_378_variants.json",
+    "overall_posix": 0.426363830079886,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.31188118811881194,
+            "Variation 2": 0.40851063829787226,
+            "Variation 3": 0.45344129554655876,
+            "Variation 4": 0.5108695652173914,
+            "Variation 5": 0.29255319148936176,
+            "Variation 6": 0.2606382978723405,
+            "Variation 7": 0.47148288973384034,
+            "Variation 8": 0.5760517799352751,
+            "Variation 9": 0.47637795275590555,
+            "Variation 10": 0.5018315018315018
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::: Can pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> question::Can pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A pneumothorax can be observed in the X-ray image.\n 10.10.10  Answer 10.10.9\n 10.10.11  Answer",
+                "<s> QUESTION:Can pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n 10.\n QUESTION:What is the diagnosis?\n A.Pneumothorax\n B.Pneumomediastinum\n C.Subcutaneous emphysema\n D",
+                "<s> Question-Can pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The X-ray image shows a pneumothorax.\n The X-ray image shows a pneumothorax.\n The X-ray image shows a pneumothorax.\n The X-ray image shows",
+                "<s> Question:Can pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> q:Can pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> question:Can pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n1.Yes\n 2.No\n\n 1.Yes\n 2.No\n You have to decide whether the pneumothorax can be observed in the X-ray image. The answer is \u201cyes\u201d.\n",
+                "<s> Question:Can pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Explanation:The X-ray image shows a pneumothorax. The pneumothorax is a colection of air in the pleural space. The pleural space is the space between the lung and the ch",
+                "<s> Q:Can pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n Q:Can pneumothorax be observed in the CT image? Please choose from the following two options: [yes, no]||A:\n B:",
+                "<s> QUESTION\tCan pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n The X-ray image shows a left pneumothorax. The pneumothorax is visible as a white shadow in the left hemithorax"
+            ]
+        ],
+        "sensitivities": [
+            0.426363830079886
+        ],
+        "posix": 0.426363830079886
+    }
+}

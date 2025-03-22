@@ -1,0 +1,42 @@
+{
+    "file_name": "question_50_variants.json",
+    "overall_posix": 0.3596535982395622,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.28,
+            "Variation 2": 0.5049180327868853,
+            "Variation 3": 0.5235109717868338,
+            "Variation 4": 0.2922374429223744,
+            "Variation 5": 0.5111111111111111,
+            "Variation 6": 0.2361809045226131,
+            "Variation 7": 0.5158227848101266,
+            "Variation 8": 0.16402116402116396,
+            "Variation 9": 0.32735426008968616,
+            "Variation 10": 0.24137931034482762
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> question::Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Question:Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n\n 10.\n Question:Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n",
+                "<s> Question:Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer:Yes\n The cardiac silhouette is within normal limits on the X-ray.\n The cardiac silhouette is within normal limits on the X-ray.\n The cardiac silhou",
+                "<s> Q::Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question::: Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question: Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n Answer:\n No\n 11.\n Question",
+                "<s> Question:Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Correct Answer:\n Option 1\n Explanation:\n The cardiac silhouette is within normal limits.\n The cardiac silhouette is the outline of the heart on",
+                "<s> q:Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 1",
+                "<s> Q:Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: Radiographic Findings on Chest X-Ray\n 166: Chest X-Ray (PA)\n >Stud",
+                "<s> Q:Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n C:\n F:\n G:\n Figure 10.1\n 10."
+            ]
+        ],
+        "sensitivities": [
+            0.3596535982395622
+        ],
+        "posix": 0.3596535982395622
+    }
+}

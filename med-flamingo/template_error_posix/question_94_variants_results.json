@@ -1,0 +1,42 @@
+{
+    "file_name": "question_94_variants.json",
+    "overall_posix": 0.386672713268546,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2872628726287263,
+            "Variation 2": 0.4157303370786517,
+            "Variation 3": 0.45962732919254656,
+            "Variation 4": 0.3613445378151261,
+            "Variation 5": 0.4161490683229814,
+            "Variation 6": 0.3089887640449438,
+            "Variation 7": 0.4130434782608696,
+            "Variation 8": 0.43788819875776397,
+            "Variation 9": 0.3288043478260869,
+            "Variation 10": 0.43788819875776397
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the lungs and pleural spaces are free of acute abnormalities.\n 2. No, the lungs and pleural spaces are not free of acute abnormalities.\n 1. No,",
+                "<s> Q:Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]\nA:\n<image> The chest X-ray image shows a normal lung field with no evidence of acute abnormalities.\n Q:Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities",
+                "<s> Question:Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The radiograph is of a 55-year-old man who presented to the emergency department with fever, chills, and a cough. He has a history of diabetes mellit",
+                "<s> QUESTION\tDoes the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.",
+                "<s> QUESTION:Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no",
+                "<s> Question:Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)Yes\n (b)No\n 3.Question:What is the most likely diagnosis?\n (a)Pneumothorax\n (b)Pleural effusion\n (c)Pneumonia\n (",
+                "<s> Question::: Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n Explanation:\n Option 1: The chest X-ray image shows a normal lung field. The lungs and pleural spaces are free of acute abnormalities.",
+                "<s> q:Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> q:::Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n Discussion:\n The chest X-ray shows a normal cardiac silhouette, clear costophrenic angles, and clear lung fields. The lungs and pleural spaces are free of acute abnormalities.",
+                "<s> Q::Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::"
+            ]
+        ],
+        "sensitivities": [
+            0.386672713268546
+        ],
+        "posix": 0.386672713268546
+    }
+}

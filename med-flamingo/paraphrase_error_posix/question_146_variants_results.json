@@ -1,0 +1,42 @@
+{
+    "file_name": "question_146_variants.json",
+    "overall_posix": 0.5212387362602485,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3772455089820359,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6232876712328768,
+            "Variation 4": 0.438953488372093,
+            "Variation 5": 0.5229885057471264,
+            "Variation 6": 0.6164383561643836,
+            "Variation 7": 0.684931506849315,
+            "Variation 8": 0.5512820512820513,
+            "Variation 9": 0.7773972602739726,
+            "Variation 10": 0.6198630136986302
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any sign of focal opacification in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any sign of focal opacification in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is focal opacification in the right lower lobe.\n b. No, there is no focal opacification in the lungs.\n 10. What is the most likely diagnosis?\n",
+                "<s> Are there any radiographic findings suggesting consolidative lung lesions in this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are consolidative lung lesions in the right lower lobe.\n b. No, there are no consolidative lung lesions in the right lower lobe.\n 10. What is the most likely",
+                "<s> Is there any sign of focal opacification in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is focal opacification in the right lower lobe.\n b. No, there is no focal opacification in the lungs.\n 10. What is the most likely diagnosis?\n",
+                "<s> Is there evidence of alveolar consolidation visible on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does this X-ray display any abnormalities consistent with a focal area of increased lung density? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a focal area of increased lung density in the right lower zone.\n b. No, there is no focal area of increased lung density in the right lower zone.\n 2.\n This X-ray",
+                "<s> Are there any features on this image that might be indicative of pneumonia or an infiltrative process in the lungs? Please choose from the following two options: [yes, no]\n<image> 1. Are there any nodules or masses in the lungs?\n 2. Are there any areas of consolidation in the lungs?\n 3. Are there any areas of increased opacity in the lungs?\n ",
+                "<s> Is there a discrete opacification visible within the lung parenchyma on this X-ray? Please choose from the following two options: [yes, no]\n<image> 22\n 23\n 24\n 25\n 26\n 27\n 28\n 29\n 30\n 31\n 32\n 33\n 3",
+                "<s> Does the chest X-ray reveal any consolidation or infiltrative lesions in the lower respiratory tract? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any signs of lung consolidation visible on this radiograph that could be suggestive of an infectious process? Please choose from the following two options: [yes, no]\n<image> 1. Are there any signs of lung consolidation visible on this radiograph that could be suggestive of an infectious process? Please choose from the following two options: [yes, no]\n 2. Are there any signs",
+                "<s> Does the provided X-ray image show a focal area of increased opacity within the lungs consistent with a consolidative lesion? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is there any indication on this radiograph that might suggest an infectious or inflammatory process in the lungs? Please choose from the following two options: [yes, no]\n<image> a.\tYes,\tthere\tis\ta\tpatchy\tinfiltrate\tin\tthe\tright\tupper\tlobe\tthat\tis\tlikely\tto\tbe\tdue\tto\ta\tpneumonia"
+            ]
+        ],
+        "sensitivities": [
+            0.5212387362602485
+        ],
+        "posix": 0.5212387362602485
+    }
+}

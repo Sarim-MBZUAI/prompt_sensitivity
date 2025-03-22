@@ -1,0 +1,42 @@
+{
+    "file_name": "question_52_variants.json",
+    "overall_posix": 0.5089729370865165,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6324786324786325,
+            "Variation 2": 0.28205128205128205,
+            "Variation 3": 0.31122448979591844,
+            "Variation 4": 0.32547169811320753,
+            "Variation 5": 0.24880382775119614,
+            "Variation 6": 0.6801346801346801,
+            "Variation 7": 0.7282321899736148,
+            "Variation 8": 0.6686567164179105,
+            "Variation 9": 0.6046511627906976,
+            "Variation 10": 0.6080246913580247
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray demonstrate a normal lung pattern with no evidence of localized consolidation? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the chest X-ray demonstrates a normal lung pattern with no evidence of localized consolidation.\n 2. No, the chest X-ray demonstrates localized consolidation in the right lower",
+                "<s> Is there a visible lack of focal opacities on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there discernible signs of unobstructed lung fields in the provided image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we confidently exclude the presence of discrete pulmonary infiltrates from the chest film? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient's chest X-ray show a clear absence of distinct areas of increased density? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the chest X-ray devoid of any focal densitometric abnormalities? Please choose from the following two options: [yes, no]\n<image> a. Yes, the chest X-ray is devoid of any focal densitometric abnormalities.\n b. No, the chest X-ray shows a focal densitometric abnormality in the right lower lo",
+                "<s> Are there recognizable signs of normal lung texture and architecture on the image? Please choose from the following two options: [yes, no]\n<image> 1. Are there recognizable signs of normal lung texture and architecture on the image?\n 2. Are there recognizable signs of normal lung texture and architecture on the image?\n 3. Are there recognizable signs of normal lung texture",
+                "<s> Would you expect to see evidence of focal infiltrative disease on the provided chest radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a right lower lobe consolidation.\n b. No, there is no evidence of focal infiltrative disease.\n 2. Which of the following is the most likely diagnosis?\n a",
+                "<s> Can we confirm that the patient's lungs appear normal without any discrete lesions on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.Yes, the lungs are normal.\n 2.No, there are discrete lesions on the X-ray.\n 1.Yes, the lungs are normal.\n 2.No, there are discrete les",
+                "<s> Does the chest X-ray depict a normal lung silhouette with no indication of localized abnormalities? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the chest X-ray shows a normal lung silhouette with no localized abnormalities.\n 2.  No, the chest X-ray shows a localized abnormality in the right"
+            ]
+        ],
+        "sensitivities": [
+            0.5089729370865165
+        ],
+        "posix": 0.5089729370865165
+    }
+}

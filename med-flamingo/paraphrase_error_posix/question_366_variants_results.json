@@ -1,0 +1,42 @@
+{
+    "file_name": "question_366_variants.json",
+    "overall_posix": 0.35205687587195633,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.21468926553672318,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5978260869565217,
+            "Variation 4": 0.4032258064516129,
+            "Variation 5": 0.6329113924050633,
+            "Variation 6": 0.6363636363636364,
+            "Variation 7": 0.23913043478260865,
+            "Variation 8": 0.21857923497267762,
+            "Variation 9": 0.29949238578680204,
+            "Variation 10": 0.27835051546391754
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient display cardiomegaly on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there cardiac enlargement evident on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1. Cardiac enlargement is evident.\n 2. Cardiac enlargement is not evident.\n 1. Cardiac enlargement is evident.\n 2. Cardiac enlargement is not evident.\n",
+                "<s> Does the patient's chest X-ray show an increased cardiac silhouette? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Can you identify heart enlargement on the provided chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.1. Can you identify heart enlargement on the provided chest X-ray image? Please choose from the following two options: [yes, no]\n 1.2. Can you identify heart enlargement on the",
+                "<s> Is there evidence of cardiomegaly present in this radiologic examination? Please choose from the following two options: [yes, no]\n<image> 11.  Describe the radiologic findings in the patient with cardiomegaly.\n 12.  What is the most likely diagnosis?\n 13.  What is the most likely cause of the",
+                "<s> Does this chest X-ray depict a heart that is larger than expected? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you see an enlarged cardiac contour on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the patient's heart visually larger than normal on the provided X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Does the patient have a visible increase in cardiac size on this chest film? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.35205687587195633
+        ],
+        "posix": 0.35205687587195633
+    }
+}

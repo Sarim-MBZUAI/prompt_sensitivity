@@ -1,0 +1,42 @@
+{
+    "file_name": "question_303_variants.json",
+    "overall_posix": 0.3883692240265244,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.320754716981132,
+            "Variation 2": 0.4872727272727273,
+            "Variation 3": 0.47924528301886793,
+            "Variation 4": 0.5071428571428571,
+            "Variation 5": 0.15000000000000002,
+            "Variation 6": 0.30434782608695654,
+            "Variation 7": 0.5152542372881356,
+            "Variation 8": 0.27638190954773867,
+            "Variation 9": 0.4083333333333333,
+            "Variation 10": 0.4349593495934959
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q::Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> question:Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes, there are visible lung tumors on the chest X-ray.\n 2.No, there are no visible lung tumors on the chest X-ray.\n 1.Yes, there are",
+                "<s> QUESTION:Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n [yes, no]\n 10.\n QUESTION:What is the most likely diagnosis?\n [pneumonia, lung cancer, tuberculosis, sarcoidosis, or",
+                "<s> Q:Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Lung cancer\n Q:What is the most likely cause of the patient\u2019s symptoms?\n A:Lung cancer\n Q:What is",
+                "<s> Q:Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Q::: Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION\tAre there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The patient has a history of smoking. The chest X-ray shows a right upper lobe opacity.\n The patient is a smoker and therefore has",
+                "<s> Q:Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:What is",
+                "<s> QUESTION:Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Asthma\n B:Pneumonia\n C:Lung cancer\n D:Lymphoma\n E:T",
+                "<s> Question:Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the differential diagnosis?\n 1.Pleural effusion\n 2.Lung cancer\n 3.Lymphoma\n 4.Tuberculosis\n "
+            ]
+        ],
+        "sensitivities": [
+            0.3883692240265244
+        ],
+        "posix": 0.3883692240265244
+    }
+}

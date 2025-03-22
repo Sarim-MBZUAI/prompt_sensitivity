@@ -1,0 +1,42 @@
+{
+    "file_name": "question_375_variants.json",
+    "overall_posix": 0.43555606893176935,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4573378839590443,
+            "Variation 2": 0.49146757679180886,
+            "Variation 3": 0.4812286689419796,
+            "Variation 4": 0.4545454545454546,
+            "Variation 5": 0.31740614334470996,
+            "Variation 6": 0.45423728813559316,
+            "Variation 7": 0.35031847133757954,
+            "Variation 8": 0.4436860068259385,
+            "Variation 9": 0.43434343434343436,
+            "Variation 10": 0.4709897610921502
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lungs are abnormal.\n b. No, the lungs are not abnormal.\n 3.\n Based on the chest X-ray, are the patient's lungs considered to be abnormal",
+                "<s> q::Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q::: Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16:10\n 16:11\n 16:12\n 16:13\n 16:14\n 16",
+                "<s> QUESTION:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n COMMENTS:This is a frontal chest radiograph of a 55-year-old man with a history of chronic obstructive pulmonary disease (COPD). The patient's lungs are",
+                "<s> Q:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tYes, the patient's lungs are abnormal.\n \u2022\tNo, the patient's lungs are not abnormal.\n \u2022\tThe patient's lungs are not abnormal.",
+                "<s> question:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n A.Yes\n B.No\n 10.Question 10:\n A 55-year-old man with a history of hypertension and hypercholesterolemia is brought to the emergency",
+                "<s> question::Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A. The lungs are abnormal.\n B. The lungs are normal.\n C. The lungs are not visible.\n D. The lungs are not visible.\n E. The lungs are not visible.",
+                "<s> QUESTION:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n Pleural effusion\n C:\n Pulmonary edema\n D:\n Pulmonary",
+                "<s> QUESTION\tBased on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The chest X-ray shows a right-sided pneumothorax. The lung on the right side of the chest is not visible. The",
+                "<s> QUESTION:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n\n 3.\n QUESTION:Which of the following is the most likely diagnosis?\n A.Pneumonia\n B.Asthma\n C."
+            ]
+        ],
+        "sensitivities": [
+            0.43555606893176935
+        ],
+        "posix": 0.43555606893176935
+    }
+}

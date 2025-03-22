@@ -1,0 +1,42 @@
+{
+    "file_name": "question_186_variants.json",
+    "overall_posix": 0.35595879529107555,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.26923076923076916,
+            "Variation 2": 0.33333333333333326,
+            "Variation 3": 0.4966666666666666,
+            "Variation 4": 0.47750865051903113,
+            "Variation 5": 0.5538461538461539,
+            "Variation 6": 0.20603015075376885,
+            "Variation 7": 0.23115577889447236,
+            "Variation 8": 0.52,
+            "Variation 9": 0.21808510638297873,
+            "Variation 10": 0.25373134328358216
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Does the",
+                "<s> Question-Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+                "<s> QUESTION\tDoes the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a large right atrial and right ventricular mass. The right atrial size is 10 cm, and the right ventricular size",
+                "<s> Question::: Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pericardial effusion\n B. Pleural effusion\n C. Pneumothorax\n D. Pneumopericard",
+                "<s> Question:Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:This X-ray is of a patient with a heart murmur. The patient has a cardiomegaly.\n The heart is enlarged, and the right atrium is seen to be larger than the left",
+                "<s> question:Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n Yes\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 2",
+                "<s> QUESTION:Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n The patient shows signs of cardiomegaly on the X-ray. The heart is enlarged, and the cardiac silhouette is displaced to",
+                "<s> Q:Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: 166.1: 166.1: 166.1: 166.1:\n 1",
+                "<s> question::Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10"
+            ]
+        ],
+        "sensitivities": [
+            0.35595879529107555
+        ],
+        "posix": 0.35595879529107555
+    }
+}

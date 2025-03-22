@@ -1,0 +1,42 @@
+{
+    "file_name": "question_385_variants.json",
+    "overall_posix": 0.4704208317511583,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4649446494464944,
+            "Variation 2": 0.5527950310559007,
+            "Variation 3": 0.4008097165991903,
+            "Variation 4": 0.5185185185185185,
+            "Variation 5": 0.493006993006993,
+            "Variation 6": 0.22999999999999998,
+            "Variation 7": 0.521594684385382,
+            "Variation 8": 0.5527950310559007,
+            "Variation 9": 0.44656488549618323,
+            "Variation 10": 0.5231788079470199
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 1.Yes, we can see signs of thoracic spondylosis on the chest X-ray.\n 2.No, we cannot see signs of thoracic spondylosis on",
+                "<s> Question:Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Model Answer\n This is a frontal chest radiograph of a 75-year-old man. There is a marked increase in the density of the thoracic spine, with a loss of the normal vertebral",
+                "<s> Q:Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n   Answer: C\n Rationale: The X-ray shows a thoracic kyphosis of 40\u00b0. The vertebral bodies are",
+                "<s> Q::Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Can we see signs of degenerative changes on the cervical spine on the lateral X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q",
+                "<s> QUESTION:Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, no]\n 10.\n QUESTION:Can we see signs of degenerative changes on the cervical spine on the lateral X-ray?\n Please choose from",
+                "<s> QUESTION:Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question:Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Comments: The X-ray shows a thoracic kyphosis of 20\u00b0. The vertebral bodies are osteoporotic and the intervertebral spaces are narrowed. The lungs are",
+                "<s> Question:Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Model Answer\n This is a frontal chest radiograph of a 75-year-old man. There is a marked increase in the density of the thoracic spine, with a loss of the normal vertebral",
+                "<s> Q:Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Fig. 10.1\n 10 The Spine\n A:Yes, we can see signs of thoracic spondylosis on the chest X-ray. The thoracic spine is slightly",
+                "<s> Question:Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: Yes\n The patient is a 65-year-old man with thoracic spondylosis. The chest X-ray shows a narrowing of the left costophrenic angle"
+            ]
+        ],
+        "sensitivities": [
+            0.4704208317511583
+        ],
+        "posix": 0.4704208317511583
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_161_variants.json",
+    "overall_posix": 0.42371380608649467,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5094339622641509,
+            "Variation 2": 0.3008849557522124,
+            "Variation 3": 0.28054298642533937,
+            "Variation 4": 0.5323076923076923,
+            "Variation 5": 0.5157232704402516,
+            "Variation 6": 0.5698005698005698,
+            "Variation 7": 0.24423963133640547,
+            "Variation 8": 0.5476190476190477,
+            "Variation 9": 0.5154320987654321,
+            "Variation 10": 0.22115384615384615
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n Question:Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n 11\n 12",
+                "<s> Q:Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]||A:\n<image> B:\n [yes, no]\n C:\n [yes, no]\n D:\n [yes, no]\n E:\n [yes, no]\n F:\n [yes, no]\n G:\n [yes",
+                "<s> q:::Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q::Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is the scarring mentioned as being",
+                "<s> QUESTION:Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n 10.\n QUESTION:Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no",
+                "<s> question::Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n ANSWER:\n The patient has a history of a previous chest X-ray that shows extensive scarring in both lungs. The patient has a history of a previous chest X-ray that shows extensive scarring in",
+                "<s> question:Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.",
+                "<s> Q:Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n Q:Is the scarring mentioned as being wides",
+                "<s> Question::: Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n 11.\n",
+                "<s> QUESTION\tIs the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n"
+            ]
+        ],
+        "sensitivities": [
+            0.42371380608649467
+        ],
+        "posix": 0.42371380608649467
+    }
+}

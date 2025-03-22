@@ -1,0 +1,189 @@
+{
+    "file_name": "question_160_variants.json",
+    "overall_posix": 2.853903498349342,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.5500125303501036,
+            "Variation 2": 1.7068101224445162,
+            "Variation 3": 8.136843557711002,
+            "Variation 4": 0.18950836999075754,
+            "Variation 5": 2.781730287953427,
+            "Variation 6": 5.884067827655423,
+            "Variation 7": 8.040316905294146,
+            "Variation 8": 7.168091578142984,
+            "Variation 9": 1.4731771890507188,
+            "Variation 10": 5.195148304104805
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the patient does not have streaky and patchy bibasilar opacities. The image shows a chest X-ray with a clear view of the lungs, and there are no visible streaks or patches in the lower lung fields",
+                "No, the chest X-ray does not show bilateral, patchy opacities at the lung bases. The image appears to be normal, with no signs of significant lung pathology.",
+                "No, the patient does not have streaky and patchy bibasilar opacities. The image shows a chest X-ray with a normal appearance, indicating no significant abnormalities.",
+                "No, there are no streaky and patchy opacifications seen in the lower lobes on the PA chest film.",
+                "No, the patient does not have bilateral basal consolidations with streaky and patchy patterns visible on the X-ray. The X-ray shows a normal chest with no signs of consolidation or other abnormalities.",
+                "No, there are no distinctive bibasilar opacities present on the chest radiograph. The image shows a normal chest radiograph with no signs of abnormalities.",
+                "No, the PA chest film does not reveal streaky, patchy opacifications in a bilateral, symmetric distribution at the lung bases.",
+                "No, the lower lobe consolidations on the chest X-ray are described as being streaked and patchy in appearance.",
+                "No, the radiograph does not show bilateral basal opacifications with a mixed pattern of streaking and patchiness.",
+                "No, there are no characteristic bibasilar consolidations seen on the chest film. The image shows a chest X-ray with a few scattered opacities, but no streaky consolidations.",
+                "Yes, the PA and lateral chest X-ray display streaky and patchy opacifications in a bilateral distribution at the lung bases."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -492.7684679031372,
+                    -429.21795415878296,
+                    -421.08244276046753,
+                    -273.0736918449402,
+                    -483.4825577735901,
+                    -387.062716960907,
+                    -310.3623652458191,
+                    -267.6395945549011,
+                    -292.06190371513367,
+                    -429.4218487739563,
+                    -326.52372217178345
+                ],
+                [
+                    -507.0620536804199,
+                    -408.9700846672058,
+                    -439.3165965080261,
+                    -266.4238181114197,
+                    -523.0827898979187,
+                    -398.29037642478943,
+                    -325.1975746154785,
+                    -267.15791487693787,
+                    -305.33433961868286,
+                    -442.17607736587524,
+                    -320.86794114112854
+                ],
+                [
+                    -492.7684679031372,
+                    -429.21795415878296,
+                    -421.08244276046753,
+                    -273.0736918449402,
+                    -483.4825577735901,
+                    -387.062716960907,
+                    -310.3623652458191,
+                    -267.6395945549011,
+                    -292.06190371513367,
+                    -429.4218487739563,
+                    -326.52372217178345
+                ],
+                [
+                    -497.4532136917114,
+                    -411.1660349369049,
+                    -423.145227432251,
+                    -286.43026065826416,
+                    -488.9441542625427,
+                    -396.8618702888489,
+                    -318.91665172576904,
+                    -263.80699920654297,
+                    -288.0205879211426,
+                    -429.27918767929077,
+                    -321.0401554107666
+                ],
+                [
+                    -480.95496368408203,
+                    -412.46925926208496,
+                    -411.3132781982422,
+                    -247.1437225341797,
+                    -490.97450590133667,
+                    -382.22040939331055,
+                    -314.5207529067993,
+                    -243.49508047103882,
+                    -284.53069519996643,
+                    -438.93489599227905,
+                    -311.810870885849
+                ],
+                [
+                    -477.2277386188507,
+                    -387.66014647483826,
+                    -414.50184082984924,
+                    -257.8774743080139,
+                    -467.1606674194336,
+                    -390.567822933197,
+                    -294.1441715955734,
+                    -259.0420265197754,
+                    -272.6540359258652,
+                    -454.56440258026123,
+                    -305.14591789245605
+                ],
+                [
+                    -477.2277386188507,
+                    -387.66014647483826,
+                    -414.50184082984924,
+                    -257.8774743080139,
+                    -467.1606674194336,
+                    -390.567822933197,
+                    -294.1441715955734,
+                    -259.0420265197754,
+                    -272.6540359258652,
+                    -454.56440258026123,
+                    -305.14591789245605
+                ],
+                [
+                    -480.95496368408203,
+                    -412.46925926208496,
+                    -411.3132781982422,
+                    -247.1437225341797,
+                    -490.97450590133667,
+                    -382.22040939331055,
+                    -314.5207529067993,
+                    -243.49508047103882,
+                    -284.53069519996643,
+                    -438.93489599227905,
+                    -311.810870885849
+                ],
+                [
+                    -477.74251103401184,
+                    -411.2259159088135,
+                    -402.72505378723145,
+                    -265.5938320159912,
+                    -481.50310587882996,
+                    -397.5844578742981,
+                    -309.56153202056885,
+                    -252.1319670677185,
+                    -275.68509542942047,
+                    -437.3872866630554,
+                    -308.4664936065674
+                ],
+                [
+                    -454.0212848186493,
+                    -391.73279452323914,
+                    -405.6361048221588,
+                    -247.8343529701233,
+                    -466.3503315448761,
+                    -395.34947872161865,
+                    -310.1128623485565,
+                    -253.45209908485413,
+                    -295.66124749183655,
+                    -422.9867067337036,
+                    -301.716548204422
+                ],
+                [
+                    -460.9787167310715,
+                    -419.2671389579773,
+                    -404.6004500389099,
+                    -251.48946738243103,
+                    -476.0786566734314,
+                    -354.7431559562683,
+                    -322.52330207824707,
+                    -269.4812363386154,
+                    -279.22534120082855,
+                    -407.7996611595154,
+                    -318.4741826057434
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.853903498349342
+        ],
+        "posix": 2.853903498349342
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_155_variants.json",
+    "overall_posix": 0.43291275472184865,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.30869565217391304,
+            "Variation 2": 0.46808510638297873,
+            "Variation 3": 0.47058823529411764,
+            "Variation 4": 0.37117903930131,
+            "Variation 5": 0.4982698961937716,
+            "Variation 6": 0.5033557046979866,
+            "Variation 7": 0.3846153846153846,
+            "Variation 8": 0.542319749216301,
+            "Variation 9": 0.30666666666666664,
+            "Variation 10": 0.47535211267605626
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Question::: Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question:Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n\n 10.Question:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumonia\n C.Pneumonitis\n D",
+                "<s> Q::Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is the pneumothorax on the right side? [yes, no]\n A::\n B::\n Q::Is the pneumothorax on the left side? [yes, no]\n A",
+                "<s> Q::: Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The chest X-ray shows a right pneumothorax.\n Q:What is the most likely cause of the pneumothorax?\n A:Tension pneumothorax\n B",
+                "<s> QUESTION\tDoes the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a right-sided pneumothorax. The right hemithorax is of reduced size, with a sharply defined air",
+                "<s> q::Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question-Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n Comments\n The chest X-ray shows a right pneumothorax. The right hemithorax is collapsed and the mediastinum is shifted to the left. The left lung is",
+                "<s> question:Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n1.No\n 2.No\n 3.Yes\n 4.No\n 5.Yes\n 6.No\n 7.Yes\n 8.No\n 9.Yes\n ",
+                "<s> QUESTION:Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option a: Yes\n Option b: No\n 1.\n QUESTION:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumonia\n C.Pneumonitis\n D"
+            ]
+        ],
+        "sensitivities": [
+            0.43291275472184865
+        ],
+        "posix": 0.43291275472184865
+    }
+}

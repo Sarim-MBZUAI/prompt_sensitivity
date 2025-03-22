@@ -1,0 +1,189 @@
+{
+    "file_name": "question_355_variants_results.json",
+    "overall_posix": 1.040085752264288,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.1004095835754808,
+            "Variation 2": 0.9846532023483369,
+            "Variation 3": 1.6309787207771567,
+            "Variation 4": 1.3084760428287778,
+            "Variation 5": 0.0,
+            "Variation 6": 0.8862621980409507,
+            "Variation 7": 1.4796781611961374,
+            "Variation 8": 1.2116458470987335,
+            "Variation 9": 1.6971241615990644,
+            "Variation 10": 1.3890333893297595
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the patient has a large pleural effusion as seen on the chest X-ray. ",
+                "The chest radiograph does not show a significant accumulation of fluid in the pleural space that would be classified as a large effusion. ",
+                "Yes, the chest X-ray shows an increase in intercostal spaces, which is suggestive of a substantial pleural effusion. ",
+                "Yes, the chest imaging shows an extensive collection of fluid within the pleural cavities, which is consistent with a significant effusion. ",
+                "The image is likely related to a question or statement that requires a yes or no answer. Without more context, it's difficult to determine the specific question or statement. However, the image is likely used to visually represent the options or choices for",
+                "Yes, the patient has a large pleural effusion as seen on the chest X-ray. ",
+                "The chest radiograph does not show any evidence of a substantial amount of free fluid in the pleural space. This means that there is no large pleural effusion visible in the image. ",
+                "The chest x-ray does not show any notable features that would suggest the presence of a significant accumulation of fluid within the pleural cavities. ",
+                "Yes, the chest radiograph shows an increase in the density of the intercostal spaces, which is suggestive of a substantial pleural effusion. ",
+                "The chest imaging does not show any findings that would be consistent with a large volume of fluid accumulating within the pleural space. ",
+                "The chest radiograph does not show a notable shift in mediastinal structures or an increase in intercostal spaces, which would be indicative of a significant pleural effusion. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.46797034471365,
+                    -75.58066743555355,
+                    -71.99221961751209,
+                    -92.0283106888055,
+                    -108.20024852898132,
+                    -41.46797034471365,
+                    -77.80472046439263,
+                    -90.29734966418619,
+                    -82.66392914607059,
+                    -92.38169519268558,
+                    -97.02930591790403
+                ],
+                [
+                    -61.12055488133046,
+                    -41.70631845589594,
+                    -76.19992714022555,
+                    -84.46983525299584,
+                    -116.39827332450477,
+                    -61.12055488133046,
+                    -70.43760460861859,
+                    -86.11164199409063,
+                    -72.39866651414013,
+                    -87.59259387402562,
+                    -89.85778180987563
+                ],
+                [
+                    -60.12668088394639,
+                    -78.8430787403413,
+                    -42.953834261112206,
+                    -91.23624147874943,
+                    -109.36124070239612,
+                    -60.12668088394639,
+                    -79.55838819859787,
+                    -78.28110211956664,
+                    -62.755164592710116,
+                    -91.79691759834532,
+                    -77.3714898116807
+                ],
+                [
+                    -63.451837524044095,
+                    -74.29194090817327,
+                    -75.63133704859865,
+                    -43.263826841001446,
+                    -114.6854414289196,
+                    -63.451837524044095,
+                    -82.42989578037304,
+                    -75.78358015193953,
+                    -78.82525804231591,
+                    -77.33448041273368,
+                    -95.9351334537223
+                ],
+                [
+                    -62.97288304359245,
+                    -92.42858820184483,
+                    -80.83236156356725,
+                    -89.46945142345794,
+                    -63.47161440090895,
+                    -62.97288304359245,
+                    -93.44652270816732,
+                    -93.90477593339165,
+                    -85.83161271554854,
+                    -96.00041837478057,
+                    -107.4191686255217
+                ],
+                [
+                    -41.46797034471365,
+                    -75.58066743555355,
+                    -71.99221961751209,
+                    -92.0283106888055,
+                    -108.20024852898132,
+                    -41.46797034471365,
+                    -77.80472046439263,
+                    -90.29734966418619,
+                    -82.66392914607059,
+                    -92.38169519268558,
+                    -97.02930591790403
+                ],
+                [
+                    -59.519830333501886,
+                    -73.31433891122288,
+                    -71.3317205986923,
+                    -90.18094227146139,
+                    -114.12889268989784,
+                    -59.519830333501886,
+                    -49.128202252240044,
+                    -88.81301095244271,
+                    -68.8833011476786,
+                    -88.440476056654,
+                    -89.02024609062391
+                ],
+                [
+                    -64.38070806362339,
+                    -79.657354083256,
+                    -69.02553426433133,
+                    -77.87885148213536,
+                    -116.91394882151462,
+                    -64.38070806362339,
+                    -84.41102573243552,
+                    -42.713310379710265,
+                    -77.7469913809091,
+                    -87.79964743263554,
+                    -93.87210657259857
+                ],
+                [
+                    -64.60149261702463,
+                    -76.05640615938319,
+                    -56.24618856578513,
+                    -88.96623597204962,
+                    -108.85978447756997,
+                    -64.60149261702463,
+                    -74.60564724986807,
+                    -84.8796023954128,
+                    -42.60120076372152,
+                    -92.95419069414493,
+                    -76.60486441928606
+                ],
+                [
+                    -64.16823065830977,
+                    -75.38303669221932,
+                    -75.89137331005168,
+                    -77.12973971657448,
+                    -114.0491087913756,
+                    -64.16823065830977,
+                    -84.28814794469508,
+                    -81.38394909287672,
+                    -78.96103352117461,
+                    -43.28081609885203,
+                    -97.83281410155905
+                ],
+                [
+                    -64.51976073666447,
+                    -72.27505100108101,
+                    -56.8103413622614,
+                    -88.48494834805024,
+                    -108.09030957413825,
+                    -64.51976073666447,
+                    -79.09015609738935,
+                    -80.85324543771276,
+                    -62.40714549362451,
+                    -91.45738619985059,
+                    -45.399516811482044
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.040085752264288
+        ],
+        "posix": 1.040085752264288
+    }
+}

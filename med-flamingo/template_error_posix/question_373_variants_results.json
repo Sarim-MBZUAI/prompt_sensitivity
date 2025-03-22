@@ -1,0 +1,42 @@
+{
+    "file_name": "question_373_variants.json",
+    "overall_posix": 0.3057529323536674,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4285714285714286,
+            "Variation 2": 0.08108108108108114,
+            "Variation 3": 0.28019323671497587,
+            "Variation 4": 0.24352331606217614,
+            "Variation 5": 0.4817518248175183,
+            "Variation 6": 0.31924882629107976,
+            "Variation 7": 0.5322033898305085,
+            "Variation 8": 0.149171270718232,
+            "Variation 9": 0.2995169082125604,
+            "Variation 10": 0.24226804123711343
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes]\n 11.Q:What is the most likely diagnosis?\n A:Aortic dissection\n B:Aortic aneurysm\n C:Aortic rupture\n D:Aort",
+                "<s> QUESTION:Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.\n",
+                "<s> question:Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n Figure 1.1.1\n 1.Yes\n 2.No\n 1",
+                "<s> Question:Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION\tIs the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a large right-sided pneumothorax. The right hemithorax is hyperlucent, and the left hemithor",
+                "<s> q::Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 10.Question:Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n ",
+                "<s> Q:Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q:::Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question::Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n"
+            ]
+        ],
+        "sensitivities": [
+            0.3057529323536674
+        ],
+        "posix": 0.3057529323536674
+    }
+}

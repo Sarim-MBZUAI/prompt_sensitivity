@@ -1,0 +1,42 @@
+{
+    "file_name": "question_112_variants.json",
+    "overall_posix": 0.46583901086676294,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.48601398601398604,
+            "Variation 2": 0.44565217391304346,
+            "Variation 3": 0.4624624624624625,
+            "Variation 4": 0.34397163120567376,
+            "Variation 5": 0.5036231884057971,
+            "Variation 6": 0.49275362318840576,
+            "Variation 7": 0.4746376811594203,
+            "Variation 8": 0.5108695652173914,
+            "Variation 9": 0.46739130434782616,
+            "Variation 10": 0.47101449275362317
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is visible damage to the XXXX on the chest X-ray.\n b. No, there is not visible damage to the XXXX on the chest X-ray.\n 10. What is the",
+                "<s> Question::: Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumothorax\n B. Pulmonary contusion\n C. Pulmonary edema\n D. Pulmonary embol",
+                "<s> QUESTION\tIs there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n Fig. 1.1.1: Chest X-ray showing a fracture of the left lateral end of the sternum\n The X-",
+                "<s> Question:Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man who has a history of aortic valve replacement. He is currently in the emergency department with chest pain. The patient is in acute resp",
+                "<s> QUESTION:Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n ",
+                "<s> question::Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q::Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Is there any",
+                "<s> Q::: Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q:Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> question:Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked:\n 1.Yes\n 2.No\n You have correctly marked:\n 1.Yes\n 2.No"
+            ]
+        ],
+        "sensitivities": [
+            0.46583901086676294
+        ],
+        "posix": 0.46583901086676294
+    }
+}

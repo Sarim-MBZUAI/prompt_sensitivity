@@ -1,0 +1,42 @@
+{
+    "file_name": "question_6_variants.json",
+    "overall_posix": 0.36408710905490127,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3417721518987342,
+            "Variation 2": 0.5015673981191222,
+            "Variation 3": 0.5141955835962145,
+            "Variation 4": 0.3246753246753247,
+            "Variation 5": 0.458041958041958,
+            "Variation 6": 0.2535211267605634,
+            "Variation 7": 0.24757281553398058,
+            "Variation 8": 0.3617886178861789,
+            "Variation 9": 0.19801980198019797,
+            "Variation 10": 0.43971631205673756
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.2.1.1\n 11.2.1.2\n 11.2.1.3\n 11.2.1.4\n 11.2.1.5\n",
+                "<s> Q::Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> question::Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n [no, no]\n 10.\n question::What is the most likely diagnosis?\n answer::Pneumonia\n 11.\n question::What is the most likely cause of this patient\u2019s pneum",
+                "<s> Question-Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The chest X-ray shows a large right-sided pleural effusion.\n The patient is a 65-year-old man with a history of a myocardial infarction.\n The pleural",
+                "<s> q:::Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tYes, there are.\n \u2022\tNo, there are not.\n \u2022\tThe patient has a right-sided pneumothorax.\n \u2022\tThe patient has a left-sided",
+                "<s> QUESTION:Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n B\n 20\n 11\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n ",
+                "<s> Q:Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 5:\n 4:\n 3:\n 6:\n 7:\n 2:\n 8:\n 9",
+                "<s> Q:Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n 166\t\tChapter\t1\tSuMmaRy\n Q:What is the most likely diagnosis?\n A:Pneumonia",
+                "<s> q:Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\na:\n<image> b:\n 10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.1",
+                "<s> QUESTION\tAre there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The X-ray image shows a normal cardiothoracic ratio (CTR) of 60% (i.e. the distance from the"
+            ]
+        ],
+        "sensitivities": [
+            0.36408710905490127
+        ],
+        "posix": 0.36408710905490127
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_375_variants.json",
+    "overall_posix": 14.834679814079514,
+    "detailed_scores": [
+        {
+            "Variation 1": 6.329301826953888,
+            "Variation 2": 56.10685773690542,
+            "Variation 3": 0.0,
+            "Variation 4": 6.575737421512604,
+            "Variation 5": 0.9229677852831388,
+            "Variation 6": 5.780665956735611,
+            "Variation 7": 3.8633934629374536,
+            "Variation 8": 0.09331828897649591,
+            "Variation 9": 2.315829677581787,
+            "Variation 10": 5.972286888360977
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the patient's lungs appear to be abnormal in the chest X-ray.",
+                "Based on the image provided, it is not possible for me to determine if the bilateral lung fields are within normal limits. A proper assessment of the lung fields would require a medical professional to evaluate the X-ray in the context of the patient'",
+                "No",
+                "Yes, the patient's lungs appear to be abnormal in the chest X-ray.",
+                "Based on the image provided, the pulmonary parenchyma on the chest X-ray appears to be normal. There are no visible abnormalities such as consolidations, infiltrates, or masses that would indicate a path",
+                "Yes, there is evidence of lung pathology visible on the chest X-ray.",
+                "No, the lungs on the chest X-ray are not free of abnormal findings. There are several areas of concern, including the presence of a mass in the right lung and a possible nodule in the left lung. These findings suggest that further",
+                "No, the pulmonary fields on the chest X-ray do not contain any discernible lesions or abnormalities.",
+                "No, the lung tissue is not visible on the chest X-ray within normal radiographic appearance.",
+                "No, the lungs on the chest X-ray do not demonstrate any abnormal opacities or densities.",
+                "Yes, there is a notable deviation from normal lung morphology visible on the chest X-ray. The image shows a lung with a significant amount of consolidation, which is a term used to describe an area of the lung where the air spaces"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -197.21264731884003,
+                    -513.6777386665344,
+                    -28.89207410812378,
+                    -197.21264731884003,
+                    -525.9995183944702,
+                    -179.6762593984604,
+                    -486.2459451556206,
+                    -309.2510577440262,
+                    -199.26564967632294,
+                    -255.1083892583847,
+                    -495.8269917368889
+                ],
+                [
+                    -180.3343312740326,
+                    -499.63936871290207,
+                    -23.847634077072144,
+                    -180.3343312740326,
+                    -518.6439797282219,
+                    -179.94217705726624,
+                    -481.6865084171295,
+                    -308.3206880092621,
+                    -208.66024708747864,
+                    -250.83608555793762,
+                    -510.42274141311646
+                ],
+                [
+                    -194.37327313423157,
+                    -503.5975160598755,
+                    -25.161919593811035,
+                    -194.37327313423157,
+                    -507.13190746307373,
+                    -175.76511883735657,
+                    -477.01926708221436,
+                    -310.5946627855301,
+                    -218.0047960281372,
+                    -238.40313386917114,
+                    -517.7979035377502
+                ],
+                [
+                    -197.21264731884003,
+                    -513.6777386665344,
+                    -28.89207410812378,
+                    -197.21264731884003,
+                    -525.9995183944702,
+                    -179.6762593984604,
+                    -486.2459451556206,
+                    -309.2510577440262,
+                    -199.26564967632294,
+                    -255.1083892583847,
+                    -495.8269917368889
+                ],
+                [
+                    -207.02062320709229,
+                    -500.5469768047333,
+                    -22.764485836029053,
+                    -207.02062320709229,
+                    -501.6639897823334,
+                    -191.87927150726318,
+                    -511.97748351097107,
+                    -286.8918219804764,
+                    -215.9913935661316,
+                    -263.98146057128906,
+                    -495.0875051021576
+                ],
+                [
+                    -180.3343312740326,
+                    -499.63936871290207,
+                    -23.847634077072144,
+                    -180.3343312740326,
+                    -518.6439797282219,
+                    -179.94217705726624,
+                    -481.6865084171295,
+                    -308.3206880092621,
+                    -208.66024708747864,
+                    -250.83608555793762,
+                    -510.42274141311646
+                ],
+                [
+                    -186.31609117984772,
+                    -485.7936441898346,
+                    -24.078668117523193,
+                    -186.31609117984772,
+                    -509.39954710006714,
+                    -182.17687845230103,
+                    -500.63242864608765,
+                    -299.47001028060913,
+                    -205.9956660270691,
+                    -248.26716661453247,
+                    -490.9330780506134
+                ],
+                [
+                    -180.54303979873657,
+                    -509.2033271789551,
+                    -24.556519746780396,
+                    -180.54303979873657,
+                    -517.5183594226837,
+                    -180.35901737213135,
+                    -474.1637625694275,
+                    -310.21084356307983,
+                    -212.41705989837646,
+                    -238.37564635276794,
+                    -493.8403344154358
+                ],
+                [
+                    -175.1941248178482,
+                    -516.7012877464294,
+                    -26.337458610534668,
+                    -175.1941248178482,
+                    -522.9701657295227,
+                    -187.59054625034332,
+                    -493.76630997657776,
+                    -299.4656410217285,
+                    -219.31037378311157,
+                    -230.87621665000916,
+                    -489.2486529350281
+                ],
+                [
+                    -197.21264731884003,
+                    -513.6777386665344,
+                    -28.89207410812378,
+                    -197.21264731884003,
+                    -525.9995183944702,
+                    -179.6762593984604,
+                    -486.2459451556206,
+                    -309.2510577440262,
+                    -199.26564967632294,
+                    -255.1083892583847,
+                    -495.8269917368889
+                ],
+                [
+                    -197.67575407028198,
+                    -521.5346722602844,
+                    -30.47102928161621,
+                    -197.67575407028198,
+                    -528.900671005249,
+                    -173.37491047382355,
+                    -483.9491560459137,
+                    -318.697069644928,
+                    -214.3889217376709,
+                    -254.55118656158447,
+                    -495.4986946582794
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            14.834679814079514
+        ],
+        "posix": 14.834679814079514
+    }
+}

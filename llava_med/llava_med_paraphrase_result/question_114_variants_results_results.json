@@ -1,0 +1,189 @@
+{
+    "file_name": "question_114_variants_results.json",
+    "overall_posix": 1.0842718130780398,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5655283495812395,
+            "Variation 2": 0.896734502808286,
+            "Variation 3": 1.286760228444417,
+            "Variation 4": 1.6182329120490444,
+            "Variation 5": 1.0397078582457349,
+            "Variation 6": 1.252908114487718,
+            "Variation 7": 0.892166685993626,
+            "Variation 8": 1.0116174133690508,
+            "Variation 9": 1.1995166521686162,
+            "Variation 10": 1.0712169647768228
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a visible calcified granuloma in the left lung base on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the chest X-ray shows a calcified granuloma in the left lung base. ",
+                "Yes, the calcified granuloma is visible in the left lung base on the radiograph. ",
+                "Yes, the chest X-ray shows a visible calcification corresponding to a granulomatous lesion in the left lower lobe. ",
+                "No, there are no calcifications consistent with a chronic inflammatory process present in the left lung base on this X-ray. ",
+                "The provided radiograph does not show any granulomatous calcification in the left lung apex or inferiorly. ",
+                "Yes, the image shows a visible calcified mass representing a healed granuloma in the left lower lobe of the lung. ",
+                "Yes, the left lung base shows a characteristic calcification indicative of a granulomatous reaction on the X-ray. ",
+                "The chest x-ray film does not show any radiographic findings that would suggest the presence of a calcified granuloma in the left lung. ",
+                "Yes, the chest radiograph shows a calcified lesion consistent with a granulomatous process in the left lower lung zone. ",
+                "Yes, the presence of a visible calcification in the left lower lobe of the lung on the X-ray suggests that the granuloma has healed. ",
+                "Yes, the chest X-ray shows evidence of a calcified granulomatous lesion in the left lung base, which corresponds to the known clinical findings. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.76739955585026,
+                    -54.77455159621877,
+                    -70.46290364571541,
+                    -81.65696663762719,
+                    -88.69615400527255,
+                    -72.95863530322231,
+                    -79.3546429904818,
+                    -71.20890019363992,
+                    -73.12753937029083,
+                    -84.94999903392045,
+                    -81.4024272525927
+                ],
+                [
+                    -43.03410674817803,
+                    -42.35397974385637,
+                    -76.32036729020137,
+                    -86.93395636865898,
+                    -84.13215063724783,
+                    -78.8147909674135,
+                    -85.01185357009672,
+                    -69.88555561691459,
+                    -70.50207496569692,
+                    -93.96248711127782,
+                    -83.5419700758207
+                ],
+                [
+                    -56.08162166656257,
+                    -69.20810143789276,
+                    -42.318930285898034,
+                    -92.91373783760173,
+                    -89.88897067939979,
+                    -69.80213337236273,
+                    -88.9721390039158,
+                    -73.7640686671657,
+                    -66.10281870094695,
+                    -75.72115565394097,
+                    -77.82371967621293
+                ],
+                [
+                    -55.725314187802724,
+                    -72.62590097566135,
+                    -79.11747914517582,
+                    -42.672292287974386,
+                    -90.98827263404382,
+                    -81.95221430452057,
+                    -84.75644029565592,
+                    -84.17076334095327,
+                    -74.52038328252092,
+                    -92.39972835843037,
+                    -85.6833140199733
+                ],
+                [
+                    -55.16537800990045,
+                    -62.212643974402454,
+                    -70.35482893231938,
+                    -95.32958409385537,
+                    -45.4808934968741,
+                    -81.87927422006442,
+                    -85.99463982436282,
+                    -70.93613634246867,
+                    -66.99286728063817,
+                    -94.3566829774627,
+                    -81.40843422268517
+                ],
+                [
+                    -56.584352401630895,
+                    -67.6366595228319,
+                    -69.0565745277454,
+                    -87.19723767908363,
+                    -90.69105975149432,
+                    -42.74609093326543,
+                    -92.71883905862342,
+                    -71.51903593687166,
+                    -74.59406137529004,
+                    -69.15777835293693,
+                    -86.50785717633698
+                ],
+                [
+                    -50.85971733205406,
+                    -64.80176017666236,
+                    -72.91005335989439,
+                    -81.9474738625895,
+                    -86.27681474509882,
+                    -80.45487122588793,
+                    -43.48092072945292,
+                    -78.1474632287136,
+                    -72.11770026953309,
+                    -84.44063110615889,
+                    -78.64309638871964
+                ],
+                [
+                    -51.34723932303916,
+                    -62.99631187865634,
+                    -76.30478373235587,
+                    -85.01983617523001,
+                    -85.68116735265357,
+                    -79.14908652463987,
+                    -90.97656807070598,
+                    -45.89005300761527,
+                    -71.99725588393994,
+                    -93.37584412656133,
+                    -86.34830935610046
+                ],
+                [
+                    -57.59253925700614,
+                    -62.64289843849838,
+                    -72.12741458753317,
+                    -87.53931307114362,
+                    -82.52364180836594,
+                    -78.03832722609332,
+                    -89.76715718985179,
+                    -74.51950145563751,
+                    -42.535423217773655,
+                    -94.36752815367709,
+                    -83.34333569084993
+                ],
+                [
+                    -59.38020738369414,
+                    -68.5560093736276,
+                    -68.65555386753658,
+                    -84.838849828604,
+                    -96.96509664406767,
+                    -59.54919884159972,
+                    -94.98882608021086,
+                    -77.52951599832159,
+                    -78.68414667234174,
+                    -47.0994874835601,
+                    -87.64675365642506
+                ],
+                [
+                    -56.61354774437086,
+                    -70.13965866483704,
+                    -70.68234060752934,
+                    -81.19760995629986,
+                    -92.12301714584464,
+                    -81.43000646882047,
+                    -85.83642347214118,
+                    -77.86138114026971,
+                    -68.08983038283804,
+                    -93.207493383773,
+                    -44.70746656487211
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.0842718130780398
+        ],
+        "posix": 1.0842718130780398
+    }
+}

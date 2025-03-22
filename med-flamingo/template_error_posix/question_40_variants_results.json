@@ -1,0 +1,42 @@
+{
+    "file_name": "question_40_variants.json",
+    "overall_posix": 0.3916063250556866,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3424124513618677,
+            "Variation 2": 0.4692556634304207,
+            "Variation 3": 0.4178571428571429,
+            "Variation 4": 0.3486590038314177,
+            "Variation 5": 0.25106382978723407,
+            "Variation 6": 0.429553264604811,
+            "Variation 7": 0.4389438943894389,
+            "Variation 8": 0.4178571428571429,
+            "Variation 9": 0.2845188284518829,
+            "Variation 10": 0.5159420289855072
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> question::Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1\n 10.10.10  Answer\n 10.10.10.1\n The X-ray shows a fracture of the left 11th rib.\n 10",
+                "<s> Q:Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:What is the most likely diagnosis?\n A:Pulmonary tuberculosis\n Q:What is the most likely cause of the patient\u2019s death?\n A:Pulmonary tuberculosis",
+                "<s> Question:Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the possible diagnosis?\n A:Pulmonary tuberculosis\n B:Pulmonary sarcoidosis\n C:Pulmonary embolism\n D",
+                "<s> Q:Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n   Ans:\n C\n Reference:\n 1.Bonney G, et al. Imaging of the chest. In: Imaging Essentials",
+                "<s> Question::: Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q::Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of a fracture of the sternum?\n A::\n B::\n Q::Is there any evidence of a fracture of the ribs?\n A::\n B::\n Q",
+                "<s> QUESTION\tAre there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The X-ray shows a normal cardiac silhouette. The lungs are clear. The trachea is central. The thoracic spine is",
+                "<s> Question:Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the possible diagnosis?\n A:Pulmonary tuberculosis\n B:Pulmonary sarcoidosis\n C:Pulmonary embolism\n D",
+                "<s> q::Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question-Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n Question-Is there any evidence of a fracture of the sternum?\n Answer\n No\n Question-Is there any evidence of a fracture of the ribs?\n Answer\n No\n Question-Is there any evidence"
+            ]
+        ],
+        "sensitivities": [
+            0.3916063250556866
+        ],
+        "posix": 0.3916063250556866
+    }
+}

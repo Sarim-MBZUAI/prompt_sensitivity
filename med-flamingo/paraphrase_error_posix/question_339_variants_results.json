@@ -1,0 +1,42 @@
+{
+    "file_name": "question_339_variants.json",
+    "overall_posix": 0.48075427188166453,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4509803921568627,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6870503597122302,
+            "Variation 4": 0.7014388489208633,
+            "Variation 5": 0.48417721518987344,
+            "Variation 6": 0.5038961038961038,
+            "Variation 7": 0.45945945945945943,
+            "Variation 8": 0.697841726618705,
+            "Variation 9": 0.3538461538461539,
+            "Variation 10": 0.4688524590163934
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a pleural effusion on the right side.\n b. No, there is no pleural effusion on the right side.\n 10. Is there any pleural effusion on the left side?",
+                "<s> Are there signs of fluid accumulation in the pleural space on imaging studies? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a moderate amount of fluid in the pleural space.\n b. No, there is no fluid in the pleural space.\n 10. What is the most likely diagnosis?\n a. P",
+                "<s> Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a pleural effusion on the right side.\n b. No, there is no pleural effusion on the right side.\n 10. Is there any pleural effusion on the left side?",
+                "<s> Is there evidence suggestive of a pleural effusion on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the images show fluid-filled spaces that may indicate the presence of a pleural effusion? Please choose from the following two options: [yes, no]\n<image> a\n b\n [Yes, no]\n c\n d\n 2.1.1\n 2.1.2\n 2.1.3\n 2.1.4\n 2.1.5\n ",
+                "<s> Are there visible signs of an excess fluid collection in the pleural cavities on this imaging study? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a moderate amount of pleural fluid.\n b. No, there is no pleural fluid.\n 10. What is the most likely diagnosis?\n a. Pneumothorax\n b",
+                "<s> Does the radiographic appearance suggest the presence of a significant amount of pleural effusion? Please choose from the following two options: [yes, no]\n<image> a. Yes, the radiographic appearance suggests the presence of a significant amount of pleural effusion.\n b. No, the radiographic appearance does not suggest the presence of a significant amount of pleural effusion.\n 10.",
+                "<s> Is there visual evidence to indicate that fluid has accumulated in the pleural space? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is fluid in the pleural space.\n b. No, there is no fluid in the pleural space.\n 10. Is there any evidence of a pleural effusion? Please choose from the following two",
+                "<s> Do the images reveal signs consistent with the presence of a significant pleural effusion? Please choose from the following two options: [yes, no]\n<image> a\n b\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 2",
+                "<s> Is there radiographic evidence to support the diagnosis of a pleural effusion on this examination? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a pleural effusion on the right side of the chest.\n b. No, there is no pleural effusion on the right side of the chest.\n 10. What is the most",
+                "<s> Are there indications of excess fluid in the pleural space on the provided imaging study? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a moderate amount of pleural fluid.\n b. No, there is no pleural fluid.\n 3. What is the most likely diagnosis?\n a. Pneumothorax\n b."
+            ]
+        ],
+        "sensitivities": [
+            0.48075427188166453
+        ],
+        "posix": 0.48075427188166453
+    }
+}

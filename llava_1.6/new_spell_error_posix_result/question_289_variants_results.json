@@ -1,0 +1,189 @@
+{
+    "file_name": "question_289_variants.json",
+    "overall_posix": 5.010612378780906,
+    "detailed_scores": [
+        {
+            "Variation 1": 6.1768546438217165,
+            "Variation 2": 3.115945747920445,
+            "Variation 3": 4.78268424884693,
+            "Variation 4": 4.78268424884693,
+            "Variation 5": 4.78268424884693,
+            "Variation 6": 4.577551047007243,
+            "Variation 7": 1.3025882357642764,
+            "Variation 8": 4.294130156117101,
+            "Variation 9": 6.294696745872497,
+            "Variation 10": 3.9430840462446213
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the patient in the chest X-ray appears to have reduced lung volumes.",
+                "Based on the image provided, it appears that the patient's chest X-ray shows reduced lung volumes, which is indicative of a condition such as pneumonia or other respiratory issues. The lung fields are not fully expanded, and",
+                "Yes, the chest X-ray shows reduced lung volumes.",
+                "Yes, the patient in the chest X-ray appears to have reduced lung volumes, which is indicated by the presence of air trapping and the overall appearance of the lungs.",
+                "Yes, the patient in the chest X-ray appears to have reduced lung volumes, which is indicated by the presence of air trapping and the overall appearance of the lungs.",
+                "Yes, the patient in the chest X-ray appears to have reduced lung volumes, which is indicated by the presence of air trapping and the overall appearance of the lungs.",
+                "Yes, the patient in the chest X-ray appears to have reduced lung volumes, which is a common finding in patients with certain lung diseases or conditions.",
+                "No, the patient does not show redmuced lung volumes on the chest X-ray.",
+                "Yes, the chest X-ray shows reduced lung volumes, which is a common finding in patients with lung diseases or conditions that affect lung function.",
+                "Based on the image provided, it appears that the patient's lung volumes are reduced. The chest X-ray shows areas of decreased opacity, which could indicate reduced lung volumes or the presence of lung diseases such as emphysema or p",
+                "Yes, the patient in the chest X-ray appears to have reduced lung volumes, which is indicated by the black areas on the X-ray."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -185.64519500732422,
+                    -494.48792719841003,
+                    -142.021954536438,
+                    -362.60451221466064,
+                    -362.60451221466064,
+                    -362.60451221466064,
+                    -336.70437955856323,
+                    -212.99954795837402,
+                    -318.76322984695435,
+                    -500.3800323009491,
+                    -311.8238844871521
+                ],
+                [
+                    -171.1855869293213,
+                    -499.64979910850525,
+                    -137.26444351673126,
+                    -353.88655936717987,
+                    -353.88655936717987,
+                    -353.88655936717987,
+                    -324.12381422519684,
+                    -204.0947493314743,
+                    -328.72163808345795,
+                    -513.6402850151062,
+                    -292.78681737184525
+                ],
+                [
+                    -181.45711421966553,
+                    -480.1592509150505,
+                    -136.11969828605652,
+                    -365.61525869369507,
+                    -365.61525869369507,
+                    -365.61525869369507,
+                    -327.87065547704697,
+                    -208.27672052383423,
+                    -323.97842836380005,
+                    -502.65715885162354,
+                    -318.10347270965576
+                ],
+                [
+                    -171.1855869293213,
+                    -499.64979910850525,
+                    -137.26444351673126,
+                    -353.88655936717987,
+                    -353.88655936717987,
+                    -353.88655936717987,
+                    -324.12381422519684,
+                    -204.0947493314743,
+                    -328.72163808345795,
+                    -513.6402850151062,
+                    -292.78681737184525
+                ],
+                [
+                    -185.64519500732422,
+                    -494.48792719841003,
+                    -142.021954536438,
+                    -362.60451221466064,
+                    -362.60451221466064,
+                    -362.60451221466064,
+                    -336.70437955856323,
+                    -212.99954795837402,
+                    -318.76322984695435,
+                    -500.3800323009491,
+                    -311.8238844871521
+                ],
+                [
+                    -181.45711421966553,
+                    -480.1592509150505,
+                    -136.11969828605652,
+                    -365.61525869369507,
+                    -365.61525869369507,
+                    -365.61525869369507,
+                    -327.87065547704697,
+                    -208.27672052383423,
+                    -323.97842836380005,
+                    -502.65715885162354,
+                    -318.10347270965576
+                ],
+                [
+                    -181.45711421966553,
+                    -480.1592509150505,
+                    -136.11969828605652,
+                    -365.61525869369507,
+                    -365.61525869369507,
+                    -365.61525869369507,
+                    -327.87065547704697,
+                    -208.27672052383423,
+                    -323.97842836380005,
+                    -502.65715885162354,
+                    -318.10347270965576
+                ],
+                [
+                    -181.45711421966553,
+                    -480.1592509150505,
+                    -136.11969828605652,
+                    -365.61525869369507,
+                    -365.61525869369507,
+                    -365.61525869369507,
+                    -327.87065547704697,
+                    -208.27672052383423,
+                    -323.97842836380005,
+                    -502.65715885162354,
+                    -318.10347270965576
+                ],
+                [
+                    -187.07029169797897,
+                    -503.77273654937744,
+                    -143.93595027923584,
+                    -366.1523976325989,
+                    -366.1523976325989,
+                    -366.1523976325989,
+                    -345.0851011276245,
+                    -204.1183658838272,
+                    -326.39127349853516,
+                    -521.791256904602,
+                    -320.6315608024597
+                ],
+                [
+                    -181.45711421966553,
+                    -480.1592509150505,
+                    -136.11969828605652,
+                    -365.61525869369507,
+                    -365.61525869369507,
+                    -365.61525869369507,
+                    -327.87065547704697,
+                    -208.27672052383423,
+                    -323.97842836380005,
+                    -502.65715885162354,
+                    -318.10347270965576
+                ],
+                [
+                    -181.45711421966553,
+                    -480.1592509150505,
+                    -136.11969828605652,
+                    -365.61525869369507,
+                    -365.61525869369507,
+                    -365.61525869369507,
+                    -327.87065547704697,
+                    -208.27672052383423,
+                    -323.97842836380005,
+                    -502.65715885162354,
+                    -318.10347270965576
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            5.010612378780906
+        ],
+        "posix": 5.010612378780906
+    }
+}

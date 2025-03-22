@@ -1,0 +1,42 @@
+{
+    "file_name": "question_86_variants.json",
+    "overall_posix": 0.33071909008142286,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2753623188405797,
+            "Variation 2": 0.15816326530612246,
+            "Variation 3": 0.28181818181818175,
+            "Variation 4": 0.46621621621621623,
+            "Variation 5": 0.2850678733031674,
+            "Variation 6": 0.46366782006920415,
+            "Variation 7": 0.224390243902439,
+            "Variation 8": 0.5605633802816902,
+            "Variation 9": 0.2831858407079646,
+            "Variation 10": 0.3087557603686636
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> question::Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 109",
+                "<s> q:Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> q:::Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question:Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n1.Yes\n 2.No\n question:Was the patient\u2019s head fixed in a head holder? Please choose from the following two options: [yes, no]\nanswer:\n 1.Yes\n 2",
+                "<s> Q::: Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image>\nQuestion:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumomediastinum\n C.Pneumopericardium\n D.Pneumomediastinum and pneumoper",
+                "<s> QUESTION:Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale: The presence of external monitor leads on the thorax indicates that the patient is on a cardiac monitor. The presence of a cardiac monitor on the thorax is a",
+                "<s> q::Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION\tWere external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n 1.\tYes\n 2.\tNo\n RADiOlOGY\tCliniCAL\tExAMiNATiON\n 11"
+            ]
+        ],
+        "sensitivities": [
+            0.33071909008142286
+        ],
+        "posix": 0.33071909008142286
+    }
+}

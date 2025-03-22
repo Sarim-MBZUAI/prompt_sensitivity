@@ -1,0 +1,189 @@
+{
+    "file_name": "question_286_variants.json",
+    "overall_posix": 19.876890084573716,
+    "detailed_scores": [
+        {
+            "Variation 1": 56.22899417877197,
+            "Variation 2": 2.980671131864507,
+            "Variation 3": 6.413644482692082,
+            "Variation 4": 3.306065173149109,
+            "Variation 5": 3.1687985706329345,
+            "Variation 6": 99.71686395009358,
+            "Variation 7": 3.611342692375183,
+            "Variation 8": 6.413644482692082,
+            "Variation 9": 6.413644482692082,
+            "Variation 10": 3.3192270231246948
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no signs of congestive heart failure on the chest X-ray. The image shows a normal chest X-ray with no evidence of heart failure.",
+                "[no]",
+                "Based on the image provided, there are no clear signs of congestive heart failure on the chest X-ray. The image appears to be of poor quality and does not provide sufficient detail to make a definitive assessment.",
+                "No, there are no signs of congestive heart failure on the chest X-ray.",
+                "Based on the image provided, there are no clear signs of congestive heart failure on the chest X-ray. The X-ray appears to show a normal lung field with no evidence of cardiomegaly, which is a common finding",
+                "Based on the image provided, it is not possible to definitively determine if there are signs of congestive heart failure on the chest X-ray. The image is a black and white X-ray, which may not provide enough detail to accurately",
+                "Yes",
+                "Based on the image provided, there are no clear signs of congestive heart failure on the chest X-ray. The lungs appear to be clear, and there are no indications of cardiomegaly or pleural effusions that are",
+                "No, there are no signs of congestive heart failure on the chest X-ray.",
+                "No, there are no signs of congestive heart failure on the chest X-ray.",
+                "Based on the image provided, there are no clear signs of congestive heart failure on the chest X-ray. The image shows a side view of the chest with the lungs and heart visible, but there are no indications of fluid buildup"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -330.4443359375,
+                    -49.29936504364014,
+                    -470.53587913513184,
+                    -195.75780180096626,
+                    -495.74759459495544,
+                    -488.88426446914673,
+                    -31.29374408721924,
+                    -511.01147055625916,
+                    -195.75780180096626,
+                    -195.75780180096626,
+                    -496.40568709373474
+                ],
+                [
+                    -375.1447329521179,
+                    -46.19058704376221,
+                    -462.58642387390137,
+                    -200.92827033996582,
+                    -495.4986653327942,
+                    -477.4406259059906,
+                    -28.919553756713867,
+                    -490.35654401779175,
+                    -200.92827033996582,
+                    -200.92827033996582,
+                    -479.7933123111725
+                ],
+                [
+                    -379.72755920886993,
+                    -45.053054332733154,
+                    -476.49166679382324,
+                    -216.23872828483582,
+                    -505.63552141189575,
+                    -504.590008020401,
+                    -34.71228218078613,
+                    -506.83953523635864,
+                    -216.23872828483582,
+                    -216.23872828483582,
+                    -508.0707416534424
+                ],
+                [
+                    -374.409366607666,
+                    -43.56984567642212,
+                    -479.0207772254944,
+                    -204.26953554153442,
+                    -502.8535301685333,
+                    -507.9382071495056,
+                    -30.650110721588135,
+                    -514.9942741394043,
+                    -204.26953554153442,
+                    -204.26953554153442,
+                    -508.7459499835968
+                ],
+                [
+                    -364.8811185359955,
+                    -45.23921489715576,
+                    -467.94483852386475,
+                    -210.25304627418518,
+                    -502.6142189502716,
+                    -496.73720836639404,
+                    -30.410804271697998,
+                    -516.1552639007568,
+                    -210.25304627418518,
+                    -210.25304627418518,
+                    -494.5469672679901
+                ],
+                [
+                    -364.8811185359955,
+                    -45.23921489715576,
+                    -467.94483852386475,
+                    -210.25304627418518,
+                    -502.6142189502716,
+                    -496.73720836639404,
+                    -30.410804271697998,
+                    -516.1552639007568,
+                    -210.25304627418518,
+                    -210.25304627418518,
+                    -494.5469672679901
+                ],
+                [
+                    -364.8811185359955,
+                    -45.23921489715576,
+                    -467.94483852386475,
+                    -210.25304627418518,
+                    -502.6142189502716,
+                    -496.73720836639404,
+                    -30.410804271697998,
+                    -516.1552639007568,
+                    -210.25304627418518,
+                    -210.25304627418518,
+                    -494.5469672679901
+                ],
+                [
+                    -379.72755920886993,
+                    -45.053054332733154,
+                    -476.49166679382324,
+                    -216.23872828483582,
+                    -505.63552141189575,
+                    -504.590008020401,
+                    -34.71228218078613,
+                    -506.83953523635864,
+                    -216.23872828483582,
+                    -216.23872828483582,
+                    -508.0707416534424
+                ],
+                [
+                    -364.8811185359955,
+                    -45.23921489715576,
+                    -467.94483852386475,
+                    -210.25304627418518,
+                    -502.6142189502716,
+                    -496.73720836639404,
+                    -30.410804271697998,
+                    -516.1552639007568,
+                    -210.25304627418518,
+                    -210.25304627418518,
+                    -494.5469672679901
+                ],
+                [
+                    -396.55090856552124,
+                    -48.34489822387695,
+                    -461.07806158065796,
+                    -221.00945615768433,
+                    -480.08950877189636,
+                    -470.65114173293114,
+                    -27.080718517303467,
+                    -506.6603698730469,
+                    -221.00945615768433,
+                    -221.00945615768433,
+                    -497.43018969893456
+                ],
+                [
+                    -364.8811185359955,
+                    -45.23921489715576,
+                    -467.94483852386475,
+                    -210.25304627418518,
+                    -502.6142189502716,
+                    -496.73720836639404,
+                    -30.410804271697998,
+                    -516.1552639007568,
+                    -210.25304627418518,
+                    -210.25304627418518,
+                    -494.5469672679901
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            19.876890084573716
+        ],
+        "posix": 19.876890084573716
+    }
+}

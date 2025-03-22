@@ -1,0 +1,42 @@
+{
+    "file_name": "question_213_variants.json",
+    "overall_posix": 0.28831164044340574,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.5667752442996743,
+            "Variation 3": 0.19487179487179485,
+            "Variation 4": 0.3271889400921659,
+            "Variation 5": 0.5787878787878787,
+            "Variation 6": 0.19902912621359226,
+            "Variation 7": 0.31553398058252435,
+            "Variation 8": 0.13793103448275867,
+            "Variation 9": 0.2296650717703349,
+            "Variation 10": 0.33333333333333326
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence of lung collapse on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there any evidence of pneumothorax on the current chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Is there any evidence of pneum",
+                "<s> Are there visual signs of atelectasis present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the current chest X-ray show features consistent with alveolar collapse or lung consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence of volume loss in the lungs on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there radiographic evidence of volume loss in the lungs on the current chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Is there a history of",
+                "<s> Are there visible changes suggestive of atelectasis or lung collapse on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the current chest X-ray reveal any signs of alveolar collapse or air space disease? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of decreased lung volume or atelectasis visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lungs adequately expanded and free of signs of collapse on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show any features that would be consistent with lung entrapment or compression syndromes? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.28831164044340574
+        ],
+        "posix": 0.28831164044340574
+    }
+}

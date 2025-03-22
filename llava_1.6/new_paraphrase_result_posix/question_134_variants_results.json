@@ -1,0 +1,189 @@
+{
+    "file_name": "question_134_variants.json",
+    "overall_posix": 1.2882551016100785,
+    "detailed_scores": [
+        {
+            "Variation 1": 4.9621923963228864,
+            "Variation 2": 0.7355040740966797,
+            "Variation 3": 1.0752207040786743,
+            "Variation 4": 2.7640674928339517,
+            "Variation 5": 1.0685694932937622,
+            "Variation 6": 1.039599469367494,
+            "Variation 7": 0.5616034173965454,
+            "Variation 8": 1.5734250259399414,
+            "Variation 9": 0.12584238052368163,
+            "Variation 10": 1.2116886186599731
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, the pattern does not suggest pulmonary edema. Pulmonary edema is typically characterized by a hazy, patchy, or diffuse infiltrate, which is not present in this image. The",
+                "Based on the image provided, it appears that there is a significant amount of fluid in the lung parenchyma, which is indicative of fluid overload.",
+                "Based on the image provided, it is not possible to definitively determine if the pattern is suggestive of pulmonary edema. The image appears to be an X-ray of the chest, but the quality of the image is not high enough",
+                "No, there is no evidence of alveolar opacification consistent with pulmonary congestion in the image provided. The lungs appear clear and there are no signs of congestion or fluid accumulation.",
+                "Yes, the pattern seen on this image suggests an abnormal accumulation of fluid in the lung interstitium, which is indicative of a condition known as pulmonary edema.",
+                "No, there is no radiographic appearance that is suggestive of cardiogenic pulmonary edema in this image. The image shows a chest X-ray with a clear view of the lungs, heart, and bones. However, without",
+                "Yes, the imaging study shows signs consistent with an increased fluid content within the lung alveoli and interstitium. This is indicative of a condition such as pulmonary edema or congestion.",
+                "Based on the image provided, it is not possible to definitively determine if the pattern of opacification in the lungs is indicative of pulmonary congestion due to heart failure. The image appears to be an X-ray of the",
+                "No, there are no radiographic findings that suggest the presence of fluid overload in the lung interstitium and alveoli in the image provided. The image shows a chest X-ray with a clear view of the lungs, heart,",
+                "Yes, the image appears to show a pattern consistent with an abnormal accumulation of fluid in the lung interstitium and alveolar spaces, which is indicative of a condition such as pneumonia or pulmonary edema.",
+                "No, there is no evidence on this study that suggests the presence of pulmonary edema due to cardiogenic causes. The image shows a chest X-ray with a clear view of the lungs and heart, but there are no signs"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -521.4052319526672,
+                    -342.76630568504333,
+                    -484.63002824783325,
+                    -471.9450795650482,
+                    -408.0784647464752,
+                    -467.9767572879791,
+                    -472.544056892395,
+                    -493.32506108283997,
+                    -442.73398065567017,
+                    -515.1131129264832,
+                    -460.8208010196686
+                ],
+                [
+                    -498.2023413181305,
+                    -325.87358582019806,
+                    -469.090204000473,
+                    -484.56980061531067,
+                    -381.1700527667999,
+                    -476.4619445800781,
+                    -478.5148205757141,
+                    -470.9289855957031,
+                    -459.338095664978,
+                    -487.9156029224396,
+                    -474.4677424430847
+                ],
+                [
+                    -521.4052319526672,
+                    -342.76630568504333,
+                    -484.63002824783325,
+                    -471.9450795650482,
+                    -408.0784647464752,
+                    -467.9767572879791,
+                    -472.544056892395,
+                    -493.32506108283997,
+                    -442.73398065567017,
+                    -515.1131129264832,
+                    -460.8208010196686
+                ],
+                [
+                    -502.96772050857544,
+                    -330.18271946907043,
+                    -472.5539367198944,
+                    -478.45186364650726,
+                    -405.4798219203949,
+                    -489.06471967697144,
+                    -468.29202342033386,
+                    -492.05624556541443,
+                    -443.6735095977783,
+                    -493.5478399991989,
+                    -484.67687010765076
+                ],
+                [
+                    -512.1192016601562,
+                    -335.1459834575653,
+                    -456.9866803884506,
+                    -473.45612919330597,
+                    -372.1263326406479,
+                    -465.82506144046783,
+                    -480.10380506515503,
+                    -495.0080177783966,
+                    -446.67650616168976,
+                    -497.24221301078796,
+                    -459.40454745292664
+                ],
+                [
+                    -498.2023413181305,
+                    -325.87358582019806,
+                    -469.090204000473,
+                    -484.56980061531067,
+                    -381.1700527667999,
+                    -476.4619445800781,
+                    -478.5148205757141,
+                    -470.9289855957031,
+                    -459.338095664978,
+                    -487.9156029224396,
+                    -474.4677424430847
+                ],
+                [
+                    -514.4284608364105,
+                    -321.64155292510986,
+                    -473.7926342487335,
+                    -486.1983301639557,
+                    -392.5088529586792,
+                    -461.61400079727173,
+                    -473.1396059989929,
+                    -487.5916391611099,
+                    -450.3343312740326,
+                    -499.9665822982788,
+                    -458.5624415874481
+                ],
+                [
+                    -503.9897735118866,
+                    -332.9644491672516,
+                    -464.2409782409668,
+                    -479.9289882183075,
+                    -387.4527531862259,
+                    -459.60593461990356,
+                    -494.24197936058044,
+                    -470.0101845264435,
+                    -456.0823986530304,
+                    -487.4722809791565,
+                    -458.6637659072876
+                ],
+                [
+                    -514.4284608364105,
+                    -321.64155292510986,
+                    -473.7926342487335,
+                    -486.1983301639557,
+                    -392.5088529586792,
+                    -461.61400079727173,
+                    -473.1396059989929,
+                    -487.5916391611099,
+                    -450.3343312740326,
+                    -499.9665822982788,
+                    -458.5624415874481
+                ],
+                [
+                    -492.81710147857666,
+                    -318.330437541008,
+                    -474.3549063205719,
+                    -465.47650027275085,
+                    -394.7867993116379,
+                    -461.21890819072723,
+                    -478.8334891796112,
+                    -497.93365383148193,
+                    -452.3692934513092,
+                    -516.8146033287048,
+                    -468.0638039112091
+                ],
+                [
+                    -503.9897735118866,
+                    -332.9644491672516,
+                    -464.2409782409668,
+                    -479.9289882183075,
+                    -387.4527531862259,
+                    -459.60593461990356,
+                    -494.24197936058044,
+                    -470.0101845264435,
+                    -456.0823986530304,
+                    -487.4722809791565,
+                    -458.6637659072876
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.2882551016100785
+        ],
+        "posix": 1.2882551016100785
+    }
+}

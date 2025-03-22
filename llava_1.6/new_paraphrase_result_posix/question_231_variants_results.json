@@ -1,0 +1,189 @@
+{
+    "file_name": "question_231_variants.json",
+    "overall_posix": 14.664964859555674,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.8850111675262451,
+            "Variation 2": 5.18385249376297,
+            "Variation 3": 4.721007890701294,
+            "Variation 4": 0.24637449781099954,
+            "Variation 5": 4.472656464576721,
+            "Variation 6": 1.393827165876116,
+            "Variation 7": 2.733319935045744,
+            "Variation 8": 5.196062545776368,
+            "Variation 9": 73.58542323112488,
+            "Variation 10": 4.62387611468633
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, there is an abnormal contour in the mediastinal area on the chest X-ray.",
+                "Yes, there are pathologic changes visible in the mediastinal silhouette on the chest radiograph.",
+                "Yes, there is an abnormality detected in the mediastinal contour on the chest X-ray. The mediastinal contour is elevated, which could indicate a mediastinal mass or other pathology.",
+                "Yes, the chest X-ray shows an abnormal contour of the mediastinum, which is the area between the lungs and the chest wall. The presence of an abnormal contour can indicate a variety of conditions, such as a",
+                "Yes, there is evidence of a mediastinal mass or enlargement visible on the chest radiograph.",
+                "Yes, there is an abnormal structure impacting the normal anatomy of the mediastinum as seen on the chest X-ray. The image shows a mass in the mediastinum, which is not a normal part of the",
+                "Yes, there are noticeable alterations in the shape or size of the mediastinal soft tissues on the chest film.",
+                "Yes, the mediastinum appears asymmetrical on the chest radiograph.",
+                "Yes, there is a visible alteration in the normal density of the mediastinal soft tissues as seen on the chest X-ray. The image shows a significant amount of soft tissue density in the mediastinal region, which is not typical",
+                "No",
+                "No, the chest X-ray does not show a change in the usual position or shape of the heart as related to the surrounding mediastinum. The heart appears to be in its normal position within the chest cavity."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -245.9647626876831,
+                    -268.09004187583923,
+                    -494.78968238830566,
+                    -482.0151572227478,
+                    -251.8777506351471,
+                    -469.59758591651917,
+                    -284.99192333221436,
+                    -194.03168392181396,
+                    -505.76788997650146,
+                    -25.20849299430847,
+                    -467.91081619262695
+                ],
+                [
+                    -226.22971081733704,
+                    -280.2560341358185,
+                    -493.3873391151428,
+                    -463.637860417366,
+                    -242.05734992027283,
+                    -462.14731073379517,
+                    -297.1189954280853,
+                    -184.4889770746231,
+                    -481.17980122566223,
+                    -26.165791034698486,
+                    -472.0695767402649
+                ],
+                [
+                    -245.9647626876831,
+                    -268.09004187583923,
+                    -494.78968238830566,
+                    -482.0151572227478,
+                    -251.8777506351471,
+                    -469.59758591651917,
+                    -284.99192333221436,
+                    -194.03168392181396,
+                    -505.76788997650146,
+                    -25.20849299430847,
+                    -467.91081619262695
+                ],
+                [
+                    -226.22971081733704,
+                    -280.2560341358185,
+                    -493.3873391151428,
+                    -463.637860417366,
+                    -242.05734992027283,
+                    -462.14731073379517,
+                    -297.1189954280853,
+                    -184.4889770746231,
+                    -481.17980122566223,
+                    -26.165791034698486,
+                    -472.0695767402649
+                ],
+                [
+                    -233.55002784729004,
+                    -269.0193877220154,
+                    -497.69817662239075,
+                    -470.6178421974182,
+                    -261.37611722946167,
+                    -484.1995151042938,
+                    -296.94834327697754,
+                    -206.49575686454773,
+                    -494.8280644416809,
+                    -28.90650725364685,
+                    -459.47523045539856
+                ],
+                [
+                    -235.94119238853455,
+                    -264.08523440361023,
+                    -495.8707399368286,
+                    -470.72742342948914,
+                    -245.99923086166382,
+                    -466.1231861114502,
+                    -279.8082683086395,
+                    -189.01107025146484,
+                    -492.55804562568665,
+                    -23.870414972305298,
+                    -467.0924696922302
+                ],
+                [
+                    -243.46786737442017,
+                    -258.6220488548279,
+                    -498.95837593078613,
+                    -459.0599205493927,
+                    -252.4695806503296,
+                    -468.10590279102325,
+                    -280.0707229375839,
+                    -200.17999005317688,
+                    -489.68240189552307,
+                    -30.16314148902893,
+                    -465.99191403388977
+                ],
+                [
+                    -227.59517300128937,
+                    -255.40993177890778,
+                    -486.1403601169586,
+                    -447.5456928014755,
+                    -248.79612171649933,
+                    -474.9086674451828,
+                    -283.66915118694305,
+                    -180.15428853034973,
+                    -492.1108020544052,
+                    -27.923320293426514,
+                    -459.2770359516144
+                ],
+                [
+                    -223.612366437912,
+                    -259.5634527206421,
+                    -506.78999614715576,
+                    -454.9392280578613,
+                    -236.25893425941467,
+                    -470.083300113678,
+                    -288.1847414970398,
+                    -190.07386755943298,
+                    -492.6866822242737,
+                    -26.313414812088013,
+                    -464.80425119400024
+                ],
+                [
+                    -231.31227040290833,
+                    -260.74718022346497,
+                    -493.11872351169586,
+                    -468.8004825115204,
+                    -253.8400661945343,
+                    -469.00590682029724,
+                    -268.9480926990509,
+                    -200.52444767951965,
+                    -493.43226528167725,
+                    -28.72237753868103,
+                    -463.3209663629532
+                ],
+                [
+                    -226.46333718299866,
+                    -259.91568088531494,
+                    -480.2769386768341,
+                    -485.1575412750244,
+                    -236.77105569839478,
+                    -459.4251446723938,
+                    -277.999458193779,
+                    -198.87399315834045,
+                    -502.5172462463379,
+                    -22.91356384754181,
+                    -435.9401662349701
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            14.664964859555674
+        ],
+        "posix": 14.664964859555674
+    }
+}

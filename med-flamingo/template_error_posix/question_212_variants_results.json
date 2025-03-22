@@ -1,0 +1,42 @@
+{
+    "file_name": "question_212_variants.json",
+    "overall_posix": 0.4013998054271248,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3058252427184466,
+            "Variation 2": 0.5104895104895105,
+            "Variation 3": 0.5,
+            "Variation 4": 0.5104895104895105,
+            "Variation 5": 0.43673469387755104,
+            "Variation 6": 0.5277777777777778,
+            "Variation 7": 0.275,
+            "Variation 8": 0.2421052631578947,
+            "Variation 9": 0.21111111111111114,
+            "Variation 10": 0.49446494464944646
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::: Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n 3.Question:Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n a.Yes\n b.No\n 4",
+                "<s> Question::: Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Congestive heart failure\n B. Mitral stenosis\n C. Aortic stenosis\n D. Pulmonary em",
+                "<s> Question:Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n 3.Question:Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n a.Yes\n b.No\n 4",
+                "<s> Question-Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n 1.Aortic aneurysm\n 2.Pericardial effusion\n 3.Cardiac tamponade\n 4",
+                "<s> QUESTION:Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)Yes\n (b)No\n QUESTION:Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n Answer:\n (a)Yes\n",
+                "<s> question::Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1answer::\n no\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 2",
+                "<s> QUESTION:Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 3:\n 4:\n 5:\n 6:\n 7:\n 8:\n 9:\n 1",
+                "<s> Q:Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)Yes\n (b)No\n 6.Q:Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n (a)Yes\n (b)"
+            ]
+        ],
+        "sensitivities": [
+            0.4013998054271248
+        ],
+        "posix": 0.4013998054271248
+    }
+}

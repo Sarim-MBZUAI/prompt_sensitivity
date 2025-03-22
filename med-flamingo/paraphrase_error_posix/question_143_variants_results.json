@@ -1,0 +1,42 @@
+{
+    "file_name": "question_143_variants.json",
+    "overall_posix": 0.42174458362739153,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4,
+            "Variation 2": 0.0,
+            "Variation 3": 0.3165137614678899,
+            "Variation 4": 0.6349693251533742,
+            "Variation 5": 0.56,
+            "Variation 6": 0.6635220125786163,
+            "Variation 7": 0.2864321608040201,
+            "Variation 8": 0.6158730158730159,
+            "Variation 9": 0.303921568627451,
+            "Variation 10": 0.43621399176954734
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any evidence of diaphragmatic pathology visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any detectable abnormalities in the shape or position of the diaphragm on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is the diaphragm depicted as being normally formed and positioned on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, the diaphragm is normaly formed and positioned\n b. No, the diaphragm is not normaly formed and positioned\n 10. Please select from the following two options: [left,",
+                "<s> Are there any abnormal findings or lesions within the diaphragm visible on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Correct Answer: Yes\n The radiograph shows a large, irregularly shaped opacity in the right hemithorax. This is a",
+                "<s> Does this chest X-ray show the diaphragm to be intact and normally positioned? Please choose from the following two options: [yes, no]\n<image> a. Yes, the diaphragm is intact and normally positioned\n b. No, the diaphragm is not intact and is abnormally positioned\n 10. Please select from the following two options:",
+                "<s> Are there any signs of diaphragmatic injury or trauma visible on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the diaphragm depicted as being normally thickened or thinned on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Normal\n b. Thinned\n 4.\n Is the right hemidiaphragm depicted as being higher than the left? Please choose from the following two options: [yes, no]\n a. Yes\n b.",
+                "<s> Are there any abnormal contours or shapes of the diaphragm visible on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is the diaphragm shown to be normally positioned in relation to the adjacent thoracic and abdominal structures on this X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2"
+            ]
+        ],
+        "sensitivities": [
+            0.42174458362739153
+        ],
+        "posix": 0.42174458362739153
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_224_variants.json",
+    "overall_posix": 0.47513674361540914,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5254777070063694,
+            "Variation 2": 0.28110599078341014,
+            "Variation 3": 0.5792682926829268,
+            "Variation 4": 0.3252032520325203,
+            "Variation 5": 0.572289156626506,
+            "Variation 6": 0.45569620253164556,
+            "Variation 7": 0.5609756097560976,
+            "Variation 8": 0.5149253731343284,
+            "Variation 9": 0.3130081300813008,
+            "Variation 10": 0.6234177215189873
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any radiographic evidence of focal lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pneumothorax on this chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of a pneumomed",
+                "<s> Does the chest X-ray show any localized area of increased lung density indicative of consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any findings suggestive of focal lung consolidation visible on this digital chest image? Please choose from the following two options: [yes, no]\n<image> 19\n 156\n Lung Consolidation\n >Answer: Yes\n >Discussion: The presence of a focal opacity in the right lung field is suggestive of a focal lung consolidation.\n The",
+                "<s> Please indicate if you see any distinct pattern of lung opacification consistent with focal consolidation on the provided X-ray. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence to support the presence of focal lung consolidation in this case? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is focal lung consolidation in the right middle lobe.\n b. No, there is no focal lung consolidation in the right middle lobe.\n 10. What is the most likely",
+                "<s> Do the imaging findings reveal a well-defined area of increased lung density, suggesting consolidation? Please choose from the following two options: [yes, no]\n<image> 1. ___\n 2. ___\n 3. ___\n 4. ___\n 5. ___\n 6. ___\n 7. ___\n 8. ___\n 9",
+                "<s> Is focal lung consolidation visible on the chest X-ray at hand? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Answer\n The chest X-ray shows a focal lung consolidation in the right lower lobe.\n 11.",
+                "<s> Does the digital image depict a localized area of increased opacity consistent with lung consolidation? Please choose from the following two options: [yes, no]\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n The correct answer is:\n 1.Yes\n 2.No\n The correct answer is:\n 1.Yes\n 2.",
+                "<s> Please confirm if there is any radiographic evidence of focal consolidation in the lungs as seen on this particular chest X-ray. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there imaging findings that suggest or support the diagnosis of focal lung consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n Are there imaging findings that suggest or support the diagnosis of pneumothorax? Please choose from the following two options: [yes, no]\n 1.\n 2.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.47513674361540914
+        ],
+        "posix": 0.47513674361540914
+    }
+}

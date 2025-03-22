@@ -1,0 +1,42 @@
+{
+    "file_name": "question_290_variants.json",
+    "overall_posix": 0.36845560178330905,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.331858407079646,
+            "Variation 2": 0.5331125827814569,
+            "Variation 3": 0.3165137614678899,
+            "Variation 4": 0.25,
+            "Variation 5": 0.4770318021201414,
+            "Variation 6": 0.31336405529953915,
+            "Variation 7": 0.145945945945946,
+            "Variation 8": 0.4767025089605734,
+            "Variation 9": 0.2971698113207547,
+            "Variation 10": 0.5428571428571428
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q::Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n 19.  A 55-year-old man with a history",
+                "<s> Question:Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 10.Question:Is there any evidence of a pericardial effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [",
+                "<s> Q:Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n",
+                "<s> QUESTION:Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> QUESTION\tIs there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The chest X-ray shows a cardiomegaly. The heart is enlarged and the cardiac silhouette is increased in size.\n The",
+                "<s> Q::Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> QUESTION:Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n The chest X-ray shows an enlarged heart.\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Aortic dissection\n B.Pericardial eff",
+                "<s> Q::: Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question::: Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n 10.\n Question: Is there evidence of a right-sided pleural effusion on the chest X-ray? Please choose from the following two options: [yes"
+            ]
+        ],
+        "sensitivities": [
+            0.36845560178330905
+        ],
+        "posix": 0.36845560178330905
+    }
+}

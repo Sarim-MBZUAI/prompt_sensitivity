@@ -1,0 +1,42 @@
+{
+    "file_name": "question_335_variants.json",
+    "overall_posix": 0.4314928306811532,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.15760869565217395,
+            "Variation 2": 0.6405797101449275,
+            "Variation 3": 0.5102880658436214,
+            "Variation 4": 0.36868686868686873,
+            "Variation 5": 0.15920398009950243,
+            "Variation 6": 0.3179723502304148,
+            "Variation 7": 0.6620498614958449,
+            "Variation 8": 0.6990049751243781,
+            "Variation 9": 0.2683982683982684,
+            "Variation 10": 0.5311355311355311
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs over-inflated on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lungs over-inflated on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there signs of over-expansion of the lungs on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient's lung silhouette appear overly expanded compared to normal anatomy on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  Is the patient's heart silhouette normal in size and shape on the chest radiograph? Please choose from the following two options: [yes, no]\n 12.  Is the patient's",
+                "<s> Is there evidence of increased volume of the lungs on the provided chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1. Question 11.10.2. Question 11.10.3. Question 11.10.4. Question 11.10.5. Question",
+                "<s> Do the lungs appear more distended than usual in the given X-ray? Please choose from the following two options: [yes, no]\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Are the lung fields excessively over-inflated, as seen on the patient's chest film? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the X-ray show an abnormal increase in the size of the lung spaces compared to expected norms? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there over-displacement or over-distension of the lung parenchyma evident on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of atelectasis? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of pleural effusion? Please choose from the following two options:",
+                "<s> Do the lungs appear too large or disproportionately expanded relative to other anatomical structures on the provided image? Please choose from the following two options: [yes, no]\n<image> 1. The lungs appear too large or disproportionately expanded relative to other anatomical structures on the provided image.\n 2. The lungs appear not too large or disproportionately expanded relative to other an",
+                "<s> Are the lung contours excessively bulged or protruded beyond normal limits, as seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there clear evidence of hyperinflation of the lungs, as indicated by the appearance on the given X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Answer\n The X-ray shows a normal lung field.\n 11.10.1.2  Answer\n The X"
+            ]
+        ],
+        "sensitivities": [
+            0.4314928306811532
+        ],
+        "posix": 0.4314928306811532
+    }
+}

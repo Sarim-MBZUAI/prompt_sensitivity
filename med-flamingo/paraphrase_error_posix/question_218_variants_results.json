@@ -1,0 +1,42 @@
+{
+    "file_name": "question_218_variants.json",
+    "overall_posix": 0.4311775680313281,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5807453416149069,
+            "Variation 2": 0.0,
+            "Variation 3": 0.4495412844036697,
+            "Variation 4": 0.31739130434782603,
+            "Variation 5": 0.2966507177033493,
+            "Variation 6": 0.6219178082191781,
+            "Variation 7": 0.6333333333333333,
+            "Variation 8": 0.6335227272727273,
+            "Variation 9": 0.32608695652173914,
+            "Variation 10": 0.4525862068965517
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographic signs of pulmonary interstitial involvement on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any radiographic signs of pulmonary interstitial involvement on the chest X-ray? Please choose from the following two options: [yes, no]\n A.  No\n B.",
+                "<s> Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show evidence of parenchymal infiltration suggestive of a pathological process? Please choose from the following two options: [yes, no]\n<image> 11.10a\n 11.10b\n 11.10c\n 11.10d\n 11.10e\n 11.10f\n 1",
+                "<s> Is there radiographic proof of alveolar space occupation by an abnormal substance or process on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray reveal any indication of lung tissue involvement by a disease process? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic signs of lung architecture disruption due to an infiltrative or destructive process on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there a pleural effusion? Please choose from the following two options: [yes, no]\n 12. Is there a pneumothorax? Please choose from the following two options: [yes,",
+                "<s> Does the chest X-ray show any evidence of fluid collection or edema within the lung parenchyma? Please choose from the following two options: [yes, no]\n<image> 11.Does the chest X-ray show any evidence of a pleural effusion? Please choose from the following two options: [yes, no]\n 12.Does the chest X-ray show any evidence of",
+                "<s> Is there radiographic confirmation of a pathological process causing increased attenuation on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there a pathological process causing increased attenuation on the chest X-ray?\n [yes, no]\n 12. Is there a pathological process causing increased attenuation on the ch",
+                "<s> Does the chest X-ray reveal any signs of lung tissue compression or displacement by an abnormal mass or process? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic indications of alveolar septal thickening due to a pathological process on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\u2002\u2002A\u200211.10.2\u2002\u2002B\n 11.10.3\u2002\u2002C\n 11.10.4\u2002\u2002D\n 11"
+            ]
+        ],
+        "sensitivities": [
+            0.4311775680313281
+        ],
+        "posix": 0.4311775680313281
+    }
+}

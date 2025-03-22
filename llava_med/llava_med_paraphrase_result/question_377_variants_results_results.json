@@ -1,0 +1,189 @@
+{
+    "file_name": "question_377_variants_results.json",
+    "overall_posix": 0.4925075629093102,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.3959979495698284,
+            "Variation 3": 0.6767651024450029,
+            "Variation 4": 0.4897040050815549,
+            "Variation 5": 0.8047349214329941,
+            "Variation 6": 0.717775438399063,
+            "Variation 7": 0.9213042069820858,
+            "Variation 8": 1.1951418176941735,
+            "Variation 9": 0.24060701118087163,
+            "Variation 10": 0.44675608114712595
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, based on the chest X-ray, it appears that the heart is enlarged. ",
+                "Yes, based on the chest X-ray, it appears that the heart is enlarged. ",
+                "The chest X-ray shows a cardiothoracic silhouette that is suggestive of cardiac enlargement. However, it is important to note that a definitive diagnosis of cardiac enlargement cannot be made solely based",
+                "The chest X-ray shows a heart that appears to be of normal size. However, it is important to note that the appearance of the heart on an X-ray may not always be definitive in diagnosing cardiomegaly. Further",
+                "It is not possible to confidently state that the heart is enlarged based solely on the chest X-ray. While the image may show signs of cardiomegaly, a definitive diagnosis would require further evaluation, such as an e",
+                "Yes, the chest X-ray images show a dilated heart, which is an abnormal enlargement of the heart. ",
+                "The chest X-ray shows a normal cardiac silhouette, which means that the size and contour of the heart appear to be within normal limits. ",
+                "Yes, the chest X-ray shows a radiographic appearance of a heart that appears to be enlarged. ",
+                "It is not possible to confidently make a diagnosis of cardiomegaly based on the assessment of the heart on the provided chest X-ray images alone. Cardiomegaly is a condition where the heart is enlarged, and",
+                "Yes, the chest X-ray shows a clear enlargement of the heart, which is referred to as cardiomegaly. ",
+                "Yes, the chest X-ray shows clear-cut evidence of cardiomegaly, which means the heart is enlarged. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -40.17115558475007,
+                    -40.17115558475007,
+                    -60.36705101281132,
+                    -74.68617580944522,
+                    -65.14605984390937,
+                    -63.508468306306895,
+                    -65.29329592871727,
+                    -64.1250649662843,
+                    -101.12338828715292,
+                    -47.62997293135709,
+                    -54.02059410031097
+                ],
+                [
+                    -40.17115558475007,
+                    -40.17115558475007,
+                    -60.36705101281132,
+                    -74.68617580944522,
+                    -65.14605984390937,
+                    -63.508468306306895,
+                    -65.29329592871727,
+                    -64.1250649662843,
+                    -101.12338828715292,
+                    -47.62997293135709,
+                    -54.02059410031097
+                ],
+                [
+                    -55.19506941721238,
+                    -55.19506941721238,
+                    -47.08345726060884,
+                    -77.91339318632993,
+                    -77.62624118324584,
+                    -68.22501876036586,
+                    -62.81944361088972,
+                    -72.85345406421766,
+                    -109.12374582697544,
+                    -58.37703095808138,
+                    -65.70900270758739
+                ],
+                [
+                    -54.441935072116394,
+                    -54.441935072116394,
+                    -74.3620681017128,
+                    -58.38826170301217,
+                    -75.64040280198344,
+                    -68.13502787899688,
+                    -63.804262623665636,
+                    -65.86641187432724,
+                    -89.57372104362298,
+                    -53.75067010959776,
+                    -60.56461685457498
+                ],
+                [
+                    -44.39992005746035,
+                    -44.39992005746035,
+                    -63.29240606626627,
+                    -79.37486221497943,
+                    -55.136954789769334,
+                    -64.99572159979334,
+                    -67.0737155706629,
+                    -61.28127312718243,
+                    -92.85564624921005,
+                    -53.74689633769822,
+                    -58.64014919296528
+                ],
+                [
+                    -56.48379402003411,
+                    -56.48379402003411,
+                    -69.72281841143013,
+                    -83.26623659349139,
+                    -82.14556515785898,
+                    -47.65364272846409,
+                    -71.74185316315561,
+                    -75.56401099166214,
+                    -91.85922095612045,
+                    -58.95307335718235,
+                    -62.82366579589507
+                ],
+                [
+                    -49.33435319198179,
+                    -49.33435319198179,
+                    -62.30426298827206,
+                    -75.66059969014839,
+                    -78.43520692939364,
+                    -64.3448041028937,
+                    -50.54761477898319,
+                    -65.91507895555833,
+                    -106.28459565228468,
+                    -50.231213837313135,
+                    -60.21241092197624
+                ],
+                [
+                    -43.75427300778074,
+                    -43.75427300778074,
+                    -61.57424999753857,
+                    -80.1221877254817,
+                    -70.46763022276173,
+                    -65.66148376251977,
+                    -66.49933909202628,
+                    -46.728797325324194,
+                    -100.72034092264653,
+                    -52.632216750749194,
+                    -59.45424029125934
+                ],
+                [
+                    -59.04927477425554,
+                    -59.04927477425554,
+                    -81.36253733520107,
+                    -74.22229288357335,
+                    -75.85008997059504,
+                    -64.02900522332675,
+                    -70.83712858726358,
+                    -81.50276700265931,
+                    -46.87727941284123,
+                    -62.56470449576483,
+                    -68.242763589481
+                ],
+                [
+                    -50.287947958695895,
+                    -50.287947958695895,
+                    -66.00220746823561,
+                    -71.70030676076306,
+                    -75.70750598874201,
+                    -64.75384804395435,
+                    -67.6884516797436,
+                    -69.37030117822815,
+                    -102.83484674400938,
+                    -48.70713660811407,
+                    -54.86996297991573
+                ],
+                [
+                    -47.6656491094177,
+                    -47.6656491094177,
+                    -64.87288704566163,
+                    -78.20777744045336,
+                    -68.459259063138,
+                    -63.90146240642616,
+                    -67.41591883787441,
+                    -61.56556088549041,
+                    -101.88978786871758,
+                    -52.691684830263966,
+                    -46.96007841296
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.4925075629093102
+        ],
+        "posix": 0.4925075629093102
+    }
+}

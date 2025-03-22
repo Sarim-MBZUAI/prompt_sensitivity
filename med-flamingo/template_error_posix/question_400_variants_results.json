@@ -1,0 +1,42 @@
+{
+    "file_name": "question_400_variants.json",
+    "overall_posix": 0.43722847827695527,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4980694980694981,
+            "Variation 2": 0.5359712230215827,
+            "Variation 3": 0.49429657794676807,
+            "Variation 4": 0.26881720430107525,
+            "Variation 5": 0.5363321799307958,
+            "Variation 6": 0.5287769784172662,
+            "Variation 7": 0.30107526881720426,
+            "Variation 8": 0.3266331658291457,
+            "Variation 9": 0.5359712230215827,
+            "Variation 10": 0.3463414634146341
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Q:Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tYes, the heart is enlarged.\n \u2022\tNo, the heart is not enlarged.\n Q:What is the most likely diagnosis?\n A:Aortic dissection.",
+                "<s> question:Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n [yes, no]\n 10.Question:Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n answer:\n [yes, no]",
+                "<s> QUESTION:Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Correct answer:\n [yes]\n [no]\n The heart is enlarged on the chest X-ray.\n 10.\n QUESTION:What is the most likely diagnosis",
+                "<s> QUESTION\tIs the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question::: Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question: Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n 11.\n Question:",
+                "<s> Question-Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes, no]\n",
+                "<s> q:Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> q:::Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Question:Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no]",
+                "<s> q::Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::"
+            ]
+        ],
+        "sensitivities": [
+            0.43722847827695527
+        ],
+        "posix": 0.43722847827695527
+    }
+}

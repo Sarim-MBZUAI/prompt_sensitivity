@@ -1,0 +1,42 @@
+{
+    "file_name": "question_52_variants.json",
+    "overall_posix": 0.35157569076803513,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.22790697674418603,
+            "Variation 2": 0.288135593220339,
+            "Variation 3": 0.38432835820895517,
+            "Variation 4": 0.472668810289389,
+            "Variation 5": 0.2304147465437788,
+            "Variation 6": 0.4792332268370607,
+            "Variation 7": 0.4501718213058419,
+            "Variation 8": 0.22935779816513757,
+            "Variation 9": 0.26956521739130435,
+            "Variation 10": 0.48397435897435903
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> q::Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.  If the patient has a clear chest X-ray, what is the next step in the management?\n a:\n b:",
+                "<s> Question:Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n The patient has a clear chest X-ray with no signs of focal infiltrates.\n 10.Question:Does the patient have a clear",
+                "<s> question::Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n \n\n\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100",
+                "<s> Question:Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient has a clear chest X-ray with no signs of focal infiltrates.\n 1.What is the most likely diagnosis?\n A.Pneumonia\n B.Acute",
+                "<s> Question-Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2756\u2756What is the differential diagnosis?\n \u2756\u2756What is the most likely diagnosis?\n \u2756\u2756What is the best way to confirm the diagnosis",
+                "<s> Q:Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n L:\n U:\n X:\n E:\n D:\n E:\n L:",
+                "<s> q:::Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\n A:"
+            ]
+        ],
+        "sensitivities": [
+            0.35157569076803513
+        ],
+        "posix": 0.35157569076803513
+    }
+}

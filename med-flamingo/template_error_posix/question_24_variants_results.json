@@ -1,0 +1,42 @@
+{
+    "file_name": "question_24_variants.json",
+    "overall_posix": 0.3857121122968351,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4261744966442953,
+            "Variation 2": 0.23423423423423428,
+            "Variation 3": 0.5161290322580645,
+            "Variation 4": 0.26694915254237284,
+            "Variation 5": 0.2821576763485477,
+            "Variation 6": 0.2638297872340425,
+            "Variation 7": 0.5214899713467048,
+            "Variation 8": 0.40689655172413786,
+            "Variation 9": 0.4347826086956521,
+            "Variation 10": 0.5044776119402985
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tAre the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n This X-ray is of a 55-year-old man with a history of chronic obstructive pulmonary disease (COPD). The",
+                "<s> question::Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n ",
+                "<s> QUESTION:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n COMMENT:This X-ray shows a large right pleural effusion. The right hemidiaphragm is depressed, and the left hemidiaphragm is normal. The left lung is hyperinflated, and",
+                "<s> Q::: Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q::Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:::Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct Answer: Yes\n The patient has a right-sided pleural effusion. The right hemidiaphragm is lower than the left, and the right lung is hyperinflated.\n The patient has",
+                "<s> QUESTION:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n Congestive heart failure\n C:\n Pulmonary edema\n D:\n Pulmon",
+                "<s> Question:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n \u2022\tThe\tchest\tX-ray\tshows\tbilateral\tconsolidation\tand\tair\tbronchograms.\n \u2022\tThe\tpatient\tis\tin\trespiratory",
+                "<s> Question:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Model Answer\n This is a frontal chest X-ray of a 55-year-old man with a history of chronic obstructive pulmonary disease (COPD). The lung fields are congested and"
+            ]
+        ],
+        "sensitivities": [
+            0.3857121122968351
+        ],
+        "posix": 0.3857121122968351
+    }
+}

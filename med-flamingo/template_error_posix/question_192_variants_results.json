@@ -1,0 +1,42 @@
+{
+    "file_name": "question_192_variants.json",
+    "overall_posix": 0.34605051503069895,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.31958762886597936,
+            "Variation 2": 0.30102040816326525,
+            "Variation 3": 0.2789473684210526,
+            "Variation 4": 0.5379061371841155,
+            "Variation 5": 0.4482758620689655,
+            "Variation 6": 0.5805369127516778,
+            "Variation 7": 0.2596685082872928,
+            "Variation 8": 0.16167664670658688,
+            "Variation 9": 0.26519337016574585,
+            "Variation 10": 0.3076923076923077
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:::Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question::: Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> question:Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.",
+                "<s> Question:Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n 10\n Question:Is the heart enlarged? Please choose from the following two options: [yes, no]\n Answer:\n [yes]\n 11\n Question:Is the heart enlarged",
+                "<s> Q:Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes]\n 11.\n Q:What is the most likely diagnosis?\n A:Pulmonary edema\n B:Pneumonia\n C:Atelectasis\n D:Pneumothorax\n",
+                "<s> Q::Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Are the lungs symmetrical? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Are the lungs equal in volume? Please choose from the following two options:",
+                "<s> QUESTION:Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes]\n [no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 1",
+                "<s> Q:Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.\n 8",
+                "<s> question::Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n ",
+                "<s> q::Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n 19.2.1.1  Chest X-Ray ("
+            ]
+        ],
+        "sensitivities": [
+            0.34605051503069895
+        ],
+        "posix": 0.34605051503069895
+    }
+}

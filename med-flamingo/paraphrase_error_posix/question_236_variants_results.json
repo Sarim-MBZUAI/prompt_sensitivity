@@ -1,0 +1,42 @@
+{
+    "file_name": "question_236_variants.json",
+    "overall_posix": 0.6106313135494164,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.35331230283911674,
+            "Variation 2": 0.4967532467532467,
+            "Variation 3": 0.724025974025974,
+            "Variation 4": 0.724025974025974,
+            "Variation 5": 0.6006493506493507,
+            "Variation 6": 0.6883116883116883,
+            "Variation 7": 0.7272727272727273,
+            "Variation 8": 0.5447154471544715,
+            "Variation 9": 0.7662337662337663,
+            "Variation 10": 0.4810126582278481
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are signs of lung infection\n b. No, there are no signs of lung infection\n 4. Are there any signs of pneumonia on this chest X-ray? Please choose from the following two",
+                "<s> Are there any radiographic signs of pneumonia visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are\n b. No, there are not\n 3. Are there any radiographic signs of pneumonia visible on this chest X-ray? Please choose from the following two options: [yes, no]",
+                "<s> Is there evidence of lung infection depicted in this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1. Lung infection is present.\n 2. Lung infection is absent.\n 1. Lung infection is present.\n 2. Lung infection is absent.\n 1. Lung in",
+                "<s> Please confirm if there are any findings suggestive of respiratory tract infection seen on this chest X-ray. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the images show any indications of pulmonary infection, such as consolidation or infiltration? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you identify any radiographic features characteristic of pneumonia in this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Lobar consolidation\n2. Alveolar infiltrates\n 3. Alveolar infiltrates\n 4. Alveolar infiltrates\n 5. Alveolar infiltr",
+                "<s> Is there a visible sign of lung infection, like pleural effusion, shown in this chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1",
+                "<s> Please indicate if there are any signs of lower respiratory tract infection evident on this chest radiograph. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the images consistent with an infectious process involving the lungs, such as bronchopneumonia? Please choose from the following two options: [yes, no]\n<image> a. Yes, the images are consistent with an infectious process involving the lungs, such as bronchopneumonia.\n b. No, the images are not consistent with an infectious process involving the lungs, such as",
+                "<s> Does the chest X-ray show any evidence of upper or lower respiratory tract infection, like lobar pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you confirm that there is no sign of lung infection visible on this chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1. Yes, there is a small area of consolidation in the right lower zone.\n 2. No, there is no sign of lung infection visible on this chest X-ray image.\n 1. No,"
+            ]
+        ],
+        "sensitivities": [
+            0.6106313135494164
+        ],
+        "posix": 0.6106313135494164
+    }
+}

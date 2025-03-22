@@ -1,0 +1,189 @@
+{
+    "file_name": "question_273_variants.json",
+    "overall_posix": 3.3951406951067007,
+    "detailed_scores": [
+        {
+            "Variation 1": 3.3958835727290104,
+            "Variation 2": 4.612675799263848,
+            "Variation 3": 0.590731143951416,
+            "Variation 4": 5.603774976730347,
+            "Variation 5": 5.185280845165253,
+            "Variation 6": 5.707946004867554,
+            "Variation 7": 4.642711056603326,
+            "Variation 8": 4.7547067589230005,
+            "Variation 9": 5.0790917015075685,
+            "Variation 10": 5.20196792602539
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the patient does not show signs of pneumothorax in the X-ray image.",
+                "Yes, there is evidence of a pneumothorax on the radiograph. The lung appears to be collapsed, which is indicative of a pneumothorax.",
+                "No, the patient does not exhibit a free air pocket within the thoracic cavity as seen on X-ray. The image shows the lungs and heart, but there is no visible free air pocket.",
+                "No, there are no visible signs of air leakage into the pleural space in this image.",
+                "No, I cannot identify a pneumomediastinum or subcutaneous emphysema in this radiograph. The image appears to be a lateral chest X-ray, but there are no signs of air leaks or gas",
+                "No, there is no indication of lung collapse with concomitant air leak as depicted on the X-ray. The image shows a chest X-ray with the lungs visible, but there are no signs of collapse or air leak.",
+                "No, the image does not show a partial or complete lung collapse resulting from air leakage into the pleural space. The image appears to be an X-ray of a chest, but it does not show any signs of lung collapse or air leak",
+                "No, there are no abnormalities suggestive of a spontaneous pneumothorax on this chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "No, there is no air present in the mediastinum or surrounding soft tissues on this radiograph. The image shows a normal chest X-ray with no signs of air or other abnormalities.",
+                "No, there is no indication of tension pneumothorax in this image. The lung appears to be in a normal position within the chest cavity, and there are no signs of tension or compression that would suggest a tension pneumothor",
+                "Yes, the patient in the X-ray image appears to demonstrate signs of a secondary pneumothorax with associated lung collapse and air leak. The lung on the right side of the chest is significantly smaller and less dense than the left lung,"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -247.7822585105896,
+                    -376.825834274292,
+                    -455.35266947746277,
+                    -234.78617334365845,
+                    -527.9710073471069,
+                    -507.04630076885223,
+                    -533.1795587539673,
+                    -456.70425605773926,
+                    -461.74406266212463,
+                    -501.736843585968,
+                    -507.88065481185913
+                ],
+                [
+                    -227.43031787872314,
+                    -363.5452513694763,
+                    -443.1118040084839,
+                    -230.26311254501343,
+                    -523.8153758049011,
+                    -491.19580721855164,
+                    -526.6538677215576,
+                    -452.58458042144775,
+                    -451.6449942588806,
+                    -482.97463607788086,
+                    -527.3590657711029
+                ],
+                [
+                    -232.32183074951172,
+                    -386.85012888908386,
+                    -461.1301587820053,
+                    -238.31170558929443,
+                    -516.8512434959412,
+                    -513.7574825286865,
+                    -509.4205207824707,
+                    -436.48738944530487,
+                    -429.55090868473053,
+                    -525.141366481781,
+                    -473.3754732608795
+                ],
+                [
+                    -236.03491806983948,
+                    -357.80199909210205,
+                    -443.13148951530457,
+                    -224.38686800003052,
+                    -512.5590236186981,
+                    -491.25007128715515,
+                    -513.4534957408905,
+                    -450.53652596473694,
+                    -450.174503326416,
+                    -497.4981153011322,
+                    -507.06571316719055
+                ],
+                [
+                    -207.3294858932495,
+                    -373.5101523399353,
+                    -443.1082441806793,
+                    -226.58887696266174,
+                    -522.4320034980774,
+                    -508.18696451187134,
+                    -514.7424116134644,
+                    -433.06535971164703,
+                    -445.7046489715576,
+                    -505.48388290405273,
+                    -471.23247051239014
+                ],
+                [
+                    -225.77428340911865,
+                    -370.72622776031494,
+                    -454.31909561157227,
+                    -221.61320090293884,
+                    -534.350115776062,
+                    -492.3625364303589,
+                    -515.4205751419067,
+                    -438.36397671699524,
+                    -455.5651936531067,
+                    -501.81153297424316,
+                    -479.80942499637604
+                ],
+                [
+                    -225.77428340911865,
+                    -370.72622776031494,
+                    -454.31909561157227,
+                    -221.61320090293884,
+                    -534.350115776062,
+                    -492.3625364303589,
+                    -515.4205751419067,
+                    -438.36397671699524,
+                    -455.5651936531067,
+                    -501.81153297424316,
+                    -479.80942499637604
+                ],
+                [
+                    -207.3294858932495,
+                    -373.5101523399353,
+                    -443.1082441806793,
+                    -226.58887696266174,
+                    -522.4320034980774,
+                    -508.18696451187134,
+                    -514.7424116134644,
+                    -433.06535971164703,
+                    -445.7046489715576,
+                    -505.48388290405273,
+                    -471.23247051239014
+                ],
+                [
+                    -232.32183074951172,
+                    -386.85012888908386,
+                    -461.1301587820053,
+                    -238.31170558929443,
+                    -516.8512434959412,
+                    -513.7574825286865,
+                    -509.4205207824707,
+                    -436.48738944530487,
+                    -429.55090868473053,
+                    -525.141366481781,
+                    -473.3754732608795
+                ],
+                [
+                    -236.03491806983948,
+                    -357.80199909210205,
+                    -443.13148951530457,
+                    -224.38686800003052,
+                    -512.5590236186981,
+                    -491.25007128715515,
+                    -513.4534957408905,
+                    -450.53652596473694,
+                    -450.174503326416,
+                    -497.4981153011322,
+                    -507.06571316719055
+                ],
+                [
+                    -205.40341448783875,
+                    -376.9942286014557,
+                    -454.64915704727173,
+                    -226.34316158294678,
+                    -507.4172172546387,
+                    -492.7269814014435,
+                    -503.350389957428,
+                    -433.3063052892685,
+                    -460.1829581260681,
+                    -514.2042713165283,
+                    -461.5454845428467
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.3951406951067007
+        ],
+        "posix": 3.3951406951067007
+    }
+}

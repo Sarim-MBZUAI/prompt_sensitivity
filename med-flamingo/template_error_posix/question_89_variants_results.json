@@ -1,0 +1,42 @@
+{
+    "file_name": "question_89_variants.json",
+    "overall_posix": 0.42314625989069254,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5250836120401338,
+            "Variation 2": 0.40802675585284276,
+            "Variation 3": 0.4816053511705686,
+            "Variation 4": 0.5016722408026756,
+            "Variation 5": 0.1270903010033445,
+            "Variation 6": 0.5217391304347826,
+            "Variation 7": 0.49498327759197325,
+            "Variation 8": 0.5050167224080268,
+            "Variation 9": 0.47560975609756095,
+            "Variation 10": 0.1906354515050167
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of a",
+                "<s> QUESTION:Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\t\tNo\tevidence\tof\ta\tpneumothorax\ton\tthe\tpatient\u2019s\tchest\tX-ray.\n \u2022\t\tYes,\tthere\tis",
+                "<s> q::Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q::Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n Q:Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n 10",
+                "<s> Q::: Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question::: Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumothorax\n B. Pulmonary contusion\n C. Pulmonary edema\n D. Pneumonia\n E",
+                "<s> q:::Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The patient has a left-sided pneumothorax. The left hemithorax is significantlydepressed, and the left lung is collapsed. The right lung is",
+                "<s> QUESTION:Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n A:"
+            ]
+        ],
+        "sensitivities": [
+            0.42314625989069254
+        ],
+        "posix": 0.42314625989069254
+    }
+}

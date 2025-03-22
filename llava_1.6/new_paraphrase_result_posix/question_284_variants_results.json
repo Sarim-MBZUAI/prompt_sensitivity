@@ -1,0 +1,189 @@
+{
+    "file_name": "question_284_variants.json",
+    "overall_posix": 5.3304174677423735,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5876433415846392,
+            "Variation 2": 1.8506322659944232,
+            "Variation 3": 5.490653760433197,
+            "Variation 4": 5.264992193299896,
+            "Variation 5": 5.289680023193359,
+            "Variation 6": 3.2109499700141675,
+            "Variation 7": 0.36238434201195124,
+            "Variation 8": 0.8024140993754069,
+            "Variation 9": 5.374963002204895,
+            "Variation 10": 5.475613737106324
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of a pneumothorax? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the chest X-ray does not show any signs of a pneumothorax.",
+                "No, there is no evidence of pneumopericardium on the chest X-ray.",
+                "Yes, the chest X-ray shows signs of a pneumothorax.",
+                "Based on the image provided, it is not possible to definitively determine if the chest film reveals a radiographic sign consistent with spontaneous pneumothorax. The image is of low resolution and lacks clarity, which makes it difficult to disc",
+                "No, there are no visual indicators of intrathoracic air leak on the X-ray. The image shows a chest X-ray with the lungs and heart visible, but there is no evidence of air leakage.",
+                "No, the chest radiograph does not demonstrate features suggestive of a tension pneumothorax. The image shows a lung with some areas of increased opacity, which could be indicative of a pneumothorax, but the absence of",
+                "Yes, there is imaging evidence of free intrathoracic air in contact with the mediastinal pleura on the chest X-ray.",
+                "Yes, the radiograph shows a lung silhouette consistent with pneumothorax.",
+                "No, there are no visible signs of pneumomediastinum on the chest X-ray.",
+                "No, the chest film does not reveal a characteristic lucency in the pleural space consistent with pneumothorax. The image shows a chest X-ray with the lungs and heart clearly visible, but there is no evidence of a pneum",
+                "No, there is no radiographic evidence of a pneumatocele communicating with the atmosphere on the chest X-ray. The image shows a chest X-ray with the lungs and heart visible, but there is no indication of a p"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -215.37229251861572,
+                    -202.44413900375366,
+                    -180.21027946472168,
+                    -489.9049805402756,
+                    -473.35690999031067,
+                    -479.8562936782837,
+                    -321.33364152908325,
+                    -222.9823637008667,
+                    -234.6302309036255,
+                    -484.1204426288605,
+                    -489.1529793739319
+                ],
+                [
+                    -215.37229251861572,
+                    -202.44413900375366,
+                    -180.21027946472168,
+                    -489.9049805402756,
+                    -473.35690999031067,
+                    -479.8562936782837,
+                    -321.33364152908325,
+                    -222.9823637008667,
+                    -234.6302309036255,
+                    -484.1204426288605,
+                    -489.1529793739319
+                ],
+                [
+                    -215.37229251861572,
+                    -202.44413900375366,
+                    -180.21027946472168,
+                    -489.9049805402756,
+                    -473.35690999031067,
+                    -479.8562936782837,
+                    -321.33364152908325,
+                    -222.9823637008667,
+                    -234.6302309036255,
+                    -484.1204426288605,
+                    -489.1529793739319
+                ],
+                [
+                    -209.2999815940857,
+                    -219.79504585266113,
+                    -181.6838150024414,
+                    -517.811580657959,
+                    -459.502592086792,
+                    -487.69258642196655,
+                    -323.57633543014526,
+                    -219.0998706817627,
+                    -230.082426071167,
+                    -498.7363634109497,
+                    -480.8649296760559
+                ],
+                [
+                    -209.2999815940857,
+                    -219.79504585266113,
+                    -181.6838150024414,
+                    -517.811580657959,
+                    -459.502592086792,
+                    -487.69258642196655,
+                    -323.57633543014526,
+                    -219.0998706817627,
+                    -230.082426071167,
+                    -498.7363634109497,
+                    -480.8649296760559
+                ],
+                [
+                    -203.10350131988525,
+                    -203.49253273010254,
+                    -175.90950441360474,
+                    -531.826516866684,
+                    -468.0738055706024,
+                    -494.69007682800293,
+                    -332.4953167438507,
+                    -216.4011435508728,
+                    -238.01803994178772,
+                    -482.0774140357971,
+                    -485.11177921295166
+                ],
+                [
+                    -206.1846125125885,
+                    -207.56920218467712,
+                    -168.3520221710205,
+                    -509.5494487285614,
+                    -455.10711908340454,
+                    -493.7504277229309,
+                    -318.9507312774658,
+                    -208.81098651885986,
+                    -225.23007833957672,
+                    -509.58952379226685,
+                    -480.3594045639038
+                ],
+                [
+                    -203.10350131988525,
+                    -203.49253273010254,
+                    -175.90950441360474,
+                    -531.826516866684,
+                    -468.0738055706024,
+                    -494.69007682800293,
+                    -332.4953167438507,
+                    -216.4011435508728,
+                    -238.01803994178772,
+                    -482.0774140357971,
+                    -485.11177921295166
+                ],
+                [
+                    -197.6877624988556,
+                    -212.38417983055115,
+                    -184.2472538948059,
+                    -501.77196073532104,
+                    -470.00589430332184,
+                    -504.19923400878906,
+                    -316.9429179430008,
+                    -211.91544198989868,
+                    -224.75035548210144,
+                    -513.2905960083008,
+                    -493.0553951263428
+                ],
+                [
+                    -196.72346568107605,
+                    -195.87189936637878,
+                    -171.09696578979492,
+                    -504.2919063568115,
+                    -467.0900466442108,
+                    -493.04554295539856,
+                    -318.9618694782257,
+                    -193.15396118164062,
+                    -227.35582828521729,
+                    -485.8701055049896,
+                    -473.04408717155457
+                ],
+                [
+                    -200.34085702896118,
+                    -195.76731300354004,
+                    -167.6341519355774,
+                    -508.2312469482422,
+                    -484.8907594680786,
+                    -504.0938768386841,
+                    -332.1264863014221,
+                    -204.43447709083557,
+                    -227.53435802459717,
+                    -495.16500329971313,
+                    -459.03271865844727
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            5.3304174677423735
+        ],
+        "posix": 5.3304174677423735
+    }
+}

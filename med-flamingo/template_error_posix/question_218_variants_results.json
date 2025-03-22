@@ -1,0 +1,42 @@
+{
+    "file_name": "question_218_variants.json",
+    "overall_posix": 0.32700550401858025,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.23834196891191706,
+            "Variation 2": 0.5863095238095238,
+            "Variation 3": 0.47653429602888087,
+            "Variation 4": 0.3014354066985646,
+            "Variation 5": 0.3423423423423424,
+            "Variation 6": 0.14835164835164838,
+            "Variation 7": 0.2551020408163265,
+            "Variation 8": 0.31775700934579443,
+            "Variation 9": 0.2615384615384615,
+            "Variation 10": 0.3423423423423424
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question-Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n Question-Is there any evidence of a pleural effusion? Please choose from the following two options: [yes, no]\n Answer\n No\n Question-Is there any evidence of a pneumothorax? Please choose from",
+                "<s> QUESTION\tAre there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a right-sided pneumothorax. The lung on the right is less\n opaque than the left. The right hem",
+                "<s> Q::: Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n",
+                "<s> Q:Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Q:Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n E:\n R:\n D:\n E:\n F:\n I:\n L:\n U:\n S:\n E:\n R:\n D:\n E:\n F:",
+                "<s> q::Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> question::Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Question:Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n"
+            ]
+        ],
+        "sensitivities": [
+            0.32700550401858025
+        ],
+        "posix": 0.32700550401858025
+    }
+}

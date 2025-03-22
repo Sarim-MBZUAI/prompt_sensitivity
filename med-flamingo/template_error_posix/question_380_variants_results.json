@@ -1,0 +1,42 @@
+{
+    "file_name": "question_380_variants.json",
+    "overall_posix": 0.3687380312512286,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.25106382978723407,
+            "Variation 2": 0.3951048951048951,
+            "Variation 3": 0.26923076923076916,
+            "Variation 4": 0.44850498338870426,
+            "Variation 5": 0.2660944206008584,
+            "Variation 6": 0.473015873015873,
+            "Variation 7": 0.5103857566765578,
+            "Variation 8": 0.45424836601307184,
+            "Variation 9": 0.4892966360856269,
+            "Variation 10": 0.13043478260869568
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question::: Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> question:Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked [2] for option [2]. The correct answer is [2].\n The chest X-ray shows a left-s",
+                "<s> Q::: Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The patient has a left-sided pneumothorax.\n The patient has a left-sided pneumothorax.\n The patient has a right-sided pneumothorax.",
+                "<s> q:::Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The patient is a 55-year-old man with a history of a\u00a0left lung cancer.\n 1.What is the most likely diagnosis?\n A.Pleural effusion\n",
+                "<s> Question:Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Model Answer\n This is a frontal chest radiograph of a 55-year-old man who presented with a 2-week history of cough and fever. There is a left upper lobe opacity. This",
+                "<s> QUESTION:Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n [No]\n The patient has a left-sided pneumothorax.\n The patient has a left-sided pneumothorax. The left hem",
+                "<s> QUESTION:Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n   Answers:\n A.True. There is a left lower lobe consolidation with air bronchograms. There is also a right lower lobe consolidation.\n B.False. There is no evidence",
+                "<s> Q:Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9."
+            ]
+        ],
+        "sensitivities": [
+            0.3687380312512286
+        ],
+        "posix": 0.3687380312512286
+    }
+}

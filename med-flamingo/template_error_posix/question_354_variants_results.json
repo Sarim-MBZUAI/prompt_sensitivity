@@ -1,0 +1,42 @@
+{
+    "file_name": "question_354_variants.json",
+    "overall_posix": 0.34634156568001206,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2850678733031674,
+            "Variation 2": 0.28181818181818175,
+            "Variation 3": 0.3008849557522124,
+            "Variation 4": 0.5548961424332344,
+            "Variation 5": 0.4882154882154882,
+            "Variation 6": 0.224390243902439,
+            "Variation 7": 0.43525179856115104,
+            "Variation 8": 0.24637681159420288,
+            "Variation 9": 0.22058823529411764,
+            "Variation 10": 0.42592592592592593
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::: Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q:::Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> q::Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> question:Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> The radiologist found a right pleural effusion.\n 10.Question:Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]",
+                "<s> QUESTION:Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)Yes\n (b)No\n Explanation:\n (a)The radiologist did not find any pleural effusions on this chest X-ray.\n (b)The radiologist did find pleural eff",
+                "<s> QUESTION:Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n 10.\n Question:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pleural effusion\n C.Pneumonia\n",
+                "<s> question::Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 109",
+                "<s> Question-Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n A.  The patient is a 55-year-old man with a history of diabetes and hypertension. He has been complaining of"
+            ]
+        ],
+        "sensitivities": [
+            0.34634156568001206
+        ],
+        "posix": 0.34634156568001206
+    }
+}

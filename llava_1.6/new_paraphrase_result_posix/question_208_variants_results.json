@@ -1,0 +1,189 @@
+{
+    "file_name": "question_208_variants.json",
+    "overall_posix": 4.33969797515125,
+    "detailed_scores": [
+        {
+            "Variation 1": 4.771385388076306,
+            "Variation 2": 0.8686133968202692,
+            "Variation 3": 2.7781862307477883,
+            "Variation 4": 5.44187594984853,
+            "Variation 5": 4.450415564434869,
+            "Variation 6": 5.82637747168541,
+            "Variation 7": 3.802084841661983,
+            "Variation 8": 6.4601931369304655,
+            "Variation 9": 5.2997770392894745,
+            "Variation 10": 6.254759625196457
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the chest X-ray does not show signs of any chest wall deformity.",
+                "Yes, the chest radiograph reveals an abnormality indicative of a chest wall deformity. The ribs are not aligned properly, which suggests a chest wall deformity.",
+                "Yes, the chest X-ray shows signs of a chest wall deformity.",
+                "No, there are no visible signs of thoracic skeletal abnormalities on the chest X-ray.",
+                "No, the chest film does not show any anatomical irregularities suggestive of a congenital or acquired chest wall deformity. It appears to be a normal chest X-ray.",
+                "No, there is no evidence of any rib or sternum malformation on the chest radiograph. The image shows a normal chest X-ray with the lungs, heart, and ribs visible.",
+                "Yes, the X-ray demonstrates a structural anomaly of the thoracic cage that could be indicative of a chest wall deformity. The ribs are not aligned properly, which is a characteristic feature of chest wall deform",
+                "No, there are no visible abnormalities on the chest film consistent with a developmental or acquired chest wall defect. The image shows a normal chest X-ray.",
+                "Yes, the radiograph shows signs of asymmetrical thoracic cage development that could be indicative of a chest wall deformity. The left side of the chest appears to be more prominent than the right side, which is a common",
+                "No, there is no evidence on the chest X-ray of any abnormal skeletal or soft tissue anomalies that could be suggestive of a chest wall deformity. The image shows a normal chest X-ray with the lungs",
+                "Yes, the film demonstrates a structural deviation from normal thoracic anatomy that could be indicative of a congenital or acquired chest wall defect. The chest wall appears to be asymmetrical, with one side appearing to"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -208.8402505517006,
+                    -399.6956660747528,
+                    -192.33659601211548,
+                    -283.85127878189087,
+                    -442.8409163951874,
+                    -395.7577042579651,
+                    -500.15912413597107,
+                    -345.715304851532,
+                    -531.8499073982239,
+                    -473.8291025161743,
+                    -521.5782318115234
+                ],
+                [
+                    -204.3728084564209,
+                    -407.89809799194336,
+                    -189.92299962043762,
+                    -284.078462600708,
+                    -440.5875151157379,
+                    -399.57534551620483,
+                    -511.96831035614014,
+                    -356.1695029735565,
+                    -507.6355836391449,
+                    -486.6072647571564,
+                    -513.2527956962585
+                ],
+                [
+                    -208.8402505517006,
+                    -399.6956660747528,
+                    -192.33659601211548,
+                    -283.85127878189087,
+                    -442.8409163951874,
+                    -395.7577042579651,
+                    -500.15912413597107,
+                    -345.715304851532,
+                    -531.8499073982239,
+                    -473.8291025161743,
+                    -521.5782318115234
+                ],
+                [
+                    -203.0207962989807,
+                    -399.85996651649475,
+                    -176.0646436214447,
+                    -262.5681302547455,
+                    -419.0767991542816,
+                    -389.2236969470978,
+                    -512.5934998989105,
+                    -336.51399397850037,
+                    -481.1899485588074,
+                    -469.5558331012726,
+                    -507.34678506851196
+                ],
+                [
+                    -212.02213764190674,
+                    -391.4941201210022,
+                    -190.1136794090271,
+                    -280.1753010749817,
+                    -426.4348587989807,
+                    -380.53142499923706,
+                    -512.7536060810089,
+                    -347.0087606906891,
+                    -495.237149477005,
+                    -480.71838784217834,
+                    -533.8108973503113
+                ],
+                [
+                    -199.955073595047,
+                    -398.9899001121521,
+                    -183.27673482894897,
+                    -280.0420513153076,
+                    -446.9860167503357,
+                    -405.58087706565857,
+                    -502.03182649612427,
+                    -364.2783043384552,
+                    -523.5476973056793,
+                    -504.21048283576965,
+                    -522.6220512390137
+                ],
+                [
+                    -198.15442323684692,
+                    -388.1126437187195,
+                    -179.83410954475403,
+                    -264.1991539001465,
+                    -431.58487820625305,
+                    -389.6792607307434,
+                    -500.978422164917,
+                    -341.45208835601807,
+                    -489.5791389942169,
+                    -493.94424533843994,
+                    -498.0345878601074
+                ],
+                [
+                    -215.11290001869202,
+                    -406.0702095031738,
+                    -184.85335683822632,
+                    -265.73088455200195,
+                    -426.21794152259827,
+                    -379.59602761268616,
+                    -522.1527800559998,
+                    -352.0290822982788,
+                    -503.6572804450989,
+                    -485.23417496681213,
+                    -522.0523281097412
+                ],
+                [
+                    -203.93406319618225,
+                    -410.2261161804199,
+                    -189.30649995803833,
+                    -263.7167282104492,
+                    -454.1408441066742,
+                    -394.2934513092041,
+                    -494.84004521369934,
+                    -338.79260087013245,
+                    -488.82883071899414,
+                    -488.92764472961426,
+                    -525.1241090297699
+                ],
+                [
+                    -201.66287112236023,
+                    -399.7172393798828,
+                    -181.93682718276978,
+                    -248.70253992080688,
+                    -426.47744822502136,
+                    -392.0310537815094,
+                    -471.86894130706787,
+                    -338.8498377799988,
+                    -499.5645852088928,
+                    -470.93131852149963,
+                    -521.8670501708984
+                ],
+                [
+                    -207.6138937473297,
+                    -413.1959855556488,
+                    -183.32618737220764,
+                    -253.4778687953949,
+                    -425.9584662914276,
+                    -358.6429681777954,
+                    -498.57749915122986,
+                    -332.12282156944275,
+                    -482.5564091205597,
+                    -471.1636254787445,
+                    -497.1464681625366
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.33969797515125
+        ],
+        "posix": 4.33969797515125
+    }
+}

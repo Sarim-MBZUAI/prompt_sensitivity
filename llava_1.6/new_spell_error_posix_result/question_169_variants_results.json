@@ -1,0 +1,189 @@
+{
+    "file_name": "question_169_variants.json",
+    "overall_posix": 1.0629239523831224,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6825876188278198,
+            "Variation 2": 2.4620250788601963,
+            "Variation 3": 0.5895706987380982,
+            "Variation 4": 0.6362223505973816,
+            "Variation 5": 2.389878791432048,
+            "Variation 6": 2.389878791432048,
+            "Variation 7": 2.389878791432048,
+            "Variation 8": 2.389878791432048,
+            "Variation 9": 2.1966080970542374,
+            "Variation 10": 0.5895706987380982
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the patient does not have normal cardiac contours according to the X-ray. The X-ray shows a significant cardiac shadow, which is not typical for a normal cardiac silhouette. This could indicate a cardiac ab",
+                "Based on the X-ray image provided, the cardiac contours appear to be normal. The heart is visible and appears to be of a typical size and shape. There are no obvious abnormalities or deformities that would indicate a card",
+                "Based on the X-ray image provided, it appears that the patient has normal cardiac contours. The heart is visible and appears to be of normal size and shape, without any obvious abnormalities.",
+                "Based on the X-ray image provided, the patient appears to have normal cardiac contours. The heart is visible and appears to be of normal size and shape. There are no obvious abnormalities or deformities visible in the image.",
+                "Based on the X-ray image provided, the patient appears to have normal cardiac contours. The heart is visible and appears to be of normal size and shape. There are no obvious signs of cardiac abnormalities or pathology.",
+                "Based on the X-ray image provided, the patient appears to have normal cardiac contours. The heart is visible and appears to be of normal size and shape, with no obvious abnormalities.",
+                "Based on the X-ray image provided, the patient appears to have normal cardiac contours. The heart is visible and appears to be of normal size and shape, with no obvious abnormalities.",
+                "Based on the X-ray image provided, the patient appears to have normal cardiac contours. The heart is visible and appears to be of normal size and shape, with no obvious abnormalities.",
+                "Based on the X-ray image provided, the patient appears to have normal cardiac contours. The heart is visible and appears to be of normal size and shape, with no obvious abnormalities.",
+                "Based on the X-ray image provided, the patient appears to have normal cardiac contours. The heart is well-defined, and there are no obvious signs of abnormalities or pathologies.",
+                "Based on the X-ray image provided, the patient appears to have normal cardiac contours. The heart is visible and appears to be of normal size and shape. There are no obvious abnormalities or deformities visible in the image."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -531.9301817417145,
+                    -497.8008008003235,
+                    -423.60107827186584,
+                    -502.45164680480957,
+                    -500.1190642118454,
+                    -429.1653937101364,
+                    -429.1653937101364,
+                    -429.1653937101364,
+                    -429.1653937101364,
+                    -437.47603356838226,
+                    -502.45164680480957
+                ],
+                [
+                    -513.0168166160583,
+                    -494.11115646362305,
+                    -452.02941048145294,
+                    -481.32710456848145,
+                    -477.96523356437683,
+                    -396.0875418186188,
+                    -396.0875418186188,
+                    -396.0875418186188,
+                    -396.0875418186188,
+                    -405.4305799007416,
+                    -481.32710456848145
+                ],
+                [
+                    -502.8591740131378,
+                    -499.4868230819702,
+                    -447.14638328552246,
+                    -512.95689868927,
+                    -514.4859203696251,
+                    -446.7747927904129,
+                    -446.7747927904129,
+                    -446.7747927904129,
+                    -446.7747927904129,
+                    -433.7968193292618,
+                    -512.95689868927
+                ],
+                [
+                    -488.5361649990082,
+                    -496.0886969566345,
+                    -415.94512963294983,
+                    -501.5457515716553,
+                    -492.69547510147095,
+                    -407.18598198890686,
+                    -407.18598198890686,
+                    -407.18598198890686,
+                    -407.18598198890686,
+                    -409.04448914527893,
+                    -501.5457515716553
+                ],
+                [
+                    -513.0168166160583,
+                    -494.11115646362305,
+                    -452.02941048145294,
+                    -481.32710456848145,
+                    -477.96523356437683,
+                    -396.0875418186188,
+                    -396.0875418186188,
+                    -396.0875418186188,
+                    -396.0875418186188,
+                    -405.4305799007416,
+                    -481.32710456848145
+                ],
+                [
+                    -513.0168166160583,
+                    -494.11115646362305,
+                    -452.02941048145294,
+                    -481.32710456848145,
+                    -477.96523356437683,
+                    -396.0875418186188,
+                    -396.0875418186188,
+                    -396.0875418186188,
+                    -396.0875418186188,
+                    -405.4305799007416,
+                    -481.32710456848145
+                ],
+                [
+                    -488.5361649990082,
+                    -496.0886969566345,
+                    -415.94512963294983,
+                    -501.5457515716553,
+                    -492.69547510147095,
+                    -407.18598198890686,
+                    -407.18598198890686,
+                    -407.18598198890686,
+                    -407.18598198890686,
+                    -409.04448914527893,
+                    -501.5457515716553
+                ],
+                [
+                    -509.1629967689514,
+                    -522.4757244586945,
+                    -438.223215341568,
+                    -514.2593655586243,
+                    -523.4836552143097,
+                    -430.6838297843933,
+                    -430.6838297843933,
+                    -430.6838297843933,
+                    -430.6838297843933,
+                    -444.3600151538849,
+                    -514.2593655586243
+                ],
+                [
+                    -502.8591740131378,
+                    -499.4868230819702,
+                    -447.14638328552246,
+                    -512.95689868927,
+                    -514.4859203696251,
+                    -446.7747927904129,
+                    -446.7747927904129,
+                    -446.7747927904129,
+                    -446.7747927904129,
+                    -433.7968193292618,
+                    -512.95689868927
+                ],
+                [
+                    -488.5361649990082,
+                    -496.0886969566345,
+                    -415.94512963294983,
+                    -501.5457515716553,
+                    -492.69547510147095,
+                    -407.18598198890686,
+                    -407.18598198890686,
+                    -407.18598198890686,
+                    -407.18598198890686,
+                    -409.04448914527893,
+                    -501.5457515716553
+                ],
+                [
+                    -513.0168166160583,
+                    -494.11115646362305,
+                    -452.02941048145294,
+                    -481.32710456848145,
+                    -477.96523356437683,
+                    -396.0875418186188,
+                    -396.0875418186188,
+                    -396.0875418186188,
+                    -396.0875418186188,
+                    -405.4305799007416,
+                    -481.32710456848145
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.0629239523831224
+        ],
+        "posix": 1.0629239523831224
+    }
+}

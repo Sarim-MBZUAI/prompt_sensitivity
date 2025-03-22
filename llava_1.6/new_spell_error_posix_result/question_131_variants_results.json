@@ -1,0 +1,189 @@
+{
+    "file_name": "question_131_variants.json",
+    "overall_posix": 0.28555509671297924,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.03389516830444336,
+            "Variation 2": 0.08555673599243165,
+            "Variation 3": 0.1753684425354004,
+            "Variation 4": 0.08555673599243165,
+            "Variation 5": 0.7541053724288941,
+            "Variation 6": 0.08555673599243165,
+            "Variation 7": 0.15223042488098146,
+            "Variation 8": 0.13062414169311523,
+            "Variation 9": 0.06886130332946777,
+            "Variation 10": 0.15856314659118653
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the X-ray image provided, it appears that the lung volumes are not considered to be normal. The image shows a significant amount of air in the chest, which could indicate overinflation or a condition such as pneumothorax",
+                "Based on the X-ray image provided, it appears that the lung volumes are within normal limits. The lungs are well-expanded, and there are no obvious signs of overinflation or underinflation. The heart shadow is also visible,",
+                "Based on the X-ray image provided, it appears that the lung volumes are not considered to be normal. The image shows a significant amount of air in the chest, which could indicate overinflation or a condition such as emphysema.",
+                "Based on the image provided, it appears that the lung volumes are not within the normal range. The lung fields are not fully expanded, which could indicate a condition such as atelectasis, pneumothorax, or lung collapse. However,",
+                "Based on the X-ray image provided, it appears that the lung volumes are not considered to be normal. The image shows a significant amount of air in the chest, which could indicate overinflation or a condition such as emphysema.",
+                "Based on the image provided, it appears that the lung volumes are within normal limits. The lung fields are clear and there are no signs of consolidation, pleural effusion, or other abnormalities that would indicate a significant lung volume issue.",
+                "Based on the X-ray image provided, it appears that the lung volumes are not considered to be normal. The image shows a significant amount of air in the chest, which could indicate overinflation or a condition such as emphysema.",
+                "Based on the X-ray image provided, it appears that the lung volumes are not considered to be normal. The lung fields are not fully expanded, which could indicate a potential issue such as lung disease, pneumonia, or other respiratory",
+                "Based on the X-ray image provided, it appears that the lung volumes are not considered to be normal. The image shows a significant amount of air in the chest, which could indicate a condition such as pneumothorax or emphyse",
+                "Based on the X-ray image provided, it appears that the lung volumes are within normal limits. The lungs are well-expanded, and there are no obvious signs of overinflation or underinflation. However, it is important to note",
+                "Based on the X-ray image provided, it appears that the lung volumes are not considered to be normal. The lung fields are not fully expanded, which could indicate a condition such as lung collapse, pneumothorax, or other respir"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -498.78410148620605,
+                    -497.0893430709839,
+                    -503.06193828582764,
+                    -507.5525236129761,
+                    -503.06193828582764,
+                    -536.4893701076508,
+                    -503.06193828582764,
+                    -506.3956227302551,
+                    -492.2528944015503,
+                    -495.34103631973267,
+                    -506.7122588157654
+                ],
+                [
+                    -492.506733417511,
+                    -501.06425428390503,
+                    -493.08887910842896,
+                    -479.66880464553833,
+                    -493.08887910842896,
+                    -513.1313428878784,
+                    -493.08887910842896,
+                    -489.3304052352905,
+                    -500.39156770706177,
+                    -501.9791302680969,
+                    -488.0013632774353
+                ],
+                [
+                    -498.78410148620605,
+                    -497.0893430709839,
+                    -503.06193828582764,
+                    -507.5525236129761,
+                    -503.06193828582764,
+                    -536.4893701076508,
+                    -503.06193828582764,
+                    -506.3956227302551,
+                    -492.2528944015503,
+                    -495.34103631973267,
+                    -506.7122588157654
+                ],
+                [
+                    -469.31657671928406,
+                    -492.22195196151733,
+                    -462.57114481925964,
+                    -501.986937046051,
+                    -462.57114481925964,
+                    -529.4237055778503,
+                    -462.57114481925964,
+                    -482.3043246269226,
+                    -466.39581656455994,
+                    -490.59968519210815,
+                    -481.10443019866943
+                ],
+                [
+                    -487.33343839645386,
+                    -474.21149230003357,
+                    -484.48917961120605,
+                    -496.13138818740845,
+                    -484.48917961120605,
+                    -524.855354309082,
+                    -484.48917961120605,
+                    -490.19612884521484,
+                    -487.019380569458,
+                    -485.5966942310333,
+                    -474.40468406677246
+                ],
+                [
+                    -487.33343839645386,
+                    -474.21149230003357,
+                    -484.48917961120605,
+                    -496.13138818740845,
+                    -484.48917961120605,
+                    -524.855354309082,
+                    -484.48917961120605,
+                    -490.19612884521484,
+                    -487.019380569458,
+                    -485.5966942310333,
+                    -474.40468406677246
+                ],
+                [
+                    -492.506733417511,
+                    -501.06425428390503,
+                    -493.08887910842896,
+                    -479.66880464553833,
+                    -493.08887910842896,
+                    -513.1313428878784,
+                    -493.08887910842896,
+                    -489.3304052352905,
+                    -500.39156770706177,
+                    -501.9791302680969,
+                    -488.0013632774353
+                ],
+                [
+                    -498.78410148620605,
+                    -497.0893430709839,
+                    -503.06193828582764,
+                    -507.5525236129761,
+                    -503.06193828582764,
+                    -536.4893701076508,
+                    -503.06193828582764,
+                    -506.3956227302551,
+                    -492.2528944015503,
+                    -495.34103631973267,
+                    -506.7122588157654
+                ],
+                [
+                    -498.78410148620605,
+                    -497.0893430709839,
+                    -503.06193828582764,
+                    -507.5525236129761,
+                    -503.06193828582764,
+                    -536.4893701076508,
+                    -503.06193828582764,
+                    -506.3956227302551,
+                    -492.2528944015503,
+                    -495.34103631973267,
+                    -506.7122588157654
+                ],
+                [
+                    -492.506733417511,
+                    -501.06425428390503,
+                    -493.08887910842896,
+                    -479.66880464553833,
+                    -493.08887910842896,
+                    -513.1313428878784,
+                    -493.08887910842896,
+                    -489.3304052352905,
+                    -500.39156770706177,
+                    -501.9791302680969,
+                    -488.0013632774353
+                ],
+                [
+                    -469.31657671928406,
+                    -492.22195196151733,
+                    -462.57114481925964,
+                    -501.986937046051,
+                    -462.57114481925964,
+                    -529.4237055778503,
+                    -462.57114481925964,
+                    -482.3043246269226,
+                    -466.39581656455994,
+                    -490.59968519210815,
+                    -481.10443019866943
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.28555509671297924
+        ],
+        "posix": 0.28555509671297924
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_363_variants.json",
+    "overall_posix": 0.330716800835969,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3105022831050228,
+            "Variation 2": 0.4948453608247423,
+            "Variation 3": 0.23232323232323226,
+            "Variation 4": 0.5166666666666667,
+            "Variation 5": 0.1413612565445026,
+            "Variation 6": 0.3471074380165289,
+            "Variation 7": 0.29107981220657275,
+            "Variation 8": 0.3105022831050228,
+            "Variation 9": 0.5183946488294314,
+            "Variation 10": 0.14438502673796794
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question::: Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n Correct Answer: Option 1\n [Free Case Study]\n 1.1: A 55-year-old man with a history of diabetes and hypertension",
+                "<s> Question:Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0On the chest X-ray, there is a focal area of consolidation in the right lower lobe.\n 1.What is the most likely diagnosis?\n A.Pneumonia",
+                "<s> QUESTION:Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> question:Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked:\n 1.Yes\n 2.No\n You have correctly marked:\n 1.Yes\n 2.No",
+                "<s> q:::Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> q::Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct Answer: Yes\n The chest X-ray shows a focal area of consolidation in the right upper lobe.\n The patient is a 65-year-old man with a history of",
+                "<s> Q:Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9."
+            ]
+        ],
+        "sensitivities": [
+            0.330716800835969
+        ],
+        "posix": 0.330716800835969
+    }
+}

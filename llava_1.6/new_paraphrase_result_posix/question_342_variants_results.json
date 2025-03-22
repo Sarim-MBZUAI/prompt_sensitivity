@@ -1,0 +1,189 @@
+{
+    "file_name": "question_342_variants.json",
+    "overall_posix": 0.8946874630621904,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5106522464752197,
+            "Variation 2": 0.3345444107055664,
+            "Variation 3": 0.4068010388588419,
+            "Variation 4": 0.29862112045288086,
+            "Variation 5": 0.22714433570702872,
+            "Variation 6": 0.23983096122741698,
+            "Variation 7": 0.741136082013448,
+            "Variation 8": 2.8166426482953524,
+            "Variation 9": 0.3354909372329712,
+            "Variation 10": 0.6637105560302734
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it is not possible for me to definitively determine if there is any acute cardiopulmonary disease. The image is a lateral chest X-ray, which is a type of X-ray that shows",
+                "No, the chest X-ray does not show evidence of acute cardiopulmonary disease. The image appears to be a normal chest X-ray with no signs of infection, inflammation, or other acute conditions.",
+                "Based on the image provided, it is not possible for me to definitively determine if the chest X-ray is indicative of any acute cardiopulmonary disease. The image is of low resolution and does not provide enough detail to make",
+                "No, there is no radiographic evidence suggestive of an acute pulmonary or cardiac condition on the provided chest X-ray. The image shows a normal chest X-ray with no signs of acute pathology.",
+                "Based on the image provided, it is not possible to definitively determine if there is any acute cardiopulmonary pathology. The image is a chest radiograph, which is a common diagnostic tool for assessing the lungs, heart,",
+                "No, there is no suggestion of acute heart or lung disease on the chest X-ray image. The image shows a normal chest X-ray with no signs of infection, inflammation, or other acute conditions.",
+                "No, the chest X-ray does not show signs suggestive of an acute cardiorespiratory emergency. The image appears to be a normal chest X-ray with no obvious signs of cardiac or respiratory distress.",
+                "No, there is no radiographic evidence of cardiopulmonary compromise on the given chest X-ray. The image shows a normal chest X-ray with no signs of cardiopulmonary issues.",
+                "Based on the image provided, there are no acute or subacute pulmonary or cardiac abnormalities visible. The chest X-ray appears to be normal.",
+                "No, there is no clear radiographic indication of an acute cardiothoracic emergency on the provided X-ray. The image shows a chest X-ray with the lungs and heart visible, but there are no obvious signs of a",
+                "Based on the image provided, there is no clear evidence suggestive of an acute pulmonary or cardiac event. The X-ray appears to show a normal chest structure without any obvious signs of pathology. However, it is important to"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -504.05690813064575,
+                    -529.5895204544067,
+                    -520.7841286659241,
+                    -523.990159034729,
+                    -518.9879641532898,
+                    -493.1539800167084,
+                    -516.0484561920166,
+                    -470.7057844400406,
+                    -397.02448749542236,
+                    -487.2823612689972,
+                    -537.2424359321594
+                ],
+                [
+                    -508.41140699386597,
+                    -530.0755999088287,
+                    -545.6271004676819,
+                    -508.01489543914795,
+                    -524.5243225097656,
+                    -490.8900964856148,
+                    -516.2862086296082,
+                    -488.05121874809265,
+                    -408.22373509407043,
+                    -514.4248328208923,
+                    -526.3451023101807
+                ],
+                [
+                    -504.05690813064575,
+                    -529.5895204544067,
+                    -520.7841286659241,
+                    -523.990159034729,
+                    -518.9879641532898,
+                    -493.1539800167084,
+                    -516.0484561920166,
+                    -470.7057844400406,
+                    -397.02448749542236,
+                    -487.2823612689972,
+                    -537.2424359321594
+                ],
+                [
+                    -512.7689480781555,
+                    -511.0834972858429,
+                    -537.535261631012,
+                    -521.1357036232948,
+                    -516.9084885120392,
+                    -497.5558750629425,
+                    -519.8171393871307,
+                    -477.56556260585785,
+                    -384.63193142414093,
+                    -523.8166785240173,
+                    -525.3234813213348
+                ],
+                [
+                    -535.0994176864624,
+                    -538.2065777778625,
+                    -553.1690316200256,
+                    -509.4656689763069,
+                    -518.4536333084106,
+                    -499.51262855529785,
+                    -520.386691570282,
+                    -467.42554926872253,
+                    -410.7064526081085,
+                    -512.640043258667,
+                    -522.113763332367
+                ],
+                [
+                    -504.05690813064575,
+                    -529.5895204544067,
+                    -520.7841286659241,
+                    -523.990159034729,
+                    -518.9879641532898,
+                    -493.1539800167084,
+                    -516.0484561920166,
+                    -470.7057844400406,
+                    -397.02448749542236,
+                    -487.2823612689972,
+                    -537.2424359321594
+                ],
+                [
+                    -514.5298891067505,
+                    -525.2664440274239,
+                    -547.5948209762573,
+                    -495.9742637872696,
+                    -526.373441696167,
+                    -492.79717540740967,
+                    -539.2971861958504,
+                    -465.29855394363403,
+                    -401.8031668663025,
+                    -513.7598628997803,
+                    -552.4238524436951
+                ],
+                [
+                    -518.4566502571106,
+                    -508.12476575374603,
+                    -550.5627648830414,
+                    -519.4481112957001,
+                    -517.8411951065063,
+                    -507.0660367012024,
+                    -514.9183624982834,
+                    -463.6076710820198,
+                    -379.3976616859436,
+                    -485.31885170936584,
+                    -544.2729825973511
+                ],
+                [
+                    -514.6307964324951,
+                    -546.6624982953072,
+                    -524.7530043125153,
+                    -516.8717768192291,
+                    -512.2505991458893,
+                    -509.44630765914917,
+                    -521.0776095986366,
+                    -494.3657739162445,
+                    -396.3516070842743,
+                    -518.3699822425842,
+                    -517.2876279354095
+                ],
+                [
+                    -514.6307964324951,
+                    -546.6624982953072,
+                    -524.7530043125153,
+                    -516.8717768192291,
+                    -512.2505991458893,
+                    -509.44630765914917,
+                    -521.0776095986366,
+                    -494.3657739162445,
+                    -396.3516070842743,
+                    -518.3699822425842,
+                    -517.2876279354095
+                ],
+                [
+                    -515.4500727653503,
+                    -534.936249256134,
+                    -532.348575592041,
+                    -533.3664973378181,
+                    -529.7425873279572,
+                    -499.5835198163986,
+                    -518.0168037414551,
+                    -481.5717062950134,
+                    -391.07104110717773,
+                    -524.5245065689087,
+                    -541.3175339698792
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8946874630621904
+        ],
+        "posix": 0.8946874630621904
+    }
+}

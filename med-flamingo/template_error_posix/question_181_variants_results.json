@@ -1,0 +1,42 @@
+{
+    "file_name": "question_181_variants.json",
+    "overall_posix": 0.3958431508179741,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5275862068965518,
+            "Variation 2": 0.2623762376237624,
+            "Variation 3": 0.505338078291815,
+            "Variation 4": 0.24607329842931935,
+            "Variation 5": 0.45833333333333326,
+            "Variation 6": 0.18232044198895025,
+            "Variation 7": 0.45833333333333326,
+            "Variation 8": 0.4850746268656716,
+            "Variation 9": 0.28365384615384615,
+            "Variation 10": 0.5493421052631579
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n Reasoning: The patient has an enlarged cardiac silhouette. The cardiac silhouette is enlarged. The cardiac silhouette",
+                "<s> question:Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.",
+                "<s> Question-Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n\n Question-Is the patient\u2019s heart size normal?\n [yes, no]\n Answer\n [yes, no]\n Question-Is the patient\u2019s heart size normal?\n [yes, no]",
+                "<s> Question:Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21",
+                "<s> Question:Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n 10.\n Question:What is the most likely diagnosis?\n A.Aortic stenosis\n B.Aortic regurgitation\n C.Mit",
+                "<s> Q:Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 3\n 1\n 2\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 11\n 12",
+                "<s> Question:Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n 10.\n Question:What is the most likely diagnosis?\n A.Aortic stenosis\n B.Aortic regurgitation\n C.Mit",
+                "<s> Q:Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n S:\n T:\n A 24-year-old woman with a history of aortic valve replacement for a bicuspid aortic valve presents with fever and chest pain.\n 1",
+                "<s> Question::: Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> question::Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n Aortic dissection is a tear in the aortic wall that can extend from the aortic root to the iliac arteries. It is the most common cause of aortic rupture.\n The"
+            ]
+        ],
+        "sensitivities": [
+            0.3958431508179741
+        ],
+        "posix": 0.3958431508179741
+    }
+}

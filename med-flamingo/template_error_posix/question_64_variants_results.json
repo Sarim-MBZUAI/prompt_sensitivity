@@ -1,0 +1,42 @@
+{
+    "file_name": "question_64_variants.json",
+    "overall_posix": 0.3780021924089877,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5114754098360655,
+            "Variation 2": 0.4222222222222223,
+            "Variation 3": 0.2681818181818182,
+            "Variation 4": 0.4222222222222223,
+            "Variation 5": 0.41984732824427473,
+            "Variation 6": 0.28767123287671237,
+            "Variation 7": 0.40697674418604657,
+            "Variation 8": 0.45035460992907805,
+            "Variation 9": 0.2844036697247707,
+            "Variation 10": 0.30666666666666664
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n Reason: The patient has a rib fracture on the left side. The fracture line is located in the middle of the left 10th rib",
+                "<s> Question:Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n 3.Question:What is the most likely diagnosis?\n a.Pneumothorax\n b.Pneumomediastinum\n c.Pneumoperitoneum\n d.",
+                "<s> Question::: Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question:Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n 3.Question:What is the most likely diagnosis?\n a.Pneumothorax\n b.Pneumomediastinum\n c.Pneumoperitoneum\n d.",
+                "<s> QUESTION:Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n [yes, no]\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumomediastinum\n C.",
+                "<s> Q::: Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pulmonary embolism\n B:Pneumothorax\n C:Pneumonia\n D:Pneumo",
+                "<s> QUESTION\tDoes the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a history of a fal from a height. The chest X-ray shows a fracture of the left 10th rib.\n",
+                "<s> q:::Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n"
+            ]
+        ],
+        "sensitivities": [
+            0.3780021924089877
+        ],
+        "posix": 0.3780021924089877
+    }
+}

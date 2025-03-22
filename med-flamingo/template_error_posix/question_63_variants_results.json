@@ -1,0 +1,42 @@
+{
+    "file_name": "question_63_variants.json",
+    "overall_posix": 0.517049180327869,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4557377049180328,
+            "Variation 2": 0.5639344262295082,
+            "Variation 3": 0.5442622950819672,
+            "Variation 4": 0.4459016393442623,
+            "Variation 5": 0.4950819672131148,
+            "Variation 6": 0.5442622950819672,
+            "Variation 7": 0.5245901639344263,
+            "Variation 8": 0.4852459016393442,
+            "Variation 9": 0.5672131147540984,
+            "Variation 10": 0.5442622950819672
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, it can be seen as a rounded opacity in the right lower lobe.\n b. No, it cannot be seen on the X-ray.\n 10. Please indicate whether the following statement is true or false:",
+                "<s> question::Can an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The chest X-ray shows a right lower lobe infiltrate.\n B: The chest X-ray shows a left lower lobe infiltrate.\n 10.Question:\n The",
+                "<s> Q::: Can an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q:::Can an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Can an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tYes, an acute infiltrate can be identified on the chest X-ray.\n \u2022\tNo, an acute infiltrate cannot be identified on the chest X-ray",
+                "<s> Question-Can an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is the patient\u2019s chest X-ray suggestive of an acute infiltrate?\n [yes, no]\n 11.\n Question-Is the",
+                "<s> Q:Can an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q::Can an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Can an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n Q:What is the most likely diagnosis?\n A:Pneumonia\n B:\n S:\n R:\n T:\n 2:\n Q",
+                "<s> QUESTION\tCan an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question::: Can an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n"
+            ]
+        ],
+        "sensitivities": [
+            0.517049180327869
+        ],
+        "posix": 0.517049180327869
+    }
+}

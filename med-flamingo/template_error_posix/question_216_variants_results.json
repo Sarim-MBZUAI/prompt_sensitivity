@@ -1,0 +1,42 @@
+{
+    "file_name": "question_216_variants.json",
+    "overall_posix": 0.33323880435958486,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.15934065934065933,
+            "Variation 2": 0.535593220338983,
+            "Variation 3": 0.15000000000000002,
+            "Variation 4": 0.2099447513812155,
+            "Variation 5": 0.4854014598540146,
+            "Variation 6": 0.45593869731800774,
+            "Variation 7": 0.2660098522167488,
+            "Variation 8": 0.2660098522167488,
+            "Variation 9": 0.4833948339483395,
+            "Variation 10": 0.320754716981132
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> Q::Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is the chest X-ray suggestive of any underlying lung disease? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is the chest X-ray suggest",
+                "<s> Q:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Q:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 3:\n 4:\n 5:\n 6:\n 7:\n 8:\n 9:\n 1",
+                "<s> question:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes, there is a nodule in the right lower lobe.\n 2.No, there is no nodule in the right lower lobe.\n 1.Yes, there is a nodule in the",
+                "<s> QUESTION:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pulmonary metastasis\n B:\n 3.\n QUESTION:What is the most likely diagnosis",
+                "<s> Question:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\nAnswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\nAnswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10.Question:What is the most likely diagnosis?\n A.Pulmonary tuberculosis\n B.Pulmonary sarcoidosis\n C.Pulmonary Langerhans cell",
+                "<s> q::Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::"
+            ]
+        ],
+        "sensitivities": [
+            0.33323880435958486
+        ],
+        "posix": 0.33323880435958486
+    }
+}

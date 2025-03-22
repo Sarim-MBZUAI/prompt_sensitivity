@@ -1,0 +1,42 @@
+{
+    "file_name": "question_66_variants.json",
+    "overall_posix": 0.4455269266488283,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4690909090909091,
+            "Variation 2": 0.48972602739726034,
+            "Variation 3": 0.46975088967971534,
+            "Variation 4": 0.49116607773851584,
+            "Variation 5": 0.25,
+            "Variation 6": 0.5384615384615384,
+            "Variation 7": 0.5152542372881356,
+            "Variation 8": 0.5152542372881356,
+            "Variation 9": 0.5623100303951368,
+            "Variation 10": 0.1542553191489362
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of pneumomediastinum?\n A::\n B::\n Q::Is there any evidence of pneumothorax?\n A::\n B::\n Q::Is there any evidence",
+                "<s> question::Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The chest X-ray shows no signs of gross consolidation.\n B: The chest X-ray shows signs of gross consolidation.\n 10.Question10.1:\n What is",
+                "<s> Question::: Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumonia\n B. Pulmonary edema\n C. Pulmonary embolism\n D. Atelectasis\n E",
+                "<s> QUESTION:Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\n A:\n B:\n 3",
+                "<s> Q:Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n E:\n R:\n D:\n E:\n L:\n U:\n S:\n E:\n R:\n D:\n E:\n L:\n U:\n S:",
+                "<s> QUESTION:Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct Answer: Yes\n The chest X-ray shows gross consolidation in the right upper lobe.\n The patient is a 60-year-old man with a history of chronic obstruct",
+                "<s> Question:Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 11.Question:Does the chest X-ray show any signs of atelectasis? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no]",
+                "<s> QUESTION:Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n [no, yes]\n 10.\n QUESTION:Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no",
+                "<s> Question-Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n Comments: The chest X-ray shows no signs of gross consolidation. The patient\u2019s lung fields are clear. The heart shadow is normal in size and position. The trachea is central.",
+                "<s> q:Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1"
+            ]
+        ],
+        "sensitivities": [
+            0.4455269266488283
+        ],
+        "posix": 0.4455269266488283
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_306_variants.json",
+    "overall_posix": 15.714834359266247,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.3899049949645996,
+            "Variation 2": 0.8460320866837794,
+            "Variation 3": 0.16284626324971516,
+            "Variation 4": 136.76925524075827,
+            "Variation 5": 9.16520879579627,
+            "Variation 6": 1.1238459730148316,
+            "Variation 7": 1.3591940689086914,
+            "Variation 8": 1.359001145362854,
+            "Variation 9": 1.8451292514801025,
+            "Variation 10": 1.4113935232162476
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have any radiographic evidence of a recent acute respiratory infection on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no radiographic evidence of a recent acute respiratory infection on this chest X-ray. The image shows a normal chest X-ray with no signs of infection or inflammation.",
+                "No, the chest radiograph does not show any signs suggestive of an acute respiratory tract infection within the past week. The image appears to be a normal chest X-ray with no evidence of infection or inflammation.",
+                "No, there is no evidence on the X-ray to support a clinical diagnosis of a recent upper respiratory tract infection. The X-ray appears to show a normal chest area with no signs of infection or inflammation.",
+                "No, the image does not show any clear signs of a viral or bacterial respiratory illness. The chest X-ray appears to be normal, with no evidence of infections or inflammation.",
+                "No",
+                "Yes, the chest X-ray shows radiographic evidence of a recent acute respiratory infection.",
+                "No, there are no radiographic findings on this chest X-ray that are consistent with an acute inflammatory process affecting the upper airways. The image shows a normal chest X-ray with no signs of inflammation or infection",
+                "Based on the X-ray image provided, it is not possible to definitively determine if the individual has recently had a respiratory infection within the past month. The image shows a chest X-ray with some areas of opacity, which could be",
+                "Yes, the X-ray shows signs indicative of a current or recent lower respiratory tract infection, such as pneumonia or bronchitis. The presence of infiltrates and possibly a pleural effusion suggest an infection in",
+                "Yes, the radiographic image shows evidence of inflammation and consolidation in the lungs, which could suggest a recent viral or bacterial respiratory illness.",
+                "Yes, there are abnormal findings on the chest X-ray that suggest an acute inflammatory process affecting the respiratory system. The presence of increased opacity in the lung fields, particularly in the lower lobes, is indicative"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -437.9572072029114,
+                    -507.45245695114136,
+                    -479.41277945041656,
+                    -445.28528904914856,
+                    -27.649441480636597,
+                    -227.15740489959717,
+                    -494.14950585365295,
+                    -505.91691064834595,
+                    -505.9072644710541,
+                    -371.5325541496277,
+                    -508.52688336372375
+                ],
+                [
+                    -453.87801933288574,
+                    -508.50512087345123,
+                    -472.3742184638977,
+                    -449.2924624681473,
+                    -29.430683612823486,
+                    -227.51990628242493,
+                    -532.9421405792236,
+                    -484.8418381214142,
+                    -506.40590143203735,
+                    -388.55608558654785,
+                    -529.7228980064392
+                ],
+                [
+                    -429.27778220176697,
+                    -503.93136739730835,
+                    -468.73445558547974,
+                    -459.03625226020813,
+                    -29.212642669677734,
+                    -224.95402836799622,
+                    -487.7190594673157,
+                    -474.34832978248596,
+                    -515.0083699226379,
+                    -366.20941495895386,
+                    -502.4026925563812
+                ],
+                [
+                    -417.73713660240173,
+                    -518.4675643444061,
+                    -461.5418772697449,
+                    -442.75322437286377,
+                    -20.692500591278076,
+                    -231.9312026500702,
+                    -509.8521497249603,
+                    -483.83564376831055,
+                    -515.0796670913696,
+                    -372.7104301452637,
+                    -505.27997970581055
+                ],
+                [
+                    -458.6843822002411,
+                    -514.6597154140472,
+                    -507.1079890727997,
+                    -476.5542678833008,
+                    -24.293174028396606,
+                    -239.29975533485413,
+                    -523.96581864357,
+                    -505.62776470184326,
+                    -540.3713655471802,
+                    -379.730504989624,
+                    -541.6935458183289
+                ],
+                [
+                    -437.9572072029114,
+                    -507.45245695114136,
+                    -479.41277945041656,
+                    -445.28528904914856,
+                    -27.649441480636597,
+                    -227.15740489959717,
+                    -494.14950585365295,
+                    -505.91691064834595,
+                    -505.9072644710541,
+                    -371.5325541496277,
+                    -508.52688336372375
+                ],
+                [
+                    -446.8981622457504,
+                    -523.8187327384949,
+                    -476.9089537858963,
+                    -460.48477125167847,
+                    -27.858596324920654,
+                    -236.52981615066528,
+                    -502.9399974346161,
+                    -477.9101438522339,
+                    -530.3956022262573,
+                    -383.39983320236206,
+                    -518.8384499549866
+                ],
+                [
+                    -455.86355566978455,
+                    -489.2675676345825,
+                    -482.85009503364563,
+                    -440.00161242485046,
+                    -22.883052587509155,
+                    -223.09995996952057,
+                    -494.49483156204224,
+                    -488.73804771900177,
+                    -516.7233893871307,
+                    -366.4098105430603,
+                    -520.5282135009766
+                ],
+                [
+                    -445.1691527366638,
+                    -517.1250524520874,
+                    -480.08161520957947,
+                    -468.3628010749817,
+                    -26.784952759742737,
+                    -244.89827156066895,
+                    -507.269558429718,
+                    -516.6217021942139,
+                    -519.321613073349,
+                    -388.4280695915222,
+                    -528.3144998550415
+                ],
+                [
+                    -423.4831359386444,
+                    -525.022439956665,
+                    -471.09142112731934,
+                    -450.17403173446655,
+                    -27.88674545288086,
+                    -253.98508214950562,
+                    -460.45224380493164,
+                    -482.76740074157715,
+                    -509.53785967826843,
+                    -359.0510470867157,
+                    -522.9058079719543
+                ],
+                [
+                    -445.1691527366638,
+                    -517.1250524520874,
+                    -480.08161520957947,
+                    -468.3628010749817,
+                    -26.784952759742737,
+                    -244.89827156066895,
+                    -507.269558429718,
+                    -516.6217021942139,
+                    -519.321613073349,
+                    -388.4280695915222,
+                    -528.3144998550415
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            15.714834359266247
+        ],
+        "posix": 15.714834359266247
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_267_variants.json",
+    "overall_posix": 0.5481411675163013,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3191489361702128,
+            "Variation 2": 0.673469387755102,
+            "Variation 3": 0.6265432098765432,
+            "Variation 4": 0.6028880866425993,
+            "Variation 5": 0.6470588235294118,
+            "Variation 6": 0.1473684210526316,
+            "Variation 7": 0.7133550488599348,
+            "Variation 8": 0.6320474777448071,
+            "Variation 9": 0.6355140186915887,
+            "Variation 10": 0.4840182648401826
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any focal airspace consolidation visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any focal airspace consolidation visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Is there consolidation of air spaces visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray show consolidation of lung air spaces? Please choose from the following two options: [yes, no]\n<image> 1. Yes, consolidation of lung air spaces is present.\n 2. No, consolidation of lung air spaces is not present.\n 1. Yes, consolidation of lung air spaces is present.\n ",
+                "<s> Are there focal areas of opacification with an air bronchogram appearance on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, in the right upper lobe\n b. Yes, in the left lower lobe\n c. Yes, in both the right and left lower lobes\n d. No, there are no focal areas of opacification",
+                "<s> Can a consolidation pattern be identified on the provided chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n The X-ray shows a right-sided pleural effusion. The effusion is not homogeneous, but has a consolidation pattern.\n 11.10.",
+                "<s> Do you see any ill-defined, non-peripheral areas of increased density on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2. Do you see any ill-defined, non-peripheral areas of increased density on this chest X-ray? Please choose from the following two options: [yes, no]",
+                "<s> Is there evidence of pulmonary consolidation visible on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does this imaging study demonstrate airspace consolidation? Please choose from the following two options: [yes, no]\n<image> 1. Airspace consolidation is present in the right lower lobe.\n 2. Airspace consolidation is present in the left lower lobe.\n 3. Airspace consolidation is present in both the right",
+                "<s> Are there localized opacities with an air bronchogram sign visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are localized opacities with an air bronchogram sign visible on this chest X-ray.\n b. No, there are no localized opacities with an air bronchogram sign visible on this",
+                "<s> Can a diagnosis of alveolar consolidation be made from this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, because the opacity is located in the upper lobe of the right lung\n b. No, because the opacity is located in the middle lobe of the right lung\n 10.\n What is the diagnosis?\n",
+                "<s> Do you see any patchy, non-peripheral areas of increased density representing airspace consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.5481411675163013
+        ],
+        "posix": 0.5481411675163013
+    }
+}

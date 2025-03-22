@@ -1,0 +1,42 @@
+{
+    "file_name": "question_16_variants.json",
+    "overall_posix": 0.42978702506048216,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4844290657439446,
+            "Variation 2": 0.3119266055045872,
+            "Variation 3": 0.2924528301886793,
+            "Variation 4": 0.49650349650349646,
+            "Variation 5": 0.4418604651162791,
+            "Variation 6": 0.5152542372881356,
+            "Variation 7": 0.546583850931677,
+            "Variation 8": 0.2682926829268293,
+            "Variation 9": 0.4189723320158103,
+            "Variation 10": 0.521594684385382
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tAre there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The X-ray shows a right upper lobe mass.\n The X-ray shows a right upper lobe mass. The mass is not visible on the left",
+                "<s> q::Are there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:::Are there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Are there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Lung cancer\n Q:What is the most likely cause of the patient\u2019s symptoms?\n A:Lung cancer\n Q:What is",
+                "<s> Question:Are there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the differential diagnosis?\n 1.Pulmonary tuberculosis\n 2.Pulmonary sarcoidosis\n 3.Pulmonary carcin",
+                "<s> Q::Are there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Are there any enlarged lymph nodes visible in the neck? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Are there any enlarged lym",
+                "<s> Question-Are there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n Question-Is there any evidence of atelectasis?\n Answer\n No\n Question-Is there any evidence of pneumothorax?\n Answer\n No\n Question-Is there any evidence of pleural effusion?\n",
+                "<s> Q:Are there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:What is",
+                "<s> QUESTION:Are there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pulmonary tuberculosis\n B:Pulmonary sarcoidosis\n 3.\n QUEST",
+                "<s> Question:Are there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale:The X-ray shows a right upper lobe mass.\n The patient is a 60-year-old man with a history of smoking and chronic"
+            ]
+        ],
+        "sensitivities": [
+            0.42978702506048216
+        ],
+        "posix": 0.42978702506048216
+    }
+}

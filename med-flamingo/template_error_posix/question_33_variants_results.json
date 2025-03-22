@@ -1,0 +1,42 @@
+{
+    "file_name": "question_33_variants.json",
+    "overall_posix": 0.33893925724676943,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.19072164948453607,
+            "Variation 2": 0.30222222222222217,
+            "Variation 3": 0.2831050228310502,
+            "Variation 4": 0.5254777070063694,
+            "Variation 5": 0.5048543689320388,
+            "Variation 6": 0.5292307692307693,
+            "Variation 7": 0.22549019607843135,
+            "Variation 8": 0.16990291262135926,
+            "Variation 9": 0.46743295019157083,
+            "Variation 10": 0.19095477386934667
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 5:\n 4:\n 3:\n 6:\n 2:\n 7:\n 1:\n 8",
+                "<s> q::Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:::Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The patient\u2019s lungs are well-inflated on the X-ray. The lungs are well-inflated on the X-ray because the patient is breathing in",
+                "<s> Question:Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Correct Answer:Option 1\n Explanation:The patient is a 55-year-old man with a history of chronic obstructive pulmonary disease. The",
+                "<s> QUESTION:Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Correct answer:\n Yes\n The lungs are well-inflated on the X-ray.\n The patient is breathing through a tube in the trachea.\n The patient is breathing through a tube in the",
+                "<s> QUESTION:Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> question::Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.",
+                "<s> Question:Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n \u2022\tThe\tlungs\tare\twel-inflated.\tThe\tlungs\tare\tclearly\tvisible\tand\tthe\theart\tis\tnot\tvisible\tin\tthe\tX-ray.\t",
+                "<s> q:Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n 10.\n 7.\n 8.\n 9.\n 10"
+            ]
+        ],
+        "sensitivities": [
+            0.33893925724676943
+        ],
+        "posix": 0.33893925724676943
+    }
+}

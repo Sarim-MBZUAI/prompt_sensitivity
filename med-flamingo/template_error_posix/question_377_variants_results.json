@@ -1,0 +1,42 @@
+{
+    "file_name": "question_377_variants.json",
+    "overall_posix": 0.4266779308726506,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5074183976261127,
+            "Variation 2": 0.22972972972972971,
+            "Variation 3": 0.4939393939393939,
+            "Variation 4": 0.4620253164556962,
+            "Variation 5": 0.41638225255972694,
+            "Variation 6": 0.46031746031746024,
+            "Variation 7": 0.2207207207207207,
+            "Variation 8": 0.5074183976261127,
+            "Variation 9": 0.48124999999999996,
+            "Variation 10": 0.48757763975155277
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.Question:Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n No\n",
+                "<s> question::Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> Question:Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old male who is complaining of chest pain. He has a history of hypertension and hyperlipidemia. He is a smoker. He has",
+                "<s> QUESTION:Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n The heart is enlarged, and the right ventricle is enlarged more than the left ventricle.\n 10.\n QUESTION:What is the most likely diagnosis?\n A.A",
+                "<s> QUESTION\tIs it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a cardiothoracic ratio (CTR) of 60%, which is in the normal range. The heart is not",
+                "<s> QUESTION:Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n The heart is enlarged, and the right ventricle is enlarged more than the left ventricle.\n 10.\n QUESTION:What is the most likely diagnosis?\n 11",
+                "<s> q:Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Question:Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.Question:Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n No\n",
+                "<s> Question-Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n Comments\n This is a frontal chest X-ray of a 55-year-old man with a history of hypertension and hyperlipidemia. The heart is enlarged, and the cardi",
+                "<s> Q:Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n 10\n Q:Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n"
+            ]
+        ],
+        "sensitivities": [
+            0.4266779308726506
+        ],
+        "posix": 0.4266779308726506
+    }
+}

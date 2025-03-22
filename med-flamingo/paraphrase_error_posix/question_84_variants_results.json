@@ -1,0 +1,42 @@
+{
+    "file_name": "question_84_variants.json",
+    "overall_posix": 0.42069174881491317,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.30499999999999994,
+            "Variation 2": 0.6372881355932203,
+            "Variation 3": 0.28191489361702127,
+            "Variation 4": 0.385,
+            "Variation 5": 0.5815602836879432,
+            "Variation 6": 0.3619909502262444,
+            "Variation 7": 0.3014354066985646,
+            "Variation 8": 0.37765957446808507,
+            "Variation 9": 0.6464968152866242,
+            "Variation 10": 0.3285714285714285
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities in the mediastinal contours? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any abnormalities in the mediastinal contours? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any notable deviations in the mediastinal silhouette on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is there mediastinal contour irregularity present in this chest CT? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a right paratracheal mass.\n b. No, there is no right paratracheal mass.\n 2.\n What is the most likely diagnosis of the right paratracheal mass?",
+                "<s> Please confirm or deny mediastinal silhouette asymmetry on this image. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the mediastinum exhibit any unusual convexities or concavities on this X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is there significant mediastinal contour alteration observed in this MRI study? Please choose from the following two options: [yes, no]\n<image> a. No\n b. Yes\n 3. What is the most likely diagnosis?\n a. Lymphoma\n b. Lymphadenopathy\n 4. What is the most likely cause of the mediast",
+                "<s> Are there any abnormalities affecting the normal anatomical boundaries of the mediastinum visible here? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Please verify the presence or absence of mediastinal shape irregularity in this radiograph. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the mediastinum show any notable asymmetry on this chest CT scan? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is the mediastinal contour morphologically abnormal, as depicted in this image? Please choose from the following two options: [yes, no]\n<image> a. Yes, the mediastinal contour is morphologically abnormal.\n b. No, the mediastinal contour is not morphologically abnormal.\n 11.\n What is the most likely diagnosis?",
+                "<s> Please confirm whether the mediastinal silhouette appears altered in some way on this X-ray. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.42069174881491317
+        ],
+        "posix": 0.42069174881491317
+    }
+}

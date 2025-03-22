@@ -1,0 +1,189 @@
+{
+    "file_name": "question_200_variants_results.json",
+    "overall_posix": 0.5606476900603472,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.45484535460931297,
+            "Variation 2": 0.0,
+            "Variation 3": 0.28265367625605203,
+            "Variation 4": 0.31937135198920186,
+            "Variation 5": 0.536008682250595,
+            "Variation 6": 0.8023870561827252,
+            "Variation 7": 0.6169548852961886,
+            "Variation 8": 0.609501850797162,
+            "Variation 9": 0.9048598084308054,
+            "Variation 10": 0.39835422933549286
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the chest X-ray shows mild multilevel degenerative disc disease of the thoracolumbar spine. ",
+                "The provided chest X-ray is not the best imaging modality to visualize mild multilevel degenerative disc disease of the thoracolumbar spine. A chest X-ray primarily focuses on the structures within the chest cavity",
+                "Yes, the chest X-ray shows mild multilevel degenerative disc disease of the thoracolumbar spine. ",
+                "Yes, the chest X-ray shows evidence of mild multilevel degenerative disc disease affecting the thoracolumbar spine. ",
+                "Yes, the chest X-ray shows mild multilevel degenerative disc disease in the thoracolumbar region. ",
+                "The chest X-ray does not show any degree of multilevel degenerative disc disease involving the thoracolumbar spine. ",
+                "The provided chest radiograph is not the best imaging modality to visualize degenerative disc disease of the thoracolumbar spine. However, it is possible that mild to moderate degenerative disc disease may be visible on the chest radi",
+                "The chest X-ray does not show any signs of multilevel degenerative changes affecting the thoracolumbar spine. ",
+                "Yes, the chest X-ray shows mild to moderate degeneration of multiple intervertebral discs in the thoracolumbar region. ",
+                "Yes, the chest radiograph shows signs of mild multilevel spondylosis affecting the thoracolumbar spine. ",
+                "The provided chest X-ray is not the most appropriate imaging modality for evaluating degenerative disc disease of the thoracolumbar spine. A chest X-ray primarily focuses on the structures within the chest cavity, such as"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.46416603857958,
+                    -64.66127912365454,
+                    -41.46416603857958,
+                    -50.22643000251719,
+                    -50.72593524626643,
+                    -58.08043518834802,
+                    -82.38590590389856,
+                    -59.972812597465236,
+                    -62.79673081648025,
+                    -68.60996029150374,
+                    -61.780231734689714
+                ],
+                [
+                    -43.78016318745219,
+                    -49.90312904779091,
+                    -43.78016318745219,
+                    -53.51011314827133,
+                    -52.69933018788947,
+                    -59.8124709382455,
+                    -73.13213099518453,
+                    -61.7529049523946,
+                    -65.41937758718996,
+                    -70.77148150626044,
+                    -52.388837871670574
+                ],
+                [
+                    -41.46416603857958,
+                    -64.66127912365454,
+                    -41.46416603857958,
+                    -50.22643000251719,
+                    -50.72593524626643,
+                    -58.08043518834802,
+                    -82.38590590389856,
+                    -59.972812597465236,
+                    -62.79673081648025,
+                    -68.60996029150374,
+                    -61.780231734689714
+                ],
+                [
+                    -50.49922105165001,
+                    -75.21063633300002,
+                    -50.49922105165001,
+                    -41.30029062495143,
+                    -52.321706206271756,
+                    -57.975862473898815,
+                    -87.7322494540499,
+                    -56.82869176825898,
+                    -62.603126056623296,
+                    -66.02738758163196,
+                    -67.69437398656038
+                ],
+                [
+                    -51.59039476055386,
+                    -73.30902660045331,
+                    -51.59039476055386,
+                    -55.75327797192767,
+                    -42.1883569520208,
+                    -64.14112921852848,
+                    -87.68173345851164,
+                    -64.17529701917101,
+                    -58.9321625142029,
+                    -72.53095738371667,
+                    -66.62956516929285
+                ],
+                [
+                    -51.13005266435698,
+                    -80.47130355372133,
+                    -51.13005266435698,
+                    -52.40191162261863,
+                    -53.57933781688803,
+                    -42.142092575255845,
+                    -85.88966260996551,
+                    -54.93958691721036,
+                    -62.16389218166705,
+                    -71.04353665637973,
+                    -66.68002642732353
+                ],
+                [
+                    -59.05981551967534,
+                    -75.19082010071767,
+                    -59.05981551967534,
+                    -68.3214969366245,
+                    -65.41611143966156,
+                    -70.28742947456612,
+                    -54.61754460351932,
+                    -70.43486509267677,
+                    -69.83086835372524,
+                    -72.46465881128461,
+                    -58.13331153972688
+                ],
+                [
+                    -58.1880549338166,
+                    -93.80619587418937,
+                    -58.1880549338166,
+                    -57.86109950803075,
+                    -60.22691744656322,
+                    -60.882136338995224,
+                    -103.023626624602,
+                    -41.44070896962961,
+                    -68.43963213698271,
+                    -68.61023946688965,
+                    -85.19851079508294
+                ],
+                [
+                    -62.59764177201487,
+                    -93.65092969910916,
+                    -62.59764177201487,
+                    -65.28528892200575,
+                    -58.11867937152692,
+                    -69.07503988075587,
+                    -93.73178940456228,
+                    -64.88611479582505,
+                    -42.29161256282418,
+                    -75.88850795081453,
+                    -79.59945434364067
+                ],
+                [
+                    -61.136110610365904,
+                    -87.21989788185874,
+                    -61.136110610365904,
+                    -59.6740690359311,
+                    -63.04063768941069,
+                    -71.52501411902085,
+                    -92.95004859554865,
+                    -58.70684944519326,
+                    -72.31092824893335,
+                    -41.623401710413845,
+                    -85.91084601955163
+                ],
+                [
+                    -56.16305183788609,
+                    -71.3705138585592,
+                    -56.16305183788609,
+                    -65.52317521149689,
+                    -63.024553890682455,
+                    -64.53333426721656,
+                    -70.08463992795379,
+                    -65.36809438398541,
+                    -67.30674442015425,
+                    -78.45488160636887,
+                    -50.58772168998663
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.5606476900603472
+        ],
+        "posix": 0.5606476900603472
+    }
+}

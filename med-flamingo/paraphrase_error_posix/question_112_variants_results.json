@@ -1,0 +1,42 @@
+{
+    "file_name": "question_112_variants.json",
+    "overall_posix": 0.4830952380952381,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.16428571428571426,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5144927536231884,
+            "Variation 4": 0.6123188405797102,
+            "Variation 5": 0.5434782608695652,
+            "Variation 6": 0.6376811594202898,
+            "Variation 7": 0.6739130434782609,
+            "Variation 8": 0.5797101449275363,
+            "Variation 9": 0.48550724637681153,
+            "Variation 10": 0.6195652173913043
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is visible damage to the XXXX on the chest X-ray.\n b. No, there is not visible damage to the XXXX on the chest X-ray.\n 10. What is the",
+                "<s> Is there any visible abnormality to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a visible abnormality to the XXXX on the chest X-ray.\n b. No, there is not a visible abnormality to the XXXX on the chest X-ray.\n ",
+                "<s> Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is visible damage to the XXXX on the chest X-ray.\n b. No, there is not visible damage to the XXXX on the chest X-ray.\n 10. What is the",
+                "<s> Does the chest X-ray show any evidence of injury to the XXXX? Please choose from the following two options: [yes, no]\n<image> a. Yes, the right hemidiaphragm is elevated.\n b. No, the right hemidiaphragm is not elevated.\n 10. The chest X-ray shows a right-sided p",
+                "<s> Are there any radiographic findings suggestive of damage to the XXXX on the chest film? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the XXXX visible and intact on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you identify any lesions or abnormalities affecting the XXXX on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray reveal any structural abnormalities in the region of the XXXX? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any signs of trauma or injury to the XXXX visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you determine if the XXXX appears normal on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.Yes, the XXXX appears normal on the chest radiograph.\n 2.No, the XXXX appears abnormal on the chest radiograph.\n 1.\n 2.\n 11.\n",
+                "<s> Does the chest film show any evidence of pathology affecting the XXXX? Please choose from the following two options: [yes, no]\n<image> a.\n b.\n c.\n d.\n e.\n f.\n g.\n h.\n i.\n j.\n k.\n l.\n m.\n n.\n o.\n p.\n q."
+            ]
+        ],
+        "sensitivities": [
+            0.4830952380952381
+        ],
+        "posix": 0.4830952380952381
+    }
+}

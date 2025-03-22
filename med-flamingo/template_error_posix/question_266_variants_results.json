@@ -1,0 +1,42 @@
+{
+    "file_name": "question_266_variants.json",
+    "overall_posix": 0.4169858469905492,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.40740740740740744,
+            "Variation 2": 0.43333333333333335,
+            "Variation 3": 0.3925925925925926,
+            "Variation 4": 0.43575418994413406,
+            "Variation 5": 0.4666666666666667,
+            "Variation 6": 0.43333333333333335,
+            "Variation 7": 0.40476190476190477,
+            "Variation 8": 0.41158536585365857,
+            "Variation 9": 0.4666666666666667,
+            "Variation 10": 0.31775700934579443
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer 11.10.1\n 11.10.1.1  The heart is within normal limits.\n The heart is within normal limits. The heart is not en",
+                "<s> q:Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Q:Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]||A:\n<image> B:\n C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n 66.16.17.18.1",
+                "<s> Q:Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n 166: 166 \u2014 Cardiovascular System\n 166A: Yes\n 166B: No\n",
+                "<s> Q:Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:Is the heart size within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n Q:Is the heart size within normal limits according to the",
+                "<s> Question:Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1Option 2\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.",
+                "<s> Q::Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question::: Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n According to the X-ray image, is the heart within normal limits? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n 11.\n Question",
+                "<s> QUESTION:Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Interpretation:\n The heart is within normal limits.\n Radiographic Contrast:\n No contrast\n Radiographic Projection:\n AP\n Anatomical Position:\n Supine\n Age:\n Adult\n",
+                "<s> Question:Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1Option 2\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.",
+                "<s> Question-Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2757\u2757True\n \u2757\u2757False\n Correct Answer: True\n The heart is within normal limits according to the X-ray image.\n The heart is within normal limits according to the X"
+            ]
+        ],
+        "sensitivities": [
+            0.4169858469905492
+        ],
+        "posix": 0.4169858469905492
+    }
+}

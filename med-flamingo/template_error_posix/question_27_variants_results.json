@@ -1,0 +1,42 @@
+{
+    "file_name": "question_27_variants.json",
+    "overall_posix": 0.3880430818416574,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.36040609137055846,
+            "Variation 2": 0.4012345679012346,
+            "Variation 3": 0.3839541547277937,
+            "Variation 4": 0.3858024691358024,
+            "Variation 5": 0.382716049382716,
+            "Variation 6": 0.3780821917808219,
+            "Variation 7": 0.4228395061728395,
+            "Variation 8": 0.4104938271604939,
+            "Variation 9": 0.3382352941176471,
+            "Variation 10": 0.41666666666666674
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, the X-ray shows a fracture of the left clavicle\n b. No, the X-ray shows a fracture of the right clavicle\n c. Yes, the X-ray shows a",
+                "<s> Question-Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The X-ray shows a metalic object in the right chest cavity. The object is likely a pacemaker lead.\n The pacemaker lead is a thin, insulated wire that is inserted into the heart through the",
+                "<s> q:::Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n\n 10.Question: Is the heart size normal?\n 11.Question: Is the heart size normal?\n 12.Question: Is the heart size normal",
+                "<s> QUESTION:Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n [no, yes]\n [yes, no]\n [no, yes]\n [yes, no]\n [no, yes]\n [yes, no]\n [no, yes]\n [yes",
+                "<s> QUESTION:Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes]\n [No]\n 10.\n QUESTION:Which of the following is the most likely diagnosis?\n A.Pneumothorax\n B.Pleural effusion\n C.P",
+                "<s> Question:Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The X-ray shows a metalic object in the right chest cavity. The object is likely a pacemaker lead. The pacemaker lead is intact.\n",
+                "<s> question::Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> QUESTION:Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n A:\n B:\n 3.\n A:\n B:\n 4.\n A:\n B:\n 5.\n A:\n B:\n 6.\n A:\n",
+                "<s> question:Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n Correct answer:Yes\n The X-ray shows a metalic object in the right chest cavity. The object is likely a pacemaker",
+                "<s> Q::: Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::"
+            ]
+        ],
+        "sensitivities": [
+            0.3880430818416574
+        ],
+        "posix": 0.3880430818416574
+    }
+}

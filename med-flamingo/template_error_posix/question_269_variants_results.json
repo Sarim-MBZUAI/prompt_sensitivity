@@ -1,0 +1,42 @@
+{
+    "file_name": "question_269_variants.json",
+    "overall_posix": 0.3443909239413713,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.22660098522167482,
+            "Variation 2": 0.255,
+            "Variation 3": 0.29439252336448596,
+            "Variation 4": 0.41666666666666674,
+            "Variation 5": 0.26190476190476186,
+            "Variation 6": 0.28773584905660377,
+            "Variation 7": 0.5428571428571428,
+            "Variation 8": 0.4241245136186771,
+            "Variation 9": 0.4241245136186771,
+            "Variation 10": 0.3105022831050228
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question::: Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19",
+                "<s> question::Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> Q::: Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question-Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n 1.Pneumonia\n 2.Pleural effusion\n 3.Pneumothorax\n 4.Tension pneum",
+                "<s> question:Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> QUESTION:Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes]\n r\n e\n t\n p\n a\n h\n C\n 1\n 1\n 1\n r\n e\n t\n p\n a\n h\n C\n 1\n 1\n 1\n",
+                "<s> Q:Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:Is there any evidence of pneumothorax? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n Q:Is there any evidence of pneumomediastinum? Please choose",
+                "<s> Question:Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n A.Pneumonia\n B.Pleural effusion\n C.Pneumothorax\n D.Tuberculosis\n E.P",
+                "<s> Question:Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n A.Pneumonia\n B.Pleural effusion\n C.Pneumothorax\n D.Tuberculosis\n E.P",
+                "<s> q::Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::"
+            ]
+        ],
+        "sensitivities": [
+            0.3443909239413713
+        ],
+        "posix": 0.3443909239413713
+    }
+}

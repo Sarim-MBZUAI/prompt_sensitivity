@@ -1,0 +1,42 @@
+{
+    "file_name": "question_282_variants.json",
+    "overall_posix": 0.378071007472361,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5101351351351351,
+            "Variation 2": 0.2562814070351759,
+            "Variation 3": 0.4982698961937716,
+            "Variation 4": 0.14516129032258063,
+            "Variation 5": 0.295774647887324,
+            "Variation 6": 0.4801444043321299,
+            "Variation 7": 0.1542553191489362,
+            "Variation 8": 0.4755244755244755,
+            "Variation 9": 0.540453074433657,
+            "Variation 10": 0.42471042471042475
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct Answer: Yes\n The chest X-ray shows a right-sided pleural effusion.\n The chest X-ray shows a right-sided pleural effusion.\n The chest",
+                "<s> question::Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Question:Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The radiograph shows a right-sided pleural effusion.\n 1.The pleural effusion is caused by:\n A.Pneumonia\n B.Pleural empyema\n C",
+                "<s> Q:Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Q::: Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Pneumothorax\n Q:What is the most likely cause?\n A:Blunt chest trauma\n Q:What is the most",
+                "<s> q:Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> Question::: Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumothorax\n B. Pleural effusion\n C. Pulmonary edema\n D. Pulmonary embolism",
+                "<s> Question-Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n Comments: The chest X-ray shows a right-sided pleural effusion. The effusion is not large enough to be seen on the X-ray. The patient\u2019s history of a right",
+                "<s> QUESTION:Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n Pleural effusion\n C:\n Pneumothorax\n D:\n Pulmonary"
+            ]
+        ],
+        "sensitivities": [
+            0.378071007472361
+        ],
+        "posix": 0.378071007472361
+    }
+}

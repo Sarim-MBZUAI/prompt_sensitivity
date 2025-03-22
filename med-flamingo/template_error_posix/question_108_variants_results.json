@@ -1,0 +1,42 @@
+{
+    "file_name": "question_108_variants.json",
+    "overall_posix": 0.4376172782980297,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4727891156462585,
+            "Variation 2": 0.43877551020408156,
+            "Variation 3": 0.4217687074829932,
+            "Variation 4": 0.45065789473684204,
+            "Variation 5": 0.45608108108108114,
+            "Variation 6": 0.4591836734693877,
+            "Variation 7": 0.3927392739273927,
+            "Variation 8": 0.4251700680272108,
+            "Variation 9": 0.40662650602409633,
+            "Variation 10": 0.45238095238095233
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are the patient's abdominal X-rays normal? Please choose from the following two options: [yes, no]\n 12.  Are the patient's abdominal X-rays",
+                "<s> Question::: Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> QUESTION:Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, yes]\n [No, no]\n [No, yes]\n [Yes, yes]\n [Yes, no]\n [No, no]\n [No, yes]\n [Yes",
+                "<s> Q:Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: _______________________\n Q:What is the most likely diagnosis?\n A:Aortic dissection\n B:Aortic aneur",
+                "<s> Question:Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Question:What is the most likely diagnosis?\n [pulmonary artery sling, pulmonary artery stenosis, pulmonary atresia, pulmon",
+                "<s> Question:Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10.\n 10.Question:What is the most likely diagnosis?\n A.Pulmonary arteriovenous malformation\n B.Pulmonary sequestration\n C.P",
+                "<s> q:::Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question:Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n A.Yes, the pulmonary vasculature is abnormal.\n B.No, the pulmonary vasculature is not abnormal.\n 10.Question:The patient's chest X-ray",
+                "<s> Question:Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, yes]\n [no, no]\n [yes, yes]\n [no, no]\n [yes, no]\n [yes, yes]\n [no, no]\n [yes",
+                "<s> question::Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The patient's chest X-ray shows a right lower lobe consolidation with air bronchograms.\n B: The patient's chest X-ray shows a left lower lobe consolidation",
+                "<s> Q::Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::"
+            ]
+        ],
+        "sensitivities": [
+            0.4376172782980297
+        ],
+        "posix": 0.4376172782980297
+    }
+}

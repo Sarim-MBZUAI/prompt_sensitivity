@@ -1,0 +1,42 @@
+{
+    "file_name": "question_109_variants.json",
+    "overall_posix": 0.3834171145200886,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.608540925266904,
+            "Variation 2": 0.24102564102564106,
+            "Variation 3": 0.34246575342465757,
+            "Variation 4": 0.6568364611260054,
+            "Variation 5": 0.6780626780626781,
+            "Variation 6": 0.18686868686868685,
+            "Variation 7": 0.29268292682926833,
+            "Variation 8": 0.26168224299065423,
+            "Variation 9": 0.2796208530805687,
+            "Variation 10": 0.2863849765258216
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of chronic lung disease? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of chronic lung disease? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence on the chest X-ray of chronic pulmonary pathology? Please choose from the following two options: [yes, no]\n<image> 11. Is there evidence on the chest X-ray of chronic pulmonary pathology?\n [yes, no]\n 12. Is there evidence of a right-sided pleural effusion?\n [",
+                "<s> Does the radiographic examination reveal features suggestive of lung disease? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there imaging findings consistent with chronic respiratory compromise visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please indicate whether the chest X-ray demonstrates characteristics typical of long-standing lung disease. Please choose from the following two options: [yes, no]\n<image> 1. Long-standing lung disease: The chest X-ray demonstrates features of long-standing lung disease.\n 2. No long-standing lung disease: The chest X-ray does not demonstrate features of long-standing",
+                "<s> Is there radiological proof of chronic lung involvement evident in the provided image? Please choose from the following two options: [yes, no]\n<image> 1a. No, there is no radiological proof of chronic lung involvement evident in the provided image.\n 1b. Yes, there is radiological proof of chronic lung involvement evident in the provided image.\n ",
+                "<s> Does the chest X-ray demonstrate any signs of long-standing damage to the lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Indicate whether the imaging shows features consistent with established lung pathology. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the chest X-ray findings reveal a clinical picture suggestive of chronic respiratory illness? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the radiographic findings on the chest X-ray indicative of established pulmonary disease? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please confirm or deny the presence of hallmarks of chronic lung disease in the provided image. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.3834171145200886
+        ],
+        "posix": 0.3834171145200886
+    }
+}

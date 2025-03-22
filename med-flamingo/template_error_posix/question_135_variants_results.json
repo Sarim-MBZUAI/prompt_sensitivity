@@ -1,0 +1,42 @@
+{
+    "file_name": "question_135_variants.json",
+    "overall_posix": 0.40476719013074014,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.24365482233502544,
+            "Variation 2": 0.5120274914089347,
+            "Variation 3": 0.559375,
+            "Variation 4": 0.5249169435215947,
+            "Variation 5": 0.2952380952380953,
+            "Variation 6": 0.2985781990521327,
+            "Variation 7": 0.3148148148148149,
+            "Variation 8": 0.5268456375838926,
+            "Variation 9": 0.24873096446700504,
+            "Variation 10": 0.5234899328859061
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> question::Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n [no]\n 10.\n QUESTION:Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\n Answer",
+                "<s> Question:Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of hypertension and hyperlipidemia. He has no history of coronary artery disease. He has no history of smoking",
+                "<s> Question:Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: Yes\n The cardiac silhouette is normal in the chest X-ray.\n The cardiac silhouette is normal in the chest X-ray.\n The cardiac silhou",
+                "<s> q:::Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q::: Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q::Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 10.Question:Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no",
+                "<s> q:Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Question-Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes, no"
+            ]
+        ],
+        "sensitivities": [
+            0.40476719013074014
+        ],
+        "posix": 0.40476719013074014
+    }
+}

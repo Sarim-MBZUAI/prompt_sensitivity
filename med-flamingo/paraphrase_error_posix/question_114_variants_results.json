@@ -1,0 +1,42 @@
+{
+    "file_name": "question_114_variants.json",
+    "overall_posix": 0.5739443343870528,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5058365758754864,
+            "Variation 2": 0.6186770428015564,
+            "Variation 3": 0.6264591439688716,
+            "Variation 4": 0.559375,
+            "Variation 5": 0.622568093385214,
+            "Variation 6": 0.4525993883792049,
+            "Variation 7": 0.6070038910505836,
+            "Variation 8": 0.5579937304075235,
+            "Variation 9": 0.5145118733509235,
+            "Variation 10": 0.6744186046511628
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a visible calcified granuloma in the left lung base on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a visible calcified granuloma in the left lung base on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.2.1.1.3  The X-ray shows a calcified granuloma in the left lung base.\n 11.2.1.1.4  The X-ray shows no calcified",
+                "<s> Is a calcified granuloma observable in the left lung base on the radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does the X-ray show a visible calcification corresponding to a granulomatous lesion in the left lower lobe? Please choose from the following two options: [yes, no]\n<image> 1.1a\n 1.1b\n 1.1c\n 1.1d\n 1.1e\n 1.1f\n 1.1g\n 1.1h\n 1",
+                "<s> Are there any calcifications consistent with a chronic inflammatory process present in the left lung base on this X-ray? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Can a granulomatous calcification be identified in the left lung apex or inferiorly on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  A 55-year-old male presents with a 2-week history of fever, chills, and malaise. He has a history of diabetes mellitus and hypertension",
+                "<s> Is a visible calcified mass representing a healed granuloma present in the left lower lobe of the lung on this image? Please choose from the following two options: [yes, no]\n<image> 1. ___\n 2. ___\n 3. ___\n _ 4. ___\n 5. ___\n 6. ___\n 7. ___\n 8. ___\n ",
+                "<s> Does the left lung base display a characteristic calcification indicative of a granulomatous reaction on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n The X-ray shows a calcified nodule in the left lung base. The calcification is indicative of a granulomatous reaction.\n 11.10.",
+                "<s> Are there any radiographic findings suggesting a calcified granuloma is present in the left lung on this film? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Can a calcified lesion consistent with a granulomatous process be seen in the left lower lung zone on this radiograph? Please choose from the following two options: [yes, no]\n<image> A.  Yes, it can be seen.\n B.  No, it cannot be seen.\n 4.\n What is the most likely diagnosis for this patient?\n A.  Lymphoma\n B.  Sar",
+                "<s> Is the presence of a visible calcification representing a healed granuloma confirmed in the left lower lobe of the lung on this X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, the calcification is visible\n b. No, the calcification is not visible\n 5. Which of the following is the most likely diagnosis?\n a. A calcified granuloma\n b. A calcified",
+                "<s> Does this X-ray show evidence of a calcified granulomatous lesion located in the left lung base, corresponding to known clinical findings? Please choose from the following two options: [yes, no]\n<image> a\n b\n 3\n 17\n 16\n 15\n 14\n 13\n 12\n 11\n 10\n 9\n 8\n 7\n 6"
+            ]
+        ],
+        "sensitivities": [
+            0.5739443343870528
+        ],
+        "posix": 0.5739443343870528
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_177_variants.json",
+    "overall_posix": 0.45834587989399456,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4620938628158845,
+            "Variation 2": 0.5054151624548736,
+            "Variation 3": 0.5090252707581228,
+            "Variation 4": 0.4035087719298245,
+            "Variation 5": 0.5270758122743683,
+            "Variation 6": 0.323943661971831,
+            "Variation 7": 0.4945848375451263,
+            "Variation 8": 0.42281879194630867,
+            "Variation 9": 0.4295774647887324,
+            "Variation 10": 0.5054151624548736
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, a moderate right-sided pleural effusion\n b. No, a moderate right-sided pleural effusion\n 5. What is the most likely diagnosis?\n a. Tuberculosis",
+                "<s> QUESTION:Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pleural efusion\n B:Pneumothorax\n 3.\n QUESTION:What is the",
+                "<s> q:::Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 5:\n 4:\n 3:\n 6:\n 7:\n 2:\n 8:\n 9",
+                "<s> Question:Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The X-ray shows a right-sided pleural effusion.\n The X-ray is of a 55-year-old man with a history of a right",
+                "<s> QUESTION:Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tYes, a moderate right pleural effusion is present.\n \u2022\tNo, a moderate right pleural effusion is present.\n 16.\n Q:What is the most likely",
+                "<s> QUESTION:Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n\n Explanation:\n This is a frontal chest X-ray of a 55-year-old man with a history of a cough. The X-ray",
+                "<s> Question:Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n\n Rationale:\n The X-ray shows a right-sided pleural effusion. The effusion is not large enough to be visible on the X-ray.\n The",
+                "<s> Question::: Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n Explanation:\n Option 1: The X-ray shows a right-sided pleural effusion.\n Option 2: The X-ray shows a left-s",
+                "<s> Q::Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::"
+            ]
+        ],
+        "sensitivities": [
+            0.45834587989399456
+        ],
+        "posix": 0.45834587989399456
+    }
+}

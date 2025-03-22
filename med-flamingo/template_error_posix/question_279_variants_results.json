@@ -1,0 +1,42 @@
+{
+    "file_name": "question_279_variants.json",
+    "overall_posix": 0.4038622119187559,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5072046109510087,
+            "Variation 2": 0.2256637168141593,
+            "Variation 3": 0.26249999999999996,
+            "Variation 4": 0.4185185185185185,
+            "Variation 5": 0.4702194357366771,
+            "Variation 6": 0.49404761904761907,
+            "Variation 7": 0.46394984326018807,
+            "Variation 8": 0.435483870967742,
+            "Variation 9": 0.27755102040816326,
+            "Variation 10": 0.48348348348348347
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option a. Yes, the chest X-ray confirms the stability of the noted spine deformity.\n Option b. No, the chest X-ray does not confirm the stability of the noted spine deformity.",
+                "<s> question::Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> Q::: Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe\tchest\tX-ray\tshows\ta\tleft\tlateral\tview\tof\tthe\tchest\tand\tabdomen\twith\ta\thorizontal\tline\tfrom\tthe",
+                "<s> QUESTION:Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n Discussion:\n The chest X-ray shows a right-sided elevation of the diaphragm, which is a sign of a right-sided diaphragmatic hernia. The right-",
+                "<s> Q:Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Suggested response\n These are two spot views of the chest from a supine patient. The first view (A) is a standard anteroposterior view of the chest. The second view (B) is",
+                "<s> question:Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n A. Yes, the chest X-ray confirms the stability of the spine deformity.\n B. No, the chest X-ray confirms the progression of the spine deformity.\n 1",
+                "<s> Question:Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n\n 10.Question:\n Is there any evidence of a thoracic spine deformity on the chest X-ray?\n Option 1: Yes\n Option",
+                "<s> q::Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following radiograph is of a 15-year-old boy with a history of scoliosis. The patient is currently asymptomatic.\n 1.The patient\u2019s scolios"
+            ]
+        ],
+        "sensitivities": [
+            0.4038622119187559
+        ],
+        "posix": 0.4038622119187559
+    }
+}

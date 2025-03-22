@@ -1,0 +1,42 @@
+{
+    "file_name": "question_394_variants.json",
+    "overall_posix": 0.4583720051975854,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.36474164133738607,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6164383561643836,
+            "Variation 4": 0.5958904109589042,
+            "Variation 5": 0.5342465753424658,
+            "Variation 6": 0.5625,
+            "Variation 7": 0.6301369863013698,
+            "Variation 8": 0.5533333333333333,
+            "Variation 9": 0.32000000000000006,
+            "Variation 10": 0.4064327485380117
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there any evidence of atelectasis on the X-ray? Please choose from the following two options: [yes, no]\n 12.  Is there any evidence of pneumothorax on",
+                "<s> Is there evidence of pulmonary nodules present on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other significant findings on the chest radiograph?\n Please choose from the following two options: [yes, no]\n 12.  Are there any other significant findings on the CT scan",
+                "<s> Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there any evidence of atelectasis on the X-ray? Please choose from the following two options: [yes, no]\n 12.  Is there any evidence of pneumothorax on",
+                "<s> Are there visible lesions within the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Does the patient have any abnormal opacities in the lung fields on the chest film? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any pulmonary masses or tumors visible on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pulmonary hemorrhage\n B.Pulmonary infarction\n C.Pulmonary embolism\n D.Pulmonary",
+                "<s> Is there a notable increase in nodular density within the lungs on the radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  When the patient is reexamined 2 weeks later, the chest radiograph shows that the nodular density has increased further. Please choose from the following two options: [yes, no]\n 12",
+                "<s> Does the chest X-ray show any abnormal lung lesions or masses? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are pulmonary nodules, cysts, or other abnormalities visible on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any pulmonary nodules, cysts, or other abnormalities visible on the chest radiograph?\n 12.  Are there any pulmonary nodules, cysts,",
+                "<s> Is there evidence of metastatic disease or primary lung neoplasms on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there evidence of a pleural effusion? Please choose from the following two options: [yes, no]\n 12.  Is there evidence of a pneumothorax? Please choose from the following",
+                "<s> Does the patient have any notable abnormalities in the pulmonary parenchyma on the chest film? Please choose from the following two options: [yes, no]\n<image> 11.Does the patient have any notable abnormalities in the abdominal parenchyma on the chest film? Please choose from the following two options: [yes, no]\n 12.Does the patient have"
+            ]
+        ],
+        "sensitivities": [
+            0.4583720051975854
+        ],
+        "posix": 0.4583720051975854
+    }
+}

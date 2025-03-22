@@ -1,0 +1,42 @@
+{
+    "file_name": "question_238_variants.json",
+    "overall_posix": 0.331325541997151,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.20353982300884954,
+            "Variation 2": 0.45679012345679015,
+            "Variation 3": 0.21834061135371186,
+            "Variation 4": 0.2753036437246963,
+            "Variation 5": 0.404040404040404,
+            "Variation 6": 0.46827794561933533,
+            "Variation 7": 0.41806020066889626,
+            "Variation 8": 0.4071661237785016,
+            "Variation 9": 0.2581967213114754,
+            "Variation 10": 0.20353982300884954
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Are there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Are there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n The patient has a right upper lobe consolidation with air bronchograms.\n 1.What is the most likely diagnosis?\n A.Pneumonia\n B.Pulmonary edema\n C.",
+                "<s> Q:Are there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n L:\n U:\n X:\n E:\n D:\n E:\n L:",
+                "<s> q::Are there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION\tAre there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n Fig. 1.1.10a\tAxial CT image of the chest showing a smal nodular opacity in the right lung. This",
+                "<s> Question-Are there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 11.Question\n Is there any other abnormality in the lungs apart from the small nodular opacity?\n [yes, no]\n 12.Question\n Is there any other abnormal",
+                "<s> Question::: Are there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 11.\n Question: What is the most likely diagnosis?\n A. Lymphangioma\n B. Lymphangioleiomyomatosis\n C. Lymphangioleiom",
+                "<s> question:Are there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked [1] as [2].Please explain your answer.\n 1.Yes, there are other abnormalities present in the",
+                "<s> q:Are there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n 19.2.2  Answer\n a:Yes, there are other",
+                "<s> Question:Are there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n"
+            ]
+        ],
+        "sensitivities": [
+            0.331325541997151
+        ],
+        "posix": 0.331325541997151
+    }
+}

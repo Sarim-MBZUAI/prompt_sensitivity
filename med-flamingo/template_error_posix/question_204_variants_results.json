@@ -1,0 +1,42 @@
+{
+    "file_name": "question_204_variants.json",
+    "overall_posix": 0.392434867091397,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5559105431309904,
+            "Variation 2": 0.5566037735849056,
+            "Variation 3": 0.15760869565217395,
+            "Variation 4": 0.5572755417956656,
+            "Variation 5": 0.5411392405063291,
+            "Variation 6": 0.4746376811594203,
+            "Variation 7": 0.48958333333333326,
+            "Variation 8": 0.14835164835164838,
+            "Variation 9": 0.29807692307692313,
+            "Variation 10": 0.14516129032258063
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there a presence of a foreign body within the",
+                "<s> Question:Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10.Question:Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]||Answer:Yes\n 11.Question:Is there a presence of",
+                "<s> q:Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> Question-Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes]\n [No]\n The radiograph shows a foreign body within the lungs.\n The foreign body is a piece of wood.\n The foreign body is a piece of plastic.\n The foreign body is a piece of metal",
+                "<s> Question::: Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question: Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n 11.\n Question: Is there",
+                "<s> QUESTION\tIs there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient is a 55-year-old man with a history of a chest trauma. The chest radiograph shows a\n large right-",
+                "<s> QUESTION:Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\nAnswer:\n<image>\n 1.Yes\n 2.No\n\n 1.Yes\n 2.No\n Discussion:\n The chest radiograph demonstrates a foreign body within the right upper lobe of the lung. The foreign body",
+                "<s> Q:Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q:::Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1"
+            ]
+        ],
+        "sensitivities": [
+            0.392434867091397
+        ],
+        "posix": 0.392434867091397
+    }
+}

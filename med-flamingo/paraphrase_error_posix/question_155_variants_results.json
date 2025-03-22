@@ -1,0 +1,42 @@
+{
+    "file_name": "question_155_variants.json",
+    "overall_posix": 0.4322314417724035,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5680272108843537,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6480938416422287,
+            "Variation 4": 0.1964285714285714,
+            "Variation 5": 0.4864864864864865,
+            "Variation 6": 0.43497757847533625,
+            "Variation 7": 0.629746835443038,
+            "Variation 8": 0.7045454545454546,
+            "Variation 9": 0.4683544303797469,
+            "Variation 10": 0.18565400843881852
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Does the imaging study reveal evidence of air leak or tension pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Air leak or tension pneumothorax on chest X-ray\n 2. No air leak or tension pneumothorax on chest X-ray\n 3. Air leak or tension p",
+                "<s> Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is there radiographic confirmation of a pneumopericardium or pneumomediastinum visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there a pneumothorax? Please choose from the following two options: [yes, no]\n 12.  Is there a pneumomediastinum? Please choose from the following two options",
+                "<s> Does the report indicate an abnormal appearance suggestive of air in the pleural space on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Can a pneumothorax or air leak be identified on the chest radiograph based on the provided imaging data? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any suggestion of lung collapse or mediastinal shift due to a pneumothorax visible on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray reveal the presence of free air within the pleural space indicative of pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1. Free air in the right hemithorax\n 2. Free air in the left hemithorax\n 3. Free air in both hemithoraces\n 4. No free air in either hemithorax",
+                "<s> Can a small pneumothorax or bullae be detected on the chest X-ray based on its characteristic radiographic appearance? Please choose from the following two options: [yes, no]\n<image> 1.  A small pneumothorax or bullae can be detected on the chest X-ray based on its characteristic radiographic appearance.\n 2.  A small pneumothorax or bullae cannot",
+                "<s> Is there any indication of air in the mediastinum or pericardium on the chest X-ray, suggesting a tension pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the report indicate the presence of pleural effusion or collapse due to a pneumothorax visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1"
+            ]
+        ],
+        "sensitivities": [
+            0.4322314417724035
+        ],
+        "posix": 0.4322314417724035
+    }
+}

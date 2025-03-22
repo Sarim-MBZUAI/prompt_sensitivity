@@ -1,0 +1,42 @@
+{
+    "file_name": "question_376_variants.json",
+    "overall_posix": 0.4760856200395155,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6607142857142857,
+            "Variation 2": 0.44354838709677424,
+            "Variation 3": 0.5844594594594594,
+            "Variation 4": 0.6731301939058172,
+            "Variation 5": 0.29556650246305427,
+            "Variation 6": 0.2842639593908629,
+            "Variation 7": 0.30000000000000004,
+            "Variation 8": 0.6369230769230769,
+            "Variation 9": 0.4723404255319149,
+            "Variation 10": 0.40990990990990994
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of a pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of a pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this X-ray show the presence of air in the pleural space surrounding the lung? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the presence of air in the pleural space surrounding the lung is shown.\n 2. No, the presence of air in the pleural space surrounding the lung is not shown.\n 1. No, the presence",
+                "<s> Is there evidence of pneumothorax visible on the provided chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1. Question 11.10.1. Answer\n 11.10.1.A\n There is a visible pneumothorax on the chest X-ray image.",
+                "<s> Can you identify a free-air sign, indicative of pneumothorax, in this radiograph? Please choose from the following two options: [yes, no]\n<image> 1. Free-air sign\n 2. No free-air sign\n 1. Yes\n 2. No\n Correct answer: Yes\n The correct answer is yes. There is a free-air sign in the right hemith",
+                "<s> Please select whether this X-ray demonstrates a separation of the visceral and parietal pleura due to air accumulation. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n Please select whether this X-ray demonstrates a pneumothorax due to air accumulation in the pleural space. Please choose from the following two options: [yes, no]\n 1",
+                "<s> Does this image suggest an abnormal collection of air outside the lung tissue itself? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is pneumoperitoneum (air within the pleural space) present on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you confirm or deny the presence of pneumothorax based on the features visible in this radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Select whether there is a visible gap between the visceral and parietal pleura, indicative of air accumulation. Please choose from the following two options: [yes, no]\n<image> 11.  Is there a visible gap between the visceral and parietal pleura?\n 12.  Is there a visible gap between the visceral and parietal pleura?\n 13.",
+                "<s> Does the provided image show evidence of an abnormal interface between lung tissue and the surrounding pleural space? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is there any indication of air accumulation outside the normal confines of the lung on this X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1"
+            ]
+        ],
+        "sensitivities": [
+            0.4760856200395155
+        ],
+        "posix": 0.4760856200395155
+    }
+}

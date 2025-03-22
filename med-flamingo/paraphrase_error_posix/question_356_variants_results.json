@@ -1,0 +1,42 @@
+{
+    "file_name": "question_356_variants.json",
+    "overall_posix": 0.23692307692307693,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.20512820512820507,
+            "Variation 2": 0.23076923076923084,
+            "Variation 3": 0.2512820512820513,
+            "Variation 4": 0.22564102564102562,
+            "Variation 5": 0.28717948717948716,
+            "Variation 6": 0.24615384615384617,
+            "Variation 7": 0.2615384615384615,
+            "Variation 8": 0.27692307692307694,
+            "Variation 9": 0.12307692307692308,
+            "Variation 10": 0.2615384615384615
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pneumothorax on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are lung collapse signs visible on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the image show presence of pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can a collapsed lung or air leak be identified on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please confirm whether pneumothorax is present in this case. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any indication of lung collapse on the provided image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiograph reveal signs of pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can pneumothorax or lung collapse be confirmed from the image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there visual signs of a collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please verify whether pneumothorax is visible on this X-ray. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.23692307692307693
+        ],
+        "posix": 0.23692307692307693
+    }
+}

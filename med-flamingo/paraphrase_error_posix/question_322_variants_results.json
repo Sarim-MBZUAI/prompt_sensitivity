@@ -1,0 +1,42 @@
+{
+    "file_name": "question_322_variants.json",
+    "overall_posix": 0.45444964893700607,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6264367816091954,
+            "Variation 2": 0.5863309352517986,
+            "Variation 3": 0.7407407407407407,
+            "Variation 4": 0.0,
+            "Variation 5": 0.405982905982906,
+            "Variation 6": 0.6006944444444444,
+            "Variation 7": 0.20526315789473681,
+            "Variation 8": 0.5870307167235495,
+            "Variation 9": 0.32773109243697474,
+            "Variation 10": 0.4642857142857143
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray demonstrate any radiographic evidence of pneumonia or acute respiratory distress? Please choose from the following two options: [yes, no]\n<image> 11.  Is the patient\u2019s heart size normal? Please choose from the following two options: [yes, no]\n 12.  Is the patient\u2019s heart size enlarged? Please choose from the following two",
+                "<s> Is there a suggestion of pulmonary edema or atelectasis on the provided chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pneumonia\n B.Pulmonary edema\n C.Atelectasis\n D.Pneumothorax\n E.Tension pneumoth",
+                "<s> Please choose from the following two options: [yes, no]\n<image> 1.Do you think that the patient should be admitted to the\n hospital?\n 2.Do you think that the patient should be admitted to the\n emergency room?\n \u2460If you answered \u201cyes\u201d to the",
+                "<s> Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you confirm if the chest X-ray reveals signs consistent with an upper respiratory tract infection or bronchitis? Please choose from the following two options: [yes, no]\n<image> 19\n 18\n 17\n 16\n 15\n 14\n 13\n 12\n 11\n 10\n 9\n 8\n 7\n ",
+                "<s> Are there any indications of lung consolidation or infiltration visible on the given chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Correct Answer: Yes\n The chest X-ray shows a right-sided lung consolidation with atelectasis.\n",
+                "<s> Is the chest X-ray suggestive of pulmonary congestion or fluid overload? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the provided image show evidence of acute lung injury or inflammation? Please choose from the following two options: [yes, no]\n<image> 1a. Yes, the image shows bilateral pleural effusions and atelectasis.\n 1b. No, the image shows no evidence of acute lung injury or inflammation.\n 2a.",
+                "<s> Can you identify if the chest radiograph displays signs of bronchiolitis or viral pneumonia in the pediatric population? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a suggestion of pleural effusion or empyema on the given chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1."
+            ]
+        ],
+        "sensitivities": [
+            0.45444964893700607
+        ],
+        "posix": 0.45444964893700607
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_391_variants.json",
+    "overall_posix": 0.40978010700235146,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2971698113207547,
+            "Variation 2": 0.25742574257425743,
+            "Variation 3": 0.46376811594202905,
+            "Variation 4": 0.47902097902097895,
+            "Variation 5": 0.4965277777777778,
+            "Variation 6": 0.4609665427509293,
+            "Variation 7": 0.5392156862745098,
+            "Variation 8": 0.31336405529953915,
+            "Variation 9": 0.49650349650349646,
+            "Variation 10": 0.29383886255924163
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::: Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q:Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 19.  A 55-year-old man",
+                "<s> QUESTION\tAre there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a left-sided pneumothorax. The left hemithorax is not visible on the X-ray. The right\n hem",
+                "<s> Question::: Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumonia\n B. Pulmonary edema\n C. Pulmonary embolism\n D. Pulmonary infarction",
+                "<s> Question:Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n The correct answer is [yes, no].\n The chest X-ray shows bilateral infiltrates. The patient has pneumonia.\n The",
+                "<s> Question:Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the next step in the management of this patient?\n A.Intravenous antibiotics\n B.Intubation\n C.Chest tube\n D.Ple",
+                "<s> Question:Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following radiograph is of a 55-year-old male patient with a 2-day history of fever, cough, and malaise. Please identify the following:\n 1",
+                "<s> q::Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION:Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n [No]\n The patient has a left pneumothorax.\n The patient is a 65-year-old man with a history of diabetes and",
+                "<s> q:::Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::"
+            ]
+        ],
+        "sensitivities": [
+            0.40978010700235146
+        ],
+        "posix": 0.40978010700235146
+    }
+}

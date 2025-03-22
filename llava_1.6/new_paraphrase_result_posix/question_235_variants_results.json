@@ -1,0 +1,189 @@
+{
+    "file_name": "question_235_variants.json",
+    "overall_posix": 3.563096813755398,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.003008317947387695,
+            "Variation 2": 4.541605537587946,
+            "Variation 3": 5.4440939120757275,
+            "Variation 4": 3.2669145743052166,
+            "Variation 5": 4.008823064065749,
+            "Variation 6": 5.523353187661422,
+            "Variation 7": 5.5076975497332485,
+            "Variation 8": 5.00818607211113,
+            "Variation 9": 3.991061498721441,
+            "Variation 10": 5.159495961666107
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, there is a device present within the right chest on the X-ray image.",
+                "No, there is no device present within the right chest on the X-ray image.",
+                "No, there is no internal device such as a pacemaker or central line visible within the right hemithorax on this chest X-ray.",
+                "No, the radiograph does not show the presence of a medical device like a mediport or Swan-Ganz catheter in the right thoracic cavity.",
+                "No, there is no evidence of a foreign body or an implanted device in the right upper quadrant of the X-ray image.",
+                "No, there are no visible signs of a metallic object or prosthetic device within the right hemithorax on this chest radiograph.",
+                "No, the chest X-ray image does not depict the presence of a central venous catheter or other implanted device in the right thoracic region.",
+                "No, there is no indication of a medical implant, including a pacemaker or cardioverter-defibrillator, within the right hemithorax as seen on this X-ray.",
+                "No, there are no radiographic signs suggestive of a foreign body, such as a central line or port, located in the right upper thoracic cavity in this image.",
+                "No, the chest X-ray does not show a clear presence of an internal device like a mediport or vascular access device within the right hemithorax.",
+                "No, the X-ray image does not show a medical implant, including a cardiac device, within the right side of the thoracic cage. The image appears to be a standard chest X-ray without any visible implants or"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -187.5541970729828,
+                    -187.49403071403503,
+                    -337.427179813385,
+                    -399.87385964393616,
+                    -285.5616343021393,
+                    -311.827712059021,
+                    -397.4416182041168,
+                    -429.8928892612457,
+                    -387.881639957428,
+                    -331.23241102695465,
+                    -445.52899515628815
+                ],
+                [
+                    -187.5541970729828,
+                    -187.49403071403503,
+                    -337.427179813385,
+                    -399.87385964393616,
+                    -285.5616343021393,
+                    -311.827712059021,
+                    -397.4416182041168,
+                    -429.8928892612457,
+                    -387.881639957428,
+                    -331.23241102695465,
+                    -445.52899515628815
+                ],
+                [
+                    -176.23543238639832,
+                    -180.44568991661072,
+                    -321.3250005245209,
+                    -391.4113173484802,
+                    -277.8276870250702,
+                    -305.2754635810852,
+                    -386.24198937416077,
+                    -428.85914742946625,
+                    -381.8300700187683,
+                    -354.09602308273315,
+                    -490.3045687675476
+                ],
+                [
+                    -196.40410113334656,
+                    -196.98645663261414,
+                    -297.1749006509781,
+                    -363.89637219905853,
+                    -284.3750591278076,
+                    -295.91670513153076,
+                    -382.9744281768799,
+                    -400.94456791877747,
+                    -385.03247141838074,
+                    -347.78078496456146,
+                    -488.3612267971039
+                ],
+                [
+                    -176.06873989105225,
+                    -179.25340032577515,
+                    -317.34723019599915,
+                    -362.99264907836914,
+                    -266.985160112381,
+                    -326.3034334182739,
+                    -346.7757043838501,
+                    -439.65892028808594,
+                    -377.58348536491394,
+                    -332.0902361869812,
+                    -469.7947850227356
+                ],
+                [
+                    -176.06873989105225,
+                    -179.25340032577515,
+                    -317.34723019599915,
+                    -362.99264907836914,
+                    -266.985160112381,
+                    -326.3034334182739,
+                    -346.7757043838501,
+                    -439.65892028808594,
+                    -377.58348536491394,
+                    -332.0902361869812,
+                    -469.7947850227356
+                ],
+                [
+                    -187.73014378547668,
+                    -188.92556929588318,
+                    -322.52122831344604,
+                    -383.50139713287354,
+                    -286.6737952232361,
+                    -313.0346419811249,
+                    -385.40388536453247,
+                    -450.69876194000244,
+                    -396.9899706840515,
+                    -342.55961298942566,
+                    -464.8212969303131
+                ],
+                [
+                    -172.40253376960754,
+                    -173.8070285320282,
+                    -325.2614893913269,
+                    -399.130788564682,
+                    -278.43760108947754,
+                    -317.23504638671875,
+                    -387.3307058811188,
+                    -436.74226212501526,
+                    -371.4468550682068,
+                    -335.93742048740387,
+                    -472.23795759677887
+                ],
+                [
+                    -187.73014378547668,
+                    -188.92556929588318,
+                    -322.52122831344604,
+                    -383.50139713287354,
+                    -286.6737952232361,
+                    -313.0346419811249,
+                    -385.40388536453247,
+                    -450.69876194000244,
+                    -396.9899706840515,
+                    -342.55961298942566,
+                    -464.8212969303131
+                ],
+                [
+                    -187.73014378547668,
+                    -188.92556929588318,
+                    -322.52122831344604,
+                    -383.50139713287354,
+                    -286.6737952232361,
+                    -313.0346419811249,
+                    -385.40388536453247,
+                    -450.69876194000244,
+                    -396.9899706840515,
+                    -342.55961298942566,
+                    -464.8212969303131
+                ],
+                [
+                    -186.80793690681458,
+                    -187.9518883228302,
+                    -310.11040687561035,
+                    -394.91878628730774,
+                    -283.65161967277527,
+                    -306.96588134765625,
+                    -369.0987102985382,
+                    -430.2635486125946,
+                    -374.8368182182312,
+                    -351.7531361579895,
+                    -470.7891089916229
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.563096813755398
+        ],
+        "posix": 3.563096813755398
+    }
+}

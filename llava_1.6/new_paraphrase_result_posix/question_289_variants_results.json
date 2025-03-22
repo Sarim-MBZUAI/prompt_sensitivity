@@ -1,0 +1,189 @@
+{
+    "file_name": "question_289_variants.json",
+    "overall_posix": 15.721301581365639,
+    "detailed_scores": [
+        {
+            "Variation 1": 2.147686530243267,
+            "Variation 2": 53.22722546259562,
+            "Variation 3": 4.040830658328149,
+            "Variation 4": 6.126016500261095,
+            "Variation 5": 6.543737677817649,
+            "Variation 6": 5.753024724813608,
+            "Variation 7": 6.782856245040893,
+            "Variation 8": 6.09366304397583,
+            "Variation 9": 6.810967741012573,
+            "Variation 10": 5.317107787499061
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the patient in the chest X-ray appears to have reduced lung volumes.",
+                "Yes, the chest X-ray shows decreased lung volumes in comparison to normal radiographic standards.",
+                "No",
+                "Yes, the patient in the chest X-ray appears to have reduced lung volumes, which could be indicative of a lung condition or disease.",
+                "Yes, there is a notable reduction in lung volume visible on this chest radiograph. The lung on the right side appears to be significantly smaller than the left lung, which is indicative of a lung volume reduction.",
+                "Yes, the X-ray image shows a diminished thoracic lung capacity. The lung appears to be smaller than normal, which could indicate a condition such as lung disease or a congenital abnormality.",
+                "Yes, the patient in the CXR appears to have lower-than-expected lung volumes, which could indicate a condition such as emphysema or a restrictive lung disease.",
+                "Yes, there are radiographic indications of reduced pulmonary expansion in this image. The lung fields appear to be less dense than normal, which could suggest a decrease in lung volume or expansion. This could be due to a variety of conditions,",
+                "No, we cannot confirm a decrease in lung volume dimensions based on this chest X-ray alone. The image shows a lateral chest X-ray, which is a common type of X-ray used to examine the lungs and heart. However,",
+                "Yes, there is visible evidence of decreased thoracic cavity lung capacity on this radiograph. The lung fields appear to be less dense than normal, which could indicate a decrease in lung volume or the presence of a lung condition such as",
+                "Yes, the chest X-ray reveals less-than-expected lung expansion in the patient. The lungs appear to be smaller than normal, which could indicate a lung condition or issue."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -185.64519500732422,
+                    -232.8942986726761,
+                    -25.963518619537354,
+                    -310.9109454154968,
+                    -461.3159375190735,
+                    -493.2008658647537,
+                    -410.01315927505493,
+                    -524.7880072593689,
+                    -490.3283472061157,
+                    -526.1935820579529,
+                    -393.0123987197876
+                ],
+                [
+                    -179.28499698638916,
+                    -226.9431598186493,
+                    -29.229512214660645,
+                    -301.4036648273468,
+                    -454.83781802654266,
+                    -521.9478144645691,
+                    -395.49371814727783,
+                    -531.4813284873962,
+                    -457.39504623413086,
+                    -518.7219481468201,
+                    -389.34107065200806
+                ],
+                [
+                    -167.4934583902359,
+                    -219.87056267261505,
+                    -25.751604080200195,
+                    -277.6418069601059,
+                    -451.1374807357788,
+                    -483.4871851205826,
+                    -370.75348567962646,
+                    -515.3824679851532,
+                    -475.53101110458374,
+                    -531.4342498779297,
+                    -389.8242746591568
+                ],
+                [
+                    -185.64519500732422,
+                    -232.8942986726761,
+                    -25.963518619537354,
+                    -310.9109454154968,
+                    -461.3159375190735,
+                    -493.2008658647537,
+                    -410.01315927505493,
+                    -524.7880072593689,
+                    -490.3283472061157,
+                    -526.1935820579529,
+                    -393.0123987197876
+                ],
+                [
+                    -187.07029169797897,
+                    -227.8958821296692,
+                    -28.594886779785156,
+                    -315.7617082595825,
+                    -455.2188444137573,
+                    -498.2500647306442,
+                    -408.2195816040039,
+                    -505.4463334083557,
+                    -483.76531171798706,
+                    -528.3208379745483,
+                    -388.61816692352295
+                ],
+                [
+                    -178.66704559326172,
+                    -230.27402067184448,
+                    -28.833433628082275,
+                    -305.033280313015,
+                    -446.39703422784805,
+                    -504.2209496498108,
+                    -397.6783170700073,
+                    -524.1604580879211,
+                    -464.9738030433655,
+                    -521.800995349884,
+                    -406.3311057090759
+                ],
+                [
+                    -178.66704559326172,
+                    -230.27402067184448,
+                    -28.833433628082275,
+                    -305.033280313015,
+                    -446.39703422784805,
+                    -504.2209496498108,
+                    -397.6783170700073,
+                    -524.1604580879211,
+                    -464.9738030433655,
+                    -521.800995349884,
+                    -406.3311057090759
+                ],
+                [
+                    -172.31683015823364,
+                    -229.33468866348267,
+                    -26.56490159034729,
+                    -310.4999899864197,
+                    -454.3319511413574,
+                    -487.7247018814087,
+                    -390.8195719718933,
+                    -514.9513082504272,
+                    -478.7274320721626,
+                    -523.4198307991028,
+                    -405.20924854278564
+                ],
+                [
+                    -178.66704559326172,
+                    -230.27402067184448,
+                    -28.833433628082275,
+                    -305.033280313015,
+                    -446.39703422784805,
+                    -504.2209496498108,
+                    -397.6783170700073,
+                    -524.1604580879211,
+                    -464.9738030433655,
+                    -521.800995349884,
+                    -406.3311057090759
+                ],
+                [
+                    -183.86020040512085,
+                    -238.48811292648315,
+                    -27.825432777404785,
+                    -299.0734705924988,
+                    -458.17399978637695,
+                    -474.6605863571167,
+                    -410.3222851753235,
+                    -503.8326106071472,
+                    -469.0845938324928,
+                    -524.1460418701172,
+                    -408.52927589416504
+                ],
+                [
+                    -178.66704559326172,
+                    -230.27402067184448,
+                    -28.833433628082275,
+                    -305.033280313015,
+                    -446.39703422784805,
+                    -504.2209496498108,
+                    -397.6783170700073,
+                    -524.1604580879211,
+                    -464.9738030433655,
+                    -521.800995349884,
+                    -406.3311057090759
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            15.721301581365639
+        ],
+        "posix": 15.721301581365639
+    }
+}

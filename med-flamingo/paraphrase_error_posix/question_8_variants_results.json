@@ -1,0 +1,42 @@
+{
+    "file_name": "question_8_variants.json",
+    "overall_posix": 0.4328270956057504,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6448598130841121,
+            "Variation 2": 0.0,
+            "Variation 3": 0.36190476190476195,
+            "Variation 4": 0.3662551440329218,
+            "Variation 5": 0.6191950464396285,
+            "Variation 6": 0.493723849372385,
+            "Variation 7": 0.37603305785123964,
+            "Variation 8": 0.6233766233766234,
+            "Variation 9": 0.3632478632478633,
+            "Variation 10": 0.47967479674796754
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a need for immediate intervention based on heart or lung findings on this X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a need for immediate intervention based on heart or lung findings on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is an emergency surgical intervention indicated based on the chest X-ray findings? Please choose from the following two options: [yes, no]\n<image> a. Yes, because of the presence of a pneumothorax\n b. No, because of the presence of a pneumomediastinum\n 10.\n Which of the following is the most common complication of a",
+                "<s> Is there a need for immediate intervention based on heart or lung findings on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this patient's chest X-ray show radiographic signs warranting urgent medical attention? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any life-threatening cardiac or pulmonary complications visible on this X-ray that necessitate immediate treatment? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is an emergency thoracic consultation recommended based on the findings in this chest X-ray? Please choose from the following two options: [yes, no]\n<image> A. Yes, because of the presence of a pneumothorax\n B. Yes, because of the presence of a pneumomediastinum\n C. Yes, because of the presence of a pneumopericardium\n",
+                "<s> Does this patient's X-ray show evidence of a condition requiring rapid radiological assessment and possible intervention? Please choose from the following two options: [yes, no]\n<image> 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 23\n 24\n 25\n 26\n 2",
+                "<s> Are there any critical cardiac or respiratory structures visible on this image that necessitate immediate medical attention? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is an urgent thoracic CT scan indicated based on the findings in this chest X-ray? Please choose from the following two options: [yes, no]\n<image> A. Yes, because of the presence of a pneumothorax\n B. Yes, because of the presence of a pneumomediastinum\n C. No, because of the absence of a pneumothorax\n D",
+                "<s> Does this patient's X-ray show imaging features of a serious condition that requires immediate medical consultation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any high-priority cardiac or pulmonary findings visible on this image that necessitate rapid assessment and treatment? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2"
+            ]
+        ],
+        "sensitivities": [
+            0.4328270956057504
+        ],
+        "posix": 0.4328270956057504
+    }
+}

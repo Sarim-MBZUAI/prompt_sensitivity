@@ -1,0 +1,189 @@
+{
+    "file_name": "question_42_variants.json",
+    "overall_posix": 4.153090614080909,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.796875,
+            "Variation 2": 0.4807363322802952,
+            "Variation 3": 1.796875,
+            "Variation 4": 1.796875,
+            "Variation 5": 0.5,
+            "Variation 6": 0.4807363322802952,
+            "Variation 7": 0.0,
+            "Variation 8": 0.46172863660856733,
+            "Variation 9": 0.40854291305985563,
+            "Variation 10": 0.6240416390555246
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "yes",
+                "Yes.",
+                "Yes, there is a suggestion of pleural effusion in the chest X-ray. The lung tissue is seen to be shifted to the opposite side, indicating a build-up of fluid in the pleural space.",
+                "Yes.",
+                "Yes.",
+                "Yes",
+                "Yes, there is a suggestion of pleural effusion in the chest X-ray. The lung tissue is seen to be shifted to the opposite side, indicating a build-up of fluid in the pleural space.",
+                "yes",
+                "Yes, there is a suggestion of pleural effusion in the chest X-ray. The presence of a\u5f13\u5f62\u6de1\u5f71 (\u5f13\u5f62\u6de1\u5f71) in the dependent lung field may indicate pleural effusion.",
+                "Yes, there is a suggestion of pleural effusion in the chest X-ray. The presence of a pleural effusion can cause the lung to be shifted to the opposite side, as seen in the image.",
+                "Yes, there is a suggestion of pleural effusion in the chest X-ray. The lung is compressed and displaced to the side by the fluid in the pleural space."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -6.96875,
+                    -10.5625,
+                    -27.1596759557724,
+                    -10.5625,
+                    -10.5625,
+                    -7.46875,
+                    -27.1596759557724,
+                    -6.96875,
+                    -26.823081374168396,
+                    -24.53609526157379,
+                    -28.81020736694336
+                ],
+                [
+                    -7.28125,
+                    -8.15625,
+                    -25.5645569562912,
+                    -8.15625,
+                    -8.15625,
+                    -6.09375,
+                    -25.5645569562912,
+                    -7.28125,
+                    -25.36191689968109,
+                    -24.70708954334259,
+                    -26.27960729598999
+                ],
+                [
+                    -7.25,
+                    -10.9375,
+                    -26.31407916545868,
+                    -10.9375,
+                    -10.9375,
+                    -6.5,
+                    -26.31407916545868,
+                    -7.25,
+                    -25.608484148979187,
+                    -25.51657521724701,
+                    -26.809634685516357
+                ],
+                [
+                    -5.4375,
+                    -10.875,
+                    -24.550808429718018,
+                    -10.875,
+                    -10.875,
+                    -5.75,
+                    -24.550808429718018,
+                    -5.4375,
+                    -23.56773555278778,
+                    -23.756114602088928,
+                    -25.12547242641449
+                ],
+                [
+                    -5.71875,
+                    -8.84375,
+                    -24.91481900215149,
+                    -8.84375,
+                    -8.84375,
+                    -5.46875,
+                    -24.91481900215149,
+                    -5.71875,
+                    -24.28506290912628,
+                    -25.00165092945099,
+                    -25.128721952438354
+                ],
+                [
+                    -7.90625,
+                    -11.40625,
+                    -26.566850900650024,
+                    -11.40625,
+                    -11.40625,
+                    -6.96875,
+                    -26.566850900650024,
+                    -7.90625,
+                    -24.438451170921326,
+                    -24.516865134239197,
+                    -27.18262815475464
+                ],
+                [
+                    -5.8125,
+                    -10.40625,
+                    -25.834632635116577,
+                    -10.40625,
+                    -10.40625,
+                    -5.875,
+                    -25.834632635116577,
+                    -5.8125,
+                    -24.257911443710327,
+                    -24.344008684158325,
+                    -25.972498178482056
+                ],
+                [
+                    -8.5625,
+                    -9.953125,
+                    -26.531495332717896,
+                    -9.953125,
+                    -9.953125,
+                    -6.34375,
+                    -26.531495332717896,
+                    -8.5625,
+                    -25.987329244613647,
+                    -24.813566207885742,
+                    -27.2221097946167
+                ],
+                [
+                    -7.59375,
+                    -11.78125,
+                    -28.01541805267334,
+                    -11.78125,
+                    -11.78125,
+                    -7.28125,
+                    -28.01541805267334,
+                    -7.59375,
+                    -25.58848738670349,
+                    -25.702258586883545,
+                    -28.072274804115295
+                ],
+                [
+                    -7.15625,
+                    -10.71875,
+                    -25.824453711509705,
+                    -10.71875,
+                    -10.71875,
+                    -6.28125,
+                    -25.824453711509705,
+                    -7.15625,
+                    -23.60330295562744,
+                    -23.57000756263733,
+                    -26.168253183364868
+                ],
+                [
+                    -9.375,
+                    -12.0,
+                    -28.539369821548462,
+                    -12.0,
+                    -12.0,
+                    -7.84375,
+                    -28.539369821548462,
+                    -9.375,
+                    -26.89491355419159,
+                    -26.15706431865692,
+                    -29.191361904144287
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.153090614080909
+        ],
+        "posix": 4.153090614080909
+    }
+}

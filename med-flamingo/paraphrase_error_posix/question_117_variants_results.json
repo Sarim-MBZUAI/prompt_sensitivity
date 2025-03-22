@@ -1,0 +1,42 @@
+{
+    "file_name": "question_117_variants.json",
+    "overall_posix": 0.3999679713543102,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3783783783783784,
+            "Variation 2": 0.5966850828729282,
+            "Variation 3": 0.0,
+            "Variation 4": 0.27807486631016043,
+            "Variation 5": 0.21658986175115214,
+            "Variation 6": 0.697841726618705,
+            "Variation 7": 0.6005509641873278,
+            "Variation 8": 0.3458333333333333,
+            "Variation 9": 0.5481727574750831,
+            "Variation 10": 0.33755274261603374
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence of pleural fluid accumulation in the thoracic cavity on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 2.1.1.1\n 2.1.1.2\n 2.1.1.3\n 2.1.1.4\n 2.1.1.5\n 2.1.",
+                "<s> Please choose from the following two options: [yes, no]\n<image> 1.Do you have any pain in your chest?\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n ",
+                "<s> Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show any signs suggestive of a pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any indication of fluid-filled spaces between the lung and chest wall on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiographic image reveal any evidence of pleural effusion, characterized by a homogeneous or layered opacity in the dependent lung fields? Please choose from the following two options: [yes, no]\n<image> 11.Does the radiographic image reveal any evidence of pneumothorax, characterized by the presence of a lucent area in the dependent lung field? Please choose from the following two options: [yes, no]\n",
+                "<s> Is there sufficient radiologic information to support a diagnosis of pleural effusion based on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, there is sufficient information to support a diagnosis of pleural effusion.\n 2.  No, there is not sufficient information to support a diagnosis of pleural effusion.\n 1.  Yes",
+                "<s> Does this chest X-ray demonstrate any abnormalities in the pleural space that could be consistent with fluid accumulation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic confirmation of a pleural effusion on this chest X-ray, as indicated by blunting of the costophrenic angles or fluid levels? Please choose from the following two options: [yes, no]\n<image> 11.10.1\u2002\u2002Chest\u2002X-ray\u2002(Figure\u200211.10.1)\n 11.10.1.1\u2002Question\n Is there a pleural effusion",
+                "<s> Does the chest X-ray show any findings that are suggestive of a significant accumulation of fluid in the pleural space? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.3999679713543102
+        ],
+        "posix": 0.3999679713543102
+    }
+}

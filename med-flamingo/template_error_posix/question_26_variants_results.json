@@ -1,0 +1,42 @@
+{
+    "file_name": "question_26_variants.json",
+    "overall_posix": 0.3420482529513051,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.308457711442786,
+            "Variation 2": 0.18085106382978722,
+            "Variation 3": 0.18085106382978722,
+            "Variation 4": 0.5392491467576792,
+            "Variation 5": 0.43621399176954734,
+            "Variation 6": 0.2887700534759359,
+            "Variation 7": 0.2606382978723405,
+            "Variation 8": 0.18085106382978722,
+            "Variation 9": 0.4699248120300752,
+            "Variation 10": 0.5746753246753247
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:::Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Question:Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> question:Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n A.Yes, it can be observed\n B.No, it cannot be observed\n 10.Question:\n A 45-year-old man was admitted to the emergency department with a chief complaint of ch",
+                "<s> QUESTION:Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the diagnosis?\n A:Pneumothorax\n B:Pneumomediastinum\n 3.\n QUESTION:What is the most likely",
+                "<s> Question-Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> q:Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Question:Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Question::: Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the diagnosis?\n 11.\n Question:\n What is the treatment?\n 12.\n Question:\n What is the prognosis?\n 13",
+                "<s> Question:Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Comments: Pneumothorax is a colection of air in the pleural space. It can be observed in the chest X-ray as a lucent area in the pleural space. The lucency is caused by"
+            ]
+        ],
+        "sensitivities": [
+            0.3420482529513051
+        ],
+        "posix": 0.3420482529513051
+    }
+}

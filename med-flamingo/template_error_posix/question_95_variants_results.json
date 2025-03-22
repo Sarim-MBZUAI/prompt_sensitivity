@@ -1,0 +1,42 @@
+{
+    "file_name": "question_95_variants.json",
+    "overall_posix": 0.4036218343644366,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5185185185185185,
+            "Variation 2": 0.488,
+            "Variation 3": 0.35377358490566035,
+            "Variation 4": 0.5942492012779552,
+            "Variation 5": 0.5185185185185185,
+            "Variation 6": 0.3015873015873016,
+            "Variation 7": 0.5236363636363637,
+            "Variation 8": 0.32307692307692304,
+            "Variation 9": 0.1607142857142857,
+            "Variation 10": 0.2541436464088398
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n 3.Question:Is the heart enlarged on the CT image? Please choose from the following two options: [yes, no]\n a.Yes\n b.No\n 4.Question",
+                "<s> QUESTION:Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\n A:\n B:\n 2.\n ",
+                "<s> question:Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked:\n [1,2]\n You have marked:\n [1,2]\n 1.Yes\n ",
+                "<s> QUESTION:Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)\n (b)\n   Lung Volumes and\n Capacities\n OBJECTIVES\n \u2022 List the normal values for lung volumes and capacities\n \u2022 Explain the difference between vital capacity and forced vital capacity\n",
+                "<s> Question:Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n 3.Question:Is the heart enlarged on the CT image? Please choose from the following two options: [yes, no]\n a.Yes\n b.No\n 4.Question",
+                "<s> Q:Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]||A:\n<image> B:\n [yes, no]\n C:\n [yes, no]\n D:\n [yes, no]\n E:\n [yes, no]\n 3.15a\n 3.15b\n",
+                "<s> Question:Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The radiograph shows a heart with a normal size.\n 1.The heart is enlarged.\n 2.The heart is not enlarged.\n 1.The heart is enlarged",
+                "<s> Q::: Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> QUESTION\tIs the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n"
+            ]
+        ],
+        "sensitivities": [
+            0.4036218343644366
+        ],
+        "posix": 0.4036218343644366
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_333_variants.json",
+    "overall_posix": 0.43843860607036345,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6378737541528239,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6170212765957447,
+            "Variation 4": 0.5958188153310104,
+            "Variation 5": 0.47120418848167533,
+            "Variation 6": 0.31343283582089554,
+            "Variation 7": 0.2748815165876777,
+            "Variation 8": 0.5807692307692308,
+            "Variation 9": 0.6394984326018809,
+            "Variation 10": 0.2538860103626943
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographically visible pulmonary nodules on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are two nodules in the right lung.\n b. No, there are no nodules in the right lung.\n 10. What is the most likely diagnosis?\n a. Lung cancer\n b",
+                "<s> Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of lung mass lesions present in this radiograph? Please choose from the following two options: [yes, no]\n<image> 1. Lung mass lesions are present.\n 2. Lung mass lesions are not present.\n 1. Lung mass lesions are present.\n 2. Lung mass lesions are not present.\n",
+                "<s> Do the findings on this chest film indicate the presence of lung tumors? Please choose from the following two options: [yes, no]\n<image> a. Yes, lung tumors are present\n b. No, lung tumors are not present\n 3.\n What is the most likely diagnosis?\n a. Lung cancer\n b. Lung abscess\n c. L",
+                "<s> Can any solid pulmonary masses be identified on the provided X-ray image? Please choose from the following two options: [yes, no]\n<image> 2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are there any suspicious foci suggestive of lung cancer visible in this radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray reveal any lung abnormalities that could be attributed to a mass lesion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any indication of lung tumor presence on the provided radiographic image? Please choose from the following two options: [yes, no]\n<image> 11.10.1. Question 11.10.2. Answer 11.10.2. Yes\n The radiographic image shows a tumor in the right lung.\n 11.1",
+                "<s> Are pulmonary masses visible on this chest X-ray that could be of clinical significance? Please choose from the following two options: [yes, no]\n<image> a. Yes, a large mass is present in the right hemithorax\n b. No, no mass is present in the right hemithorax\n 5. What is the most likely diagnosis?\n a. A large mass",
+                "<s> Does the imaging study suggest the presence of lung tumors or mass lesions? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.43843860607036345
+        ],
+        "posix": 0.43843860607036345
+    }
+}

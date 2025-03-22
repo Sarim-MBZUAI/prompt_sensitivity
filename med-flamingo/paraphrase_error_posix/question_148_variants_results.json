@@ -1,0 +1,42 @@
+{
+    "file_name": "question_148_variants.json",
+    "overall_posix": 0.5873904502912296,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6096654275092936,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6765799256505576,
+            "Variation 4": 0.6840148698884758,
+            "Variation 5": 0.6123778501628665,
+            "Variation 6": 0.7434944237918215,
+            "Variation 7": 0.7137546468401487,
+            "Variation 8": 0.5369318181818182,
+            "Variation 9": 0.5721784776902887,
+            "Variation 10": 0.724907063197026
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\n<image> a. Yes, the chest X-ray is normal in appearance.\n b. No, the chest X-ray is abnormal in appearance.\n 10. Please select from the following two options: [yes, no]",
+                "<s> What does the chest X-ray reveal in terms of abnormal findings? Please choose from the following two options: [yes, no]\n<image> A. \u2191\n B. \u2193\n C. \u2191/\u2193\n D. \u2193/\u2191\n E. \u2191/\u2191/\u2191\n 11.What is the most likely diagnosis?\n A.Pneum",
+                "<s> Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\n<image> a. Yes, the chest X-ray is normal in appearance.\n b. No, the chest X-ray is abnormal in appearance.\n 10. Please select from the following two options: [yes, no]",
+                "<s> Is there a normal or abnormal pattern present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray display typical or atypical features for lung health? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any deviating characteristics observed on the chest X-ray that warrant further investigation? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a right-sided pneumothorax\n b. No, there is no pneumothorax\n 3. What is the most likely diagnosis?\n a. Tuberculosis\n b",
+                "<s> Is the appearance of the chest X-ray within normal limits or indicative of a specific condition? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show any signs of lung disease or other abnormalities that are noteworthy? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the overall appearance of the chest X-ray consistent with normal lung anatomy and function? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the overall appearance of the chest X-ray is consistent with normal lung anatomy and function.\n 2.  No, the overall appearance of the chest X-ray is not consistent with normal lung",
+                "<s> Are there any notable changes or alterations visible on the chest X-ray that require attention? Please choose from the following two options: [yes, no]\n<image> a. No, there are no notable changes or alterations visible on the chest X-ray that require attention.\n b. Yes, there are notable changes or alterations visible on the chest X-ray that require attention. Please specify",
+                "<s> Does the chest X-ray display a normal or abnormal pattern of lung expansion and aeration? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.5873904502912296
+        ],
+        "posix": 0.5873904502912296
+    }
+}

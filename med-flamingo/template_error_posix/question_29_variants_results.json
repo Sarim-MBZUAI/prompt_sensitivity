@@ -1,0 +1,42 @@
+{
+    "file_name": "question_29_variants.json",
+    "overall_posix": 0.4068669003486553,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5187713310580204,
+            "Variation 2": 0.3069767441860465,
+            "Variation 3": 0.23267326732673266,
+            "Variation 4": 0.5017182130584192,
+            "Variation 5": 0.29047619047619055,
+            "Variation 6": 0.17647058823529416,
+            "Variation 7": 0.560126582278481,
+            "Variation 8": 0.5187713310580204,
+            "Variation 9": 0.5017182130584192,
+            "Variation 10": 0.4609665427509293
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Q:Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Q:Can calcified granulomas be seen in the right lower lobe? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no]\n Q:Can calc",
+                "<s> q::Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n [yes, no]\n 16\n 16\n 16\n 16\n 16\n 16\n 16\n 16\n 16\n 1",
+                "<s> Question:Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Reasoning:\n Option 1: Calcified granulomas can be seen in the left lower lobe.\n Option 2: Calcified granulomas cannot be",
+                "<s> Q::: Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2\n 1\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 11\n 12\n 13\n 14\n",
+                "<s> question::Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A 48-year-old man presented with a 2-month history of cough and fever. He had no history of travel or exposure to tuberculosis. His chest radiograph showed a calcified",
+                "<s> Q:Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n Q:Can calcified granulomas be seen in the right lower lobe? Please choose from the following two options: [yes, no]\n A:\n B:\n Q:Can calcified granulomas be seen",
+                "<s> Question:Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Reasoning:\n Option 1: Calcified granulomas can be seen in the left lower lobe.\n Option 2: Calcified granulomas cannot be",
+                "<s> question:Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have chosen option 1.The chest radiograph shows a calcified granuloma in the left lower lobe.\n 1."
+            ]
+        ],
+        "sensitivities": [
+            0.4068669003486553
+        ],
+        "posix": 0.4068669003486553
+    }
+}

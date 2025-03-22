@@ -1,0 +1,42 @@
+{
+    "file_name": "question_211_variants.json",
+    "overall_posix": 0.4942746795687972,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2597402597402597,
+            "Variation 2": 0.545751633986928,
+            "Variation 3": 0.5163398692810458,
+            "Variation 4": 0.5,
+            "Variation 5": 0.48692810457516345,
+            "Variation 6": 0.5588235294117647,
+            "Variation 7": 0.4901960784313726,
+            "Variation 8": 0.5,
+            "Variation 9": 0.5326797385620915,
+            "Variation 10": 0.5522875816993464
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Is there any focal airspace disease present",
+                "<s> question:Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n [yes, no]\n 10.Question:Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\n answer:\n [yes,",
+                "<s> Q:Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: 166.1: 166.1: 166.1: 166.1\n 16",
+                "<s> q:Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> Question:Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n\n 10.Question:What is the most likely diagnosis?\n A.Pneumonia\n B.Asthma\n C.Bronchiolitis\n D.Pneumothorax",
+                "<s> QUESTION:Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n [No]\n The patient has a right upper lobe consolidation.\n The patient is a 65-year-old man with a history of diabetes",
+                "<s> QUESTION:Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:\n What is the most likely diagnosis?\n A:\n Acute respiratory distress syndrome\n B:\n Pneumonia\n C:\n Tuberculosis\n",
+                "<s> Question:Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n\n 10.Question:What is the most likely diagnosis?\n A.Pneumonia\n B.Asthma\n C.Bronchiolitis\n D.Pneumothorax",
+                "<s> Question::: Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q::: Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::"
+            ]
+        ],
+        "sensitivities": [
+            0.4942746795687972
+        ],
+        "posix": 0.4942746795687972
+    }
+}

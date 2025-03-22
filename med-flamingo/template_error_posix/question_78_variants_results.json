@@ -1,0 +1,42 @@
+{
+    "file_name": "question_78_variants.json",
+    "overall_posix": 0.3382507756475659,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4971428571428571,
+            "Variation 2": 0.19999999999999996,
+            "Variation 3": 0.4642857142857143,
+            "Variation 4": 0.21304347826086956,
+            "Variation 5": 0.3973509933774835,
+            "Variation 6": 0.4144736842105263,
+            "Variation 7": 0.27091633466135456,
+            "Variation 8": 0.45510835913312686,
+            "Variation 9": 0.21304347826086956,
+            "Variation 10": 0.2571428571428571
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The radiograph shows a 55-year-old man with a history of a fall from a ladder. There are no visible fractures or abnormalities in the bony structures.\n 1",
+                "<s> QUESTION:Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> question:Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\nyes\n Yes, there are fractures in the bony structures.\n 10.Question:Is there any evidence of a fracture in the sternum?\n 11.Question:Is there any evidence of a",
+                "<s> Question:Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> QUESTION\tAre there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The X-ray shows a fracture of the left clavicle (Fig. 1.1.1). The fracture line is clearly visible",
+                "<s> Question::: Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n \u2756\u2756What is the possible diagnosis?\n 1. Fracture of the sternum\n 2. Fracture of the ribs\n 3. Fracture of the vertebrae",
+                "<s> q::Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION:Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, no]\n 10.\n QUESTION:Is there any evidence of a pneumothorax or a pneumomediastinum? Please choose from the following two options:",
+                "<s> Question:Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> Q:Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n 166: Chest X-Ray\n 167\n 167: Chest X-Ray\n Correct Answer: C"
+            ]
+        ],
+        "sensitivities": [
+            0.3382507756475659
+        ],
+        "posix": 0.3382507756475659
+    }
+}

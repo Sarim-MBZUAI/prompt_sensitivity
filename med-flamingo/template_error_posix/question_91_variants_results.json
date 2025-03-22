@@ -1,0 +1,42 @@
+{
+    "file_name": "question_91_variants.json",
+    "overall_posix": 0.35478476527722164,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.44565217391304346,
+            "Variation 2": 0.47017543859649125,
+            "Variation 3": 0.3076923076923077,
+            "Variation 4": 0.15053763440860213,
+            "Variation 5": 0.4862068965517241,
+            "Variation 6": 0.5100671140939598,
+            "Variation 7": 0.29166666666666674,
+            "Variation 8": 0.235,
+            "Variation 9": 0.4208494208494209,
+            "Variation 10": 0.22999999999999998
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tAre there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a fracture of the left 10th rib (arow).\n The fracture is an acute injury and therefore",
+                "<s> Question-Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is there any evidence of a fracture of the sternum?\n [yes, no]\n 11.\n Question-Is there any evidence of a fracture",
+                "<s> q::Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 1",
+                "<s> Q:Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Fractured rib.\n Q:What is the most likely mechanism of injury?\n A:Faling on the left side.\n Q:What",
+                "<s> Q::Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Are there any acute",
+                "<s> Q::: Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21",
+                "<s> QUESTION:Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pulmonary contusion\n B:Pneumothorax\n C:Pneumomediastinum\n D:B",
+                "<s> Question:Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n"
+            ]
+        ],
+        "sensitivities": [
+            0.35478476527722164
+        ],
+        "posix": 0.35478476527722164
+    }
+}

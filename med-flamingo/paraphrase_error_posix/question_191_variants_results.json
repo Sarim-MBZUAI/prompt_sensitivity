@@ -1,0 +1,42 @@
+{
+    "file_name": "question_191_variants.json",
+    "overall_posix": 0.38967319544980317,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.441747572815534,
+            "Variation 2": 0.0,
+            "Variation 3": 0.2954545454545454,
+            "Variation 4": 0.5331125827814569,
+            "Variation 5": 0.3744855967078189,
+            "Variation 6": 0.5392857142857143,
+            "Variation 7": 0.34901960784313724,
+            "Variation 8": 0.5282392026578073,
+            "Variation 9": 0.3282442748091603,
+            "Variation 10": 0.5071428571428571
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show a presence of pneumothorax on the right side? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show a presence of pneumothorax on the right side? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of a pneumothorax on the right hemithorax visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does the chest X-ray show a presence of pneumothorax on the right side? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiograph demonstrate air in the pleural space on the right side, indicating a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visible separation of the lung parenchyma from the chest wall on the right side due to air accumulation, consistent with a pneumothorax on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. ___\n 2. ___\n _\n 3. ___\n 4. ___\n 5. ___\n 6. ___\n 7. ___\n 8. ___\n",
+                "<s> Does the chest radiograph reveal an increased lucency or clarity within the right hemithorax, suggestive of a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n a.\n b.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Is there a pneumothorax evident on the right side based on the presence of air visible along the lung edge and separation from the chest wall on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.2.1.1\n 11.2.1.2\n 11.2.1.3\n 11.2.1.4\n 11.2.1.5\n",
+                "<s> Does the radiographic image show air in the pleural space extending to the periphery on the right side, characteristic of a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visible pneumothorax on the right side of this chest X-ray, characterized by an increased lucency or clarity within the hemithorax due to air accumulation? Please choose from the following two options: [yes, no]\n<image> 1. ___\n 2. ___\n _\n 3. ___\n 4. ___\n 5. ___\n 6. ___\n 7. ___\n 8. ___\n",
+                "<s> Does the chest X-ray demonstrate an increased distance between the lung edge and the chest wall on the right side, indicative of a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of air in the pleural space visible along the lung edge on the right side, consistent with a pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. ___\n 2. ___\n _\n 3. ___\n 4. ___\n 5. ___\n 6. ___\n 7. ___\n 8. ___\n"
+            ]
+        ],
+        "sensitivities": [
+            0.38967319544980317
+        ],
+        "posix": 0.38967319544980317
+    }
+}

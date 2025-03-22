@@ -1,0 +1,189 @@
+{
+    "file_name": "question_396_variants_results.json",
+    "overall_posix": 1.3965778724037712,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4018428799248189,
+            "Variation 2": 0.8874999670563228,
+            "Variation 3": 0.9447545024199558,
+            "Variation 4": 1.5182649618355208,
+            "Variation 5": 0.991631422309621,
+            "Variation 6": 0.7305741717280525,
+            "Variation 7": 1.6556141940789075,
+            "Variation 8": 1.1306469704226898,
+            "Variation 9": 1.645597870907174,
+            "Variation 10": 1.6778748717563798
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray appears to be normal, with no visible abnormalities or damage to the bony structures. ",
+                "The chest x-ray does not show any radiographic signs of bony injury or abnormality. ",
+                "The chest X-ray image appears to be consistent with normal bony anatomy, meaning that there are no visible lesions or abnormalities in the bones shown in the image. ",
+                "The imaging study does not show any abnormalities in the shape, size, or contour of the bony structures within the thorax. ",
+                "Yes, the skeletal elements of the chest appear to be normally formed and positioned on the radiograph. ",
+                "The x-ray image does not show any evidence of bony disruption or fragmentation in the region of interest. ",
+                "The chest x-ray appears to be unremarkable, which means that there are no visible signs of fracture, dislocation, or other trauma-related damage to the bones of the chest. ",
+                "The X-ray findings cannot be explained by normal anatomical variation. Instead, they suggest an underlying pathology affecting the bony structures. ",
+                "The chest x-ray does not show any radiographic features suggestive of bone metastasis, tumor, or other malignant processes. ",
+                "The imaging study shows that the bony components of the thorax appear to be within a normal range of appearance and size. ",
+                "The X-ray image appears to be consistent with known skeletal anatomy and development. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -46.81721119404392,
+                    -56.461440312239574,
+                    -83.20470984335316,
+                    -78.93886427632242,
+                    -84.77383523993194,
+                    -73.59125959640369,
+                    -78.23190057835018,
+                    -99.79686540456896,
+                    -84.12856121799268,
+                    -96.18514732125914,
+                    -85.40833324444066
+                ],
+                [
+                    -60.29418272478506,
+                    -42.67075309702341,
+                    -87.20586345004631,
+                    -83.99924460188777,
+                    -84.55583623226266,
+                    -78.20671921089524,
+                    -82.05225266117486,
+                    -111.25231017859187,
+                    -81.27533597976435,
+                    -98.885580932023,
+                    -94.66490999090456
+                ],
+                [
+                    -61.89884730178892,
+                    -64.34200474572572,
+                    -46.81887631190841,
+                    -84.87703914364101,
+                    -84.41715702106012,
+                    -86.70408937195316,
+                    -89.41610281268368,
+                    -95.80072980374098,
+                    -81.74104644849285,
+                    -98.50585559068713,
+                    -83.5148489700805
+                ],
+                [
+                    -65.98267651878996,
+                    -66.41352250403725,
+                    -92.40267826719901,
+                    -43.539101439229825,
+                    -90.39250539225759,
+                    -84.94274202611996,
+                    -92.08744472871331,
+                    -105.99940170996706,
+                    -87.836949990844,
+                    -82.8188675301135,
+                    -93.96564821820175
+                ],
+                [
+                    -67.0647228466114,
+                    -67.84758148359833,
+                    -96.05010020540249,
+                    -84.42196254851297,
+                    -40.87631222511072,
+                    -88.2373935454525,
+                    -86.72286797853303,
+                    -103.06033675151411,
+                    -89.04751551378286,
+                    -90.65974530452513,
+                    -84.47064484275779
+                ],
+                [
+                    -71.18980579351773,
+                    -69.9510377990955,
+                    -94.10588494983858,
+                    -96.13937346532475,
+                    -97.8863580195466,
+                    -43.511986391284154,
+                    -88.00737909862801,
+                    -105.61578802955046,
+                    -92.57598511671677,
+                    -111.21400558995083,
+                    -84.89389528200809
+                ],
+                [
+                    -66.68538438496762,
+                    -64.53273952379823,
+                    -93.81928628763853,
+                    -85.98838705067465,
+                    -84.80631765257567,
+                    -84.06690279522445,
+                    -45.29864735457704,
+                    -112.91481420898344,
+                    -87.3316544748377,
+                    -98.60383943328634,
+                    -95.0878843766368
+                ],
+                [
+                    -69.55836090332014,
+                    -72.01579569384921,
+                    -82.83947688253284,
+                    -89.89961930236313,
+                    -90.72040652041323,
+                    -84.46820770291379,
+                    -103.34384973674605,
+                    -48.10576678864072,
+                    -89.63290439927368,
+                    -103.19193744088989,
+                    -83.33045292690804
+                ],
+                [
+                    -73.31070339650614,
+                    -69.59192796814023,
+                    -94.17454290731257,
+                    -87.93179135696846,
+                    -91.68289300292963,
+                    -88.84807006607298,
+                    -94.53713103639893,
+                    -113.98392006848007,
+                    -43.289324756394535,
+                    -104.04153985425364,
+                    -95.49547443127449
+                ],
+                [
+                    -68.41201871709563,
+                    -70.16774220281513,
+                    -93.44961926064207,
+                    -67.51296636567031,
+                    -87.96225526573835,
+                    -88.47170369047672,
+                    -97.33880564727588,
+                    -105.79256798380811,
+                    -84.91978887521691,
+                    -45.33132841801796,
+                    -91.40097573559251
+                ],
+                [
+                    -75.2465054122149,
+                    -73.97552563311183,
+                    -81.92085099208816,
+                    -91.81559343344998,
+                    -89.66684907808667,
+                    -80.71057740045944,
+                    -99.89189228604664,
+                    -92.85196016886766,
+                    -91.17033100435219,
+                    -100.24348266271409,
+                    -42.68575604228795
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.3965778724037712
+        ],
+        "posix": 1.3965778724037712
+    }
+}

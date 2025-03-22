@@ -1,0 +1,189 @@
+{
+    "file_name": "question_233_variants.json",
+    "overall_posix": 4.916400996867827,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1713102658589681,
+            "Variation 2": 12.937644347548485,
+            "Variation 3": 10.763481420629164,
+            "Variation 4": 1.1619840283547678,
+            "Variation 5": 2.6048168018460274,
+            "Variation 6": 1.4638475360292378,
+            "Variation 7": 1.0149095596805695,
+            "Variation 8": 8.060867857933044,
+            "Variation 9": 2.0862731909751893,
+            "Variation 10": 1.3826136090034662
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the chest X-ray does not show any signs of a collapsed lung. The image appears to be a normal X-ray of the chest with no obvious abnormalities.",
+                "No, there is no evidence of atelectasis on the chest X-ray. The image shows a normal chest X-ray with the lungs appearing clear and well-expanded.",
+                "Yes, the chest X-ray shows signs of a collapsed lung.",
+                "No, the radiograph does not reveal any indications of lung collapse.",
+                "No, there are no signs of pneumothorax or pleural effusion on the chest X-ray that would suggest lung collapse.",
+                "No, the chest radiograph does not show any mediastinal shift suggestive of a collapsed lung. The mediastinal silhouette appears to be intact and symmetrical, which is typical for a normal chest radiograph.",
+                "No, there is no abnormal opacity or density on the chest X-ray that might indicate lung collapse. The X-ray appears to be normal.",
+                "No, the radiograph does not reveal any features consistent with lung atelectasis, such as a meniscus sign or dark triangle sign.",
+                "No, there are no radiographic signs of lung collapse on the chest X-ray.",
+                "No, the chest X-ray does not show any evidence of volume loss in one lung compared to the other, suggestive of lung collapse. The lungs appear to be of similar size and density, which is typical for a normal chest X-ray",
+                "No, there is no indication on the chest radiograph that would suggest a collapsed lung. The cardiothoracic ratio appears to be normal, and the mediastinal border is not shifted."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -350.80466866493225,
+                    -357.485769033432,
+                    -143.8023591041565,
+                    -167.82548451423645,
+                    -314.78316378593445,
+                    -475.83587515354156,
+                    -302.4976999759674,
+                    -319.3424723148346,
+                    -189.58731150627136,
+                    -455.1183282136917,
+                    -410.2570538520813
+                ],
+                [
+                    -350.80466866493225,
+                    -357.485769033432,
+                    -143.8023591041565,
+                    -167.82548451423645,
+                    -314.78316378593445,
+                    -475.83587515354156,
+                    -302.4976999759674,
+                    -319.3424723148346,
+                    -189.58731150627136,
+                    -455.1183282136917,
+                    -410.2570538520813
+                ],
+                [
+                    -350.80466866493225,
+                    -357.485769033432,
+                    -143.8023591041565,
+                    -167.82548451423645,
+                    -314.78316378593445,
+                    -475.83587515354156,
+                    -302.4976999759674,
+                    -319.3424723148346,
+                    -189.58731150627136,
+                    -455.1183282136917,
+                    -410.2570538520813
+                ],
+                [
+                    -345.36245942115784,
+                    -355.541118144989,
+                    -145.2964596748352,
+                    -157.94401168823242,
+                    -297.12751817703247,
+                    -457.953564286232,
+                    -295.1544601917267,
+                    -299.9597792625427,
+                    -193.3936848640442,
+                    -458.55163872241974,
+                    -418.88623332977295
+                ],
+                [
+                    -362.16511607170105,
+                    -364.4781000614166,
+                    -138.52587747573853,
+                    -162.54064857959747,
+                    -302.04009771347046,
+                    -468.4081758260727,
+                    -319.85552072525024,
+                    -300.4617555141449,
+                    -183.4595286846161,
+                    -473.80225372314453,
+                    -411.20169949531555
+                ],
+                [
+                    -350.5803666114807,
+                    -351.6662428379059,
+                    -130.91211581230164,
+                    -178.50239038467407,
+                    -297.9452110528946,
+                    -480.549436211586,
+                    -309.3199143409729,
+                    -309.55933701992035,
+                    -178.66688978672028,
+                    -455.1275038719177,
+                    -406.868111371994
+                ],
+                [
+                    -356.15579986572266,
+                    -359.056813955307,
+                    -137.37325525283813,
+                    -163.86265981197357,
+                    -321.20349311828613,
+                    -472.8952360153198,
+                    -308.2093548774719,
+                    -323.3608546257019,
+                    -183.43155217170715,
+                    -465.1302754878998,
+                    -428.7854895591736
+                ],
+                [
+                    -330.20070147514343,
+                    -361.03181171417236,
+                    -139.92492294311523,
+                    -162.8554971218109,
+                    -303.5749955177307,
+                    -464.5915310382843,
+                    -311.27567505836487,
+                    -321.5103850364685,
+                    -199.61092519760132,
+                    -452.9788739681244,
+                    -417.5024206638336
+                ],
+                [
+                    -362.16511607170105,
+                    -364.4781000614166,
+                    -138.52587747573853,
+                    -162.54064857959747,
+                    -302.04009771347046,
+                    -468.4081758260727,
+                    -319.85552072525024,
+                    -300.4617555141449,
+                    -183.4595286846161,
+                    -473.80225372314453,
+                    -411.20169949531555
+                ],
+                [
+                    -330.20070147514343,
+                    -361.03181171417236,
+                    -139.92492294311523,
+                    -162.8554971218109,
+                    -303.5749955177307,
+                    -464.5915310382843,
+                    -311.27567505836487,
+                    -321.5103850364685,
+                    -199.61092519760132,
+                    -452.9788739681244,
+                    -417.5024206638336
+                ],
+                [
+                    -353.70865619182587,
+                    -373.3096706867218,
+                    -148.36191582679749,
+                    -168.62124300003052,
+                    -288.6840307712555,
+                    -477.96731638908386,
+                    -313.3510811328888,
+                    -312.83198285102844,
+                    -187.08136510849,
+                    -458.3741410970688,
+                    -417.16511034965515
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.916400996867827
+        ],
+        "posix": 4.916400996867827
+    }
+}

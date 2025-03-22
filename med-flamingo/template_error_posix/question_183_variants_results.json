@@ -1,0 +1,42 @@
+{
+    "file_name": "question_183_variants.json",
+    "overall_posix": 0.34259743296739475,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.22549019607843135,
+            "Variation 2": 0.42164179104477606,
+            "Variation 3": 0.22549019607843135,
+            "Variation 4": 0.26696832579185514,
+            "Variation 5": 0.5098684210526315,
+            "Variation 6": 0.5254777070063694,
+            "Variation 7": 0.4526315789473685,
+            "Variation 8": 0.19587628865979378,
+            "Variation 9": 0.13989637305699487,
+            "Variation 10": 0.46263345195729544
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n 3.\n QUESTION:What is the most likely diagnosis?\n A:",
+                "<s> Question:Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question::: Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q:Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Q:Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no]\n Q:",
+                "<s> Question:Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale:The chest X-ray shows a right-sided pleural effusion. The effusion is not a mass, but it is a radiographic abnormality",
+                "<s> Question-Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n 10\n Question-What is the most likely diagnosis?\n A. Pneumothorax\n B. Pleural effusion\n C. Pulmonary edema\n D. Pneumonia\n E. Tuber",
+                "<s> Q:Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 5:\n 4:\n 3:\n 6:\n 7:\n 2:\n 8:\n 9",
+                "<s> Q:Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Question:Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n 1.10.10  Case 10\n A 55-year-old man presented to the emergency department with a 2-week history of fever, chills, and"
+            ]
+        ],
+        "sensitivities": [
+            0.34259743296739475
+        ],
+        "posix": 0.34259743296739475
+    }
+}

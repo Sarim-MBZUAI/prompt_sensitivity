@@ -1,0 +1,42 @@
+{
+    "file_name": "question_263_variants.json",
+    "overall_posix": 0.3488964665022296,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.47058823529411764,
+            "Variation 2": 0.4204545454545454,
+            "Variation 3": 0.46402877697841727,
+            "Variation 4": 0.41509433962264153,
+            "Variation 5": 0.26940639269406397,
+            "Variation 6": 0.41245136186770426,
+            "Variation 7": 0.30493273542600896,
+            "Variation 8": 0.2857142857142857,
+            "Variation 9": 0.30493273542600896,
+            "Variation 10": 0.1413612565445026
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question-Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n Comments: The chest X-ray shows a normal right hemidiaphragm.\n 10.\n Question-What is the most likely diagnosis?\n A. Pneumonia\n B.",
+                "<s> QUESTION:Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n [No]\n The chest X-ray shows a right-sided diaphragmatic hernia.\n 10.\n QUESTION:",
+                "<s> question:Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes, the chest X-ray shows a right-sided diaphragmatic hernia.\n 2.No, the chest X-ray shows no abnormalities in the diaphrag",
+                "<s> question::Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\nanswer::\n<image> 1.The diaphragm is normal.\n 2.The diaphragm is normal.\n 3.The diaphragm is normal.\n 4.The diaphragm is normal.\n 5",
+                "<s> Question::: Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question:Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 10.\n Question:What is the most likely diagnosis?\n [A]Asthma\n [B]Pneumonia\n [C]Pneumothorax\n [D]P",
+                "<s> q::Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:::Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q::Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9."
+            ]
+        ],
+        "sensitivities": [
+            0.3488964665022296
+        ],
+        "posix": 0.3488964665022296
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_340_variants.json",
+    "overall_posix": 0.3457727481510898,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5,
+            "Variation 2": 0.5166666666666667,
+            "Variation 3": 0.40573770491803285,
+            "Variation 4": 0.44999999999999996,
+            "Variation 5": 0.18085106382978722,
+            "Variation 6": 0.23857868020304562,
+            "Variation 7": 0.3148148148148149,
+            "Variation 8": 0.2952380952380953,
+            "Variation 9": 0.24102564102564106,
+            "Variation 10": 0.3148148148148149
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Are the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n [no]\n Q:Is there any evidence of pulmonary venous hypertension? Please choose from the following two options: [yes, no]\n A:\n [yes]\n [no]\n Q",
+                "<s> QUESTION\tAre the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a normal cardiac silhouette on chest radiograph. The heart size is normal, and the cardiac silhouette is not enlarg",
+                "<s> q:Are the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 16.  A 65-year-old man with a history of hypertension and diabetes presents with a 2-week",
+                "<s> Question:Are the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n 11.\n Question:What is the most likely diagnosis?\n [A]Aortic dissection\n [B]Aortic aneurysm\n [C]Aortic rupture\n",
+                "<s> QUESTION:Are the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2\n 1\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 11\n 12\n 13\n 14\n",
+                "<s> QUESTION:Are the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes]\n [no]\n\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n ",
+                "<s> Q::Are the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> q:::Are the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Are the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21",
+                "<s> q::Are the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::"
+            ]
+        ],
+        "sensitivities": [
+            0.3457727481510898
+        ],
+        "posix": 0.3457727481510898
+    }
+}

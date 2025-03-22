@@ -1,0 +1,42 @@
+{
+    "file_name": "question_356_variants.json",
+    "overall_posix": 0.34895539123599006,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2727272727272727,
+            "Variation 2": 0.40217391304347827,
+            "Variation 3": 0.5015290519877675,
+            "Variation 4": 0.2366071428571428,
+            "Variation 5": 0.4581939799331103,
+            "Variation 6": 0.25,
+            "Variation 7": 0.1298076923076923,
+            "Variation 8": 0.4395973154362416,
+            "Variation 9": 0.490506329113924,
+            "Variation 10": 0.30841121495327095
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::: Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [Yes, no]\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumonia\n B.Pneumothorax\n C.Pneumomediastinum\n D.",
+                "<s> Question:Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The patient is a 55-year-old man with a history of a cough and shortness of breath. The patient is in acute distress.\n 1.What is the most likely",
+                "<s> q::Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n 10.10.10.10.10.1",
+                "<s> Q:Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The patient has a right-sided pneumothorax.\n Q:What is the most likely diagnosis?\n A:Pneumothorax\n Q:What is the most likely cause?\n",
+                "<s> Q:Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Is there",
+                "<s> QUESTION:Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> Question::: Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumothorax\n B. Pulmonary embolism\n C. Pulmonary edema\n D. Pneumonia\n",
+                "<s> Question:Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [no, yes]\n Reason: The patient has a pneumothorax on the left side. The left hemithorax is collapsed, and the lung is not visible.",
+                "<s> Question-Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd"
+            ]
+        ],
+        "sensitivities": [
+            0.34895539123599006
+        ],
+        "posix": 0.34895539123599006
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_11_variants.json",
+    "overall_posix": 3.4649417596158614,
+    "detailed_scores": [
+        {
+            "Variation 1": 7.623329321543376,
+            "Variation 2": 4.922707236730135,
+            "Variation 3": 2.4281820678710937,
+            "Variation 4": 0.470346702848162,
+            "Variation 5": 2.3983744478225706,
+            "Variation 6": 0.6149667922188254,
+            "Variation 7": 2.2789626264572145,
+            "Variation 8": 1.478935956954956,
+            "Variation 9": 2.4154460048675537,
+            "Variation 10": 0.6697547225391164
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no signs of focal consolidation such as pneumonia on the chest X-ray. The image shows a normal chest X-ray with the lungs appearing clear.",
+                "Yes, there is an area of localized lung consolidation visible on the chest radiograph.",
+                "No, there is no focal opacification suggestive of pneumonia present in the chest X-ray.",
+                "Based on the image provided, there is no clear evidence of pulmonary consolidation consistent with an infectious process such as pneumonia. The X-ray appears to show a normal chest X-ray with no significant abnormalities.",
+                "Yes, a pattern of focal lung density can be identified on the chest image that would suggest an infectious or inflammatory process like pneumonia.",
+                "No, there are no radiographic signs of localized lung involvement indicative of a pathologic process like pneumonia in the provided image. The image shows a chest X-ray with a clear view of the lungs, but there are no",
+                "No, the chest X-ray does not display any features of pulmonary consolidation consistent with an acute infectious process such as pneumonia.",
+                "No, a diagnosis of focal lung consolidation, potentially due to pneumonia, cannot be made based on the chest radiograph findings alone. The image shows a chest X-ray with a focal area of increased opacity, which could be",
+                "Yes, there is radiographic evidence of localized lung infection or inflammation visible on the chest X-ray that could suggest pneumonia.",
+                "No, there are no imaging findings suggestive of focal pulmonary disease such as pneumonia present in the provided chest image. The image appears to be a normal chest X-ray with no signs of infection or inflammation.",
+                "Yes, the chest X-ray shows features indicative of localized lung consolidation, which could be consistent with an infectious process like pneumonia."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -379.2936477661133,
+                    -219.2037320137024,
+                    -251.30325961112976,
+                    -500.70275115966797,
+                    -362.8315131664276,
+                    -499.2123701572418,
+                    -358.3847768306732,
+                    -493.241779088974,
+                    -331.9676971435547,
+                    -500.06594800949097,
+                    -356.5219871997833
+                ],
+                [
+                    -388.4756934642792,
+                    -198.17454719543457,
+                    -261.4416651725769,
+                    -495.5582423210144,
+                    -358.22216725349426,
+                    -489.5484142303467,
+                    -352.8467843532562,
+                    -475.5737919807434,
+                    -320.6823444366455,
+                    -496.52754497528076,
+                    -353.1037685871124
+                ],
+                [
+                    -385.87377405166626,
+                    -219.5696473121643,
+                    -253.83223915100098,
+                    -509.4612286090851,
+                    -371.51646995544434,
+                    -490.9359793663025,
+                    -373.9842345714569,
+                    -488.80698823928833,
+                    -330.604531288147,
+                    -514.5336747169495,
+                    -367.92400765419006
+                ],
+                [
+                    -402.45157122612,
+                    -216.0123472213745,
+                    -255.6077175140381,
+                    -493.29765224456787,
+                    -360.91398668289185,
+                    -484.01041984558105,
+                    -348.031457901001,
+                    -466.52447605133057,
+                    -324.6479375362396,
+                    -508.50102949142456,
+                    -341.3119206428528
+                ],
+                [
+                    -372.3741271495819,
+                    -204.71444082260132,
+                    -255.01951122283936,
+                    -472.2959678173065,
+                    -352.79051899909973,
+                    -494.20866775512695,
+                    -345.6378402709961,
+                    -495.3204092979431,
+                    -307.32567405700684,
+                    -501.90705370903015,
+                    -343.05489563941956
+                ],
+                [
+                    -358.4880383014679,
+                    -209.6015191078186,
+                    -260.09900426864624,
+                    -499.45953822135925,
+                    -364.2856731414795,
+                    -502.0605671405792,
+                    -357.2184910774231,
+                    -481.1695046424866,
+                    -333.2938325405121,
+                    -507.56002259254456,
+                    -337.5125198364258
+                ],
+                [
+                    -381.18890738487244,
+                    -202.64108324050903,
+                    -261.19721484184265,
+                    -485.12922954559326,
+                    -358.12428188323975,
+                    -489.8311114311218,
+                    -336.0637526512146,
+                    -480.49126839637756,
+                    -335.8992381095886,
+                    -486.7840647697449,
+                    -343.0247802734375
+                ],
+                [
+                    -358.4880383014679,
+                    -209.6015191078186,
+                    -260.09900426864624,
+                    -499.45953822135925,
+                    -364.2856731414795,
+                    -502.0605671405792,
+                    -357.2184910774231,
+                    -481.1695046424866,
+                    -333.2938325405121,
+                    -507.56002259254456,
+                    -337.5125198364258
+                ],
+                [
+                    -381.18890738487244,
+                    -202.64108324050903,
+                    -261.19721484184265,
+                    -485.12922954559326,
+                    -358.12428188323975,
+                    -489.8311114311218,
+                    -336.0637526512146,
+                    -480.49126839637756,
+                    -335.8992381095886,
+                    -486.7840647697449,
+                    -343.0247802734375
+                ],
+                [
+                    -384.25559639930725,
+                    -201.1008722782135,
+                    -240.92355847358704,
+                    -486.5462996959686,
+                    -357.0875470638275,
+                    -491.5221610069275,
+                    -344.439635515213,
+                    -480.19867634773254,
+                    -318.7601087093353,
+                    -495.3656282424927,
+                    -332.0693356990814
+                ],
+                [
+                    -377.1442427635193,
+                    -208.5188488960266,
+                    -256.6328794956207,
+                    -491.96692991256714,
+                    -354.6224503517151,
+                    -481.52511167526245,
+                    -338.7216172218323,
+                    -481.66448044776917,
+                    -321.3793544769287,
+                    -496.2583875656128,
+                    -339.8227331638336
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.4649417596158614
+        ],
+        "posix": 3.4649417596158614
+    }
+}

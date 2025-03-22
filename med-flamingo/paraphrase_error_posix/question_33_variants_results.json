@@ -1,0 +1,42 @@
+{
+    "file_name": "question_33_variants.json",
+    "overall_posix": 0.3926812978004755,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5193548387096775,
+            "Variation 2": 0.0,
+            "Variation 3": 0.41850220264317173,
+            "Variation 4": 0.2925764192139738,
+            "Variation 5": 0.6623376623376623,
+            "Variation 6": 0.3582677165354331,
+            "Variation 7": 0.2930232558139535,
+            "Variation 8": 0.3861003861003861,
+            "Variation 9": 0.42307692307692313,
+            "Variation 10": 0.5735735735735735
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lung fields of this patient appearing properly aerated on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the lung fields are properly aerated.\n 2. No, the lung fields are not properly aerated.\n 1. Yes, the lung fields are properly aerated.\n 2. No, the lung",
+                "<s> Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the lungs in question appear adequately inflated to suggest normal ventilation on the radiograph? Please choose from the following two options: [yes, no]\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n Fig. 1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are there any noticeable discrepancies between the expected and observed lung inflation patterns on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we confidently say that the lung volumes in this case appear to be within normal limits based on the provided radiographic image? Please choose from the following two options: [yes, no]\n<image> 1.Yes, the lung volumes appear to be within normal limits.\n 2.No, the lung volumes appear to be outside of normal limits.\n 1.Yes, the lung volumes appear to be within normal limits.\n ",
+                "<s> Does the appearance of the lungs in question suggest satisfactory inflation and aeration as compared to standard norms for chest X-rays? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any observable signs of lung deflation or hypo-inflation on this particular radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the lungs in question appear to have sufficient aeration and inflation to support normal respiratory function based on the provided image? Please choose from the following two options: [yes, no]\n<image> 2.\n 1.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any notable compromise in lung inflation or aeration evident on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Can we state with reasonable certainty that the lungs of this patient appear normally inflated and well-aerated based on this radiographic evaluation? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the lungs are well-aerated.\n 2.  No, the lungs are not well-aerated.\n 1.  Yes, the lungs are well-aerated"
+            ]
+        ],
+        "sensitivities": [
+            0.3926812978004755
+        ],
+        "posix": 0.3926812978004755
+    }
+}

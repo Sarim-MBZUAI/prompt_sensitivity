@@ -1,0 +1,42 @@
+{
+    "file_name": "question_117_variants.json",
+    "overall_posix": 0.3685457637496283,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.49828178694158076,
+            "Variation 2": 0.3063063063063063,
+            "Variation 3": 0.5242718446601942,
+            "Variation 4": 0.32608695652173914,
+            "Variation 5": 0.22388059701492535,
+            "Variation 6": 0.2666666666666666,
+            "Variation 7": 0.2512315270935961,
+            "Variation 8": 0.5016949152542373,
+            "Variation 9": 0.287037037037037,
+            "Variation 10": 0.5
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there any indication of pneumothorax in the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n",
+                "<s> q::Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756What is the next step in the management?\n \u2756What are the possible causes of this condition?\n \u2756What are the possible complications of this condition?\n \u2756What",
+                "<s> q:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n 19.What is the most likely diagnosis?\n a:Pneumonia\n b",
+                "<s> Q::: Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n 10.\n 76.\n 77.\n 78.\n 79.\n 80.\n",
+                "<s> Q:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Is there",
+                "<s> question::Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> QUESTION:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Explanation:\n The chest X-ray shows a right-sided pleural effusion.\n The patient is a 65-year-old man with a history of right-sided ple",
+                "<s> q:::Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The chest X-ray shows a right-sided pleural effusion.\n The patient is a 60-year-old man with a history of right-s"
+            ]
+        ],
+        "sensitivities": [
+            0.3685457637496283
+        ],
+        "posix": 0.3685457637496283
+    }
+}

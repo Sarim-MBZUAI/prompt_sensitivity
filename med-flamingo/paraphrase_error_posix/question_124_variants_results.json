@@ -1,0 +1,42 @@
+{
+    "file_name": "question_124_variants.json",
+    "overall_posix": 0.28290418830025005,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.19999999999999996,
+            "Variation 2": 0.151685393258427,
+            "Variation 3": 0.2375690607734806,
+            "Variation 4": 0.5766129032258065,
+            "Variation 5": 0.2222222222222222,
+            "Variation 6": 0.23300970873786409,
+            "Variation 7": 0.15909090909090906,
+            "Variation 8": 0.17368421052631577,
+            "Variation 9": 0.6546546546546547,
+            "Variation 10": 0.2205128205128205
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs free of any focal consolidations? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lungs free of any focal consolidations? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any solid lung lesions visible on imaging? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest CT show absence of focal lung consolidations? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any pulmonary nodules or masses present in the lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of consolidation within the lung parenchyma? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pneumonia\n B.Pleural effusion\n C.Pneumothorax\n D.Atelectasis\n E.Emphysema\n 1",
+                "<s> Can you confirm that the lungs are clear of any ground-glass opacities? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any lung lesions visible on imaging that would indicate a focal consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show no signs of lung consolidations? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lungs free of any focal abnormalities such as nodules or masses? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there complete absence of pulmonary consolidations in the current imaging study? Please choose from the following two options: [yes, no]\n<image> 11. Is there a complete absence of pulmonary consolidations in the current imaging study?\n [yes, no]\n 12. Is there a complete absence of pulmonary consolidations in the current imag",
+                "<s> Can you verify that there are no lung lesions indicating focal consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.28290418830025005
+        ],
+        "posix": 0.28290418830025005
+    }
+}

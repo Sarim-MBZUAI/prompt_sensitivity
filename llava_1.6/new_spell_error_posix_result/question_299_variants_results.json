@@ -1,0 +1,189 @@
+{
+    "file_name": "question_299_variants.json",
+    "overall_posix": 4.669195163777429,
+    "detailed_scores": [
+        {
+            "Variation 1": 4.379706659317017,
+            "Variation 2": 4.111633710861206,
+            "Variation 3": 4.067889588219779,
+            "Variation 4": 4.170620538971641,
+            "Variation 5": 2.5517977388893684,
+            "Variation 6": 2.5701280721398287,
+            "Variation 7": 4.299621230080014,
+            "Variation 8": 4.170620538971641,
+            "Variation 9": 3.2321444318649615,
+            "Variation 10": 2.686099482745659
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no visible pathology in the mediastinum on the X-ray. The image shows a normal mediastinum.",
+                "Yes, there is visible pathology in the mediastinum on the X-ray. There appears to be a mass or lesion in the mediastinum, which is the area between the lungs and the heart. This could be indic",
+                "Based on the X-ray image provided, there is no visible pathology in the mediastinum. The image shows the chest and mediastinum, but there are no signs of abnormalities such as masses, calcifications, or",
+                "Yes, there is visible pathology in the mediastinum on the X-ray.",
+                "No, there is no visible pathology in the mediastinum on the X-ray.",
+                "No, there is no visible pathology in the mediasitnum on the X-ray. The image shows a normal chest X-ray with no signs of abnormalities or diseases.",
+                "No, there is no visible pathology in the mediastinum pn the X-ray. The image shows a normal chest X-ray with no signs of abnormalities or pathology.",
+                "No, there is no visible pathology in the mediastinum on the -ray.",
+                "No, there is no visible pathology in the mediastinum on the X-ray.",
+                "No, there is no visible pathology in the mediastinum on the X-ray. The image shows a normal chest X-ray with no signs of infection, inflammation, or other abnormalities.",
+                "No, there is no visible pathology in the meqdiastinum on the X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -284.60011196136475,
+                    -503.5854449272156,
+                    -490.18179750442505,
+                    -199.1744306087494,
+                    -192.84646010398865,
+                    -389.22381925582886,
+                    -395.1156190633774,
+                    -194.30806612968445,
+                    -192.84646010398865,
+                    -436.51090025901794,
+                    -394.73019075393677
+                ],
+                [
+                    -303.51862144470215,
+                    -476.1539170742035,
+                    -503.27135372161865,
+                    -191.37907338142395,
+                    -204.13619756698608,
+                    -395.1503635644913,
+                    -401.35017943382263,
+                    -192.75843501091003,
+                    -204.13619756698608,
+                    -460.61494982242584,
+                    -395.88413059711456
+                ],
+                [
+                    -295.91459679603577,
+                    -485.78167510032654,
+                    -516.6347560882568,
+                    -194.0155384540558,
+                    -200.01248455047607,
+                    -412.0220031738281,
+                    -425.51869082450867,
+                    -191.31770849227905,
+                    -200.01248455047607,
+                    -459.2151508331299,
+                    -397.63512802124023
+                ],
+                [
+                    -283.47115111351013,
+                    -456.34931668639183,
+                    -498.72835969924927,
+                    -184.32780003547668,
+                    -198.82857394218445,
+                    -383.3445565700531,
+                    -417.9188804626465,
+                    -188.88284611701965,
+                    -198.82857394218445,
+                    -428.54656767845154,
+                    -392.2085220813751
+                ],
+                [
+                    -294.77963042259216,
+                    -490.5777621269226,
+                    -506.08343601226807,
+                    -191.82744598388672,
+                    -194.00591206550598,
+                    -385.661963224411,
+                    -412.9192018508911,
+                    -189.6129331588745,
+                    -194.00591206550598,
+                    -455.755676984787,
+                    -400.29647040367126
+                ],
+                [
+                    -284.60011196136475,
+                    -503.5854449272156,
+                    -490.18179750442505,
+                    -199.1744306087494,
+                    -192.84646010398865,
+                    -389.22381925582886,
+                    -395.1156190633774,
+                    -194.30806612968445,
+                    -192.84646010398865,
+                    -436.51090025901794,
+                    -394.73019075393677
+                ],
+                [
+                    -294.77963042259216,
+                    -490.5777621269226,
+                    -506.08343601226807,
+                    -191.82744598388672,
+                    -194.00591206550598,
+                    -385.661963224411,
+                    -412.9192018508911,
+                    -189.6129331588745,
+                    -194.00591206550598,
+                    -455.755676984787,
+                    -400.29647040367126
+                ],
+                [
+                    -302.3240686058998,
+                    -472.468546628952,
+                    -483.71864199638367,
+                    -183.7416675388813,
+                    -203.77809810638428,
+                    -392.8973140716553,
+                    -408.3064525127411,
+                    -194.010305672884,
+                    -203.77809810638428,
+                    -450.1642978191376,
+                    -366.17023491859436
+                ],
+                [
+                    -284.60011196136475,
+                    -503.5854449272156,
+                    -490.18179750442505,
+                    -199.1744306087494,
+                    -192.84646010398865,
+                    -389.22381925582886,
+                    -395.1156190633774,
+                    -194.30806612968445,
+                    -192.84646010398865,
+                    -436.51090025901794,
+                    -394.73019075393677
+                ],
+                [
+                    -283.47115111351013,
+                    -456.34931668639183,
+                    -498.72835969924927,
+                    -184.32780003547668,
+                    -198.82857394218445,
+                    -383.3445565700531,
+                    -417.9188804626465,
+                    -188.88284611701965,
+                    -198.82857394218445,
+                    -428.54656767845154,
+                    -392.2085220813751
+                ],
+                [
+                    -301.86498618125916,
+                    -470.177903175354,
+                    -506.2132959365845,
+                    -182.10394430160522,
+                    -203.1534640789032,
+                    -405.11680269241333,
+                    -427.23917865753174,
+                    -187.92927742004395,
+                    -203.1534640789032,
+                    -455.98660945892334,
+                    -395.4900188446045
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.669195163777429
+        ],
+        "posix": 4.669195163777429
+    }
+}

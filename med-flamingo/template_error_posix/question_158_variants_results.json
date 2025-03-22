@@ -1,0 +1,42 @@
+{
+    "file_name": "question_158_variants.json",
+    "overall_posix": 0.41897245700682983,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.42950819672131146,
+            "Variation 2": 0.43253968253968256,
+            "Variation 3": 0.4722222222222222,
+            "Variation 4": 0.4347826086956521,
+            "Variation 5": 0.40590405904059046,
+            "Variation 6": 0.4007936507936508,
+            "Variation 7": 0.38888888888888884,
+            "Variation 8": 0.39622641509433965,
+            "Variation 9": 0.42950819672131146,
+            "Variation 10": 0.39935064935064934
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Answers\n [Yes] The X-ray shows a large mass in the right hilar region.\n [No] The X-",
+                "<s> Question:Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe patient has a right-sided pneumothorax.\n \u2022\tThe patient has a right-sided pleural effusion.\n \u2022\tThe patient has a right-sided pneumothorax",
+                "<s> QUESTION:Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question::: Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+                "<s> Q:Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n The X-ray shows a large mass in the right hilar region.\n The mediastinum is the area between the lungs, which contains the heart, great vessels, trachea, esophagus,",
+                "<s> Q::Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A: Tuberculosis\n B: Lymphoma\n C: Sarcoidosis\n D: Lymphoid hyperplasia\n E: Lymph",
+                "<s> Q:Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q:Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 1",
+                "<s> question:Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\nyes\n [Figure 1.1]\n 1.1.1 Question 1.1.2\n 1.1.2 Question\n What is the most likely diagnosis?\n 1.1.3 Question",
+                "<s> Question:Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe patient has a right-sided pneumothorax.\n \u2022\tThe patient has a right-sided pleural effusion.\n \u2022\tThe patient has a right-sided pneumothorax",
+                "<s> QUESTION:Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The chest X-ray shows a large mass in the right hilar region.\n The mediastinum is widened, and the trachea is displaced to the left.\n The l"
+            ]
+        ],
+        "sensitivities": [
+            0.41897245700682983
+        ],
+        "posix": 0.41897245700682983
+    }
+}

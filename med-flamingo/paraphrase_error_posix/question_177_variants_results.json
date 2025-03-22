@@ -1,0 +1,42 @@
+{
+    "file_name": "question_177_variants.json",
+    "overall_posix": 0.5992938801777007,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6967509025270758,
+            "Variation 2": 0.47292418772563183,
+            "Variation 3": 0.5414364640883977,
+            "Variation 4": 0.593167701863354,
+            "Variation 5": 0.5315068493150685,
+            "Variation 6": 0.5756756756756757,
+            "Variation 7": 0.5677966101694916,
+            "Variation 8": 0.7003610108303249,
+            "Variation 9": 0.5263157894736842,
+            "Variation 10": 0.7870036101083032
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, a moderate right-sided pleural effusion\n b. No, a moderate right-sided pleural effusion\n 5. What is the most likely diagnosis?\n a. Tuberculosis",
+                "<s> Is there evidence of pleural fluid accumulation visible on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does this chest X-ray demonstrate the presence of a pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1. Yes, there is a pleural effusion.\n 2. No, there is no pleural effusion.\n 1. Yes, there is a pleural effusion.\n 2. No, there is no",
+                "<s> Can a significant amount of free fluid within the pleural space be identified on this chest image? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a significant amount of free fluid within the pleural space.\n b. No, there is not a significant amount of free fluid within the pleural space.\n 10.\n What is the most likely diagn",
+                "<s> Is there sufficient opacity on this X-ray to suggest the presence of pleural fluid? Please choose from the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2.\n Is there sufficient opacity on this X-ray to suggest the presence of pleural fluid? Please choose from the following two options: [yes, no]\n a. Yes\n b.",
+                "<s> Would you expect to see any notable increase in opacity due to pleural fluid on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a notable increase in opacity due to pleural fluid.\n b. No, there is no notable increase in opacity due to pleural fluid.\n 10. Please select from the following two options: [yes",
+                "<s> Does this chest film demonstrate the characteristic findings associated with a significant pleural effusion? Please choose from the following two options: [yes, no]\n<image> a. No\n b. Yes\n 2.\n Does this chest film demonstrate the characteristic findings associated with a significant pleural effusion? Please choose from the following two options: [yes, no]\n a. No\n b",
+                "<s> Can we confidently say that there is no visible evidence of pleural fluid accumulation on this X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is no visible evidence of pleural fluid accumulation on this X-ray.\n b. No, there is visible evidence of pleural fluid accumulation on this X-ray.\n 10. Please select from",
+                "<s> Is the presence or absence of pleural fluid clearly discernible on this chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Would you expect to see any abnormal density or opacity suggestive of pleural fluid on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a pleural effusion on the right side of the chest.\n b. No, there is no pleural effusion on the right side of the chest.\n 2. What is the most likely",
+                "<s> Does this chest X-ray provide sufficient information to make a definitive statement regarding the presence or absence of pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.1a\n 1.1b\n 1.1c\n 1.1d\n 1.1e\n 1.1f\n 1.1g\n 1.1h\n 1"
+            ]
+        ],
+        "sensitivities": [
+            0.5992938801777007
+        ],
+        "posix": 0.5992938801777007
+    }
+}

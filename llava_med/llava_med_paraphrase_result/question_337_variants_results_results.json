@@ -1,0 +1,189 @@
+{
+    "file_name": "question_337_variants_results.json",
+    "overall_posix": 1.024959328141022,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1055340386593532,
+            "Variation 2": 0.0,
+            "Variation 3": 0.722540200278204,
+            "Variation 4": 0.9195871535401275,
+            "Variation 5": 1.0773392479417925,
+            "Variation 6": 1.605832504084205,
+            "Variation 7": 1.1448429648250626,
+            "Variation 8": 1.016127406619258,
+            "Variation 9": 1.0466083644202482,
+            "Variation 10": 1.1204328766535
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, pulmonary vascularity can be described as increased on a chest X-ray. This means that the blood vessels in the lungs appear more prominent or numerous than usual. Increased pulmonary vascularity can be a sign of",
+                "The chest x-ray does not show any evidence of increased pulmonary vascularity. ",
+                "Yes, pulmonary vascularity can be described as increased on a chest X-ray. This means that the blood vessels in the lungs appear more prominent or numerous than usual. Increased pulmonary vascularity can be a sign of",
+                "Yes, the chest X-ray shows an increase in vascular markings within the lung fields. ",
+                "Yes, the vascular pattern on the chest X-ray is suggestive of increased pulmonary blood flow. ",
+                "No, there is no notable increase in the caliber or number of pulmonary vessels in the chest X-ray. ",
+                "The radiographic appearance in the provided image does not indicate increased vasculature within the lungs. ",
+                "Yes, the chest X-ray is compatible with an increase in lung blood flow, as indicated by enhanced pulmonary vascularity. ",
+                "Yes, the chest X-ray shows a clear increase in vascular markings within the lungs. ",
+                "Yes, the image suggests that there is increased blood flow to the lungs based on the pulmonary vascularity appearance. ",
+                "Yes, the chest X-ray shows more pronounced or extensive pulmonary vascular markings than normal. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -45.24510803918824,
+                    -47.56685688969401,
+                    -45.24510803918824,
+                    -61.86353264558693,
+                    -69.15437403123155,
+                    -75.41060698155843,
+                    -80.57342312904075,
+                    -80.73523994876518,
+                    -68.61603839143118,
+                    -74.55014224295519,
+                    -73.25592995552574
+                ],
+                [
+                    -72.96927172263224,
+                    -42.41323495615086,
+                    -72.96927172263224,
+                    -62.26273584353112,
+                    -67.73429479478955,
+                    -71.92994345036232,
+                    -82.39739305409603,
+                    -80.54895209054848,
+                    -67.4979660725403,
+                    -76.21610498803784,
+                    -71.339173775983
+                ],
+                [
+                    -45.24510803918824,
+                    -47.56685688969401,
+                    -45.24510803918824,
+                    -61.86353264558693,
+                    -69.15437403123155,
+                    -75.41060698155843,
+                    -80.57342312904075,
+                    -80.73523994876518,
+                    -68.61603839143118,
+                    -74.55014224295519,
+                    -73.25592995552574
+                ],
+                [
+                    -87.68280699923872,
+                    -58.15226841335243,
+                    -87.68280699923872,
+                    -41.083436009042316,
+                    -76.775276500166,
+                    -68.85725779278073,
+                    -85.21035348356236,
+                    -85.39862631241522,
+                    -58.751887572761746,
+                    -86.61847159606987,
+                    -73.54111071555417
+                ],
+                [
+                    -81.30734273653377,
+                    -56.40196204880567,
+                    -81.30734273653377,
+                    -64.96249094408176,
+                    -41.8132989211922,
+                    -77.32130506710382,
+                    -85.83003138646018,
+                    -84.64625469598286,
+                    -72.4639343402423,
+                    -80.8635588274301,
+                    -81.90413664305925
+                ],
+                [
+                    -80.49891797586668,
+                    -54.040742377624156,
+                    -80.49891797586668,
+                    -60.17347448089822,
+                    -72.35141874751025,
+                    -42.78360745938869,
+                    -83.48553613643162,
+                    -84.2739730016383,
+                    -67.57745345190597,
+                    -79.73988382681273,
+                    -71.89964751330444
+                ],
+                [
+                    -81.23251694705743,
+                    -54.51333573689408,
+                    -81.23251694705743,
+                    -57.84683900588425,
+                    -68.10451437797565,
+                    -72.91028663551333,
+                    -42.46891033829161,
+                    -86.32013295622164,
+                    -61.505572367372224,
+                    -75.36436217318987,
+                    -77.7130762908273
+                ],
+                [
+                    -77.75190282357255,
+                    -53.231603581988566,
+                    -77.75190282357255,
+                    -65.17344717277138,
+                    -66.10948003886188,
+                    -73.78512575922423,
+                    -85.35399344703183,
+                    -43.30276769357317,
+                    -69.30598256239591,
+                    -74.71953085901623,
+                    -76.75237569748697
+                ],
+                [
+                    -85.8261238206473,
+                    -58.16488131475489,
+                    -85.8261238206473,
+                    -49.071088155460416,
+                    -74.05681762452696,
+                    -71.39769601693843,
+                    -81.05196524306666,
+                    -85.5334651506655,
+                    -41.605632997877336,
+                    -83.12886818568222,
+                    -72.44123574739388
+                ],
+                [
+                    -71.30509988688107,
+                    -50.06046965510359,
+                    -71.30509988688107,
+                    -65.38576357917918,
+                    -61.718836583361735,
+                    -72.12165787266349,
+                    -71.22499488538597,
+                    -73.38543518555082,
+                    -69.36053197205183,
+                    -44.010258789001334,
+                    -77.69203666290764
+                ],
+                [
+                    -86.8045379496017,
+                    -55.87952855345884,
+                    -86.8045379496017,
+                    -58.20803868113626,
+                    -74.02357718907479,
+                    -71.25352055919939,
+                    -80.97887228569016,
+                    -90.57467083078836,
+                    -63.64037394009256,
+                    -82.34220466483748,
+                    -44.465313145283574
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.024959328141022
+        ],
+        "posix": 1.024959328141022
+    }
+}

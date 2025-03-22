@@ -1,0 +1,42 @@
+{
+    "file_name": "question_248_variants.json",
+    "overall_posix": 0.3178263190317931,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.375,
+            "Variation 2": 0.47916666666666674,
+            "Variation 3": 0.496551724137931,
+            "Variation 4": 0.22999999999999998,
+            "Variation 5": 0.2178217821782178,
+            "Variation 6": 0.22277227722772275,
+            "Variation 7": 0.28837209302325584,
+            "Variation 8": 0.3745019920318725,
+            "Variation 9": 0.35121951219512193,
+            "Variation 10": 0.1428571428571428
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes",
+                "<s> question:Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes, there are visible abnormalities in the lungs on the X-ray.\n 2.No, there are no visible abnormalities in the lungs on the X-ray.\n 1.",
+                "<s> Q:Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:What is the most likely diagnosis?\n A:Pulmonary tuberculosis\n Q:What is the most likely cause of the patient\u2019s symptoms?\n A:Pulmonary tubercul",
+                "<s> QUESTION:Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> question::Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n ",
+                "<s> q:Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n 10.2.1.1.1  Answer\n 10",
+                "<s> q:::Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please mark the box corresponding to your answer.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9",
+                "<s> Question::: Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+                "<s> Q:Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9."
+            ]
+        ],
+        "sensitivities": [
+            0.3178263190317931
+        ],
+        "posix": 0.3178263190317931
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_268_variants.json",
+    "overall_posix": 0.3989016824275904,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5135135135135135,
+            "Variation 2": 0.2924528301886793,
+            "Variation 3": 0.44194756554307113,
+            "Variation 4": 0.379746835443038,
+            "Variation 5": 0.5748502994011976,
+            "Variation 6": 0.48070175438596485,
+            "Variation 7": 0.2634146341463415,
+            "Variation 8": 0.5326797385620915,
+            "Variation 9": 0.2549019607843137,
+            "Variation 10": 0.2548076923076923
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question-Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n\n Question-Is there any evidence of acute pulmonary embolism?\n [yes, no]\n Answer\n [yes, no]\n Question-Is there any evidence of acute pulmonary",
+                "<s> q:::Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 11.\n Question:What is the most likely diagnosis?\n A.Pneumonia\n B.Pleural effusion\n C.Pneumothorax\n D.Atelectasis\n E.",
+                "<s> Question:Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes",
+                "<s> Question:Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\nAnswer:\n<image>\nQuestion:Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\n Answer:\n   The patient has no acute abnormalities in the lungs.",
+                "<s> QUESTION\tDoes the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The patient has no acute abnormalities in the lungs. The chest radiograph shows a normal cardiothoracic ratio (0.4",
+                "<s> Q:Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: Quiz\n 166.2: Answer\n A: Yes\n B: No\n 166.3: Quiz\n ",
+                "<s> Q::Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Does the patient have any acute abnormalities in the abdomen? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Does the patient have any acute",
+                "<s> QUESTION:Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 1",
+                "<s> question:Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2."
+            ]
+        ],
+        "sensitivities": [
+            0.3989016824275904
+        ],
+        "posix": 0.3989016824275904
+    }
+}

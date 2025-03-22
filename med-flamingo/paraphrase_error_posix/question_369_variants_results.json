@@ -1,0 +1,42 @@
+{
+    "file_name": "question_369_variants.json",
+    "overall_posix": 0.4958607217009896,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.49013157894736836,
+            "Variation 3": 0.6381578947368421,
+            "Variation 4": 0.2461059190031153,
+            "Variation 5": 0.6480263157894737,
+            "Variation 6": 0.5756578947368421,
+            "Variation 7": 0.6269113149847095,
+            "Variation 8": 0.6348684210526315,
+            "Variation 9": 0.6019736842105263,
+            "Variation 10": 0.49677419354838714
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of lung consolidation on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of lung consolidation on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other abnormalities on the chest X-ray image? Please choose from the following two options: [yes, no]\n 12.  Is there any evidence of a pleural effusion",
+                "<s> Is there evidence of lung consolidation on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other abnormalities on the chest X-ray image? Please choose from the following two options: [yes, no]\n 12.  Is there any evidence of a pleural effusion",
+                "<s> Is there any visible lung consolidation present on this chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.10  Answer\n The patient has a right-sided pneumothorax.\n The right hemithorax is not visible on the X-ray image.\n The right lung is not visible",
+                "<s> Does the chest X-ray show any signs of lung consolidation such as alveolar infiltrates? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pulmonary edema or fluid accumulation visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other abnormalities on this chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Are there any abnormalities on this chest X",
+                "<s> Are there any areas of increased lung density suggestive of consolidation visible on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Is there a clear indication of lung consolidation, such as homogeneous opacification, on this chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 19.1.1.1\n 19.1.1.2\n 19.1.1.3\n 19.1.1.4\n 19.1.1.5\n",
+                "<s> Does this chest X-ray reveal any signs of infectious or inflammatory lung disease characterized by consolidations? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a left lower lobe consolidation.\n b. No, there is no consolidation.\n 4.\n What is the most likely diagnosis?\n a. Pneumonia\n b. T",
+                "<s> Is there visible evidence of atelectasis or collapsed lung tissue on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any abnormal opacities or densities in the lungs suggestive of consolidation visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray image display lung consolidation features such as perihilar opacification? Please choose from the following two options: [yes, no]\n<image> A. Yes\n B. No\n 3.\n Does the chest X-ray image display a pleural effusion? Please choose from the following two options: [yes, no]\n A. Yes\n B. No\n "
+            ]
+        ],
+        "sensitivities": [
+            0.4958607217009896
+        ],
+        "posix": 0.4958607217009896
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_228_variants_results.json",
+    "overall_posix": 0.8364016043311036,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2978447610804551,
+            "Variation 2": 0.0,
+            "Variation 3": 0.872999627722851,
+            "Variation 4": 1.3989626415444845,
+            "Variation 5": 1.0800988100454492,
+            "Variation 6": 0.7987895974804716,
+            "Variation 7": 1.6720608146934086,
+            "Variation 8": 0.894316024991582,
+            "Variation 9": 0.9248893313475719,
+            "Variation 10": 1.2334233908615586
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the pulmonary markings appear to be within normal limits on the chest X-ray. ",
+                "Yes, the pulmonary markings in this chest X-ray appear to be within normal limits. ",
+                "Yes, the pulmonary markings appear to be within normal limits on the chest X-ray. ",
+                "Yes, the pulmonary vascular markings in the chest X-ray appear to be within expected limits for this patient's age group. ",
+                "The lung markings seen on the chest X-ray are consistent with a normal or non-diseased state. ",
+                "Yes, the chest X-ray shows pulmonary vascular markings that are within the expected range for this patient's demographic characteristics. ",
+                "The pulmonary markings in the chest X-ray are not typical for a healthy individual of this age group. The image shows bilateral pulmonary infiltrates, which are abnormal substances or cells that have accumulated in",
+                "The lung markings in the provided image appear to be normal or non-pathological, as they are within the normal range according to standard radiographic criteria. ",
+                "The pulmonary vascular markings in the chest X-ray appear to be normal, which suggests that the patient's lungs are in a healthy or disease-free state. ",
+                "Yes, the chest X-ray shows lung markings that are within normal limits for a patient of this age and sex. ",
+                "The pulmonary vascular markings in the chest X-ray appear to be normal, which suggests that they are typical for a healthy individual without underlying pulmonary disease. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.74883040728264,
+                    -48.89710467321356,
+                    -41.74883040728264,
+                    -70.55781812213672,
+                    -79.52082172898372,
+                    -77.39209113878246,
+                    -82.4870998787867,
+                    -100.27095892155194,
+                    -77.52147140694592,
+                    -67.64573168501465,
+                    -89.85234265088343
+                ],
+                [
+                    -44.16467947031356,
+                    -42.07437798852902,
+                    -44.16467947031356,
+                    -69.28064648824989,
+                    -80.24566058802156,
+                    -77.01013531191938,
+                    -81.63217699706229,
+                    -100.99029352588695,
+                    -76.92637884208807,
+                    -67.20699557904572,
+                    -89.44691426614781
+                ],
+                [
+                    -41.74883040728264,
+                    -48.89710467321356,
+                    -41.74883040728264,
+                    -70.55781812213672,
+                    -79.52082172898372,
+                    -77.39209113878246,
+                    -82.4870998787867,
+                    -100.27095892155194,
+                    -77.52147140694592,
+                    -67.64573168501465,
+                    -89.85234265088343
+                ],
+                [
+                    -58.75510241756717,
+                    -61.390704080305,
+                    -58.75510241756717,
+                    -43.18337671997563,
+                    -82.90757013321127,
+                    -67.31902908803409,
+                    -85.14360998102916,
+                    -103.7001568050473,
+                    -75.52014954345668,
+                    -68.0808623036337,
+                    -84.98634578606766
+                ],
+                [
+                    -56.35370753519237,
+                    -59.71521062175998,
+                    -56.35370753519237,
+                    -73.86454277917073,
+                    -44.023827637563045,
+                    -81.2814440727152,
+                    -87.09963924981821,
+                    -86.10995105323673,
+                    -69.352764679963,
+                    -64.72566001387804,
+                    -80.93416127836156
+                ],
+                [
+                    -63.77939446051232,
+                    -65.15548383359464,
+                    -63.77939446051232,
+                    -59.986747688159994,
+                    -84.28078509594161,
+                    -42.64217256056395,
+                    -92.15320353093102,
+                    -107.89303524095158,
+                    -77.90867889719311,
+                    -63.43176450892952,
+                    -85.62319227147213
+                ],
+                [
+                    -56.433992473719854,
+                    -55.216931015844466,
+                    -56.433992473719854,
+                    -65.78541025944219,
+                    -79.11789084188058,
+                    -80.57930926162032,
+                    -56.23853972815175,
+                    -100.30518239250523,
+                    -75.45507237585343,
+                    -70.4379163583726,
+                    -74.63936392377786
+                ],
+                [
+                    -58.972583498492895,
+                    -63.69497384606075,
+                    -58.972583498492895,
+                    -78.85064725253324,
+                    -72.60538236924913,
+                    -84.40693720525451,
+                    -93.44531652667047,
+                    -52.084129841918184,
+                    -84.31766825584009,
+                    -70.21950993036444,
+                    -93.2419824382032
+                ],
+                [
+                    -61.005037660628545,
+                    -58.83755998168533,
+                    -61.005037660628545,
+                    -69.12445637780633,
+                    -65.29002274902268,
+                    -79.57788239484557,
+                    -87.98015114856287,
+                    -99.77271343037137,
+                    -49.7627239745749,
+                    -72.75799919153542,
+                    -71.51271162084117
+                ],
+                [
+                    -57.34238580768033,
+                    -58.662561177205134,
+                    -57.34238580768033,
+                    -71.15894803619085,
+                    -79.8107760100902,
+                    -72.60045055630462,
+                    -90.03983790356597,
+                    -100.97719672435778,
+                    -81.79177988070478,
+                    -41.68434926042801,
+                    -91.77362643917593
+                ],
+                [
+                    -59.630445042841984,
+                    -60.678823368609756,
+                    -59.630445042841984,
+                    -70.87542338918513,
+                    -74.9764126262744,
+                    -82.38117739051074,
+                    -77.69310884909873,
+                    -94.2530608906236,
+                    -67.64505491857847,
+                    -75.4610860824323,
+                    -46.654223445891716
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8364016043311036
+        ],
+        "posix": 0.8364016043311036
+    }
+}

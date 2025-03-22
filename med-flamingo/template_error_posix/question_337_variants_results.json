@@ -1,0 +1,42 @@
+{
+    "file_name": "question_337_variants.json",
+    "overall_posix": 0.43350745251114364,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5471698113207547,
+            "Variation 2": 0.5860058309037901,
+            "Variation 3": 0.3364928909952607,
+            "Variation 4": 0.375,
+            "Variation 5": 0.46545454545454545,
+            "Variation 6": 0.5753012048192772,
+            "Variation 7": 0.3913043478260869,
+            "Variation 8": 0.24242424242424243,
+            "Variation 9": 0.28436018957345977,
+            "Variation 10": 0.53156146179402
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> question::Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The pulmonary vascularity is increased.\n B: The pulmonary vascularity is not increased.\n 10.\n question::Can pulmonary vascularity be described as decre",
+                "<s> QUESTION:Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n Discussion:\n The chest X-ray demonstrates a right upper lobe mass. The mass is located in the right upper lobe and is adjacent to the right hilum. The mass is well defined and has a",
+                "<s> q:Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> q:::Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question:Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n Correct answer:Yes\n 100% of the time, the chest X-ray shows increased pulmonary vascularity.",
+                "<s> Question:Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The following radiograph is of a 65-year-old man with a history of hypertension and diabetes. He was admitted to the hospital with a 2-day history of fever,",
+                "<s> q::Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16:10\n 16:11\n 16:12\n 16:13\n 16:14\n 16",
+                "<s> QUESTION\tCan pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> QUESTION:Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Can pulmonary vascularity be described as decreased on the chest X-ray? Please choose from the following two options: [yes, no]\n A:\n"
+            ]
+        ],
+        "sensitivities": [
+            0.43350745251114364
+        ],
+        "posix": 0.43350745251114364
+    }
+}

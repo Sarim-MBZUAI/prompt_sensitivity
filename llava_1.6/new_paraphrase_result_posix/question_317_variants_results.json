@@ -1,0 +1,189 @@
+{
+    "file_name": "question_317_variants.json",
+    "overall_posix": 2.360250164970746,
+    "detailed_scores": [
+        {
+            "Variation 1": 4.699121407840563,
+            "Variation 2": 0.133420888115378,
+            "Variation 3": 2.7306065511703492,
+            "Variation 4": 2.4020135617256164,
+            "Variation 5": 4.193074062466621,
+            "Variation 6": 0.5082662421114305,
+            "Variation 7": 0.37381434440612793,
+            "Variation 8": 0.9876303315162659,
+            "Variation 9": 0.8548544781548636,
+            "Variation 10": 0.7792516736423268
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the mediastinum abnormally widened on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the mediastinum on the chest X-ray does not appear to be abnormally widened. It appears to be within normal limits.",
+                "Yes, there is an abnormal increase in mediastinal width visible on the chest X-ray.",
+                "No, the mediastinum on the chest X-ray does not appear to be abnormally widened. It appears to be of normal width.",
+                "No, the mediastinum does not appear enlarged compared to the adjacent structures on the radiograph.",
+                "No, there is no evidence of widening in the central portion of the chest (mediastinum) on the X-ray. The X-ray appears to be a normal chest X-ray with no significant abnormalities.",
+                "No, the mediastinal silhouette on the chest film does not appear to be larger than normal.",
+                "Yes, there is an abnormal increase in the anteroposterior (AP) diameter of the mediastinum visible on the X-ray.",
+                "No, the radiograph does not show a clear enlargement of the central chest compartment. The central chest compartment appears to be of normal size.",
+                "Yes, the mediastinal outline appears to be visibly increased in size compared to the surrounding lung markings on the X-ray.",
+                "No, the radiograph does not demonstrate an abnormal increase in width of the central chest compartment. The central chest compartment appears to be of normal width.",
+                "Yes, there is evidence of mediastinal widening visible on the posterior-anterior (PA) and lateral views of the chest X-ray."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -338.69869315624237,
+                    -230.61890077590942,
+                    -334.1623829603195,
+                    -270.43352937698364,
+                    -458.7993712425232,
+                    -238.06491565704346,
+                    -321.41764092445374,
+                    -351.4083808660507,
+                    -309.0697832107544,
+                    -368.6185998916626,
+                    -312.20413625240326
+                ],
+                [
+                    -337.2238458395004,
+                    -235.9984586238861,
+                    -334.4995712041855,
+                    -256.2005705833435,
+                    -479.24059677124023,
+                    -248.80200672149658,
+                    -311.57278656959534,
+                    -361.49242866039276,
+                    -303.62569999694824,
+                    -378.0096426010132,
+                    -318.7026541233063
+                ],
+                [
+                    -338.69869315624237,
+                    -230.61890077590942,
+                    -334.1623829603195,
+                    -270.43352937698364,
+                    -458.7993712425232,
+                    -238.06491565704346,
+                    -321.41764092445374,
+                    -351.4083808660507,
+                    -309.0697832107544,
+                    -368.6185998916626,
+                    -312.20413625240326
+                ],
+                [
+                    -325.3298554420471,
+                    -238.5702199935913,
+                    -319.99805307388306,
+                    -256.37943935394287,
+                    -468.8132473230362,
+                    -232.37340915203094,
+                    -316.33259081840515,
+                    -360.18367624282837,
+                    -300.55114674568176,
+                    -353.54515528678894,
+                    -342.6197988986969
+                ],
+                [
+                    -322.4416860342026,
+                    -229.3532042503357,
+                    -319.69365680217743,
+                    -244.61825048923492,
+                    -472.20769453048706,
+                    -241.53102004528046,
+                    -321.6905026435852,
+                    -334.84494626522064,
+                    -290.69968593120575,
+                    -339.65796411037445,
+                    -320.73542153835297
+                ],
+                [
+                    -337.2238458395004,
+                    -235.9984586238861,
+                    -334.4995712041855,
+                    -256.2005705833435,
+                    -479.24059677124023,
+                    -248.80200672149658,
+                    -311.57278656959534,
+                    -361.49242866039276,
+                    -303.62569999694824,
+                    -378.0096426010132,
+                    -318.7026541233063
+                ],
+                [
+                    -337.2629117965698,
+                    -233.52400541305542,
+                    -328.82378458976746,
+                    -238.09088802337646,
+                    -480.93071937561035,
+                    -251.9386010169983,
+                    -328.9962012767792,
+                    -337.9454879760742,
+                    -294.16568183898926,
+                    -333.3812372684479,
+                    -324.69230937957764
+                ],
+                [
+                    -345.93235659599304,
+                    -230.73058462142944,
+                    -342.1125543117523,
+                    -259.92607975006104,
+                    -451.9389954805374,
+                    -247.34071958065033,
+                    -327.84628319740295,
+                    -346.80293011665344,
+                    -308.3864207267761,
+                    -357.0620492696762,
+                    -322.86944806575775
+                ],
+                [
+                    -347.64773654937744,
+                    -219.86731624603271,
+                    -342.3339204788208,
+                    -244.40917253494263,
+                    -470.17928194999695,
+                    -257.02272748947144,
+                    -334.0887154340744,
+                    -342.51811838150024,
+                    -297.9882872104645,
+                    -338.82742166519165,
+                    -340.4361231327057
+                ],
+                [
+                    -338.69869315624237,
+                    -230.61890077590942,
+                    -334.1623829603195,
+                    -270.43352937698364,
+                    -458.7993712425232,
+                    -238.06491565704346,
+                    -321.41764092445374,
+                    -351.4083808660507,
+                    -309.0697832107544,
+                    -368.6185998916626,
+                    -312.20413625240326
+                ],
+                [
+                    -337.2629117965698,
+                    -233.52400541305542,
+                    -328.82378458976746,
+                    -238.09088802337646,
+                    -480.93071937561035,
+                    -251.9386010169983,
+                    -328.9962012767792,
+                    -337.9454879760742,
+                    -294.16568183898926,
+                    -333.3812372684479,
+                    -324.69230937957764
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.360250164970746
+        ],
+        "posix": 2.360250164970746
+    }
+}

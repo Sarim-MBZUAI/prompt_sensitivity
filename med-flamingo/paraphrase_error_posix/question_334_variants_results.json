@@ -1,0 +1,42 @@
+{
+    "file_name": "question_334_variants.json",
+    "overall_posix": 0.45768681112454956,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.34183673469387754,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6546961325966851,
+            "Variation 4": 0.4147465437788018,
+            "Variation 5": 0.3405405405405406,
+            "Variation 6": 0.45374449339207046,
+            "Variation 7": 0.4260089686098655,
+            "Variation 8": 0.6319018404907976,
+            "Variation 9": 0.6571428571428571,
+            "Variation 10": 0.65625
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pleural fluid accumulation visible on this chest X-ray? - Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does a pleural effusion appear to be present based on the appearance of the lung fields and costophrenic angles on the provided radiograph? - Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis? - Pneumonia\n 12.What is the most likely cause of the patient\u2019s symptoms? - Atelectasis\n 13.What is the most likely",
+                "<s> Are there signs suggestive of fluid accumulation within the pleural space, as seen on this X-ray? - Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is a pleural effusion visible on the radiographic image provided? - Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Can a significant volume of fluid be inferred to be present in the pleural space based on this chest X-ray? - Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is there clear-cut evidence of fluid accumulation in the pleural spaces as depicted on this radiograph? - Please choose from the following two options: [yes, no]\n<image> 2\n 1\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 11\n 12\n 13\n 14\n 15",
+                "<s> Are there radiographic findings indicative of a substantial pleural effusion, as seen in this image? - Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a moderate-sized pleural effusion on the right side of the chest.\n b. No, there is no pleural effusion on the right side of the chest.\n 4.",
+                "<s> Does a notable accumulation of fluid within the pleural spaces appear to be present based on the X-ray provided? - Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis? - Please choose from the following two options: [pleural effusion, pneumothorax, pneumonia, tuberculosis, emphysema, pulmonary ed",
+                "<s> Are there radiographic features consistent with the presence of significant pleural effusion, as depicted in this image? - Please choose from the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2.\n What is the most likely diagnosis? - Please select from the following two options: [pneumonia, empyema, tuberculosis, lung cancer, sarcoidosis"
+            ]
+        ],
+        "sensitivities": [
+            0.45768681112454956
+        ],
+        "posix": 0.45768681112454956
+    }
+}

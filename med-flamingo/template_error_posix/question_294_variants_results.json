@@ -1,0 +1,42 @@
+{
+    "file_name": "question_294_variants.json",
+    "overall_posix": 0.3311689174035096,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4470198675496688,
+            "Variation 2": 0.4111498257839721,
+            "Variation 3": 0.2821576763485477,
+            "Variation 4": 0.1291866028708134,
+            "Variation 5": 0.4285714285714286,
+            "Variation 6": 0.42647058823529416,
+            "Variation 7": 0.2638297872340425,
+            "Variation 8": 0.22972972972972971,
+            "Variation 9": 0.46081504702194365,
+            "Variation 10": 0.23275862068965514
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:What is the most likely diagnosis?\n A:Pneumonia\n Q:What is the most likely cause of the pneumonia?\n A:Streptococcus pneumoniae\n Q:What",
+                "<s> Q::Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of a pneumothorax?\n A::\n B::\n Q::Is there any evidence of a haemothorax?\n A::\n B::\n Q::Is there any",
+                "<s> q::Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Question:Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe\tX-ray\tshows\ta\tlarge\tleft\tupper\tlobe\tinfiltrate\t(arrow).\n \u2022\tThe\tpatient\tis\tlikely\tto\thave\tacute",
+                "<s> QUESTION:Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe\tX-ray\tshows\ta\tlarge\tleft\tupper\tlobe\tinfiltrate\t(arrow).\n \u2022\tThe\tpatient\tis\tin\tthe\temergency\tde",
+                "<s> q:::Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question::Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Question::: Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Acute pneumonia\n B. Acute bronchitis\n C. Acute exacerbation of chronic obstructive pul",
+                "<s> question:Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n"
+            ]
+        ],
+        "sensitivities": [
+            0.3311689174035096
+        ],
+        "posix": 0.3311689174035096
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_134_variants.json",
+    "overall_posix": 6.152404835137135,
+    "detailed_scores": [
+        {
+            "Variation 1": 18.863240996996563,
+            "Variation 2": 16.002667045593263,
+            "Variation 3": 0.09803173065185547,
+            "Variation 4": 1.6876747989654541,
+            "Variation 5": 17.035050630569458,
+            "Variation 6": 0.036091794967651365,
+            "Variation 7": 1.6876747989654541,
+            "Variation 8": 17.035050630569458,
+            "Variation 9": 17.035050630569458,
+            "Variation 10": 17.035050630569458
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, the pattern does not suggest pulmonary edema. Pulmonary edema typically appears as a hazy, patchy infiltrate in the lungs, which is not visible in this image. The pattern shown",
+                "No, the pattern in the image does not suggest pulmonary edema.",
+                "No, the pattern in the image is not suggestive of pulmonary edema.",
+                "Based on the image provided, the pattern does not suggest pulmonary edema. Pulmonary edema is typically characterized by a hazy, patchy, or diffuse infiltrate, which is not present in this image. The",
+                "No, the pattern in the image does not suggest pulmonary edema. The image shows a chest X-ray with a clear view of the lungs, heart, and ribs. There are no signs of fluid accumulation in the lungs,",
+                "Yes, the pattern in the image is suggestive of pulmonary edema.",
+                "Based on the image provided, the pattern does not appear to be suggestive of pulmonary edema. Pulmonary edema typically presents with a characteristic \"bat wing\" appearance on chest X-rays, which is not visible in this",
+                "No, the pattern in the image does not suggest pulmonary edema. The image shows a chest X-ray with a clear view of the lungs, heart, and ribs. There are no signs of fluid accumulation in the lungs,",
+                "Yes, the pattern in the image is suggestive of pulmonary edema.",
+                "Yes, the pattern in the image is suggestive of pulmonary edema.",
+                "Yes, the pattern in the image is suggestive of pulmonary edema."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -516.5036454200745,
+                    -176.96530747413635,
+                    -196.45030450820923,
+                    -521.4052319526672,
+                    -432.11990547180176,
+                    -192.83768343925476,
+                    -518.308235168457,
+                    -432.11990547180176,
+                    -192.83768343925476,
+                    -192.83768343925476,
+                    -192.83768343925476
+                ],
+                [
+                    -501.80094027519226,
+                    -177.21371793746948,
+                    -186.43651711940765,
+                    -502.96772050857544,
+                    -472.50430059432983,
+                    -178.2013795375824,
+                    -509.70096826553345,
+                    -472.50430059432983,
+                    -178.2013795375824,
+                    -178.2013795375824,
+                    -178.2013795375824
+                ],
+                [
+                    -519.1313836574554,
+                    -183.6659460067749,
+                    -196.61835384368896,
+                    -511.3417184352875,
+                    -458.6907796859741,
+                    -198.49969291687012,
+                    -506.9388084411621,
+                    -458.6907796859741,
+                    -198.49969291687012,
+                    -198.49969291687012,
+                    -198.49969291687012
+                ],
+                [
+                    -501.80094027519226,
+                    -177.21371793746948,
+                    -186.43651711940765,
+                    -502.96772050857544,
+                    -472.50430059432983,
+                    -178.2013795375824,
+                    -509.70096826553345,
+                    -472.50430059432983,
+                    -178.2013795375824,
+                    -178.2013795375824,
+                    -178.2013795375824
+                ],
+                [
+                    -495.6632490158081,
+                    -173.34182858467102,
+                    -181.63291627168655,
+                    -496.06528186798096,
+                    -456.724592089653,
+                    -184.9257105588913,
+                    -491.02563989162445,
+                    -456.724592089653,
+                    -184.9257105588913,
+                    -184.9257105588913,
+                    -184.9257105588913
+                ],
+                [
+                    -485.2663097381592,
+                    -193.97840642929077,
+                    -195.30987095832825,
+                    -503.5465383529663,
+                    -495.34592056274414,
+                    -192.02580308914185,
+                    -492.50872325897217,
+                    -495.34592056274414,
+                    -192.02580308914185,
+                    -192.02580308914185,
+                    -192.02580308914185
+                ],
+                [
+                    -519.1313836574554,
+                    -183.6659460067749,
+                    -196.61835384368896,
+                    -511.3417184352875,
+                    -458.6907796859741,
+                    -198.49969291687012,
+                    -506.9388084411621,
+                    -458.6907796859741,
+                    -198.49969291687012,
+                    -198.49969291687012,
+                    -198.49969291687012
+                ],
+                [
+                    -496.39710903167725,
+                    -177.47493135929108,
+                    -194.07137155532837,
+                    -498.2023413181305,
+                    -467.66961312294006,
+                    -175.52733260393143,
+                    -484.26598715782166,
+                    -467.66961312294006,
+                    -175.52733260393143,
+                    -175.52733260393143,
+                    -175.52733260393143
+                ],
+                [
+                    -519.1313836574554,
+                    -183.6659460067749,
+                    -196.61835384368896,
+                    -511.3417184352875,
+                    -458.6907796859741,
+                    -198.49969291687012,
+                    -506.9388084411621,
+                    -458.6907796859741,
+                    -198.49969291687012,
+                    -198.49969291687012,
+                    -198.49969291687012
+                ],
+                [
+                    -485.2663097381592,
+                    -193.97840642929077,
+                    -195.30987095832825,
+                    -503.5465383529663,
+                    -495.34592056274414,
+                    -192.02580308914185,
+                    -492.50872325897217,
+                    -495.34592056274414,
+                    -192.02580308914185,
+                    -192.02580308914185,
+                    -192.02580308914185
+                ],
+                [
+                    -495.6632490158081,
+                    -173.34182858467102,
+                    -181.63291627168655,
+                    -496.06528186798096,
+                    -456.724592089653,
+                    -184.9257105588913,
+                    -491.02563989162445,
+                    -456.724592089653,
+                    -184.9257105588913,
+                    -184.9257105588913,
+                    -184.9257105588913
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            6.152404835137135
+        ],
+        "posix": 6.152404835137135
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_321_variants.json",
+    "overall_posix": 2.6976933494281097,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.018684759140014648,
+            "Variation 2": 0.21223557472229004,
+            "Variation 3": 0.03955801486968994,
+            "Variation 4": 10.132753353118897,
+            "Variation 5": 0.010460028648376465,
+            "Variation 6": 0.005709090232849121,
+            "Variation 7": 0.3280536842346191,
+            "Variation 8": 9.770597806343666,
+            "Variation 9": 0.9700768613815307,
+            "Variation 10": 0.4825989055633545
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of chronic spinal changes such as osteophytes on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no signs of chronic spinal changes such as osteophytes on the chest X-ray. The image you've provided appears to be a lateral chest X-ray, which is typically used to examine the lungs",
+                "No, there are no visible radiographic signs of chronic spinal degenerative changes, such as osteophyte formation, present on this chest X-ray. The image you've provided is of a chest X-ray, and it",
+                "No, there are no signs of chronic spinal changes such as osteophytes on the chest X-ray. The image you provided is a lateral chest X-ray, which is used to examine the lungs, heart, and bones",
+                "No, the chest X-ray does not show any evidence of chronic spinal joint disease, including calcification or ossification of spinal ligaments, facet joints, or vertebral bodies. The image is focused on the",
+                "No, there are no visible radiographic signs of degenerative changes in the spine on this chest X-ray.",
+                "No, there is no evidence of chronic spinal disc degeneration, including annular calcification, on this chest X-ray. The image you've provided is of a chest X-ray, which is used to examine the lungs and heart",
+                "No, the chest X-ray does not reveal any signs of spinal joint disease, such as calcification or ossification of intervertebral discs, facet joints, or vertebral bodies. The image is",
+                "No, there are no visible radiographic changes suggestive of chronic spinal disc degeneration, including annular calcification or loss of disc height, on this chest X-ray. The image provided is of a chest X-ray, not a",
+                "No, there is no evidence of osteoarthritic changes in the spine on this chest X-ray.",
+                "No, the chest X-ray does not show any signs of degenerative spinal joint disease, including calcification or ossification of spinal ligaments, facet joints, or vertebral bodies. The image provided is focused",
+                "No, there are no visible radiographic changes indicative of chronic spinal degenerative disease on this chest X-ray. The image you provided is of a chest X-ray, and it does not show any signs of spinal degenerative disease"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -477.5441150665283,
+                    -476.6098771095276,
+                    -466.9323363304138,
+                    -479.5220158100128,
+                    -224.2252812385559,
+                    -477.0211136341095,
+                    -477.25866055488586,
+                    -493.9467992782593,
+                    -223.50857210159302,
+                    -526.0479581356049,
+                    -501.67406034469604
+                ],
+                [
+                    -470.6146596670151,
+                    -479.10551941394806,
+                    -478.47445809841156,
+                    -508.0287994146347,
+                    -252.11381828784943,
+                    -472.3806952238083,
+                    -505.1124407052994,
+                    -481.4754306077957,
+                    -235.9767302274704,
+                    -501.6476173400879,
+                    -501.5134584903717
+                ],
+                [
+                    -477.5441150665283,
+                    -476.6098771095276,
+                    -466.9323363304138,
+                    -479.5220158100128,
+                    -224.2252812385559,
+                    -477.0211136341095,
+                    -477.25866055488586,
+                    -493.9467992782593,
+                    -223.50857210159302,
+                    -526.0479581356049,
+                    -501.67406034469604
+                ],
+                [
+                    -484.9751477241516,
+                    -482.5460352897644,
+                    -471.8750162124634,
+                    -517.6158456802368,
+                    -256.0778560638428,
+                    -486.7367286682129,
+                    -492.9378733634949,
+                    -489.60081005096436,
+                    -260.4833884239197,
+                    -529.170401096344,
+                    -511.91052532196045
+                ],
+                [
+                    -505.00889921188354,
+                    -486.7900221347809,
+                    -489.51355266571045,
+                    -512.7868812084198,
+                    -256.1375012397766,
+                    -482.6950373649597,
+                    -512.3974225521088,
+                    -498.88143849372864,
+                    -252.736483335495,
+                    -530.1048929691315,
+                    -518.4003448486328
+                ],
+                [
+                    -465.2032082080841,
+                    -470.4897336959839,
+                    -459.4541563987732,
+                    -494.249792098999,
+                    -234.77065348625183,
+                    -466.8259913921356,
+                    -492.8437876701355,
+                    -497.63544368743896,
+                    -244.69255709648132,
+                    -509.13304567337036,
+                    -497.2365622520447
+                ],
+                [
+                    -440.17019033432007,
+                    -480.9889475107193,
+                    -453.85912466049194,
+                    -500.8195879459381,
+                    -227.1575803756714,
+                    -479.76288962364197,
+                    -502.0620582103729,
+                    -498.1318447589874,
+                    -249.90824937820435,
+                    -536.1694438457489,
+                    -502.1993021965027
+                ],
+                [
+                    -488.4228856563568,
+                    -450.4134614467621,
+                    -495.7029836177826,
+                    -527.7940528392792,
+                    -224.67561411857605,
+                    -481.5662040710449,
+                    -490.4004718065262,
+                    -481.06088984012604,
+                    -239.53843426704407,
+                    -512.3127443790436,
+                    -511.8881856203079
+                ],
+                [
+                    -489.44023036956787,
+                    -489.3500986099243,
+                    -491.48537492752075,
+                    -528.1881537437439,
+                    -243.885888338089,
+                    -475.7862865924835,
+                    -504.4310278892517,
+                    -502.3111642599106,
+                    -261.25123167037964,
+                    -536.6992101669312,
+                    -524.0948548316956
+                ],
+                [
+                    -475.5315339565277,
+                    -485.3862907886505,
+                    -471.15827679634094,
+                    -509.59791231155396,
+                    -253.17720127105713,
+                    -474.4888586997986,
+                    -513.3652629852295,
+                    -498.4602372646332,
+                    -261.10512828826904,
+                    -503.0489706993103,
+                    -515.7241761684418
+                ],
+                [
+                    -479.36123180389404,
+                    -484.4619312286377,
+                    -477.314414024353,
+                    -502.36514115333557,
+                    -247.1567826271057,
+                    -496.24424982070923,
+                    -492.48692631721497,
+                    -492.05604457855225,
+                    -237.21278524398804,
+                    -506.6789742708206,
+                    -521.3477816581726
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.6976933494281097
+        ],
+        "posix": 2.6976933494281097
+    }
+}

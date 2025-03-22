@@ -1,0 +1,42 @@
+{
+    "file_name": "question_299_variants.json",
+    "overall_posix": 0.4038213818443195,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.457516339869281,
+            "Variation 2": 0.3870967741935484,
+            "Variation 3": 0.45084745762711864,
+            "Variation 4": 0.3410138248847927,
+            "Variation 5": 0.4159999999999999,
+            "Variation 6": 0.4181818181818182,
+            "Variation 7": 0.3317972350230415,
+            "Variation 8": 0.3870967741935484,
+            "Variation 9": 0.36866359447004604,
+            "Variation 10": 0.48
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  X-ray of the Chest\n >\n >\n Questions405\n 11.10.2  X-ray of the Chest\n >\n >\n 4",
+                "<s> Q:Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n Q:Is there any visible pathology in the abdomen on the X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [yes]\n Q:Is there any visible",
+                "<s> QUESTION:Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of a cough.\n 1.What is the diagnosis?\n 2.What is the differential diagnosis?\n 3",
+                "<s> Q:Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n 166:  Mediastinal X-rays\n 166A: No\n 166B: No\n 16",
+                "<s> QUESTION:Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n \u2022\tThe\tX-ray\tshows\ta\tmass\tin\tthe\tmediastinum\t(arrow).\n \u2022\tThe\tmass\tis\tvisible\tin\tthe\tmediastinum",
+                "<s> Question::: Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Tuberculosis\n B. Lymphoma\n C. Sarcoidosis\n D. Lymphangioma\n E",
+                "<s> q:Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 18.2.2  Answer\n 18.",
+                "<s> question::Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> q:::Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer:\n [yes]\n The X-ray shows a large mass in the mediastinum, which is clearly visible. The mass is located in the anterior mediastinum, and it is located"
+            ]
+        ],
+        "sensitivities": [
+            0.4038213818443195
+        ],
+        "posix": 0.4038213818443195
+    }
+}

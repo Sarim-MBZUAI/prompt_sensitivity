@@ -1,0 +1,189 @@
+{
+    "file_name": "question_17_variants.json",
+    "overall_posix": 6.099417378860665,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.829798526763916,
+            "Variation 2": 0.9732665205001831,
+            "Variation 3": 1.308827018737793,
+            "Variation 4": 14.331460726888556,
+            "Variation 5": 16.018949354396145,
+            "Variation 6": 13.232094824314117,
+            "Variation 7": 1.332214913368225,
+            "Variation 8": 13.232094824314117,
+            "Variation 9": 14.331460726888556,
+            "Variation 10": 1.1300991916656493
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the patient's heart size abnormal as seen on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the X-ray image provided, it is not possible to accurately determine the size of the patient's heart. The image is a lateral chest X-ray, which is typically used to view the lungs and heart. However, the",
+                "Based on the image provided, it is not possible to accurately determine the size of the patient's heart. The image appears to be a lateral chest X-ray, which is not the best view to assess the size of the heart. Additionally",
+                "Based on the image provided, it is not possible for me to accurately determine if the patient's heart size is abnormal. The image appears to be a lateral chest X-ray, which is a type of X-ray that shows the",
+                "Yes, the patient's heart size appears to be abnormal as seen on the X-ray. The heart is significantly enlarged, which could indicate a condition such as heart failure or another cardiovascular issue. It is important for the",
+                "Yes, the patient's heart size appears abnormal on the X-ray.",
+                "No, the heart size on the X-ray appears to be normal.",
+                "No, the patient's heart size appears to be normal on the X-ray.",
+                "Yes, the patient's heart size appears to be abnormal as seen on the X-ray. The heart is significantly larger than the surrounding structures, which could indicate a condition such as hypertrophic cardiomyopathy or another",
+                "No, the patient's heart size appears to be normal on the X-ray.",
+                "Yes, the patient's heart size appears abnormal on the X-ray.",
+                "Based on the image provided, it is not possible to accurately determine the size of the patient's heart. The image appears to be a chest X-ray, but the resolution and angle of the X-ray make it difficult to discern specific"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -428.60389018058777,
+                    -470.09381651878357,
+                    -477.2672162055969,
+                    -494.0452411174774,
+                    -156.3061363697052,
+                    -156.28175115585327,
+                    -163.96199369430542,
+                    -495.214635848999,
+                    -163.96199369430542,
+                    -156.3061363697052,
+                    -485.10884976387024
+                ],
+                [
+                    -447.9660623073578,
+                    -452.86806988716125,
+                    -451.1559522151947,
+                    -491.0960593223572,
+                    -190.17734289169312,
+                    -165.44819474220276,
+                    -183.54624342918396,
+                    -510.47317695617676,
+                    -183.54624342918396,
+                    -190.17734289169312,
+                    -447.6803894042969
+                ],
+                [
+                    -454.9346203804016,
+                    -468.4081377983093,
+                    -461.5628592967987,
+                    -493.7674403190613,
+                    -170.01066493988037,
+                    -138.074378490448,
+                    -172.29597705602646,
+                    -511.9858465194702,
+                    -172.29597705602646,
+                    -170.01066493988037,
+                    -491.77866315841675
+                ],
+                [
+                    -447.1837818622589,
+                    -461.89465951919556,
+                    -448.93014645576477,
+                    -470.43586802482605,
+                    -171.6221370100975,
+                    -148.44663000106812,
+                    -186.25179648399353,
+                    -495.99836897850037,
+                    -186.25179648399353,
+                    -171.6221370100975,
+                    -470.348032951355
+                ],
+                [
+                    -451.5195095539093,
+                    -455.1680498123169,
+                    -455.90676736831665,
+                    -483.10405826568604,
+                    -184.07954001426697,
+                    -146.35360956192017,
+                    -190.82639718055725,
+                    -496.1823420524597,
+                    -190.82639718055725,
+                    -184.07954001426697,
+                    -460.03833627700806
+                ],
+                [
+                    -454.9346203804016,
+                    -468.4081377983093,
+                    -461.5628592967987,
+                    -493.7674403190613,
+                    -170.01066493988037,
+                    -138.074378490448,
+                    -172.29597705602646,
+                    -511.9858465194702,
+                    -172.29597705602646,
+                    -170.01066493988037,
+                    -491.77866315841675
+                ],
+                [
+                    -447.1837818622589,
+                    -461.89465951919556,
+                    -448.93014645576477,
+                    -470.43586802482605,
+                    -171.6221370100975,
+                    -148.44663000106812,
+                    -186.25179648399353,
+                    -495.99836897850037,
+                    -186.25179648399353,
+                    -171.6221370100975,
+                    -470.348032951355
+                ],
+                [
+                    -424.4812150001526,
+                    -465.79114800691605,
+                    -451.2391691803932,
+                    -503.54128408432007,
+                    -171.63288569450378,
+                    -152.38218772411346,
+                    -180.12140655517578,
+                    -508.91340351104736,
+                    -180.12140655517578,
+                    -171.63288569450378,
+                    -492.97507029771805
+                ],
+                [
+                    -447.9660623073578,
+                    -452.86806988716125,
+                    -451.1559522151947,
+                    -491.0960593223572,
+                    -190.17734289169312,
+                    -165.44819474220276,
+                    -183.54624342918396,
+                    -510.47317695617676,
+                    -183.54624342918396,
+                    -190.17734289169312,
+                    -447.6803894042969
+                ],
+                [
+                    -447.9660623073578,
+                    -452.86806988716125,
+                    -451.1559522151947,
+                    -491.0960593223572,
+                    -190.17734289169312,
+                    -165.44819474220276,
+                    -183.54624342918396,
+                    -510.47317695617676,
+                    -183.54624342918396,
+                    -190.17734289169312,
+                    -447.6803894042969
+                ],
+                [
+                    -447.9660623073578,
+                    -452.86806988716125,
+                    -451.1559522151947,
+                    -491.0960593223572,
+                    -190.17734289169312,
+                    -165.44819474220276,
+                    -183.54624342918396,
+                    -510.47317695617676,
+                    -183.54624342918396,
+                    -190.17734289169312,
+                    -447.6803894042969
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            6.099417378860665
+        ],
+        "posix": 6.099417378860665
+    }
+}

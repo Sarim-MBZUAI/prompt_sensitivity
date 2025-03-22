@@ -1,0 +1,42 @@
+{
+    "file_name": "question_381_variants.json",
+    "overall_posix": 0.3634233445780133,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.221830985915493,
+            "Variation 2": 0.37453183520599254,
+            "Variation 3": 0.42322097378277146,
+            "Variation 4": 0.43939393939393945,
+            "Variation 5": 0.215547703180212,
+            "Variation 6": 0.35580524344569286,
+            "Variation 7": 0.3932584269662922,
+            "Variation 8": 0.42038216560509556,
+            "Variation 9": 0.40823970037453183,
+            "Variation 10": 0.3820224719101124
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Tuberculosis\n B.Lymphoma\n C.Lymphadenitis\n D.Lymphangitis\n E.Lymphedema",
+                "<s> Q::Are there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A: Lymphoma\n B: Tuberculosis\n C: Sarcoidosis\n D: Lymphadenitis\n E: Lymphadenop",
+                "<s> Q:Are there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:What is",
+                "<s> question::Are there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION\tAre there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The X-ray shows a left hilar lymph node calcification. The calcification is not visible on the right side.\n The calcification is not",
+                "<s> Question:Are there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10.\n 10.Question:What is the most likely diagnosis?\n A.Lymphoma\n B.Lymphadenitis\n C.Lymphangitis\n D.Lymph",
+                "<s> Q:Are there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n A 166\n 166A:Yes\n B:No\n C:Yes\n D:No\n E:No\n 16",
+                "<s> q::Are there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n 19\n 18.10.1  Answer 18",
+                "<s> Question:Are there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n The correct answer is [yes, no].\n The X-ray shows a calcified left hilar lymph node.\n The X-ray shows a calc",
+                "<s> Q:Are there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> No\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> q:Are there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n 18.2.1.1  Answer 18.2."
+            ]
+        ],
+        "sensitivities": [
+            0.3634233445780133
+        ],
+        "posix": 0.3634233445780133
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_77_variants.json",
+    "overall_posix": 0.3941939321247208,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2870813397129186,
+            "Variation 2": 0.24378109452736318,
+            "Variation 3": 0.5244299674267101,
+            "Variation 4": 0.4402985074626866,
+            "Variation 5": 0.29032258064516125,
+            "Variation 6": 0.46453900709219864,
+            "Variation 7": 0.4402985074626866,
+            "Variation 8": 0.546583850931677,
+            "Variation 9": 0.4339622641509434,
+            "Variation 10": 0.27064220183486243
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166:Chest X-Ray167\n 166:Chest X-Ray\n ANSWER:\n B\n COMMENT",
+                "<s> QUESTION:Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> Question-Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n\n Question-Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\n Answer\n [yes, no]",
+                "<s> Question:Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Question:What is the most likely diagnosis?\n A.Aortic dissection\n B.Aortic aneurysm\n C.Aortic rupture\n D",
+                "<s> Q::: Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION\tIs the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The chest X-ray shows a right-sided pneumothorax. The right lung is hyperlucent and the left lung is hyperl",
+                "<s> Question:Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Question:What is the most likely diagnosis?\n A.Aortic dissection\n B.Aortic aneurysm\n C.Aortic rupture\n D",
+                "<s> Question:Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The patient has a pulmonary artery sling. This is a rare congenital anomaly in which the pulmonary artery passes between the trachea and es",
+                "<s> QUESTION:Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Aortic dissection\n B:Pulmonary embolism\n C:Pulmonary infarction\n D",
+                "<s> Question::: Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n"
+            ]
+        ],
+        "sensitivities": [
+            0.3941939321247208
+        ],
+        "posix": 0.3941939321247208
+    }
+}

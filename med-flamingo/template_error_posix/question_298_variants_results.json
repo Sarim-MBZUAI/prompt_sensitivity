@@ -1,0 +1,42 @@
+{
+    "file_name": "question_298_variants.json",
+    "overall_posix": 0.435068053697332,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.471830985915493,
+            "Variation 2": 0.43309859154929575,
+            "Variation 3": 0.3951048951048951,
+            "Variation 4": 0.443661971830986,
+            "Variation 5": 0.369718309859155,
+            "Variation 6": 0.46126760563380276,
+            "Variation 7": 0.46126760563380276,
+            "Variation 8": 0.47887323943661975,
+            "Variation 9": 0.4144736842105263,
+            "Variation 10": 0.42138364779874216
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pleural effusion on the chest X-ray?\n 12. Is there any evidence of a pleural effusion on the chest X-ray?\n 13.",
+                "<s> Question:Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, yes]\n [No, no]\n [No, yes]\n [Yes, yes]\n [Yes, no]\n [No, no]\n [No, yes]\n [Yes",
+                "<s> Q:Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   Examination of a patient with a chest X-ray showing a right-sided pleural effusion.\n 116\n   Answer:\n B\n 117\n   From the two options",
+                "<s> q:Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Q:Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: Reproduce the chest X-ray and mark the pleural effusion.\n 166.2: Explain the findings in",
+                "<s> q:::Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question:Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n [score: 1]\n 2.No [score: 0]\n 3.No [score: 0]\n 4.No [score: 0]\n 5.No [",
+                "<s> Q::: Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, yes]\n Explanation:\n The chest X-ray shows a right-sided pleural effusion.\n The patient has a right-sided pleural effusion.\n The",
+                "<s> QUESTION\tDoes the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a large right pleural effusion. The effusion is not visible on the X-ray.\n The patient has a large right pleural eff"
+            ]
+        ],
+        "sensitivities": [
+            0.435068053697332
+        ],
+        "posix": 0.435068053697332
+    }
+}

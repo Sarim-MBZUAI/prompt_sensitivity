@@ -1,0 +1,42 @@
+{
+    "file_name": "question_186_variants.json",
+    "overall_posix": 0.4608473798641043,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.22459893048128343,
+            "Variation 2": 0.5936254980079682,
+            "Variation 3": 0.6082474226804123,
+            "Variation 4": 0.29145728643216073,
+            "Variation 5": 0.5945017182130584,
+            "Variation 6": 0.30000000000000004,
+            "Variation 7": 0.23414634146341462,
+            "Variation 8": 0.42105263157894735,
+            "Variation 9": 0.6818181818181818,
+            "Variation 10": 0.6590257879656161
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient's chest X-ray reveal an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there cardiomegaly apparent on the radiograph provided? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Aortic dissection\n B.Pericardial effusion\n C.Pulmonary embolism\n D.Pneumothorax\n E.",
+                "<s> Can we identify signs of heart enlargement on this X-ray image? Please choose from the following two options: [yes, no]\n<image> 1. Heart enlargement is present.\n 2. Heart enlargement is absent.\n 1. Heart enlargement is present.\n The heart is enlarged in this X-ray image. The heart is en",
+                "<s> Are there features suggestive of left ventricular hypertrophy visible on the CXR? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the dimensions of the cardiac silhouette appear to be greater than expected on this film? Please choose from the following two options: [yes, no]\n<image> 1. The cardiac silhouette is enlarged.\n 2. The cardiac silhouette is not enlarged.\n 3. The cardiac silhouette is not enlarged.\n 4.",
+                "<s> Is there evidence of right atrial or ventricular enlargement evident in this view? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient's X-ray display an abnormal cardiac configuration due to cardiomegaly? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the cardiac borders irregular or enlarged, as viewed on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Can we see any signs of cardiac hypertrophy, including left ventricular enlargement, on the provided image? Please choose from the following two options: [yes, no]\n<image> 1.1. Can we see any signs of cardiac hypertrophy, including left ventricular enlargement, on the provided image? Please choose from the following two options: [yes, no]\n A. No\n",
+                "<s> Is there a notable increase in cardiac size or silhouette dimensions apparent on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there a notable increase in cardiac size or silhouette dimensions apparent on the X-ray?\n 12.  Is there a notable decrease in cardiac size or silhouette dimensions apparent on the X"
+            ]
+        ],
+        "sensitivities": [
+            0.4608473798641043
+        ],
+        "posix": 0.4608473798641043
+    }
+}

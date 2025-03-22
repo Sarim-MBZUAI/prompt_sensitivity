@@ -1,0 +1,42 @@
+{
+    "file_name": "question_205_variants.json",
+    "overall_posix": 0.40258610870133876,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.36180904522613067,
+            "Variation 2": 0.0,
+            "Variation 3": 0.3869346733668342,
+            "Variation 4": 0.39698492462311563,
+            "Variation 5": 0.5206611570247934,
+            "Variation 6": 0.522633744855967,
+            "Variation 7": 0.41584158415841577,
+            "Variation 8": 0.301980198019802,
+            "Variation 9": 0.6497175141242938,
+            "Variation 10": 0.4692982456140351
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a.\n b.\n 16.\n a",
+                "<s> Is there cardiac enlargement visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a.\n b.\n 16.\n a",
+                "<s> Does the chest radiograph show evidence of cardiomegaly? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there significant cardiac silhouette expansion observed on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Are there any findings suggestive of heart hypertrophy or dilation on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\u2002\u2002Cardiothoracic\u2002Ratios\n 11.10.1.1\u2002\u2002Cardiothoracic\u2002Ratio\u2002(CTR)\n The card",
+                "<s> Does this patient's chest X-ray demonstrate cardiac enlargement that is greater than expected for their age and body habitus? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is there an abnormal increase in cardiac silhouette size visible on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Are there any signs of heart enlargement or cardiomegaly evident on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient's chest X-ray show a cardiac silhouette that is disproportionately large compared to their thoracic cage size? Please choose from the following two options: [yes, no]\n<image> 11.  Is the patient's chest X-ray suggestive of a large left atrial enlargement? Please choose from the following two options: [yes, no]\n 12.  Is the patient'",
+                "<s> Is there visible evidence of heart chamber dilation or hypertrophy on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\u2002\u2002Cardiomegaly\n 11.10.2\u2002\u2002Cardiomegaly\n 11.10.3\u2002\u2002Cardiomegaly\n 11.1"
+            ]
+        ],
+        "sensitivities": [
+            0.40258610870133876
+        ],
+        "posix": 0.40258610870133876
+    }
+}

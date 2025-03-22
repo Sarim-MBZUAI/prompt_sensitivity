@@ -1,0 +1,42 @@
+{
+    "file_name": "question_80_variants.json",
+    "overall_posix": 0.3030141015983686,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.213903743315508,
+            "Variation 2": 0.2961165048543689,
+            "Variation 3": 0.17277486910994766,
+            "Variation 4": 0.27586206896551724,
+            "Variation 5": 0.5292096219931272,
+            "Variation 6": 0.20833333333333337,
+            "Variation 7": 0.5241379310344828,
+            "Variation 8": 0.3127962085308057,
+            "Variation 9": 0.3127962085308057,
+            "Variation 10": 0.1842105263157895
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> q:Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 18.\n 19.\n 20.",
+                "<s> Q::: Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n A 166: Answer 166\n A: Yes\n B: No\n C: No\n D: No\n E: Yes\n ",
+                "<s> Question:Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n 11.\n Question:Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no],Answer:\n [yes, no]\n",
+                "<s> QUESTION:Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question-Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 11.\n Question-Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes, no]\n",
+                "<s> Q::Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> q::Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION:Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 2"
+            ]
+        ],
+        "sensitivities": [
+            0.3030141015983686
+        ],
+        "posix": 0.3030141015983686
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_246_variants.json",
+    "overall_posix": 0.3202411397482394,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.24,
+            "Variation 2": 0.1945945945945946,
+            "Variation 3": 0.7428571428571429,
+            "Variation 4": 0.0,
+            "Variation 5": 0.2990196078431373,
+            "Variation 6": 0.1684782608695652,
+            "Variation 7": 0.24,
+            "Variation 8": 0.2690355329949239,
+            "Variation 9": 0.6740947075208914,
+            "Variation 10": 0.374331550802139
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any sign of a collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any sign of a collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show evidence of a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there visualization of lung collapse on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please choose from the following two options: [yes, no]\n<image> [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes",
+                "<s> Is there any sign of a collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the image demonstrate a mediastinal shift away from the side of lung compression? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we see signs of a spontaneous pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the radiographic findings indicate a collapsed lung with resulting atelectasis? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of lung volume loss consistent with pneumothorax on the film? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the provided image show displacement of mediastinal structures away from a side of lung compression? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the mediastinal structures are displaced away from the side of lung compression.\n 2. No, the mediastinal structures are not displaced away from the side of lung compression.\n 1.",
+                "<s> Can we confirm collapse of one or more lung lobes on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1"
+            ]
+        ],
+        "sensitivities": [
+            0.3202411397482394
+        ],
+        "posix": 0.3202411397482394
+    }
+}

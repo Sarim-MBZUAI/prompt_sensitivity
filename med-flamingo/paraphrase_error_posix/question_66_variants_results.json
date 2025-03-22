@@ -1,0 +1,42 @@
+{
+    "file_name": "question_66_variants.json",
+    "overall_posix": 0.5151054684226966,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.12365591397849462,
+            "Variation 2": 0.6655629139072847,
+            "Variation 3": 0.6337209302325582,
+            "Variation 4": 0.17277486910994766,
+            "Variation 5": 0.6735905044510386,
+            "Variation 6": 0.6816901408450704,
+            "Variation 7": 0.6855524079320113,
+            "Variation 8": 0.6184615384615385,
+            "Variation 9": 0.5853658536585366,
+            "Variation 10": 0.3106796116504854
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray demonstrate any evident alveolar consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence of lung lobe involvement? Please choose from the following two options: [yes, no]\n<image> 11.  Is there evidence of a pleural effusion? Please choose from the following two options: [yes, no]\n 12.  Is there evidence of a pneumothorax? Please choose from the following",
+                "<s> Are there notable areas of pulmonary density suggestive of gross consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other notable abnormalities on the chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Are there any other notable abnormalities on the",
+                "<s> Does the chest film reveal discernible signs of lung tissue infiltration? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we see definitive indications of extensive consolidation on the provided chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.1. Can we see definitive indications of extensive consolidation on the provided chest X-ray image? Please choose from the following two options: [yes, no]\n A. No\n B. Yes\n ",
+                "<s> Are there clear radiological findings consistent with significant pulmonary involvement? Please choose from the following two options: [yes, no]\n<image> 11.  Are there clear radiological findings consistent with significant\n gastrointestinal involvement? Please choose from the following two\n options: [yes, no]\n 12.  Are there clear radiological find",
+                "<s> Is there a visible pattern of consolidative changes on the chest X-ray, indicative of gross disease? Please choose from the following two options: [yes, no]\n<image> 11. Is there a visible pattern of consolidative changes on the chest X-ray, indicative of gross disease? Please choose from the following two options: [yes, no]\n 12. Is there a visible",
+                "<s> Does the chest X-ray depict a notable increase in opacity consistent with alveolar filling? Please choose from the following two options: [yes, no]\n<image> 11.  Is the patient\u2019s heart size enlarged? Please choose from the following two options: [yes, no]\n 12.  Is the patient\u2019s heart size enlarged? Please choose from the",
+                "<s> Are the radiographic findings compatible with substantial consolidation or lung lobe infiltration? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pneumonia\n B.Pleural effusion\n C.Pneumothorax\n D.Atelectasis\n E.Lung lobe infil",
+                "<s> Can we determine from the chest film whether there is significant pulmonary involvement? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.5151054684226966
+        ],
+        "posix": 0.5151054684226966
+    }
+}

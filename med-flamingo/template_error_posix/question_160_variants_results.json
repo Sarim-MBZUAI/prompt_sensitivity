@@ -1,0 +1,42 @@
+{
+    "file_name": "question_160_variants.json",
+    "overall_posix": 0.4091306819649871,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.345679012345679,
+            "Variation 2": 0.3090909090909091,
+            "Variation 3": 0.5705882352941176,
+            "Variation 4": 0.4189723320158103,
+            "Variation 5": 0.4555555555555555,
+            "Variation 6": 0.27314814814814814,
+            "Variation 7": 0.2897196261682242,
+            "Variation 8": 0.4810996563573884,
+            "Variation 9": 0.5284810126582279,
+            "Variation 10": 0.4189723320158103
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:\n What is the most likely diagnosis?\n A.\n B.\n C.\n D.\n E.\n 3.\n QUESTION:\n What is the",
+                "<s> q::Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question-Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The patient has streaky and patchy bibasilar opacities.\n The patient has a history of smoking and has a history of chronic obstructive pulmonary disease.\n The patient has a history of chron",
+                "<s> Question:Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n 1.Pulmonary edema\n 2.Pulmonary fibrosis\n 3.Pulmonary hemorrhage",
+                "<s> Q:Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.Q:Does the patient have a right parahilar opacity? Please choose from the following two options: [yes, no]\n A:\n B:\n",
+                "<s> Question::: Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> q:::Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question::Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A. The patient has streaky and patchy bibasilar opacities.\n B. The patient does not have streaky and patchy bibasilar opacities.\n 10.\n 10",
+                "<s> QUESTION:Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Rationale:The patient has bibasilar patchy and streaky opacities. The patient has a history of\n smoking. The patient has a history of smoking.",
+                "<s> Question:Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n 1.Pulmonary edema\n 2.Pulmonary fibrosis\n 3.Pulmonary hemorrhage"
+            ]
+        ],
+        "sensitivities": [
+            0.4091306819649871
+        ],
+        "posix": 0.4091306819649871
+    }
+}

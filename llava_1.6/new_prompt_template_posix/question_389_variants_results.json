@@ -1,0 +1,189 @@
+{
+    "file_name": "question_389_variants.json",
+    "overall_posix": 32.68731536704733,
+    "detailed_scores": [
+        {
+            "Variation 1": 152.00519847869873,
+            "Variation 2": 0.21867695569992066,
+            "Variation 3": 10.541260798772177,
+            "Variation 4": 152.00519847869873,
+            "Variation 5": 0.03607706919960354,
+            "Variation 6": 0.13948874473571776,
+            "Variation 7": 11.92619748737501,
+            "Variation 8": 152.00519847869873,
+            "Variation 9": 0.1268323867217354,
+            "Variation 10": 0.6535157966613769
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it is not possible for me to accurately assess the size of the cardiac silhouette in relation to normal limits. The image is a black and white X-ray, and the quality of the image is not sufficient",
+                "No",
+                "Based on the image provided, it is not possible to accurately determine if the cardiac silhouette size is within normal limits. The image is a black and white X-ray, which may not provide sufficient detail to make an accurate assessment. Additionally",
+                "Yes, the cardiac silhouette size appears to be within normal limits on this chest X-ray.",
+                "No",
+                "Based on the image provided, the cardiac silhouette appears to be within normal limits on this chest X-ray. The size of the cardiac silhouette is consistent with the expected size for an adult.",
+                "Based on the image provided, it is not possible to accurately assess the size of the cardiac silhouette in relation to normal limits. The image is a lateral chest X-ray, which is not the most common view for assessing card",
+                "No, the cardiac silhouette size on this chest X-ray is outside of normal limits.",
+                "No",
+                "Based on the image provided, the cardiac silhouette appears to be within normal limits on this chest X-ray. The size of the cardiac silhouette is consistent with typical anatomical proportions.",
+                "Based on the image provided, the cardiac silhouette appears to be within normal limits. The size of the cardiac silhouette is consistent with what is typically expected for an adult. However, it is important to note that the interpretation of"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -481.8783206939697,
+                    -25.862725257873535,
+                    -492.81216847896576,
+                    -228.8880615234375,
+                    -25.862725257873535,
+                    -480.21877551078796,
+                    -488.8527579307556,
+                    -207.57577848434448,
+                    -25.862725257873535,
+                    -487.71261048316956,
+                    -514.5541105270386
+                ],
+                [
+                    -469.4416205883026,
+                    -26.51411485671997,
+                    -499.85720205307007,
+                    -242.43331623077393,
+                    -26.51411485671997,
+                    -441.8793133497238,
+                    -473.0936110019684,
+                    -224.60591578483582,
+                    -26.51411485671997,
+                    -451.9135607481003,
+                    -508.17649602890015
+                ],
+                [
+                    -488.1989495754242,
+                    -25.07293128967285,
+                    -520.5836119651794,
+                    -243.3668686747551,
+                    -25.07293128967285,
+                    -463.77999317646027,
+                    -491.3796806335449,
+                    -221.76161646842957,
+                    -25.07293128967285,
+                    -475.552468419075,
+                    -509.77656722068787
+                ],
+                [
+                    -478.748416185379,
+                    -27.951131343841553,
+                    -500.78426456451416,
+                    -231.10932397842407,
+                    -27.951131343841553,
+                    -452.4162423610687,
+                    -493.30995893478394,
+                    -215.02545708417892,
+                    -27.951131343841553,
+                    -461.0139844417572,
+                    -508.00986766815186
+                ],
+                [
+                    -478.748416185379,
+                    -27.951131343841553,
+                    -500.78426456451416,
+                    -231.10932397842407,
+                    -27.951131343841553,
+                    -452.4162423610687,
+                    -493.30995893478394,
+                    -215.02545708417892,
+                    -27.951131343841553,
+                    -461.0139844417572,
+                    -508.00986766815186
+                ],
+                [
+                    -475.2842617034912,
+                    -26.520021200180054,
+                    -482.32289457321167,
+                    -220.9433410167694,
+                    -26.520021200180054,
+                    -450.31558108329773,
+                    -480.51001715660095,
+                    -217.4700722694397,
+                    -26.520021200180054,
+                    -459.627822637558,
+                    -490.20552682876587
+                ],
+                [
+                    -475.2842617034912,
+                    -26.520021200180054,
+                    -482.32289457321167,
+                    -220.9433410167694,
+                    -26.520021200180054,
+                    -450.31558108329773,
+                    -480.51001715660095,
+                    -217.4700722694397,
+                    -26.520021200180054,
+                    -459.627822637558,
+                    -490.20552682876587
+                ],
+                [
+                    -488.1989495754242,
+                    -25.07293128967285,
+                    -520.5836119651794,
+                    -243.3668686747551,
+                    -25.07293128967285,
+                    -463.77999317646027,
+                    -491.3796806335449,
+                    -221.76161646842957,
+                    -25.07293128967285,
+                    -475.552468419075,
+                    -509.77656722068787
+                ],
+                [
+                    -478.748416185379,
+                    -27.951131343841553,
+                    -500.78426456451416,
+                    -231.10932397842407,
+                    -27.951131343841553,
+                    -452.4162423610687,
+                    -493.30995893478394,
+                    -215.02545708417892,
+                    -27.951131343841553,
+                    -461.0139844417572,
+                    -508.00986766815186
+                ],
+                [
+                    -488.1989495754242,
+                    -25.07293128967285,
+                    -520.5836119651794,
+                    -243.3668686747551,
+                    -25.07293128967285,
+                    -463.77999317646027,
+                    -491.3796806335449,
+                    -221.76161646842957,
+                    -25.07293128967285,
+                    -475.552468419075,
+                    -509.77656722068787
+                ],
+                [
+                    -488.1989495754242,
+                    -25.07293128967285,
+                    -520.5836119651794,
+                    -243.3668686747551,
+                    -25.07293128967285,
+                    -463.77999317646027,
+                    -491.3796806335449,
+                    -221.76161646842957,
+                    -25.07293128967285,
+                    -475.552468419075,
+                    -509.77656722068787
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            32.68731536704733
+        ],
+        "posix": 32.68731536704733
+    }
+}

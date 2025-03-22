@@ -1,0 +1,42 @@
+{
+    "file_name": "question_299_variants.json",
+    "overall_posix": 0.48715443650172546,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.38955823293172687,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5388127853881278,
+            "Variation 4": 0.5316901408450704,
+            "Variation 5": 0.4746543778801844,
+            "Variation 6": 0.5990783410138248,
+            "Variation 7": 0.5770925110132159,
+            "Variation 8": 0.593607305936073,
+            "Variation 9": 0.5770925110132159,
+            "Variation 10": 0.5899581589958159
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  X-ray of the Chest\n >\n >\n Questions405\n 11.10.2  X-ray of the Chest\n >\n >\n 4",
+                "<s> Is there any visible abnormality within the mediastinal region on the provided X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1. Question 11.10.2. Question 11.10.3. Question 11.10.4. Question 11.10.5. Question",
+                "<s> Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  X-ray of the Chest\n >\n >\n Questions405\n 11.10.2  X-ray of the Chest\n >\n >\n 4",
+                "<s> Are there any notable findings or abnormalities in the mediastinum as visualized on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the X-ray reveal any pathological features within the central compartment of the thoracic cavity (mediastinum)? Please choose from the following two options: [yes, no]\n<image> 15.1  The thoracic cavity\n > Fig. 15.1  The thoracic cavity\n 15.1  The thoracic cavity\n > Fig. 15.2",
+                "<s> Is there evidence of mediastinal pathology on the radiograph provided? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> Does this chest X-ray show any abnormal structures or lesions within the mediastinal region? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any visible signs of disease or abnormality in the central thoracic compartment on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the X-ray reveal any abnormalities within the mediastinum that could be indicative of pathology? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there visible evidence of pathological changes in the central compartment of the chest on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does the provided X-ray show any notable abnormalities or lesions within the mediastinum that require further evaluation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.48715443650172546
+        ],
+        "posix": 0.48715443650172546
+    }
+}

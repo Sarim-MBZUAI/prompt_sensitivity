@@ -1,0 +1,42 @@
+{
+    "file_name": "question_199_variants.json",
+    "overall_posix": 0.48731904907231594,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5704697986577181,
+            "Variation 2": 0.0,
+            "Variation 3": 0.29646017699115046,
+            "Variation 4": 0.6195965417867435,
+            "Variation 5": 0.6648351648351648,
+            "Variation 6": 0.5771604938271605,
+            "Variation 7": 0.638728323699422,
+            "Variation 8": 0.26724137931034475,
+            "Variation 9": 0.6167146974063401,
+            "Variation 10": 0.6219839142091153
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an acute displaced rib fracture according to the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have an acute displaced rib fracture according to the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray reveal evidence of an acute displaced rib fracture in this patient? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the lateral view of the chest X-ray shows a displaced fracture of the right 10th rib (arrow).\n 2. No, the lateral view of the chest X",
+                "<s> Does the patient have an acute displaced rib fracture according to the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic findings suggestive of a fractured rib with displacement on the provided chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the imaging study reveal an acute fracture of one or more ribs, resulting in significant displacement and deformity? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lateral chest radiograph shows a fracture of the right fifth rib (arrow).\n b. No, the lateral chest radiograph shows no fracture of the ribs.\n 2.",
+                "<s> Is there visible evidence on the chest X-ray of a recent traumatic injury to a rib, resulting in its displacement or malalignment? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pleural effusion on the X-ray? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of a pneumothorax on",
+                "<s> Can you confirm the presence of an acute displaced rib fracture based on the provided radiographic images? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the presence of an acute displaced rib fracture is confirmed.\n 2.  No, the presence of an acute displaced rib fracture is not confirmed.\n 1.",
+                "<s> Does the chest X-ray show a clear indication of a rib fracture with significant displacement in this patient? Please choose from the following two options: [yes, no]\n<image> a. Yes, the X-ray shows a fracture of the right 6th rib with significant displacement.\n b. No, the X-ray shows a fracture of the right 6th rib with minimal displacement",
+                "<s> Are there any imaging findings consistent with an acute displaced rib fracture visible on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient's chest X-ray reveal evidence of a significant traumatic injury resulting in one or more displaced rib fractures? Please choose from the following two options: [yes, no]\n<image> 11.  Is the patient's chest X-ray suggestive of a significant traumatic injury resulting in one or more displaced rib fractures?\n [yes, no]\n 12.  Is",
+                "<s> Is there a clear indication on the provided radiograph of an acute displaced rib fracture requiring further evaluation and management? Please choose from the following two options: [yes, no]\n<image> 11.  A 55-year-old male presents to the ED with right-sided chest pain. He reports that he was walking his dog when he suddenly felt a sharp pain in his chest. He is able"
+            ]
+        ],
+        "sensitivities": [
+            0.48731904907231594
+        ],
+        "posix": 0.48731904907231594
+    }
+}

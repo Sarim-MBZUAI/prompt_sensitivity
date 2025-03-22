@@ -1,0 +1,189 @@
+{
+    "file_name": "question_280_variants_results.json",
+    "overall_posix": 0.5686080667998284,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1330444882084769,
+            "Variation 2": 0.12711389139712992,
+            "Variation 3": 0.4302491705646571,
+            "Variation 4": 0.38916594806797394,
+            "Variation 5": 0.0,
+            "Variation 6": 0.8561861798332627,
+            "Variation 7": 0.9124844485353909,
+            "Variation 8": 0.4931554426421808,
+            "Variation 9": 1.008788640570783,
+            "Variation 10": 0.21445474433240483
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest X-ray does not show any signs of congestive heart failure. ",
+                "The chest X-ray does not show any signs suggestive of congestive heart failure. ",
+                "Yes, the chest X-ray shows evidence of congestive heart failure. ",
+                "Yes, the findings on the chest X-ray are consistent with the presence of congestive heart failure. ",
+                "Yes, the chest X-ray shows radiographic features that are consistent with congestive heart failure. ",
+                "The chest X-ray does not show any signs of congestive heart failure. ",
+                "Yes, the imaging findings on the chest X-ray are supportive of a clinical diagnosis of congestive heart failure. ",
+                "Yes, the radiologic findings on the chest X-ray suggest an increased likelihood of congestive heart failure in this patient. ",
+                "Yes, the chest X-ray shows abnormalities that could be associated with congestive heart failure. These abnormalities may include enlargement of the heart, fluid accumulation in the lungs, or other signs that suggest the presence of",
+                "Yes, the imaging study suggests the presence of signs typically seen in patients with congestive heart failure. ",
+                "Yes, the chest X-ray findings suggest that the patient might have developed congestive heart failure. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -43.73048330144047,
+                    -46.657462042026964,
+                    -46.14564723798594,
+                    -54.4867125655569,
+                    -53.07046605507185,
+                    -43.73048330144047,
+                    -67.70369633677183,
+                    -71.1050167575022,
+                    -68.8814108761917,
+                    -68.95019931571005,
+                    -48.87739716541819
+                ],
+                [
+                    -45.93396659104019,
+                    -41.01205551606836,
+                    -45.193812175544736,
+                    -55.96795760301029,
+                    -51.562792397067824,
+                    -45.93396659104019,
+                    -67.78648638954292,
+                    -73.82227386705381,
+                    -68.37946113316502,
+                    -64.23428285401314,
+                    -56.94528305799031
+                ],
+                [
+                    -46.89427653034181,
+                    -50.10585432014159,
+                    -43.92574597980138,
+                    -56.45661285317328,
+                    -53.60381202457074,
+                    -46.89427653034181,
+                    -67.76314737326356,
+                    -72.32685612408022,
+                    -67.76488584468734,
+                    -72.36279508305597,
+                    -49.77524224212402
+                ],
+                [
+                    -48.18679339135542,
+                    -52.281711340247966,
+                    -48.72363186360235,
+                    -39.44614497228167,
+                    -53.58238581047408,
+                    -48.18679339135542,
+                    -62.18835223727001,
+                    -68.88684355690384,
+                    -71.45969142454851,
+                    -68.27579858426179,
+                    -53.15185629120606
+                ],
+                [
+                    -47.62655883876141,
+                    -50.58404936982333,
+                    -46.0420211747969,
+                    -56.51902275462089,
+                    -42.434112630833624,
+                    -47.62655883876141,
+                    -68.25331618310884,
+                    -75.59150095202676,
+                    -66.26898536489989,
+                    -68.69792933725694,
+                    -56.960218508304024
+                ],
+                [
+                    -45.63365097825135,
+                    -48.92512443869691,
+                    -45.779108879651176,
+                    -55.78911630998755,
+                    -48.16908865568985,
+                    -45.63365097825135,
+                    -66.54420173363906,
+                    -74.72192892648036,
+                    -65.49533372161432,
+                    -67.74256164410326,
+                    -57.2332706956513
+                ],
+                [
+                    -51.87275905187562,
+                    -54.78386889986723,
+                    -52.8381205798064,
+                    -52.85494617641007,
+                    -56.572459377733594,
+                    -51.87275905187562,
+                    -41.77783449013236,
+                    -69.14918602185298,
+                    -72.99042096285893,
+                    -70.22765129957679,
+                    -57.30627042194783
+                ],
+                [
+                    -49.3149701264183,
+                    -51.927755059527954,
+                    -50.324814565499764,
+                    -55.13428891956846,
+                    -55.02914305082777,
+                    -49.3149701264183,
+                    -64.13296642720434,
+                    -42.51950986099337,
+                    -71.27285048821432,
+                    -70.19287550228182,
+                    -56.31564439221074
+                ],
+                [
+                    -46.86411000532826,
+                    -50.60723161014175,
+                    -44.028778744022475,
+                    -55.42918501186705,
+                    -50.93795466462461,
+                    -46.86411000532826,
+                    -68.74432333047298,
+                    -73.12162694940162,
+                    -49.18287518317129,
+                    -67.98588294850197,
+                    -59.274601016460565
+                ],
+                [
+                    -52.383017262021895,
+                    -53.83161681616184,
+                    -54.637954947917024,
+                    -60.77783084989642,
+                    -59.0432959793543,
+                    -52.383017262021895,
+                    -67.05196563167647,
+                    -72.92029993321921,
+                    -74.49759191385238,
+                    -39.94031467056175,
+                    -63.812175135622965
+                ],
+                [
+                    -50.62203371167743,
+                    -54.5286914941953,
+                    -51.68300812723464,
+                    -54.413503108188706,
+                    -58.926479880123225,
+                    -50.62203371167743,
+                    -66.9757230495361,
+                    -70.07677564071491,
+                    -70.16111450646713,
+                    -72.11885128932772,
+                    -42.27481596653706
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.5686080667998284
+        ],
+        "posix": 0.5686080667998284
+    }
+}

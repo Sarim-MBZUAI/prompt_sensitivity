@@ -1,0 +1,42 @@
+{
+    "file_name": "question_216_variants.json",
+    "overall_posix": 0.520799629966185,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1292134831460674,
+            "Variation 2": 0.4416243654822335,
+            "Variation 3": 0.6435331230283912,
+            "Variation 4": 0.584192439862543,
+            "Variation 5": 0.5525423728813559,
+            "Variation 6": 0.46411483253588515,
+            "Variation 7": 0.6676136363636364,
+            "Variation 8": 0.4738955823293173,
+            "Variation 9": 0.6322188449848024,
+            "Variation 10": 0.6190476190476191
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray depict any pulmonary nodules or masses? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographically visible lung tumors present on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Please select one of the following: Does the chest film demonstrate any lung lesions? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n Please select one of the following: Does the chest film demonstrate any pleural effusions? Please choose from the following two options: [yes, no]\n 1.\n 2.\n",
+                "<s> What is the radiographic appearance of the lungs in terms of nodular or mass-like lesions on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Nodular lesions\n 2. Mass-like lesions\n 2. Mass-like lesions\n 1. Nodular lesions\n 2. Mass-like lesions\n 1. Nod",
+                "<s> Does the chest image reveal any lung abnormalities that would be considered masses or nodules? Please choose from the following two options: [yes, no]\n<image> 1.Yes, I see a nodule in the right lower lobe.\n 2.No, I do not see any nodules or masses in the lungs.\n 3.Yes, I see a nodule in the",
+                "<s> Select either \"yes\" or \"no\": Are there discernible lung tumors visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.",
+                "<s> Choose one of the following options: Is there a visible lung lesion or mass evident on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  Is there a visible lung lesion or mass evident on this chest radiograph?\n Please choose from the following two options: [yes, no]\n 12.  Is there a visible lung lesion or",
+                "<s> Please answer either \"yes\" or \"no\": Does the chest film show any lung abnormalities that would be categorized as masses or nodules? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Select from the two provided options: Are lung masses or nodules visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Are lung masses or nodules visible on this chest X-ray?\n 2. Are there any lung masses or nodules visible on this chest X-ray?\n 1. Are lung masses or nodules visible",
+                "<s> What is your assessment regarding the presence of lung lesions or masses on this chest image? Please choose from the following two options: [yes, no]\n<image> 1. Lung lesions or masses are present.\n 2. Lung lesions or masses are not present.\n 1. Lung lesions or masses are present.\n 2. Lung lesions or masses are"
+            ]
+        ],
+        "sensitivities": [
+            0.520799629966185
+        ],
+        "posix": 0.520799629966185
+    }
+}

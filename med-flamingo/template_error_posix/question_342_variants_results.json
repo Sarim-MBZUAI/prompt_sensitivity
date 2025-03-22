@@ -1,0 +1,42 @@
+{
+    "file_name": "question_342_variants.json",
+    "overall_posix": 0.4640870510855182,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.39158576051779936,
+            "Variation 2": 0.5052631578947369,
+            "Variation 3": 0.49122807017543857,
+            "Variation 4": 0.4631578947368421,
+            "Variation 5": 0.512280701754386,
+            "Variation 6": 0.4526315789473685,
+            "Variation 7": 0.4738461538461538,
+            "Variation 8": 0.4245614035087719,
+            "Variation 9": 0.4736842105263157,
+            "Variation 10": 0.4526315789473685
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\n<image> a. Yes, the chest X-ray is indicative of acute cardiopulmonary disease.\n b. No, the chest X-ray is not indicative of acute cardiopulmonary disease.\n ",
+                "<s> Question:Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please select from the following two options: [yes, no]\n 1.Yes\n 2.No\n Question:Is the chest X-ray indicative of any acute cardiopulmonary",
+                "<s> question::Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 11\n 12\n 13\n 14\n 1",
+                "<s> Q:Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Q:Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n E:\n R:\n D:\n E:\n L:\n U:\n X:\n F:\n Y:\n G:\n 166\n Q:What is the most",
+                "<s> Q::: Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)Yes\n (b)No\n 10.Question:What is the most likely diagnosis?\n (a)Pneumonia\n (b)Asthma\n (c)Acute bronchitis\n (",
+                "<s> Question::: Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: No\n Option 2: Yes\n Discussion:\n The chest X-ray is normal. The cardiac silhouette is normal. The lung fields are clear. The heart size is normal. The cardiac",
+                "<s> question:Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n Correct answer:Yes\n 100% of users surveyed answered correctly.\n The chest X-ray is indicative of acute",
+                "<s> q::Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)Yes\n (b)No\n 10.Question:What is the most likely diagnosis?\n (a)Pneumonia\n (b)Asthma\n (c)Acute bronchitis\n ("
+            ]
+        ],
+        "sensitivities": [
+            0.4640870510855182
+        ],
+        "posix": 0.4640870510855182
+    }
+}

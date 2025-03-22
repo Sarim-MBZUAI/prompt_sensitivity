@@ -1,0 +1,42 @@
+{
+    "file_name": "question_156_variants.json",
+    "overall_posix": 0.5970302928285651,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6428571428571429,
+            "Variation 2": 0.5515873015873016,
+            "Variation 3": 0.5442622950819672,
+            "Variation 4": 0.623015873015873,
+            "Variation 5": 0.6984126984126984,
+            "Variation 6": 0.46579804560260585,
+            "Variation 7": 0.5555555555555556,
+            "Variation 8": 0.6785714285714286,
+            "Variation 9": 0.6190476190476191,
+            "Variation 10": 0.5911949685534591
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\n<image> a. Yes, the chest X-ray is clear of any acute abnormalities.\n b. No, the chest X-ray shows a right-sided pneumothorax.\n 10. What is",
+                "<s> Is there any evidence of cardiopulmonary disease on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray reveal any acute thoracic pathology? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographic signs of respiratory distress visible in this image? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are signs of respiratory distress\n b. No, there are no signs of respiratory distress\n 5. What is the most likely diagnosis?\n a. Pneumothorax\n b",
+                "<s> Please confirm whether this chest X-ray is unremarkable. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you identify any abnormalities on the anterior-posterior projection of the chest? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the lung parenchyma clear of any notable pathologies as seen on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.Yes, the lung parenchyma is clear of any notable pathologies.\n 2.No, the lung parenchyma is not clear of any notable pathologies.\n 1.Yes, the lung paren",
+                "<s> Does this image show evidence of normal thoracic anatomy? Please choose from the following two options: [yes, no]\n<image> 1. Normal thoracic anatomy.\n 2. Abnormal thoracic anatomy.\n 1. Normal thoracic anatomy.\n 2. Abnormal thoracic anatomy.\n",
+                "<s> Are there any visible signs of respiratory compromise in this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please verify whether the mediastinum appears normal. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you confirm that the diaphragm is at a normal position and shape on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. The diaphragm is at a normal position and shape.\n 2. The diaphragm is not at a normal position and shape.\n 1. The diaphragm is at a normal position and shape"
+            ]
+        ],
+        "sensitivities": [
+            0.5970302928285651
+        ],
+        "posix": 0.5970302928285651
+    }
+}

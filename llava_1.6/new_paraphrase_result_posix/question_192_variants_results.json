@@ -1,0 +1,189 @@
+{
+    "file_name": "question_192_variants.json",
+    "overall_posix": 15.521591818117017,
+    "detailed_scores": [
+        {
+            "Variation 1": 4.636852515710367,
+            "Variation 2": 42.184297482172646,
+            "Variation 3": 0.0,
+            "Variation 4": 6.10860583490255,
+            "Variation 5": 6.1125561684370044,
+            "Variation 6": 5.70789832335252,
+            "Variation 7": 7.123652606010437,
+            "Variation 8": 5.630940450562371,
+            "Variation 9": 6.89204432964325,
+            "Variation 10": 7.150562233924866
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the lungs do not appear to be fully expanded in this image.",
+                "No, the lung fields are not completely unfolded on imaging. The image shows a lateral chest X-ray, and the lung fields are not fully expanded.",
+                "No",
+                "No, the lungs do not appear to be fully expanded in this image.",
+                "No, the lungs in the image do not appear to be fully inflated. The radiograph shows a partial view of the chest, and the lungs are not fully expanded, which is typical for a lateral chest X-ray.",
+                "No, the lung hemispheres do not appear fully expanded and symmetrical in diameter. The right lung hemisphere appears to be more expanded than the left lung hemisphere.",
+                "No, the lungs are not completely distended with air. There are areas of atelectasis, which is a condition where a portion of the lung is not inflated with air.",
+                "No, the lung fields in the image do not show normal expansion. The lung fields appear to be compressed, which could indicate a condition such as lung fibrosis or a restrictive lung disease. It is important to note that this is a",
+                "No, there are no notable differences in lung expansion between the right and left hemithoraces in this image. Both lungs appear to be of similar size and density.",
+                "No, the image shows a chest X-ray with one lung appearing fully expanded, while the other lung appears to be partially collapsed or compressed. This could be due to various reasons, such as a lung infection, injury, or other medical conditions",
+                "No, there is no evidence of full lung inflation in this image. The lungs appear to be partially inflated, with some areas of the lungs appearing to be less dense than others. This could indicate a compromise in airway patency or paren"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -153.41717648506165,
+                    -324.9807195663452,
+                    -26.8642840385437,
+                    -153.41717648506165,
+                    -452.73886239528656,
+                    -397.9194232225418,
+                    -376.02521109580994,
+                    -509.5998067855835,
+                    -356.131032705307,
+                    -498.0193929672241,
+                    -510.94528818130493
+                ],
+                [
+                    -149.48279058933258,
+                    -330.59345185756683,
+                    -31.249521255493164,
+                    -149.48279058933258,
+                    -437.13015365600586,
+                    -416.1926484107971,
+                    -369.20360827445984,
+                    -498.35024213790894,
+                    -346.14244651794434,
+                    -513.3571553230286,
+                    -512.5564460754395
+                ],
+                [
+                    -154.91207611560822,
+                    -340.48566150665283,
+                    -27.104084491729736,
+                    -154.91207611560822,
+                    -448.2350262403488,
+                    -392.51871621608734,
+                    -375.6272304058075,
+                    -487.14693236351013,
+                    -345.4224091768265,
+                    -470.90558791160583,
+                    -501.25197649002075
+                ],
+                [
+                    -153.41717648506165,
+                    -324.9807195663452,
+                    -26.8642840385437,
+                    -153.41717648506165,
+                    -452.73886239528656,
+                    -397.9194232225418,
+                    -376.02521109580994,
+                    -509.5998067855835,
+                    -356.131032705307,
+                    -498.0193929672241,
+                    -510.94528818130493
+                ],
+                [
+                    -156.22853565216064,
+                    -353.25888752937317,
+                    -24.669752955436707,
+                    -156.22853565216064,
+                    -458.6326856613159,
+                    -419.581414937973,
+                    -396.0169711112976,
+                    -491.99841260910034,
+                    -357.02575075626373,
+                    -503.59370255470276,
+                    -507.834593296051
+                ],
+                [
+                    -156.68373227119446,
+                    -354.68599033355713,
+                    -28.9506938457489,
+                    -156.68373227119446,
+                    -450.9771692752838,
+                    -418.4915890097618,
+                    -385.58715534210205,
+                    -488.6904126405716,
+                    -372.2014398574829,
+                    -500.5774869918823,
+                    -494.2700217962265
+                ],
+                [
+                    -151.801527261734,
+                    -351.29721945524216,
+                    -28.06563377380371,
+                    -151.801527261734,
+                    -470.0422329902649,
+                    -439.21404671669006,
+                    -369.81463754177094,
+                    -496.984188079834,
+                    -350.23992896080017,
+                    -500.3185467720032,
+                    -511.19524574279785
+                ],
+                [
+                    -151.801527261734,
+                    -351.29721945524216,
+                    -28.06563377380371,
+                    -151.801527261734,
+                    -470.0422329902649,
+                    -439.21404671669006,
+                    -369.81463754177094,
+                    -496.984188079834,
+                    -350.23992896080017,
+                    -500.3185467720032,
+                    -511.19524574279785
+                ],
+                [
+                    -151.26441860198975,
+                    -360.40254306793213,
+                    -27.229180335998535,
+                    -151.26441860198975,
+                    -468.5972774028778,
+                    -426.8974007368088,
+                    -377.18371295928955,
+                    -498.51048517227173,
+                    -358.403213262558,
+                    -489.6005446910858,
+                    -509.4028277397156
+                ],
+                [
+                    -161.7443323135376,
+                    -363.41749000549316,
+                    -25.775009393692017,
+                    -161.7443323135376,
+                    -466.61384105682373,
+                    -416.65662240982056,
+                    -397.06655073165894,
+                    -518.0919284820557,
+                    -361.66990518569946,
+                    -493.4340410232544,
+                    -527.0741810798645
+                ],
+                [
+                    -164.9890558719635,
+                    -353.0804183483124,
+                    -22.980071306228638,
+                    -164.9890558719635,
+                    -467.1991357803345,
+                    -429.42855739593506,
+                    -376.0745692253113,
+                    -500.86037516593933,
+                    -379.9646282196045,
+                    -489.7787401676178,
+                    -514.8373765945435
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            15.521591818117017
+        ],
+        "posix": 15.521591818117017
+    }
+}

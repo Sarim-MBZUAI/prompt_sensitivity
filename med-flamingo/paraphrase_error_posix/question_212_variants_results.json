@@ -1,0 +1,42 @@
+{
+    "file_name": "question_212_variants.json",
+    "overall_posix": 0.44152381707580374,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5777027027027027,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5103734439834025,
+            "Variation 4": 0.4278846153846154,
+            "Variation 5": 0.36363636363636365,
+            "Variation 6": 0.410958904109589,
+            "Variation 7": 0.6657458563535912,
+            "Variation 8": 0.5285171102661597,
+            "Variation 9": 0.4588744588744589,
+            "Variation 10": 0.4715447154471545
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the cardiac silhouette of normal dimensions on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, the cardiac silhouette is normal in size.\n b. No, the cardiac silhouette is enlarged.\n 2. Is the cardiac silhouette of normal dimensions on this chest X",
+                "<s> Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the heart size appear within a standard range for an adult male/female on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\u2002\u2002\u2002Cardiothoracic\u2002Ratio\n 11.10.1.1\u2002\u2002\u2002Cardiothoracic\u2002Ratio\u2002on\u2002Chest\u2002Rad",
+                "<s> Are the cardiothoracic dimensions of the heart within expected values on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Does the cardiac silhouette demonstrate a normal size and configuration on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is the cardiothoracic index of the heart within normal limits as per established norms on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Does the cardiac silhouette appear to be proportionate and of a standard size relative to thoracic dimensions on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  A 55-year-old man with a history of hypertension and hyperlipidemia is brought to the emergency department with a 2-day history of chest pain. He is afeb",
+                "<s> Are the cardiothoracic dimensions of the heart within expected parameters for an adult patient as per established reference values on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is the cardiac silhouette consistent with a normal size and proportion to the thoracic cavity on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does the heart size appear within an expected range for age, sex, and body habitus as per established norms on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1"
+            ]
+        ],
+        "sensitivities": [
+            0.44152381707580374
+        ],
+        "posix": 0.44152381707580374
+    }
+}

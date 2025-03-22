@@ -1,0 +1,42 @@
+{
+    "file_name": "question_360_variants.json",
+    "overall_posix": 0.3769375133580892,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.22466960352422904,
+            "Variation 2": 0.4548286604361371,
+            "Variation 3": 0.4821428571428572,
+            "Variation 4": 0.22510822510822515,
+            "Variation 5": 0.4554140127388535,
+            "Variation 6": 0.4476190476190476,
+            "Variation 7": 0.12616822429906538,
+            "Variation 8": 0.44375,
+            "Variation 9": 0.4525316455696202,
+            "Variation 10": 0.4571428571428571
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> question::Are there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> QUESTION\tAre there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a normal thoracic cage. The lungs are clear and there are no acute abnormalities in the osseous structures",
+                "<s> QUESTION:Are there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n Rationale:\n The X-ray shows a large, calcified mass in the right lung. This is a benign calcified granuloma.\n The calcified mass",
+                "<s> q:Are there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 15.  A 55-year-old man",
+                "<s> Question:Are there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756What is the diagnosis?\n \u2756What is the differential diagnosis?\n \u2756What is the most likely diagnosis?\n \u2756What is the best way to confirm the",
+                "<s> question:Are there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n Yes\n [no, yes]\n 10.Question:Is there any evidence of a fracture of the sternum?\n 11.Question:Is there any evidence of a fracture of the ribs?",
+                "<s> Q:Are there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Question::: Are there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumothorax\n B. Pleural effusion\n C. Pulmonary contusion\n D. Pulmonary laceration",
+                "<s> Question:Are there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n Reason: The X-ray shows a fracture of the left 10th rib (arrow).\n The fracture line is clearly visible on the",
+                "<s> Q:Are there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:What is the most likely diagnosis?\n A:Pulmonary tuberculosis\n Q:What is the most likely cause of the patient\u2019s symptoms?\n A:Pulmonary tubercul"
+            ]
+        ],
+        "sensitivities": [
+            0.3769375133580892
+        ],
+        "posix": 0.3769375133580892
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_140_variants.json",
+    "overall_posix": 4.055609650414967,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.0,
+            "Variation 3": 4.652380809783936,
+            "Variation 4": 0.45062750318776007,
+            "Variation 5": 4.990202054977417,
+            "Variation 6": 5.037313494682312,
+            "Variation 7": 3.919148189680917,
+            "Variation 8": 0.19037014245986938,
+            "Variation 9": 0.0,
+            "Variation 10": 5.037313494682312
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no signs of a pneumothorax on the patient's chest X-ray.",
+                "No, there are no signs of a pneumothorax on the patient's chest X-ray.",
+                "No, there are no signs of a pneumothorax on the patient's chest X-ray.",
+                "The image you've provided appears to be an X-ray of a patient's chest. However, due to the quality of the image and the angle at which it was taken, it is not possible for me to accurately assess the presence of",
+                "Yes, there is a pneumothorax visible on the patient's chest X-ray.",
+                "Yes, there are signs of a pneumothorax on the patient's chest X-ray. The presence of air in the pleural space, which is outside the lungs, is indicative of a pneumothorax. This",
+                "No, there are no signs of a pneumothorax on the patient's chest X-ray. A pneumothorax is typically characterized by a collection of air in the pleural space, which can be seen as a dark",
+                "No, there are no signs of a pneumothorax on the patient's chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "Yes, there is a sign of pneumothorax on the patient's chest X-ray.",
+                "No, there are no signs of a pneumothorax on the patient's chest X-ray.",
+                "No, there are no signs of a pneumothorax on the patient's chest X-ray. A pneumothorax is typically characterized by a collection of air in the pleural space, which can be seen as a dark"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -242.70986342430115,
+                    -242.70986342430115,
+                    -242.70986342430115,
+                    -475.3289039134979,
+                    -232.34543085098267,
+                    -492.219966173172,
+                    -494.57553815841675,
+                    -407.31408739089966,
+                    -238.14098000526428,
+                    -242.70986342430115,
+                    -494.57553815841675
+                ],
+                [
+                    -242.70986342430115,
+                    -242.70986342430115,
+                    -242.70986342430115,
+                    -475.3289039134979,
+                    -232.34543085098267,
+                    -492.219966173172,
+                    -494.57553815841675,
+                    -407.31408739089966,
+                    -238.14098000526428,
+                    -242.70986342430115,
+                    -494.57553815841675
+                ],
+                [
+                    -229.83941197395325,
+                    -229.83941197395325,
+                    -229.83941197395325,
+                    -466.3897559642792,
+                    -221.52615094184875,
+                    -490.86679577827454,
+                    -457.9380859732628,
+                    -397.3037796020508,
+                    -218.9585063457489,
+                    -229.83941197395325,
+                    -457.9380859732628
+                ],
+                [
+                    -229.83941197395325,
+                    -229.83941197395325,
+                    -229.83941197395325,
+                    -466.3897559642792,
+                    -221.52615094184875,
+                    -490.86679577827454,
+                    -457.9380859732628,
+                    -397.3037796020508,
+                    -218.9585063457489,
+                    -229.83941197395325,
+                    -457.9380859732628
+                ],
+                [
+                    -246.05786836147308,
+                    -246.05786836147308,
+                    -246.05786836147308,
+                    -468.9070677757263,
+                    -214.43308520317078,
+                    -479.845974445343,
+                    -494.06914508342743,
+                    -396.8068335056305,
+                    -214.48716008663177,
+                    -246.05786836147308,
+                    -494.06914508342743
+                ],
+                [
+                    -231.36968874931335,
+                    -231.36968874931335,
+                    -231.36968874931335,
+                    -446.07097911834717,
+                    -221.6664855480194,
+                    -488.1155643463135,
+                    -477.01805424690247,
+                    -394.56128883361816,
+                    -228.92345595359802,
+                    -231.36968874931335,
+                    -477.01805424690247
+                ],
+                [
+                    -229.83941197395325,
+                    -229.83941197395325,
+                    -229.83941197395325,
+                    -466.3897559642792,
+                    -221.52615094184875,
+                    -490.86679577827454,
+                    -457.9380859732628,
+                    -397.3037796020508,
+                    -218.9585063457489,
+                    -229.83941197395325,
+                    -457.9380859732628
+                ],
+                [
+                    -231.36968874931335,
+                    -231.36968874931335,
+                    -231.36968874931335,
+                    -446.07097911834717,
+                    -221.6664855480194,
+                    -488.1155643463135,
+                    -477.01805424690247,
+                    -394.56128883361816,
+                    -228.92345595359802,
+                    -231.36968874931335,
+                    -477.01805424690247
+                ],
+                [
+                    -229.83941197395325,
+                    -229.83941197395325,
+                    -229.83941197395325,
+                    -466.3897559642792,
+                    -221.52615094184875,
+                    -490.86679577827454,
+                    -457.9380859732628,
+                    -397.3037796020508,
+                    -218.9585063457489,
+                    -229.83941197395325,
+                    -457.9380859732628
+                ],
+                [
+                    -231.36968874931335,
+                    -231.36968874931335,
+                    -231.36968874931335,
+                    -446.07097911834717,
+                    -221.6664855480194,
+                    -488.1155643463135,
+                    -477.01805424690247,
+                    -394.56128883361816,
+                    -228.92345595359802,
+                    -231.36968874931335,
+                    -477.01805424690247
+                ],
+                [
+                    -229.83941197395325,
+                    -229.83941197395325,
+                    -229.83941197395325,
+                    -466.3897559642792,
+                    -221.52615094184875,
+                    -490.86679577827454,
+                    -457.9380859732628,
+                    -397.3037796020508,
+                    -218.9585063457489,
+                    -229.83941197395325,
+                    -457.9380859732628
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.055609650414967
+        ],
+        "posix": 4.055609650414967
+    }
+}

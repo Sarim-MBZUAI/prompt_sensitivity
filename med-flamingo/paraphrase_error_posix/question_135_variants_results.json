@@ -1,0 +1,42 @@
+{
+    "file_name": "question_135_variants.json",
+    "overall_posix": 0.42058046481930156,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1842105263157895,
+            "Variation 2": 0.0,
+            "Variation 3": 0.25555555555555554,
+            "Variation 4": 0.7133182844243793,
+            "Variation 5": 0.3689320388349515,
+            "Variation 6": 0.6232686980609419,
+            "Variation 7": 0.5639344262295082,
+            "Variation 8": 0.3869565217391304,
+            "Variation 9": 0.6385542168674698,
+            "Variation 10": 0.47107438016528924
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show a normally sized cardiac silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> What is the cardiac silhouette measurement in relation to the thoracic cage on this X-ray image? Please choose from the following two options: [normal, abnormal] Please choose from the following two options: [yes, no]\n<image> What is the cardiac silhouette measurement in relation to the thoracic cage on this X-ray image? Please choose from the following two options: [normal, abnormal] Please choose from the following two options: [yes,",
+                "<s> Is the cardiac contour and size consistent with normal anatomy on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does the cardiac silhouette appear to be of average or below-average size in comparison to the thoracic cage dimensions on this X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is the cardiac silhouette in the anteroposterior view of this X-ray normal in shape? Please choose from the following two options: [yes, no]\n 12.  Is the",
+                "<s> Are there any significant discrepancies between the cardiac silhouette size and normal references values on this chest X-ray image? Please choose from the following two options: [no, yes] Please choose from the following two options: [yes, no]\n<image> 10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.1",
+                "<s> Is the cardiac silhouette size in proportion to the thoracic cage and upper abdominal organs on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does the chest X-ray reveal a heart that is within normal size limits according to established radiological criteria? Please choose from the following two options: [yes, no]\n<image> 11.Does the chest X-ray reveal a cardiomegaly? Please choose from the following two options: [yes, no]\n 12.Does the chest X-ray reveal a cardiomeg",
+                "<s> Is the cardiac silhouette measurement in millimeters consistent with expected values for an adult human on this X-ray image? Please choose from the following two options: [yes, no]\n<image> 10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.10.1"
+            ]
+        ],
+        "sensitivities": [
+            0.42058046481930156
+        ],
+        "posix": 0.42058046481930156
+    }
+}

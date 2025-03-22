@@ -1,0 +1,42 @@
+{
+    "file_name": "question_34_variants.json",
+    "overall_posix": 0.4090383013925539,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3779527559055118,
+            "Variation 2": 0.0,
+            "Variation 3": 0.42105263157894735,
+            "Variation 4": 0.3904382470119522,
+            "Variation 5": 0.6238805970149254,
+            "Variation 6": 0.4382470119521913,
+            "Variation 7": 0.4900398406374502,
+            "Variation 8": 0.6666666666666666,
+            "Variation 9": 0.3421052631578947,
+            "Variation 10": 0.3400000000000001
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pneumothorax on this chest X-ray that would necessitate supplemental imaging to confirm or rule out this condition? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this radiographic appearance warrant further investigation for a possible pneumothorax using alternative modalities such as CT or ultrasound? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n a.\n b.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Is there sufficient X-ray evidence to suggest that additional imaging is required to exclude or confirm pneumothorax in this patient? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Does this chest X-ray demonstrate characteristics suggestive of a pneumothorax, necessitating further imaging for accurate diagnosis and management? Please choose from the following two options: [yes, no]\n<image> 1a. No. The X-ray is normal.\n 1b. No. The X-ray is normal.\n 2a. Yes. The X-ray demonstrates a right-sided pneumothorax",
+                "<s> Would an additional imaging study be necessary to rule out or confirm pneumothorax based on the findings observed in this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is there sufficient information provided by this X-ray to determine whether further imaging is required for a suspected pneumothorax? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Does this chest radiograph reveal features that would necessitate further investigation with additional imaging modalities to confirm or rule out pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the presence of a triangular lucency in the right mid-lung field is suggestive of a pneumothorax.\n 2.  No, the presence of a triangular lucency in the right",
+                "<s> Would an imaging study beyond this X-ray be necessary to adequately evaluate for pneumothorax in this patient? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a need for additional imaging based on the observed radiographic findings to confirm or rule out pneumothorax in this case? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.4090383013925539
+        ],
+        "posix": 0.4090383013925539
+    }
+}

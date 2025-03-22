@@ -1,0 +1,42 @@
+{
+    "file_name": "question_368_variants.json",
+    "overall_posix": 0.35444325598193904,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5050505050505051,
+            "Variation 2": 0.29107981220657275,
+            "Variation 3": 0.4555555555555555,
+            "Variation 4": 0.20855614973262027,
+            "Variation 5": 0.45185185185185184,
+            "Variation 6": 0.3105022831050228,
+            "Variation 7": 0.45185185185185184,
+            "Variation 8": 0.4137931034482758,
+            "Variation 9": 0.1534391534391535,
+            "Variation 10": 0.3027522935779816
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Explanation:\n The patient has a right-sided pneumothorax. The right hemithorax is collapsed, and the\n mediastinum is shift",
+                "<s> q:::Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10.Question:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumonia\n C.Pneumomediastinum\n D.Pneumopericardium\n",
+                "<s> Q:Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16:10\n 16:11\n 16:12\n 16:13\n 16:14\n 16",
+                "<s> Question:Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n\n 10.Question:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumonia\n C.Pneumomediastinum",
+                "<s> Q::Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question:Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n\n 10.Question:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumonia\n C.Pneumomediastinum",
+                "<s> question:Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n A.Yes\n B.No\n C.Yes\n D.No\n E.Yes\n 10.\n Question 10:\n A 25-year-old man is brought to the emergency department with",
+                "<s> q:Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> question::Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A pneumothorax is present.\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 10"
+            ]
+        ],
+        "sensitivities": [
+            0.35444325598193904
+        ],
+        "posix": 0.35444325598193904
+    }
+}

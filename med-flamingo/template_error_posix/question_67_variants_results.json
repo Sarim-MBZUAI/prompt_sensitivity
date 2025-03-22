@@ -1,0 +1,42 @@
+{
+    "file_name": "question_67_variants.json",
+    "overall_posix": 0.37606648408449567,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.42352941176470593,
+            "Variation 2": 0.24378109452736318,
+            "Variation 3": 0.4813559322033898,
+            "Variation 4": 0.5288461538461539,
+            "Variation 5": 0.40637450199203196,
+            "Variation 6": 0.43609022556390975,
+            "Variation 7": 0.37656903765690375,
+            "Variation 8": 0.4843205574912892,
+            "Variation 9": 0.1436170212765957,
+            "Variation 10": 0.2361809045226131
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Are the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes]\n [No]\n Q:What is the most likely diagnosis?\n A:Pulmonary edema\n B:Pneumonia\n C:Atelectasis\n D:Pneumothorax\n E",
+                "<s> q:Are the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Question-Are the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n Rationale: The chest X-ray shows no evidence of pulmonary disease. The lung volumes are within normal limits. The patient\u2019s",
+                "<s> QUESTION:Are the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Explanation:\n The chest X-ray shows a normal cardiac silhouette, normal pulmonary vascular markings, and clear lung fields. The patient\u2019",
+                "<s> QUESTION:Are the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Asthma\n B:Pneumonia\n C:Pneumothorax\n D:Pulmonary edema",
+                "<s> QUESTION\tAre the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The chest X-ray shows a normal cardiothoracic ratio (CTR) of 60% and a normal\n cardiac silhou",
+                "<s> Question:Are the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, yes]\n [no, no]\n [no, yes]\n [yes, no]\n [yes, yes]\n [no, no]\n [no, yes]\n [yes",
+                "<s> Question:Are the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image>\n[Yes, no]\n\n 10.Question:Is the patient\u2019s heart size normal? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n 11.",
+                "<s> Q:Are the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Question:Are the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21"
+            ]
+        ],
+        "sensitivities": [
+            0.37606648408449567
+        ],
+        "posix": 0.37606648408449567
+    }
+}

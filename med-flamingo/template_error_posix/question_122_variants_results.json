@@ -1,0 +1,42 @@
+{
+    "file_name": "question_122_variants.json",
+    "overall_posix": 0.4880794701986755,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4403973509933774,
+            "Variation 2": 0.5099337748344371,
+            "Variation 3": 0.490066225165563,
+            "Variation 4": 0.5198675496688742,
+            "Variation 5": 0.5562913907284768,
+            "Variation 6": 0.5132450331125827,
+            "Variation 7": 0.3741721854304636,
+            "Variation 8": 0.4271523178807948,
+            "Variation 9": 0.4933774834437086,
+            "Variation 10": 0.5562913907284768
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> [yes, interstitial changes]\n [no, no interstitial changes]\n Please select the option that best answers the question.\n The correct answer is:\n [yes, interstitial changes]\n The ch",
+                "<s> question:Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes, interstitial changes can be observed in the chest X-ray.\n 2.No, interstitial changes cannot be observed in the chest X-ray.\n 1.Yes",
+                "<s> Q:Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16:Chest X-Ray Quiz\n 15:Chest X-Ray Quiz\n 14:Chest X-Ray Quiz",
+                "<s> QUESTION:Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n [yes, no]\n 10.\n QUESTION:What is the most likely diagnosis?\n [pneumonia, tuberculosis, sarcoidosis, alveolar hem",
+                "<s> Q:Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Can ple",
+                "<s> Question:Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> q:Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Q::Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Can interstitial changes be",
+                "<s> Question-Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.Question\n Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes, no]\n",
+                "<s> QUESTION:Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the differential diagnosis?\n A:\n B:\n 3.\n QUESTION:What is the most likely diagnosis?\n A:\n B:\n",
+                "<s> QUESTION\tCan interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n"
+            ]
+        ],
+        "sensitivities": [
+            0.4880794701986755
+        ],
+        "posix": 0.4880794701986755
+    }
+}

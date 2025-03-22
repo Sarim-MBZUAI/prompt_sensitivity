@@ -1,0 +1,42 @@
+{
+    "file_name": "question_201_variants.json",
+    "overall_posix": 0.3790293516143895,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.42307692307692313,
+            "Variation 2": 0.4945848375451263,
+            "Variation 3": 0.31034482758620685,
+            "Variation 4": 0.23295454545454541,
+            "Variation 5": 0.3033175355450237,
+            "Variation 6": 0.306930693069307,
+            "Variation 7": 0.45059288537549413,
+            "Variation 8": 0.26984126984126977,
+            "Variation 9": 0.46718146718146714,
+            "Variation 10": 0.5314685314685315
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question-Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2756\u2756What is the possible diagnosis?\n 1.Pneumonia\n 2.Pulmonary edema\n 3.Bronchiectasis\n 4.Tubercul",
+                "<s> Question::: Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumonia\n B. Pulmonary edema\n C. Pulmonary embolism\n D. Pulmonary infarction",
+                "<s> Q::: Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: 166.2: 166.3: 166.4:\n 166.5: 1",
+                "<s> question:Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked:\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n",
+                "<s> q:::Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION\tDoes the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a normal cardiothoracic ratio (CTR) of 60%. The heart is not enlarged. The l",
+                "<s> question::Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> QUESTION:Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n 3.\n QUESTION:What is the most likely cause of the pneumonia",
+                "<s> QUESTION:Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, yes]\n Explanation:\n The X-ray shows a right-sided pneumothorax. The right lung is not visible, and the left lung is hyperinflated. The"
+            ]
+        ],
+        "sensitivities": [
+            0.3790293516143895
+        ],
+        "posix": 0.3790293516143895
+    }
+}

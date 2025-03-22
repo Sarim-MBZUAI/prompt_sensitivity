@@ -1,0 +1,189 @@
+{
+    "file_name": "question_59_variants_results.json",
+    "overall_posix": 1.3324608328295557,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.8937352220386443,
+            "Variation 2": 0.8419369854504372,
+            "Variation 3": 1.0986798123522963,
+            "Variation 4": 1.4644367751308758,
+            "Variation 5": 1.86515451109952,
+            "Variation 6": 1.443137566666337,
+            "Variation 7": 2.0341589327112914,
+            "Variation 8": 0.9650112803121316,
+            "Variation 9": 1.6895429155615953,
+            "Variation 10": 0.86470074186972
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of a focal infiltrate in the patient's lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray does not show any signs of a focal infiltrate. ",
+                "The chest x-ray does not show any evidence of localized consolidation in the lungs. ",
+                "The chest X-ray does not show any focal opacities in the pulmonary parenchyma. ",
+                "Yes, the chest X-ray shows radiographic signs suggestive of an infiltrative lesion within the lung tissue. ",
+                "The chest x-ray does not show any discrete areas of increased density in the lungs corresponding to an infectious process. ",
+                "Yes, the chest radiograph shows a distinct, rounded area of abnormality in the lungs. ",
+                "The chest films do not show any focal abnormal densities that would indicate pneumonia or another pulmonary infection. ",
+                "Yes, the image should be able to demonstrate the presence of a well-defined, ill-defined opacity within the lung fields. ",
+                "The chest x-ray does not show any diagnostic findings suggestive of an infectious infiltrate in the patient's lungs. ",
+                "The film does not show any clear-cut evidence of consolidation and/or cavitation in the lung tissue. ",
+                "Yes, the chest X-ray shows a localized area of increased attenuation in the lung parenchyma, which is consistent with an inflammatory or infectious process. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -44.034231651245136,
+                    -63.69640653609531,
+                    -67.60846724385738,
+                    -75.89594620946173,
+                    -83.57402457977878,
+                    -86.9327854065341,
+                    -85.88522108456891,
+                    -103.02484069987258,
+                    -73.94958134092121,
+                    -87.96234745584661,
+                    -81.2163635516431
+                ],
+                [
+                    -64.03152367728944,
+                    -43.74382424855139,
+                    -67.96428660347738,
+                    -76.70982866426402,
+                    -80.60884223459288,
+                    -85.76384060154669,
+                    -89.16116677219179,
+                    -100.64596765011811,
+                    -80.16850833627177,
+                    -82.05506575992331,
+                    -79.20095060583208
+                ],
+                [
+                    -63.26408647875269,
+                    -64.68180407970794,
+                    -41.49262564373509,
+                    -81.6033182801225,
+                    -79.67184428664768,
+                    -90.71191357629141,
+                    -85.65970952519638,
+                    -99.58369220016903,
+                    -82.59279112333661,
+                    -88.13457484311948,
+                    -77.61088530122561
+                ],
+                [
+                    -59.763658528178894,
+                    -67.6218940372928,
+                    -68.66767036405508,
+                    -43.035819634579184,
+                    -86.59408583084587,
+                    -88.34469855541829,
+                    -91.98381720889302,
+                    -95.14510329901532,
+                    -76.22211971086745,
+                    -80.77433473044948,
+                    -85.49629518465736
+                ],
+                [
+                    -67.53016175267294,
+                    -62.11691305830027,
+                    -67.4606229267738,
+                    -84.0548431201878,
+                    -42.38855518846685,
+                    -90.55001832195558,
+                    -84.34193771085484,
+                    -92.22016432930468,
+                    -71.87916374286488,
+                    -83.44093232569867,
+                    -81.59057123112962
+                ],
+                [
+                    -66.48249638659672,
+                    -61.11749736862839,
+                    -66.60926961543737,
+                    -76.44685032192865,
+                    -79.71624155304744,
+                    -43.74386184052946,
+                    -85.9346275396274,
+                    -94.44678614485747,
+                    -81.29803101984635,
+                    -84.80762032285566,
+                    -79.03384544190703
+                ],
+                [
+                    -69.2601071425679,
+                    -67.29419821675401,
+                    -68.84475372194265,
+                    -86.32797074841801,
+                    -78.83012663305271,
+                    -89.22248156461865,
+                    -43.89967942739986,
+                    -102.02662159193278,
+                    -80.2227915942849,
+                    -89.36491937784012,
+                    -85.58236264185507
+                ],
+                [
+                    -69.71436239312789,
+                    -70.8923850046267,
+                    -67.90260723471874,
+                    -82.35621002955395,
+                    -87.91879925329704,
+                    -87.87540637614438,
+                    -92.51363089157167,
+                    -44.23992720756996,
+                    -86.03504638987397,
+                    -88.95860015314247,
+                    -90.5970196480921
+                ],
+                [
+                    -59.373188173760354,
+                    -65.92628389384481,
+                    -69.28091406365456,
+                    -72.68407390767788,
+                    -76.69692514980852,
+                    -91.18313775444403,
+                    -88.68187028830653,
+                    -98.20306148527015,
+                    -44.12110333575265,
+                    -85.88707945826172,
+                    -84.095340982798
+                ],
+                [
+                    -72.6636635972518,
+                    -68.07436068510287,
+                    -75.31210946450301,
+                    -81.00997145616202,
+                    -90.60089648311259,
+                    -92.89250823750626,
+                    -95.27776163286762,
+                    -100.90463542862562,
+                    -87.63144018001003,
+                    -42.33683228168229,
+                    -90.90615084651199
+                ],
+                [
+                    -65.03771734970724,
+                    -62.716618690348696,
+                    -66.50138149830514,
+                    -74.8622762568848,
+                    -71.85166878974997,
+                    -87.01790966436965,
+                    -86.33858346967827,
+                    -99.07085519851535,
+                    -78.61404769824821,
+                    -83.85157568703289,
+                    -46.46344582090049
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.3324608328295557
+        ],
+        "posix": 1.3324608328295557
+    }
+}

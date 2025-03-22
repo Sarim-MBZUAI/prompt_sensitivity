@@ -1,0 +1,42 @@
+{
+    "file_name": "question_318_variants.json",
+    "overall_posix": 0.4138770959462317,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4163265306122449,
+            "Variation 2": 0.5186440677966102,
+            "Variation 3": 0.38912133891213396,
+            "Variation 4": 0.5419354838709678,
+            "Variation 5": 0.24747474747474751,
+            "Variation 6": 0.4163265306122449,
+            "Variation 7": 0.5278688524590164,
+            "Variation 8": 0.2971698113207547,
+            "Variation 9": 0.26442307692307687,
+            "Variation 10": 0.5194805194805194
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the diagnosis?\n 1.Pulmonary contusion\n 2.Pulmonary laceration\n 3.Pulmonary hematoma\n 4",
+                "<s> Q::Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any pneumothorax in the report? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there any subcutaneous emphysema in the",
+                "<s> Q:Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n RadiologyCases167Q:What is the most likely diagnosis?\n A:Pneumothorax\n B:Pneumomediast",
+                "<s> Q:Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\nAnswer:\n<image> No\n Q:Is there any evidence of pneumothorax in the report? Please choose from the following two options: [yes, no]\n Answer:\n No\n Q:Is there any evidence of pneumomediastinum",
+                "<s> q:Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Question:Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the diagnosis?\n 1.Pulmonary contusion\n 2.Pulmonary laceration\n 3.Pulmonary hematoma\n 4",
+                "<s> Question-Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes]\n [No]\n Question-Is there any evidence of pneumothorax in the report? Please choose from the following two options: [yes, no]\n Answer\n [Yes]\n [No]\n Question-",
+                "<s> Q::: Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> question:Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> QUESTION:Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\nAnswer:\n<image> No\n 1.What is the diagnosis?\n 2.What is the differential diagnosis?\n 3.What are the possible causes of the fracture?\n 4.What are the possible complications of the f"
+            ]
+        ],
+        "sensitivities": [
+            0.4138770959462317
+        ],
+        "posix": 0.4138770959462317
+    }
+}

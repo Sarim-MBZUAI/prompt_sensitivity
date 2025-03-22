@@ -1,0 +1,42 @@
+{
+    "file_name": "question_234_variants.json",
+    "overall_posix": 0.3583736802370777,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5384615384615384,
+            "Variation 2": 0.3244444444444444,
+            "Variation 3": 0.21717171717171713,
+            "Variation 4": 0.37083333333333335,
+            "Variation 5": 0.3105022831050228,
+            "Variation 6": 0.4894366197183099,
+            "Variation 7": 0.38842975206611574,
+            "Variation 8": 0.44525547445255476,
+            "Variation 9": 0.29107981220657275,
+            "Variation 10": 0.20812182741116758
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n \u2752First, the X-ray shows a right-sided pneumothorax. The lung on the right side is collapsed and the pleural line is not visible. The left lung is hyperinflated.",
+                "<s> Question:Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2752B.\n No\n \u2752C.\n \u2752D.\n 3.\n Question:What is the abnormality?\n \u2752A.\n Atelectasis",
+                "<s> QUESTION:Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Q:Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n   Ans:\n C\n Reference:\n 1.Bonney G, et al. Essentials of Surgery. 3rd ed. Philadelphia",
+                "<s> q::Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION:Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n ",
+                "<s> Q:Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n Q:What is the most likely diagnosis?\n A:Pneumonia\n B:Tuberculosis\n C:Pulmonary edema\n D",
+                "<s> Question::: Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the abnormality?\n Answer:\n A.  Atelectasis\n B.  Pneumonia\n C.  Pleural effusion\n D.  Pulmonary",
+                "<s> q:::Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question:Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\nyes\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 2"
+            ]
+        ],
+        "sensitivities": [
+            0.3583736802370777
+        ],
+        "posix": 0.3583736802370777
+    }
+}

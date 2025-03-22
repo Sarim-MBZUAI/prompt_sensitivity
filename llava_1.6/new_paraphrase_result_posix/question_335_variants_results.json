@@ -1,0 +1,189 @@
+{
+    "file_name": "question_335_variants.json",
+    "overall_posix": 3.1595182882263004,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.8891058494062984,
+            "Variation 2": 1.3946957326516873,
+            "Variation 3": 1.1530378636191874,
+            "Variation 4": 7.395693568956284,
+            "Variation 5": 0.9791381686925889,
+            "Variation 6": 2.647252342700958,
+            "Variation 7": 3.042524755001068,
+            "Variation 8": 1.1248478134473165,
+            "Variation 9": 0.3027840070426464,
+            "Variation 10": 2.509917994340261
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs over-inflated on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the lungs do not appear to be over-inflated on the patient's chest X-ray. The lungs are visible and appear to be of normal size and shape.",
+                "No, there are no signs of over-expansion of the lungs on the chest X-ray. The lungs appear to be of normal size and density.",
+                "No, the patient's lung silhouette does not appear overly expanded compared to normal anatomy on the chest radiograph. The lungs appear to be of normal size and shape.",
+                "No, there is no evidence of increased volume of the lungs on the provided chest X-ray image. The lungs appear to be of normal size and density.",
+                "No, the lungs do not appear more distended than usual in the given X-ray.",
+                "No, the lung fields on the patient's chest film do not appear to be excessively over-inflated. The lungs are visible and appear to be of normal size and shape.",
+                "Yes, the X-ray shows an abnormal increase in the size of the lung spaces compared to expected norms. This is indicative of a condition known as emphysema, which is characterized by the over-inflation of the air",
+                "No, there is no over-displacement or over-distension of the lung parenchyma evident on the chest radiograph. The lung fields appear to be of normal density and there are no signs of over-expansion or collapse",
+                "No, the lungs do not appear too large or disproportionately expanded relative to other anatomical structures on the provided image.",
+                "No, the lung contours on the patient's chest X-ray do not appear excessively bulged or protruded beyond normal limits.",
+                "No, there is no clear evidence of hyperinflation of the lungs on the given X-ray. The lungs appear to be of normal size and shape, and there are no signs of overexpansion or hyperinflation."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -354.57113802433014,
+                    -324.341539144516,
+                    -411.7536630630493,
+                    -315.36785066127777,
+                    -199.26157307624817,
+                    -393.7366647720337,
+                    -486.93375515937805,
+                    -506.69737577438354,
+                    -320.82570362091064,
+                    -344.88204979896545,
+                    -475.04720175266266
+                ],
+                [
+                    -376.14876651763916,
+                    -306.72513008117676,
+                    -408.5268973708153,
+                    -315.8064663410187,
+                    -209.14008808135986,
+                    -381.0760598182678,
+                    -493.9259548187256,
+                    -513.3594087362289,
+                    -315.8086476325989,
+                    -330.2599501609802,
+                    -456.554904460907
+                ],
+                [
+                    -331.1858741044998,
+                    -307.33140206336975,
+                    -414.1124659180641,
+                    -308.4140274524689,
+                    -205.39840245246887,
+                    -381.4426237344742,
+                    -497.10007321834564,
+                    -495.49328327178955,
+                    -299.95454013347626,
+                    -340.0928806066513,
+                    -463.8552850484848
+                ],
+                [
+                    -376.14876651763916,
+                    -306.72513008117676,
+                    -408.5268973708153,
+                    -315.8064663410187,
+                    -209.14008808135986,
+                    -381.0760598182678,
+                    -493.9259548187256,
+                    -513.3594087362289,
+                    -315.8086476325989,
+                    -330.2599501609802,
+                    -456.554904460907
+                ],
+                [
+                    -328.00571370124817,
+                    -318.3987979888916,
+                    -426.85995149612427,
+                    -313.32053661346436,
+                    -201.37723326683044,
+                    -371.2992249727249,
+                    -508.39614748954773,
+                    -504.6862862110138,
+                    -312.77438247203827,
+                    -334.82981157302856,
+                    -469.295565366745
+                ],
+                [
+                    -369.03984689712524,
+                    -322.4848966598511,
+                    -415.61845088005066,
+                    -310.9644796848297,
+                    -211.90964657068253,
+                    -368.42604291439056,
+                    -517.4765472412109,
+                    -522.2586104869843,
+                    -316.01350474357605,
+                    -337.69364881515503,
+                    -479.20006370544434
+                ],
+                [
+                    -359.5800211429596,
+                    -337.95994806289673,
+                    -395.89054799079895,
+                    -330.72057580947876,
+                    -211.87872171401978,
+                    -381.75039982795715,
+                    -514.4288864135742,
+                    -521.408366382122,
+                    -305.94181203842163,
+                    -307.6029922962189,
+                    -507.67923402786255
+                ],
+                [
+                    -363.2626860141754,
+                    -344.0075206756592,
+                    -422.71983671188354,
+                    -325.95421838760376,
+                    -213.41940832138062,
+                    -402.6750895380974,
+                    -493.20399618148804,
+                    -525.2671866416931,
+                    -299.95846474170685,
+                    -336.0732855796814,
+                    -492.0060405731201
+                ],
+                [
+                    -331.1858741044998,
+                    -307.33140206336975,
+                    -414.1124659180641,
+                    -308.4140274524689,
+                    -205.39840245246887,
+                    -381.4426237344742,
+                    -497.10007321834564,
+                    -495.49328327178955,
+                    -299.95454013347626,
+                    -340.0928806066513,
+                    -463.8552850484848
+                ],
+                [
+                    -354.53298032283783,
+                    -315.4624183177948,
+                    -399.2831320762634,
+                    -315.4157021045685,
+                    -206.93691873550415,
+                    -400.545033454895,
+                    -512.7623891830444,
+                    -525.3045344352722,
+                    -310.9825265407562,
+                    -331.72192001342773,
+                    -474.15409058332443
+                ],
+                [
+                    -364.55388617515564,
+                    -315.1017789840698,
+                    -405.09144139289856,
+                    -324.1788241863251,
+                    -209.49712467193604,
+                    -369.43477272987366,
+                    -481.46248745918274,
+                    -521.206916809082,
+                    -303.2166178226471,
+                    -327.880228638649,
+                    -469.168777346611
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.1595182882263004
+        ],
+        "posix": 3.1595182882263004
+    }
+}

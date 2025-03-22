@@ -1,0 +1,189 @@
+{
+    "file_name": "question_144_variants.json",
+    "overall_posix": 3.7336619553132477,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1573003673553467,
+            "Variation 2": 0.008738293647766113,
+            "Variation 3": 0.008738293647766113,
+            "Variation 4": 0.12342745304107666,
+            "Variation 5": 11.617516777732156,
+            "Variation 6": 0.18713351726531982,
+            "Variation 7": 11.617516777732156,
+            "Variation 8": 0.4665571928024292,
+            "Variation 9": 9.377355575561523,
+            "Variation 10": 0.05250208377838135
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the chest X-ray suggestive of any congestion in the pulmonary vasculature? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it is not possible to definitively determine if there is congestion in the pulmonary vasculature. The image is a lateral chest X-ray, which is a type of X-ray that shows",
+                "Based on the image provided, it is not possible to definitively determine if there is congestion in the pulmonary vasculature. The image is a lateral chest X-ray, which is not the best view to assess the pul",
+                "Based on the image provided, it is not possible to definitively determine if there is congestion in the pulmonary vasculature. The image is a black and white X-ray of the chest, which may not provide enough detail to",
+                "Based on the image provided, it is not possible to definitively determine if there is congestion in the pulmonary vasculature. The image is a black and white X-ray of the chest, which may not provide enough detail to",
+                "Based on the image provided, it is not possible to definitively determine if there is congestion in the pulmonary vasculature. The image is a black and white X-ray of the chest, and while it shows the lungs and",
+                "Yes, the chest X-ray suggests congestion in the pulmonary vasculature.",
+                "Based on the image provided, the chest X-ray does not show any obvious signs of congestion in the pulmonary vasculature. The lungs appear to be clear, and there are no visible signs of congestion or fluid accum",
+                "Yes, the chest X-ray suggests congestion in the pulmonary vasculature.",
+                "Based on the image provided, it is not possible for me to make a definitive assessment regarding the presence of congestion in the pulmonary vasculature. A chest X-ray is a diagnostic tool used to examine the lungs and heart",
+                "No, the chest X-ray does not suggest any congestion in the pulmonary vasculature.",
+                "Based on the image provided, it is not possible for me to definitively determine if there is congestion in the pulmonary vasculature. The image is a black and white X-ray of the chest, which may not provide enough"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -480.7978274822235,
+                    -488.66284584999084,
+                    -480.3609127998352,
+                    -480.3609127998352,
+                    -474.6264548301697,
+                    -225.2124583721161,
+                    -490.1545033454895,
+                    -225.2124583721161,
+                    -504.12568712234497,
+                    -246.36393809318542,
+                    -478.17272329330444
+                ],
+                [
+                    -493.72570514678955,
+                    -492.06267380714417,
+                    -496.5488181114197,
+                    -496.5488181114197,
+                    -488.6556625366211,
+                    -230.4895715713501,
+                    -527.2160794734955,
+                    -230.4895715713501,
+                    -494.2811770439148,
+                    -257.79110836982727,
+                    -495.01690006256104
+                ],
+                [
+                    -493.72570514678955,
+                    -492.06267380714417,
+                    -496.5488181114197,
+                    -496.5488181114197,
+                    -488.6556625366211,
+                    -230.4895715713501,
+                    -527.2160794734955,
+                    -230.4895715713501,
+                    -494.2811770439148,
+                    -257.79110836982727,
+                    -495.01690006256104
+                ],
+                [
+                    -493.72570514678955,
+                    -492.06267380714417,
+                    -496.5488181114197,
+                    -496.5488181114197,
+                    -488.6556625366211,
+                    -230.4895715713501,
+                    -527.2160794734955,
+                    -230.4895715713501,
+                    -494.2811770439148,
+                    -257.79110836982727,
+                    -495.01690006256104
+                ],
+                [
+                    -482.20676136016846,
+                    -490.14298248291016,
+                    -491.5653862953186,
+                    -491.5653862953186,
+                    -471.5969967842102,
+                    -240.85687494277954,
+                    -521.7120690345764,
+                    -240.85687494277954,
+                    -516.6043047904968,
+                    -270.8700227737427,
+                    -492.09960651397705
+                ],
+                [
+                    -493.72570514678955,
+                    -492.06267380714417,
+                    -496.5488181114197,
+                    -496.5488181114197,
+                    -488.6556625366211,
+                    -230.4895715713501,
+                    -527.2160794734955,
+                    -230.4895715713501,
+                    -494.2811770439148,
+                    -257.79110836982727,
+                    -495.01690006256104
+                ],
+                [
+                    -490.74798107147217,
+                    -500.8431890010834,
+                    -503.2579426765442,
+                    -503.2579426765442,
+                    -492.4241290092468,
+                    -233.268141746521,
+                    -532.1620171070099,
+                    -233.268141746521,
+                    -500.0560448169708,
+                    -249.68175673484802,
+                    -477.5324459075928
+                ],
+                [
+                    -486.04431080818176,
+                    -484.14121556282043,
+                    -506.3271441459656,
+                    -506.3271441459656,
+                    -490.90211367607117,
+                    -229.28826665878296,
+                    -522.4496901035309,
+                    -229.28826665878296,
+                    -488.9286370277405,
+                    -271.8704762458801,
+                    -480.44490337371826
+                ],
+                [
+                    -490.74798107147217,
+                    -500.8431890010834,
+                    -503.2579426765442,
+                    -503.2579426765442,
+                    -492.4241290092468,
+                    -233.268141746521,
+                    -532.1620171070099,
+                    -233.268141746521,
+                    -500.0560448169708,
+                    -249.68175673484802,
+                    -477.5324459075928
+                ],
+                [
+                    -482.20676136016846,
+                    -490.14298248291016,
+                    -491.5653862953186,
+                    -491.5653862953186,
+                    -471.5969967842102,
+                    -240.85687494277954,
+                    -521.7120690345764,
+                    -240.85687494277954,
+                    -516.6043047904968,
+                    -270.8700227737427,
+                    -492.09960651397705
+                ],
+                [
+                    -493.72570514678955,
+                    -492.06267380714417,
+                    -496.5488181114197,
+                    -496.5488181114197,
+                    -488.6556625366211,
+                    -230.4895715713501,
+                    -527.2160794734955,
+                    -230.4895715713501,
+                    -494.2811770439148,
+                    -257.79110836982727,
+                    -495.01690006256104
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.7336619553132477
+        ],
+        "posix": 3.7336619553132477
+    }
+}

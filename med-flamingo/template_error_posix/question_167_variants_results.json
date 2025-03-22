@@ -1,0 +1,42 @@
+{
+    "file_name": "question_167_variants.json",
+    "overall_posix": 0.3799118553641298,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.25514403292181065,
+            "Variation 2": 0.48348348348348347,
+            "Variation 3": 0.2730923694779117,
+            "Variation 4": 0.41987179487179493,
+            "Variation 5": 0.48985507246376814,
+            "Variation 6": 0.2581967213114754,
+            "Variation 7": 0.5042016806722689,
+            "Variation 8": 0.20779220779220786,
+            "Variation 9": 0.40604026845637586,
+            "Variation 10": 0.5014409221902018
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:::Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n COMMENT:This is a frontal chest X-ray of a 68-year-old man with a history of chronic obstructive pulmonary disease (COPD) and congestive heart failure (",
+                "<s> Q::Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> question:Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n Correct answer:Yes\n 100% true. The patient has a radiological sign of congestive heart failure on this chest X",
+                "<s> QUESTION:Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n The patient has a radiological sign of congestive heart failure on this chest X-ray. The patient has a cardiomegaly.\n The cardiomegaly",
+                "<s> Q::: Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question-Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The patient has a radiological sign of congestive heart failure on this chest X-ray.\n The patient has a cardiomegaly.\n The patient has a cardiomegaly.\n The patient has a cardiom",
+                "<s> q:Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 166\n 166\n Reports 1",
+                "<s> QUESTION:Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Aortic stenosis\n B:Aortic regurgitation\n C:Left ventricular hypertrophy\n",
+                "<s> Question:Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The patient has a radiological sign of congestive heart failure on this chest X-ray. The patient has a cardiomegaly with a cardiothoracic"
+            ]
+        ],
+        "sensitivities": [
+            0.3799118553641298
+        ],
+        "posix": 0.3799118553641298
+    }
+}

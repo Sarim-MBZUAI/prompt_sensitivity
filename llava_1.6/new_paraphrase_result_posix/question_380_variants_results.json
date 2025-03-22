@@ -1,0 +1,189 @@
+{
+    "file_name": "question_380_variants.json",
+    "overall_posix": 2.544669546738465,
+    "detailed_scores": [
+        {
+            "Variation 1": 4.427163500785827,
+            "Variation 2": 0.0,
+            "Variation 3": 4.13429266611735,
+            "Variation 4": 4.609430108070374,
+            "Variation 5": 4.969095797538757,
+            "Variation 6": 4.038898711204529,
+            "Variation 7": 5.036172683040301,
+            "Variation 8": 3.5990477657318114,
+            "Variation 9": 4.549037857055664,
+            "Variation 10": 4.043543953895568
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no signs of subsegmental atelectasis in the left lung on the chest X-ray.",
+                "Yes, there are visual cues suggestive of air space compression in the left lower lung lobes on this chest radiograph. The presence of a white line or \"bar\" across the lower lobe of the left lung indicates that the air space",
+                "No, there are no signs of subsegmental atelectasis in the left lung on the chest X-ray.",
+                "No, the chest X-ray does not display any signs of reduced lung volume and/or elevated diaphragm in the left hemithorax, consistent with subsegmental atelectasis.",
+                "No, there is no radiographic evidence of air trapping or volume loss in the periphery of the left lung on this chest film, compatible with atelectasis. The image shows a normal chest X-ray with no signs of atelectasis",
+                "Based on the image provided, it appears that there is some compression or distortion in the left hemithorax, which could suggest potential subsegmental atelectasis. The lung markings and silhouette of the left hemithorax",
+                "Yes, the chest X-ray shows findings that would support a diagnosis of partial lung collapse or air space reduction in the left lower lobes. The left lower lobe appears to be smaller and less dense than the right lower lobe, which is",
+                "No, the radiograph does not reveal any abnormalities that could be indicative of subsegmental atelectasis. The lung fields appear to be of normal density and volume, without any increased lucency or volume loss.",
+                "Based on the image provided, it appears that there is reduced aeration and/or volume loss in the peripheral segments of the left lower lobe. The X-ray shows a significant amount of air in the central part of the lobe,",
+                "Based on the image provided, the lung markings and borders in the left lower lobes do not appear to be consistent with atelectasis or air space compression. The lung fields are relatively clear, and there are no signs of consolidation or air",
+                "No, the X-ray image does not show any features that would suggest subsegmental atelectasis. The lungs appear to be well-aerated with no increased opacity or volume loss in the periphery of the left lung."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -267.91547656059265,
+                    -489.27365159988403,
+                    -267.91547656059265,
+                    -453.9586465358734,
+                    -498.3869819641113,
+                    -516.3702664375305,
+                    -469.8604121208191,
+                    -509.6517653465271,
+                    -447.8678648471832,
+                    -495.36736941337585,
+                    -470.0926742553711
+                ],
+                [
+                    -252.3358736038208,
+                    -496.3853678703308,
+                    -252.3358736038208,
+                    -458.69561672210693,
+                    -501.35879015922546,
+                    -526.3491535186768,
+                    -494.8108868598938,
+                    -512.200288772583,
+                    -457.4580535888672,
+                    -497.5454406738281,
+                    -491.6649212837219
+                ],
+                [
+                    -267.91547656059265,
+                    -489.27365159988403,
+                    -267.91547656059265,
+                    -453.9586465358734,
+                    -498.3869819641113,
+                    -516.3702664375305,
+                    -469.8604121208191,
+                    -509.6517653465271,
+                    -447.8678648471832,
+                    -495.36736941337585,
+                    -470.0926742553711
+                ],
+                [
+                    -258.90823197364807,
+                    -478.0926469564438,
+                    -258.90823197364807,
+                    -447.58560943603516,
+                    -479.7578628063202,
+                    -500.94887948036194,
+                    -501.7482762336731,
+                    -490.4117079973221,
+                    -459.4551574885845,
+                    -499.5972490310669,
+                    -502.4102511405945
+                ],
+                [
+                    -253.94413495063782,
+                    -481.03214132785797,
+                    -253.94413495063782,
+                    -449.71077585220337,
+                    -517.2547564506531,
+                    -512.9237036705017,
+                    -479.3143935203552,
+                    -510.78462839126587,
+                    -462.4521449804306,
+                    -503.7510781288147,
+                    -492.99200344085693
+                ],
+                [
+                    -256.981192111969,
+                    -479.1832971572876,
+                    -256.981192111969,
+                    -465.1554846763611,
+                    -514.9201369285583,
+                    -514.5334877967834,
+                    -487.0431672334671,
+                    -511.0105068683624,
+                    -479.66288673877716,
+                    -508.3713983297348,
+                    -475.988977432251
+                ],
+                [
+                    -260.39805698394775,
+                    -496.2458610534668,
+                    -260.39805698394775,
+                    -469.90870428085327,
+                    -490.07875061035156,
+                    -513.3729526996613,
+                    -488.50325632095337,
+                    -514.3301501274109,
+                    -452.4632489681244,
+                    -501.88574624061584,
+                    -474.5589337348938
+                ],
+                [
+                    -227.29161834716797,
+                    -486.4526129961014,
+                    -227.29161834716797,
+                    -468.4159903526306,
+                    -515.4855570793152,
+                    -501.8314571082592,
+                    -482.51297175884247,
+                    -493.68857431411743,
+                    -483.2223666906357,
+                    -494.82078433036804,
+                    -496.64396330714226
+                ],
+                [
+                    -246.60720777511597,
+                    -477.01658391952515,
+                    -246.60720777511597,
+                    -445.39788126945496,
+                    -482.81781578063965,
+                    -519.1317691802979,
+                    -481.4564242362976,
+                    -500.96900606155396,
+                    -466.422812461853,
+                    -501.2200376987457,
+                    -483.44403207302094
+                ],
+                [
+                    -260.39805698394775,
+                    -496.2458610534668,
+                    -260.39805698394775,
+                    -469.90870428085327,
+                    -490.07875061035156,
+                    -513.3729526996613,
+                    -488.50325632095337,
+                    -514.3301501274109,
+                    -452.4632489681244,
+                    -501.88574624061584,
+                    -474.5589337348938
+                ],
+                [
+                    -239.7401041984558,
+                    -511.95039415359497,
+                    -239.7401041984558,
+                    -451.73579943180084,
+                    -498.85948941111565,
+                    -515.629388332367,
+                    -480.6342103481293,
+                    -506.40062284469604,
+                    -468.43178355693817,
+                    -524.3688497543335,
+                    -502.2799254655838
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.544669546738465
+        ],
+        "posix": 2.544669546738465
+    }
+}

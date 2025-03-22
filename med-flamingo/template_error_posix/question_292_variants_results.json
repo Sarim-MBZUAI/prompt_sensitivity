@@ -1,0 +1,42 @@
+{
+    "file_name": "question_292_variants.json",
+    "overall_posix": 0.36045958111381843,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.23754789272030652,
+            "Variation 2": 0.47043010752688175,
+            "Variation 3": 0.19354838709677424,
+            "Variation 4": 0.4573002754820936,
+            "Variation 5": 0.5038759689922481,
+            "Variation 6": 0.4879356568364611,
+            "Variation 7": 0.31986531986531985,
+            "Variation 8": 0.37142857142857144,
+            "Variation 9": 0.19123505976095623,
+            "Variation 10": 0.37142857142857144
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:::Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question-Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes]\n The patient has normal cardiomediastinal contours.\n The patient has abnormal cardiomediastinal contours.\n 10.\n Question-Is the patient\u2019s heart size normal for their age and",
+                "<s> question::Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION\tDoes the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a normal cardiomediastinal contour. The cardiomediastinal contour is normaly defined as the\n relationship between the heart and",
+                "<s> Q::Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Does the patient",
+                "<s> Question:Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [no, yes]\n Reason: The patient has a cardiomediastinal contour that is not normal for the lung volumes and patient rotation. The patient has a cardiomediast",
+                "<s> Question:Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n Instructions:Please check the box corresponding to your answer.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n ",
+                "<s> Question:Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n\n 10.\n Question:What is the most likely diagnosis?\n A.Aortic dissection\n B.Aortic aneurysm\n C.A",
+                "<s> Q:Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n C:\n F:\n G:\n Figure 10.1\n 10.",
+                "<s> Question:Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n\n 10.\n Question:What is the most likely diagnosis?\n A.Aortic dissection\n B.Aortic aneurysm\n C.A"
+            ]
+        ],
+        "sensitivities": [
+            0.36045958111381843
+        ],
+        "posix": 0.36045958111381843
+    }
+}

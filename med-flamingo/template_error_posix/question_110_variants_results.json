@@ -1,0 +1,42 @@
+{
+    "file_name": "question_110_variants.json",
+    "overall_posix": 0.3784625830595615,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5083056478405316,
+            "Variation 2": 0.3801652892561984,
+            "Variation 3": 0.4726027397260274,
+            "Variation 4": 0.46975088967971534,
+            "Variation 5": 0.5256410256410257,
+            "Variation 6": 0.2844444444444445,
+            "Variation 7": 0.22660098522167482,
+            "Variation 8": 0.287037037037037,
+            "Variation 9": 0.14210526315789473,
+            "Variation 10": 0.48797250859106533
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:What is the most likely diagnosis?\n A:Aortic dissection\n Q:What is the most likely diagnosis?\n A:Aortic dissection\n Q:What is the most likely diagnosis?",
+                "<s> Question-Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2794Mark as correct/unmark as incorrect\n 1.\n 1.\n \u2756References\n 1.\n \u2756Follow-up examinations\n \u2794",
+                "<s> Question::: Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Congestive heart failure\n B. Pulmonary edema\n C. Pneumonia\n D. Atelectasis\n E.",
+                "<s> Q::Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A: Congestive heart failure\n B: Normal heart\n C: Pulmonary edema\n D: Pneumonia\n E: Tuberculosis\n 1",
+                "<s> QUESTION:Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n [No]\n The patient has signs of congestive heart failure. The cardiac silhouette is enlarged, and the pulmonary vascular markings",
+                "<s> question:Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked:\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n",
+                "<s> QUESTION\tAre there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> q:::Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Question:Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the next step in the management?\n 1.Aspiration of the pleural fluid\n 2.Admission to the intensive care unit\n 3.Admission to the"
+            ]
+        ],
+        "sensitivities": [
+            0.3784625830595615
+        ],
+        "posix": 0.3784625830595615
+    }
+}

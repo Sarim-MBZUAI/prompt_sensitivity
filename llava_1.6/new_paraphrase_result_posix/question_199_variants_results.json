@@ -1,0 +1,189 @@
+{
+    "file_name": "question_199_variants.json",
+    "overall_posix": 2.8151140812513176,
+    "detailed_scores": [
+        {
+            "Variation 1": 9.076351624268751,
+            "Variation 2": 0.0938043975830078,
+            "Variation 3": 6.984535540853228,
+            "Variation 4": 5.093008272575609,
+            "Variation 5": 0.5977864837646485,
+            "Variation 6": 0.2940487003326416,
+            "Variation 7": 0.07973859786987304,
+            "Variation 8": 0.18112304745888225,
+            "Variation 9": 1.0921565429730848,
+            "Variation 10": 0.5706168514616946
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an acute displaced rib fracture according to the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the chest X-ray provided, it appears that the patient does not have an acute displaced rib fracture. The ribs are aligned properly, and there are no visible fractures or dislocations. The image shows a normal",
+                "No, the chest X-ray does not reveal evidence of an acute displaced rib fracture in this patient.",
+                "Based on the chest X-ray provided, it appears that the patient does not have an acute displaced rib fracture. The ribs are aligned normally, and there are no visible fractures or dislocations. The X-ray shows",
+                "No, there are no radiographic findings suggestive of a fractured rib with displacement on the provided chest X-ray.",
+                "No, the imaging study does not reveal an acute fracture of one or more ribs, resulting in significant displacement and deformity.",
+                "No, there is no visible evidence on the chest X-ray of a recent traumatic injury to a rib, resulting in its displacement or malalignment. The X-ray appears to be a standard frontal chest X-ray without",
+                "No, I cannot confirm the presence of an acute displaced rib fracture based on the provided radiographic images. The image shows a chest X-ray, but there is not enough information or detail to make a definitive diagnosis of a rib",
+                "No, the chest X-ray does not show a clear indication of a rib fracture with significant displacement. The image shows the chest with the lungs, heart, and ribs visible, but there is no obvious fracture or significant displacement",
+                "No, there are no imaging findings consistent with an acute displaced rib fracture visible on the provided radiograph. The image shows a chest X-ray with no evidence of rib fractures or any other acute injuries.",
+                "No, the chest X-ray does not reveal evidence of a significant traumatic injury resulting in one or more displaced rib fractures. The ribs appear to be intact and in their normal position.",
+                "No, there is no clear indication on the provided radiograph of an acute displaced rib fracture requiring further evaluation and management. The image shows a chest X-ray with no visible fractures or dislocations."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -487.89707374572754,
+                    -251.91193151474,
+                    -483.20685386657715,
+                    -292.33007860183716,
+                    -319.8278007507324,
+                    -458.0077495574951,
+                    -473.19463872909546,
+                    -491.8840036392212,
+                    -496.77210307121277,
+                    -439.8421858549118,
+                    -461.0780817270279
+                ],
+                [
+                    -486.67798805236816,
+                    -240.88050723075867,
+                    -486.3683109283447,
+                    -277.4632695913315,
+                    -300.6071991920471,
+                    -484.45520210266113,
+                    -488.4042091369629,
+                    -461.1793203353882,
+                    -498.08829975128174,
+                    -409.19048619270325,
+                    -472.7892200946808
+                ],
+                [
+                    -487.89707374572754,
+                    -251.91193151474,
+                    -483.20685386657715,
+                    -292.33007860183716,
+                    -319.8278007507324,
+                    -458.0077495574951,
+                    -473.19463872909546,
+                    -491.8840036392212,
+                    -496.77210307121277,
+                    -439.8421858549118,
+                    -461.0780817270279
+                ],
+                [
+                    -494.99275827407837,
+                    -237.59499275684357,
+                    -488.464457988739,
+                    -273.02778339385986,
+                    -307.0751110315323,
+                    -482.14116168022156,
+                    -481.6674475669861,
+                    -481.8690593242645,
+                    -495.5351119041443,
+                    -434.07625019550323,
+                    -464.37059330940247
+                ],
+                [
+                    -498.64000034332275,
+                    -243.7092423439026,
+                    -495.4623193740845,
+                    -260.609748005867,
+                    -311.08606028556824,
+                    -472.4132251739502,
+                    -489.8126165866852,
+                    -472.1338748931885,
+                    -486.6672477722168,
+                    -430.90866208076477,
+                    -464.0599707365036
+                ],
+                [
+                    -489.52557706832886,
+                    -253.5794162750244,
+                    -492.17369651794434,
+                    -274.3966245651245,
+                    -319.171168923378,
+                    -487.9396286010742,
+                    -493.2078334093094,
+                    -473.69949865341187,
+                    -454.45075583457947,
+                    -406.1193434000015,
+                    -477.0660891532898
+                ],
+                [
+                    -508.8269349336624,
+                    -235.27393460273743,
+                    -501.29498279094696,
+                    -275.9810116291046,
+                    -317.0539388656616,
+                    -467.49704921245575,
+                    -503.50885343551636,
+                    -479.8389856815338,
+                    -481.6835706233978,
+                    -416.5522401332855,
+                    -461.4435272216797
+                ],
+                [
+                    -494.99275827407837,
+                    -237.59499275684357,
+                    -488.464457988739,
+                    -273.02778339385986,
+                    -307.0751110315323,
+                    -482.14116168022156,
+                    -481.6674475669861,
+                    -481.8690593242645,
+                    -495.5351119041443,
+                    -434.07625019550323,
+                    -464.37059330940247
+                ],
+                [
+                    -494.99275827407837,
+                    -237.59499275684357,
+                    -488.464457988739,
+                    -273.02778339385986,
+                    -307.0751110315323,
+                    -482.14116168022156,
+                    -481.6674475669861,
+                    -481.8690593242645,
+                    -495.5351119041443,
+                    -434.07625019550323,
+                    -464.37059330940247
+                ],
+                [
+                    -506.96502780914307,
+                    -259.98734998703003,
+                    -506.37419176101685,
+                    -267.751229763031,
+                    -318.8462964296341,
+                    -503.93949699401855,
+                    -499.21742963790894,
+                    -475.7049354314804,
+                    -510.01041996479034,
+                    -427.13799142837524,
+                    -476.5864837169647
+                ],
+                [
+                    -489.7715222835541,
+                    -248.5217113494873,
+                    -491.02332854270935,
+                    -245.96880984306335,
+                    -323.112952709198,
+                    -465.550931930542,
+                    -467.3533275127411,
+                    -469.2308659553528,
+                    -498.5035066604614,
+                    -432.45157623291016,
+                    -472.71047616004944
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.8151140812513176
+        ],
+        "posix": 2.8151140812513176
+    }
+}

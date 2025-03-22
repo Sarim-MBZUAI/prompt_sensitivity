@@ -1,0 +1,189 @@
+{
+    "file_name": "question_216_variants.json",
+    "overall_posix": 0.28432946436404244,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4747787110712927,
+            "Variation 2": 0.3943569591227809,
+            "Variation 3": 0.19901646355934002,
+            "Variation 4": 0.3385902968057267,
+            "Variation 5": 0.20868489011053873,
+            "Variation 6": 0.30986150463218637,
+            "Variation 7": 0.11576470758574194,
+            "Variation 8": 0.11576470758574194,
+            "Variation 9": 0.1564690902836018,
+            "Variation 10": 0.6379084515864687
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2",
+                "q:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\na:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "Q::Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\nA::\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "Q:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\nA:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "Q:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]||A:\n\n\n\n\n\n\n\n\nRQ:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]||A:\n\nRQ:Does the chest X-ray show any lung masses or nodules?",
+                "question:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\nanswer:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "QUESTION:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\nA:\n\n\n\n\n\n\n\n\nQUESTION:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\n\nQUESTION:Does the chest X-ray show any lung masses or nodules? Please",
+                "Question:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\nAnswer:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "Question:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\nAnswer:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "Question:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]||Answer:\nQuestionQuestion:Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]||Answer:\nQuestionQuestion:Does the chest X-ray show any lung masses or nodules? Please",
+                "q::Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\na::\n\n\n\n\n\n\n\n\\documentclass{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage{lmodern}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\usepackage{"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -74.40265014674515,
+                    -114.75884058780503,
+                    -107.92299167218152,
+                    -91.31904954928905,
+                    -103.18282537523191,
+                    -92.14086580614094,
+                    -101.05073954511317,
+                    -84.24265029153321,
+                    -84.24265029153321,
+                    -87.7025228208513,
+                    -128.62486853159498
+                ],
+                [
+                    -81.02665226091631,
+                    -61.315366253315005,
+                    -85.31850534235127,
+                    -70.31553909706417,
+                    -95.53310551805771,
+                    -75.54444829223212,
+                    -79.96294297030545,
+                    -72.32899974437896,
+                    -72.32899974437896,
+                    -90.98653619576362,
+                    -89.32229038106743
+                ],
+                [
+                    -81.16288501117378,
+                    -86.66068602364976,
+                    -63.11170986946672,
+                    -72.36449447344057,
+                    -97.54730021976866,
+                    -81.5474866295699,
+                    -76.18101888353704,
+                    -75.14932074933313,
+                    -75.14932074933313,
+                    -91.1349303945317,
+                    -96.76330974075245
+                ],
+                [
+                    -84.95418803673238,
+                    -78.5628199831117,
+                    -78.27759989746846,
+                    -59.60176465183031,
+                    -90.33702212582284,
+                    -78.75495602027513,
+                    -62.17645091729355,
+                    -68.34003172954544,
+                    -68.34003172954544,
+                    -88.23012808136991,
+                    -106.56575352899381
+                ],
+                [
+                    -88.8837858462939,
+                    -97.094344560639,
+                    -92.86982329492457,
+                    -79.81580278318143,
+                    -66.9945621935185,
+                    -91.0676006678259,
+                    -80.55757543485379,
+                    -82.42265372502152,
+                    -82.42265372502152,
+                    -71.07506426463078,
+                    -117.3176434598281
+                ],
+                [
+                    -79.08266115072183,
+                    -88.8192328029545,
+                    -94.68328434717841,
+                    -78.269318835577,
+                    -103.19839709391817,
+                    -56.808097094646655,
+                    -81.54047708181315,
+                    -64.85415265068877,
+                    -64.85415265068877,
+                    -84.04996733395092,
+                    -118.21228420973057
+                ],
+                [
+                    -87.51883738860488,
+                    -85.89791013579816,
+                    -83.4962331992574,
+                    -62.62013954913709,
+                    -96.91600040931371,
+                    -80.41281286859885,
+                    -56.480430356939905,
+                    -68.44933475507423,
+                    -68.44933475507423,
+                    -88.2848788962292,
+                    -113.51377495931229
+                ],
+                [
+                    -83.48429210064933,
+                    -94.10410428931937,
+                    -91.44050689833239,
+                    -74.38600869232323,
+                    -103.47759721774491,
+                    -70.97045918763615,
+                    -80.18296148770605,
+                    -56.53180129046086,
+                    -56.53180129046086,
+                    -78.7746289709903,
+                    -122.22589044173947
+                ],
+                [
+                    -83.48429210064933,
+                    -94.10410428931937,
+                    -91.44050689833239,
+                    -74.38600869232323,
+                    -103.47759721774491,
+                    -70.97045918763615,
+                    -80.18296148770605,
+                    -56.53180129046086,
+                    -56.53180129046086,
+                    -78.7746289709903,
+                    -122.22589044173947
+                ],
+                [
+                    -84.18457903701346,
+                    -105.81122930371203,
+                    -103.135312582599,
+                    -87.3798382250825,
+                    -87.64414170978125,
+                    -85.47231853567064,
+                    -93.45689391432097,
+                    -70.51907656883122,
+                    -70.51907656883122,
+                    -58.2884013565199,
+                    -127.24095185130136
+                ],
+                [
+                    -84.94153441640083,
+                    -81.15926412749104,
+                    -76.350068960106,
+                    -81.1847233165754,
+                    -100.74401616325486,
+                    -84.59004238434136,
+                    -87.22310056272545,
+                    -82.13340346317273,
+                    -82.13340346317273,
+                    -95.09482833711081,
+                    -75.75939752502018
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.28432946436404244
+        ],
+        "posix": 0.28432946436404244
+    }
+}

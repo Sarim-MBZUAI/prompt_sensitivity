@@ -1,0 +1,42 @@
+{
+    "file_name": "question_325_variants.json",
+    "overall_posix": 0.4813648293963255,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5695538057742782,
+            "Variation 2": 0.4461942257217848,
+            "Variation 3": 0.5301837270341208,
+            "Variation 4": 0.30183727034120733,
+            "Variation 5": 0.5853018372703412,
+            "Variation 6": 0.5721784776902887,
+            "Variation 7": 0.49606299212598426,
+            "Variation 8": 0.17322834645669294,
+            "Variation 9": 0.5800524934383202,
+            "Variation 10": 0.5590551181102362
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\n<image> 11. Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\n 12. Is there a significant difference in the lung appearance compared to the prior",
+                "<s> Question:Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n The lung fields are more opaque than on the prior exam. This is due to the fact that the patient is now breathing room air, which is more opaque than the gas used for the prior exam.\n 10.",
+                "<s> QUESTION:Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n [yes, no]\n 10.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:Pulmonary edema\n C:",
+                "<s> Question::: Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\n Answer:\n No\n 11.\n Is",
+                "<s> QUESTION:Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question-Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n",
+                "<s> Q:Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n S:\n R:\n T:\n 2.\n Q:What is the most likely diagnosis?\n A:Pneumothorax\n B:Pneumomediastinum\n C:Pneumoperic",
+                "<s> Q::Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there a significant difference in the heart appearance compared to the prior exam? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there a significant difference in the li",
+                "<s> Q::: Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q:::Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::"
+            ]
+        ],
+        "sensitivities": [
+            0.4813648293963255
+        ],
+        "posix": 0.4813648293963255
+    }
+}

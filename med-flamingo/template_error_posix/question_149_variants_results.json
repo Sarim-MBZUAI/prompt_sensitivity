@@ -1,0 +1,42 @@
+{
+    "file_name": "question_149_variants.json",
+    "overall_posix": 0.35224302702144483,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.14516129032258063,
+            "Variation 2": 0.4147286821705427,
+            "Variation 3": 0.5102739726027398,
+            "Variation 4": 0.2361809045226131,
+            "Variation 5": 0.5168918918918919,
+            "Variation 6": 0.3119266055045872,
+            "Variation 7": 0.10928961748633881,
+            "Variation 8": 0.2924528301886793,
+            "Variation 9": 0.51,
+            "Variation 10": 0.4755244755244755
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> question::Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A chest X-ray shows a focal area of consolidation in the right lower lobe.\n 10.10.10  Answer 10.10.9\n 10.1",
+                "<s> QUESTION:Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n [no, yes]\n 10.\n QUESTION:Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes,",
+                "<s> QUESTION\tDoes the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 15\n 15\n 15\n 15\n 15\n 15\n 15\n 15\n 15\n 15\n 15\n",
+                "<s> Question:Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The chest X-ray shows a focal consolidation in the right lower lobe (arrow).\n The patient is a 60-year-old man with a",
+                "<s> q::Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\na:\n<image> b:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> q:::Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer: Yes\n The chest X-ray shows focal consolidation in the right upper lobe (arrow).\n 10.\n QUESTION:What is the most likely diagnosis",
+                "<s> Question::: Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumonia\n B. Pulmonary edema\n C. Pulmonary infarction\n D. Pulmonary hemorrh"
+            ]
+        ],
+        "sensitivities": [
+            0.35224302702144483
+        ],
+        "posix": 0.35224302702144483
+    }
+}

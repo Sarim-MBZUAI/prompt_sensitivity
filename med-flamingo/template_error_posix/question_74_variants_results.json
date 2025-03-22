@@ -1,0 +1,42 @@
+{
+    "file_name": "question_74_variants.json",
+    "overall_posix": 0.38452675565015004,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5514018691588785,
+            "Variation 2": 0.3728813559322034,
+            "Variation 3": 0.27314814814814814,
+            "Variation 4": 0.4982456140350877,
+            "Variation 5": 0.4840989399293286,
+            "Variation 6": 0.3090909090909091,
+            "Variation 7": 0.3090909090909091,
+            "Variation 8": 0.2897196261682242,
+            "Variation 9": 0.46456692913385833,
+            "Variation 10": 0.2930232558139535
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The patient is a 55-year-old man with a history of a right-sided pneumothorax. He is currently being evaluated for a possible recurrence of the pneumothor",
+                "<s> QUESTION:Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [YES, NO]\n [YES, NO]\n [NO, YES]\n [NO, YES]\n [YES, NO]\n [YES, NO]\n [NO, YES]\n [NO, YES]\n 1",
+                "<s> Question::: Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q:Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n A: [Yes, no]\n",
+                "<s> QUESTION:Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B",
+                "<s> q:Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n 19.  A 55-year-old man with a history of diab",
+                "<s> q::Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:::Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tIf\tthe\tanswer\tis\tyes,\tplease\texplain\tthe\tfindings\tthat\tled\tto\tyour\tanswer.\n \u2022\tIf\tthe\tanswer\tis",
+                "<s> Q::: Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::"
+            ]
+        ],
+        "sensitivities": [
+            0.38452675565015004
+        ],
+        "posix": 0.38452675565015004
+    }
+}

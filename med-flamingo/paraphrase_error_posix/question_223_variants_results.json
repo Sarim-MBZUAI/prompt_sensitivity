@@ -1,0 +1,42 @@
+{
+    "file_name": "question_223_variants.json",
+    "overall_posix": 0.3176674614298473,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.15263157894736845,
+            "Variation 2": 0.1333333333333333,
+            "Variation 3": 0.21052631578947367,
+            "Variation 4": 0.368421052631579,
+            "Variation 5": 0.2850678733031674,
+            "Variation 6": 0.33018867924528306,
+            "Variation 7": 0.23175965665236054,
+            "Variation 8": 0.2831858407079646,
+            "Variation 9": 0.5815602836879432,
+            "Variation 10": 0.6
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any visible masses or nodules in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any visible masses or nodules in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any visible mediastinal masses or nodules on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of a mass or nodule in the mediastinum on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please identify any visible abnormal densities in the mediastinum. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do you see any masses, nodules, or other lesions within the mediastinum on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Are there any abnormalities, such as masses or lymphadenopathy, visible within the central mediastinum? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is a mass or nodule evident in the thoracic cavity, specifically within the mediastinal space? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do you observe any abnormal densities, such as masses or nodules, within the mediastinal compartment on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please confirm whether there are any visible abnormalities, including masses or nodules, in the mediastinum. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is a notable mass or nodule visible within the central thorax on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Answers\n [Yes] The radiograph shows a large mass in the right upper lobe of the lung. This is a solitary",
+                "<s> Do you see any abnormal structures, such as masses or lymph nodes, within the middle mediastinum? Please choose from the following two options: [yes, no]\n<image>\n 11. Is there any evidence of aortic regurgitation?\n [yes, no]\n 12. Is there any evidence of aortic stenosis?\n [yes, no]\n 13"
+            ]
+        ],
+        "sensitivities": [
+            0.3176674614298473
+        ],
+        "posix": 0.3176674614298473
+    }
+}

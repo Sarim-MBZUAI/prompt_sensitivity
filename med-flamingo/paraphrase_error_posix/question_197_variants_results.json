@@ -1,0 +1,42 @@
+{
+    "file_name": "question_197_variants.json",
+    "overall_posix": 0.4764973689759778,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.22033898305084743,
+            "Variation 2": 0.6138613861386139,
+            "Variation 3": 0.6480938416422287,
+            "Variation 4": 0.51985559566787,
+            "Variation 5": 0.20967741935483875,
+            "Variation 6": 0.5609756097560976,
+            "Variation 7": 0.638235294117647,
+            "Variation 8": 0.4979919678714859,
+            "Variation 9": 0.272300469483568,
+            "Variation 10": 0.5836431226765799
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest radiograph show evidence of cardiomegaly? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there cardiac enlargement visible on the anterior-posterior chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there a right-sided pleural effusion visible on the lateral chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there a right-s",
+                "<s> Please indicate whether there is an apparent increase in cardiac silhouette size on this chest film: Please choose from the following two options: [yes, no]\n<image> Please indicate whether there is an apparent increase in cardiac silhouette size on this chest film: Please choose from the following two options: [yes, no]\n 10\n 11\n 12\n 13",
+                "<s> Does the patient display a widened cardiac contour on the given chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n The patient displays a widened cardiac contour on the given chest X-ray.\n 11.10.2  Explanation\n The cardiac contour",
+                "<s> Can we observe an enlarged heart on the provided radiographic image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is cardiomegaly present and evident on the presented X-ray view? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Correct Answer: Yes\n The X-ray shows a cardiomegaly with a cardiothoracic ratio of 0.",
+                "<s> Is the cardiac shadow significantly expanded on this particular chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, the cardiac shadow is significantly expanded.\n b. No, the cardiac shadow is not significantly expanded.\n 10.\n Is the cardiac silhouette significantly displaced from the left midclavicular",
+                "<s> Does enlargement of the cardiac silhouette become apparent on the viewed chest film? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Correct Answer: Yes\n The cardiac silhouette is enlarged.\n 11.10.1.2 ",
+                "<s> Please confirm whether there is a notable increase in cardiac size visible on this chest X-ray: Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is an enlarged heart clearly visible on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, the heart is enlarged.\n b. No, the heart is not enlarged.\n 2.\n What is the most likely diagnosis?\n a. Aortic regurgitation\n b. Mit"
+            ]
+        ],
+        "sensitivities": [
+            0.4764973689759778
+        ],
+        "posix": 0.4764973689759778
+    }
+}

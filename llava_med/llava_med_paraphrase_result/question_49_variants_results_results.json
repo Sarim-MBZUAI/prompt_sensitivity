@@ -1,0 +1,189 @@
+{
+    "file_name": "question_49_variants_results.json",
+    "overall_posix": 1.156636311309716,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.5562075315666992,
+            "Variation 2": 0.8877423932821481,
+            "Variation 3": 1.0570247543979956,
+            "Variation 4": 1.0747541403845844,
+            "Variation 5": 0.7542566535885271,
+            "Variation 6": 1.389764660829072,
+            "Variation 7": 1.200025172208693,
+            "Variation 8": 0.9522863289399538,
+            "Variation 9": 1.2252835400188917,
+            "Variation 10": 0.7169293954114102
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the chest X-ray shows resolution of the consolidation and blunting that were present in the previous imaging. ",
+                "Yes, the area of increased density in the lung fields on chest X-ray has returned to baseline since the last imaging. ",
+                "Yes, the chest X-ray shows resolution of the alveolar consolidation compared to prior studies. ",
+                "Yes, the current chest X-ray shows resolution of the changes that were previously indicative of pulmonary edema or infection. ",
+                "Yes, the opacification and blunting of the lung markings observed on the chest X-ray are consistent with resolution from the previous study. This suggests that the patient's lung condition has improved since the previous imaging. ",
+                "Yes, the chest X-ray shows a decrease in the extent of consolidation compared to the previous examination. ",
+                "Yes, the findings on the current chest X-ray suggest that the pneumonia is resolving, as compared to prior studies. ",
+                "Yes, the lung density abnormality seen on the chest X-ray appears to be less pronounced compared to the previous imaging study. ",
+                "Yes, the chest X-ray shows resolution of the changes that were previously indicative of inflammatory or infectious processes. ",
+                "Yes, the blunting and increased opacity in the periphery of the lungs observed on the chest X-ray are consistent with resolution from the previous examination. This suggests that there has been an improvement in the patient's condition, and the previously observed",
+                "Yes, the chest X-ray shows a return to normal lung markings. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -47.08592515256896,
+                    -92.21594356800324,
+                    -68.39174259134052,
+                    -78.79666778450883,
+                    -100.82363217179818,
+                    -65.94234149228214,
+                    -88.77886497744112,
+                    -84.28670549103845,
+                    -75.65451502076758,
+                    -109.57538569353244,
+                    -60.707583665385755
+                ],
+                [
+                    -75.54826977825542,
+                    -43.2071092061251,
+                    -74.76058758331965,
+                    -81.5059446990781,
+                    -112.11433628812665,
+                    -68.48472452870374,
+                    -88.20020017344723,
+                    -80.57594328387859,
+                    -80.68744306183908,
+                    -115.88257442823533,
+                    -60.727670155372834
+                ],
+                [
+                    -75.69777638792038,
+                    -94.95113805050642,
+                    -43.86445319217728,
+                    -78.471866306847,
+                    -102.38249702830899,
+                    -63.08768067067467,
+                    -75.58675014699293,
+                    -77.60448824655396,
+                    -78.31735650224255,
+                    -113.50298625271444,
+                    -62.38591930439907
+                ],
+                [
+                    -71.83594649040788,
+                    -97.73631492137065,
+                    -72.13687362143355,
+                    -46.79273516353055,
+                    -105.28417137847941,
+                    -70.40230727935159,
+                    -77.1851508190075,
+                    -84.03465953930572,
+                    -65.76270215385102,
+                    -116.4498506636105,
+                    -62.70472553698437
+                ],
+                [
+                    -67.57339374165258,
+                    -104.52288722085359,
+                    -70.27664498789909,
+                    -80.1564573684791,
+                    -49.744521053094104,
+                    -69.4814740656011,
+                    -81.0475074367414,
+                    -83.49719306677798,
+                    -77.21392310096871,
+                    -79.77464641523477,
+                    -62.22653857289788
+                ],
+                [
+                    -80.93092211940893,
+                    -99.1776403791373,
+                    -72.05527667887054,
+                    -86.55806848971224,
+                    -122.94614203203719,
+                    -44.25682775025325,
+                    -90.81549164561147,
+                    -82.7377367017034,
+                    -83.98312831160274,
+                    -113.20233251043987,
+                    -64.11388501279998
+                ],
+                [
+                    -79.78275609797129,
+                    -102.70582684163674,
+                    -64.00867383400782,
+                    -75.14102167149667,
+                    -108.71160207575213,
+                    -68.97495296597936,
+                    -47.2945516503878,
+                    -80.95773835821092,
+                    -76.5657939190387,
+                    -120.74849140900392,
+                    -64.8836617930283
+                ],
+                [
+                    -83.78049265166919,
+                    -95.8900651490485,
+                    -77.15954344979036,
+                    -84.74587532589976,
+                    -105.19050732694245,
+                    -65.38284438415212,
+                    -85.49856336020457,
+                    -44.139546757739254,
+                    -87.13792860441026,
+                    -118.69069487859326,
+                    -65.14380088504186
+                ],
+                [
+                    -72.98263950312958,
+                    -97.18802731746109,
+                    -68.46876989903376,
+                    -64.8321657716715,
+                    -110.52713165026671,
+                    -69.65612031701585,
+                    -78.42779770356174,
+                    -83.30483973006267,
+                    -46.52526860700095,
+                    -115.76302394786637,
+                    -62.509093913674405
+                ],
+                [
+                    -67.55787817535384,
+                    -102.93307618086692,
+                    -73.18917568179859,
+                    -81.20893196655379,
+                    -81.26056833030736,
+                    -64.29428370303685,
+                    -81.74682449480679,
+                    -83.08689632395908,
+                    -78.96887830862579,
+                    -48.89309683880384,
+                    -65.64707033098603
+                ],
+                [
+                    -73.86996456223824,
+                    -82.59958279233615,
+                    -74.9472696878056,
+                    -81.18347133629686,
+                    -105.64267183564266,
+                    -69.35944396207742,
+                    -92.94124869539155,
+                    -86.78207414320059,
+                    -80.25695403333339,
+                    -116.39628292334112,
+                    -44.323871933445844
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.156636311309716
+        ],
+        "posix": 1.156636311309716
+    }
+}

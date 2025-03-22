@@ -1,0 +1,42 @@
+{
+    "file_name": "question_42_variants.json",
+    "overall_posix": 0.4063151305445124,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5391849529780565,
+            "Variation 2": 0.2981651376146789,
+            "Variation 3": 0.3035714285714286,
+            "Variation 4": 0.287037037037037,
+            "Variation 5": 0.5016949152542373,
+            "Variation 6": 0.2512315270935961,
+            "Variation 7": 0.49488054607508536,
+            "Variation 8": 0.5033783783783784,
+            "Variation 9": 0.4623655913978495,
+            "Variation 10": 0.42164179104477606
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of aortic valve replacement. He is complaining of chest pain. The chest X-ray shows a right pleural eff",
+                "<s> Q:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n 166: Chest X-Ray Questions\n 167\n 167: Chest X-Ray Questions\n",
+                "<s> Q::: Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n 11.10.2  Answer\n A. No\n B. Yes\n C. No\n D. Yes\n E. No",
+                "<s> q:::Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Explanation:\n The chest X-ray shows a right-sided pleural effusion.\n The patient is a 65-year-old man with a history of right-sided ple",
+                "<s> question::Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Question:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer:\n [yes, no]\n The chest X-ray shows a right-sided pleural effusion.\n The patient is a 65-year-old man with a history of",
+                "<s> Q:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct Answer: Yes\n The chest X-ray shows a right-sided pleural effusion.\n The patient is a 65-year-old male with a history of right-sided ple",
+                "<s> Question:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the next step in the management of this patient?\n A. Thoracentesis\n B. CT scan of the chest\n C. Chest X-ray\n D. Ech",
+                "<s> question:Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n You have chosen option 1.\n The chest X-ray shows a pleural effusion in the left hemithorax.\n "
+            ]
+        ],
+        "sensitivities": [
+            0.4063151305445124
+        ],
+        "posix": 0.4063151305445124
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_107_variants.json",
+    "overall_posix": 8.43790532074556,
+    "detailed_scores": [
+        {
+            "Variation 1": 8.9598446559906,
+            "Variation 2": 12.630922215325493,
+            "Variation 3": 12.630922215325493,
+            "Variation 4": 8.9598446559906,
+            "Variation 5": 0.20791022777557372,
+            "Variation 6": 8.9598446559906,
+            "Variation 7": 8.9598446559906,
+            "Variation 8": 8.9598446559906,
+            "Variation 9": 87.26204919815063,
+            "Variation 10": 0.5381706131829156
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the chest X-ray does not show any signs of lung infection, such as focal consolidation. The lungs appear clear, with no areas of increased opacity that would suggest an infection or other pathological process.",
+                "No, the chest X-ray does not show any signs of lung infection, such as focal consolidation.",
+                "Yes, the chest X-ray shows signs of lung infection, specifically focal consolidation.",
+                "Yes, the chest X-ray shows signs of lung infection, specifically focal consolidation.",
+                "No, the chest X-ray does not show any signs of lung infection, such as focal consolidation.",
+                "Based on the image provided, there is no clear evidence of focal consolidation, which is a common sign of lung infection on a chest X-ray. The lungs appear to be clear, with no visible areas of consolidation or other abnormal",
+                "No, the chest X-ray does not show any signs of lung infection, such as focal consolidation.",
+                "No, the chest X-ray does not show any signs of lung infection, such as focal consolidation.",
+                "No, the chest X-ray does not show any signs of lung infection, such as focal consolidation.",
+                "[no]",
+                "No, the chest X-ray does not show any signs of lung infection, such as focal consolidation. The image appears to be normal, with no evidence of pneumonia or other lung infections."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -479.5936179161072,
+                    -255.59750151634216,
+                    -214.34425139427185,
+                    -214.34425139427185,
+                    -255.59750151634216,
+                    -469.1981065273285,
+                    -255.59750151634216,
+                    -255.59750151634216,
+                    -255.59750151634216,
+                    -43.283371925354004,
+                    -455.375940322876
+                ],
+                [
+                    -444.9249863624573,
+                    -243.57020139694214,
+                    -204.58177995681763,
+                    -204.58177995681763,
+                    -243.57020139694214,
+                    -458.47256088256836,
+                    -243.57020139694214,
+                    -243.57020139694214,
+                    -243.57020139694214,
+                    -46.29869318008423,
+                    -422.75953817367554
+                ],
+                [
+                    -467.4731981754303,
+                    -242.84654808044434,
+                    -217.47603845596313,
+                    -217.47603845596313,
+                    -242.84654808044434,
+                    -478.1139622926712,
+                    -242.84654808044434,
+                    -242.84654808044434,
+                    -242.84654808044434,
+                    -45.51369380950928,
+                    -435.65390634536743
+                ],
+                [
+                    -457.5459027290344,
+                    -250.25312024354935,
+                    -200.73603630065918,
+                    -200.73603630065918,
+                    -250.25312024354935,
+                    -474.68170380592346,
+                    -250.25312024354935,
+                    -250.25312024354935,
+                    -250.25312024354935,
+                    -49.11070537567139,
+                    -429.3218870162964
+                ],
+                [
+                    -444.9249863624573,
+                    -243.57020139694214,
+                    -204.58177995681763,
+                    -204.58177995681763,
+                    -243.57020139694214,
+                    -458.47256088256836,
+                    -243.57020139694214,
+                    -243.57020139694214,
+                    -243.57020139694214,
+                    -46.29869318008423,
+                    -422.75953817367554
+                ],
+                [
+                    -467.4731981754303,
+                    -242.84654808044434,
+                    -217.47603845596313,
+                    -217.47603845596313,
+                    -242.84654808044434,
+                    -478.1139622926712,
+                    -242.84654808044434,
+                    -242.84654808044434,
+                    -242.84654808044434,
+                    -45.51369380950928,
+                    -435.65390634536743
+                ],
+                [
+                    -467.4731981754303,
+                    -242.84654808044434,
+                    -217.47603845596313,
+                    -217.47603845596313,
+                    -242.84654808044434,
+                    -478.1139622926712,
+                    -242.84654808044434,
+                    -242.84654808044434,
+                    -242.84654808044434,
+                    -45.51369380950928,
+                    -435.65390634536743
+                ],
+                [
+                    -467.4731981754303,
+                    -242.84654808044434,
+                    -217.47603845596313,
+                    -217.47603845596313,
+                    -242.84654808044434,
+                    -478.1139622926712,
+                    -242.84654808044434,
+                    -242.84654808044434,
+                    -242.84654808044434,
+                    -45.51369380950928,
+                    -435.65390634536743
+                ],
+                [
+                    -460.7431881427765,
+                    -248.11810731887817,
+                    -197.16238260269165,
+                    -197.16238260269165,
+                    -248.11810731887817,
+                    -471.86921286582947,
+                    -248.11810731887817,
+                    -248.11810731887817,
+                    -248.11810731887817,
+                    -45.14125204086304,
+                    -427.94525814056396
+                ],
+                [
+                    -467.4731981754303,
+                    -242.84654808044434,
+                    -217.47603845596313,
+                    -217.47603845596313,
+                    -242.84654808044434,
+                    -478.1139622926712,
+                    -242.84654808044434,
+                    -242.84654808044434,
+                    -242.84654808044434,
+                    -45.51369380950928,
+                    -435.65390634536743
+                ],
+                [
+                    -460.7431881427765,
+                    -248.11810731887817,
+                    -197.16238260269165,
+                    -197.16238260269165,
+                    -248.11810731887817,
+                    -471.86921286582947,
+                    -248.11810731887817,
+                    -248.11810731887817,
+                    -248.11810731887817,
+                    -45.14125204086304,
+                    -427.94525814056396
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            8.43790532074556
+        ],
+        "posix": 8.43790532074556
+    }
+}

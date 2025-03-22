@@ -1,0 +1,42 @@
+{
+    "file_name": "question_262_variants.json",
+    "overall_posix": 0.3828255378891353,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.34196891191709844,
+            "Variation 2": 0.4767025089605734,
+            "Variation 3": 0.46183206106870234,
+            "Variation 4": 0.515358361774744,
+            "Variation 5": 0.3162790697674418,
+            "Variation 6": 0.2602040816326531,
+            "Variation 7": 0.23469387755102045,
+            "Variation 8": 0.23711340206185572,
+            "Variation 9": 0.4913494809688581,
+            "Variation 10": 0.49275362318840576
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question-Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+                "<s> Question:Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The radiograph shows a heart size of 10.5 cm.\n 1.The heart is enlarged.\n 2.The heart is normal.\n 3.The heart is small",
+                "<s> Q::Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A::Aortic aneurysm\n B::Aortic dissection\n C::Aortic regurgitation\n D::Aortic stenosis\n",
+                "<s> Question:Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The chest X-ray shows a cardiomegaly.\n The cardiomegaly is caused by the enlarged left ventricle.\n The left ventricle",
+                "<s> q::Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> question::Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> QUESTION\tAre there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> QUESTION:Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question::: Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n 10.\n Question:\n What is the most likely diagnosis?\n A. Congestive heart failure\n B. Pulmonary edema\n C. Pulmonary",
+                "<s> Q:Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Aortic aneurysm\n Q:What is the most likely cause of this patient\u2019s symptoms?\n A:Aortic dis"
+            ]
+        ],
+        "sensitivities": [
+            0.3828255378891353
+        ],
+        "posix": 0.3828255378891353
+    }
+}

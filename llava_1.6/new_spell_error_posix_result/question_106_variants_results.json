@@ -1,0 +1,189 @@
+{
+    "file_name": "question_106_variants.json",
+    "overall_posix": 2.2999146030126845,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.04575366162239237,
+            "Variation 2": 0.5265469908714294,
+            "Variation 3": 0.49834092140197755,
+            "Variation 4": 6.980722049186969,
+            "Variation 5": 0.2232531209786733,
+            "Variation 6": 0.27697043180465697,
+            "Variation 7": 0.5204224300384521,
+            "Variation 8": 0.15731637477874755,
+            "Variation 9": 0.15731637477874755,
+            "Variation 10": 7.298684077603476
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray. The X-ray shows a normal chest structure with no visible signs of lung disease or obstruction.",
+                "No, there are no signs of chronic obstructive pulmonary disease (COPD) visible on this X-ray. The image shows a normal chest X-ray with no evidence of lung disease or obstruction.",
+                "Yes, there are signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray. The presence of hyperinflation, flattened diaphragms, and increased lung markings are indicative",
+                "Based on the image provided, there are no visible signs of chronic obstructive pulmonary disease (COPD) on this chest X-ray. The lungs appear to be clear, and there are no signs of hyperinflation or air tr",
+                "No, there are no signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray.",
+                "No, there are no signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray. The image shows a normal chest X-ray with no evidence of lung disease or obstruction.",
+                "Based on the image provided, it is not possible to definitively diagnose chronic obstructive pulmonary disease (COPD) from a chest X-ray alone. The X-ray shows the lungs and heart, but the presence of COP",
+                "No, there are no signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray. The X-ray appears to show a normal chest structure without any indications of lung disease or obstruction.",
+                "No, there are no signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray. The image shows a normal chest X-ray with no abnormalities or signs of respiratory disease.",
+                "No, there are no signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray. The image shows a normal chest X-ray with no abnormalities or signs of respiratory disease.",
+                "Yes, there are signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -488.7803692817688,
+                    -486.62994718551636,
+                    -515.1077188253403,
+                    -513.6974153518677,
+                    -286.3394298553467,
+                    -478.0642194747925,
+                    -502.62889087200165,
+                    -514.8014907836914,
+                    -496.6461880207062,
+                    -496.6461880207062,
+                    -284.41721510887146
+                ],
+                [
+                    -530.8290364742279,
+                    -475.30601167678833,
+                    -536.4461362361908,
+                    -515.0309752225876,
+                    -311.35886549949646,
+                    -503.9716086387634,
+                    -510.7746994495392,
+                    -543.9469499588013,
+                    -522.929936170578,
+                    -522.929936170578,
+                    -282.9894988536835
+                ],
+                [
+                    -489.1566951274872,
+                    -467.1665768623352,
+                    -536.8087264299393,
+                    -517.2300536632538,
+                    -280.668176651001,
+                    -472.0719041824341,
+                    -505.48378896713257,
+                    -510.8347487449646,
+                    -497.301824092865,
+                    -497.301824092865,
+                    -285.99070405960083
+                ],
+                [
+                    -489.1566951274872,
+                    -467.1665768623352,
+                    -536.8087264299393,
+                    -517.2300536632538,
+                    -280.668176651001,
+                    -472.0719041824341,
+                    -505.48378896713257,
+                    -510.8347487449646,
+                    -497.301824092865,
+                    -497.301824092865,
+                    -285.99070405960083
+                ],
+                [
+                    -489.1566951274872,
+                    -467.1665768623352,
+                    -536.8087264299393,
+                    -517.2300536632538,
+                    -280.668176651001,
+                    -472.0719041824341,
+                    -505.48378896713257,
+                    -510.8347487449646,
+                    -497.301824092865,
+                    -497.301824092865,
+                    -285.99070405960083
+                ],
+                [
+                    -506.23934602737427,
+                    -469.6879668235779,
+                    -542.0857441425323,
+                    -525.7696080207825,
+                    -289.8506283760071,
+                    -476.3563644886017,
+                    -513.8313508033752,
+                    -520.5895824432373,
+                    -501.2411596775055,
+                    -501.2411596775055,
+                    -270.5750126838684
+                ],
+                [
+                    -530.8290364742279,
+                    -475.30601167678833,
+                    -536.4461362361908,
+                    -515.0309752225876,
+                    -311.35886549949646,
+                    -503.9716086387634,
+                    -510.7746994495392,
+                    -543.9469499588013,
+                    -522.929936170578,
+                    -522.929936170578,
+                    -282.9894988536835
+                ],
+                [
+                    -489.1566951274872,
+                    -467.1665768623352,
+                    -536.8087264299393,
+                    -517.2300536632538,
+                    -280.668176651001,
+                    -472.0719041824341,
+                    -505.48378896713257,
+                    -510.8347487449646,
+                    -497.301824092865,
+                    -497.301824092865,
+                    -285.99070405960083
+                ],
+                [
+                    -488.7803692817688,
+                    -486.62994718551636,
+                    -515.1077188253403,
+                    -513.6974153518677,
+                    -286.3394298553467,
+                    -478.0642194747925,
+                    -502.62889087200165,
+                    -514.8014907836914,
+                    -496.6461880207062,
+                    -496.6461880207062,
+                    -284.41721510887146
+                ],
+                [
+                    -489.1566951274872,
+                    -467.1665768623352,
+                    -536.8087264299393,
+                    -517.2300536632538,
+                    -280.668176651001,
+                    -472.0719041824341,
+                    -505.48378896713257,
+                    -510.8347487449646,
+                    -497.301824092865,
+                    -497.301824092865,
+                    -285.99070405960083
+                ],
+                [
+                    -489.1566951274872,
+                    -467.1665768623352,
+                    -536.8087264299393,
+                    -517.2300536632538,
+                    -280.668176651001,
+                    -472.0719041824341,
+                    -505.48378896713257,
+                    -510.8347487449646,
+                    -497.301824092865,
+                    -497.301824092865,
+                    -285.99070405960083
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.2999146030126845
+        ],
+        "posix": 2.2999146030126845
+    }
+}

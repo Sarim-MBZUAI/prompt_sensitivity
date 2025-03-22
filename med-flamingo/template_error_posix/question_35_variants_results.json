@@ -1,0 +1,42 @@
+{
+    "file_name": "question_35_variants.json",
+    "overall_posix": 0.3196556338278862,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3154929577464789,
+            "Variation 2": 0.3042253521126761,
+            "Variation 3": 0.3436619718309859,
+            "Variation 4": 0.32929782082324455,
+            "Variation 5": 0.25183374083129584,
+            "Variation 6": 0.3075060532687651,
+            "Variation 7": 0.35972850678733037,
+            "Variation 8": 0.3436619718309859,
+            "Variation 9": 0.323943661971831,
+            "Variation 10": 0.31720430107526876
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the X-ray shows a large mass in the right chest.\n 2.  No, the X-ray shows no abnormality.\n 1.  Yes, the X-ray shows a",
+                "<s> Q:Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:\n R",
+                "<s> q:Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> question::Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n \n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n ",
+                "<s> QUESTION:Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n COMMENTS:The X-ray shows a right-sided pneumothorax. The X-ray is not clear enough to determine whether the pneumothorax is secondary to a lung process or to a ch",
+                "<s> Q:Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\nA:\n<image> Yes\n B:\n No\n Answers:\n Yes, the X-ray shows a large mass in the right chest. The mass is compressing the right lung and the mediastinum. The mass is also causing the right hem",
+                "<s> Question-Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n Comments: The X-ray shows a right-sided pneumothorax. The right hemithorax is less opaque than the left, and the right diaphragm is clearly seen. The right lung is",
+                "<s> Question:Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The following radiograph is of a 55-year-old woman with a history of chest pain. The patient was brought to the emergency department by ambulance. The patient\u2019s vital signs were",
+                "<s> Q::: Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pulmonary edema\n B:Pneumothorax\n C:Pneumonia\n D:Pneumonitis",
+                "<s> question:Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have to answer 20 out of 20 questions to pass this exam.\n The correct answer is 1.\n Rating scale"
+            ]
+        ],
+        "sensitivities": [
+            0.3196556338278862
+        ],
+        "posix": 0.3196556338278862
+    }
+}

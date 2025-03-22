@@ -1,0 +1,42 @@
+{
+    "file_name": "question_175_variants.json",
+    "overall_posix": 0.48014121049983804,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.39175257731958757,
+            "Variation 2": 0.0,
+            "Variation 3": 0.27956989247311825,
+            "Variation 4": 0.6245954692556634,
+            "Variation 5": 0.5567375886524822,
+            "Variation 6": 0.5631399317406144,
+            "Variation 7": 0.5944055944055944,
+            "Variation 8": 0.5313807531380753,
+            "Variation 9": 0.640625,
+            "Variation 10": 0.6192052980132451
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pleural fluid accumulation visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray display signs suggestive of a pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we see radiographic evidence of pleural fluid in the thoracic cavity on this image? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is pleural fluid in the thoracic cavity.\n b. No, there is no pleural fluid in the thoracic cavity.\n 4.\n What is the most likely diagnosis?\n",
+                "<s> Is there imaging findings consistent with pleural disease (e.g. effusion) present in the lung fields on this X-ray? Please choose from the following two options: [yes, no]\n<image> 15.2.2  Pleural Disease\n 15.2.2.1  Pleural Effusion\n 15.2.2.1.1  Definition\n A pleural effusion is",
+                "<s> Are the characteristic features of a pleural effusion visible within the thorax on this radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2.\n What is the most likely diagnosis?\n a. Pneumothorax\n b. Pleural effusion\n c. Pneumonia\n d. Tuberculosis\n e",
+                "<s> Does the chest X-ray demonstrate the presence of fluid in the pleural space? Please choose from the following two options: [yes, no]\n<image> 11.\n Which of the following is the most likely diagnosis?\n A. Pneumothorax\n B. Pleural effusion\n C. Pulmonary edema\n D. Pulmonary embolism\n E",
+                "<s> Is there a noticeable increase in soft tissue density at the lung periphery indicative of pleural effusion on this image? Please choose from the following two options: [yes, no]\n<image> 2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Can we observe any opacification suggestive of pleural fluid accumulation within the thoracic cavity? Please choose from the following two options: [yes, no]\n<image> a\n b\n Fig. 1.16a,b. Chest radiograph (a) and computed tomography (b) of a patient with a history of pulmonary tuberculosis. The chest radiograph shows",
+                "<s> Does this chest X-ray display radiographic features consistent with an effusion within the pleural space? Please choose from the following two options: [yes, no]\n<image> A.  Yes, the X-ray shows a pleural effusion.\n B.  No, the X-ray shows no pleural effusion.\n 2.\n A 25-year-old man with a history"
+            ]
+        ],
+        "sensitivities": [
+            0.48014121049983804
+        ],
+        "posix": 0.48014121049983804
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_224_variants.json",
+    "overall_posix": 0.45716695493619525,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.476027397260274,
+            "Variation 2": 0.41984732824427473,
+            "Variation 3": 0.5258064516129032,
+            "Variation 4": 0.287037037037037,
+            "Variation 5": 0.4915254237288136,
+            "Variation 6": 0.5196078431372549,
+            "Variation 7": 0.5476923076923077,
+            "Variation 8": 0.42647058823529416,
+            "Variation 9": 0.388,
+            "Variation 10": 0.4896551724137931
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tIs there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a large area of opacification in the right upper lobe. This is a large area of consolidation.\n The X-",
+                "<s> QUESTION:Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumonia\n B.Pleural effusion\n C.Pneumothorax\n D.P",
+                "<s> Question:Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 11.Question:Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no",
+                "<s> q:::Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)Yes, there is focal lung consolidation in the right lower lobe.\n (b)No, there is no focal lung consolidation in the right lower lobe.\n 10.\n QUE",
+                "<s> Q:Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n Q:Is there any evidence of focal lung consolidation on the CT? Please choose from the following two options: [yes, no]\n A:\n B:\n Q:Is there any evidence of focal lung",
+                "<s> Q:Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> No\n The X-ray shows no evidence of focal lung consolidation.\n Q:Is there any evidence of pleural effusion on the X-ray? Please choose from the following two options: [yes, no]\n Answer",
+                "<s> Question:Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions: Please mark the appropriate choice(s) and submit the image for evaluation.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n",
+                "<s> q:Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.  When you look at the X-ray, what is your impression?\n a:Normal\n b:Abnormal\n c:Normal",
+                "<s> QUESTION:Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n "
+            ]
+        ],
+        "sensitivities": [
+            0.45716695493619525
+        ],
+        "posix": 0.45716695493619525
+    }
+}

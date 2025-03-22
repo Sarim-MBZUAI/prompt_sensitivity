@@ -1,0 +1,42 @@
+{
+    "file_name": "question_34_variants.json",
+    "overall_posix": 0.3519045979726837,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.18297872340425525,
+            "Variation 2": 0.3920265780730897,
+            "Variation 3": 0.2530120481927711,
+            "Variation 4": 0.22267206477732793,
+            "Variation 5": 0.4263322884012539,
+            "Variation 6": 0.25,
+            "Variation 7": 0.5354330708661418,
+            "Variation 8": 0.518918918918919,
+            "Variation 9": 0.3812709030100334,
+            "Variation 10": 0.356401384083045
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n A:\n B:\n 3.\n A:\n B:\n 4.\n A:\n B:\n 5.\n A:\n B:\n 6.\n A:\n",
+                "<s> Question:Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n 11.\n Question:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumonia\n C.Pneumomediastinum\n D.Pneumon",
+                "<s> Q::: Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 1",
+                "<s> question:Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n A. Yes, because the X-ray is not diagnostic for a pneumothorax.\n B. No, because the X-ray is diagnostic for a pneumothorax.\n 10.Question",
+                "<s> q:::Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Comments: This X-ray demonstrates a right pneumothorax. The diagnosis is confirmed by the presence of a right pleural line (black arrow) and the presence of air in the pleural space (white arrow",
+                "<s> QUESTION:Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n Discussion:\n This X-ray demonstrates a right pneumothorax. The diagnosis is confirmed by the presence of air in the pleural space on the right, which is visible as a lucent line (arrow",
+                "<s> QUESTION\tIs it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n rationale\n 1.\tYes\n The X-ray shows a right pneumothorax. The X-ray is not diagnostic of a pneumothorax,",
+                "<s> Question:Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> 1.Yes\n 2.No\n Reasoning:\n 1.The X-ray shows a right-sided pneumothorax.\n 2.The X-ray shows a left-sided pneum"
+            ]
+        ],
+        "sensitivities": [
+            0.3519045979726837
+        ],
+        "posix": 0.3519045979726837
+    }
+}

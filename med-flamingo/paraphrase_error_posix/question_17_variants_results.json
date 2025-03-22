@@ -1,0 +1,42 @@
+{
+    "file_name": "question_17_variants.json",
+    "overall_posix": 0.5390122254279006,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6408450704225352,
+            "Variation 2": 0.6161971830985915,
+            "Variation 3": 0.5410764872521246,
+            "Variation 4": 0.4281437125748503,
+            "Variation 5": 0.4064171122994653,
+            "Variation 6": 0.6654929577464789,
+            "Variation 7": 0.34202898550724636,
+            "Variation 8": 0.5141955835962145,
+            "Variation 9": 0.5878378378378378,
+            "Variation 10": 0.647887323943662
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the patient's heart size abnormal as seen on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the patient's heart size abnormal as seen on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is the patient's heart size abnormal as seen on the X-ray? Please choose from the following two options: [yes, no]\n a. Yes, the heart is enlarged.\n b. No",
+                "<s> Does the cardiac silhouette appear enlarged on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n",
+                "<s> Is there evidence of cardiomegaly (enlarged heart) visible on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Aortic dissection\n B.Aortic aneurysm\n C.Aortic regurgitation\n D.Aortic stenosis\n E",
+                "<s> Please confirm whether the cardiac border is normal in size as seen on the X-ray image. Please choose from the following two options: [yes, no]\n<image> 1.The cardiac border is normal in size.\n 2.The cardiac border is enlarged.\n Please confirm whether the cardiac border is clearly visible as seen on the X-ray image. Please choose from the following",
+                "<s> Does the heart diameter exceed expected limits as measured from the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is the heart diameter greater than 40 mm? Please choose from the following two options: [yes, no]\n 12. Is the heart diameter greater than 45 mm? Please choose from the following two",
+                "<s> Is the cardiac silhouette larger than normal dimensions, as observed on this particular film? Please choose from the following two options: [yes, no]\n<image> 2. Is the cardiac silhouette larger than normal dimensions, as observed on this particular film? Please choose from the following two options: [yes, no]\n 3. Is the cardiac silhouette larger than normal dimensions",
+                "<s> Do you observe any cardiomegaly (enlargement of the heart) on the provided radiologic image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the patient's heart size within the expected range based on the available chest X-ray data? Please choose from the following two options: [yes, no]\n<image> 11. Is the patient's heart size within the expected range based on the available chest X-ray data? Please choose from the following two options: [yes, no]\n 12. Is the patient's heart",
+                "<s> Are there any abnormalities in the cardiac silhouette shape or size visible on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is the cardiac silhouette normal in shape and size?\n 12. Is the cardiac silhouette normal in shape and size?\n 13. Is the cardiac silhouette normal in shape",
+                "<s> Does this chest X-ray depict an enlarged cardiac configuration compared to normal standards? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the cardiac silhouette is enlarged.\n 2. No, the cardiac silhouette is not enlarged.\n 1. Yes, the cardiac silhouette is enlarged",
+                "<s> Is the cardiac silhouette proportionally larger than usual, as demonstrated by the accompanying image? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1"
+            ]
+        ],
+        "sensitivities": [
+            0.5390122254279006
+        ],
+        "posix": 0.5390122254279006
+    }
+}

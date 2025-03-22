@@ -1,0 +1,42 @@
+{
+    "file_name": "question_12_variants.json",
+    "overall_posix": 0.5031061984262146,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.22580645161290325,
+            "Variation 2": 0.6487455197132617,
+            "Variation 3": 0.0,
+            "Variation 4": 0.6308243727598566,
+            "Variation 5": 0.6308243727598566,
+            "Variation 6": 0.5483870967741935,
+            "Variation 7": 0.5213414634146342,
+            "Variation 8": 0.6702508960573477,
+            "Variation 9": 0.6200716845878136,
+            "Variation 10": 0.5348101265822784
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a right pleural effusion.\n b. No, there is no pleural effusion.\n 4.\n What is the most likely diagnosis?\n a. Pneumonia\n b. Tuber",
+                "<s> Are pleural fluid collections visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, a right pleural effusion is present.\n b. No, there is no pleural effusion.\n 10.\n What is the most likely diagnosis?\n a. Pneumonia\n b. Pul",
+                "<s> Please choose from the following two options: [yes, no]\n<image> 1.Do you have any pain in your chest?\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n ",
+                "<s> Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a right pleural effusion.\n b. No, there is no pleural effusion.\n 4.\n What is the most likely diagnosis?\n a. Pneumonia\n b. Tuber",
+                "<s> Is there evidence of fluid accumulation in the pleural space on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Does the chest X-ray show features suggestive of a pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic signs indicative of fluid in the pleural cavity on this image? Please choose from the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2.\n What is the most likely diagnosis?\n a. Pneumothorax\n b. Pleural effusion\n c. Pneumonia\n d. Tuberculosis\n e",
+                "<s> Is pleural thickening or fluid accumulation visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, pleural thickening is visible.\n b. No, pleural thickening is not visible.\n 3. Is there pleural fluid accumulation visible on this chest X-ray? Please choose from the following two",
+                "<s> Does the radiograph demonstrate a significant increase in fluid in the pleural space? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Are there findings consistent with a pleural effusion, such as blunted costophrenic angles? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is this chest X-ray suggestive of fluid collection in the interlobar fissure or along lung surfaces? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, there is a fluid collection in the interlobar fissure.\n 2.  No, there is no fluid collection in the interlobar fissure.\n 1.  Yes, there is"
+            ]
+        ],
+        "sensitivities": [
+            0.5031061984262146
+        ],
+        "posix": 0.5031061984262146
+    }
+}

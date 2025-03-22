@@ -1,0 +1,42 @@
+{
+    "file_name": "question_132_variants.json",
+    "overall_posix": 0.36126224573062415,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2647058823529411,
+            "Variation 2": 0.5033783783783784,
+            "Variation 3": 0.3035714285714286,
+            "Variation 4": 0.24271844660194175,
+            "Variation 5": 0.5283018867924528,
+            "Variation 6": 0.4816053511705686,
+            "Variation 7": 0.372,
+            "Variation 8": 0.4075471698113208,
+            "Variation 9": 0.2844036697247707,
+            "Variation 10": 0.224390243902439
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question-Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Q:Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\n A: [Yes, no]\n Q:",
+                "<s> q::Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n E:\n R:\n D:\n E:\n F:\n I:\n L:\n U:\n X:\n S:\n E:\n R:\n D:\n E:",
+                "<s> Question:Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: Yes\n The chest X-ray shows bilateral, patchy, airspace opacities. These are consistent with acute respiratory distress syndrome (ARDS).\n The",
+                "<s> Question::: Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Acute respiratory distress syndrome\n B. Pneumonia\n C. Pulmonary edema\n D. Interstit",
+                "<s> q:Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.  Describe the findings on the chest X-ray.\n 11.  What is the most likely diagnosis?",
+                "<s> Question:Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please select from the following two options: [yes, no]\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> q:::Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION\tIs there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n"
+            ]
+        ],
+        "sensitivities": [
+            0.36126224573062415
+        ],
+        "posix": 0.36126224573062415
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_104_variants.json",
+    "overall_posix": 5.46009891655152,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.20235109329223633,
+            "Variation 2": 0.2999952369266086,
+            "Variation 3": 5.746801729202271,
+            "Variation 4": 0.8669849804469517,
+            "Variation 5": 1.4408374869305154,
+            "Variation 6": 6.229330921173096,
+            "Variation 7": 5.588924098014831,
+            "Variation 8": 5.042266448338826,
+            "Variation 9": 5.819287233352661,
+            "Variation 10": 1.0348681722368513
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, a pneumothorax can be seen on a chest X-ray.",
+                "Yes, there is evidence of pneumothorax present on the chest X-ray.",
+                "No, the chest radiograph does not show a pneumothorax.",
+                "No, pneumothorax cannot be identified from the chest X-ray image provided. The image shows a lateral chest X-ray, which is a common type of chest X-ray used to examine the lungs and heart. However,",
+                "No, pneumothorax is not visible on the provided chest X-ray film.",
+                "Yes, there are findings on the chest X-ray that suggestive of pneumothorax.",
+                "Yes, the chest radiograph demonstrates a pneumothorax. The presence of air in the pleural space, which is the space between the lungs and the chest wall, is indicative of a pneumothorax. The lung",
+                "Yes, a pneumothorax can be diagnosed based on the chest X-ray. In the image provided, there is a clear view of the chest cavity and the lungs. A pneumothorax is characterized by the presence of",
+                "Yes, a pneumothorax is evident from inspection of the chest X-ray image. The presence of air in the pleural space surrounding the lung is indicative of a pneumothorax.",
+                "Based on the image provided, it is not possible to definitively determine if there is a pneumothorax present. The image is a lateral chest X-ray, which is not the best view for assessing for pneumothor",
+                "Yes, there are diagnostic features of pneumothorax visible on the chest radiograph."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -171.6460690498352,
+                    -175.89544200897217,
+                    -166.24615478515625,
+                    -458.98615550994873,
+                    -189.8527536392212,
+                    -204.78533124923706,
+                    -483.11261510849,
+                    -451.0922739505768,
+                    -398.5480592250824,
+                    -462.61043071746826,
+                    -193.37830066680908
+                ],
+                [
+                    -177.93260979652405,
+                    -185.0432049036026,
+                    -170.0586862564087,
+                    -464.2403631210327,
+                    -189.16091859340668,
+                    -214.72194719314575,
+                    -488.611608505249,
+                    -436.58726739883423,
+                    -426.7060880661011,
+                    -465.7282328605652,
+                    -191.5620495080948
+                ],
+                [
+                    -167.53653240203857,
+                    -194.99466061592102,
+                    -150.4848759174347,
+                    -425.61312794685364,
+                    -176.01862835884094,
+                    -207.91403126716614,
+                    -481.07572531700134,
+                    -456.2538344860077,
+                    -414.2528783082962,
+                    -458.08057165145874,
+                    -198.58213758468628
+                ],
+                [
+                    -171.6460690498352,
+                    -175.89544200897217,
+                    -166.24615478515625,
+                    -458.98615550994873,
+                    -189.8527536392212,
+                    -204.78533124923706,
+                    -483.11261510849,
+                    -451.0922739505768,
+                    -398.5480592250824,
+                    -462.61043071746826,
+                    -193.37830066680908
+                ],
+                [
+                    -171.6460690498352,
+                    -175.89544200897217,
+                    -166.24615478515625,
+                    -458.98615550994873,
+                    -189.8527536392212,
+                    -204.78533124923706,
+                    -483.11261510849,
+                    -451.0922739505768,
+                    -398.5480592250824,
+                    -462.61043071746826,
+                    -193.37830066680908
+                ],
+                [
+                    -164.56509244441986,
+                    -183.4969666004181,
+                    -158.18104338645935,
+                    -457.6831765174866,
+                    -177.5979721546173,
+                    -203.77146410942078,
+                    -480.4673526287079,
+                    -447.8913953304291,
+                    -419.52896451950073,
+                    -453.7272720336914,
+                    -201.7796618938446
+                ],
+                [
+                    -167.53653240203857,
+                    -194.99466061592102,
+                    -150.4848759174347,
+                    -425.61312794685364,
+                    -176.01862835884094,
+                    -207.91403126716614,
+                    -481.07572531700134,
+                    -456.2538344860077,
+                    -414.2528783082962,
+                    -458.08057165145874,
+                    -198.58213758468628
+                ],
+                [
+                    -177.93260979652405,
+                    -185.0432049036026,
+                    -170.0586862564087,
+                    -464.2403631210327,
+                    -189.16091859340668,
+                    -214.72194719314575,
+                    -488.611608505249,
+                    -436.58726739883423,
+                    -426.7060880661011,
+                    -465.7282328605652,
+                    -191.5620495080948
+                ],
+                [
+                    -164.56509244441986,
+                    -183.4969666004181,
+                    -158.18104338645935,
+                    -457.6831765174866,
+                    -177.5979721546173,
+                    -203.77146410942078,
+                    -480.4673526287079,
+                    -447.8913953304291,
+                    -419.52896451950073,
+                    -453.7272720336914,
+                    -201.7796618938446
+                ],
+                [
+                    -171.6460690498352,
+                    -175.89544200897217,
+                    -166.24615478515625,
+                    -458.98615550994873,
+                    -189.8527536392212,
+                    -204.78533124923706,
+                    -483.11261510849,
+                    -451.0922739505768,
+                    -398.5480592250824,
+                    -462.61043071746826,
+                    -193.37830066680908
+                ],
+                [
+                    -177.93260979652405,
+                    -185.0432049036026,
+                    -170.0586862564087,
+                    -464.2403631210327,
+                    -189.16091859340668,
+                    -214.72194719314575,
+                    -488.611608505249,
+                    -436.58726739883423,
+                    -426.7060880661011,
+                    -465.7282328605652,
+                    -191.5620495080948
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            5.46009891655152
+        ],
+        "posix": 5.46009891655152
+    }
+}

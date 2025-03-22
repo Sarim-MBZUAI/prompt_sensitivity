@@ -1,0 +1,189 @@
+{
+    "file_name": "question_119_variants_results.json",
+    "overall_posix": 0.8829161700623427,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.7450035494470816,
+            "Variation 3": 0.9166979288126008,
+            "Variation 4": 1.4054417281531546,
+            "Variation 5": 0.7224169739077393,
+            "Variation 6": 1.3673188734887671,
+            "Variation 7": 0.6619530359970686,
+            "Variation 8": 1.2259376088678797,
+            "Variation 9": 1.1566035611591614,
+            "Variation 10": 1.0817221832243418
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray does not show any evidence of a pneumothorax. ",
+                "The chest x-ray does not show any evidence of a pneumothorax. ",
+                "The chest radiograph does not show any visible pneumothorax. ",
+                "The chest X-ray does not show a free air collection in the pleural space, which means it does not indicate a pneumothorax. ",
+                "Yes, the chest radiograph shows lung collapse or deflation consistent with a pneumothorax. ",
+                "The chest x-ray does not show any signs of an air leak into the pleural space, which would suggest a pneumothorax. ",
+                "The radiograph does not show any evidence of increased intercostal spacings or lung markings suggestive of a pneumothorax. ",
+                "Yes, the presence of a visible rim of air surrounding the lungs on the chest X-ray is indicative of a pneumothorax. A pneumothorax is a condition where air accumulates in the pleural space, which",
+                "The chest x-ray does not show any features consistent with an expanding air collection in the pleural space as seen in a pneumothorax. ",
+                "The chest x-ray does not show any radiographic signs of lung re-expansion or mediastinal shift away from the affected side, which would suggest a recent pneumothorax. ",
+                "Yes, the chest X-ray appears to be consistent with an air leak into the pleural space, which has resulted in a visible pneumothorax. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.483858117385125,
+                    -41.483858117385125,
+                    -54.89392200743259,
+                    -72.65158769701355,
+                    -75.21445959306084,
+                    -65.32361825634052,
+                    -86.60538094251444,
+                    -75.24346295323562,
+                    -83.16573681889304,
+                    -91.21781124722906,
+                    -80.42585671346143
+                ],
+                [
+                    -41.483858117385125,
+                    -41.483858117385125,
+                    -54.89392200743259,
+                    -72.65158769701355,
+                    -75.21445959306084,
+                    -65.32361825634052,
+                    -86.60538094251444,
+                    -75.24346295323562,
+                    -83.16573681889304,
+                    -91.21781124722906,
+                    -80.42585671346143
+                ],
+                [
+                    -48.61613558024783,
+                    -48.61613558024783,
+                    -42.53019752473688,
+                    -77.81791398181741,
+                    -70.81795204702689,
+                    -70.94723620490913,
+                    -85.13220407554275,
+                    -79.7914304716083,
+                    -87.31691802406385,
+                    -95.02569831204073,
+                    -80.38597102386797
+                ],
+                [
+                    -47.669372752755294,
+                    -47.669372752755294,
+                    -57.580915875991195,
+                    -45.18220099471293,
+                    -80.51603118018284,
+                    -64.34062170981201,
+                    -90.53556550538747,
+                    -78.4953871767033,
+                    -75.8933621595952,
+                    -92.34534946684471,
+                    -81.60886665692698
+                ],
+                [
+                    -51.675557586206196,
+                    -51.675557586206196,
+                    -50.118445994023205,
+                    -75.69377556650744,
+                    -41.18216269093148,
+                    -72.13201646612242,
+                    -83.29740957966828,
+                    -78.55950599208757,
+                    -82.29868118372815,
+                    -91.12875455332414,
+                    -81.17404611026336
+                ],
+                [
+                    -49.24721981561197,
+                    -49.24721981561197,
+                    -59.068816685379716,
+                    -68.55491966072316,
+                    -77.8494528127294,
+                    -44.81192280636003,
+                    -88.18252540188098,
+                    -73.97887505384986,
+                    -75.72312147607454,
+                    -88.57007708716674,
+                    -73.21592675117893
+                ],
+                [
+                    -51.27418193808103,
+                    -51.27418193808103,
+                    -54.529434443182254,
+                    -76.05008361974137,
+                    -72.82266703130517,
+                    -69.17175210404332,
+                    -42.85631323350401,
+                    -83.8473794156263,
+                    -82.97822562493047,
+                    -89.54297014614895,
+                    -82.51782507127632
+                ],
+                [
+                    -51.59866975943714,
+                    -51.59866975943714,
+                    -59.12839063824504,
+                    -68.81054271599606,
+                    -81.91352544089204,
+                    -72.77272210330239,
+                    -90.85234775759363,
+                    -43.75156418185165,
+                    -85.79917195221606,
+                    -92.91579669811654,
+                    -85.17097955806366
+                ],
+                [
+                    -51.08738328464233,
+                    -51.08738328464233,
+                    -60.40389640322246,
+                    -64.19880010263921,
+                    -76.26190217990916,
+                    -67.66678648207994,
+                    -90.66846789256442,
+                    -79.42970269639821,
+                    -42.35716902061131,
+                    -93.55123377975087,
+                    -77.81964866254793
+                ],
+                [
+                    -52.527898444764105,
+                    -52.527898444764105,
+                    -58.42901295563206,
+                    -78.15450234714012,
+                    -77.3125770630595,
+                    -74.07379560553727,
+                    -83.7885748984952,
+                    -82.22243255417467,
+                    -89.0747008096123,
+                    -45.44495220217351,
+                    -87.6887800354225
+                ],
+                [
+                    -49.713537384950314,
+                    -49.713537384950314,
+                    -54.378248255337894,
+                    -65.97933737198213,
+                    -78.29396138680386,
+                    -57.37856872975567,
+                    -89.71832145929784,
+                    -76.87396022660678,
+                    -76.04705356712111,
+                    -94.63728036059274,
+                    -42.98488696262558
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8829161700623427
+        ],
+        "posix": 0.8829161700623427
+    }
+}

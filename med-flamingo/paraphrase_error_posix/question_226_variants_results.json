@@ -1,0 +1,42 @@
+{
+    "file_name": "question_226_variants.json",
+    "overall_posix": 0.3445177333957655,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.29648241206030157,
+            "Variation 2": 0.0,
+            "Variation 3": 0.1534391534391535,
+            "Variation 4": 0.6809116809116809,
+            "Variation 5": 0.2586206896551724,
+            "Variation 6": 0.3448275862068966,
+            "Variation 7": 0.33488372093023255,
+            "Variation 8": 0.16326530612244894,
+            "Variation 9": 0.6230031948881789,
+            "Variation 10": 0.5897435897435898
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of fluid accumulation in the pleural space on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest radiograph demonstrate the presence of pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic signs suggestive of pleural fluid on this chest image? Please choose from the following two options: [yes, no]\n<image> 1. Are there radiographic signs suggestive of pleural fluid on this chest image? Please choose from the following two options: [yes, no]\n 2. Are there radiographic signs suggestive of pleural fluid on this",
+                "<s> Is pleural effusion visible on the provided chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the imaging study reveal the presence of pleural fluid as a potential explanation for the patient's symptoms? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there an abnormal accumulation of fluid in the pleural space visible on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray display characteristics consistent with pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the findings on this chest image suggestive of fluid accumulation in the pleural space? Please choose from the following two options: [yes, no]\n<image> 1. Yes, because of the presence of a pleural effusion.\n 2. No, because the pleural space is normal.\n 1. No, because the pleural space is normal.\n 2. Yes,",
+                "<s> Is pleural effusion a possible diagnosis based on the radiographic appearance of this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Pleural effusion\n 2. Normal\n 3. Pneumothorax\n 4. Pulmonary edema\n 5. Pneumonia\n 6. Tuberculosis\n 7. Tra"
+            ]
+        ],
+        "sensitivities": [
+            0.3445177333957655
+        ],
+        "posix": 0.3445177333957655
+    }
+}

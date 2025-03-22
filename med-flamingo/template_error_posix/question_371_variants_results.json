@@ -1,0 +1,42 @@
+{
+    "file_name": "question_371_variants.json",
+    "overall_posix": 0.39046133901748875,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4738292011019284,
+            "Variation 2": 0.4738292011019284,
+            "Variation 3": 0.4049586776859504,
+            "Variation 4": 0.4628099173553719,
+            "Variation 5": 0.3911845730027548,
+            "Variation 6": 0.3112947658402203,
+            "Variation 7": 0.28099173553719003,
+            "Variation 8": 0.4076923076923077,
+            "Variation 9": 0.4197860962566845,
+            "Variation 10": 0.278236914600551
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\n a.",
+                "<s> question::Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question::: Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n Is there any evidence of a pneumoperitoneum on the chest X-ray?\n Answer:\n No\n 11.\n Question:\n Is there any evidence of a",
+                "<s> q:::Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> q:Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.  If the answer to question 9 is \u201cyes,\u201d what is the next step?\n a:\n b:\n c:\n",
+                "<s> QUESTION:Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n [yes, no]\n 10.\n QUESTION:Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest",
+                "<s> Q:Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n Q:Is there any evidence of a pneumoperitoneum on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [yes]\n Q:Is",
+                "<s> Q:Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Suggested response\n These are two spot views of the chest. The first view is of the right lung and the second view is of the left lung. The right upper lobe is visible in the right lung field. The",
+                "<s> Question:Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer:\n [yes]\n The patient has a perforated viscus.\n The diaphragm is the most important muscular partition of the thoracic cavity. It separates the thor",
+                "<s> Question:Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Question:Is there any evidence of a pneumoperitoneum on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n"
+            ]
+        ],
+        "sensitivities": [
+            0.39046133901748875
+        ],
+        "posix": 0.39046133901748875
+    }
+}

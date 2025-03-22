@@ -1,0 +1,42 @@
+{
+    "file_name": "question_297_variants.json",
+    "overall_posix": 0.4214908840235757,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6718146718146718,
+            "Variation 2": 0.4276729559748428,
+            "Variation 3": 0.35,
+            "Variation 4": 0.5555555555555556,
+            "Variation 5": 0.35,
+            "Variation 6": 0.36,
+            "Variation 7": 0.3904109589041096,
+            "Variation 8": 0.36,
+            "Variation 9": 0.3557046979865772,
+            "Variation 10": 0.39375000000000004
+        }
+    ],
+    "trace": {
+        "prompts": [
+            " Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s>  Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question: Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n Question: Please choose from the following two options: [yes, no]\n Answer:\n [yes, no]\n Question: Please choose from the following two options: [yes, no]\n Answer:",
+                "<s> q:: Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q: Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> QUESTION: Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION: What is the most likely diagnosis?\n A: Aortic dissection\n B: Aortic aneurysm\n 3.\n QUESTION: What is",
+                "<s> Q: Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:\n R:",
+                "<s> QUESTION: Please choose from the following two options: [yes, no]\nANSWER:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> QUESTION\t Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\t\tYes\n 2.\t\tNo\n 1.\t\tYes\n 2.\t\tNo\n 1.\t\tYes\n 2.\t\tNo\n 1.\t\tYes\n ",
+                "<s> question: Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question- Please choose from the following two options: [yes, no]\nAnswer\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question:::  Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.  Yes\n 2.  No\n 1.  Yes\n 2.  No\n 1.  Yes\n 2.  No\n 1.  Yes\n 2.  No\n 1"
+            ]
+        ],
+        "sensitivities": [
+            0.4214908840235757
+        ],
+        "posix": 0.4214908840235757
+    }
+}

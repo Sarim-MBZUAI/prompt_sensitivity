@@ -1,0 +1,42 @@
+{
+    "file_name": "question_70_variants.json",
+    "overall_posix": 0.4502548277110737,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.47902097902097895,
+            "Variation 2": 0.49650349650349646,
+            "Variation 3": 0.5909090909090909,
+            "Variation 4": 0.5051903114186851,
+            "Variation 5": 0.46691176470588236,
+            "Variation 6": 0.4268774703557312,
+            "Variation 7": 0.23350253807106602,
+            "Variation 8": 0.2924528301886793,
+            "Variation 9": 0.4268774703557312,
+            "Variation 10": 0.5843023255813954
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tAre there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The X-ray shows a right upper lobe mass.\n The X-ray shows a right upper lobe mass. The mass is not calcified and is",
+                "<s> Q:Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Lymphoma\n Q:What is the most likely location of the mass?\n A:Lung\n Q:What is the most likely hist",
+                "<s> Question:Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please mark the answer you think is correct.\n Question:Is there any calcification or pleural thickening present? Please choose from the following two options: [yes, no]||Answer:\n Yes\n Inst",
+                "<s> Q::Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Are there any enlarged lymph nodes in the neck? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Are there any enlarged lymph",
+                "<s> QUESTION:Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 100\n 101\n REPORT \u2013 CHEST X-RAY\n Patient ID: AnonymousNormal pulmonary vascularity.are visible. No pneumothorax or pleural\n",
+                "<s> Question:Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the differential diagnosis?\n 1.Pleural effusion\n 2.Lymphadenopathy\n 3.Malignancy\n 4.Pneumonia",
+                "<s> QUESTION:Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> q:::Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the differential diagnosis?\n 1.Pleural effusion\n 2.Lymphadenopathy\n 3.Malignancy\n 4.Pneumonia",
+                "<s> Question-Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n Question-Is there any calcification or pleural thickening present? Please choose from the following two options: [yes, no]\n Answer\n No\n Question-Is there any evidence of pneumothorax or pneumomed"
+            ]
+        ],
+        "sensitivities": [
+            0.4502548277110737
+        ],
+        "posix": 0.4502548277110737
+    }
+}

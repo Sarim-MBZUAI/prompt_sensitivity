@@ -1,0 +1,42 @@
+{
+    "file_name": "question_162_variants.json",
+    "overall_posix": 0.35318176547969515,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3008849557522124,
+            "Variation 2": 0.36734693877551017,
+            "Variation 3": 0.48993288590604034,
+            "Variation 4": 0.28181818181818175,
+            "Variation 5": 0.1391752577319587,
+            "Variation 6": 0.23671497584541057,
+            "Variation 7": 0.5206349206349207,
+            "Variation 8": 0.4061302681992337,
+            "Variation 9": 0.3008849557522124,
+            "Variation 10": 0.4882943143812709
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question:Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes",
+                "<s> Question:Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n\n Question:Is there any evidence of a pneumothorax?\n [Yes, no]\n Answer:\n [Yes, no]\n Question:Is there any evidence of a pneumomediastin",
+                "<s> q:::Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q:Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Question-Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n   Question-Is there any evidence of a mass in the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [Yes, no]\n   Question-Is",
+                "<s> QUESTION:Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pulmonary tuberculosis\n B:Pulmonary sarcoidosis\n 3.\n QUEST",
+                "<s> q::Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> question:Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes, there are noticeable skeletal abnormalities in the chest X-ray.\n 2.No, there are no noticeable skeletal abnormalities in the chest X-ray."
+            ]
+        ],
+        "sensitivities": [
+            0.35318176547969515
+        ],
+        "posix": 0.35318176547969515
+    }
+}

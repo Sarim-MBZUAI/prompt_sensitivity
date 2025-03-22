@@ -1,0 +1,42 @@
+{
+    "file_name": "question_281_variants.json",
+    "overall_posix": 0.4569880483891563,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5160142348754448,
+            "Variation 2": 0.5088967971530249,
+            "Variation 3": 0.2578947368421053,
+            "Variation 4": 0.5360824742268041,
+            "Variation 5": 0.47307692307692306,
+            "Variation 6": 0.535593220338983,
+            "Variation 7": 0.47565543071161054,
+            "Variation 8": 0.512280701754386,
+            "Variation 9": 0.2421052631578947,
+            "Variation 10": 0.512280701754386
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of a pleural effusion.\n 1.A pleural effusion can be seen in the chest X-ray.\n ",
+                "<s> QUESTION:Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n The chest X-ray shows a right-sided pleural effusion.\n 10.\n QUESTION:What is the differential diagnosis for a pleural effusion?\n Answer:\n 1.",
+                "<s> q:Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> question::Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A chest X-ray was performed on a 65-year-old man with a history of\n chronic obstructive pulmonary disease (COPD). The X-ray\n shows a right-sided ple",
+                "<s> Q::Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n 100\n 100",
+                "<s> Question-Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The chest X-ray shows a right pleural effusion.\n The chest X-ray shows a right pleural effusion.\n The chest X-ray shows a left pleural effusion.\n The chest",
+                "<s> question:Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n A.Yes\n B.No\n C.Yes, but only in the lateral view\n D.Yes, but only in the frontal view\n E.Yes, but only in the frontal view\n 4.The",
+                "<s> Question:Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.Question:What is the diagnosis?\n 11.Question:What is the differential diagnosis?\n 12.Question:What is the treatment?\n 13.Question:What is the",
+                "<s> QUESTION\tCan a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question:Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.Question:What is the diagnosis?\n 11.Question:What is the differential diagnosis?\n 12.Question:What is the treatment?\n 13.Question:What is the"
+            ]
+        ],
+        "sensitivities": [
+            0.4569880483891563
+        ],
+        "posix": 0.4569880483891563
+    }
+}

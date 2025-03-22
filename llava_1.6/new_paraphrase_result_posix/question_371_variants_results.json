@@ -1,0 +1,189 @@
+{
+    "file_name": "question_371_variants.json",
+    "overall_posix": 1.5516548666582,
+    "detailed_scores": [
+        {
+            "Variation 1": 2.0729065668582916,
+            "Variation 2": 1.7470339930057526,
+            "Variation 3": 2.323543258905411,
+            "Variation 4": 2.056033183336258,
+            "Variation 5": 1.9289075136184692,
+            "Variation 6": 2.1343711626529696,
+            "Variation 7": 0.7125986150332859,
+            "Variation 8": 1.7428513145446778,
+            "Variation 9": 1.2375053044627695,
+            "Variation 10": 2.3640745890140535
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no visible air under the diaphragm on the chest X-ray, which would suggest a potential perforated abdominal viscus.",
+                "No, there is no visible air present beneath the diaphragm on the chest X-ray suggesting potential perforation of an abdominal viscus. The X-ray shows the lungs and the heart, but there is no",
+                "No, the chest X-ray does not show air under the diaphragm, which would indicate a possible leak from an abdominal organ. The X-ray appears to be a lateral chest X-ray, which is typically",
+                "No, there are no radiographic signs suggestive of free intraperitoneal air due to a perforated abdominal viscus on this chest X-ray. The image shows the chest and upper abdomen, but there",
+                "No, there is no evidence of pneumoperitoneum on the provided chest X-ray that would indicate an abdominal viscus rupture. Pneumoperitoneum is typically seen as a collection of air in the",
+                "No, the chest X-ray does not reveal subdiaphragmatic air, which would be indicative of a perforation in the abdominal cavity. The image shows the chest and upper abdomen, but there is",
+                "No, there are no visible signs of intraperitoneal air suggesting a potential perforated abdominal viscus on the given chest image. The image shows the chest and upper abdomen, but there is no indication of air",
+                "Yes, the presence of subdiaphragmatic air on the chest X-ray can be consistent with an abdominal organ rupture or leak.",
+                "No, the radiograph does not show evidence of free air within the peritoneum. The image appears to be a lateral chest radiograph, which is not the appropriate view to assess for free air in the abdomen.",
+                "No, there are no signs of pneumoperitoneum visible on this chest X-ray that could indicate a leak from an abdominal organ.",
+                "No, there is no radiographic evidence of subdiaphragmatic air in this image, which would suggest potential perforation or rupture of an abdominal viscus. The image shows a chest X-ray with the"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -372.3915864825249,
+                    -476.03691482543945,
+                    -459.7432861328125,
+                    -488.5687494277954,
+                    -475.19324564933777,
+                    -468.83696216344833,
+                    -479.11014461517334,
+                    -347.45063495635986,
+                    -459.53415220975876,
+                    -330.3164061307907,
+                    -490.59531593322754
+                ],
+                [
+                    -375.719455242157,
+                    -508.07285499572754,
+                    -469.2068290710449,
+                    -480.4055652618408,
+                    -484.9426860809326,
+                    -470.94593477249146,
+                    -495.03970193862915,
+                    -352.0084775686264,
+                    -477.11008846759796,
+                    -333.5299772620201,
+                    -501.2209266424179
+                ],
+                [
+                    -376.3067636489868,
+                    -465.80489110946655,
+                    -492.9837975502014,
+                    -483.1735143661499,
+                    -486.2431893348694,
+                    -477.92290353775024,
+                    -498.92373180389404,
+                    -359.86028003692627,
+                    -479.982204914093,
+                    -324.2500286102295,
+                    -492.958562374115
+                ],
+                [
+                    -400.8280529975891,
+                    -484.45420479774475,
+                    -503.98625087738037,
+                    -491.6332731246948,
+                    -502.00166940689087,
+                    -507.1138663291931,
+                    -495.9477047920227,
+                    -367.3834364414215,
+                    -481.2528601884842,
+                    -350.0320038795471,
+                    -492.5695345401764
+                ],
+                [
+                    -372.3915864825249,
+                    -476.03691482543945,
+                    -459.7432861328125,
+                    -488.5687494277954,
+                    -475.19324564933777,
+                    -468.83696216344833,
+                    -479.11014461517334,
+                    -347.45063495635986,
+                    -459.53415220975876,
+                    -330.3164061307907,
+                    -490.59531593322754
+                ],
+                [
+                    -366.0985770225525,
+                    -494.3734288215637,
+                    -479.4612645506859,
+                    -506.27071809768677,
+                    -501.4571228027344,
+                    -483.96163606643677,
+                    -490.2595338821411,
+                    -354.185742855072,
+                    -473.18048453330994,
+                    -348.07140374183655,
+                    -479.8810963630676
+                ],
+                [
+                    -374.39103174209595,
+                    -497.87608432769775,
+                    -488.86058616638184,
+                    -484.68878698349,
+                    -504.6180672645569,
+                    -497.5810408592224,
+                    -517.3525190353394,
+                    -364.7740629911423,
+                    -484.1859247684479,
+                    -350.53732109069824,
+                    -511.54428577423096
+                ],
+                [
+                    -374.39103174209595,
+                    -497.87608432769775,
+                    -488.86058616638184,
+                    -484.68878698349,
+                    -504.6180672645569,
+                    -497.5810408592224,
+                    -517.3525190353394,
+                    -364.7740629911423,
+                    -484.1859247684479,
+                    -350.53732109069824,
+                    -511.54428577423096
+                ],
+                [
+                    -374.39103174209595,
+                    -497.87608432769775,
+                    -488.86058616638184,
+                    -484.68878698349,
+                    -504.6180672645569,
+                    -497.5810408592224,
+                    -517.3525190353394,
+                    -364.7740629911423,
+                    -484.1859247684479,
+                    -350.53732109069824,
+                    -511.54428577423096
+                ],
+                [
+                    -374.39103174209595,
+                    -497.87608432769775,
+                    -488.86058616638184,
+                    -484.68878698349,
+                    -504.6180672645569,
+                    -497.5810408592224,
+                    -517.3525190353394,
+                    -364.7740629911423,
+                    -484.1859247684479,
+                    -350.53732109069824,
+                    -511.54428577423096
+                ],
+                [
+                    -400.8280529975891,
+                    -484.45420479774475,
+                    -503.98625087738037,
+                    -491.6332731246948,
+                    -502.00166940689087,
+                    -507.1138663291931,
+                    -495.9477047920227,
+                    -367.3834364414215,
+                    -481.2528601884842,
+                    -350.0320038795471,
+                    -492.5695345401764
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.5516548666582
+        ],
+        "posix": 1.5516548666582
+    }
+}

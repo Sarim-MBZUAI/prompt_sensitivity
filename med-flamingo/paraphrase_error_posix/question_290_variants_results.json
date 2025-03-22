@@ -1,0 +1,42 @@
+{
+    "file_name": "question_290_variants.json",
+    "overall_posix": 0.3748957672346388,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2727272727272727,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6261980830670927,
+            "Variation 4": 0.24378109452736318,
+            "Variation 5": 0.2927927927927928,
+            "Variation 6": 0.6116207951070336,
+            "Variation 7": 0.2755102040816326,
+            "Variation 8": 0.4866071428571428,
+            "Variation 9": 0.6546961325966851,
+            "Variation 10": 0.2850241545893719
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there visible cardiomegaly on the provided chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray demonstrate an increased cardiac silhouette suggestive of cardiac enlargement? Please choose from the following two options: [yes, no]\n<image> 11.Does the chest X-ray demonstrate a right-sided pleural effusion?\n [yes, no]\n 12.Does the chest X-ray demonstrate a left-sided pleural effusion",
+                "<s> Are there radiographic signs indicative of cardiomegaly present on the given X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show evidence of an increased cardiothoracic ratio, suggesting cardiac enlargement? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there visible evidence of heart expansion on the provided chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other notable findings on the provided chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Are there any other notable findings on the provided",
+                "<s> Does the radiograph show signs consistent with an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the cardiothoracic dimensions on the chest X-ray within normal limits or does it suggest cardiomegaly? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is there a visible increase in cardiac silhouette size on the provided X-ray that would be consistent with heart enlargement? Please choose from the following two options: [yes, no]\n<image> 11.  When the patient\u2019s heart is enlarged, the left ventricle is the most commonly affected chamber.\n 12.  The most common cause of heart enlargement is hypertension.\n ",
+                "<s> Does the chest radiograph indicate an increased cardiac contour, suggesting cardiomegaly? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.3748957672346388
+        ],
+        "posix": 0.3748957672346388
+    }
+}

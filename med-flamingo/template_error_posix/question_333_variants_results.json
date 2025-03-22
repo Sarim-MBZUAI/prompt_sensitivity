@@ -1,0 +1,42 @@
+{
+    "file_name": "question_333_variants.json",
+    "overall_posix": 0.3495259194503636,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2666666666666666,
+            "Variation 2": 0.5460992907801419,
+            "Variation 3": 0.2538860103626943,
+            "Variation 4": 0.29499999999999993,
+            "Variation 5": 0.4298245614035088,
+            "Variation 6": 0.33333333333333326,
+            "Variation 7": 0.26775956284153013,
+            "Variation 8": 0.27692307692307694,
+            "Variation 9": 0.5126353790613718,
+            "Variation 10": 0.31313131313131315
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.16.16a.qxd  1/23/03  11:05 AM  Page 311\n ",
+                "<s> Question:Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n 10.Question:Has the chest X-ray detected any pleural effusions? Please choose from the following two options: [yes, no],Answer:\n [yes, no]\n ",
+                "<s> question::Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1answer::\n no\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 1",
+                "<s> Question::: Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> QUESTION:Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n 1.What is the diagnosis?\n [A]Asthma\n [B]Pneumonia\n [C]Pneumothorax\n [D]Pneumonitis\n 2.What",
+                "<s> Q::Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> QUESTION:Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> question:Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> QUESTION\tHas the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n The chest X-ray shows a right upper lobe mass. The mass is not calcified and is of a\n soft tissue density. The mass is",
+                "<s> q:::Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::"
+            ]
+        ],
+        "sensitivities": [
+            0.3495259194503636
+        ],
+        "posix": 0.3495259194503636
+    }
+}

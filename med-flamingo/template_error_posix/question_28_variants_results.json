@@ -1,0 +1,42 @@
+{
+    "file_name": "question_28_variants.json",
+    "overall_posix": 0.39010936038860416,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.32057416267942584,
+            "Variation 2": 0.15760869565217395,
+            "Variation 3": 0.5331125827814569,
+            "Variation 4": 0.4032921810699588,
+            "Variation 5": 0.1785714285714286,
+            "Variation 6": 0.5170068027210885,
+            "Variation 7": 0.5,
+            "Variation 8": 0.5206896551724138,
+            "Variation 9": 0.28095238095238095,
+            "Variation 10": 0.4892857142857143
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no], and explain why.\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> q:Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Question:Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n 10.Question:Does the chest X-ray report indicate a pleural effusion? Please choose from the following two options: [yes, no]\n Answer:\n",
+                "<s> QUESTION\tDoes the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The chest X-ray shows a cardiothoracic ratio (CTR) of 60% (Figure 1.1). This",
+                "<s> Question:Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> QUESTION:Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Explanation:\n The chest X-ray shows a cardiomegaly. The heart is enlarged, and the cardiac silhouette is increased in size.\n",
+                "<s> question::Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The chest X-ray report indicates an enlarged heart.\n B: The chest X-ray report does not indicate an enlarged heart.\n 10.Question10.1:A5",
+                "<s> Q:Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n Q:Does the",
+                "<s> Question::: Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> question:Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes, the chest X-ray report indicates an enlarged heart.\n 2.No, the chest X-ray report does not indicate an enlarged heart.\n 1.Yes, the"
+            ]
+        ],
+        "sensitivities": [
+            0.39010936038860416
+        ],
+        "posix": 0.39010936038860416
+    }
+}

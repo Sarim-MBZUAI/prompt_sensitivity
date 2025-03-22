@@ -1,0 +1,42 @@
+{
+    "file_name": "question_237_variants.json",
+    "overall_posix": 0.5332156497193776,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.5368852459016393,
+            "Variation 3": 0.6802325581395349,
+            "Variation 4": 0.6396103896103896,
+            "Variation 5": 0.6829268292682927,
+            "Variation 6": 0.6285714285714286,
+            "Variation 7": 0.5902255639097744,
+            "Variation 8": 0.3482142857142857,
+            "Variation 9": 0.5476190476190477,
+            "Variation 10": 0.6778711484593838
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have any pleural effusion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have any pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient have any pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there significant fluid accumulation in the pleural space surrounding the lungs? Please choose from the following two options: [yes, no]\n<image> [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes",
+                "<s> Does a moderate to large amount of free fluid exist in the pleural cavity? Please choose from the following two options: [yes, no]\n<image> 11. Is the pleural cavity completely filled with free fluid? Please choose from the following two options: [yes, no]\n 12. Is the pleural cavity completely filled with free fluid? Please choose from the",
+                "<s> Are there notable findings suggestive of hydrothorax on the radiographic image provided? Please choose from the following two options: [yes, no]\n<image> A. Yes, there is a right pleural effusion.\n B. No, there is no pleural effusion.\n C. Yes, there is a left pleural effusion.\n D. No, there is no pleural",
+                "<s> Can pleural effusion be identified based on the imaging characteristics displayed? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n The radiograph shows a large right pleural effusion. The effusion is located in the right hemithorax and is associated with atelectasis of the right lower lobe.",
+                "<s> Would you confirm or rule out the presence of pleural effusion in this patient's chest radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a moderate right-sided pleural effusion.\n b. No, there is no pleural effusion.\n 3.\n What is the most likely diagnosis?\n a. Pneumoth",
+                "<s> Is there appreciable fluid collection visible in the parietal and visceral pleurae? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n [A]Pulmonary fibrosis\n [B]Pulmonary embolism\n [C]Pulmonary infarction\n [D]P",
+                "<s> Does this patient exhibit evidence of thoracic fluid accumulation, characteristic of a pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n a.\n b.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Can you definitively state whether or not a pleural effusion is present based on the imaging data? Please choose from the following two options: [yes, no]\n<image> 11.1.1.1  Pleural Effusion\n 11.1.1.2  Pleural Effusion\n 11.1.1.3  Pleural Effusion\n 1",
+                "<s> Would a significant accumulation of fluid be visible within the pleural space on this image? Please choose from the following two options: [yes, no]\n<image> a. Yes, a significant accumulation of fluid can be seen within the pleural space.\n b. No, a significant accumulation of fluid cannot be seen within the pleural space.\n 10.\n What is the most likely"
+            ]
+        ],
+        "sensitivities": [
+            0.5332156497193776
+        ],
+        "posix": 0.5332156497193776
+    }
+}

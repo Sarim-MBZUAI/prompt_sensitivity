@@ -1,0 +1,42 @@
+{
+    "file_name": "question_222_variants.json",
+    "overall_posix": 0.3350660940428618,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4840764331210191,
+            "Variation 2": 0.2149532710280374,
+            "Variation 3": 0.4736842105263157,
+            "Variation 4": 0.2222222222222222,
+            "Variation 5": 0.46579804560260585,
+            "Variation 6": 0.22685185185185186,
+            "Variation 7": 0.13300492610837433,
+            "Variation 8": 0.2707423580786026,
+            "Variation 9": 0.490506329113924,
+            "Variation 10": 0.36882129277566533
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10.Question:Is there a right-sided pleural effusion? Please choose from the following two options: [yes, no]||Answer:\n\nYes\n 11.Question:Is there a",
+                "<s> QUESTION:Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there a right-sided pleural effusion? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n Q:Is there a left-",
+                "<s> question::Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question-Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The chest X-ray shows a cardiomegaly.\n Question-What is the most likely diagnosis?\n A.Aortic stenosis\n B.Aortic regurgitation\n C.Left ventric",
+                "<s> Q:Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n N:\n O:\n I:\n L:\n U:\n X:\n E:\n D:\n E:\n R:\n S:\n R",
+                "<s> Q:Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q:::Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question:Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes, there are abnormalities in the heart size and mediastinum on the chest X-ray.\n 2.No, there are no abnormalities in the heart size and mediastinum",
+                "<s> QUESTION:Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, no]\n 10.\n QUESTION:Is there calcification of the aorta?\n [Yes, no]\n 11.\n QUESTION:Is"
+            ]
+        ],
+        "sensitivities": [
+            0.3350660940428618
+        ],
+        "posix": 0.3350660940428618
+    }
+}

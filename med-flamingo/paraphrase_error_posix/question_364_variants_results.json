@@ -1,0 +1,42 @@
+{
+    "file_name": "question_364_variants.json",
+    "overall_posix": 0.32551082987745483,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1515151515151515,
+            "Variation 2": 0.0,
+            "Variation 3": 0.21938775510204078,
+            "Variation 4": 0.6222222222222222,
+            "Variation 5": 0.23300970873786409,
+            "Variation 6": 0.19500000000000006,
+            "Variation 7": 0.2857142857142857,
+            "Variation 8": 0.6331168831168831,
+            "Variation 9": 0.6146496815286624,
+            "Variation 10": 0.3004926108374384
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there fluid accumulation in the pleural cavities as seen on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there signs of effusion in the thoracic cavity on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray show any evidence of free fluid in the pleural spaces? Please choose from the following two options: [yes, no]\n<image> 1. Free fluid in the pleural spaces is present.\n 2. Free fluid in the pleural spaces is absent.\n 1. Free fluid in the pleural spaces is present.\n 2. Free fluid in the ple",
+                "<s> Is there a visible accumulation of fluid within the pleural cavities on this radiograph? Please choose from the following two options: [yes, no]\n<image> 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.\n 13",
+                "<s> Are there radiographic findings suggestive of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there clear evidence of fluid-filled pleural spaces in the thorax as shown by this X-ray? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Does this radiograph indicate the presence of free fluid in the pleural cavities? Please choose from the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2.\n Does this radiograph indicate the presence of a pleural effusion? Please choose from the following two options: [yes, no]\n a. Yes\n b. No\n 3",
+                "<s> Are there any signs or features on this chest X-ray that would suggest pleural effusion is present? Please choose from the following two options: [yes, no]\n<image> a. There is a right-sided pleural effusion\n b. There is a left-sided pleural effusion\n 10.\n What is the most likely diagnosis?\n a. Tuberculosis\n b",
+                "<s> Is there fluid visible within the thoracic cavity as seen on the radiograph provided? Please choose from the following two options: [yes, no]\n<image> 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.\n 13"
+            ]
+        ],
+        "sensitivities": [
+            0.32551082987745483
+        ],
+        "posix": 0.32551082987745483
+    }
+}

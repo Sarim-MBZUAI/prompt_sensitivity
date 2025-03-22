@@ -1,0 +1,189 @@
+{
+    "file_name": "question_267_variants.json",
+    "overall_posix": 4.384999873402109,
+    "detailed_scores": [
+        {
+            "Variation 1": 5.14389557373233,
+            "Variation 2": 0.5292062633915952,
+            "Variation 3": 2.8516669188226973,
+            "Variation 4": 0.3928656954514353,
+            "Variation 5": 2.5438199396486634,
+            "Variation 6": 5.415056542652409,
+            "Variation 7": 6.31375283241272,
+            "Variation 8": 3.515405434828538,
+            "Variation 9": 5.862835314273834,
+            "Variation 10": 4.607555366331531
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any focal airspace consolidation visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no focal airspace consolidation visible on this chest X-ray.",
+                "No, there is no consolidation of air spaces visible on this chest X-ray. The image shows a normal chest X-ray with no signs of consolidation or other abnormalities.",
+                "No, the chest X-ray does not show consolidation of lung air spaces.",
+                "No, there are no focal areas of opacification with an air bronchogram appearance on this chest X-ray.",
+                "Yes, a consolidation pattern can be identified on the provided chest X-ray.",
+                "No, there are no ill-defined, non-peripheral areas of increased density on this chest X-ray.",
+                "No, there is no evidence of pulmonary consolidation visible on this radiograph. The image shows a normal chest X-ray with no signs of consolidation or other abnormalities.",
+                "No, the imaging study does not demonstrate airspace consolidation. The image appears to be a chest X-ray, and there is no evidence of airspace consolidation, which is a term used to describe a pattern of lung opacification",
+                "Yes, there are localized opacities with an air bronchogram sign visible on this chest X-ray.",
+                "No, a diagnosis of alveolar consolidation cannot be made from this chest X-ray. The image provided is a lateral chest X-ray, which is not the best view for assessing alveolar consolidation. Alveolar",
+                "No, I do not see any patchy, non-peripheral areas of increased density representing airspace consolidation in the image provided."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -189.20389533042908,
+                    -400.1036138534546,
+                    -199.25881433486938,
+                    -269.0505690574646,
+                    -181.7394471168518,
+                    -257.887033700943,
+                    -411.22121357917786,
+                    -504.89153695106506,
+                    -280.60443663597107,
+                    -482.3456610441208,
+                    -332.03811168670654
+                ],
+                [
+                    -198.65344667434692,
+                    -379.5222878456116,
+                    -177.6848930120468,
+                    -291.07049775123596,
+                    -168.11254107952118,
+                    -259.5062221288681,
+                    -391.8169107437134,
+                    -483.1256067752838,
+                    -264.8491225242615,
+                    -471.4817407131195,
+                    -326.81401205062866
+                ],
+                [
+                    -209.55289769172668,
+                    -395.2762007713318,
+                    -192.8427413702011,
+                    -272.7629438638687,
+                    -183.5311335325241,
+                    -270.61535596847534,
+                    -417.1901857852936,
+                    -489.7520183324814,
+                    -249.73948121070862,
+                    -480.37739968299866,
+                    -318.62418508529663
+                ],
+                [
+                    -207.47361826896667,
+                    -407.9917163848877,
+                    -178.22624480724335,
+                    -265.62416410446167,
+                    -186.25901782512665,
+                    -263.8568036556244,
+                    -395.0775990486145,
+                    -497.05149602890015,
+                    -272.06137919425964,
+                    -480.9331157207489,
+                    -327.5757236480713
+                ],
+                [
+                    -198.65344667434692,
+                    -379.5222878456116,
+                    -177.6848930120468,
+                    -291.07049775123596,
+                    -168.11254107952118,
+                    -259.5062221288681,
+                    -391.8169107437134,
+                    -483.1256067752838,
+                    -264.8491225242615,
+                    -471.4817407131195,
+                    -326.81401205062866
+                ],
+                [
+                    -211.11618614196777,
+                    -392.3036433160305,
+                    -165.00122213363647,
+                    -259.02802658081055,
+                    -189.7891983985901,
+                    -255.48669338226318,
+                    -403.9809192121029,
+                    -466.41458320617676,
+                    -265.8311219215393,
+                    -482.57634115219116,
+                    -315.548451423645
+                ],
+                [
+                    -198.65344667434692,
+                    -379.5222878456116,
+                    -177.6848930120468,
+                    -291.07049775123596,
+                    -168.11254107952118,
+                    -259.5062221288681,
+                    -391.8169107437134,
+                    -483.1256067752838,
+                    -264.8491225242615,
+                    -471.4817407131195,
+                    -326.81401205062866
+                ],
+                [
+                    -190.73191571235657,
+                    -391.9423735141754,
+                    -183.48566484451294,
+                    -270.2304552793503,
+                    -171.45349740982056,
+                    -235.0916178226471,
+                    -400.39185214042664,
+                    -456.6193996667862,
+                    -259.85884404182434,
+                    -462.19850170612335,
+                    -317.8547531366348
+                ],
+                [
+                    -220.40961503982544,
+                    -388.1679410934448,
+                    -186.78271770477295,
+                    -283.5543875694275,
+                    -192.496666431427,
+                    -254.42570042610168,
+                    -404.14693880081177,
+                    -497.21504306793213,
+                    -250.9604344367981,
+                    -486.4253863096237,
+                    -307.14618372917175
+                ],
+                [
+                    -208.93541419506073,
+                    -380.20420503616333,
+                    -194.39658761024475,
+                    -274.25516724586487,
+                    -177.83432865142822,
+                    -266.40910363197327,
+                    -406.7436785697937,
+                    -469.2841696739197,
+                    -257.246426820755,
+                    -481.42956590652466,
+                    -323.8937351703644
+                ],
+                [
+                    -220.40961503982544,
+                    -388.1679410934448,
+                    -186.78271770477295,
+                    -283.5543875694275,
+                    -192.496666431427,
+                    -254.42570042610168,
+                    -404.14693880081177,
+                    -497.21504306793213,
+                    -250.9604344367981,
+                    -486.4253863096237,
+                    -307.14618372917175
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.384999873402109
+        ],
+        "posix": 4.384999873402109
+    }
+}

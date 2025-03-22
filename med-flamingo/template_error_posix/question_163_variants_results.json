@@ -1,0 +1,42 @@
+{
+    "file_name": "question_163_variants.json",
+    "overall_posix": 0.4268119358771905,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4782608695652174,
+            "Variation 2": 0.5218855218855218,
+            "Variation 3": 0.25125628140703515,
+            "Variation 4": 0.487719298245614,
+            "Variation 5": 0.29383886255924163,
+            "Variation 6": 0.4856115107913669,
+            "Variation 7": 0.3119266055045872,
+            "Variation 8": 0.501779359430605,
+            "Variation 9": 0.382716049382716,
+            "Variation 10": 0.553125
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 101\n REASONING:\n The patient has a history of a fal from a height. The chest X-ray shows a fracture of the right 6th rib.\n",
+                "<s> Question-Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n 10.Question-Is there any evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [Yes, no",
+                "<s> Q:Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n L:\n U:\n X:\n E:\n D:\n E:\n L:",
+                "<s> QUESTION:Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Correct Answer:\n Option 1\n Explanation:\n The chest X-ray shows a right-sided pneumothorax. The right hemithorax is",
+                "<s> q:::Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there any evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n",
+                "<s> Question:Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Corresponding radiograph:\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n ",
+                "<s> Q:Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there any evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n A:\n [Yes, no]\n Q",
+                "<s> q:Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.  Describe the findings on the chest X-ray.\n 11.  What is the most likely diagnosis?",
+                "<s> Question:Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man who was involved in a motor vehicle accident. He was brought to the hospital by EMS. He is awake, alert, and oriented. He is"
+            ]
+        ],
+        "sensitivities": [
+            0.4268119358771905
+        ],
+        "posix": 0.4268119358771905
+    }
+}

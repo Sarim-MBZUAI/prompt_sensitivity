@@ -1,0 +1,189 @@
+{
+    "file_name": "question_334_variants_results.json",
+    "overall_posix": 0.6994395355862774,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6366585760210001,
+            "Variation 2": 0.0,
+            "Variation 3": 0.8058937385974952,
+            "Variation 4": 1.2387042395522534,
+            "Variation 5": 0.952125662535523,
+            "Variation 6": 0.9372499552462605,
+            "Variation 7": 0.7373214503220201,
+            "Variation 8": 1.0389759287068134,
+            "Variation 9": 1.2030665326769499,
+            "Variation 10": 1.1421985560518806
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest X-ray does not show any pleural effusion. ",
+                "The chest x-ray does not show any evidence of pleural fluid accumulation. ",
+                "The chest X-ray does not show any pleural effusion. ",
+                "The provided radiograph shows bilateral lung fields with no pleural effusion. This means that there is no visible fluid accumulation in the pleural space surrounding the lungs, which is a positive finding. ",
+                "Yes, the X-ray shows signs suggestive of fluid accumulation within the pleural space. ",
+                "Yes, the radiographic image provided shows a pleural effusion. ",
+                "It is difficult to determine the presence of a significant volume of fluid in the pleural space based solely on this chest X-ray. While chest X-rays can provide some information about the presence of fluid, they may not always be sufficient to",
+                "The radiograph shows a small amount of pleural effusion, which is a fluid accumulation in the pleural space. However, it is important to note that the presence of fluid in the pleural space can be difficult to detect on a chest",
+                "The image shows a chest X-ray, but without more information or the actual image, it is difficult to determine if there are radiographic findings indicative of a substantial pleural effusion. However, it is important to note that a chest X",
+                "It seems that the chest x-ray does not show any notable accumulation of fluid within the pleural spaces. ",
+                "Yes, the image shows radiographic features consistent with the presence of significant pleural effusion. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -40.77354307891801,
+                    -53.50671459933801,
+                    -40.77354307891801,
+                    -76.2328675772078,
+                    -69.26374058861984,
+                    -56.9596793420219,
+                    -88.5732907964773,
+                    -78.37693704534104,
+                    -93.7613154429655,
+                    -72.05327292851871,
+                    -65.90191131205938
+                ],
+                [
+                    -50.54015964850987,
+                    -41.65633033941958,
+                    -50.54015964850987,
+                    -80.25764954715851,
+                    -69.66866398402271,
+                    -68.17610808607424,
+                    -81.14753344652445,
+                    -77.98248264855647,
+                    -94.55776813678858,
+                    -67.69209778975346,
+                    -65.01884700935625
+                ],
+                [
+                    -40.77354307891801,
+                    -53.50671459933801,
+                    -40.77354307891801,
+                    -76.2328675772078,
+                    -69.26374058861984,
+                    -56.9596793420219,
+                    -88.5732907964773,
+                    -78.37693704534104,
+                    -93.7613154429655,
+                    -72.05327292851871,
+                    -65.90191131205938
+                ],
+                [
+                    -48.50318688499101,
+                    -57.636795280486695,
+                    -48.50318688499101,
+                    -59.20258906649542,
+                    -72.47915060991,
+                    -59.82878001843619,
+                    -92.07630472195706,
+                    -73.6828309645698,
+                    -96.35439463792954,
+                    -73.25768086334574,
+                    -66.52681325506273
+                ],
+                [
+                    -54.25117555494944,
+                    -51.6148645835201,
+                    -54.25117555494944,
+                    -84.07848379348707,
+                    -42.81957348935907,
+                    -68.85745697937091,
+                    -82.11635393133201,
+                    -75.7805156040913,
+                    -95.31077352390184,
+                    -68.68613031550194,
+                    -66.95695698905911
+                ],
+                [
+                    -46.71795228753763,
+                    -56.56381171537214,
+                    -46.71795228753763,
+                    -71.51752089868387,
+                    -76.12857979915862,
+                    -41.21160015824603,
+                    -88.635302547209,
+                    -78.56718716908108,
+                    -94.39875506626413,
+                    -73.38637503207428,
+                    -65.65125026392707
+                ],
+                [
+                    -52.39223880809368,
+                    -54.4229328955189,
+                    -52.39223880809368,
+                    -87.34789388695935,
+                    -68.40850298410078,
+                    -73.08795525625465,
+                    -53.33292388791915,
+                    -73.85640303385935,
+                    -92.36028764242837,
+                    -70.19733048279886,
+                    -66.23837789332538
+                ],
+                [
+                    -56.468648807378486,
+                    -51.8689232832985,
+                    -56.468648807378486,
+                    -83.19107654019126,
+                    -68.15298597446235,
+                    -67.85724475007737,
+                    -80.464493438732,
+                    -60.29598923249978,
+                    -94.25809080815088,
+                    -67.29852038031095,
+                    -64.26490767055657
+                ],
+                [
+                    -51.21352219799883,
+                    -58.935884547332535,
+                    -51.21352219799883,
+                    -84.38550459311955,
+                    -74.75129974933589,
+                    -59.73856296168924,
+                    -85.18149766652459,
+                    -73.14810992384264,
+                    -58.849199526300595,
+                    -73.89664322329918,
+                    -57.855800855890266
+                ],
+                [
+                    -53.63253227675523,
+                    -53.3013714174449,
+                    -53.63253227675523,
+                    -89.15707690160161,
+                    -63.825329125262215,
+                    -65.86342187941773,
+                    -78.74406933190767,
+                    -73.30972979759099,
+                    -93.46689081603654,
+                    -47.33307265481017,
+                    -66.14136902117025
+                ],
+                [
+                    -52.05712739065348,
+                    -60.82553186584846,
+                    -52.05712739065348,
+                    -84.44103936244937,
+                    -75.18774757881147,
+                    -59.937025713850744,
+                    -85.04281093488407,
+                    -74.39463740489373,
+                    -81.74887350376525,
+                    -75.75053506004042,
+                    -42.01114207890896
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.6994395355862774
+        ],
+        "posix": 0.6994395355862774
+    }
+}

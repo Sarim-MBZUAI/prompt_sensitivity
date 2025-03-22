@@ -1,0 +1,42 @@
+{
+    "file_name": "question_86_variants.json",
+    "overall_posix": 0.40878963621250114,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.23711340206185572,
+            "Variation 2": 0.365979381443299,
+            "Variation 3": 0.5620915032679739,
+            "Variation 4": 0.39903846153846156,
+            "Variation 5": 0.4312796208530806,
+            "Variation 6": 0.31443298969072164,
+            "Variation 7": 0.427927927927928,
+            "Variation 8": 0.6234939759036144,
+            "Variation 9": 0.35467980295566504,
+            "Variation 10": 0.3718592964824121
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> Were external monitor leads visible on chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are ECG leads positioned outside the thorax on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Do external electrode leads appear on the anterior surface of the thoracic cavity in this image? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Correct Answer: Yes\n The external electrode leads are visible on the anterior surface of the thoracic cavity.\n 11",
+                "<s> Is there a presence of external monitoring leads within the thoracic region on this X-ray? Please choose from the following two options: [yes, no]\n<image> 2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Can external pacing leads be identified in the vicinity of the chest wall on this radiograph? Please choose from the following two options: [yes, no]\n<image> 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n ",
+                "<s> Are any external cardiac monitor wires visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the X-ray show any electrodes or leads from an external pacemaker located outside the chest cavity? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is there evidence of external monitoring equipment attached to the anterior thorax on this film? Please choose from the following two options: [yes, no]\n<image> 2. Is there evidence of a right-sided chest tube on this film? Please choose from the following two options: [yes, no]\n 3. Is there evidence of a left-sided chest tube",
+                "<s> Were any periphery leads visible on the thoracic surface during the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Can external cardiac monitor wires be seen adjacent to the ribcage in this image? Please choose from the following two options: [yes, no]\n<image> 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.40878963621250114
+        ],
+        "posix": 0.40878963621250114
+    }
+}

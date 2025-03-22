@@ -1,0 +1,42 @@
+{
+    "file_name": "question_351_variants.json",
+    "overall_posix": 0.37501030159255216,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.11290322580645162,
+            "Variation 2": 0.46058091286307046,
+            "Variation 3": 0.46058091286307046,
+            "Variation 4": 0.49090909090909096,
+            "Variation 5": 0.29807692307692313,
+            "Variation 6": 0.27722772277227725,
+            "Variation 7": 0.23589743589743595,
+            "Variation 8": 0.5189003436426117,
+            "Variation 9": 0.4229074889867841,
+            "Variation 10": 0.47211895910780677
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n ",
+                "<s> Question:Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tIf\tyou\tanswer\t\u201cyes,\u201d\tthe\tpatient\thas\ta\tpneumothorax.\n \u2022\tIf\tyou\tanswer\t\u201cno,\u201d\tthe\tpatient",
+                "<s> Question:Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tIf\tyou\tanswer\t\u201cyes,\u201d\tthe\tpatient\thas\ta\tpneumothorax.\n \u2022\tIf\tyou\tanswer\t\u201cno,\u201d\tthe\tpatient",
+                "<s> QUESTION:Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 101\n REASONING:\n The X-ray shows a large right-sided pneumothorax. The left lung is hyperlucent, and the right lung is hyper",
+                "<s> q:::Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Is there",
+                "<s> QUESTION\tIs there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question-Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes,",
+                "<s> Q:Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tThe\tchest\tX-ray\tshows\ta\tpneumothorax\tin\tthe\tright\tupper\tlobe\t(Figure\t1).\n \u2022\tThe\t",
+                "<s> q:Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n d:\n c:\n e:\n 10.  If the answer to question 9 is \u201cyes,\u201d what is the next step in the management of this patient?\n a:Chest tube placement\n"
+            ]
+        ],
+        "sensitivities": [
+            0.37501030159255216
+        ],
+        "posix": 0.37501030159255216
+    }
+}

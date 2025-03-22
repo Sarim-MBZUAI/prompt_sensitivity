@@ -1,0 +1,189 @@
+{
+    "file_name": "question_35_variants.json",
+    "overall_posix": 0.1186472136786932,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.017130873230095576,
+            "Variation 2": 0.005591820708873672,
+            "Variation 3": 0.11310821164011105,
+            "Variation 4": 0.06924807242447897,
+            "Variation 5": 0.08883507665188262,
+            "Variation 6": 0.11310821164011105,
+            "Variation 7": 0.09437396654769405,
+            "Variation 8": 0.017775375186159018,
+            "Variation 9": 0.6136814287361925,
+            "Variation 10": 0.11310821164011105
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray shows normal findings for the xxx (bones, pulmonary vessels, or other chest structures). this means that there are no visible abnormalities or issues in the x-ray image. ",
+                "The chest x-ray shows normal findings for the xxx (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the x-ray). this means that the structures appear to be within normal limits and",
+                "The chest X-ray shows normal findings for the XXXX. This means that the structures in question appear to be within normal limits and do not show any signs of abnormality or disease. ",
+                "The chest X-ray shows normal findings, which means that the XXXX (bones, pulmonary vessels, or other chest structures) appear to be within normal limits. ",
+                "The answer to this question would depend on the specific context and the appearance of the XXXX on the chest X-ray. If the XXXX are abnormal, they may indicate an underlying issue or condition. However, without more information or the actual",
+                "The chest x-ray shows normal findings, which means that the x-ray does not reveal any significant abnormalities in the chest structures. ",
+                "The chest X-ray shows normal findings, which means that the XXXX (bones, pulmonary vessels, or other chest structures) appear to be within normal limits. ",
+                "The chest x-ray shows normal findings, which means that the XXXX (bones, pulmonary vessels, or other chest structures) appear to be within normal limits. ",
+                "The chest x-ray shows normal findings, which means that the xxx (bones, pulmonary vessels, or other chest structures) appear to be within normal limits. ",
+                "The XXXX on the chest X-ray appear to be normal. ",
+                "The chest X-ray shows normal findings, which means that the XXXX (bones, pulmonary vessels, or other chest structures) appear to be within normal limits. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -56.64229394380868,
+                    -55.76861940907381,
+                    -56.877150413581376,
+                    -52.23107368984435,
+                    -60.17394563745711,
+                    -53.79957149094844,
+                    -52.23107368984435,
+                    -52.961709248448614,
+                    -55.94905431154848,
+                    -46.20970965529341,
+                    -52.23107368984435
+                ],
+                [
+                    -57.08381456743632,
+                    -56.11528805324994,
+                    -57.100218842949744,
+                    -52.50214781507745,
+                    -60.03214703737285,
+                    -54.06067200444522,
+                    -52.50214781507745,
+                    -53.223333678347416,
+                    -54.91152684519102,
+                    -46.7377027036855,
+                    -52.50214781507745
+                ],
+                [
+                    -56.45168156479235,
+                    -55.40071953092317,
+                    -56.35970218894363,
+                    -51.70211370184049,
+                    -59.67326963595542,
+                    -53.67958818158513,
+                    -51.70211370184049,
+                    -52.78345393089509,
+                    -53.883673419467186,
+                    -46.09164506273919,
+                    -51.70211370184049
+                ],
+                [
+                    -57.49847902074316,
+                    -56.18200755666655,
+                    -56.83304280267339,
+                    -52.42761366381907,
+                    -60.93190488851087,
+                    -54.87201739998636,
+                    -52.42761366381907,
+                    -53.62488011593811,
+                    -55.72849480742434,
+                    -46.80807680372982,
+                    -52.42761366381907
+                ],
+                [
+                    -56.881107182237656,
+                    -55.682753776454746,
+                    -56.984246904568636,
+                    -52.29482298744003,
+                    -58.73241769747028,
+                    -53.90665629821888,
+                    -52.29482298744003,
+                    -53.28352951150552,
+                    -53.86437442929264,
+                    -46.1723623984808,
+                    -52.29482298744003
+                ],
+                [
+                    -57.35537505727757,
+                    -56.328774183894865,
+                    -57.28208925134663,
+                    -52.69078307482411,
+                    -60.009453523669436,
+                    -53.94502327359078,
+                    -52.69078307482411,
+                    -53.449407128928186,
+                    -55.22157675133667,
+                    -46.874293007642336,
+                    -52.69078307482411
+                ],
+                [
+                    -56.105596625597855,
+                    -54.64076906371608,
+                    -55.54096386278684,
+                    -50.799536357304504,
+                    -60.345498607954596,
+                    -52.81972723543004,
+                    -50.799536357304504,
+                    -51.80140313224817,
+                    -54.02509652531421,
+                    -45.60610615906171,
+                    -50.799536357304504
+                ],
+                [
+                    -56.48072405151402,
+                    -55.19277945958126,
+                    -56.479553198612166,
+                    -51.78231762704215,
+                    -59.25356959959663,
+                    -53.515372941801616,
+                    -51.78231762704215,
+                    -52.29789807198719,
+                    -54.50301000082027,
+                    -45.89899086825244,
+                    -51.78231762704215
+                ],
+                [
+                    -56.59454717134895,
+                    -55.27710702116835,
+                    -56.53185266630521,
+                    -52.155623048156,
+                    -59.77907083514401,
+                    -53.735653991421714,
+                    -52.155623048156,
+                    -52.97478040129042,
+                    -54.18789909245902,
+                    -46.707844657352325,
+                    -52.155623048156
+                ],
+                [
+                    -56.80561057315322,
+                    -55.78818219736783,
+                    -56.47315977055905,
+                    -52.17257284529384,
+                    -58.64848955764319,
+                    -53.823643951283884,
+                    -52.17257284529384,
+                    -53.03402127316983,
+                    -54.68792347661247,
+                    -45.933105662088565,
+                    -52.17257284529384
+                ],
+                [
+                    -57.67944039720328,
+                    -56.55964497095371,
+                    -57.01309879813698,
+                    -52.12321370471497,
+                    -59.73169054535401,
+                    -54.46855294131092,
+                    -52.12321370471497,
+                    -53.28506527373153,
+                    -55.41360903442319,
+                    -46.65467362552317,
+                    -52.12321370471497
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.1186472136786932
+        ],
+        "posix": 0.1186472136786932
+    }
+}

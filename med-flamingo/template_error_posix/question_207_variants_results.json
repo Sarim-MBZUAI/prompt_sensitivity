@@ -1,0 +1,42 @@
+{
+    "file_name": "question_207_variants.json",
+    "overall_posix": 0.35400879872019786,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.45973154362416113,
+            "Variation 2": 0.42545454545454553,
+            "Variation 3": 0.28,
+            "Variation 4": 0.373015873015873,
+            "Variation 5": 0.2767857142857143,
+            "Variation 6": 0.5063694267515924,
+            "Variation 7": 0.5,
+            "Variation 8": 0.2417061611374407,
+            "Variation 9": 0.18137254901960786,
+            "Variation 10": 0.29565217391304355
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tAre there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n The X-ray shows a fracture of the left 10th rib (arrow). The fracture line is clearly visible in the lateral view",
+                "<s> QUESTION:Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the sternum fractured? Please choose from the following two options: [yes, no]\n A:\n B:\n 3.\n QUESTION:Is",
+                "<s> Q::: Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> question:Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n Yes\n 100Question5.10\n 101\n 5.10\n \u27a4\u27a4What is the diagnosis?\n A 55-year-old man has been involved",
+                "<s> q:::Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2752First, the X-ray shows a fracture of the sternum. The fracture line is clearly visible in the X-ray. The fracture line is clearly visible in the X-ray.",
+                "<s> Question:Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The radiograph shows a chest X-ray of a patient with a fracture in the right clavicle.\n 1.What is the diagnosis?\n 2.What is the treatment?",
+                "<s> question::Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> q:Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n 10.2.10a\u2013j\n 10.2.10",
+                "<s> q::Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::"
+            ]
+        ],
+        "sensitivities": [
+            0.35400879872019786
+        ],
+        "posix": 0.35400879872019786
+    }
+}

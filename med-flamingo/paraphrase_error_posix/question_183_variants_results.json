@@ -1,0 +1,42 @@
+{
+    "file_name": "question_183_variants.json",
+    "overall_posix": 0.4036145596328016,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6377708978328174,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5846774193548387,
+            "Variation 4": 0.5285714285714286,
+            "Variation 5": 0.21890547263681592,
+            "Variation 6": 0.5865724381625441,
+            "Variation 7": 0.640625,
+            "Variation 8": 0.20812182741116758,
+            "Variation 9": 0.2878048780487805,
+            "Variation 10": 0.34309623430962344
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any pathologic masses identified on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any pathologic masses identified on the chest radiograph? Please choose from the following two options: [yes, no]\n 12.  Are there any pathologic masses identified on the ch",
+                "<s> Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the chest X-ray report positive for abnormal masses? Please choose from the following two options: [yes, no]\n<image> 1.Yes, there are abnormal masses in the right lung.\n 2.No, there are no abnormal masses in the right lung.\n 1.\n 2.\n 1.\n 2.\n ",
+                "<s> Does the radiographic examination reveal any nodular abnormalities in the chest region? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Yes\n The radiographic examination reveals a nodular abnormality in the right chest region.\n 11.1",
+                "<s> Are there any radiographically visible masses or tumors present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of abnormal soft tissue density within the thoracic cavity on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pleural effusion\n B.Pneumothorax\n C.Pneumonia\n D.Pneumopericardium\n E.Pneumomediast",
+                "<s> Do any masses or lesions appear on the chest radiograph that are not consistent with normal anatomy? Please choose from the following two options: [yes, no]\n<image> 1.Yes, I see a mass in the right lower lobe of the lung.\n 2.No, I do not see any masses or lesions that are not consistent with normal anatomy.\n 3.Yes,",
+                "<s> Is there a mention of any abnormal growths or tumors on the chest X-ray report? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any visible masses or nodules in the lung fields or mediastinum on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiograph show any evidence of abnormal soft tissue within the thoracic cavity that may indicate a mass lesion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.4036145596328016
+        ],
+        "posix": 0.4036145596328016
+    }
+}

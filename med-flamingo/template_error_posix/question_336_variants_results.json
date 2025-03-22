@@ -1,0 +1,42 @@
+{
+    "file_name": "question_336_variants.json",
+    "overall_posix": 0.38497611048453784,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1893203883495146,
+            "Variation 2": 0.5176470588235295,
+            "Variation 3": 0.2857142857142857,
+            "Variation 4": 0.42333333333333334,
+            "Variation 5": 0.26724137931034475,
+            "Variation 6": 0.49085365853658536,
+            "Variation 7": 0.39855072463768115,
+            "Variation 8": 0.26724137931034475,
+            "Variation 9": 0.5176470588235295,
+            "Variation 10": 0.4922118380062306
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16:10\n 16:11\n 16:12\n 16:13\n 16:14\n 16",
+                "<s> Question-According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n Comments: The chest X-ray shows a normal lung field. The lungs are well-inflated and without collapse. The heart size is normal. The trachea is central. The thoracic",
+                "<s> Q::According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> question:According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have chosen option 2.\n The lungs are not well-inflated and without collapse.\n The lungs are well-inflated",
+                "<s> Q:According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]||A:\n<image> B:\n[yes, no]\n C:\n[yes, no]\n D:\n[yes, no]\n E:\n [yes, no]\n 3:\n Lung Cancer\n 136\n",
+                "<s> Question:According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10.Question:The heart is not enlarged. The lungs are not collapsed. The trachea is straight. The hilar structures are normal. The\n aortic knuckle is visible.",
+                "<s> QUESTION:According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n [yes, no]\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumomediastinum\n C.",
+                "<s> q:::According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question::: According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 11.\n Question: According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\n Answer:\n No\n ",
+                "<s> Question:According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The patient\u2019s chest X-ray shows a well-inflated lung field with no evidence of colapse.\n The patient\u2019s chest X-ray shows a"
+            ]
+        ],
+        "sensitivities": [
+            0.38497611048453784
+        ],
+        "posix": 0.38497611048453784
+    }
+}

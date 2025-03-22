@@ -1,0 +1,42 @@
+{
+    "file_name": "question_73_variants.json",
+    "overall_posix": 0.5203844446668976,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6615853658536586,
+            "Variation 2": 0.0,
+            "Variation 3": 0.594059405940594,
+            "Variation 4": 0.480952380952381,
+            "Variation 5": 0.2205128205128205,
+            "Variation 6": 0.656441717791411,
+            "Variation 7": 0.622093023255814,
+            "Variation 8": 0.6945244956772334,
+            "Variation 9": 0.663768115942029,
+            "Variation 10": 0.6099071207430341
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pulmonary neoplasms or masses visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other significant findings on the chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Are there any other significant findings on the chest",
+                "<s> Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest radiograph reveal the presence of lung tumors or pleural-based lesions? Please choose from the following two options: [yes, no]\n<image> 11.  Is the patient\u2019s chest radiograph suggestive of a malignancy?\n [yes, no]\n 12.  Is the patient\u2019s chest radiograph suggestive of a benign process",
+                "<s> Are there any distinct, space-occupying lesions within the lungs visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.2.1.1\n 11.2.1.2\n 11.2.1.3\n 11.2.1.4\n 11.2.1.5\n",
+                "<s> Is the chest X-ray suggestive of lung cancer or other pulmonary malignancies? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are masses or tumors identified as a focal abnormality within the lungs on the radiograph? Please choose from the following two options: [yes, no]\n<image> 11. Is the heart enlarged? Please choose from the following two options: [yes, no]\n 12. Is the heart enlarged? Please choose from the following two options: [yes, no]\n",
+                "<s> Does the chest X-ray show any well-circumscribed or irregularly shaped lung lesions? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of atelectasis? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of pleural effusion? Please choose from the following two options:",
+                "<s> Is there a notable pulmonary mass or tumor evident on the radiographic image of the chest? Please choose from the following two options: [yes, no]\n<image> 2. Is there a notable cardiac mass or tumor evident on the radiographic image of the chest? Please choose from the following two options: [yes, no]\n 3. Is there a notable abdominal mass or",
+                "<s> Are there any obvious signs of lung neoplasia visible on the chest X-ray, such as a dense, rounded lesion? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of atelectasis on the chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of pleural effusion on the",
+                "<s> Does the chest radiograph reveal evidence of pleural-based or parenchymal lung tumors? Please choose from the following two options: [yes, no]\n<image> 11.  Is the chest radiograph suggestive of a mass lesion? Please choose from the following two options: [yes, no]\n 12.  Is the chest radiograph suggestive of a mass les"
+            ]
+        ],
+        "sensitivities": [
+            0.5203844446668976
+        ],
+        "posix": 0.5203844446668976
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_143_variants.json",
+    "overall_posix": 14.247197296000367,
+    "detailed_scores": [
+        {
+            "Variation 1": 3.5279492285193466,
+            "Variation 2": 0.0,
+            "Variation 3": 5.603156266212463,
+            "Variation 4": 0.8378239572048187,
+            "Variation 5": 4.994134651154888,
+            "Variation 6": 1.6428670572197956,
+            "Variation 7": 4.395083300092003,
+            "Variation 8": 76.21725924809773,
+            "Variation 9": 4.344405827068147,
+            "Variation 10": 2.849658932004656
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no abnormalities detected in the diaphragm on the chest X-ray.",
+                "No, there is no evidence of diaphragmatic pathology visible on this chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "No, there are no abnormalities detected in the diaphragm on the chest X-ray.",
+                "No, there are no detectable abnormalities in the shape or position of the diaphragm on this radiograph. The diaphragm appears to be in its normal position, separating the chest cavity from the ab",
+                "Yes, the diaphragm appears to be normally formed and positioned on this chest X-ray.",
+                "No, there are no abnormal findings or lesions visible within the diaphragm on this radiograph. The image shows a normal chest radiograph with the lungs, heart, and diaphragm clearly visible.",
+                "Yes, the chest X-ray shows the diaphragm to be intact and normally positioned.",
+                "No, there are no signs of diaphragmatic injury or trauma visible on this radiograph. The image shows a normal chest X-ray with the lungs, heart, and ribs clearly visible.",
+                "Yes",
+                "No, there are no abnormal contours or shapes of the diaphragm visible on this radiograph. The diaphragm appears to be intact and in the correct position.",
+                "Yes, the diaphragm appears to be normally positioned in relation to the adjacent thoracic and abdominal structures on this X-ray."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -254.12534999847412,
+                    -398.77126836776733,
+                    -254.12534999847412,
+                    -534.2831633090973,
+                    -234.01757502555847,
+                    -498.83794790506363,
+                    -216.33940768241882,
+                    -447.5090152025223,
+                    -25.473572254180908,
+                    -436.5903947353363,
+                    -353.8634126186371
+                ],
+                [
+                    -254.12534999847412,
+                    -398.77126836776733,
+                    -254.12534999847412,
+                    -534.2831633090973,
+                    -234.01757502555847,
+                    -498.83794790506363,
+                    -216.33940768241882,
+                    -447.5090152025223,
+                    -25.473572254180908,
+                    -436.5903947353363,
+                    -353.8634126186371
+                ],
+                [
+                    -254.12534999847412,
+                    -398.77126836776733,
+                    -254.12534999847412,
+                    -534.2831633090973,
+                    -234.01757502555847,
+                    -498.83794790506363,
+                    -216.33940768241882,
+                    -447.5090152025223,
+                    -25.473572254180908,
+                    -436.5903947353363,
+                    -353.8634126186371
+                ],
+                [
+                    -249.0780987739563,
+                    -417.2645287513733,
+                    -249.0780987739563,
+                    -514.8298077583313,
+                    -251.5835280418396,
+                    -488.37986516952515,
+                    -222.98490262031555,
+                    -441.5627103447914,
+                    -29.089266061782837,
+                    -435.24716544151306,
+                    -349.90131866931915
+                ],
+                [
+                    -256.3986463546753,
+                    -420.7095317840576,
+                    -256.3986463546753,
+                    -530.5653705596924,
+                    -256.2374711036682,
+                    -506.8060598373413,
+                    -221.87175393104553,
+                    -434.3377215862274,
+                    -26.69367742538452,
+                    -439.85342288017273,
+                    -372.5024859905243
+                ],
+                [
+                    -266.2820711135864,
+                    -419.31359791755676,
+                    -266.2820711135864,
+                    -516.1776156425476,
+                    -248.55983209609985,
+                    -500.6147825717926,
+                    -235.587543964386,
+                    -454.9150676727295,
+                    -27.769474029541016,
+                    -409.31330120563507,
+                    -359.83223724365234
+                ],
+                [
+                    -254.12534999847412,
+                    -398.77126836776733,
+                    -254.12534999847412,
+                    -534.2831633090973,
+                    -234.01757502555847,
+                    -498.83794790506363,
+                    -216.33940768241882,
+                    -447.5090152025223,
+                    -25.473572254180908,
+                    -436.5903947353363,
+                    -353.8634126186371
+                ],
+                [
+                    -237.08014345169067,
+                    -425.05612456798553,
+                    -237.08014345169067,
+                    -512.9174816608429,
+                    -240.8024938106537,
+                    -510.8723442554474,
+                    -237.50750875473022,
+                    -455.72842478752136,
+                    -30.27675199508667,
+                    -443.18215346336365,
+                    -351.91567611694336
+                ],
+                [
+                    -238.14080715179443,
+                    -411.11125898361206,
+                    -238.14080715179443,
+                    -522.8648972511292,
+                    -251.75926637649536,
+                    -514.5074745416641,
+                    -230.06520652770996,
+                    -438.6964566707611,
+                    -28.93395495414734,
+                    -434.39532232284546,
+                    -349.9973888397217
+                ],
+                [
+                    -266.2820711135864,
+                    -419.31359791755676,
+                    -266.2820711135864,
+                    -516.1776156425476,
+                    -248.55983209609985,
+                    -500.6147825717926,
+                    -235.587543964386,
+                    -454.9150676727295,
+                    -27.769474029541016,
+                    -409.31330120563507,
+                    -359.83223724365234
+                ],
+                [
+                    -244.35511445999146,
+                    -417.59277176856995,
+                    -244.35511445999146,
+                    -516.3898992538452,
+                    -246.7452552318573,
+                    -484.64890122413635,
+                    -222.35194897651672,
+                    -419.195901453495,
+                    -29.930707693099976,
+                    -431.5704188346863,
+                    -347.35161089897156
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            14.247197296000367
+        ],
+        "posix": 14.247197296000367
+    }
+}

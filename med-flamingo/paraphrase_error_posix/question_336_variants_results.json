@@ -1,0 +1,42 @@
+{
+    "file_name": "question_336_variants.json",
+    "overall_posix": 0.3620832386569305,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.26046511627906976,
+            "Variation 2": 0.8064516129032258,
+            "Variation 3": 0.0,
+            "Variation 4": 0.3153153153153153,
+            "Variation 5": 0.29032258064516125,
+            "Variation 6": 0.48684210526315796,
+            "Variation 7": 0.33333333333333326,
+            "Variation 8": 0.3918367346938776,
+            "Variation 9": 0.3913043478260869,
+            "Variation 10": 0.34496124031007747
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lung fields on the chest X-ray adequately expanded with no evidence of alveolar collapse? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please choose from the following two options: [yes, no]\n<image> 1.Do you have any symptoms of a heart attack?\n 2.Do you have any symptoms of a stroke?\n 3.Do you have any symptoms of a transient ischemic attack?\n 4",
+                "<s> According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray reveal normally inflated lungs with no signs of atelectasis or parenchymal lucency? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the pulmonary fields on the chest radiograph well-aerated and devoid of any air space collapse? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show lungs that are fully expanded with no indication of volume loss or alveolar atrophy? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> On the chest radiograph, are the lung parenchyma and airways adequately inflated with no evidence of collapse or compression? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any signs of alveolar hypoplasia or decreased lung volume on the chest X-ray that would suggest inadequate inflation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest radiograph reveal lungs with normal aeration and no evidence of atelectasis, pneumonitis, or other pathologic processes? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> On the basis of the chest X-ray, are there any abnormalities in lung inflation that would indicate a need for further diagnostic evaluation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.3620832386569305
+        ],
+        "posix": 0.3620832386569305
+    }
+}

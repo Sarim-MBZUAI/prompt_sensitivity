@@ -1,0 +1,42 @@
+{
+    "file_name": "question_346_variants.json",
+    "overall_posix": 0.3739862887010793,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.303921568627451,
+            "Variation 2": 0.476923076923077,
+            "Variation 3": 0.30731707317073176,
+            "Variation 4": 0.5358361774744027,
+            "Variation 5": 0.28640776699029125,
+            "Variation 6": 0.48461538461538467,
+            "Variation 7": 0.2592592592592593,
+            "Variation 8": 0.2011173184357542,
+            "Variation 9": 0.32380952380952377,
+            "Variation 10": 0.5606557377049181
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:::Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q::Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n 100\n 1",
+                "<s> Q::: Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question-Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The chest X-ray shows an acute infiltrate in the right lower lobe.\n The patient is a 65-year-old man with a history of diabetes and hypertension. He has",
+                "<s> Question::: Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q:Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tYes, an acute infiltrate can be seen on the chest X-ray.\n \u2022\tNo, an acute infiltrate cannot be seen on the chest X-ray",
+                "<s> Question:Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> Q:Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 1:\n 2:\n 1:\n 2:\n 1:\n 2:\n 1:\n 2",
+                "<s> q::Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following radiograph is of a 55-year-old male patient with a 2-day history of fever, cough, and chest pain. The patient is currently on anticoag"
+            ]
+        ],
+        "sensitivities": [
+            0.3739862887010793
+        ],
+        "posix": 0.3739862887010793
+    }
+}

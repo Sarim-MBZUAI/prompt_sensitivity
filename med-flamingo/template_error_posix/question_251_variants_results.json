@@ -1,0 +1,42 @@
+{
+    "file_name": "question_251_variants.json",
+    "overall_posix": 0.35780335904454147,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.10243902439024388,
+            "Variation 2": 0.23831775700934577,
+            "Variation 3": 0.2763157894736843,
+            "Variation 4": 0.416058394160584,
+            "Variation 5": 0.5433526011560693,
+            "Variation 6": 0.21698113207547176,
+            "Variation 7": 0.4968152866242038,
+            "Variation 8": 0.4605263157894737,
+            "Variation 9": 0.45364238410596025,
+            "Variation 10": 0.3735849056603773
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n ",
+                "<s> question::Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Q::: Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n A.Pneumonia\n B.Pleural effusion\n C.Pneumothorax\n D.Pneumomediastinum\n E",
+                "<s> Q:Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:Is there any evidence of a mass? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n Q:Is there any evidence of a mass? Please choose from the following two options: [",
+                "<s> QUESTION:Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q::Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of cardiac pathology, such as pericardial effusion or a mass? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is",
+                "<s> QUESTION\tIs there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a history of a chest X-ray that was normal. The chest X-ray is normal. The patient has a normal\n cardi",
+                "<s> Question::: Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumonia\n B. Pulmonary edema\n C. Pulmonary embolism\n D. Pulmonary infarction",
+                "<s> q:Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.  Describe the findings in the chest radiograph.\n 11.  What is the most likely diagnosis?\n"
+            ]
+        ],
+        "sensitivities": [
+            0.35780335904454147
+        ],
+        "posix": 0.35780335904454147
+    }
+}

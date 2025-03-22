@@ -1,0 +1,42 @@
+{
+    "file_name": "question_247_variants.json",
+    "overall_posix": 0.4163315767512943,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.46014492753623193,
+            "Variation 2": 0.54375,
+            "Variation 3": 0.2897196261682242,
+            "Variation 4": 0.4823943661971831,
+            "Variation 5": 0.5017182130584192,
+            "Variation 6": 0.224390243902439,
+            "Variation 7": 0.4346153846153846,
+            "Variation 8": 0.3090909090909091,
+            "Variation 9": 0.4346153846153846,
+            "Variation 10": 0.48287671232876717
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tIs there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n The chest X-ray shows a right-sided pneumothorax. The lung on the right side is hyperlucent, and the\n",
+                "<s> Question:Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of hypertension and hyperlipidemia. He has been complaining of shortness of breath for the last 2 days. He",
+                "<s> q:::Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n The correct answer is [yes, no].\n The chest X-ray shows a pulmonary edema.\n The chest X-ray shows a pul",
+                "<s> Q::Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there an indication of pneumothorax in the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there an indic",
+                "<s> Question-Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 1.\n [yes, no]\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2",
+                "<s> Question:Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the next step in the diagnostic work-up?\n A.Chest CT\n B.Echocardiogram\n C.Electrocardiogram\n D.Pul",
+                "<s> q::Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the next step in the diagnostic work-up?\n A.Chest CT\n B.Echocardiogram\n C.Electrocardiogram\n D.Pul",
+                "<s> Question::: Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Acute respiratory distress syndrome\n B. Pneumonia\n C. Pulmonary edema\n D. Asthma"
+            ]
+        ],
+        "sensitivities": [
+            0.4163315767512943
+        ],
+        "posix": 0.4163315767512943
+    }
+}

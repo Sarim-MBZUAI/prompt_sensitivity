@@ -1,0 +1,42 @@
+{
+    "file_name": "question_332_variants.json",
+    "overall_posix": 0.4158053266540511,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5253164556962026,
+            "Variation 2": 0.490506329113924,
+            "Variation 3": 0.12772585669781933,
+            "Variation 4": 0.49683544303797467,
+            "Variation 5": 0.3573573573573574,
+            "Variation 6": 0.44512195121951215,
+            "Variation 7": 0.25632911392405067,
+            "Variation 8": 0.4778481012658228,
+            "Variation 9": 0.47468354430379744,
+            "Variation 10": 0.5063291139240507
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there a definite pneumomediastinum identified on the chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there a definite pneumopericard",
+                "<s> QUESTION:Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> Question:Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n",
+                "<s> Q::Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there a definite pneumomediastinum identified on the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there a definite",
+                "<s> q:::Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question:Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n A.Yes, there is a definite pleural line of pneumothorax identified on the chest X-ray.\n B.No, there is no definite pleural line of pneumothorax identified on the chest",
+                "<s> Question:Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following picture is an X-ray of the chest.\n 1.The pleural line is the thin, white line that separates the lung from the chest wall.\n 2.The",
+                "<s> q:Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.  Is there a definite pneumomediastinum identified on the chest X-ray? Please choose from the following two options:",
+                "<s> QUESTION:Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)Yes\n (b)No\n 10.\n QUESTION:What is the most likely diagnosis?\n (a)Pneumothorax\n (b)Pneumomediastinum\n (c",
+                "<s> q::Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question::: Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1:\n Option 2:\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.4158053266540511
+        ],
+        "posix": 0.4158053266540511
+    }
+}

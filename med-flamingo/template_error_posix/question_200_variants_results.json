@@ -1,0 +1,42 @@
+{
+    "file_name": "question_200_variants.json",
+    "overall_posix": 0.3156622950657023,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.23371647509578541,
+            "Variation 2": 0.24812030075187974,
+            "Variation 3": 0.345514950166113,
+            "Variation 4": 0.44886363636363635,
+            "Variation 5": 0.24812030075187974,
+            "Variation 6": 0.3508196721311476,
+            "Variation 7": 0.1585365853658537,
+            "Variation 8": 0.23076923076923084,
+            "Variation 9": 0.4722222222222222,
+            "Variation 10": 0.41993957703927487
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Q::: Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q::Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> question::Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: Mild multilevel degenerative disc disease of the thoracolumbar spine\n B: No\n 10.\n 10.\n 10.\n 10.\n 1",
+                "<s> Question:Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n\n 10.Question:Is there a thoracic kyphosis of 10 degrees indicated on the lateral X-ray? Please choose from the following two options",
+                "<s> q::Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions: Please mark the appropriate choice(s) on the figure provided.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8",
+                "<s> Question-Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> q:::Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the lateral X-ray? Please choose from the following two options:",
+                "<s> Q:Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n\n 16.Q:Is there a large pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no"
+            ]
+        ],
+        "sensitivities": [
+            0.3156622950657023
+        ],
+        "posix": 0.3156622950657023
+    }
+}

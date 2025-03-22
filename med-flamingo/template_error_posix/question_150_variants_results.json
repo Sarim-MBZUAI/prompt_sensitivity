@@ -1,0 +1,42 @@
+{
+    "file_name": "question_150_variants.json",
+    "overall_posix": 0.2889498411713417,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2792792792792793,
+            "Variation 2": 0.1377551020408163,
+            "Variation 3": 0.30434782608695654,
+            "Variation 4": 0.427536231884058,
+            "Variation 5": 0.4104477611940298,
+            "Variation 6": 0.1464646464646464,
+            "Variation 7": 0.135,
+            "Variation 8": 0.29824561403508776,
+            "Variation 9": 0.24880382775119614,
+            "Variation 10": 0.5016181229773463
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:::Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Q:Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   Examination table\n C:\n   D:\n   E:\n   F:\n   G:\n   H:\n   I:\n   J:\n   K:\n   L:\n   M",
+                "<s> Question:Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 100\n 100\n Question:What is the most likely diagnosis?\n A.Pneumonia\n B.Pneumothorax\n C.Pleural effusion\n D.Pneumomed",
+                "<s> QUESTION:Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumonia\n B.Pneumothorax\n C.Pleural effusion\n D.P",
+                "<s> q:Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> QUESTION:Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> q::Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> question::Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n ",
+                "<s> Q:Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The patient has bilateral infiltrates, which are more prominent in the right upper lobe.\n Q:What is the most likely diagnosis?\n A:Pneumonia\n Q:What is"
+            ]
+        ],
+        "sensitivities": [
+            0.2889498411713417
+        ],
+        "posix": 0.2889498411713417
+    }
+}

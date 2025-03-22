@@ -1,0 +1,42 @@
+{
+    "file_name": "question_343_variants.json",
+    "overall_posix": 0.39595275691287657,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.550185873605948,
+            "Variation 2": 0.28494623655913975,
+            "Variation 3": 0.3263157894736842,
+            "Variation 4": 0.16463414634146345,
+            "Variation 5": 0.504,
+            "Variation 6": 0.5115384615384615,
+            "Variation 7": 0.5719298245614035,
+            "Variation 8": 0.346938775510204,
+            "Variation 9": 0.1875,
+            "Variation 10": 0.5115384615384615
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n\n Q:Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n Q:Is the patient's heart",
+                "<s> question:Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.",
+                "<s> q:::Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> QUESTION:Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\n A:\n B:\n 3.\n QUESTION",
+                "<s> Question:Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n 3.\n Question:Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\n a.Yes\n b.No\n 4.\n",
+                "<s> QUESTION:Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Explanation:\n The patient's heart size is not abnormal. The heart is not enlarged, and the cardiac silhouette is not displaced to the right.\n CHAPTER 1",
+                "<s> Q::Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question-Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Question:Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n 3.\n Question:Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\n a.Yes\n b.No\n 4.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.39595275691287657
+        ],
+        "posix": 0.39595275691287657
+    }
+}

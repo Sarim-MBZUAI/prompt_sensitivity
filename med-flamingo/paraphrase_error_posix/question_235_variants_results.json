@@ -1,0 +1,42 @@
+{
+    "file_name": "question_235_variants.json",
+    "overall_posix": 0.4254355253728714,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.37083333333333335,
+            "Variation 3": 0.4775510204081632,
+            "Variation 4": 0.3948497854077253,
+            "Variation 5": 0.4534883720930232,
+            "Variation 6": 0.4056224899598393,
+            "Variation 7": 0.5510204081632653,
+            "Variation 8": 0.46484375,
+            "Variation 9": 0.6573816155988857,
+            "Variation 10": 0.4787644787644787
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is there an internal device, such as a pacemaker or central line, visible within the right hemithorax on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 22.\n 23.\n 24.\n 25.\n 26.\n 27.\n 28.\n 29.\n 30.\n 31.\n",
+                "<s> Does the radiograph show the presence of a medical device, like a mediport or Swan-Ganz catheter, in the right thoracic cavity? Please choose from the following two options: [yes, no]\n<image> 1.1a\n 1.1b\n 1.1c\n 1.1d\n 1.1e\n 1.1f\n 1.1g\n 1.1h\n 1",
+                "<s> Is there evidence of a foreign body, including an implanted device, on the X-ray image in the right upper quadrant? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any visible signs of a metallic object or prosthetic device within the right hemithorax on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1. ___\n 2. ___\n _\n 3. ___\n 4. ___\n 5. ___\n 6. ___\n 7. ___\n 8. ___\n",
+                "<s> Does the chest X-ray image depict the presence of a central venous catheter or other implanted device in the right thoracic region? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Is there an indication of a medical implant, including a pacemaker or cardioverter-defibrillator, within the right hemithorax as seen on this X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\u2002\u2002X-ray\u2002of\u2002the\u2002chest\n 11.10.1.1\u2002\u2002Question11.10.1.2\u2002\u2002Answer\n There is a",
+                "<s> Are there any radiographic signs suggestive of a foreign body, such as a central line or port, located in the right upper thoracic cavity? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray show a clear presence of an internal device, like a mediport or vascular access device, within the right hemithorax? Please choose from the following two options: [yes, no]\n<image> A. Yes, a mediport is present in the right hemithorax.\n B. No, a mediport is not present in the right hemithorax.\n 5.\n A. The mediport is located in the",
+                "<s> Is the X-ray image consistent with the presence of a medical implant, including a cardiac device, within the right side of the thoracic cage? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1"
+            ]
+        ],
+        "sensitivities": [
+            0.4254355253728714
+        ],
+        "posix": 0.4254355253728714
+    }
+}

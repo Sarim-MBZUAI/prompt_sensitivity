@@ -1,0 +1,42 @@
+{
+    "file_name": "question_71_variants.json",
+    "overall_posix": 0.38249368231260134,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5709090909090909,
+            "Variation 2": 0.0,
+            "Variation 3": 0.23560209424083767,
+            "Variation 4": 0.3191489361702128,
+            "Variation 5": 0.49590163934426235,
+            "Variation 6": 0.5520833333333334,
+            "Variation 7": 0.3076923076923077,
+            "Variation 8": 0.3628691983122363,
+            "Variation 9": 0.31896551724137934,
+            "Variation 10": 0.6617647058823529
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there collapse of lung tissue visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Collapse of lung tissue\n 2. No collapse of lung tissue\n 3. Collapse of lung tissue\n 4. No collapse of lung tissue\n 5. Collapse of lung tissue\n",
+                "<s> Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there signs of pneumothorax (collapsed lung) seen on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray reveal any evidence of atelectasis, indicating a collapsed or compressed portion of lung tissue? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there visible collapse or compression of lung parenchyma on this radiographic image? Please choose from the following two options: [yes, no]\n<image> 1. _______\n  Yes\n 2. _______  No\n 1. _______  Yes\n 2. _______  No\n 1. _______  Yes\n 2. _",
+                "<s> Can a pneumatocele (air-filled cyst) indicating collapsed lung be seen on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, it can be seen\n b. No, it cannot be seen\n 5. What is the diagnosis?\n a. Pneumothorax\n b. Pneumomediastinum\n c. Pneumoper",
+                "<s> Does the provided radiograph show any features suggestive of atelectasis or lung collapse? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there findings indicative of a pneumothorax (air in the pleural space around collapsed lung) visible on this image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the chest X-ray consistent with collapse or compression of lung tissue, resulting in an atelectatic appearance? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can a diagnosis of pneumothorax be made based on the provided radiographic image indicating collapsed lung? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, because the lung is completely collapsed.\n 2.  No, because the lung is not completely collapsed.\n 1.  No, because the lung is not completely collapsed.\n 2."
+            ]
+        ],
+        "sensitivities": [
+            0.38249368231260134
+        ],
+        "posix": 0.38249368231260134
+    }
+}

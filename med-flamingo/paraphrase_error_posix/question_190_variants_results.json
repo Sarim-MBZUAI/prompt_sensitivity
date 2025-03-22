@@ -1,0 +1,42 @@
+{
+    "file_name": "question_190_variants.json",
+    "overall_posix": 0.5105620483355942,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6285714285714286,
+            "Variation 2": 0.0,
+            "Variation 3": 0.2773109243697479,
+            "Variation 4": 0.649171270718232,
+            "Variation 5": 0.6219081272084805,
+            "Variation 6": 0.6504297994269341,
+            "Variation 7": 0.6657608695652174,
+            "Variation 8": 0.5709779179810726,
+            "Variation 9": 0.6685393258426966,
+            "Variation 10": 0.3729508196721312
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities in the pulmonary vascularity? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any abnormalities in the pulmonary vascularity? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any notable alterations in the caliber or visibility of pulmonary arteries on the provided image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n Are there any notable alterations in the caliber or visibility of pulmonary veins on the provided image? Please choose from the following two options: [yes, no]\n 1.\n ",
+                "<s> Are there any abnormalities in the pulmonary vascularity? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the imaging study reveal any abnormalities in the pulmonary vasculature that could indicate a pathological process? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any visualizable changes in the distribution or number of pulmonary arteries on the radiographic image? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any visualizable changes in the size of the pulmonary arteries on the radiographic image? Please choose from the following two options: [yes, no]\n 12.  Are there any",
+                "<s> Can abnormalities be seen in the caliber or patency of the major pulmonary arteries based on the provided imaging study? Please choose from the following two options: [yes, no]\n<image> A.\tYes,\tthe\tright\tpulmonary\tartery\t(RPA)\tis\tdilated\t(arrow)\n B.\tNo,\tthe\tright\tpulmonary\tartery",
+                "<s> Is there any evidence of abnormal vascular markings within the lung parenchyma on the radiograph? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pleural effusion on the radiograph? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of a pleural effusion on the radi",
+                "<s> Do any changes in pulmonary arterial structure or caliber suggest a potential underlying condition that should be further investigated? Please choose from the following two options: [yes, no]\n<image> a. No\n b. Yes\n 3. Do any of the following structures appear abnormal? Please choose from the following two options: [yes, no]\n a. No\n b. Yes\n 4. Are there any other",
+                "<s> Are there any alterations in the typical branching pattern of the pulmonary arteries visible on the imaging study? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are.\n b. No, there are not.\n 10.\n What is the most likely diagnosis?\n a. Aortic dissection\n b. Pulmonary artery sling\n c",
+                "<s> Can any abnormalities in vascular prominence or distribution within the lungs be identified based on the radiographic image? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n The answer is yes. The radiographic image shows a right hilar mass. The right hilar mass is a common finding in patients with lung cancer.\n 11.10.",
+                "<s> Does the provided image reveal any signs of pulmonary arterial disease or other abnormalities that could impact lung function? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.5105620483355942
+        ],
+        "posix": 0.5105620483355942
+    }
+}

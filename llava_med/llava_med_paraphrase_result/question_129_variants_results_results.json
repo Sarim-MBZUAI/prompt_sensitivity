@@ -1,0 +1,189 @@
+{
+    "file_name": "question_129_variants_results.json",
+    "overall_posix": 1.131683536642464,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.2181423866432168,
+            "Variation 2": 0.8217992319814409,
+            "Variation 3": 1.4473403102348168,
+            "Variation 4": 0.9529626333595388,
+            "Variation 5": 1.7012729643116473,
+            "Variation 6": 1.05123166823328,
+            "Variation 7": 0.5882570191721607,
+            "Variation 8": 1.6450677005151109,
+            "Variation 9": 0.8632654401874983,
+            "Variation 10": 1.6323786333089843
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a significant right-sided pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the patient has a significant right-sided pleural effusion on the chest X-ray. ",
+                "Yes, the chest radiograph shows a substantial right-sided pleural collection. ",
+                "Yes, the chest X-ray shows a notable right-sided fluid accumulation in the pleural space. ",
+                "Yes, the chest film shows a considerable right-sided effusion within the pleural cavity. ",
+                "The chest X-ray shows a significant accumulation of fluid on the right side. ",
+                "Yes, the radiograph shows evidence of a large volume of pleural fluid on the right side, which is causing blunting of the diaphragm's inferior margin. ",
+                "Yes, the chest X-ray shows a notable enlargement of the right costophrenic angle, which is likely due to a substantial amount of fluid in the pleural space. ",
+                "Yes, the chest X-ray shows a significant pleural effusion involving the right hemithorax. ",
+                "Yes, the radiograph shows a considerable volume of free fluid within the right pleural space. ",
+                "Yes, the chest film shows a substantial accumulation of pleural fluid on the right side, which indicates a significant right-sided pleural effusion. ",
+                "The chest X-ray does not show a clear indication of a notable amount of pleural fluid on the right side, as per standard radiological criteria. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -40.70235359605795,
+                    -65.06520132892229,
+                    -62.06913362757541,
+                    -75.43852104169355,
+                    -59.76160626324872,
+                    -108.75327216852384,
+                    -83.80285199362243,
+                    -55.40877907536196,
+                    -76.89384300739039,
+                    -70.91664400262039,
+                    -96.20322712856341
+                ],
+                [
+                    -62.94195666591668,
+                    -39.685730234105904,
+                    -63.345463741177355,
+                    -70.84264829108383,
+                    -62.24508889381832,
+                    -102.09302189297705,
+                    -80.70381767978688,
+                    -59.03904010583574,
+                    -70.87500301480759,
+                    -70.69377761428882,
+                    -96.31338995684928
+                ],
+                [
+                    -56.95275821530413,
+                    -64.58891188134498,
+                    -41.16670676342778,
+                    -74.44174957586165,
+                    -56.43672653589783,
+                    -101.71484207556023,
+                    -76.37382761146455,
+                    -57.617461395003374,
+                    -72.45452138100518,
+                    -77.90881020939457,
+                    -87.02727783561022
+                ],
+                [
+                    -58.71590937468227,
+                    -64.05127642664411,
+                    -64.6983569020008,
+                    -41.38243339793007,
+                    -60.601173119808664,
+                    -104.02948933250991,
+                    -82.82348789754906,
+                    -61.01312588550172,
+                    -70.66211064148229,
+                    -61.71719708502698,
+                    -95.51549297560996
+                ],
+                [
+                    -59.935502911434014,
+                    -67.60540004236645,
+                    -59.50324559992214,
+                    -76.32338672977494,
+                    -43.90922351503173,
+                    -101.2330881258058,
+                    -81.63542161177202,
+                    -60.51733999509952,
+                    -75.59785477950936,
+                    -77.55945396105244,
+                    -92.10969536707671
+                ],
+                [
+                    -68.21032638350607,
+                    -68.21703379799601,
+                    -74.69722711824579,
+                    -81.18831718442652,
+                    -65.48174617209588,
+                    -42.54737788467662,
+                    -84.80317671829835,
+                    -64.25668891841997,
+                    -70.32775556205888,
+                    -84.95732951620812,
+                    -94.67686804102414
+                ],
+                [
+                    -64.3348964989973,
+                    -71.7298957772473,
+                    -62.08273129104418,
+                    -79.73674961152392,
+                    -62.04309429500245,
+                    -98.2005224829154,
+                    -43.61642234951222,
+                    -60.805074033929486,
+                    -75.30873879848514,
+                    -85.2313686607099,
+                    -93.6051036018307
+                ],
+                [
+                    -55.24365000096668,
+                    -68.62553947863034,
+                    -67.15091787429083,
+                    -78.47581805112532,
+                    -62.23385486533698,
+                    -107.89616638232474,
+                    -83.76839447289603,
+                    -41.06989935167951,
+                    -77.81535114883445,
+                    -77.39457976752306,
+                    -97.85668734374303
+                ],
+                [
+                    -66.57607998040476,
+                    -65.23487266553093,
+                    -66.54762313156971,
+                    -75.29052611705265,
+                    -63.124915888227406,
+                    -93.16127076463818,
+                    -82.66933600172342,
+                    -63.811213888882776,
+                    -41.618351229262316,
+                    -80.37124877674023,
+                    -96.36382449328084
+                ],
+                [
+                    -60.45888351121857,
+                    -66.35945051748968,
+                    -67.91426294611665,
+                    -65.22431742144909,
+                    -64.34297146726385,
+                    -103.13766377073989,
+                    -85.53260997820325,
+                    -59.72682318838815,
+                    -76.92715419188607,
+                    -43.62455951187894,
+                    -92.3683440447694
+                ],
+                [
+                    -65.53386036303164,
+                    -68.29568357591688,
+                    -62.52155070170693,
+                    -78.51594238078724,
+                    -59.01019980097226,
+                    -99.4507991208884,
+                    -76.04680924722152,
+                    -58.91780009933382,
+                    -76.11966638464946,
+                    -75.73736261762951,
+                    -43.384623742896565
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.131683536642464
+        ],
+        "posix": 1.131683536642464
+    }
+}

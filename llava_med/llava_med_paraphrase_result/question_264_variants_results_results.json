@@ -1,0 +1,189 @@
+{
+    "file_name": "question_264_variants_results.json",
+    "overall_posix": 1.3152304754984363,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.383098055585471,
+            "Variation 2": 0.0,
+            "Variation 3": 1.15874156955576,
+            "Variation 4": 1.4730021733696017,
+            "Variation 5": 1.3455316679206277,
+            "Variation 6": 1.5516930804815747,
+            "Variation 7": 1.3075406739852304,
+            "Variation 8": 1.3808360284959436,
+            "Variation 9": 1.4827881806372734,
+            "Variation 10": 1.307869755912272
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The cardiomediastinal silhouette of the patient appears to be normal in appearance on the chest X-ray. ",
+                "Yes, the cardiac and mediastinal contour of the patient's chest radiograph appears to be unremarkable in terms of shape and configuration. ",
+                "The cardiomediastinal silhouette of the patient appears to be normal in appearance on the chest X-ray. ",
+                "Yes, the anteroposterior diameter of the heart on the X-ray appears to be within normal limits for the given patient population. ",
+                "No, the chest radiograph does not show any abnormalities in the cardiac and mediastinal silhouette that would be expected to cause a significant deviation from the norm. ",
+                "Yes, the patient's heart contour appears symmetrical and well-defined on the chest X-ray, without evidence of abnormal enlargement or deformity. ",
+                "The silhouette of the cardiac mediastinal junction appears to be normal in appearance and configuration on this chest radiograph. ",
+                "The chest x-ray does not show any notable abnormalities in the heart shape or position. ",
+                "Yes, the patient's cardiac and mediastinal silhouette appears normal and unremarkable in terms of size, shape, and configuration on this chest radiograph. ",
+                "The cardiac contour on the X-ray appears to be consistent with a normal cardiac silhouette as seen on a standard chest radiograph. ",
+                "The chest x-ray appears to be normal, with no visible abnormalities or asymmetries in the heart shape and position. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -42.28685144017885,
+                    -90.69528338567034,
+                    -42.28685144017885,
+                    -79.36658166596317,
+                    -102.67994054833252,
+                    -94.76258648908333,
+                    -88.8376438546261,
+                    -72.36028694183915,
+                    -96.13945655152065,
+                    -92.70164958184614,
+                    -81.52294411754701
+                ],
+                [
+                    -80.88657898236124,
+                    -41.59672515805778,
+                    -80.88657898236124,
+                    -90.03825139248511,
+                    -86.95911050540872,
+                    -94.30790707234883,
+                    -91.33035345265307,
+                    -74.25078487271094,
+                    -79.82359593938304,
+                    -90.19835393530957,
+                    -83.10547779002809
+                ],
+                [
+                    -42.28685144017885,
+                    -90.69528338567034,
+                    -42.28685144017885,
+                    -79.36658166596317,
+                    -102.67994054833252,
+                    -94.76258648908333,
+                    -88.8376438546261,
+                    -72.36028694183915,
+                    -96.13945655152065,
+                    -92.70164958184614,
+                    -81.52294411754701
+                ],
+                [
+                    -72.47412513262316,
+                    -105.90533955887076,
+                    -72.47412513262316,
+                    -42.19994547956776,
+                    -106.19576851606689,
+                    -98.2806892003482,
+                    -110.37913837692759,
+                    -78.08808124036295,
+                    -108.43579183481415,
+                    -91.96364873724815,
+                    -87.0316193914623
+                ],
+                [
+                    -79.75177778137731,
+                    -88.15251142514671,
+                    -79.75177778137731,
+                    -88.35761004587403,
+                    -43.59653634163078,
+                    -102.35839291779666,
+                    -86.50444873702509,
+                    -72.14790481468663,
+                    -85.47108061178574,
+                    -92.25797930713452,
+                    -83.66935934702633
+                ],
+                [
+                    -72.7236599178832,
+                    -92.42096565793872,
+                    -72.7236599178832,
+                    -83.03842261128011,
+                    -104.31550486875494,
+                    -44.61326522857644,
+                    -105.17412665545271,
+                    -73.39989629818592,
+                    -96.03099413393738,
+                    -87.52123541282344,
+                    -81.12316464583273
+                ],
+                [
+                    -75.375883255605,
+                    -82.99360765068423,
+                    -75.375883255605,
+                    -89.38858550022996,
+                    -98.21739015302137,
+                    -100.99657705341815,
+                    -42.27459330837314,
+                    -75.49437402526382,
+                    -79.8391352218714,
+                    -92.35407672116708,
+                    -83.08504283422371
+                ],
+                [
+                    -70.40852527139577,
+                    -97.06494323017978,
+                    -70.40852527139577,
+                    -80.26556485028777,
+                    -92.34207795052498,
+                    -96.31751078600246,
+                    -94.00717299784446,
+                    -43.773155664879596,
+                    -100.65822882894281,
+                    -85.17150137238787,
+                    -64.3680307175382
+                ],
+                [
+                    -81.96649771851298,
+                    -75.22725472473576,
+                    -81.96649771851298,
+                    -91.64088639908005,
+                    -85.24034578988449,
+                    -93.97232291421278,
+                    -84.82638475131535,
+                    -76.9622474728094,
+                    -43.684850748910776,
+                    -95.24874477998674,
+                    -84.06722034252016
+                ],
+                [
+                    -74.23456150204584,
+                    -90.01658064909498,
+                    -74.23456150204584,
+                    -76.26105561756412,
+                    -98.17880397820772,
+                    -96.14061128109824,
+                    -92.80742670196923,
+                    -77.89096040948061,
+                    -97.46847042135414,
+                    -44.54684034047841,
+                    -85.57865055825096
+                ],
+                [
+                    -73.62185040767508,
+                    -100.66204374581866,
+                    -73.62185040767508,
+                    -88.22187036208925,
+                    -92.81373022056505,
+                    -94.1024776849099,
+                    -96.40734966621676,
+                    -51.49742704761593,
+                    -102.4595406437129,
+                    -94.50016048099496,
+                    -42.199472252242
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.3152304754984363
+        ],
+        "posix": 1.3152304754984363
+    }
+}

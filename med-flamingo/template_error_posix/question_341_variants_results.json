@@ -1,0 +1,42 @@
+{
+    "file_name": "question_341_variants.json",
+    "overall_posix": 0.4106867851946772,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4862068965517241,
+            "Variation 2": 0.4794952681388013,
+            "Variation 3": 0.4813559322033898,
+            "Variation 4": 0.3614864864864865,
+            "Variation 5": 0.506896551724138,
+            "Variation 6": 0.5,
+            "Variation 7": 0.20547945205479445,
+            "Variation 8": 0.48275862068965525,
+            "Variation 9": 0.2996742671009772,
+            "Variation 10": 0.30351437699680517
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n Is the abdominal vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]\n 12.\n Is the thoracic vasculature",
+                "<s> q:Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 1",
+                "<s> Question:Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of cough and shortness of breath. The patient is in acute respiratory distress.\n 1.The patient is int",
+                "<s> QUESTION:Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Correct Answer:\n Option 1\n Explanation:\n The X-ray shows a right-sided pneumothorax. The pulmonary vasculature is not",
+                "<s> question:Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n The pulmonary vasculature is reported as abnormal in the X-ray.\n 11.Question 12:\n The X-ray shows a right-sided pneumothorax. The patient is asked",
+                "<s> Q:Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: Radiology\n 166.1A166.1B\n 166.1C166.1D",
+                "<s> Q::Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Q:Is the pulmonary vasculature reported as abnormal in the CT? Please choose from the following two options: [yes, no]\n A:\n [yes, no]\n Q:Is",
+                "<s> q::Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no],\n [yes, no].\n 10.\n Question:Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no],",
+                "<s> Question:Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n\n 10.Question:Is the pulmonary vasculature reported as abnormal in the CT? Please choose from the following two options: [yes, no]\n Answer"
+            ]
+        ],
+        "sensitivities": [
+            0.4106867851946772
+        ],
+        "posix": 0.4106867851946772
+    }
+}

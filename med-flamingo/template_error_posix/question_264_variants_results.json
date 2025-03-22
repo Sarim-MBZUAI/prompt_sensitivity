@@ -1,0 +1,42 @@
+{
+    "file_name": "question_264_variants.json",
+    "overall_posix": 0.3846642217205761,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5169230769230769,
+            "Variation 2": 0.1554878048780488,
+            "Variation 3": 0.3138461538461539,
+            "Variation 4": 0.46769230769230763,
+            "Variation 5": 0.31355932203389836,
+            "Variation 6": 0.43768115942028984,
+            "Variation 7": 0.476923076923077,
+            "Variation 8": 0.16909620991253638,
+            "Variation 9": 0.5169230769230769,
+            "Variation 10": 0.47851002865329506
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\n 12. Is the cardiomediast",
+                "<s> question::Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> QUESTION:Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\n A:",
+                "<s> Q:Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe\tcardiomediastinal\tsilhouette\tof\tthe\tpatient\tis\tnormal\tin\tappearance\ton\tthe\tX-ray.\n \u2022\tThe\tcardiomediastinal",
+                "<s> Question:Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n\n 10.Question:What is the most likely diagnosis?\n A.Aortic dissection\n B.Aortic aneurysm\n C.Aort",
+                "<s> Question:Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: Yes\n The cardiomediastinal silhouette of the patient is normal in appearance on the X-ray.\n The cardiomediastinal silhouette is the outline of the heart and",
+                "<s> Question:Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of hypertension and hyperlipidemia. He has been complaining of progressive dyspnea and fatigue for the past",
+                "<s> question:Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked:\n [1]Yes\n [2]No\n Correct answer:\n [1]\n Incorrect answer:\n [2",
+                "<s> Question-Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.Question-Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\n Answer\n",
+                "<s> QUESTION:Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question::: Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n Correct Answer: Option 2\n A 24-year-old male patient with a history of aortic valve replacement with a mechanical prosthesis 1 year ago presents"
+            ]
+        ],
+        "sensitivities": [
+            0.3846642217205761
+        ],
+        "posix": 0.3846642217205761
+    }
+}

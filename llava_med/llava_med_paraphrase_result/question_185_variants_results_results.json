@@ -1,0 +1,189 @@
+{
+    "file_name": "question_185_variants_results.json",
+    "overall_posix": 1.130194474244702,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.7075853608613821,
+            "Variation 2": 1.2249973592633108,
+            "Variation 3": 1.408340085982504,
+            "Variation 4": 1.4286725707084307,
+            "Variation 5": 0.0,
+            "Variation 6": 1.9180292618347419,
+            "Variation 7": 1.2949083499176024,
+            "Variation 8": 0.9804912609753652,
+            "Variation 9": 1.261848740858652,
+            "Variation 10": 1.9293659108835317
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the frontal view of the chest X-ray indicate low lung volumes? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the frontal view of the chest X-ray suggests low lung volumes. ",
+                "Yes, the anterior-posterior projection of the chest X-ray suggests decreased lung volumes. ",
+                "The chest X-ray image shows a reduction in lung capacity. This could be due to underlying pathology, such as a lung disease or condition that is affecting the lung's ability to expand and fill with air. ",
+                "Yes, the frontal chest X-ray view shows radiographic signs indicative of decreased pulmonary volume. ",
+                "The image is likely related to a question or statement that requires a yes or no answer. Without more context, it's difficult to determine the specific question or statement. However, the image is likely used to visually represent the options or choices for",
+                "Yes, the frontal view of the chest X-ray suggests low lung volumes. ",
+                "Yes, the presence of low lung volumes is detectable on this frontal chest X-ray reading. ",
+                "The chest X-ray projection shows diminished lung expansion. This could be due to anatomic or pathologic factors, such as lung disease, injury, or other conditions that affect the lung's ability to expand properly. Further evaluation and clinical",
+                "Yes, the anterior-posterior chest X-ray image suggests decreased pulmonary volume. ",
+                "Yes, the frontal view of the chest X-ray is consistent with reduced lung volumes secondary to underlying disease processes. ",
+                "The radiographic appearance of this chest X-ray does not suggest diminished lung capacity compared to expected normal values. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -40.256556307496794,
+                    -57.238604968169966,
+                    -97.8314321928724,
+                    -78.2817386290244,
+                    -113.11885741362676,
+                    -40.256556307496794,
+                    -86.2892585915306,
+                    -106.29688215329452,
+                    -63.78834657090556,
+                    -74.3264723106804,
+                    -90.42006999046862
+                ],
+                [
+                    -58.710396856644365,
+                    -40.485962548576936,
+                    -100.28954092296135,
+                    -79.53362774572815,
+                    -112.91614665849147,
+                    -58.710396856644365,
+                    -94.44633966119,
+                    -98.36662975889658,
+                    -59.39637267971489,
+                    -83.22997224481514,
+                    -89.53586512123002
+                ],
+                [
+                    -67.81158893006432,
+                    -69.88936010429097,
+                    -61.86061633258777,
+                    -86.39413582751149,
+                    -113.96113249995096,
+                    -67.81158893006432,
+                    -99.0661256579042,
+                    -102.80151436753476,
+                    -67.36088237823878,
+                    -78.14556879832344,
+                    -81.99538770955041
+                ],
+                [
+                    -58.34295381507036,
+                    -65.5084857269103,
+                    -97.85517822913334,
+                    -43.06589795532062,
+                    -111.46353821119283,
+                    -58.34295381507036,
+                    -81.99644571461795,
+                    -103.06634873632629,
+                    -55.902066195232464,
+                    -83.63112613796329,
+                    -87.21837993200461
+                ],
+                [
+                    -67.09779218793119,
+                    -77.09017808206409,
+                    -103.57358519320769,
+                    -90.4524713545834,
+                    -63.47161440090895,
+                    -67.09779218793119,
+                    -94.76055861917848,
+                    -107.99425642348797,
+                    -76.72876604125486,
+                    -89.77284790829435,
+                    -99.35536761360709
+                ],
+                [
+                    -40.256556307496794,
+                    -57.238604968169966,
+                    -97.8314321928724,
+                    -78.2817386290244,
+                    -113.11885741362676,
+                    -40.256556307496794,
+                    -86.2892585915306,
+                    -106.29688215329452,
+                    -63.78834657090556,
+                    -74.3264723106804,
+                    -90.42006999046862
+                ],
+                [
+                    -55.63531043968305,
+                    -66.16286319553365,
+                    -99.51563368534516,
+                    -79.21673116331385,
+                    -107.9716775969855,
+                    -55.63531043968305,
+                    -42.40496292120133,
+                    -110.01227492437215,
+                    -68.36169652238823,
+                    -81.37561490072312,
+                    -93.15208975801215
+                ],
+                [
+                    -70.44207416422614,
+                    -63.459162858811396,
+                    -95.50001249844672,
+                    -84.88415181044184,
+                    -108.89174629768013,
+                    -70.44207416422614,
+                    -96.66866667558133,
+                    -53.80344692551398,
+                    -71.98851521910638,
+                    -89.81274296836636,
+                    -86.28915633285942
+                ],
+                [
+                    -60.58486831426126,
+                    -61.16657741359268,
+                    -95.33649980365965,
+                    -66.36426326814876,
+                    -115.26062822909171,
+                    -60.58486831426126,
+                    -91.86622617339526,
+                    -104.54257470965695,
+                    -42.40486329239542,
+                    -86.84037121636902,
+                    -89.49209770137895
+                ],
+                [
+                    -53.34411942646511,
+                    -62.35689003021071,
+                    -91.23187592338036,
+                    -82.2426570208645,
+                    -110.36595006142988,
+                    -53.34411942646511,
+                    -89.90717540599326,
+                    -109.43498921418177,
+                    -69.14614190711472,
+                    -41.84533384511269,
+                    -88.59145013324087
+                ],
+                [
+                    -62.722640815994055,
+                    -67.85466763504519,
+                    -90.95506347061519,
+                    -83.05604545965252,
+                    -111.40813464257803,
+                    -62.722640815994055,
+                    -93.68220075343561,
+                    -102.38759814321156,
+                    -69.3295620664012,
+                    -86.53038405698317,
+                    -42.566962167931706
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.130194474244702
+        ],
+        "posix": 1.130194474244702
+    }
+}

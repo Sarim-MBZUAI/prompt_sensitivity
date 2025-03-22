@@ -1,0 +1,42 @@
+{
+    "file_name": "question_98_variants.json",
+    "overall_posix": 0.4278997197212048,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3832599118942731,
+            "Variation 2": 0.40528634361233484,
+            "Variation 3": 0.4229074889867841,
+            "Variation 4": 0.43171806167400884,
+            "Variation 5": 0.48355263157894735,
+            "Variation 6": 0.46945337620578775,
+            "Variation 7": 0.44052863436123346,
+            "Variation 8": 0.3964757709251101,
+            "Variation 9": 0.4493392070484581,
+            "Variation 10": 0.3964757709251101
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Differential diagnosis\n \u2022\tPneumonia\n \u2022\tAtelectasis\n \u2022\tCardiomegaly\n \u2022\t",
+                "<s> q:Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 18.  A 55-year-old man",
+                "<s> q::Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q::: Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question-Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n\n Question-Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes, no]\n 1",
+                "<s> Question:Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer:Yes\n The patient has a left lower lobe consolidation.\n The patient is a 65-year-old man with a history of diabetes and hypertension. He has",
+                "<s> question::Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n T:\n Y:\n R:\n E:\n D:\n E:\n R:\n A:\n L:\n U:\n S:",
+                "<s> Question::: Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n Test Blocks: Section 2 \u2022 The Head, Neck, and Spine\n 167\n 168\n 169\n"
+            ]
+        ],
+        "sensitivities": [
+            0.4278997197212048
+        ],
+        "posix": 0.4278997197212048
+    }
+}

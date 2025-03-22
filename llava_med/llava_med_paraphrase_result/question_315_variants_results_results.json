@@ -1,0 +1,189 @@
+{
+    "file_name": "question_315_variants_results.json",
+    "overall_posix": 0.8174017564465981,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.320788030581536,
+            "Variation 2": 1.1329668191121685,
+            "Variation 3": 0.9181571128632684,
+            "Variation 4": 0.500026763523202,
+            "Variation 5": 1.1907505176228492,
+            "Variation 6": 1.07362028468098,
+            "Variation 7": 0.793777400573576,
+            "Variation 8": 1.2473652061249232,
+            "Variation 9": 0.7588752438571517,
+            "Variation 10": 0.7193245687165329
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest X-ray findings suggest atelectasis. ",
+                "The chest x-ray does not show any evidence of atelectasis or scarring. ",
+                "The chest X-ray does not show any signs of atelectatic lung tissue or scarring. ",
+                "The radiograph does not show any changes suggestive of atelectasis or scarring. ",
+                "Yes, the chest X-ray findings can provide information about atelectasis and fibrotic changes in the lung tissue. Atelectasis refers to the partial or complete collapse of a lung, while fibrotic changes indicate the presence of scar",
+                "There is no radiographic evidence of lung scarring or atelectasis present in the image. ",
+                "The chest X-ray images do not show any signs of atelectatic or scarred lung tissue. ",
+                "The chest x-ray film does not show features consistent with atelectasis or scarring. ",
+                "The x-ray image does not show any signs of lung damage due to atelectasis or scarring. ",
+                "The chest radiograph does not show any evidence of fibrosis or atelectasis. ",
+                "Yes, the radiographic findings can suggest atelectasis or scarring. These conditions can cause changes in the lung tissue that may be visible on imaging studies like chest X-rays. Atelectasis refers to the partial or complete collapse"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.39981967091353,
+                    -48.136368313125786,
+                    -67.4580565104934,
+                    -60.681119041042166,
+                    -66.90118461059683,
+                    -67.59633105861622,
+                    -67.16670650325705,
+                    -58.8629224835322,
+                    -72.58394982403661,
+                    -57.336199791913714,
+                    -78.08537267545671
+                ],
+                [
+                    -56.3485019036234,
+                    -41.34600776399202,
+                    -64.75565149900103,
+                    -60.526174088328844,
+                    -72.90570106389896,
+                    -64.90791199989735,
+                    -68.49611154358627,
+                    -60.87761782429516,
+                    -69.11932846154468,
+                    -53.93116626141318,
+                    -81.04835248940253
+                ],
+                [
+                    -56.72087837139861,
+                    -48.78476249922096,
+                    -44.27420396528487,
+                    -63.904562128169346,
+                    -73.90964763606326,
+                    -67.37900995240489,
+                    -58.68551551791552,
+                    -64.24742608455199,
+                    -74.07826375911827,
+                    -59.02473380831361,
+                    -87.03737546526281
+                ],
+                [
+                    -54.64871424311423,
+                    -48.05831661070715,
+                    -69.3272642101183,
+                    -44.34481853611669,
+                    -73.95887990104075,
+                    -61.61511413175049,
+                    -70.70975977416947,
+                    -60.72228798258675,
+                    -70.74180604760386,
+                    -52.69615817142221,
+                    -72.1545283417563
+                ],
+                [
+                    -49.14349756975207,
+                    -58.29419703320673,
+                    -75.42132020423014,
+                    -68.4482634314545,
+                    -46.18698966785132,
+                    -70.39701899880401,
+                    -74.62297631341426,
+                    -68.90501458996187,
+                    -80.12247579528957,
+                    -56.5691056496762,
+                    -81.08928247238327
+                ],
+                [
+                    -57.59747575352958,
+                    -50.637068134028596,
+                    -67.70034748766193,
+                    -59.588764412303135,
+                    -79.10762315523425,
+                    -43.11433847585522,
+                    -68.4205268610458,
+                    -66.02482325926394,
+                    -66.78384665770318,
+                    -54.00754126486936,
+                    -76.6556451981487
+                ],
+                [
+                    -57.74993096135586,
+                    -55.00568290406227,
+                    -54.577843846886026,
+                    -65.55198902798293,
+                    -73.24725588833417,
+                    -67.5229368986329,
+                    -43.828929647699624,
+                    -64.89090724790003,
+                    -71.61373908424866,
+                    -59.401070312567754,
+                    -85.40977321639593
+                ],
+                [
+                    -54.46724688904578,
+                    -48.45366527287115,
+                    -69.06365064908277,
+                    -57.494660977029525,
+                    -72.60096544526778,
+                    -62.71322766381218,
+                    -70.3154790227727,
+                    -43.090697921107676,
+                    -69.14408128944069,
+                    -55.07151443532075,
+                    -74.47963825217619
+                ],
+                [
+                    -56.56257859217294,
+                    -48.14488601871926,
+                    -62.624052907294754,
+                    -60.45103492740236,
+                    -72.86736828477706,
+                    -62.85185246688525,
+                    -64.64312972935477,
+                    -62.11769226652177,
+                    -45.28736162944733,
+                    -57.21244668678446,
+                    -80.7807510013181
+                ],
+                [
+                    -61.85236695776257,
+                    -58.47976564326382,
+                    -79.84827865001898,
+                    -67.11246126907281,
+                    -88.39369055401767,
+                    -70.98928747803802,
+                    -80.94366267164514,
+                    -73.93014127348579,
+                    -82.12801737272821,
+                    -41.14391291025231,
+                    -93.9699755284039
+                ],
+                [
+                    -49.50896102756269,
+                    -47.19116264692548,
+                    -67.92462370175326,
+                    -55.62204541628307,
+                    -59.94519800729927,
+                    -61.526945356885335,
+                    -67.69240609429107,
+                    -59.65952387408197,
+                    -70.47580466681393,
+                    -54.620741734368494,
+                    -51.41771021899365
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8174017564465981
+        ],
+        "posix": 0.8174017564465981
+    }
+}

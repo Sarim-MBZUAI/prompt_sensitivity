@@ -1,0 +1,42 @@
+{
+    "file_name": "question_132_variants.json",
+    "overall_posix": 0.4079301301162962,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.12041884816753923,
+            "Variation 2": 0.0,
+            "Variation 3": 0.29145728643216073,
+            "Variation 4": 0.5875370919881305,
+            "Variation 5": 0.6592356687898089,
+            "Variation 6": 0.6177474402730375,
+            "Variation 7": 0.6407185628742516,
+            "Variation 8": 0.30805687203791465,
+            "Variation 9": 0.5359477124183006,
+            "Variation 10": 0.3181818181818181
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any indication of acute lung disease evident on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray reveal any signs suggestive of an acute respiratory process? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographic features consistent with a recent onset of lung pathology on the chest image? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a new opacity in the right upper lobe.\n b. No, there is no new opacity in the right upper lobe.\n 2.\n Is there any evidence of atelectasis on the ch",
+                "<s> Does the X-ray examination show evidence of acute lung involvement? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is bilateral alveolar consolidation\n b. No, there is no evidence of acute lung involvement\n 3. Does the X-ray examination show evidence of chronic lung involvement?",
+                "<s> Is there any chest X-ray finding indicative of an acute lung disorder? Please choose from the following two options: [yes, no]\n<image> a.\n b.\n 2.\n Is there any abdominal X-ray finding indicative of an acute abdominal disorder? Please choose from the following two options: [yes, no]\n a.\n b",
+                "<s> Are there radiographic signs suggesting acute lung disease on this chest image? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are\n b. No, there are not\n 2. Are there any radiographic signs suggesting acute lung disease on this chest image? Please choose from the following two options: [yes, no]\n a",
+                "<s> Does the chest X-ray reveal any abnormality consistent with a recent onset of lung pathology? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any radiographic evidence of acute lung involvement on this chest image? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is bilateral pleural effusion.\n b. No, there is no evidence of acute lung involvement.\n 10.\n What is the most likely diagnosis?\n a. Acute resp",
+                "<s> Does the chest X-ray show any features suggestive of an acute respiratory process affecting the lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.4079301301162962
+        ],
+        "posix": 0.4079301301162962
+    }
+}

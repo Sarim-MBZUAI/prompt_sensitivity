@@ -1,0 +1,42 @@
+{
+    "file_name": "question_350_variants.json",
+    "overall_posix": 0.3820978031712336,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3090909090909091,
+            "Variation 2": 0.5051546391752577,
+            "Variation 3": 0.5276872964169381,
+            "Variation 4": 0.2930232558139535,
+            "Variation 5": 0.1436170212765957,
+            "Variation 6": 0.2361809045226131,
+            "Variation 7": 0.4878048780487805,
+            "Variation 8": 0.5425867507886435,
+            "Variation 9": 0.532051282051282,
+            "Variation 10": 0.24378109452736318
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question:Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 10.Question:What is the most likely diagnosis?\n [Disc herniation, disc degeneration, spondylosis, spondylolisthesis, spinal stenosis]",
+                "<s> Q:Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Spinal cord compression due to degenerative changes\n Q:What is the most likely cause of the patient\u2019s symptoms?\n A:D",
+                "<s> Q::: Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Question:Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21",
+                "<s> QUESTION:Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Are there degenerative changes present in the lumbar spine? Please choose from the following two options: [yes, no]\n A:\n B:\n 3.\n",
+                "<s> Q:Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Suggested Response\n These are two spot views of the thoracic spine. The first view is a lateral view of the thoracic spine. The second view is a posteroanterior view of the thor",
+                "<s> Question-Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is there any evidence of degenerative changes in the lumbar spine? Please choose from the following two options: [yes, no]\n Answer\n [yes, no]",
+                "<s> q:Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:"
+            ]
+        ],
+        "sensitivities": [
+            0.3820978031712336
+        ],
+        "posix": 0.3820978031712336
+    }
+}

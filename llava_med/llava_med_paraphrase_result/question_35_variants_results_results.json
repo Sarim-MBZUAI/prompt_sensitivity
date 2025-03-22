@@ -1,0 +1,189 @@
+{
+    "file_name": "question_35_variants_results.json",
+    "overall_posix": 1.0201427149044404,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.028903926263490122,
+            "Variation 2": 0.08016616112567476,
+            "Variation 3": 0.7350035408896929,
+            "Variation 4": 0.43528982058797966,
+            "Variation 5": 0.8343124893674795,
+            "Variation 6": 0.8134723266874321,
+            "Variation 7": 0.5659679855319543,
+            "Variation 8": 0.4891667873616913,
+            "Variation 9": 0.5630108609694812,
+            "Variation 10": 0.32670361786703744
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray shows normal findings for the xxx (bones, pulmonary vessels, or other chest structures). this means that there are no visible abnormalities or issues in the x-ray image. ",
+                "The thoracic structures in the chest X-ray appear to be normal. ",
+                "The chest x-ray does not show any abnormalities in the pulmonary vasculature. ",
+                "The chest x-ray does not show any irregularities in the skeletal components of the thorax. ",
+                "The hilar regions of the lungs appear to be normal in the chest x-ray. ",
+                "The chest X-ray does not show any structural anomaly within the mediastinal structures. ",
+                "It is difficult to determine if there is an abnormality in the parietal pleura or visceral pleura of the lungs on the chest X-ray without actually seeing the image. However, if you have any concerns or observations about",
+                "The chest x-ray does not show any evidence of pathological changes in the costovertebral joints. ",
+                "The chest x-ray does not show any signs of disease or injury in the lung parenchyma. ",
+                "The diaphragm appears to be normal in the chest x-ray. there are no irregularities or pathological findings observed in the image. ",
+                "The chest x-ray does not show any abnormalities in the shape or size of the thoracic cage. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -56.64229394380868,
+                    -56.06421541853888,
+                    -58.566281810824876,
+                    -76.48738954783039,
+                    -65.34809035556827,
+                    -74.99716870989323,
+                    -98.12938260486771,
+                    -71.92342955317145,
+                    -69.36063041521265,
+                    -76.34767407774052,
+                    -65.78999524408573
+                ],
+                [
+                    -112.40982857040217,
+                    -41.6050804027027,
+                    -60.581150531252206,
+                    -70.30785670482146,
+                    -63.64163554739207,
+                    -67.09244062043217,
+                    -99.96378299465505,
+                    -70.7897917971568,
+                    -70.31087436143571,
+                    -74.34020773723023,
+                    -65.25243365454571
+                ],
+                [
+                    -120.13855216801585,
+                    -62.16854197643261,
+                    -43.31589187748136,
+                    -79.62381987770641,
+                    -66.83154986313457,
+                    -75.60538519643524,
+                    -96.67029367873931,
+                    -77.86657869845658,
+                    -69.42041490462725,
+                    -80.12257324752863,
+                    -71.55844987978344
+                ],
+                [
+                    -116.00320582098357,
+                    -55.51061942639353,
+                    -61.69184611213859,
+                    -41.17583568828252,
+                    -66.93596163719485,
+                    -72.99842898735187,
+                    -103.33816973622197,
+                    -67.3076177719995,
+                    -69.40327943001466,
+                    -71.1945745357516,
+                    -60.61615282813909
+                ],
+                [
+                    -125.76484296966191,
+                    -66.3686096676538,
+                    -67.74842903652461,
+                    -83.82961155689554,
+                    -45.07293184181617,
+                    -85.48875543657596,
+                    -102.42557964499065,
+                    -77.19016679128981,
+                    -75.13482721141918,
+                    -84.63461061987618,
+                    -79.74196919839596
+                ],
+                [
+                    -120.53707522988407,
+                    -58.78542545342134,
+                    -59.330908053518215,
+                    -73.1486559903351,
+                    -69.88403925504826,
+                    -44.27284903589634,
+                    -103.85256084608045,
+                    -72.58518414728314,
+                    -70.06757705097698,
+                    -78.9916269141977,
+                    -68.04639016513829
+                ],
+                [
+                    -116.87976816095579,
+                    -59.77906447687565,
+                    -60.00671490975947,
+                    -77.94764974192367,
+                    -65.14316431048792,
+                    -75.5995328133722,
+                    -52.28744355814865,
+                    -73.89392713928828,
+                    -66.50092788983602,
+                    -79.88768035631801,
+                    -70.62606427383434
+                ],
+                [
+                    -118.46084692953082,
+                    -61.83347515909554,
+                    -64.60518617920752,
+                    -76.71447971657471,
+                    -68.88076625711255,
+                    -78.05183785861846,
+                    -107.54782926036569,
+                    -41.85611712926993,
+                    -68.51870376711304,
+                    -80.40335003346263,
+                    -71.33332005597913
+                ],
+                [
+                    -122.5682020295244,
+                    -63.19436448518536,
+                    -63.910304974458995,
+                    -81.4756470320026,
+                    -65.46657136076828,
+                    -80.99103007253325,
+                    -100.31879079559803,
+                    -73.04870506836232,
+                    -43.71585227323567,
+                    -80.43684602257417,
+                    -73.6870229179658
+                ],
+                [
+                    -116.10495073272978,
+                    -61.26524433606028,
+                    -62.9002997080097,
+                    -69.67437954391062,
+                    -66.7653319578094,
+                    -76.46328775188886,
+                    -98.90413267728582,
+                    -72.07114611327415,
+                    -68.03429073862208,
+                    -50.35961176555918,
+                    -69.35067103592155
+                ],
+                [
+                    -112.69021496149799,
+                    -57.17146053745637,
+                    -62.177841983568214,
+                    -68.96875861878652,
+                    -68.80525035804749,
+                    -71.68796695168112,
+                    -96.47238285046456,
+                    -71.86425758780751,
+                    -70.93626253347611,
+                    -77.30434880418761,
+                    -42.479325416817915
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.0201427149044404
+        ],
+        "posix": 1.0201427149044404
+    }
+}

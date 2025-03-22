@@ -1,0 +1,189 @@
+{
+    "file_name": "question_362_variants_results.json",
+    "overall_posix": 0.8603308257184311,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.572640521231418,
+            "Variation 2": 1.3481183999999549,
+            "Variation 3": 0.7010004517262018,
+            "Variation 4": 1.45381585640216,
+            "Variation 5": 0.7446943496352494,
+            "Variation 6": 0.8821029310870219,
+            "Variation 7": 0.8829758834878444,
+            "Variation 8": 0.6267802118804882,
+            "Variation 9": 1.3491430525956611,
+            "Variation 10": 1.5394722559067333
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a pneumothorax visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray does not show any signs of pneumothorax. ",
+                "The chest X-ray does not show the presence of air in the pleural space, which would be indicative of pneumothorax. ",
+                "Yes, the provided radiograph shows a visualization of an air collection within the thoracic cavity, which is consistent with a pneumothorax diagnosis. ",
+                "Yes, the chest X-ray shows findings suggestive of air leakage into the pleural space, which indicates a pneumothorax. ",
+                "The radiographic examination does not reveal evidence of pneumothorax as defined by the presence of free air in the pleural space. ",
+                "Yes, the chest X-ray shows pneumothorax, which is evident by the air collection within the thoracic cavity surrounding the lung parenchyma. ",
+                "The chest x-ray does not show any findings that would confirm or suggest a diagnosis of pneumothorax. ",
+                "Yes, the provided radiograph demonstrates pneumothorax, which is the presence of air or gas in the pleural space, causing the lung to collapse. This can be seen as an air collection within the thoracic cavity",
+                "Yes, the chest X-ray shows evidence of a pneumothorax, as indicated by the appearance of air in the pleural space surrounding the lungs. ",
+                "Yes, the findings on the chest X-ray are consistent with a diagnosis of pneumothorax based on the visualization of free air in the pleural space adjacent to lung tissue. ",
+                "Yes, pneumothorax can be identified on a chest radiograph by the presence of an air collection within the thoracic cavity that may compromise normal lung function. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -42.517029528599096,
+                    -61.41416672923589,
+                    -93.74552872859738,
+                    -65.65004443556376,
+                    -87.58532107706606,
+                    -73.04949786364432,
+                    -66.33380866794869,
+                    -87.54879958647916,
+                    -65.08111715629667,
+                    -99.18103773761686,
+                    -104.09591976486843
+                ],
+                [
+                    -46.12825277749562,
+                    -45.86445959410159,
+                    -95.82872561425086,
+                    -65.98636721785988,
+                    -81.91034379509074,
+                    -77.55953419168418,
+                    -66.91314909600078,
+                    -88.35344105027923,
+                    -67.24099444610499,
+                    -92.0818819974993,
+                    -110.6381760111467
+                ],
+                [
+                    -53.246264420932675,
+                    -67.99657681158396,
+                    -45.72896420029383,
+                    -75.95579663250123,
+                    -85.21046575733635,
+                    -70.33775585958162,
+                    -69.44462220226114,
+                    -60.89669814671211,
+                    -73.79298249984731,
+                    -88.30228957104691,
+                    -89.13453730610308
+                ],
+                [
+                    -50.74485139784542,
+                    -59.73578315780867,
+                    -101.79911448366283,
+                    -42.791099208854746,
+                    -86.13885178383043,
+                    -80.35845182687808,
+                    -67.15908735273933,
+                    -88.68182524998463,
+                    -73.17463982735626,
+                    -90.19677280777705,
+                    -109.30781788763716
+                ],
+                [
+                    -48.728928180137245,
+                    -58.88132577000874,
+                    -94.56685088875133,
+                    -67.56846205176396,
+                    -43.66489689913715,
+                    -80.72561061857687,
+                    -69.95655486166834,
+                    -89.11253627711449,
+                    -69.62473955934979,
+                    -89.83811825226394,
+                    -106.88969374493809
+                ],
+                [
+                    -50.15553291440506,
+                    -60.47635127947012,
+                    -78.29160724811862,
+                    -68.24324172708123,
+                    -84.93728940935057,
+                    -46.864769446966804,
+                    -71.48515992462808,
+                    -71.13735310541915,
+                    -69.92410487031964,
+                    -89.74944823068768,
+                    -89.07833391916
+                ],
+                [
+                    -48.92978398627429,
+                    -58.20727994126196,
+                    -93.15680545535861,
+                    -65.87983443821395,
+                    -77.76086293305752,
+                    -82.14441281316931,
+                    -45.33237876904104,
+                    -95.22750267698939,
+                    -71.49516389630458,
+                    -82.42540721651619,
+                    -110.66236516262006
+                ],
+                [
+                    -49.95640998953786,
+                    -60.979125314659655,
+                    -58.49521315964065,
+                    -70.58967487729444,
+                    -78.67420258754692,
+                    -62.99224730017475,
+                    -71.08412410782194,
+                    -48.79809404157606,
+                    -71.17777223781104,
+                    -80.13979756351819,
+                    -84.41707809285026
+                ],
+                [
+                    -50.924055264068556,
+                    -57.72733446291272,
+                    -100.36966039710785,
+                    -66.98467027168647,
+                    -79.01672126923722,
+                    -78.07597860622445,
+                    -70.48331742267055,
+                    -95.74799422072374,
+                    -44.46584281426408,
+                    -92.48431549963607,
+                    -116.48196607576529
+                ],
+                [
+                    -56.55818262094999,
+                    -65.20323187308384,
+                    -92.82173468590554,
+                    -69.24673905671273,
+                    -81.02752176563808,
+                    -86.20300094341565,
+                    -67.34097743002894,
+                    -102.25797055284966,
+                    -75.2123654822094,
+                    -43.992040616616976,
+                    -112.83382625361673
+                ],
+                [
+                    -51.179846357614224,
+                    -63.60122050793086,
+                    -69.80542118585652,
+                    -73.83530925655089,
+                    -82.1194461940504,
+                    -71.43417621378825,
+                    -69.93289235860539,
+                    -54.963689628964005,
+                    -76.09847916347462,
+                    -93.37378094276414,
+                    -46.00531605663581
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8603308257184311
+        ],
+        "posix": 0.8603308257184311
+    }
+}

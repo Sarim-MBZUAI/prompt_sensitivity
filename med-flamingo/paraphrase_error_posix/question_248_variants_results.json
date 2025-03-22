@@ -1,0 +1,42 @@
+{
+    "file_name": "question_248_variants.json",
+    "overall_posix": 0.36491421939512503,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6077844311377245,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6580459770114943,
+            "Variation 4": 0.24311926605504586,
+            "Variation 5": 0.23923444976076558,
+            "Variation 6": 0.18719211822660098,
+            "Variation 7": 0.2195121951219512,
+            "Variation 8": 0.2075471698113207,
+            "Variation 9": 0.64,
+            "Variation 10": 0.6467065868263473
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographic abnormalities of lung parenchyma on the given X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Are there any radiographic abnormalities of lung parenchyma on the given X-ray? Please choose from the following two options: [yes, no]\n 2. Are there any radiographic abnormalities of",
+                "<s> Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the lungs appear normal in terms of pattern and architecture on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1. The lungs appear normal in terms of pattern and architecture.\n 2. The lungs appear abnormal in terms of pattern and architecture.\n Please explain your answer.\n 1. The lungs appear normal in terms of",
+                "<s> Are there any opacities or consolidations visible within the lung fields on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the X-ray show any abnormalities in the configuration of the lung's vascular markings? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any visible pneumonias or pulmonary infiltrations on the given chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this X-ray demonstrate any abnormalities in the lung's normal negative silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any visible lesions or masses within the lung parenchyma on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the lungs appear to be normally expanded and aeriolarized in terms of their overall architecture on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the lungs are normally expanded and aeriolarized.\n 2. No, the lungs are not normally expanded and aeriolarized.\n 1. No, the lungs are not normally expanded and",
+                "<s> Is there evidence of lung consolidation or parenchymal disease on the given chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  Is there evidence of pleural effusion on the given chest radiograph? Please choose from the following two options: [yes, no]\n 12.  Is there evidence of pneumothorax on"
+            ]
+        ],
+        "sensitivities": [
+            0.36491421939512503
+        ],
+        "posix": 0.36491421939512503
+    }
+}

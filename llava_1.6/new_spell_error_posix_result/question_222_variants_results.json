@@ -1,0 +1,189 @@
+{
+    "file_name": "question_222_variants.json",
+    "overall_posix": 2.2098174470971976,
+    "detailed_scores": [
+        {
+            "Variation 1": 9.704115043986928,
+            "Variation 2": 0.0,
+            "Variation 3": 0.9509237813949585,
+            "Variation 4": 2.0622417518967078,
+            "Variation 5": 1.1613650703430176,
+            "Variation 6": 1.142356297969818,
+            "Variation 7": 0.9282210779190063,
+            "Variation 8": 0.5413431549072265,
+            "Variation 9": 0.7688317632675171,
+            "Variation 10": 0.27550521562265795
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, there is an abnormality in the heart size on the chest X-ray. The heart appears to be enlarged, which could indicate a condition such as heart failure or another cardiac issue.",
+                "Yes, there is an abnormality in the heart siez on the chest X-ray.",
+                "Yes, there is an abnormality in the heart size on the chest X-ray. The heart appears to be enlarged, which could indicate a condition such as heart failure or another cardiac issue.",
+                "Yes, there is an abnormality in the heart size and the mediastinum ln the chest X-ray. The heart appears to be enlarged, which could indicate a heart condition such as heart failure or a valve problem",
+                "Yes, there are abnormalities on the chest X-ray. The heart size appears to be enlarged, and there is a mass in the mediastinum.",
+                "Yes, there is an abnormality in the heart size on the chest X-ray. The heart appears to be enlarged, which could indicate a heart condition such as heart failure or a valve problem. The mediastinum,",
+                "Yes, there are abnormalities in the chest X-ray. The heart size appears to be enlarged, which could indicate a condition such as heart failure or another cardiac issue. Additionally, there is a mass or lesion in the",
+                "Yes, there are abnormalities in the heat size and mediastinum on the chest X-ray. The image shows a large mass in the mediastinum, which is the area between the lungs and the chest wall. This mass",
+                "Yes, there are abnormalities in the heart size and nediastinum on the chest X-ray. The heart appears enlarged, and there is a mass in the nediastinum, which is the space between the",
+                "Yes, there are abnormalities in the heart size and mediastinum on the chest X-ray. The heart appears enlarged, and there is a mass in the mediastinum, which is the area between the lungs.",
+                "No, there are not three abnormalities in the heart size or mediastinum on the chest X-ray. The image shows a normal chest X-ray with the heart and lungs visible."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -420.3830156326294,
+                    -206.892484664917,
+                    -420.3830156326294,
+                    -467.9292047023773,
+                    -342.0178290605545,
+                    -478.4512691497803,
+                    -477.5008305311203,
+                    -466.7940695285797,
+                    -447.4501733779907,
+                    -458.82460379600525,
+                    -408.5362913608551
+                ],
+                [
+                    -438.1280825138092,
+                    -211.69732069969177,
+                    -438.1280825138092,
+                    -475.60924077033997,
+                    -349.7526715993881,
+                    -479.7988612651825,
+                    -475.2413184642792,
+                    -458.8724876642227,
+                    -443.415851354599,
+                    -452.47489577531815,
+                    -400.7115194797516
+                ],
+                [
+                    -447.96778106689453,
+                    -205.0721995830536,
+                    -447.96778106689453,
+                    -475.16083920001984,
+                    -337.33747935295105,
+                    -497.251118183136,
+                    -460.7191569805145,
+                    -449.8387472629547,
+                    -458.3895769715309,
+                    -430.96674823760986,
+                    -411.1274735927582
+                ],
+                [
+                    -447.96778106689453,
+                    -205.0721995830536,
+                    -447.96778106689453,
+                    -475.16083920001984,
+                    -337.33747935295105,
+                    -497.251118183136,
+                    -460.7191569805145,
+                    -449.8387472629547,
+                    -458.3895769715309,
+                    -430.96674823760986,
+                    -411.1274735927582
+                ],
+                [
+                    -438.1280825138092,
+                    -211.69732069969177,
+                    -438.1280825138092,
+                    -475.60924077033997,
+                    -349.7526715993881,
+                    -479.7988612651825,
+                    -475.2413184642792,
+                    -458.8724876642227,
+                    -443.415851354599,
+                    -452.47489577531815,
+                    -400.7115194797516
+                ],
+                [
+                    -444.2248158454895,
+                    -222.35716104507446,
+                    -444.2248158454895,
+                    -500.06873893737793,
+                    -348.40580916404724,
+                    -483.71466636657715,
+                    -484.8186893463135,
+                    -457.45085859298706,
+                    -456.86496818065643,
+                    -453.86219012737274,
+                    -389.8683158159256
+                ],
+                [
+                    -447.96778106689453,
+                    -205.0721995830536,
+                    -447.96778106689453,
+                    -475.16083920001984,
+                    -337.33747935295105,
+                    -497.251118183136,
+                    -460.7191569805145,
+                    -449.8387472629547,
+                    -458.3895769715309,
+                    -430.96674823760986,
+                    -411.1274735927582
+                ],
+                [
+                    -420.3830156326294,
+                    -206.892484664917,
+                    -420.3830156326294,
+                    -467.9292047023773,
+                    -342.0178290605545,
+                    -478.4512691497803,
+                    -477.5008305311203,
+                    -466.7940695285797,
+                    -447.4501733779907,
+                    -458.82460379600525,
+                    -408.5362913608551
+                ],
+                [
+                    -444.2248158454895,
+                    -222.35716104507446,
+                    -444.2248158454895,
+                    -500.06873893737793,
+                    -348.40580916404724,
+                    -483.71466636657715,
+                    -484.8186893463135,
+                    -457.45085859298706,
+                    -456.86496818065643,
+                    -453.86219012737274,
+                    -389.8683158159256
+                ],
+                [
+                    -447.96778106689453,
+                    -205.0721995830536,
+                    -447.96778106689453,
+                    -475.16083920001984,
+                    -337.33747935295105,
+                    -497.251118183136,
+                    -460.7191569805145,
+                    -449.8387472629547,
+                    -458.3895769715309,
+                    -430.96674823760986,
+                    -411.1274735927582
+                ],
+                [
+                    -447.96778106689453,
+                    -205.0721995830536,
+                    -447.96778106689453,
+                    -475.16083920001984,
+                    -337.33747935295105,
+                    -497.251118183136,
+                    -460.7191569805145,
+                    -449.8387472629547,
+                    -458.3895769715309,
+                    -430.96674823760986,
+                    -411.1274735927582
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.2098174470971976
+        ],
+        "posix": 2.2098174470971976
+    }
+}

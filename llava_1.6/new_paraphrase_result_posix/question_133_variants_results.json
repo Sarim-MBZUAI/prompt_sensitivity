@@ -1,0 +1,189 @@
+{
+    "file_name": "question_133_variants.json",
+    "overall_posix": 0.33043302871779734,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.037019047737121585,
+            "Variation 2": 0.6254590470740136,
+            "Variation 3": 0.4771427822113037,
+            "Variation 4": 0.4845207452774048,
+            "Variation 5": 0.12629671573638915,
+            "Variation 6": 0.4708189296722412,
+            "Variation 7": 0.340898814201355,
+            "Variation 8": 0.450622878074646,
+            "Variation 9": 0.510276141166687,
+            "Variation 10": 0.2481825017929077
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities with the osseous structures according to the patient's age? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it is not possible to definitively determine if there are any abnormalities with the osseous structures according to the patient's age. The image shows an X-ray of the chest, specifically focusing on the",
+                "Based on the image provided, it is not possible to definitively determine if there are any osseous abnormalities present in the patient that would be atypical for their age group. The image is a lateral chest X-ray,",
+                "No, the radiograph does not show any bone-related findings that are inconsistent with the expected norm for a patient of similar demographic background. The image shows a normal chest radiograph with no abnormalities visible.",
+                "No, there are no skeletal irregularities visible on the image that warrant further investigation due to their potential significance in relation to the patient's chronological age. The image shows a normal chest X-ray with no abnormalities.",
+                "Based on the image provided, it appears to be a lateral chest X-ray. An experienced osseous interpreter would consider the radiographic appearance to be within normal limits for someone of comparable developmental stage. The lungs are well-a",
+                "No, the observed bony morphological features are not representative of a typical skeletal presentation. The image shows a chest X-ray with the label \"LT LAT,\" which likely stands for \"Left Lateral.\" However, the image is",
+                "No, the image does not suggest any abnormal bone formation or resorption patterns that would necessitate further diagnostic workup given the patient's chronological age. The image shows a lateral chest X-ray with the label \"LT L",
+                "No, the radiographic appearance in the image would not be considered normative for an individual within the same age range as the patient in question. The presence of a significant mass or lesion in the chest area is not a normal finding and would require",
+                "No, there is no osseous pathology visible on the provided image that could explain symptoms or complaints. The image shows a lateral chest X-ray, and there are no signs of fractures, dislocations, or other bone ab",
+                "No, the image does not reveal any bony changes that would necessitate reassessment of the patient's overall skeletal health relative to their peer group. The image shows an X-ray of the chest, specifically focusing on the lungs,",
+                "No, the observed osseous features are not congruent with those typically expected in an individual at this stage of development. The image shows a chest X-ray with the label \"LT LAT,\" which stands for \"Left Lateral.\""
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -497.4731442928314,
+                    -495.62219190597534,
+                    -468.0765690803528,
+                    -521.3302834033966,
+                    -521.6991815567017,
+                    -491.15830850601196,
+                    -521.0140907764435,
+                    -514.5180850028992,
+                    -520.0042881965637,
+                    -522.9869513511658,
+                    -485.06401920318604
+                ],
+                [
+                    -497.1396918296814,
+                    -505.9138083457947,
+                    -504.7587580680847,
+                    -532.3749055862427,
+                    -508.514785528183,
+                    -503.3395735025406,
+                    -516.5831050872803,
+                    -521.684823513031,
+                    -519.4995617866516,
+                    -507.0072057247162,
+                    -485.05953073501587
+                ],
+                [
+                    -506.5446619987488,
+                    -494.2493636608124,
+                    -497.52293586730957,
+                    -523.0919587612152,
+                    -510.5864062309265,
+                    -467.9684672355652,
+                    -519.1410176753998,
+                    -503.75950622558594,
+                    -509.6039800643921,
+                    -521.9993295669556,
+                    -478.8111035823822
+                ],
+                [
+                    -494.9334399700165,
+                    -501.57725620269775,
+                    -492.82722568511963,
+                    -521.2039177417755,
+                    -520.5160045623779,
+                    -479.45620703697205,
+                    -533.0657858848572,
+                    -523.6960349082947,
+                    -503.70188570022583,
+                    -532.4219174385071,
+                    -499.77902603149414
+                ],
+                [
+                    -502.34255194664,
+                    -502.8270630836487,
+                    -510.11627554893494,
+                    -517.3962693214417,
+                    -510.1954493522644,
+                    -491.87155294418335,
+                    -504.0567591190338,
+                    -520.800571680069,
+                    -508.8000192642212,
+                    -525.0797953605652,
+                    -500.528990983963
+                ],
+                [
+                    -504.6427249908447,
+                    -511.3132176399231,
+                    -489.534840464592,
+                    -505.69104957580566,
+                    -500.6202902793884,
+                    -500.439257144928,
+                    -505.05053901672363,
+                    -516.2354016304016,
+                    -509.66174376010895,
+                    -525.6309161186218,
+                    -512.2703301906586
+                ],
+                [
+                    -510.8731064796448,
+                    -526.5743827819824,
+                    -490.8401634693146,
+                    -529.3972101211548,
+                    -514.5411553382874,
+                    -475.896470785141,
+                    -531.0021619796753,
+                    -524.6847832202911,
+                    -515.864985704422,
+                    -518.5700681209564,
+                    -525.7246103286743
+                ],
+                [
+                    -513.6265511512756,
+                    -500.01763916015625,
+                    -490.36473298072815,
+                    -524.8433928489685,
+                    -504.96456813812256,
+                    -475.58295130729675,
+                    -535.90256690979,
+                    -523.6010618209839,
+                    -507.8822567462921,
+                    -532.6078691482544,
+                    -488.6779308319092
+                ],
+                [
+                    -490.8464102745056,
+                    -518.3793911933899,
+                    -514.1590027809143,
+                    -542.7342462539673,
+                    -512.6896743774414,
+                    -489.5098752975464,
+                    -520.5556809902191,
+                    -509.99079620838165,
+                    -530.680332660675,
+                    -516.5190415382385,
+                    -527.0934233665466
+                ],
+                [
+                    -504.13832330703735,
+                    -511.45446157455444,
+                    -495.1204113960266,
+                    -529.1872029304504,
+                    -530.9301319122314,
+                    -477.86662006378174,
+                    -527.499767780304,
+                    -532.414598941803,
+                    -507.5307242870331,
+                    -521.4810206890106,
+                    -499.0496037006378
+                ],
+                [
+                    -513.6265511512756,
+                    -500.01763916015625,
+                    -490.36473298072815,
+                    -524.8433928489685,
+                    -504.96456813812256,
+                    -475.58295130729675,
+                    -535.90256690979,
+                    -523.6010618209839,
+                    -507.8822567462921,
+                    -532.6078691482544,
+                    -488.6779308319092
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.33043302871779734
+        ],
+        "posix": 0.33043302871779734
+    }
+}

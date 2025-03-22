@@ -1,0 +1,42 @@
+{
+    "file_name": "question_73_variants.json",
+    "overall_posix": 0.36078630083165286,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4,
+            "Variation 2": 0.30243902439024395,
+            "Variation 3": 0.45593869731800774,
+            "Variation 4": 0.16022099447513816,
+            "Variation 5": 0.21111111111111114,
+            "Variation 6": 0.30731707317073176,
+            "Variation 7": 0.4538461538461538,
+            "Variation 8": 0.4876325088339223,
+            "Variation 9": 0.43805309734513276,
+            "Variation 10": 0.3913043478260869
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> question::Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A chest X-ray shows a mass in the right lower lobe.\n 10.10.10  Answer 10.10.9\n 10.10.11  Answer",
+                "<s> q:::Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10.\n Question:What is the most likely diagnosis?\n A.Pleural effusion\n B.Pneumothorax\n C.Pneumonia\n D.Pneumonitis\n E.P",
+                "<s> q:Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Q:Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 3:\n 4:\n 5:\n 6:\n 7:\n 8:\n 9:\n 1",
+                "<s> Q:Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n 166: Chest X-Ray\n 167\n 167: Chest X-Ray\n Correct Answer: C",
+                "<s> Question:Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.\n Question:What is the most likely diagnosis?\n A.Pleural effusion\n B.Pneumothorax\n C.Pneumonia\n D.Pneumonitis\n E.P",
+                "<s> Question-Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The chest X-ray shows a mass in the right lower lobe of the lung.\n 10.\n Question-What is the diagnosis?\n Answer\n Lung cancer.\n 11.\n Question-",
+                "<s> Q:Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe\tchest\tX-ray\tshows\ta\tmass\tin\tthe\tleft\tupper\tlobe\tof\tthe\tlung\t(Figure\t1).\n \u2022\tThe\tmass\t",
+                "<s> Question:Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes"
+            ]
+        ],
+        "sensitivities": [
+            0.36078630083165286
+        ],
+        "posix": 0.36078630083165286
+    }
+}

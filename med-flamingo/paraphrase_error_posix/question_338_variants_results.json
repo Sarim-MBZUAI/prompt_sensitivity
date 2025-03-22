@@ -1,0 +1,42 @@
+{
+    "file_name": "question_338_variants.json",
+    "overall_posix": 0.39044713785355223,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.32065217391304346,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6707317073170732,
+            "Variation 4": 0.1728971962616822,
+            "Variation 5": 0.5464285714285714,
+            "Variation 6": 0.6396396396396397,
+            "Variation 7": 0.215962441314554,
+            "Variation 8": 0.33333333333333326,
+            "Variation 9": 0.5981873111782477,
+            "Variation 10": 0.4066390041493776
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there pulmonary consolidation visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest radiograph show signs of alveolar filling due to infection or inflammation? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lungs are not aerated and contain air bronchograms\n b. No, the lungs are aerated and contain air bronchograms\n c. Yes, the lungs are aerated and contain air",
+                "<s> Are there any abnormalities suggestive of lung consolidation visible on the current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of bronchopneumonia or other pulmonary consolidation on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pneumonia\n B.Pneumothorax\n C.Pneumomediastinum\n D.Pneumopericardium\n E.Pneumomed",
+                "<s> Does this chest image demonstrate any opacifications that are consistent with pulmonary consolidation? Please choose from the following two options: [yes, no]\n<image> 1. Opacification of the right lower lobe\n 2. Opacification of the left lower lobe\n 3. Opacification of the right upper lobe\n 4. Opacification of the left upper lo",
+                "<s> Is there any indication of lung damage or injury leading to consolidation on the current X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any signs of alveolar damage or infection that would result in pulmonary consolidation visible on this chest image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest radiograph show evidence of lung infarction or other vascular events leading to consolidation? Please choose from the following two options: [yes, no]\n<image> 1a. Yes, there is a large area of consolidation in the right lower lobe.\n 1b. No, there is no evidence of consolidation.\n 2a. Yes, there is a large area",
+                "<s> Is there any indication of pneumonia or other pulmonary processes that would result in consolidation visible on this X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.39044713785355223
+        ],
+        "posix": 0.39044713785355223
+    }
+}

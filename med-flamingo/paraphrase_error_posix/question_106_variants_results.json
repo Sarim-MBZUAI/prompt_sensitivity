@@ -1,0 +1,42 @@
+{
+    "file_name": "question_106_variants.json",
+    "overall_posix": 0.6300844358752743,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6449704142011834,
+            "Variation 2": 0.5798816568047337,
+            "Variation 3": 0.6775147928994083,
+            "Variation 4": 0.6863905325443787,
+            "Variation 5": 0.5857988165680473,
+            "Variation 6": 0.5414201183431953,
+            "Variation 7": 0.5730337078651685,
+            "Variation 8": 0.6804733727810651,
+            "Variation 9": 0.6538461538461539,
+            "Variation 10": 0.6775147928994083
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\n 2. Are there any",
+                "<s> Is there evidence of chronic airflow limitation visible on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 15.1.1.1\n 15.1.1.2\n 15.1.1.3\n 15.1.1.4\n 15.1.1.5\n",
+                "<s> Are there signs of obstructive lung disease present on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest film show features suggestive of emphysema or chronic bronchitis? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you identify any findings consistent with COPD on this radiographic image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any abnormalities indicative of air trapping or hyperinflation visible in the lungs? Please choose from the following two options: [yes, no]\n<image> 1. Air trapping in the right upper lobe\n 2. Air trapping in the left upper lobe\n 3. Air trapping in the right lower lobe\n 4. Air trapping in the left lower lo",
+                "<s> Is the chest X-ray showing signs of pulmonary emphysematous changes? Please choose from the following two options: [yes, no]\n<image> a. Yes, the chest X-ray shows pulmonary emphysematous changes.\n b. No, the chest X-ray does not show pulmonary emphysematous changes.\n 10. What is",
+                "<s> Can you determine if the patient has developed a pattern of obstructive lung disease based on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the patient has developed a pattern of obstructive lung disease.\n 2.  No, the patient has not developed a pattern of obstructive lung disease.\n 1.  Yes, the patient has",
+                "<s> Does this chest film demonstrate typical findings of chronic bronchitis or emphysema? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographic features that would support a diagnosis of COPD in this patient? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there imaging evidence suggestive of airway obstruction and parenchymal destruction? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.6300844358752743
+        ],
+        "posix": 0.6300844358752743
+    }
+}

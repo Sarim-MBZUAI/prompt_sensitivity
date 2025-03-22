@@ -1,0 +1,189 @@
+{
+    "file_name": "question_217_variants.json",
+    "overall_posix": 2.296097262913236,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3449130007561217,
+            "Variation 2": 0.6944838178918716,
+            "Variation 3": 0.10007264614105224,
+            "Variation 4": 7.310690875564303,
+            "Variation 5": 0.11921398639678955,
+            "Variation 6": 0.15394902229309082,
+            "Variation 7": 0.9044235706329345,
+            "Variation 8": 0.3227070188522339,
+            "Variation 9": 1.1451911926269531,
+            "Variation 10": 8.815931292680594
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the chest X-ray shows signs of focal airspace disease. There is a well-defined opacity in the right lower lobe, which is indicative of a focal airspace disease such as a pneumonia or a lung",
+                "Based on the image provided, there is no clear evidence of focal airway obstruction. The X-ray appears to show the lungs and chest structures without any significant abnormalities that would suggest airway obstruction.",
+                "No, there is no appearance of alveolar consolidation on this radiograph that might suggest focal airspace disease. The image shows a normal chest radiograph with no signs of consolidation or other abnormalities.",
+                "No, I cannot identify signs suggestive of focal lung pathology, such as atelectasis, in the provided chest image. The image appears to be a lateral chest X-ray, but it is not clear enough to discern specific",
+                "Yes, the radiographic findings on this film indicate a localized area of lung involvement that could be consistent with airspace disease.",
+                "No, there is no visual indication of a segmental or lobar pattern of disease manifestation on this X-ray. The image shows a side view of a chest X-ray, but it is not clear enough to discern specific details about",
+                "No, there is no clear indication of focal airspace disease, such as alveolar consolidation, in this image. The image appears to be a chest X-ray, but the resolution and quality of the image are not sufficient to confident",
+                "No, the appearance of air-space consolidation in one or more lung segments would not be visible on this radiograph. The image shows a lateral chest radiograph, which is a type of X-ray that is taken from the side of",
+                "No, it is not possible to determine from this image if there's an area of lung tissue involvement that could be indicative of focal airspace disease. The image appears to be a chest X-ray, but the quality and angle of",
+                "No, the chest X-ray does not show any features consistent with localized lung pathology such as atelectasis or alveolar consolidation. The image appears to be of normal lung tissue.",
+                "No, the radiograph does not reveal any signs or symptoms that might suggest a diagnosis of focal airspace disease."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -486.389812707901,
+                    -470.1789016723633,
+                    -453.74907326698303,
+                    -481.3861804008484,
+                    -281.6904681921005,
+                    -480.4291133880615,
+                    -494.08726382255554,
+                    -441.1686341762543,
+                    -470.2544617652893,
+                    -437.146591424942,
+                    -257.17559909820557
+                ],
+                [
+                    -490.75655579566956,
+                    -491.3456597328186,
+                    -499.8779864311218,
+                    -505.187903881073,
+                    -305.38139820098877,
+                    -483.5572237968445,
+                    -480.5168561935425,
+                    -480.726793050766,
+                    -485.4217734336853,
+                    -440.2121684551239,
+                    -273.66646242141724
+                ],
+                [
+                    -492.29122281074524,
+                    -485.58707308769226,
+                    -479.79865288734436,
+                    -496.9716215133667,
+                    -284.6681044101715,
+                    -472.81576466560364,
+                    -481.0992169380188,
+                    -471.8008322715759,
+                    -478.7116823196411,
+                    -435.0821883678436,
+                    -258.8043837547302
+                ],
+                [
+                    -495.40077209472656,
+                    -480.97488927841187,
+                    -477.6713533401489,
+                    -524.6678023338318,
+                    -286.95165634155273,
+                    -472.15796995162964,
+                    -479.6857752799988,
+                    -475.18369817733765,
+                    -465.7163143157959,
+                    -443.98554611206055,
+                    -275.37208819389343
+                ],
+                [
+                    -495.40077209472656,
+                    -480.97488927841187,
+                    -477.6713533401489,
+                    -524.6678023338318,
+                    -286.95165634155273,
+                    -472.15796995162964,
+                    -479.6857752799988,
+                    -475.18369817733765,
+                    -465.7163143157959,
+                    -443.98554611206055,
+                    -275.37208819389343
+                ],
+                [
+                    -492.29122281074524,
+                    -485.58707308769226,
+                    -479.79865288734436,
+                    -496.9716215133667,
+                    -284.6681044101715,
+                    -472.81576466560364,
+                    -481.0992169380188,
+                    -471.8008322715759,
+                    -478.7116823196411,
+                    -435.0821883678436,
+                    -258.8043837547302
+                ],
+                [
+                    -488.90503549575806,
+                    -483.0842356681824,
+                    -505.51062202453613,
+                    -492.93067264556885,
+                    -288.69890785217285,
+                    -488.3083167076111,
+                    -485.1321759223938,
+                    -491.3141984939575,
+                    -489.05651664733887,
+                    -428.2617847919464,
+                    -285.75765800476074
+                ],
+                [
+                    -496.82536697387695,
+                    -477.9540591239929,
+                    -484.55115604400635,
+                    -495.53650665283203,
+                    -273.52630853652954,
+                    -466.9681923389435,
+                    -487.81372261047363,
+                    -463.7833113670349,
+                    -504.80985403060913,
+                    -432.76917803287506,
+                    -253.4966962337494
+                ],
+                [
+                    -491.3681163787842,
+                    -472.58265709877014,
+                    -498.23118567466736,
+                    -512.0060520172119,
+                    -286.64584669470787,
+                    -488.94681429862976,
+                    -488.0044274330139,
+                    -495.0528383255005,
+                    -480.0797350406647,
+                    -442.9208674430847,
+                    -268.2565962076187
+                ],
+                [
+                    -471.89237093925476,
+                    -476.32363533973694,
+                    -509.944144487381,
+                    -504.10202169418335,
+                    -284.54417634010315,
+                    -499.69893288612366,
+                    -456.82615637779236,
+                    -470.694575548172,
+                    -480.7018973827362,
+                    -422.08754432201385,
+                    -260.7949675023556
+                ],
+                [
+                    -496.82536697387695,
+                    -477.9540591239929,
+                    -484.55115604400635,
+                    -495.53650665283203,
+                    -273.52630853652954,
+                    -466.9681923389435,
+                    -487.81372261047363,
+                    -463.7833113670349,
+                    -504.80985403060913,
+                    -432.76917803287506,
+                    -253.4966962337494
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.296097262913236
+        ],
+        "posix": 2.296097262913236
+    }
+}

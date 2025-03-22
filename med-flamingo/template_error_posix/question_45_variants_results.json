@@ -1,0 +1,42 @@
+{
+    "file_name": "question_45_variants.json",
+    "overall_posix": 0.44529158365239463,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.23350253807106602,
+            "Variation 2": 0.4285714285714286,
+            "Variation 3": 0.3829787234042553,
+            "Variation 4": 0.5126353790613718,
+            "Variation 5": 0.28,
+            "Variation 6": 0.47080291970802923,
+            "Variation 7": 0.5308219178082192,
+            "Variation 8": 0.5308219178082192,
+            "Variation 9": 0.5551948051948052,
+            "Variation 10": 0.5275862068965518
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question-Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 1.\n [yes, no]\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2",
+                "<s> QUESTION:Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)Yes\n (b)No\n 3.\n QUESTION:What is the most likely diagnosis?\n (a)Pneumothorax\n (b)Pneumonia\n (c)Pneumoth",
+                "<s> q:Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.  Describe the findings on the chest X-ray.\n 11.  Describe the findings on the CT",
+                "<s> Q:Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there evidence of pneumomediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n A:\n [Yes, no]\n Q",
+                "<s> Q:Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Is there",
+                "<s> Question::: Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1:\n Yes\n Option 2:\n No\n Correct Answer:\n Option 1\n Incorrect Answer:\n Option 2\n Correct Answer: Option 1\n 10. A 55-year-old",
+                "<s> Question:Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 10.Question:Is there evidence of pneumomediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [yes,",
+                "<s> Question:Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 10.Question:Is there evidence of pneumomediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [yes,",
+                "<s> Question:Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following radiograph is of a 55-year-old man who presented to the emergency department with a 2-day history of fever, chills, and cough. He has a",
+                "<s> Q::Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there evidence of pneumomediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there evidence of sub"
+            ]
+        ],
+        "sensitivities": [
+            0.44529158365239463
+        ],
+        "posix": 0.44529158365239463
+    }
+}

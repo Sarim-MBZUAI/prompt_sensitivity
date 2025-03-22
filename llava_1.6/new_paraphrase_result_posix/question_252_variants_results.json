@@ -1,0 +1,189 @@
+{
+    "file_name": "question_252_variants.json",
+    "overall_posix": 5.070795936574706,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.1678007732738147,
+            "Variation 2": 0.3168781757354736,
+            "Variation 3": 5.145499985392501,
+            "Variation 4": 6.478781394958496,
+            "Variation 5": 2.1916980361938476,
+            "Variation 6": 2.680414905548096,
+            "Variation 7": 1.8484708070755005,
+            "Variation 8": 6.151131220485853,
+            "Variation 9": 6.56998420715332,
+            "Variation 10": 6.2988111019134525
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, there is a sign of pleural effusion on the chest X-ray.",
+                "Yes, there are radiographic signs of pleural effusion visible on the chest X-ray.",
+                "No, there are no signs of pleural effusion on the chest X-ray.",
+                "No, there is no evidence of fluid accumulation in the pleural space on the chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "Yes, a chest X-ray can demonstrate the presence of pleural effusion. Pleural effusion is a buildup of fluid between the chest wall and the lungs, and it can be visible on a chest X-ray as a blunting",
+                "No, there is no radiologic evidence of pleural effusion visible in the given chest X-ray.",
+                "No, the chest X-ray does not show signs indicative of fluid accumulation within the pleural space.",
+                "No, there is no clear radiographic indication of pleural effusion on the provided chest X-ray.",
+                "No, we cannot observe signs of fluid in the pleural space on the given chest X-ray. The image shows a normal chest X-ray with no signs of pleural effusion or other abnormalities.",
+                "No, the image you provided is of a chest X-ray, and it does not show evidence of pleural effusion. Pleural effusion is typically seen as a fluid-filled space between the lung and the chest wall on a chest X",
+                "No, there is no radiographic proof of fluid accumulation in the pleural space on this chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible. There are no signs of pleural effusion"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -201.7422480583191,
+                    -227.43386507034302,
+                    -195.40468454360962,
+                    -412.7077474594116,
+                    -525.6813178062439,
+                    -256.5346989631653,
+                    -268.7526206970215,
+                    -246.1055474281311,
+                    -484.69428420066833,
+                    -530.2414584159851,
+                    -516.6828031539917
+                ],
+                [
+                    -195.89776849746704,
+                    -231.82289457321167,
+                    -195.8482985496521,
+                    -408.4390411376953,
+                    -499.741516828537,
+                    -263.25976371765137,
+                    -254.31884384155273,
+                    -241.78448820114136,
+                    -479.9646019935608,
+                    -499.5170545578003,
+                    -532.8368744850159
+                ],
+                [
+                    -201.7422480583191,
+                    -227.43386507034302,
+                    -195.40468454360962,
+                    -412.7077474594116,
+                    -525.6813178062439,
+                    -256.5346989631653,
+                    -268.7526206970215,
+                    -246.1055474281311,
+                    -484.69428420066833,
+                    -530.2414584159851,
+                    -516.6828031539917
+                ],
+                [
+                    -194.02624607086182,
+                    -233.59179162979126,
+                    -198.39407205581665,
+                    -399.0566647052765,
+                    -514.2105197906494,
+                    -262.61362314224243,
+                    -258.58093547821045,
+                    -251.15871167182922,
+                    -477.76172733306885,
+                    -491.27827644348145,
+                    -533.6118931770325
+                ],
+                [
+                    -203.27460193634033,
+                    -228.41486024856567,
+                    -203.67682361602783,
+                    -411.2881484031677,
+                    -506.61560010910034,
+                    -261.34333896636963,
+                    -262.2656044960022,
+                    -250.7510199546814,
+                    -468.5117471218109,
+                    -518.1212005615234,
+                    -514.8409519195557
+                ],
+                [
+                    -196.7686471939087,
+                    -224.75810527801514,
+                    -198.17895698547363,
+                    -418.2742655277252,
+                    -521.340606212616,
+                    -261.9068124294281,
+                    -258.3969895839691,
+                    -248.79125571250916,
+                    -474.09353590011597,
+                    -495.34813392162323,
+                    -522.4444133043289
+                ],
+                [
+                    -196.7686471939087,
+                    -224.75810527801514,
+                    -198.17895698547363,
+                    -418.2742655277252,
+                    -521.340606212616,
+                    -261.9068124294281,
+                    -258.3969895839691,
+                    -248.79125571250916,
+                    -474.09353590011597,
+                    -495.34813392162323,
+                    -522.4444133043289
+                ],
+                [
+                    -196.7686471939087,
+                    -224.75810527801514,
+                    -198.17895698547363,
+                    -418.2742655277252,
+                    -521.340606212616,
+                    -261.9068124294281,
+                    -258.3969895839691,
+                    -248.79125571250916,
+                    -474.09353590011597,
+                    -495.34813392162323,
+                    -522.4444133043289
+                ],
+                [
+                    -203.05014181137085,
+                    -221.99939823150635,
+                    -203.96780347824097,
+                    -420.63253712654114,
+                    -510.11152625083923,
+                    -260.94859194755554,
+                    -262.21569752693176,
+                    -251.03580522537231,
+                    -468.3442392349243,
+                    -511.865394115448,
+                    -515.0331904888153
+                ],
+                [
+                    -195.89776849746704,
+                    -231.82289457321167,
+                    -195.8482985496521,
+                    -408.4390411376953,
+                    -499.741516828537,
+                    -263.25976371765137,
+                    -254.31884384155273,
+                    -241.78448820114136,
+                    -479.9646019935608,
+                    -499.5170545578003,
+                    -532.8368744850159
+                ],
+                [
+                    -199.85475635528564,
+                    -222.07948756217957,
+                    -205.51025390625,
+                    -409.7442874908447,
+                    -495.52046298980713,
+                    -258.6790509223938,
+                    -261.59394812583923,
+                    -243.6888017654419,
+                    -493.14451837539673,
+                    -516.0979924201965,
+                    -503.5834369659424
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            5.070795936574706
+        ],
+        "posix": 5.070795936574706
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_57_variants.json",
+    "overall_posix": 0.4469740634005763,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4610951008645533,
+            "Variation 2": 0.5014409221902018,
+            "Variation 3": 0.4610951008645533,
+            "Variation 4": 0.4582132564841499,
+            "Variation 5": 0.42939481268011526,
+            "Variation 6": 0.43515850144092216,
+            "Variation 7": 0.4610951008645533,
+            "Variation 8": 0.5244956772334294,
+            "Variation 9": 0.28818443804034577,
+            "Variation 10": 0.4495677233429395
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other significant abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Are there any other significant abnormalities in the",
+                "<s> Question:Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n A.  Lymphoma\n B.  Sarcoidosis\n C.  Tuberculosis\n D.  Asbestosis\n E",
+                "<s> Question::: Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> QUESTION:Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Adenocarcinoma of the lung\n B:Lymphoma\n 3.\n QUESTION:What",
+                "<s> Question:Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions: Please mark the appropriate choice using the key provided at the bottom of the page.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.",
+                "<s> Q:Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> No\n The chest X-ray is normal.\n Q:What is the most likely diagnosis?\n A:Pulmonary tuberculosis\n Q:What is the most likely cause of the patient\u2019s symptoms?",
+                "<s> Question:Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [no, yes]\n Reasoning: The chest X-ray shows a right upper lobe nodule. The nodule is discrete and is not associated with any other abnormality",
+                "<s> QUESTION:Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n The patient has a right upper lobe mass.\n The patient is a 60-year-old man with a history of smoking and chronic obstructive pul",
+                "<s> QUESTION:Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> Q::Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of a pleural effusion or pneumothorax? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there any evidence of a",
+                "<s> q:Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n   d:\n   e:\n   f:\n   g:\n   h:\n   i:\n   j:\n   k:\n   l:\n   m:\n   n:\n   o:"
+            ]
+        ],
+        "sensitivities": [
+            0.4469740634005763
+        ],
+        "posix": 0.4469740634005763
+    }
+}

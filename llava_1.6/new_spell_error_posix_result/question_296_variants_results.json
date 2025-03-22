@@ -1,0 +1,189 @@
+{
+    "file_name": "question_296_variants.json",
+    "overall_posix": 4.758421711547466,
+    "detailed_scores": [
+        {
+            "Variation 1": 5.439804104658274,
+            "Variation 2": 1.244540356454395,
+            "Variation 3": 5.541364411513011,
+            "Variation 4": 5.745862037636513,
+            "Variation 5": 0.6948154913751703,
+            "Variation 6": 5.439804104658274,
+            "Variation 7": 1.244540356454395,
+            "Variation 8": 6.108574856652154,
+            "Variation 9": 5.7143006731163375,
+            "Variation 10": 6.108574856652154
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the chest X-ray shows bilateral pleural effusions.",
+                "No, there are no bilateral pleural effusions indicated in the chest X-ray. The image shows a normal chest X-ray with no signs of pleural effusions.",
+                "No, there are no bilateral pleural effusions indicated in the chest X-ray.",
+                "No, there are no bilateral pleural effusions indicated in the chest X-ray. The X-ray shows a clear chest with no signs of fluid accumulation in the pleural spaces.",
+                "No, there are no bilateral pleural effusions indicated in the chest X-ray. The X-ray shows a normal chest with no signs of pleural effusions or other abnormalities.",
+                "Yes, the chest X-ray shows bilateral pleufral effusions.",
+                "No, there are no bilateral pleural effusions indicated in the chest X-ray. The image shows a normal chest X-ray with no signs of pleural effusions.",
+                "No, there are no bilateral pleural effusions indicated in the chest X-ray.",
+                "No, there are no bilateral pleural effusions indicated in the chest X-ray. The image shows a normal chest X-ray with no signs of pleural effusions or any other abnormalities.",
+                "No, there are no bilateral pleural effusions indicated in the chest X-ray. The X-ray shows a clear chest with no signs of pleural effusions or any other abnormalities.",
+                "No, there are no bilateral pleural effusions indicated in the chest X-ray. The image shows a normal chest X-ray with no signs of pleural effusions or any other abnormalities."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -180.10627734661102,
+                    -392.2586374282837,
+                    -206.24162483215332,
+                    -412.84358263015747,
+                    -427.1783449649811,
+                    -193.30777168273926,
+                    -392.2586374282837,
+                    -206.24162483215332,
+                    -454.99214589595795,
+                    -431.53550696372986,
+                    -454.99214589595795
+                ],
+                [
+                    -180.10627734661102,
+                    -392.2586374282837,
+                    -206.24162483215332,
+                    -412.84358263015747,
+                    -427.1783449649811,
+                    -193.30777168273926,
+                    -392.2586374282837,
+                    -206.24162483215332,
+                    -454.99214589595795,
+                    -431.53550696372986,
+                    -454.99214589595795
+                ],
+                [
+                    -180.74285697937012,
+                    -393.4061613082886,
+                    -214.61247491836548,
+                    -417.9469703435898,
+                    -435.21526074409485,
+                    -192.9654097557068,
+                    -393.4061613082886,
+                    -214.61247491836548,
+                    -455.37224531173706,
+                    -437.1647162437439,
+                    -455.37224531173706
+                ],
+                [
+                    -177.60542142391205,
+                    -385.17828500270844,
+                    -214.1430708169937,
+                    -416.81001341342926,
+                    -440.00033593177795,
+                    -195.19633042812347,
+                    -385.17828500270844,
+                    -214.1430708169937,
+                    -451.1789650917053,
+                    -455.3024631738663,
+                    -451.1789650917053
+                ],
+                [
+                    -176.95944023132324,
+                    -373.89088332653046,
+                    -206.4928331375122,
+                    -407.53388476371765,
+                    -417.28595900535583,
+                    -191.31227779388428,
+                    -373.89088332653046,
+                    -206.4928331375122,
+                    -448.91222071647644,
+                    -432.38699424266815,
+                    -448.91222071647644
+                ],
+                [
+                    -177.60542142391205,
+                    -385.17828500270844,
+                    -214.1430708169937,
+                    -416.81001341342926,
+                    -440.00033593177795,
+                    -195.19633042812347,
+                    -385.17828500270844,
+                    -214.1430708169937,
+                    -451.1789650917053,
+                    -455.3024631738663,
+                    -451.1789650917053
+                ],
+                [
+                    -180.10627734661102,
+                    -392.2586374282837,
+                    -206.24162483215332,
+                    -412.84358263015747,
+                    -427.1783449649811,
+                    -193.30777168273926,
+                    -392.2586374282837,
+                    -206.24162483215332,
+                    -454.99214589595795,
+                    -431.53550696372986,
+                    -454.99214589595795
+                ],
+                [
+                    -177.60542142391205,
+                    -385.17828500270844,
+                    -214.1430708169937,
+                    -416.81001341342926,
+                    -440.00033593177795,
+                    -195.19633042812347,
+                    -385.17828500270844,
+                    -214.1430708169937,
+                    -451.1789650917053,
+                    -455.3024631738663,
+                    -451.1789650917053
+                ],
+                [
+                    -175.90918445587158,
+                    -388.30198550224304,
+                    -219.0599490404129,
+                    -429.5721025466919,
+                    -440.2324833869934,
+                    -194.1916365623474,
+                    -388.30198550224304,
+                    -219.0599490404129,
+                    -465.62469387054443,
+                    -462.2932801246643,
+                    -465.62469387054443
+                ],
+                [
+                    -176.95944023132324,
+                    -373.89088332653046,
+                    -206.4928331375122,
+                    -407.53388476371765,
+                    -417.28595900535583,
+                    -191.31227779388428,
+                    -373.89088332653046,
+                    -206.4928331375122,
+                    -448.91222071647644,
+                    -432.38699424266815,
+                    -448.91222071647644
+                ],
+                [
+                    -180.74285697937012,
+                    -393.4061613082886,
+                    -214.61247491836548,
+                    -417.9469703435898,
+                    -435.21526074409485,
+                    -192.9654097557068,
+                    -393.4061613082886,
+                    -214.61247491836548,
+                    -455.37224531173706,
+                    -437.1647162437439,
+                    -455.37224531173706
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.758421711547466
+        ],
+        "posix": 4.758421711547466
+    }
+}

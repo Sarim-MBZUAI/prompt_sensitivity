@@ -1,0 +1,189 @@
+{
+    "file_name": "question_58_variants.json",
+    "overall_posix": 5.031907489143362,
+    "detailed_scores": [
+        {
+            "Variation 1": 4.175668811798095,
+            "Variation 2": 2.652988298943168,
+            "Variation 3": 4.86231372833252,
+            "Variation 4": 0.5095911732426396,
+            "Variation 5": 4.3537576324061344,
+            "Variation 6": 1.989199893815177,
+            "Variation 7": 2.8414202395238375,
+            "Variation 8": 5.91698133244234,
+            "Variation 9": 4.53328872680664,
+            "Variation 10": 4.3537576324061344
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities detected in the lung fields? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no abnormalities detected in the lung fields in this image. The lung fields appear to be clear.",
+                "Yes, there appears to be an abnormality in the lung fields. The image shows a shadowed area in the lung, which could indicate a lesion or some other form of pathology. It is important to note that this is a medical",
+                "Yes, there appears to be an abnormality in the lung fields. There is a darker area that could indicate a lesion or some other form of abnormal tissue.",
+                "Based on the image provided, it appears that there are some abnormalities in the lung fields. The lung fields are not uniformly filled with air, and there are areas that appear to be denser or more opaque than the surrounding tissue.",
+                "No, there are no abnormalities detected in the ung fields. The image shows a normal chest X-ray.",
+                "No, there are no abnormalities detected in the lung fields in this image.",
+                "No, there are no abnormalities detected in the lungfields in this image. The image shows a normal chest X-ray with no signs of pathology.",
+                "Yes, there appears to be an abnormality in the lung fields. There is a darker area that could indicate a lesion or some other form of abnormality.",
+                "Yes, there appears to be an abnormality in the lung fields.",
+                "Based on the image provided, it appears that there is an abnormality in the lung fields. The presence of a mass or nodule in the right lung suggests that there may be a pathological condition, such as a tumor or other form",
+                "No, there are no abnormalities detected in the lung fields in this image."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -267.87399339675903,
+                    -476.6574339866638,
+                    -368.6875487565994,
+                    -510.989679813385,
+                    -254.11503171920776,
+                    -185.15259838104248,
+                    -337.4959896802902,
+                    -375.84796249866486,
+                    -167.28531074523926,
+                    -494.53842973709106,
+                    -185.15259838104248
+                ],
+                [
+                    -246.90115118026733,
+                    -468.12398624420166,
+                    -363.5315451622009,
+                    -493.4012632369995,
+                    -242.5881223678589,
+                    -172.16761326789856,
+                    -327.5935608148575,
+                    -365.68844652175903,
+                    -166.39222145080566,
+                    -489.4230670928955,
+                    -172.16761326789856
+                ],
+                [
+                    -261.83879923820496,
+                    -466.3375595808029,
+                    -362.73500084877014,
+                    -491.98756217956543,
+                    -262.0251929759979,
+                    -188.60000085830688,
+                    -351.76164865493774,
+                    -365.4217140674591,
+                    -158.29529428482056,
+                    -465.58283281326294,
+                    -188.60000085830688
+                ],
+                [
+                    -251.70371007919312,
+                    -466.88055777549744,
+                    -372.3522229194641,
+                    -492.7438554763794,
+                    -259.8485059738159,
+                    -181.39048838615417,
+                    -331.6853178739548,
+                    -379.8068642616272,
+                    -170.6627550125122,
+                    -487.34162425994873,
+                    -181.39048838615417
+                ],
+                [
+                    -253.7102518081665,
+                    -483.27504682540894,
+                    -371.94338262081146,
+                    -506.92624855041504,
+                    -257.0779023170471,
+                    -182.8895173072815,
+                    -327.81533002853394,
+                    -376.60988557338715,
+                    -158.53201174736023,
+                    -491.0930769443512,
+                    -182.8895173072815
+                ],
+                [
+                    -267.87399339675903,
+                    -476.6574339866638,
+                    -368.6875487565994,
+                    -510.989679813385,
+                    -254.11503171920776,
+                    -185.15259838104248,
+                    -337.4959896802902,
+                    -375.84796249866486,
+                    -167.28531074523926,
+                    -494.53842973709106,
+                    -185.15259838104248
+                ],
+                [
+                    -267.87399339675903,
+                    -476.6574339866638,
+                    -368.6875487565994,
+                    -510.989679813385,
+                    -254.11503171920776,
+                    -185.15259838104248,
+                    -337.4959896802902,
+                    -375.84796249866486,
+                    -167.28531074523926,
+                    -494.53842973709106,
+                    -185.15259838104248
+                ],
+                [
+                    -261.83879923820496,
+                    -466.3375595808029,
+                    -362.73500084877014,
+                    -491.98756217956543,
+                    -262.0251929759979,
+                    -188.60000085830688,
+                    -351.76164865493774,
+                    -365.4217140674591,
+                    -158.29529428482056,
+                    -465.58283281326294,
+                    -188.60000085830688
+                ],
+                [
+                    -251.70371007919312,
+                    -466.88055777549744,
+                    -372.3522229194641,
+                    -492.7438554763794,
+                    -259.8485059738159,
+                    -181.39048838615417,
+                    -331.6853178739548,
+                    -379.8068642616272,
+                    -170.6627550125122,
+                    -487.34162425994873,
+                    -181.39048838615417
+                ],
+                [
+                    -261.83879923820496,
+                    -466.3375595808029,
+                    -362.73500084877014,
+                    -491.98756217956543,
+                    -262.0251929759979,
+                    -188.60000085830688,
+                    -351.76164865493774,
+                    -365.4217140674591,
+                    -158.29529428482056,
+                    -465.58283281326294,
+                    -188.60000085830688
+                ],
+                [
+                    -246.90115118026733,
+                    -468.12398624420166,
+                    -363.5315451622009,
+                    -493.4012632369995,
+                    -242.5881223678589,
+                    -172.16761326789856,
+                    -327.5935608148575,
+                    -365.68844652175903,
+                    -166.39222145080566,
+                    -489.4230670928955,
+                    -172.16761326789856
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            5.031907489143362
+        ],
+        "posix": 5.031907489143362
+    }
+}

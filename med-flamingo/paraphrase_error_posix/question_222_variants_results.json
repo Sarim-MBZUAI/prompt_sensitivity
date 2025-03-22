@@ -1,0 +1,42 @@
+{
+    "file_name": "question_222_variants.json",
+    "overall_posix": 0.43790063404543245,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.19387755102040816,
+            "Variation 2": 0.6377245508982036,
+            "Variation 3": 0.26291079812206575,
+            "Variation 4": 0.4381443298969072,
+            "Variation 5": 0.5111821086261981,
+            "Variation 6": 0.5133079847908745,
+            "Variation 7": 0.3106796116504854,
+            "Variation 8": 0.4729064039408867,
+            "Variation 9": 0.3619909502262444,
+            "Variation 10": 0.6762820512820513
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any cardiac or mediastinal abnormalities visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the heart size or mediastinal silhouette normal in appearance on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is the heart size or mediastinal silhouette normal in appearance on the chest X-ray? Please choose from the following two options: [yes, no]\n a. Yes, the heart size is normal in",
+                "<s> Please identify whether the mediastinum or heart size appears abnormal on the chest radiograph. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show an increase in cardiac or mediastinal diameter? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are there any noticeable abnormalities of the cardiac silhouette or mediastinum on the provided chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.1. Chest X-Ray: Cardiac Silhouette\n 1.1.1. Cardiac Silhouette: Is there any noticeable abnormality of the cardiac silhouette?\n 1",
+                "<s> Is the mediastinum or heart size within normal limits as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.10.10  Answer\n The chest X-ray shows a normal-sized heart and mediastinum.\n 1.10.11  Case 10: Answer\n The chest",
+                "<s> Please confirm whether the chest X-ray reveals any cardiac or mediastinal abnormalities. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest radiograph depict an abnormal enlargement of the heart or mediastinum? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are there any notable discrepancies in cardiac or mediastinal size or shape visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is the chest X-ray image consistent with a normal-sized heart and mediastinum? Please choose from the following two options: [yes, no]\n<image> 1. The chest X-ray image is consistent with a normal-sized heart and mediastinum.\n 2. The chest X-ray image is not consistent with a normal-sized heart and mediastin"
+            ]
+        ],
+        "sensitivities": [
+            0.43790063404543245
+        ],
+        "posix": 0.43790063404543245
+    }
+}

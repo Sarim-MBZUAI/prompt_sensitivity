@@ -1,0 +1,189 @@
+{
+    "file_name": "question_162_variants.json",
+    "overall_posix": 6.321283104192268,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.25,
+            "Variation 2": 0.25,
+            "Variation 3": 0.25,
+            "Variation 4": 0.5475377016945889,
+            "Variation 5": 0.8239613112650419,
+            "Variation 6": 0.5370988175272942,
+            "Variation 7": 0.0,
+            "Variation 8": 0.0,
+            "Variation 9": 0.25,
+            "Variation 10": 0.7337935566902161
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "yes",
+                "Yes",
+                "Yes",
+                "Yes",
+                "Yes, there are noticeable skeletal abnormalities in the chest X-ray. The image shows a person with a damaged spine, which is indicated by the arrow. This could be due to a variety of causes, such as trauma, infection, or disease. It is important to note that this damage may have implications for the person's overall health and well-being, and may require medical attention.",
+                "Yes, there are noticeable skeletal abnormalities in the chest X-ray. The X-ray shows a left-sided chest with a large mass in the left lung, which is a clear skeletal abnormality.",
+                "Yes, there are noticeable skeletal abnormalities in the chest X-ray. The image shows a series of fractures in the ribs, which are indicated by the white arrows.",
+                "yes",
+                "yes",
+                "Yes",
+                "Yes, there are noticeable skeletal abnormalities in the chest X-ray. The image shows a severe case of tuberculosis, which can cause\u9aa8\u8d28\u7834\u574f and skeletal abnormalities."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -6.5625,
+                    -6.8125,
+                    -6.8125,
+                    -6.8125,
+                    -48.17536532878876,
+                    -37.873029828071594,
+                    -23.749662160873413,
+                    -6.5625,
+                    -6.5625,
+                    -6.8125,
+                    -30.043893814086914
+                ],
+                [
+                    -5.0,
+                    -5.375,
+                    -5.375,
+                    -5.375,
+                    -44.60940980911255,
+                    -35.149391651153564,
+                    -23.379873275756836,
+                    -5.0,
+                    -5.0,
+                    -5.375,
+                    -28.23193621635437
+                ],
+                [
+                    -8.0,
+                    -6.15625,
+                    -6.15625,
+                    -6.15625,
+                    -46.59770894050598,
+                    -37.47004771232605,
+                    -22.30798053741455,
+                    -8.0,
+                    -8.0,
+                    -6.15625,
+                    -27.346277236938477
+                ],
+                [
+                    -10.125,
+                    -8.0625,
+                    -8.0625,
+                    -8.0625,
+                    -45.026081800460815,
+                    -35.605531334877014,
+                    -21.05501353740692,
+                    -10.125,
+                    -10.125,
+                    -8.0625,
+                    -26.931084632873535
+                ],
+                [
+                    -4.6875,
+                    -5.3125,
+                    -5.3125,
+                    -5.3125,
+                    -40.97843837738037,
+                    -35.446497201919556,
+                    -20.277289152145386,
+                    -4.6875,
+                    -4.6875,
+                    -5.3125,
+                    -26.492512702941895
+                ],
+                [
+                    -6.625,
+                    -6.75,
+                    -6.75,
+                    -6.75,
+                    -42.91329109668732,
+                    -32.681421637535095,
+                    -21.424052834510803,
+                    -6.625,
+                    -6.625,
+                    -6.75,
+                    -27.54914355278015
+                ],
+                [
+                    -6.84375,
+                    -7.65625,
+                    -7.65625,
+                    -7.65625,
+                    -40.82358276844025,
+                    -34.33663821220398,
+                    -21.640479564666748,
+                    -6.84375,
+                    -6.84375,
+                    -7.65625,
+                    -26.689432621002197
+                ],
+                [
+                    -6.6875,
+                    -6.6875,
+                    -6.6875,
+                    -6.6875,
+                    -48.05684971809387,
+                    -36.04200351238251,
+                    -24.40357780456543,
+                    -6.6875,
+                    -6.6875,
+                    -6.6875,
+                    -30.805842399597168
+                ],
+                [
+                    -8.1875,
+                    -7.9375,
+                    -7.9375,
+                    -7.9375,
+                    -46.757742047309875,
+                    -37.827510714530945,
+                    -24.725841999053955,
+                    -8.1875,
+                    -8.1875,
+                    -7.9375,
+                    -30.600172996520996
+                ],
+                [
+                    -5.625,
+                    -7.125,
+                    -7.125,
+                    -7.125,
+                    -42.1870938539505,
+                    -34.36021304130554,
+                    -22.271010637283325,
+                    -5.625,
+                    -5.625,
+                    -7.125,
+                    -26.68916606903076
+                ],
+                [
+                    -9.625,
+                    -8.125,
+                    -8.125,
+                    -8.125,
+                    -42.09406089782715,
+                    -35.640230894088745,
+                    -21.29256844520569,
+                    -9.625,
+                    -9.625,
+                    -8.125,
+                    -26.14649510383606
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            6.321283104192268
+        ],
+        "posix": 6.321283104192268
+    }
+}

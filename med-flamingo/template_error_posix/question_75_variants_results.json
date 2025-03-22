@@ -1,0 +1,42 @@
+{
+    "file_name": "question_75_variants.json",
+    "overall_posix": 0.4842014268229599,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5112540192926045,
+            "Variation 2": 0.46302250803858525,
+            "Variation 3": 0.5209003215434084,
+            "Variation 4": 0.5048231511254019,
+            "Variation 5": 0.4662379421221865,
+            "Variation 6": 0.5305466237942122,
+            "Variation 7": 0.4533762057877814,
+            "Variation 8": 0.4447852760736196,
+            "Variation 9": 0.4872611464968153,
+            "Variation 10": 0.459807073954984
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Has the patient been given a chest tube? Please choose from the following two options: [yes, no]\n 12.  Has the patient been given a chest tube? Please choose from the",
+                "<s> Question:Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q:Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tNo\n \u2022\tNo\n 100\n 101\n Surgery\n Q:What is the most likely diagnosis?\n A:Acute fracture of the left ",
+                "<s> Question::: Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> q:::Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q::Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A::Pneumothorax\n B::Pneumomediastinum\n C::Pneumopericardium\n D::Pneumomediastinum and p",
+                "<s> Question-Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> q:Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n   d:\n   e:\n   f:\n   g:\n   h:\n   i:\n   j:\n   k:\n   l:\n   m:\n   n:\n   o:",
+                "<s> Q:Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Suggested response\n These are two spot views of the left chest. The first spot view (A) is of the left lateral chest and the second spot view (B) is of the left anterior chest.",
+                "<s> Question:Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale:The chest X-ray demonstrates a fracture of the right 10th rib (arrow). The fracture is displaced and the anterior",
+                "<s> question:Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked:\n [1]Yes\n [2]No\n The patient has a right-sided acute displaced rib f"
+            ]
+        ],
+        "sensitivities": [
+            0.4842014268229599
+        ],
+        "posix": 0.4842014268229599
+    }
+}

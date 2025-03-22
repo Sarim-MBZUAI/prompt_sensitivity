@@ -1,0 +1,42 @@
+{
+    "file_name": "question_272_variants.json",
+    "overall_posix": 0.4909230970549999,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.47335423197492166,
+            "Variation 2": 0.4981549815498155,
+            "Variation 3": 0.49,
+            "Variation 4": 0.5055350553505535,
+            "Variation 5": 0.5092250922509225,
+            "Variation 6": 0.5239852398523985,
+            "Variation 7": 0.46125461254612543,
+            "Variation 8": 0.4833948339483395,
+            "Variation 9": 0.48307692307692307,
+            "Variation 10": 0.48124999999999996
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are signs of pulmonary edema.\n b. No, there are no signs of pulmonary edema.\n 10. What is the most likely diagnosis?\n a. Acute pulmon",
+                "<s> Question:Are there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following X-ray is of a 55-year-old male patient with a history of hypertension and hyperlipidemia. He has been complaining of shortness of breath for the",
+                "<s> Q::Are there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question::: Are there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n Explanation:\n The patient has a right-sided pneumothorax. The right hemithorax is collapsed, and the left hemithorax is hyper",
+                "<s> q:::Are there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Are there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> Q::: Are there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question-Are there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2756\u2756What is the differential diagnosis?\n \u2756\u2756What is the most likely diagnosis?\n \u2756\u2756What is the best way to confirm the diagnosis",
+                "<s> QUESTION\tAre there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a right-sided pneumothorax. The lung on the right is hyperlucent, and the\n hemithor",
+                "<s> Question:Are there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Model Answer\n This is a frontal chest radiograph of a 55-year-old man with a history of hypertension and hyperlipidaemia. There is a large area of opacification in the right lower",
+                "<s> Question:Are there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale:This patient has a large right pleural effusion, which is the cause of the elevation of the right hemidiaphragm. The patient also has a"
+            ]
+        ],
+        "sensitivities": [
+            0.4909230970549999
+        ],
+        "posix": 0.4909230970549999
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_175_variants.json",
+    "overall_posix": 0.3966842874078913,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.44313725490196076,
+            "Variation 2": 0.17525773195876293,
+            "Variation 3": 0.41295546558704455,
+            "Variation 4": 0.3431372549019608,
+            "Variation 5": 0.5628930817610063,
+            "Variation 6": 0.4816176470588236,
+            "Variation 7": 0.22395833333333337,
+            "Variation 8": 0.2995169082125604,
+            "Variation 9": 0.47388059701492535,
+            "Variation 10": 0.5504885993485342
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.Question:What is the diagnosis?\n A:Pleural efusion\n B:Pneumothorax\n C:Pneumonia\n D:Pneumonitis\n 11.Question",
+                "<s> Question:Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> question::Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A chest X-ray can show a pleural effusion.\n 100\n Tests: Imaging\n 100\n 100\n Questions: Imaging\n 100\n ",
+                "<s> question:Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\nyes\n 100%: ___\n100%: ___\n 90%: ___80%: ___70%: ___60%: ___50%: _",
+                "<s> Question-Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The chest X-ray shows a pleural effusion in the right hemithorax. The patient is a 60-year-old man with a history of lung cancer.\n Question-What is the differential diagnosis",
+                "<s> QUESTION:Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Can pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n 2.",
+                "<s> QUESTION:Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> q:::Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q::Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n 100\n 100",
+                "<s> QUESTION:Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n The chest X-ray shows a pleural effusion in the right hemithorax.\n The pleural effusion is observed in the chest X-ray as a homogeneous,\n opaque, and fluid-filled"
+            ]
+        ],
+        "sensitivities": [
+            0.3966842874078913
+        ],
+        "posix": 0.3966842874078913
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_1_variants.json",
+    "overall_posix": 0.4040033365529723,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4117647058823529,
+            "Variation 2": 0.0,
+            "Variation 3": 0.3194444444444444,
+            "Variation 4": 0.47317073170731705,
+            "Variation 5": 0.47967479674796754,
+            "Variation 6": 0.2009803921568627,
+            "Variation 7": 0.5219298245614035,
+            "Variation 8": 0.27522935779816515,
+            "Variation 9": 0.6931506849315069,
+            "Variation 10": 0.6646884272997032
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the X-ray image show any signs of pneumothorax? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the X-ray image show any signs of pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of air leak within the pleural space on this X-ray? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Does the X-ray image show any signs of pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiograph reveal a pneumothorax with visible separation of visceral and parietal pleura? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any signs of air accumulation within the thoracic cavity on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Is pneumothorax identified as a distinct feature on this radiograph, characterized by visceral pleural displacement? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n c.\n d.\n e.\n 12.\n a.\n b.\n c.\n d.\n e.\n 13.\n a.\n b.",
+                "<s> Does the X-ray image display air bubbles or lung lucency consistent with pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there visible evidence of pneumothorax on this chest radiograph, including air outside the lung parenchyma? Please choose from the following two options: [yes, no]\n<image> 11.10a\n 11.10b\n 11.10c\n 11.10d\n 11.10e\n 11.10f\n 1",
+                "<s> Does this X-ray show any characteristic signs of pneumothorax, such as a visible rim or edge of air? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic findings indicative of pneumothorax, including air within the thoracic cavity and lung displacement? Please choose from the following two options: [yes, no]\n<image> 2. Is there a pneumomediastinum? Please choose from the following two options: [yes, no]\n 3. Is there a pneumopericardium? Please choose from the following two options: [yes",
+                "<s> Is pneumothorax suggested by this chest X-ray as a potential finding based on typical imaging characteristics? Please choose from the following two options: [yes, no]\n<image> 11.10.15  Answer\n The X-ray shows a pneumothorax. The lung is colapsed on the right side and the pleural line is clearly visible. The left lung is hyperlucent"
+            ]
+        ],
+        "sensitivities": [
+            0.4040033365529723
+        ],
+        "posix": 0.4040033365529723
+    }
+}

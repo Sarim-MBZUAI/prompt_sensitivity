@@ -1,0 +1,189 @@
+{
+    "file_name": "question_173_variants.json",
+    "overall_posix": 0.19763863489844588,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.24214520931243896,
+            "Variation 2": 0.44472325801849366,
+            "Variation 3": 0.2841737651824951,
+            "Variation 4": 0.00354703426361084,
+            "Variation 5": 0.03818487167358398,
+            "Variation 6": 0.33125958919525145,
+            "Variation 7": 0.2805014085769653,
+            "Variation 8": 0.047610082626342774,
+            "Variation 9": 0.2656329941749573,
+            "Variation 10": 0.04921698093414307
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it is not possible for me to definitively determine if there is a current lung infection. The image shows a chest X-ray, but without medical training and additional context, I cannot make a diagnosis. Chest X",
+                "Based on the image provided, it appears that there is a visible opacity in the lower right lung. This opacity could be indicative of a lung infarction, pneumonia, or other lung pathology. However, without additional medical information and",
+                "Based on the image provided, it appears that there is an area of consolidation in the right lower lobe of the lung, which could suggest a current lung infection. However, it is important to note that a single X-ray image may not",
+                "Based on the image provided, it appears that there is a visible opacity in the lower right lung, which could suggest a current lung infarction or infection. However, it is important to note that a single X-ray image may not provide enough",
+                "Based on the image provided, it appears that there is a lung infection present. The X-ray shows areas of consolidation, which are dense, opaque areas that can indicate the presence of pneumonia or other lung infections. The consolid",
+                "Based on the image provided, it appears that there may be some abnormalities in the lungs, which could suggest an infection or other respiratory issue. However, without additional medical information or a professional medical opinion, it is not possible to definit",
+                "Based on the image provided, it appears that there is a possible lung infection. The X-ray shows areas of opacity, which could indicate the presence of pneumonia or another type of lung infection. However, it is important to note that a",
+                "Based on the image provided, it appears that there is a possible lung infection. The X-ray shows areas of opacity, which could indicate the presence of pneumonia or other lung infections. However, it is important to note that a definit",
+                "Based on the image provided, it appears that there is a possible lung infection. The presence of a hazy opacity in the right lower lobe suggests that there may be an infection or inflammation in that area of the lung. However, it",
+                "Based on the X-ray image provided, it appears that there is some opacity or density in the lower lobe of the right lung, which could suggest a current lung infection. However, it is important to note that a single X-ray image",
+                "Based on the image provided, it appears that there is a possible lung infection. The presence of a focal area of increased opacity, which could be indicative of a pneumonia or other lung infection, is visible in the lower right portion of"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -482.8875079154968,
+                    -494.9947683811188,
+                    -460.65134501457214,
+                    -468.67881965637207,
+                    -483.06485962867737,
+                    -480.9782643318176,
+                    -466.32452845573425,
+                    -468.86243748664856,
+                    -480.5070037841797,
+                    -469.60585820674896,
+                    -480.4266588687897
+                ],
+                [
+                    -475.57503712177277,
+                    -475.49903523921967,
+                    -462.6302099227905,
+                    -465.78030383586884,
+                    -486.95116424560547,
+                    -491.08556735515594,
+                    -462.21906220912933,
+                    -480.4753543138504,
+                    -468.6889053583145,
+                    -464.3317278623581,
+                    -467.0822049379349
+                ],
+                [
+                    -475.57503712177277,
+                    -475.49903523921967,
+                    -462.6302099227905,
+                    -465.78030383586884,
+                    -486.95116424560547,
+                    -491.08556735515594,
+                    -462.21906220912933,
+                    -480.4753543138504,
+                    -468.6889053583145,
+                    -464.3317278623581,
+                    -467.0822049379349
+                ],
+                [
+                    -475.57503712177277,
+                    -475.49903523921967,
+                    -462.6302099227905,
+                    -465.78030383586884,
+                    -486.95116424560547,
+                    -491.08556735515594,
+                    -462.21906220912933,
+                    -480.4753543138504,
+                    -468.6889053583145,
+                    -464.3317278623581,
+                    -467.0822049379349
+                ],
+                [
+                    -475.8477613925934,
+                    -473.6817214488983,
+                    -454.09029269218445,
+                    -460.9307134151459,
+                    -459.7345905303955,
+                    -464.85284090042114,
+                    -464.2268958091736,
+                    -461.9634437561035,
+                    -458.03155040740967,
+                    -471.1136677265167,
+                    -463.1675444841385
+                ],
+                [
+                    -475.8477613925934,
+                    -473.6817214488983,
+                    -454.09029269218445,
+                    -460.9307134151459,
+                    -459.7345905303955,
+                    -464.85284090042114,
+                    -464.2268958091736,
+                    -461.9634437561035,
+                    -458.03155040740967,
+                    -471.1136677265167,
+                    -463.1675444841385
+                ],
+                [
+                    -475.57503712177277,
+                    -475.49903523921967,
+                    -462.6302099227905,
+                    -465.78030383586884,
+                    -486.95116424560547,
+                    -491.08556735515594,
+                    -462.21906220912933,
+                    -480.4753543138504,
+                    -468.6889053583145,
+                    -464.3317278623581,
+                    -467.0822049379349
+                ],
+                [
+                    -496.76252698898315,
+                    -488.1445384025574,
+                    -471.1139760017395,
+                    -472.52206444740295,
+                    -500.857994556427,
+                    -487.4197413921356,
+                    -470.32773435115814,
+                    -463.8779445886612,
+                    -475.4295778274536,
+                    -446.45514035224915,
+                    -477.967693567276
+                ],
+                [
+                    -475.57503712177277,
+                    -475.49903523921967,
+                    -462.6302099227905,
+                    -465.78030383586884,
+                    -486.95116424560547,
+                    -491.08556735515594,
+                    -462.21906220912933,
+                    -480.4753543138504,
+                    -468.6889053583145,
+                    -464.3317278623581,
+                    -467.0822049379349
+                ],
+                [
+                    -475.8477613925934,
+                    -473.6817214488983,
+                    -454.09029269218445,
+                    -460.9307134151459,
+                    -459.7345905303955,
+                    -464.85284090042114,
+                    -464.2268958091736,
+                    -461.9634437561035,
+                    -458.03155040740967,
+                    -471.1136677265167,
+                    -463.1675444841385
+                ],
+                [
+                    -475.57503712177277,
+                    -475.49903523921967,
+                    -462.6302099227905,
+                    -465.78030383586884,
+                    -486.95116424560547,
+                    -491.08556735515594,
+                    -462.21906220912933,
+                    -480.4753543138504,
+                    -468.6889053583145,
+                    -464.3317278623581,
+                    -467.0822049379349
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.19763863489844588
+        ],
+        "posix": 0.19763863489844588
+    }
+}

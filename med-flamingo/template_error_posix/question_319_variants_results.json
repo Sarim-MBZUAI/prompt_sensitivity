@@ -1,0 +1,42 @@
+{
+    "file_name": "question_319_variants.json",
+    "overall_posix": 0.36059405039129533,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.29107981220657275,
+            "Variation 2": 0.4914089347079038,
+            "Variation 3": 0.3105022831050228,
+            "Variation 4": 0.14438502673796794,
+            "Variation 5": 0.3105022831050228,
+            "Variation 6": 0.54858934169279,
+            "Variation 7": 0.1413612565445026,
+            "Variation 8": 0.29439252336448596,
+            "Variation 9": 0.546031746031746,
+            "Variation 10": 0.5276872964169381
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:::Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION\tDoes the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a large right pleural effusion. The right hemidiaphragm is lowered and the left hemidiaphragm is raised",
+                "<s> q::Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Q::Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Suggested response\n These are two spot views of the chest of a 55-year-old man who has been involved in a road traffic accident. The X-rays were taken in the accident and emergency",
+                "<s> QUESTION:Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> Q::: Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n 10.Question:Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no],Answer",
+                "<s> Question-Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The X-ray image shows a pneumothorax.\n Interpretation\n The X-ray image shows a pneumothorax. The left lung is collapsed and the mediastinum is shifted to the"
+            ]
+        ],
+        "sensitivities": [
+            0.36059405039129533
+        ],
+        "posix": 0.36059405039129533
+    }
+}

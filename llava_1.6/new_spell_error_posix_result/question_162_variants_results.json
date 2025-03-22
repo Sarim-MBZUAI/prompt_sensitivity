@@ -1,0 +1,189 @@
+{
+    "file_name": "question_162_variants.json",
+    "overall_posix": 0.8383996514647755,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 1.6164659595489501,
+            "Variation 3": 1.6981168886025746,
+            "Variation 4": 2.002685136795044,
+            "Variation 5": 0.22839410914931185,
+            "Variation 6": 1.5643628597259522,
+            "Variation 7": 0.22839410914931185,
+            "Variation 8": 0.22839410914931185,
+            "Variation 9": 0.4785654323045598,
+            "Variation 10": 0.0
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no noticeable skeletal abnormalities in the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and ribs clearly visible.",
+                "No, there are no noticeable skeletal abnormalities in the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and ribs clearly visible.",
+                "Based on the X-ray image provided, there are no noticeable skeletal abnormalities. The image shows a normal chest X-ray with the lungs, heart, and ribs clearly visible. The lungs appear to be clear, and",
+                "Based on the image provided, there are no noticeable skeletal abnormalities in the chest X-ray. The ribs, vertebrae, and other bones appear to be in their normal position and alignment.",
+                "Based on the image provided, there are no noticeable skeletal abnormalities in the chest X-ray. The ribs, vertebrae, and heart shadow appear to be in normal alignment and position. The lungs appear to be",
+                "No, there are no noticeable skeletal abnormalities in the chest X-ray. The image shows a normal chest X-ray with the ribs, lungs, and heart clearly visible.",
+                "Based on the image provided, there are no obvious skeletal abnormalities visible in the chest X-ray. The image shows the typical structure of the ribcage and lungs, with no signs of fractures, dislocations, or",
+                "No, there are no noticeable skeletal abnormalities in the chest X-ray. The image shows a normal chest X-ray with the ribs, lungs, and heart clearly visible.",
+                "No, there are no noticeable skeletal abnormalities in the chest X-ray. The image shows a normal chest X-ray with the ribs, lungs, and heart clearly visible.",
+                "No, there are no notieable skeletal abnormalities in the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and ribs visible.",
+                "No, there are no noticeable skeletal abnormalities in the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and ribs clearly visible."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -389.8828911781311,
+                    -389.8828911781311,
+                    -470.7061891555786,
+                    -471.3925018310547,
+                    -490.0171480178833,
+                    -399.7038378715515,
+                    -468.1010341644287,
+                    -399.7038378715515,
+                    -399.7038378715515,
+                    -410.4612047672272,
+                    -389.8828911781311
+                ],
+                [
+                    -406.51807165145874,
+                    -406.51807165145874,
+                    -471.11888337135315,
+                    -445.79924488067627,
+                    -479.2584481239319,
+                    -407.024827003479,
+                    -487.8320435285568,
+                    -407.024827003479,
+                    -407.024827003479,
+                    -388.4216868877411,
+                    -406.51807165145874
+                ],
+                [
+                    -402.9623119831085,
+                    -402.9623119831085,
+                    -457.1815445423126,
+                    -451.6593680381775,
+                    -472.7565064430237,
+                    -390.21571040153503,
+                    -454.8423249721527,
+                    -390.21571040153503,
+                    -390.21571040153503,
+                    -400.37864089012146,
+                    -402.9623119831085
+                ],
+                [
+                    -389.8828911781311,
+                    -389.8828911781311,
+                    -470.7061891555786,
+                    -471.3925018310547,
+                    -490.0171480178833,
+                    -399.7038378715515,
+                    -468.1010341644287,
+                    -399.7038378715515,
+                    -399.7038378715515,
+                    -410.4612047672272,
+                    -389.8828911781311
+                ],
+                [
+                    -406.51807165145874,
+                    -406.51807165145874,
+                    -471.11888337135315,
+                    -445.79924488067627,
+                    -479.2584481239319,
+                    -407.024827003479,
+                    -487.8320435285568,
+                    -407.024827003479,
+                    -407.024827003479,
+                    -388.4216868877411,
+                    -406.51807165145874
+                ],
+                [
+                    -402.9623119831085,
+                    -402.9623119831085,
+                    -457.1815445423126,
+                    -451.6593680381775,
+                    -472.7565064430237,
+                    -390.21571040153503,
+                    -454.8423249721527,
+                    -390.21571040153503,
+                    -390.21571040153503,
+                    -400.37864089012146,
+                    -402.9623119831085
+                ],
+                [
+                    -399.78950333595276,
+                    -399.78950333595276,
+                    -465.92448568344116,
+                    -441.6500210762024,
+                    -476.42615842819214,
+                    -399.8801734447479,
+                    -461.95029282569885,
+                    -399.8801734447479,
+                    -399.8801734447479,
+                    -403.3199534416199,
+                    -399.78950333595276
+                ],
+                [
+                    -399.78950333595276,
+                    -399.78950333595276,
+                    -465.92448568344116,
+                    -441.6500210762024,
+                    -476.42615842819214,
+                    -399.8801734447479,
+                    -461.95029282569885,
+                    -399.8801734447479,
+                    -399.8801734447479,
+                    -403.3199534416199,
+                    -399.78950333595276
+                ],
+                [
+                    -402.9623119831085,
+                    -402.9623119831085,
+                    -457.1815445423126,
+                    -451.6593680381775,
+                    -472.7565064430237,
+                    -390.21571040153503,
+                    -454.8423249721527,
+                    -390.21571040153503,
+                    -390.21571040153503,
+                    -400.37864089012146,
+                    -402.9623119831085
+                ],
+                [
+                    -399.78950333595276,
+                    -399.78950333595276,
+                    -465.92448568344116,
+                    -441.6500210762024,
+                    -476.42615842819214,
+                    -399.8801734447479,
+                    -461.95029282569885,
+                    -399.8801734447479,
+                    -399.8801734447479,
+                    -403.3199534416199,
+                    -399.78950333595276
+                ],
+                [
+                    -389.8828911781311,
+                    -389.8828911781311,
+                    -470.7061891555786,
+                    -471.3925018310547,
+                    -490.0171480178833,
+                    -399.7038378715515,
+                    -468.1010341644287,
+                    -399.7038378715515,
+                    -399.7038378715515,
+                    -410.4612047672272,
+                    -389.8828911781311
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8383996514647755
+        ],
+        "posix": 0.8383996514647755
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_294_variants.json",
+    "overall_posix": 0.5028696749052323,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.26905829596412556,
+            "Variation 2": 0.33018867924528306,
+            "Variation 3": 0.30800000000000005,
+            "Variation 4": 0.6509186351706037,
+            "Variation 5": 0.6270718232044199,
+            "Variation 6": 0.4659498207885304,
+            "Variation 7": 0.4980694980694981,
+            "Variation 8": 0.7098214285714286,
+            "Variation 9": 0.6952595936794582,
+            "Variation 10": 0.47435897435897434
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any pulmonary infiltrates or consolidation suggestive of acute infection on the provided X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence of pneumonic consolidation in the lungs on this image? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> Do the lung fields reveal any signs of superimposed infection, such as alveolar filling defects or increased opacity, on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Would you describe the lung parenchyma as normal or would you identify any abnormality consistent with acute pulmonary infection on the radiograph provided? Please choose from the following two options: [yes, no]\n<image> 1. Normal lung parenchyma\n 2. Abnormal lung parenchyma consistent with acute pulmonary infection\n 3. Both normal and abnormal lung parenchyma\n 4. Uncertain\n",
+                "<s> Is there evidence of new-onset infiltrative disease in the lungs that could be consistent with an infectious etiology, as shown on the given X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.15  Answer\n The X-ray shows a right-sided pneumothorax. The pneumothorax is not associated with a pleural effusion. The right lung is hyperl",
+                "<s> Are there any areas of increased translucency or alveolar opacification in the lung fields that would suggest acute respiratory infection, as seen on this image? Please choose from the following two options: [yes, no]\n<image> 2\n 1\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 11\n 12\n 13\n 14\n 15",
+                "<s> Does the radiograph show signs of inflammation or consolidation in the lungs that are indicative of an infectious process, such as pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Would you identify any abnormalities on the chest X-ray that could be suggestive of pulmonary involvement by a superimposed infection, including but not limited to alveolar consolidations? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any abnormalities on the chest X-ray that could be suggestive of pulmonary involvement by a superimposed infection, including but not limited to alveolar consolidations? Please",
+                "<s> Is there radiographic evidence of lung infiltration or consolidation that might indicate an acute infectious process, such as an acute respiratory tract infection, as shown on this image? Please choose from the following two options: [yes, no]\n<image> 2. Is there evidence of a pleural effusion on this image? Please choose from the following two options: [yes, no]\n 3. Is there evidence of a pneumothorax on this image? Please choose from",
+                "<s> Are there any signs of acute inflammatory change in the lungs that would be consistent with a superimposed infection, including increased opacity or density in the affected areas, on this X-ray? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.5028696749052323
+        ],
+        "posix": 0.5028696749052323
+    }
+}

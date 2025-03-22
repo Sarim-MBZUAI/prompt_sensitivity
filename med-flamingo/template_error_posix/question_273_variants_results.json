@@ -1,0 +1,42 @@
+{
+    "file_name": "question_273_variants.json",
+    "overall_posix": 0.3923414559647323,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4756944444444444,
+            "Variation 2": 0.5242718446601942,
+            "Variation 3": 0.2561576354679803,
+            "Variation 4": 0.44609665427509293,
+            "Variation 5": 0.2582159624413145,
+            "Variation 6": 0.4565217391304348,
+            "Variation 7": 0.4565217391304348,
+            "Variation 8": 0.5258064516129032,
+            "Variation 9": 0.2178217821782178,
+            "Variation 10": 0.3063063063063063
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tDoes the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient shows a left pneumothorax on the X-ray image. The left hemithorax is collapsed and the mediastinum is",
+                "<s> Question:Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The patient shows signs of pneumothorax in the X-ray image. The patient is a 60-year-old man with a history ofchronic obstruct",
+                "<s> question::Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n ",
+                "<s> Q::Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A::Pneumothorax\n B::Pneumomediastinum\n C::Subcutaneous emphysema\n D::Both A and B\n E::",
+                "<s> question:Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question:Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.Question:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumomediastinum\n C.Pneumoperitoneum\n D.Pneumomediastin",
+                "<s> Question:Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.Question:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumomediastinum\n C.Pneumoperitoneum\n D.Pneumomediastin",
+                "<s> Q:Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The patient shows signs of pneumothorax in the X-ray image.\n The patient shows signs of pneumothorax in the X-ray image. The patient\u2019s left lung is collapsed",
+                "<s> q:Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n 19.2.2  Answer\n 19.2.2.1 ",
+                "<s> q::Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::"
+            ]
+        ],
+        "sensitivities": [
+            0.3923414559647323
+        ],
+        "posix": 0.3923414559647323
+    }
+}

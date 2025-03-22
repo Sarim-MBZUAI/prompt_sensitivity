@@ -1,0 +1,189 @@
+{
+    "file_name": "question_110_variants.json",
+    "overall_posix": 1.4192654009215504,
+    "detailed_scores": [
+        {
+            "Variation 1": 2.887087424596151,
+            "Variation 2": 4.670666568988079,
+            "Variation 3": 1.1866051721572877,
+            "Variation 4": 0.6218788862228394,
+            "Variation 5": 0.07869884490966797,
+            "Variation 6": 3.649566848103593,
+            "Variation 7": 1.6853985623879866,
+            "Variation 8": 0.16549158096313477,
+            "Variation 9": 0.20611644744873048,
+            "Variation 10": 0.7791416072845458
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, there are no clear signs of congestive heart failure in the chest X-ray. The lungs appear to be clear, and there are no visible signs of fluid accumulation or other indicators of heart failure. However",
+                "No, there are no signs of congestive heart failure in the chest X-ray. The image shows a normal chest X-ray with no evidence of cardiac or pulmonary issues.",
+                "No, there are no signs of congestive heart failure in the chest X-ray. The X-ray shows a normal chest structure with no evidence of heart failure.",
+                "Based on the image provided, it is not possible for me to make a definitive diagnosis of congestive heart failure (CHF) from a chest X-ray alone. The image shows a chest X-ray with the lungs and heart sil",
+                "Based on the image provided, it is not possible to definitively diagnose congestive heart failure (CHF) from a chest X-ray alone. The X-ray shows the lungs and heart, but the presence of CHF would typically",
+                "Based on the image provided, there are no clear signs of congestive heart failure in the chest X-ray. The lungs appear to be clear, and there are no obvious signs of fluid accumulation or cardiac enlargement that would be",
+                "No, there are no signs of congestive heart failure in the chest X-ray. The image shows a normal chest X-ray with the lungs appearing clear and the heart shadow visible.",
+                "Based on the image provided, there are no signs of congestive heart failure in the chest X-ray. The X-ray appears to show a normal chest structure without any indications of heart failure.",
+                "Based on the image provided, there are no clear signs of congestive heart failure in the chest X-ray. The lungs appear to be clear, and there are no visible signs of fluid accumulation or other indicators of heart failure.",
+                "Yes, the presence of therme signs in the chest X-ray can be indicative of congestive heart failure. Therme signs are a pattern of increased opacity in the lungs, which can be a sign of fluid accumulation due to heart",
+                "Based on the X-ray image provided, there are no clear signs of congestive heart failure. The lungs appear to be clear, and the heart shadow is within normal limits. However, it is important to note that a definitive diagnosis of"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -528.3565082550049,
+                    -407.09883642196655,
+                    -355.541845202446,
+                    -469.0262496471405,
+                    -497.2625639438629,
+                    -532.2914505004883,
+                    -378.72426748275757,
+                    -454.1989715099335,
+                    -520.0819292068481,
+                    -518.0506858825684,
+                    -489.3994278907776
+                ],
+                [
+                    -514.3934087753296,
+                    -413.188316822052,
+                    -356.9229338169098,
+                    -471.25130891799927,
+                    -485.1808853149414,
+                    -523.8752465248108,
+                    -387.43773317337036,
+                    -456.85142946243286,
+                    -506.1750202178955,
+                    -488.05967605113983,
+                    -475.99830865859985
+                ],
+                [
+                    -514.3934087753296,
+                    -413.188316822052,
+                    -356.9229338169098,
+                    -471.25130891799927,
+                    -485.1808853149414,
+                    -523.8752465248108,
+                    -387.43773317337036,
+                    -456.85142946243286,
+                    -506.1750202178955,
+                    -488.05967605113983,
+                    -475.99830865859985
+                ],
+                [
+                    -510.8923568725586,
+                    -420.76295232772827,
+                    -358.1284226179123,
+                    -464.107351064682,
+                    -490.3285655975342,
+                    -528.6418390274048,
+                    -393.20996356010437,
+                    -440.50495862960815,
+                    -501.8813419342041,
+                    -498.32611894607544,
+                    -475.2799196243286
+                ],
+                [
+                    -507.3304970264435,
+                    -437.3973014354706,
+                    -380.81768679618835,
+                    -470.5408537387848,
+                    -485.7387008666992,
+                    -529.0201640129089,
+                    -412.5681474208832,
+                    -419.90614438056946,
+                    -497.3629789352417,
+                    -505.5730154514313,
+                    -477.22654044628143
+                ],
+                [
+                    -491.1253032684326,
+                    -400.9342565536499,
+                    -359.59520053863525,
+                    -463.06728410720825,
+                    -492.59957921504974,
+                    -507.23511362075806,
+                    -366.50571048259735,
+                    -440.85306906700134,
+                    -482.58851528167725,
+                    -518.9089064598083,
+                    -487.61779522895813
+                ],
+                [
+                    -491.1253032684326,
+                    -400.9342565536499,
+                    -359.59520053863525,
+                    -463.06728410720825,
+                    -492.59957921504974,
+                    -507.23511362075806,
+                    -366.50571048259735,
+                    -440.85306906700134,
+                    -482.58851528167725,
+                    -518.9089064598083,
+                    -487.61779522895813
+                ],
+                [
+                    -491.1253032684326,
+                    -400.9342565536499,
+                    -359.59520053863525,
+                    -463.06728410720825,
+                    -492.59957921504974,
+                    -507.23511362075806,
+                    -366.50571048259735,
+                    -440.85306906700134,
+                    -482.58851528167725,
+                    -518.9089064598083,
+                    -487.61779522895813
+                ],
+                [
+                    -510.8923568725586,
+                    -420.76295232772827,
+                    -358.1284226179123,
+                    -464.107351064682,
+                    -490.3285655975342,
+                    -528.6418390274048,
+                    -393.20996356010437,
+                    -440.50495862960815,
+                    -501.8813419342041,
+                    -498.32611894607544,
+                    -475.2799196243286
+                ],
+                [
+                    -510.8923568725586,
+                    -420.76295232772827,
+                    -358.1284226179123,
+                    -464.107351064682,
+                    -490.3285655975342,
+                    -528.6418390274048,
+                    -393.20996356010437,
+                    -440.50495862960815,
+                    -501.8813419342041,
+                    -498.32611894607544,
+                    -475.2799196243286
+                ],
+                [
+                    -491.1253032684326,
+                    -400.9342565536499,
+                    -359.59520053863525,
+                    -463.06728410720825,
+                    -492.59957921504974,
+                    -507.23511362075806,
+                    -366.50571048259735,
+                    -440.85306906700134,
+                    -482.58851528167725,
+                    -518.9089064598083,
+                    -487.61779522895813
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.4192654009215504
+        ],
+        "posix": 1.4192654009215504
+    }
+}

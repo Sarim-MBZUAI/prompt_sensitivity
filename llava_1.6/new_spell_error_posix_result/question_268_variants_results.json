@@ -1,0 +1,189 @@
+{
+    "file_name": "question_268_variants.json",
+    "overall_posix": 0.24079398176886826,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.08848614215850831,
+            "Variation 2": 0.30781466007232666,
+            "Variation 3": 0.3050655126571655,
+            "Variation 4": 0.16806501388549805,
+            "Variation 5": 0.4103829860687256,
+            "Variation 6": 0.08848614215850831,
+            "Variation 7": 0.16806501388549805,
+            "Variation 8": 0.25745731830596924,
+            "Variation 9": 0.021750211715698242,
+            "Variation 10": 0.19659862518310547
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it appears that the patient has some acute abnormalities in the lungs. The presence of a white patch on the lung suggests that there may be an infection or inflammation, which could be indicative of p",
+                "Based on the image provided, it is not possible to definitively determine if the patient has any acute abnormalities in the lungs. The image appears to be an X-ray or a similar medical imaging scan, but the resolution and quality",
+                "Based on the image provided, it is not possible to definitively determine if the patient has any acute abnormalities in the lungs. The image appears to be an X-ray or a similar type of medical imaging, but the resolution and",
+                "Based on the image provided, it is not possible to definitively determine if the patient has any acute abnormalities in the lungs. The image appears to be an X-ray, but the quality and angle of the image do not provide enough",
+                "Based on the image provided, it appears that there is an acute abnormality in the lungs. The patient's chest X-ray shows a significant amount of fluid in the lungs, which could indicate a condition such as pneumonia or",
+                "Based on the image provided, it appears that the patient has some acute abnormalities in the lungs. The presence of a white patch or infiltrate in the lung field suggests that there may be an infection or inflammation. However",
+                "Based on the image provided, it is not possible to definitively determine if the patient has any acute abnormalities in the lungs. The image appears to be an X-ray or a similar medical imaging scan, but the resolution and quality",
+                "Based on the image provided, it appears that there is an acute abnormality in the lungs. The patient's chest X-ray shows a significant amount of fluid in the lungs, which could indicate a condition such as pneumonia or",
+                "Based on the image provided, it is not possible to definitively determine if the patient has any acute abnormalities in the lungs. The image appears to be an X-ray or CT scan of the chest, but the resolution and quality of",
+                "Based on the image provided, it appears that there is an acute abnormality in the lungs. The patient has a significant amount of fluid accumulation in the lungs, which is indicative of a condition such as acute respiratory distress",
+                "Based on the image provided, it appears that the patient has some acute abnormalities in the lungs. The presence of a white area in the lung field suggests that there may be an infection, inflammation, or some other form of path"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -482.3972804546356,
+                    -477.9729733467102,
+                    -467.0065474510193,
+                    -467.14400482177734,
+                    -473.9940297603607,
+                    -502.9164297580719,
+                    -477.9729733467102,
+                    -473.9940297603607,
+                    -469.52441453933716,
+                    -481.3097698688507,
+                    -492.2272117137909
+                ],
+                [
+                    -498.43222546577454,
+                    -480.34777760505676,
+                    -478.39145731925964,
+                    -487.34154295921326,
+                    -480.05822587013245,
+                    -502.6558802127838,
+                    -480.34777760505676,
+                    -480.05822587013245,
+                    -488.4450132846832,
+                    -501.9782569408417,
+                    -505.3082482814789
+                ],
+                [
+                    -480.9814178943634,
+                    -490.15553283691406,
+                    -487.50459122657776,
+                    -494.2025337219238,
+                    -486.82907247543335,
+                    -469.54358553886414,
+                    -490.15553283691406,
+                    -486.82907247543335,
+                    -468.29937410354614,
+                    -514.8142359256744,
+                    -478.98218512535095
+                ],
+                [
+                    -498.43222546577454,
+                    -480.34777760505676,
+                    -478.39145731925964,
+                    -487.34154295921326,
+                    -480.05822587013245,
+                    -502.6558802127838,
+                    -480.34777760505676,
+                    -480.05822587013245,
+                    -488.4450132846832,
+                    -501.9782569408417,
+                    -505.3082482814789
+                ],
+                [
+                    -480.9814178943634,
+                    -490.15553283691406,
+                    -487.50459122657776,
+                    -494.2025337219238,
+                    -486.82907247543335,
+                    -469.54358553886414,
+                    -490.15553283691406,
+                    -486.82907247543335,
+                    -468.29937410354614,
+                    -514.8142359256744,
+                    -478.98218512535095
+                ],
+                [
+                    -482.3972804546356,
+                    -477.9729733467102,
+                    -467.0065474510193,
+                    -467.14400482177734,
+                    -473.9940297603607,
+                    -502.9164297580719,
+                    -477.9729733467102,
+                    -473.9940297603607,
+                    -469.52441453933716,
+                    -481.3097698688507,
+                    -492.2272117137909
+                ],
+                [
+                    -503.48972845077515,
+                    -487.6174910068512,
+                    -483.2649793624878,
+                    -483.13537788391113,
+                    -467.14330434799194,
+                    -491.1871886253357,
+                    -487.6174910068512,
+                    -467.14330434799194,
+                    -473.97509717941284,
+                    -480.5034935474396,
+                    -476.8018617630005
+                ],
+                [
+                    -498.43222546577454,
+                    -480.34777760505676,
+                    -478.39145731925964,
+                    -487.34154295921326,
+                    -480.05822587013245,
+                    -502.6558802127838,
+                    -480.34777760505676,
+                    -480.05822587013245,
+                    -488.4450132846832,
+                    -501.9782569408417,
+                    -505.3082482814789
+                ],
+                [
+                    -498.43222546577454,
+                    -480.34777760505676,
+                    -478.39145731925964,
+                    -487.34154295921326,
+                    -480.05822587013245,
+                    -502.6558802127838,
+                    -480.34777760505676,
+                    -480.05822587013245,
+                    -488.4450132846832,
+                    -501.9782569408417,
+                    -505.3082482814789
+                ],
+                [
+                    -503.48972845077515,
+                    -487.6174910068512,
+                    -483.2649793624878,
+                    -483.13537788391113,
+                    -467.14330434799194,
+                    -491.1871886253357,
+                    -487.6174910068512,
+                    -467.14330434799194,
+                    -473.97509717941284,
+                    -480.5034935474396,
+                    -476.8018617630005
+                ],
+                [
+                    -498.43222546577454,
+                    -480.34777760505676,
+                    -478.39145731925964,
+                    -487.34154295921326,
+                    -480.05822587013245,
+                    -502.6558802127838,
+                    -480.34777760505676,
+                    -480.05822587013245,
+                    -488.4450132846832,
+                    -501.9782569408417,
+                    -505.3082482814789
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.24079398176886826
+        ],
+        "posix": 0.24079398176886826
+    }
+}

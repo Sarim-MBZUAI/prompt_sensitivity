@@ -1,0 +1,42 @@
+{
+    "file_name": "question_364_variants.json",
+    "overall_posix": 0.3826788808387101,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4482758620689655,
+            "Variation 2": 0.26046511627906976,
+            "Variation 3": 0.45890410958904115,
+            "Variation 4": 0.1384615384615384,
+            "Variation 5": 0.2451923076923077,
+            "Variation 6": 0.541033434650456,
+            "Variation 7": 0.29955947136563876,
+            "Variation 8": 0.5080385852090032,
+            "Variation 9": 0.4742268041237113,
+            "Variation 10": 0.4526315789473685
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question::: Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumothorax\n B. Pleural effusion\n C. Pulmonary edema\n D. Pneumonia\n E.",
+                "<s> Q:Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Is there",
+                "<s> QUESTION\tIs there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n The X-ray shows a right-sided pleural effusion. The effusion is not large enough to be seen on the X-ray.\n The",
+                "<s> Q:Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> question::Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Question:Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following radiograph is of a 55-year-old man who presented to the emergency department with a 2-day history of fever, chills, and a cough productive of",
+                "<s> Q::Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question-Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is there evidence of a pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes, no",
+                "<s> QUESTION:Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there evidence of a pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n ",
+                "<s> Question:Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the next step in the management of this patient?\n A. Thoracentesis\n B. Chest CT\n C. Chest X-ray\n D. Chest ultrasound"
+            ]
+        ],
+        "sensitivities": [
+            0.3826788808387101
+        ],
+        "posix": 0.3826788808387101
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_396_variants.json",
+    "overall_posix": 0.4131203659399988,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5626666666666666,
+            "Variation 2": 0.42465753424657526,
+            "Variation 3": 0.43288590604026844,
+            "Variation 4": 0.3868613138686132,
+            "Variation 5": 0.4401294498381877,
+            "Variation 6": 0.42140468227424743,
+            "Variation 7": 0.31746031746031744,
+            "Variation 8": 0.4014084507042254,
+            "Variation 9": 0.4767801857585139,
+            "Variation 10": 0.26694915254237284
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no],Answer:\n<image> Yes\n Instructions:\u00a0The following X-ray image is of a chest radiograph. Please indicate whether the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following",
+                "<s> Question-Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2757\u2757True\n No\n \u2757\u2757False\n ANSWER:True\n The X-ray image shows a large area of destruction of the bony structures of the chest.",
+                "<s> QUESTION:Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> No\n The X-ray image shows no bony abnormalities.\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumonia\n B.Pneumothorax\n C",
+                "<s> QUESTION:Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n B\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:Tuberculosis\n C:Pulmonary edema\n",
+                "<s> Question::: Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumothorax\n B. Pulmonary contusion\n C. Pulmonary edema\n D. Pulmonary hemor",
+                "<s> QUESTION\tDo the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n 1.\tYes\n 2.\tNo\n Rationale:\tThe X-ray image shows a large area of destruction of the bony structures of the chest. The",
+                "<s> Question:Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the diagnosis?\n Chest X-ray: chest tube in situ\n 10\n 11\n 12\n 13\n 14\n ",
+                "<s> QUESTION:Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumomediastinum\n C.Pneumopericardium\n D.P",
+                "<s> Question:Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following image is an X-ray of the chest.\n 1.The bony structures of the chest appear damaged or abnormal in the X-ray image.\n 2.The",
+                "<s> Q::: Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::"
+            ]
+        ],
+        "sensitivities": [
+            0.4131203659399988
+        ],
+        "posix": 0.4131203659399988
+    }
+}

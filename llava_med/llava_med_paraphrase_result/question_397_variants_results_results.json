@@ -1,0 +1,189 @@
+{
+    "file_name": "question_397_variants_results.json",
+    "overall_posix": 0.8499832099935399,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6533267164047228,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6980663861156493,
+            "Variation 4": 0.9007880041310007,
+            "Variation 5": 1.3585570013481842,
+            "Variation 6": 1.188659199598292,
+            "Variation 7": 1.3966131720373025,
+            "Variation 8": 1.2251120780757043,
+            "Variation 9": 0.8390129137250079,
+            "Variation 10": 0.5251706621278124
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray does not show any signs of pleural effusion. ",
+                "Yes, the chest X-ray demonstrates the presence of pleural effusion, which is characterized by increased opacity in the costophrenic angle. ",
+                "The chest x-ray does not show any signs of pleural effusion. ",
+                "Yes, the chest X-ray shows fluid accumulation between the lung and chest wall, which is consistent with a diagnosis of pleural effusion. ",
+                "Yes, the chest X-ray shows signs suggestive of pleural effusion, which includes blunting of the costophrenic angle and increased density in the lower thorax. ",
+                "The chest radiograph does not show any evidence of fluid-filled space between the lung and chest wall, which would be diagnostic of pleural effusion. ",
+                "Yes, the chest X-ray shows increased fluid in the pleural space, which is causing opacity and blunting of the costophrenic angle. ",
+                "Yes, pleural effusion signs are detectable on the chest radiograph. These signs may include increased density and blurring of the lung-chest wall interface, which can be indicative of the presence of fluid or other abnormalities in",
+                "The chest X-ray does not show features suggestive of fluid accumulation in the pleural space, such as meniscus sign or Kerley B lines. ",
+                "Yes, the chest X-ray shows increased interstitial fluid, which is indicative of pleural effusion and/or pulmonary edema. ",
+                "Yes, the chest radiograph shows findings consistent with pleural effusion, which is an abnormal accumulation of fluid in the pleural space surrounding the lungs. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -40.685248798101384,
+                    -62.89835715586196,
+                    -40.685248798101384,
+                    -63.72143953991781,
+                    -77.61755696747241,
+                    -86.87618684393965,
+                    -81.09966158444331,
+                    -111.91252057200381,
+                    -84.78928360882674,
+                    -70.88971369220167,
+                    -59.59139263470263
+                ],
+                [
+                    -47.75151531727897,
+                    -41.47498071464769,
+                    -47.75151531727897,
+                    -68.19203243784068,
+                    -79.56776622749567,
+                    -87.62130876307492,
+                    -79.89840943373883,
+                    -114.68396220903924,
+                    -85.8916510568406,
+                    -76.13038095743923,
+                    -64.75664079923536
+                ],
+                [
+                    -40.685248798101384,
+                    -62.89835715586196,
+                    -40.685248798101384,
+                    -63.72143953991781,
+                    -77.61755696747241,
+                    -86.87618684393965,
+                    -81.09966158444331,
+                    -111.91252057200381,
+                    -84.78928360882674,
+                    -70.88971369220167,
+                    -59.59139263470263
+                ],
+                [
+                    -50.65595625021524,
+                    -66.70734235390432,
+                    -50.65595625021524,
+                    -42.5735948313893,
+                    -82.11396681342762,
+                    -76.32047542082,
+                    -79.96223810783908,
+                    -103.92575502442378,
+                    -85.2830591679176,
+                    -75.62795155786944,
+                    -62.02321166634522
+                ],
+                [
+                    -46.998259931271605,
+                    -69.90336411414182,
+                    -46.998259931271605,
+                    -70.1796549558062,
+                    -43.457884744149844,
+                    -88.69792580672947,
+                    -77.52853373585458,
+                    -97.26717844383711,
+                    -88.89935483398494,
+                    -76.04985986750944,
+                    -61.51081812419068
+                ],
+                [
+                    -50.48992421355797,
+                    -72.47823293536567,
+                    -50.48992421355797,
+                    -57.36176994937841,
+                    -83.97030903761515,
+                    -44.604310472474026,
+                    -87.35969256825774,
+                    -102.34980467285004,
+                    -86.54140302987071,
+                    -78.10994690603161,
+                    -54.85533141579276
+                ],
+                [
+                    -54.42199975394033,
+                    -68.7006612147079,
+                    -54.42199975394033,
+                    -69.27650268505022,
+                    -77.37952097300968,
+                    -91.86712442268617,
+                    -43.3029698135806,
+                    -111.38282479406644,
+                    -88.39038471461299,
+                    -70.33926380610956,
+                    -63.09086351628116
+                ],
+                [
+                    -51.10326687752968,
+                    -72.63331859692698,
+                    -51.10326687752968,
+                    -75.62643365057374,
+                    -77.69787325248035,
+                    -84.07882879397948,
+                    -85.28173217436415,
+                    -47.251003792215215,
+                    -94.19872405630849,
+                    -82.44913117749093,
+                    -58.58763248935327
+                ],
+                [
+                    -52.87535576413211,
+                    -70.49447289839463,
+                    -52.87535576413211,
+                    -68.16019174349549,
+                    -76.77100110000083,
+                    -88.82202089508064,
+                    -77.6364144771278,
+                    -115.9416447624335,
+                    -43.81827420405625,
+                    -72.22860774081028,
+                    -63.220539558753444
+                ],
+                [
+                    -54.05641557978379,
+                    -74.0265646305902,
+                    -54.05641557978379,
+                    -63.50512986249987,
+                    -88.42723992656965,
+                    -88.09492017560115,
+                    -79.82411769214514,
+                    -110.00914094991822,
+                    -89.14826686078868,
+                    -44.36041927092219,
+                    -62.18367924380664
+                ],
+                [
+                    -53.66178560859407,
+                    -76.95465198517195,
+                    -53.66178560859407,
+                    -74.18682982218888,
+                    -76.1577799048705,
+                    -84.70342483870263,
+                    -91.924675987917,
+                    -97.34967083800984,
+                    -91.42339578330575,
+                    -83.38919883686731,
+                    -46.08602491282409
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8499832099935399
+        ],
+        "posix": 0.8499832099935399
+    }
+}

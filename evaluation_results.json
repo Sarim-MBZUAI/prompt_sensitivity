@@ -1,0 +1,2412 @@
+{
+  "accuracy": 0.6,
+  "precision": 0,
+  "recall": 0.0,
+  "unknown_rate": 0.9874686716791979,
+  "files_processed": 399,
+  "files_skipped": 1,
+  "confusion_matrix": {
+    "tp": 0,
+    "tn": 3,
+    "fp": 0,
+    "fn": 2,
+    "unknown": 394
+  },
+  "examples": [
+    {
+      "file": "question_330_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of focal airspace consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_234_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n j\u00e4sen Is there any abnormality d"
+    },
+    {
+      "file": "question_389_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_130_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_62_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any visible pneumothorax in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_396_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Do the bony structures of the chest appear damaged or abnormal in the X-ray image? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_96_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_71_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n '</span></span></span><"
+    },
+    {
+      "file": "question_353_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any signs of pleural effusion? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_34_variants.json",
+      "ground_truth": "no, since the report explicitly states there is no pneumothorax",
+      "predicted": "unknown",
+      "response": "Is it necessary to perform additional imaging for a suspected pneumothorax based on this X-ray? Please choose from the following two options: [yes, no"
+    },
+    {
+      "file": "question_285_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the lungs clear on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_318_variants.json",
+      "ground_truth": "no (given that the report doesn't mention any)",
+      "predicted": "unknown",
+      "response": "Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_59_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of a focal infiltrate in the patient's lungs on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_216_variants.json",
+      "ground_truth": "the provided report does not mention lung masses or nodules, so the answer cannot be determined from the given information",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any lung masses or nodules? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_132_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of acute lung pathology on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_367_variants.json",
+      "ground_truth": "no, the report does not mention any fluid accumulation",
+      "predicted": "unknown",
+      "response": "Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_206_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_167_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_229_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_29_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Can calcified granulomas be seen in the left lower lobe? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_126_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_162_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_217_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_360_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any acute abnormalities in the osseous structures of the thorax on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_141_variants.json",
+      "ground_truth": "no (due to the flattening of the bilateral hemidiaphragms)",
+      "predicted": "unknown",
+      "response": "Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_256_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_90_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient show signs of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_316_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the osseous structures intact as per the chest X-ray report? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_355_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_210_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the heart size within normal limits on the X-ray image? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_116_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any indication of a pneumothorax in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_181_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_189_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_324_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the patient have flattened diaphragms in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_332_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_66_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any signs of gross consolidation? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_354_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Did the radiologist find any pleural effusions on this chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_42_variants.json",
+      "ground_truth": "the report does not mention pleural effusion, so the answer cannot be determined from the provided information",
+      "predicted": "unknown",
+      "response": "Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_95_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the heart enlarged on the X-ray image? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs the heart enlarged on the X-ray image? Pl"
+    },
+    {
+      "file": "question_299_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_202_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_212_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the heart size within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n()\">Is the heart size within normal limit"
+    },
+    {
+      "file": "question_143_variants.json",
+      "ground_truth": "no (since the report does not mention diaphragmatic abnormalities)",
+      "predicted": "unknown",
+      "response": "Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_30_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_372_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_27_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following "
+    },
+    {
+      "file": "question_196_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is the heart size within normal"
+    },
+    {
+      "file": "question_395_variants.json",
+      "ground_truth": "- no",
+      "predicted": "unknown",
+      "response": "Does the patient have a pneumothorax according to the X-ray report? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_362_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there a pneumothorax visible on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_366_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_118_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray suggest the presence of a pleural effusion? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_238_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there other abnormalities present in the lungs apart from the small nodular opacity? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_314_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are the lungs underexpanded on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_198_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is the heart size within normal"
+    },
+    {
+      "file": "question_255_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the pulmonary vascularity outside the normal limits? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_38_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray indicate the presence of focal airspace disease? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_187_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray image show any signs of pneumothorax? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_306_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have any radiographic evidence of a recent acute respiratory infection on this chest X-ray? Please choose from the following two opti"
+    },
+    {
+      "file": "question_335_variants.json",
+      "ground_truth": "no. (based on the provided report stating the lungs are clear.)",
+      "predicted": "unknown",
+      "response": "Are the lungs over-inflated on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nAre the lungs over-inflated "
+    },
+    {
+      "file": "question_211_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_263_variants.json",
+      "ground_truth": "no information provided (the report does not mention the diaphragm, so we cannot infer an answer)",
+      "predicted": "unknown",
+      "response": "Has the chest X-ray revealed any abnormalities in the diaphragm? Please choose from the following two options: [yes, no]\nHas the chest X-ray revealed "
+    },
+    {
+      "file": "question_370_variants.json",
+      "ground_truth": "no (the report mentions an unspecified part of the aorta with this measurement, not the arch specifically)",
+      "predicted": "unknown",
+      "response": "Is the aortic arch approximately 5 cm in diameter? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_298_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_9_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_310_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the included osseous (bone) structures appearing intact on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_226_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_342_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the chest X-ray indicative of any acute cardiopulmonary disease? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs the chest X-ray"
+    },
+    {
+      "file": "question_264_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the cardiomediastinal silhouette of the patient normal in appearance on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_193_variants.json",
+      "ground_truth": "no (since the heart contours are reported as normal and the lungs are clear)",
+      "predicted": "unknown",
+      "response": "Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two opt"
+    },
+    {
+      "file": "question_213_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of lung collapse or atelectasis on the current chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_70_variants.json",
+      "ground_truth": "no, since the lungs are reported as clear",
+      "predicted": "unknown",
+      "response": "Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_311_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have a pleural effusion according to the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_209_variants.json",
+      "ground_truth": "not mentioned, but no acute abnormalities are reported",
+      "predicted": "unknown",
+      "response": "Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_304_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_236_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_89_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_381_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are there calcifications present in the left hilar lymph nodes according to the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_361_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are there calcifications present in the aorta? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_317_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the mediastinum abnormally widened on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_393_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there a visible pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_58_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any abnormalities detected in the lung fields? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_154_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is there a calcified granuloma present in the right lower lobe? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_368_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray suggest the patient has a pneumothorax? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_40_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any acute bone fractures or abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_111_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_12_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nAre there signs of "
+    },
+    {
+      "file": "question_148_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_371_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following t"
+    },
+    {
+      "file": "question_383_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_388_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Has there been any change in the heart and lungs since the previous interval? Please choose from the following two options: [yes, no]\n j\u00e4senHas there "
+    },
+    {
+      "file": "question_65_variants.json",
+      "ground_truth": "- can focal consolidation be seen in the chest x-ray? no",
+      "predicted": "no",
+      "response": "- Is there evidence of large pleural effusion on the patient's chest X-ray? No Please choose from the following two options: [yes, no]\n Is there evide"
+    },
+    {
+      "file": "question_204_variants.json",
+      "ground_truth": "no (as the report states the lungs are clear)",
+      "predicted": "unknown",
+      "response": "Is there a presence of a foreign body within the lungs? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_329_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_186_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_222_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there abnormalities in the heart size or mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_243_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the heart's contour abnormal on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs the heart's contour a"
+    },
+    {
+      "file": "question_359_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of pleural effusion on this chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_123_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_119_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_323_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nAre t"
+    },
+    {
+      "file": "question_384_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any signs of pleural effusions? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_47_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nAre there any abnormalities d"
+    },
+    {
+      "file": "question_137_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there signs of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_174_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_197_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_319_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the X-ray image suggest the presence of a pneumothorax? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_105_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_135_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the cardiac silhouette size normal in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_254_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Has a pneumothorax been identified on the chest X-ray? Please choose from the following two options: [yes, no]\nHas a pneumothorax been identified on t"
+    },
+    {
+      "file": "question_244_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray reveal any lung nodules or masses? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_277_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have an enlarged heart on their chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_54_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are lung opacities present in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_207_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any fractures visible in the bones of the chest on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_237_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have any pleural effusion? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_307_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any significant abnormalities detected in the right lung? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_302_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_158_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any noteworthy findings in the mediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_145_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the heart size on the X-ray within normal limits? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_340_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the pulmonary vascular markings within normal limits? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_312_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is a pneumothorax present in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n '</span></span></span></span></span><"
+    },
+    {
+      "file": "question_99_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the heart size abnormal on the chest X-ray image? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs the heart size abnormal on the"
+    },
+    {
+      "file": "question_69_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a focal infiltrate be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_76_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_258_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a suspicious pulmonary opacity be seen on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_356_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_322_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_321_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are there any signs of chronic spinal changes such as osteophytes on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_52_variants.json",
+      "ground_truth": "yes",
+      "predicted": "no",
+      "response": "Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_23_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are the cardiomediastinal contours abnormal? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_293_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_275_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Could the bandlike opacities indicate scarring? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_184_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is there any abnormality noted in the right costophrenic angle? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_4_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is there degenerative disease visible in the thoracic spine on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_106_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, n"
+    },
+    {
+      "file": "question_37_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a pleural effusion be seen on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_245_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n Canyon a pleural effusion be seen on the c"
+    },
+    {
+      "file": "question_140_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there signs of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_225_variants.json",
+      "ground_truth": "no answer can be provided as the report does not mention a comparison with previous studies",
+      "predicted": "unknown",
+      "response": "Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\n j\u00e4sen"
+    },
+    {
+      "file": "question_138_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_32_variants.json",
+      "ground_truth": "no, the heart is normal in size and contour",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray suggest the patient might have heart failure? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_44_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_35_variants.json",
+      "ground_truth": "no (assuming \"grossly normal\" refers to the xxxx)",
+      "predicted": "unknown",
+      "response": "Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray"
+    },
+    {
+      "file": "question_56_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the heart size abnormal in the chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is the heart size abnormal in the chest X-r"
+    },
+    {
+      "file": "question_64_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_188_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient show any signs of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_398_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the cardiomediastinal silhouette appearing normal on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_55_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any signs of an enlarged heart? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_386_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any abnormalities noted in the bony structures in the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_278_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_219_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_77_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the pulmonary vascularity on the chest X-ray image abnormal? Please choose from the following two options: [yes, no]\n()\">Is the pulmonary vasculari"
+    },
+    {
+      "file": "question_363_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_98_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any focal consolidation visible on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_93_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_153_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs the heart size enlarged on the chest"
+    },
+    {
+      "file": "question_399_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_19_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_112_variants.json",
+      "ground_truth": "no (assuming \"xxxx\" refers to a part of the anatomy or structure that should be intact, based on the context of the report)",
+      "predicted": "unknown",
+      "response": "Is there any visible damage to the XXXX on the chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs there any visible damag"
+    },
+    {
+      "file": "question_45_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_5_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the cardiac silhouette enlarged? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs the cardiac silhouette enlarged? Please choose "
+    },
+    {
+      "file": "question_88_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_131_variants.json",
+      "ground_truth": "no (they are described as slightly low)",
+      "predicted": "unknown",
+      "response": "Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_156_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\n()\">Is the chest X-ray clear of any acute"
+    },
+    {
+      "file": "question_391_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_249_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are the lung fields overinflated, suggesting a possible obstructive lung disease like COPD? Please choose from the following two options: [yes, no]\n\u00c3\u00c2"
+    },
+    {
+      "file": "question_166_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the heart appear enlarged in this chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_109_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any signs of chronic lung disease? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_51_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are any pulmonary nodules or masses visible? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_8_variants.json",
+      "ground_truth": "no (assuming the patient has no clinical symptoms that would require intervention)",
+      "predicted": "unknown",
+      "response": "Is there a need for immediate intervention based on heart or lung findings on this X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_230_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is there evidence of pneum"
+    },
+    {
+      "file": "question_50_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_107_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_224_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of focal lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_117_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any indication of pleural effusion in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_276_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have any visible lung opacities on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_20_variants.json",
+      "ground_truth": "the provided report does not specify chronic lung disease, so cannot determine a yes or no without additional information or reviewing the image",
+      "predicted": "unknown",
+      "response": "Is there evidence of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_289_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_290_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_28_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray report indicate an enlarged heart? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_87_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nAre the lungs clear on the X-ray? Please choose from"
+    },
+    {
+      "file": "question_382_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_159_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_313_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_182_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_286_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_173_variants.json",
+      "ground_truth": "no, if we consider that an active infection typically results in certain radiographic findings which are not noted in the report",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_272_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there signs of pulmonary edema on this chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_231_variants.json",
+      "ground_truth": "no, since the heart size is within normal limits and no pulmonary opacities are mentioned, which suggests that the mediastinal contour is likely normal",
+      "predicted": "unknown",
+      "response": "Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_60_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_191_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show a presence of pneumothorax on the right side? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_129_variants.json",
+      "ground_truth": "no (since the report mentions \"minimal right-sided pleural effusion,\" it is not significant)",
+      "predicted": "unknown",
+      "response": "Does the patient have a significant right-sided pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_265_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have an enlarged heart? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_195_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no]\n()\">Is there evidence of coll"
+    },
+    {
+      "file": "question_164_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_262_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_53_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there pulmonary edema evident on the chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is there pulmonary edema evident on t"
+    },
+    {
+      "file": "question_192_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Do the lungs appear to be fully expanded? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_357_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any acute bony abnormalities? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_341_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the pulmonary vasculature reported as abnormal in the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_1_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the X-ray image show any signs of pneumothorax? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_280_variants.json",
+      "ground_truth": "no (based on no cardiomediastinal enlargement and absence of pleural effusion)",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_331_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nAre the lungs clear on the X-ray? Please choose from"
+    },
+    {
+      "file": "question_67_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are the lung volumes within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n j\u00e4sen are the lung volumes with"
+    },
+    {
+      "file": "question_149_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_309_variants.json",
+      "ground_truth": "no (based on information given \"free of focal airspace disease\")",
+      "predicted": "unknown",
+      "response": "Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\n j\u00e4senHas the radiologist i"
+    },
+    {
+      "file": "question_345_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the pulmonary vascularity abnormal on the X-ray? Please choose from the following two options: [yes, no]\n()\">Is the pulmonary vascularity abnormal "
+    },
+    {
+      "file": "question_63_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can an acute infiltrate be identified on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_247_variants.json",
+      "ground_truth": "no (normal pulmonary vascularity suggests no edema)",
+      "predicted": "unknown",
+      "response": "Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_218_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_271_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any abnormalities in the mediastinal contour? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_252_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_292_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the patient have normal cardiomediastinal contours considering their lung volumes and patient rotation? Please choose from the following two opti"
+    },
+    {
+      "file": "question_155_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_215_variants.json",
+      "ground_truth": "no. (the infiltrate is in the right lower lobe.)",
+      "predicted": "unknown",
+      "response": "Are there any signs of pneumonia in the left lower lobe on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_374_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_308_variants.json",
+      "ground_truth": "no (the report does not mention any lymphadenopathy)",
+      "predicted": "unknown",
+      "response": "Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_113_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs th"
+    },
+    {
+      "file": "question_348_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the airspace opacity in the posterior left lower lobe clearly defined? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_257_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Has a broken rib or any bone abnormality been detected in the X-ray? Please choose from the following two options: [yes, no]\n j\u00e4senHas a broken rib or"
+    },
+    {
+      "file": "question_239_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_259_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any sign of pneumothorax on the chest X-ray image? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_392_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any acute bony abnormalities noted on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_84_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any abnormalities in the mediastinal contours? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_180_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any presence of pneumothorax? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_349_variants.json",
+      "ground_truth": "6. is the right middle lobe collapse more distinct compared to the prior study on this chest x-ray? - no",
+      "predicted": "no",
+      "response": "Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]\n()\">Is there any l"
+    },
+    {
+      "file": "question_279_variants.json",
+      "ground_truth": "no (x-rays cannot confirm stability or progression without comparing them to previous x-rays. also, the report only indicates the present state, not changes over time.)",
+      "predicted": "unknown",
+      "response": "Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_146_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any sign of focal opacification in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n j\u00e4sen Is there any sign o"
+    },
+    {
+      "file": "question_18_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is there any evidence of colla"
+    },
+    {
+      "file": "question_385_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Can we see signs of thoracic spondylosis on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_338_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of consolidation on the current chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_242_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_73_variants.json",
+      "ground_truth": "the report does not mention any masses or lung tumors, so the answer would be no based on the provided information",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any masses or lung tumors? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_240_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray indicate the presence of a pneumothorax? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_274_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the left lung clear on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_13_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_394_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_246_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any sign of a collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_328_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_297_variants.json",
+      "ground_truth": "8. is mediastinal widening observed on the chest x-ray? - no",
+      "predicted": "unknown",
+      "response": " Please choose from the following two options: [yes, no]\n '</span>\n '</span>\n '</span>\n '</span>\n '</span>\n '</span>\n '</span>\n '</span>\n '</span>\n '<"
+    },
+    {
+      "file": "question_14_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the mediastinum appear to be abnormal on this chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_103_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_165_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_185_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the frontal view of the chest X-ray indicate low lung volumes? Please choose from the following two options: [yes, no]\n()\">Does the frontal view "
+    },
+    {
+      "file": "question_114_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is there a visible calcified granuloma in the left lung base on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_157_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have a pleural effusion according to the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_336_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_267_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any focal airspace consolidation visible on this chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is there any focal "
+    },
+    {
+      "file": "question_241_variants.json",
+      "ground_truth": "no (since the heart size is normal and typically the mediastinum contains the heart)",
+      "predicted": "unknown",
+      "response": "Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_26_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can pneumothorax be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_288_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any sign of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_339_variants.json",
+      "ground_truth": "- no",
+      "predicted": "unknown",
+      "response": "Are there any indications of pleural effusion? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_36_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_273_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient show signs of pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_232_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have an enlarged heart on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_172_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_364_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of fluid in the pleural spaces on the chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is there evidence of "
+    },
+    {
+      "file": "question_352_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_79_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any noteworthy findings in the bones or soft tissues in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_75_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Has an acute displaced rib fracture been identified on the chest X-ray? Please choose from the following two options: [yes, no]\n j\u00e4senHas an acute dis"
+    },
+    {
+      "file": "question_142_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the heart of abnormal size as suggested by the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_269_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the lungs clear of any focal consolidation or infection? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_147_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the patient have an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_160_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the patient have streaky and patchy bibasilar opacities? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_102_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs the heart size abnormal on this X-ray? Pl"
+    },
+    {
+      "file": "question_358_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_233_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_199_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have an acute displaced rib fracture according to the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_377_variants.json",
+      "ground_truth": "no (the report describes the heart size as \"upper limits of normal\", not definitively enlarged)",
+      "predicted": "unknown",
+      "response": "Is it safe to say that the heart is definitely enlarged, based on the chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is it s"
+    },
+    {
+      "file": "question_21_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is a pneumothorax present on the chest X-ray? Please choose from the following two options: [yes, no]\n '</span></span></span></span></span></span></sp"
+    },
+    {
+      "file": "question_171_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of a pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_78_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\n\n"
+    },
+    {
+      "file": "question_83_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is there evidence of pneum"
+    },
+    {
+      "file": "question_124_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the lungs free of any focal consolidations? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_291_variants.json",
+      "ground_truth": "- yes, as small calcified lymph nodes are noted",
+      "predicted": "unknown",
+      "response": "Are small calcified lymph nodes identified on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_194_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_260_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_301_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_115_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_48_variants.json",
+      "ground_truth": "no (it measures approximately 2.0 cm.)",
+      "predicted": "unknown",
+      "response": "0 cm? Please choose from the following two options: [yes, no]\n084 cm? Please choose from the following two options: [yes, no]\n084 cm? Please choose fr"
+    },
+    {
+      "file": "question_104_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_85_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Has the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no]\nHas the "
+    },
+    {
+      "file": "question_369_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of lung consolidation on the chest X-ray image? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs there evidence of"
+    },
+    {
+      "file": "question_41_variants.json",
+      "ground_truth": "yes",
+      "predicted": "no",
+      "response": "Are there clear lung fields with no additional findings other than the right upper lobe nodule? Please choose from the following two options: [yes, no"
+    },
+    {
+      "file": "question_387_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Have the bilateral interstitial opacities worsened compared to a previous exam? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_190_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any abnormalities in the pulmonary vascularity? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_251_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_108_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are the pulmonary vasculature abnormalities evident in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_344_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are the borders of the mediastinum obscured or abnormal in the current chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_92_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are the mediastinal contours abnormal? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_205_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_46_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there a pneumothorax present on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_121_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is there any evidenc"
+    },
+    {
+      "file": "question_86_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Were external monitor leads present on the thorax during the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_248_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_268_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_122_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_125_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\n j\u00e4sen Is there evidence of lu"
+    },
+    {
+      "file": "question_337_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_282_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any evidence of pleural effusion? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_228_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n '</span></span></span></s"
+    },
+    {
+      "file": "question_220_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_325_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there a significant difference in the lung appearance compared to the prior exam? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_33_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the lungs of the patient appearing well-inflated on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_200_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is there mild multilevel degenerative disc disease of the thoracolumbar spine indicated on the chest X-ray? Please choose from the following two optio"
+    },
+    {
+      "file": "question_346_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_134_variants.json",
+      "ground_truth": "yes (assuming \"xxxx\" meant to imply characteristics seen in pulmonary edema)",
+      "predicted": "unknown",
+      "response": "Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_168_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_163_variants.json",
+      "ground_truth": "no (assuming the term \"unremarkable\" refers to osseous structures)",
+      "predicted": "unknown",
+      "response": "Is there any evidence of rib fractures on the chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is there any evidence of rib fr"
+    },
+    {
+      "file": "question_151_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient show any evidence of a cardiac or mediastinal abnormality on the chest X-ray? Please choose from the following two options: [yes, no]"
+    },
+    {
+      "file": "question_139_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can any masses be detected within the lungs on this X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_327_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_39_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the heart size of the patient abnormal? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_294_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of acute infection like infiltrates in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_334_variants.json",
+      "ground_truth": "8. can pneumothorax be observed in the x-ray image? - no",
+      "predicted": "no",
+      "response": "Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_82_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_223_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any visible masses or nodules in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_281_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a pleural effusion be seen in the chest X-ray? Please choose from the following two options: [yes, no]\n Canyon a pleural effusion be seen in the c"
+    },
+    {
+      "file": "question_397_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_2_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_261_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is pneumothorax visible on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_7_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the pulmonary vascularity increased on the chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is the pulmonary vascularity in"
+    },
+    {
+      "file": "question_100_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have a pleural effusion according to the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_25_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of a foreign body in the chest on the X-ray? Please choose from the following two options: [yes, no]\n j\u00e4sen Is there any evidenc"
+    },
+    {
+      "file": "question_169_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_31_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any focal infiltrate visible in the patient's lungs on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_347_variants.json",
+      "ground_truth": "- no",
+      "predicted": "unknown",
+      "response": "Can any fluid accumulation be seen within the pleural spaces of the lungs on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_320_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of pleural effusions on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_201_variants.json",
+      "ground_truth": "no (assuming \"xxxx\" does not refer to congestion or another finding that wasn't fully reported)",
+      "predicted": "unknown",
+      "response": "Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_333_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\nHas the chest X-ray detected any lung masses? Pl"
+    },
+    {
+      "file": "question_350_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are there degenerative changes present in the thoracic spine? Please choose from the following two options: [yes, no]\n '</span></span></span></span></"
+    },
+    {
+      "file": "question_22_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_11_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_150_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient show any evidence of pneumonia on their chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_120_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_303_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any visible lung tumors on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_235_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_284_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show any signs of a pneumothorax? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_136_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs the heart enlarged on the X-ray? Please choose "
+    },
+    {
+      "file": "question_68_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs the heart size enlarged on the chest"
+    },
+    {
+      "file": "question_390_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can any mass or tumor be seen in the lungs? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_81_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_16_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any nodules or masses visible in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_161_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the scarring mentioned as being widespread throughout both lungs? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_10_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_176_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_283_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_379_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\n()\">Is the thoracic spine showing any sig"
+    },
+    {
+      "file": "question_175_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a pleural effusion be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n Canyon a pleural effusion be observed "
+    },
+    {
+      "file": "question_110_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_373_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the pulmonary vascularity outside of normal limits? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_24_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nAre"
+    },
+    {
+      "file": "question_227_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs the heart silhouette of "
+    },
+    {
+      "file": "question_305_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is there any evidence of pneumot"
+    },
+    {
+      "file": "question_208_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_127_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_221_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any large pleural effusions present on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_295_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient demonstrate cardiomegaly on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_250_variants.json",
+      "ground_truth": "the report only mentions that the changes are stable, so new x-rays would be required to definitively answer whether they have worsened recently or not, but based on the report alone, the assumption is no",
+      "predicted": "unknown",
+      "response": "Have the degenerative changes of the thoracic spine worsened recently based on the chest X-ray? Please choose from the following two options: [yes, no"
+    },
+    {
+      "file": "question_287_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_343_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_214_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any focal consolidation present on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_365_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n()\">Is there any evidence of pneumot"
+    },
+    {
+      "file": "question_152_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of mediastinal widening on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_178_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_43_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_183_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_94_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: ["
+    },
+    {
+      "file": "question_6_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nAre the"
+    },
+    {
+      "file": "question_72_variants.json",
+      "ground_truth": "- no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of pneumothorax in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_376_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of a pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_253_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any acute bony abnormalities visible on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_375_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nBase on t"
+    },
+    {
+      "file": "question_315_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_300_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_49_variants.json",
+      "ground_truth": "no (since the report states the consolidation and blunting persist)",
+      "predicted": "unknown",
+      "response": "Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\nHas the"
+    },
+    {
+      "file": "question_57_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any discrete pulmonary nodules or signs of adenopathy indicated in the chest X-ray? Please choose from the following two options: [yes, no]\n"
+    },
+    {
+      "file": "question_61_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_266_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Is the size of the heart within normal limits according to the X-ray image? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_144_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the chest X-ray suggestive of any congestion in the pulmonary vasculature? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_326_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any fractures or abnormalities in the osseous structures included in the chest X-ray? Please choose from the following two options: [yes, no"
+    },
+    {
+      "file": "question_128_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_74_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_203_variants.json",
+      "ground_truth": "- no",
+      "predicted": "unknown",
+      "response": "Is there evidence of a pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_170_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n Canyon a pleural effusion be seen on the c"
+    },
+    {
+      "file": "question_133_variants.json",
+      "ground_truth": "- no",
+      "predicted": "unknown",
+      "response": "Are there any abnormalities with the osseous structures according to the patient's age? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_17_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the patient's heart size abnormal as seen on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_80_variants.json",
+      "ground_truth": "yes, since there is no mention of any mediastinal shift or abnormality",
+      "predicted": "unknown",
+      "response": "Is the mediastinum normally positioned on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_351_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there evidence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_97_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_177_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can any pleural effusion be detected on this chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_296_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_3_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Does the patient have evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_91_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there any acute bone injuries detected on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_380_variants.json",
+      "ground_truth": "yes (assuming the xxxx in the report was meant to indicate location specifics that are left out)",
+      "predicted": "unknown",
+      "response": "Are there signs of subsegmental atelectasis in the left lung on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_101_variants.json",
+      "ground_truth": "yes",
+      "predicted": "unknown",
+      "response": "Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_378_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Can pneumothorax be observed in the X-ray image? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3"
+    },
+    {
+      "file": "question_270_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_15_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2"
+    },
+    {
+      "file": "question_400_variants.json",
+      "ground_truth": "no",
+      "predicted": "unknown",
+      "response": "Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nIs the heart size enlarged on the chest"
+    }
+  ],
+  "f1": 0
+}

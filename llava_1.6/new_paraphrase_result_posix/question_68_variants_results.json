@@ -1,0 +1,189 @@
+{
+    "file_name": "question_68_variants.json",
+    "overall_posix": 4.918504013990752,
+    "detailed_scores": [
+        {
+            "Variation 1": 6.074033582210541,
+            "Variation 2": 1.4954948902130127,
+            "Variation 3": 0.44107999927119207,
+            "Variation 4": 4.829454533515438,
+            "Variation 5": 2.6059924336996945,
+            "Variation 6": 1.2160270151339079,
+            "Variation 7": 4.834874376654625,
+            "Variation 8": 5.348467279703189,
+            "Variation 9": 5.6384008790171425,
+            "Variation 10": 2.438572870059447
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the heart size on the chest X-ray appears to be normal.",
+                "Based on the image provided, there is no clear evidence of cardiomegaly on the chest X-ray. The lungs appear to be clear, and there are no visible signs of heart enlargement or other cardiac abnormalities.",
+                "Yes, the cardiac silhouette appears enlarged on the chest radiograph.",
+                "No, the heart dimension on the chest X-ray image appears to be normal.",
+                "Yes, the cardiothoracic ratios on the chest film appear to be elevated, indicating an enlarged heart size.",
+                "No, the heart size on the provided chest X-ray does not exceed the predicted normal range.",
+                "Yes, the heart shadow appears to be larger than expected on the chest radiograph.",
+                "No, there is no evidence of cardiac hypertrophy visible on the chest X-ray. The image shows a normal chest X-ray with the heart and lungs clearly visible.",
+                "No, the cardiothoracic diameters do not indicate an increased heart size on the provided image. The image shows a normal-sized heart within the chest cavity.",
+                "Based on the image provided, it appears that the heart is enlarged, which is not consistent with a normal-sized heart. The dimensions of the heart are larger than what is typically considered normal.",
+                "Yes, the cardiac silhouette appears more prominent than usual on the chest X-ray."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -164.25562417507172,
+                    -467.95730328559875,
+                    -194.16552197933197,
+                    -172.63614416122437,
+                    -313.9687147140503,
+                    -221.587457716465,
+                    -187.36013746261597,
+                    -357.6505992412567,
+                    -372.8458480834961,
+                    -406.70686197280884,
+                    -217.90422731637955
+                ],
+                [
+                    -168.76988124847412,
+                    -496.32648611068726,
+                    -211.37451720237732,
+                    -170.2788041830063,
+                    -311.5153217315674,
+                    -196.9121076464653,
+                    -171.4583624601364,
+                    -389.59954285621643,
+                    -374.2236497402191,
+                    -429.9868338108063,
+                    -218.83029860258102
+                ],
+                [
+                    -167.5519335269928,
+                    -467.5046920776367,
+                    -207.9354411959648,
+                    -177.0084906220436,
+                    -314.1955325603485,
+                    -208.16819834709167,
+                    -189.26001554727554,
+                    -394.06876826286316,
+                    -388.85239243507385,
+                    -423.2433968782425,
+                    -227.9302361011505
+                ],
+                [
+                    -168.76988124847412,
+                    -496.32648611068726,
+                    -211.37451720237732,
+                    -170.2788041830063,
+                    -311.5153217315674,
+                    -196.9121076464653,
+                    -171.4583624601364,
+                    -389.59954285621643,
+                    -374.2236497402191,
+                    -429.9868338108063,
+                    -218.83029860258102
+                ],
+                [
+                    -160.92672610282898,
+                    -493.5101726055145,
+                    -202.15036129951477,
+                    -172.8788046836853,
+                    -311.29147577285767,
+                    -218.95822405815125,
+                    -186.2855842113495,
+                    -377.79070234298706,
+                    -376.20538997650146,
+                    -398.93532609939575,
+                    -222.65902495384216
+                ],
+                [
+                    -167.5519335269928,
+                    -467.5046920776367,
+                    -207.9354411959648,
+                    -177.0084906220436,
+                    -314.1955325603485,
+                    -208.16819834709167,
+                    -189.26001554727554,
+                    -394.06876826286316,
+                    -388.85239243507385,
+                    -423.2433968782425,
+                    -227.9302361011505
+                ],
+                [
+                    -167.5519335269928,
+                    -467.5046920776367,
+                    -207.9354411959648,
+                    -177.0084906220436,
+                    -314.1955325603485,
+                    -208.16819834709167,
+                    -189.26001554727554,
+                    -394.06876826286316,
+                    -388.85239243507385,
+                    -423.2433968782425,
+                    -227.9302361011505
+                ],
+                [
+                    -173.04673594236374,
+                    -492.6059789657593,
+                    -211.09784817695618,
+                    -185.81782960891724,
+                    -329.74937760829926,
+                    -215.6579321026802,
+                    -191.61035203933716,
+                    -378.5183136463165,
+                    -383.0784511566162,
+                    -428.73022079467773,
+                    -228.21925765275955
+                ],
+                [
+                    -166.5604066848755,
+                    -499.16380536556244,
+                    -197.2105050086975,
+                    -171.60911297798157,
+                    -308.5598177909851,
+                    -209.51127672195435,
+                    -187.9751799106598,
+                    -351.20382583141327,
+                    -383.8965446949005,
+                    -413.02252888679504,
+                    -226.08957386016846
+                ],
+                [
+                    -168.76988124847412,
+                    -496.32648611068726,
+                    -211.37451720237732,
+                    -170.2788041830063,
+                    -311.5153217315674,
+                    -196.9121076464653,
+                    -171.4583624601364,
+                    -389.59954285621643,
+                    -374.2236497402191,
+                    -429.9868338108063,
+                    -218.83029860258102
+                ],
+                [
+                    -173.04673594236374,
+                    -492.6059789657593,
+                    -211.09784817695618,
+                    -185.81782960891724,
+                    -329.74937760829926,
+                    -215.6579321026802,
+                    -191.61035203933716,
+                    -378.5183136463165,
+                    -383.0784511566162,
+                    -428.73022079467773,
+                    -228.21925765275955
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.918504013990752
+        ],
+        "posix": 4.918504013990752
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_102_variants.json",
+    "overall_posix": 0.40570797454338636,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.32307692307692304,
+            "Variation 2": 0.5631399317406144,
+            "Variation 3": 0.5362318840579711,
+            "Variation 4": 0.3400000000000001,
+            "Variation 5": 0.5367647058823529,
+            "Variation 6": 0.4448979591836735,
+            "Variation 7": 0.2541436464088398,
+            "Variation 8": 0.2248520710059172,
+            "Variation 9": 0.4940711462450593,
+            "Variation 10": 0.33990147783251223
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::: Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Rationale:The heart size is normal on this X-ray. The heart size is normal on this X-ray. The heart size is normal on this X-ray. The heart",
+                "<s> QUESTION:Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Explanation:\n This is a frontal chest radiograph of a 15-year-old boy who presented with a 2-week history of\n shortness of",
+                "<s> Q::Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question-Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n 100% True. The heart is enlarged in this X-ray. The heart is enlarged in this X-ray. The heart is enlarged in this X-ray. The heart is enlarg",
+                "<s> question:Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n1.Yes\n 2.No\n\n 1.Yes\n 2.No\n You have marked [2] as the answer.The correct answer is [1].\n 1.The heart size is normal.\n",
+                "<s> QUESTION\tIs the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Q:Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 5:\n 4:\n 3:\n 6:\n 7:\n 2:\n 8:\n 9",
+                "<s> QUESTION:Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n 3.\n QUE",
+                "<s> question::Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n Aortic enlargement is present.\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 10"
+            ]
+        ],
+        "sensitivities": [
+            0.40570797454338636
+        ],
+        "posix": 0.40570797454338636
+    }
+}

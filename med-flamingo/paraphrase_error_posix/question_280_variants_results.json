@@ -1,0 +1,42 @@
+{
+    "file_name": "question_280_variants.json",
+    "overall_posix": 0.29670470191264375,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.12307692307692308,
+            "Variation 2": 0.2599118942731278,
+            "Variation 3": 0.27234042553191484,
+            "Variation 4": 0.5361842105263158,
+            "Variation 5": 0.18721461187214605,
+            "Variation 6": 0.5352564102564102,
+            "Variation 7": 0.2904564315352698,
+            "Variation 8": 0.2763157894736843,
+            "Variation 9": 0.28629032258064524,
+            "Variation 10": 0.19999999999999996
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray indicate signs suggestive of congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence on the chest X-ray to suggest that the patient may have developed congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Can you confirm whether the findings on the chest X-ray are consistent with the presence of congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic features on the chest X-ray that might be indicative of congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1. Loss of the normal cardiac silhouette\n 2. Cardiomegaly\n 3. Enlarged pulmonary vessels\n 4. Interstitial edema\n 5. Al of the above",
+                "<s> Does the chest X-ray display characteristics consistent with a diagnosis of congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Would you say that the imaging findings on the chest X-ray are supportive of a clinical diagnosis of congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1. Constrictive pericarditis\n 2. Cardiac tamponade\n 3. Cardiac failure\n 4. Pulmonary edema\n 5. Pulmonary embolism\n 6.",
+                "<s> Do the radiologic findings on the chest X-ray indicate an increased likelihood of congestive heart failure in this patient? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any abnormalities visible on the chest X-ray that could be associated with congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you confirm whether the imaging study suggests the presence of signs typically seen in patients with congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is it possible to infer from the chest X-ray findings that the patient might have developed congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.29670470191264375
+        ],
+        "posix": 0.29670470191264375
+    }
+}

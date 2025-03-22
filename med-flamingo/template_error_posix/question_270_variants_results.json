@@ -1,0 +1,42 @@
+{
+    "file_name": "question_270_variants.json",
+    "overall_posix": 0.3909120201007487,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.33490566037735847,
+            "Variation 2": 0.33490566037735847,
+            "Variation 3": 0.3063583815028902,
+            "Variation 4": 0.5190311418685121,
+            "Variation 5": 0.2736318407960199,
+            "Variation 6": 0.5155709342560554,
+            "Variation 7": 0.29807692307692313,
+            "Variation 8": 0.5427631578947368,
+            "Variation 9": 0.32727272727272727,
+            "Variation 10": 0.45660377358490567
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the diagnosis?\n Pneumonia\n 2\n 1\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10",
+                "<s> Question:Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the diagnosis?\n Pneumonia\n 2\n 1\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10",
+                "<s> Question-Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2794\u2794\u2794\n \u2794\u2794\u2794\n \u2794\u2794\u2794\n \u2794\u2794\u2794\n \u2794",
+                "<s> Q::Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Are there signs of pneum",
+                "<s> Q:Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:What is",
+                "<s> Q:Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:What is the most likely diagnosis?\n A:Pneumonia\n Q:What is the most likely cause of the pneumonia?\n A:Bacterial\n Q:What is the most likely organism?",
+                "<s> q:::Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n The X-ray shows a large area of consolidation in the right upper lobe, with a cavity in the left upper lobe.\n QUESTION:What is the most likely diagnosis?\n A.P",
+                "<s> q::Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n 19.  A 55-year-old man has been in",
+                "<s> QUESTION:Are there signs of pneumonia in the lungs on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n 3.\n QUESTION:What is the most likely cause of the pneumonia"
+            ]
+        ],
+        "sensitivities": [
+            0.3909120201007487
+        ],
+        "posix": 0.3909120201007487
+    }
+}

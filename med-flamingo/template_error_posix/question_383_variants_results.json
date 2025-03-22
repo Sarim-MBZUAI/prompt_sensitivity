@@ -1,0 +1,42 @@
+{
+    "file_name": "question_383_variants.json",
+    "overall_posix": 0.4285357128681432,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4871794871794872,
+            "Variation 2": 0.45833333333333326,
+            "Variation 3": 0.5128205128205128,
+            "Variation 4": 0.5192307692307693,
+            "Variation 5": 0.24375000000000002,
+            "Variation 6": 0.48397435897435903,
+            "Variation 7": 0.4967948717948718,
+            "Variation 8": 0.5256410256410257,
+            "Variation 9": 0.1923076923076923,
+            "Variation 10": 0.3653250773993808
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\n 12. Is there any indication of an",
+                "<s> Question::: Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Acute osteomyelitis\n B. Acute osteoporosis\n C. Acute osteochondritis\n",
+                "<s> Question:Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please mark the circle corresponding to your answer.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9",
+                "<s> Q:Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.\n 8",
+                "<s> Question:Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> question:Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n Yes\n [no, yes]\n 10.Question:Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\n",
+                "<s> q::Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> Q::: Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\n A:\n",
+                "<s> Q:Is there any indication of an acute bony abnormality visible on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> No\n The X-ray shows a normal thoracic spine.\n Q:Is there any evidence of a fracture of the thoracic spine? Please choose from the following two options: [yes, no]\n Answer"
+            ]
+        ],
+        "sensitivities": [
+            0.4285357128681432
+        ],
+        "posix": 0.4285357128681432
+    }
+}

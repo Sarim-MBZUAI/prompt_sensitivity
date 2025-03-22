@@ -1,0 +1,189 @@
+{
+    "file_name": "question_35_variants.json",
+    "overall_posix": 1.374823296910792,
+    "detailed_scores": [
+        {
+            "Variation 1": 2.7828214025497435,
+            "Variation 2": 3.091421570777893,
+            "Variation 3": 2.0449671226999033,
+            "Variation 4": 2.6521261644363405,
+            "Variation 5": 3.163968939781189,
+            "Variation 6": 3.091421570777893,
+            "Variation 7": 0.9652953257686213,
+            "Variation 8": 2.6521261644363405,
+            "Variation 9": 2.6521261644363405,
+            "Variation 10": 3.091421570777893
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the XXXX (which could imply bones, pulmonary vessels, or other chest structures depending on the context provided in the X-ray) on the chest X-ray abnormal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the XXXX on the chest X-ray are abnormal. They are likely to be indicative of a medical condition or injury that requires further investigation.",
+                "No, the XXXX on the chest X-ray do not indicate any abnormality. They are likely to be part of the X-ray's annotation system, which is used to label different parts of the image for medical interpretation.",
+                "Based on the image provided, it is not possible for me to determine if the XXXX on the chest X-ray are abnormal. These markings could represent various structures within the chest, such as bones, pulmonary vessels, or other",
+                "No, the SXXX on the chest X-ray do not appear to be abnormal. They are likely to be the ribs, which are a normal part of the skeletal structure of the chest.",
+                "Based on the image provided, it is not possible for me to determine if the \"XXXXX\" on the chest X-ray are abnormal. These markings could represent various structures within the chest, such as bones, pulmonary vessels,",
+                "Based on the image provided, it is not possible to definitively determine if the XXXX on the chest X-ray are abnormal. These markings could represent various structures within the chest, such as bones, pulmonary vessels, or other",
+                "Based on the image provided, it is not possible for me to determine if the XXXX on the chest X-ray are abnormal. These markings could represent various structures within the chest, such as bones, pulmonary vessels, or other",
+                "No, the XXXX on the chest X-ray do not indicate any abnormalities. They are likely to be artifacts or markings on the X-ray film.",
+                "Based on the image provided, it is not possible for me to determine if the \"XXXXX\" on the chest X-ray are abnormal. These markings could represent various structures within the chest, such as bones, pulmonary vessels,",
+                "Based on the image provided, it is not possible for me to determine if the \"XXXXX\" on the chest X-ray are abnormal. These markings could represent various structures within the chest, such as bones, pulmonary vessels,",
+                "Based on the image provided, it is not possible for me to determine if the XXXX on the chest X-ray are abnormal. These markings could represent various structures within the chest, such as bones, pulmonary vessels, or other"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -335.11700987815857,
+                    -474.25808000564575,
+                    -489.6880884170532,
+                    -429.1854975223541,
+                    -467.7233180999756,
+                    -493.315456867218,
+                    -489.6880884170532,
+                    -371.7982322573662,
+                    -467.7233180999756,
+                    -467.7233180999756,
+                    -489.6880884170532
+                ],
+                [
+                    -342.5843949317932,
+                    -476.82491755485535,
+                    -476.33168363571167,
+                    -437.12162613868713,
+                    -497.4798445701599,
+                    -489.50006198883057,
+                    -476.33168363571167,
+                    -362.47990918159485,
+                    -497.4798445701599,
+                    -497.4798445701599,
+                    -476.33168363571167
+                ],
+                [
+                    -341.98400235176086,
+                    -477.91249322891235,
+                    -506.6514642238617,
+                    -410.28380703926086,
+                    -491.1731631755829,
+                    -516.4736745357513,
+                    -506.6514642238617,
+                    -373.03467774391174,
+                    -491.1731631755829,
+                    -491.1731631755829,
+                    -506.6514642238617
+                ],
+                [
+                    -337.1290161013603,
+                    -466.0299274921417,
+                    -493.42591071128845,
+                    -402.8223547935486,
+                    -495.51449847221375,
+                    -501.58709502220154,
+                    -493.42591071128845,
+                    -368.63629174232483,
+                    -495.51449847221375,
+                    -495.51449847221375,
+                    -493.42591071128845
+                ],
+                [
+                    -337.1290161013603,
+                    -466.0299274921417,
+                    -493.42591071128845,
+                    -402.8223547935486,
+                    -495.51449847221375,
+                    -501.58709502220154,
+                    -493.42591071128845,
+                    -368.63629174232483,
+                    -495.51449847221375,
+                    -495.51449847221375,
+                    -493.42591071128845
+                ],
+                [
+                    -342.5843949317932,
+                    -476.82491755485535,
+                    -476.33168363571167,
+                    -437.12162613868713,
+                    -497.4798445701599,
+                    -489.50006198883057,
+                    -476.33168363571167,
+                    -362.47990918159485,
+                    -497.4798445701599,
+                    -497.4798445701599,
+                    -476.33168363571167
+                ],
+                [
+                    -337.1290161013603,
+                    -466.0299274921417,
+                    -493.42591071128845,
+                    -402.8223547935486,
+                    -495.51449847221375,
+                    -501.58709502220154,
+                    -493.42591071128845,
+                    -368.63629174232483,
+                    -495.51449847221375,
+                    -495.51449847221375,
+                    -493.42591071128845
+                ],
+                [
+                    -342.5843949317932,
+                    -476.82491755485535,
+                    -476.33168363571167,
+                    -437.12162613868713,
+                    -497.4798445701599,
+                    -489.50006198883057,
+                    -476.33168363571167,
+                    -362.47990918159485,
+                    -497.4798445701599,
+                    -497.4798445701599,
+                    -476.33168363571167
+                ],
+                [
+                    -342.5843949317932,
+                    -476.82491755485535,
+                    -476.33168363571167,
+                    -437.12162613868713,
+                    -497.4798445701599,
+                    -489.50006198883057,
+                    -476.33168363571167,
+                    -362.47990918159485,
+                    -497.4798445701599,
+                    -497.4798445701599,
+                    -476.33168363571167
+                ],
+                [
+                    -341.98400235176086,
+                    -477.91249322891235,
+                    -506.6514642238617,
+                    -410.28380703926086,
+                    -491.1731631755829,
+                    -516.4736745357513,
+                    -506.6514642238617,
+                    -373.03467774391174,
+                    -491.1731631755829,
+                    -491.1731631755829,
+                    -506.6514642238617
+                ],
+                [
+                    -340.1789836883545,
+                    -474.10421657562256,
+                    -497.2932734489441,
+                    -384.1230049133301,
+                    -494.412939786911,
+                    -508.7201442718506,
+                    -497.2932734489441,
+                    -361.0664699077606,
+                    -494.412939786911,
+                    -494.412939786911,
+                    -497.2932734489441
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.374823296910792
+        ],
+        "posix": 1.374823296910792
+    }
+}

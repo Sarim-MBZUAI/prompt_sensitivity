@@ -1,0 +1,189 @@
+{
+    "file_name": "question_141_variants.json",
+    "overall_posix": 7.478885641156756,
+    "detailed_scores": [
+        {
+            "Variation 1": 54.55270233750343,
+            "Variation 2": 0.05409717559814453,
+            "Variation 3": 0.7785476715791793,
+            "Variation 4": 2.026437064409256,
+            "Variation 5": 0.33128330962998526,
+            "Variation 6": 1.800985997915268,
+            "Variation 7": 0.06883077896558322,
+            "Variation 8": 1.9208976423740387,
+            "Variation 9": 0.8821041624654423,
+            "Variation 10": 0.8916514827446504
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the patient's chest X-ray is not completely unremarkable. There is a visible mass in the lung, which is an abnormality that requires further investigation.",
+                "d[no]",
+                "No, the patient's chest C-ray is not completely unremarkable. There is a visible mass in the chest, which is an abnormality that requires further investigation.",
+                "No, the patient's chest X-ray is not completely unremarkable. There is a visible shadow on the X-ray, which could indicate a tumor or other abnormality.",
+                "No, the chest X-ray is not completely unremarkable. There is a visible abnormality in the form of a mass or lesion in the right lung. This could be indicative of a lung condition or disease, such as cancer",
+                "No, the chest X-ray is not completely unremarkable. There is a visible mass in the lower lobe of the right lung, which is an abnormality that requires further investigation.",
+                "No, the patient's chest X-ray is not completely unremarkable. There is a visible shadow that appears to be a mass or a nodule in the right lung. This is noteworthy and would likely require further investigation.",
+                "No, the patient's chest X-ray is not completely unremarkable. There is a visible mass in the right lung, which is a significant finding that requires further investigation.",
+                "Based on the image provided, it is not possible for me to determine if the patient's chest X-ray is completely unremarkable. X-rays are typically used to examine the lungs, heart, and bones, and any abnormal",
+                "No, the patient's chest X-ray is not completely unremarkable. There is a visible shadow in the lower left area of the chest, which could indicate a lung condition or a foreign object.",
+                "No, the patient's chest X-ray is not completely unremarkable. There is a visible opacity in the lower left portion of the chest, which could indicate a lung condition or other medical issue."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -382.89557498693466,
+                    -55.57936096191406,
+                    -380.785785138607,
+                    -415.5945771932602,
+                    -484.21742820739746,
+                    -396.80947399139404,
+                    -472.94487488269806,
+                    -380.2111746072769,
+                    -478.9404571056366,
+                    -421.7081581354141,
+                    -422.1282402276993
+                ],
+                [
+                    -374.8931510448456,
+                    -52.70039415359497,
+                    -374.6915776729584,
+                    -383.75152480602264,
+                    -502.2504949569702,
+                    -416.7366327047348,
+                    -477.89913272857666,
+                    -374.82226824760437,
+                    -483.92841506004333,
+                    -412.131450176239,
+                    -419.24194145202637
+                ],
+                [
+                    -382.89557498693466,
+                    -55.57936096191406,
+                    -380.785785138607,
+                    -415.5945771932602,
+                    -484.21742820739746,
+                    -396.80947399139404,
+                    -472.94487488269806,
+                    -380.2111746072769,
+                    -478.9404571056366,
+                    -421.7081581354141,
+                    -422.1282402276993
+                ],
+                [
+                    -382.24480080604553,
+                    -54.91574001312256,
+                    -385.2347037792206,
+                    -406.5328588485718,
+                    -512.2766344547272,
+                    -423.3406226634979,
+                    -476.81556463241577,
+                    -385.2427694797516,
+                    -464.6165189743042,
+                    -412.24322640895844,
+                    -419.90243089199066
+                ],
+                [
+                    -382.24480080604553,
+                    -54.91574001312256,
+                    -385.2347037792206,
+                    -406.5328588485718,
+                    -512.2766344547272,
+                    -423.3406226634979,
+                    -476.81556463241577,
+                    -385.2427694797516,
+                    -464.6165189743042,
+                    -412.24322640895844,
+                    -419.90243089199066
+                ],
+                [
+                    -374.8931510448456,
+                    -52.70039415359497,
+                    -374.6915776729584,
+                    -383.75152480602264,
+                    -502.2504949569702,
+                    -416.7366327047348,
+                    -477.89913272857666,
+                    -374.82226824760437,
+                    -483.92841506004333,
+                    -412.131450176239,
+                    -419.24194145202637
+                ],
+                [
+                    -374.8931510448456,
+                    -52.70039415359497,
+                    -374.6915776729584,
+                    -383.75152480602264,
+                    -502.2504949569702,
+                    -416.7366327047348,
+                    -477.89913272857666,
+                    -374.82226824760437,
+                    -483.92841506004333,
+                    -412.131450176239,
+                    -419.24194145202637
+                ],
+                [
+                    -387.07493901252747,
+                    -55.226078510284424,
+                    -392.6854133605957,
+                    -417.46609330177307,
+                    -501.8363275527954,
+                    -432.16845178604126,
+                    -465.5097568035126,
+                    -382.95727133750916,
+                    -482.4282183647156,
+                    -423.33913469314575,
+                    -427.14298844337463
+                ],
+                [
+                    -365.3577585220337,
+                    -48.82028818130493,
+                    -370.5754027366638,
+                    -391.6906723976135,
+                    -496.5715720653534,
+                    -422.77573466300964,
+                    -483.0294451713562,
+                    -375.2501029968262,
+                    -495.13955545425415,
+                    -400.38354873657227,
+                    -410.10752153396606
+                ],
+                [
+                    -382.89557498693466,
+                    -55.57936096191406,
+                    -380.785785138607,
+                    -415.5945771932602,
+                    -484.21742820739746,
+                    -396.80947399139404,
+                    -472.94487488269806,
+                    -380.2111746072769,
+                    -478.9404571056366,
+                    -421.7081581354141,
+                    -422.1282402276993
+                ],
+                [
+                    -387.07493901252747,
+                    -55.226078510284424,
+                    -392.6854133605957,
+                    -417.46609330177307,
+                    -501.8363275527954,
+                    -432.16845178604126,
+                    -465.5097568035126,
+                    -382.95727133750916,
+                    -482.4282183647156,
+                    -423.33913469314575,
+                    -427.14298844337463
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            7.478885641156756
+        ],
+        "posix": 7.478885641156756
+    }
+}

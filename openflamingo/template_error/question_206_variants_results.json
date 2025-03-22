@@ -1,0 +1,189 @@
+{
+    "file_name": "question_206_variants.json",
+    "overall_posix": 0.2832486457654592,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.33914674046695575,
+            "Variation 2": 0.42309555360858714,
+            "Variation 3": 0.2111879062448125,
+            "Variation 4": 0.13650826327388987,
+            "Variation 5": 0.18541123975475116,
+            "Variation 6": 0.20158577200643116,
+            "Variation 7": 0.09898933285750963,
+            "Variation 8": 0.3900144980238919,
+            "Variation 9": 0.22381434041469928,
+            "Variation 10": 0.19201462857435916
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\n\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2\u00c3\u00c2",
+                "Q:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]||A:\n\n\n\n\n\n\n\n\nRQ:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]||A:\n\nRQ:Does the X-ray show any abnormalities in the heart",
+                "Q::Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nA::\n\n\n\n\n\n\n\n\nRQ::Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nRQ::Does the X-ray show any abnormalities in the heart size or shape?",
+                "Q:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nAnswer:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "Question:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]||Answer:\nQuestionQuestion:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]||Answer:\nQuestionQuestion:Does the X-ray show any abnormalities in the heart size",
+                "question:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nanswer:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "QUESTION:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nAnswer:\n\n\n\n\n\n\n\n\nQUESTION:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nAnswer:\n\n\n\n\n\n\n\nQUESTION:Does the X-ray show any abnormalities in",
+                "Question:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nAnswer:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "QUESTION\tDoes the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nANSWER\t\n\n\n\n\n\n\n\n\nQUESTION\tDoes the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nANSWER\t\n\n\n\n\n\n\n\nQUESTION\tDoes the X-ray show any",
+                "QUESTION:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nANSWER:\n\n\n\n\n\n\n\n\nQUESTION:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nANSWER:\n\n\n\n\n\n\n\nQUESTION:Does the X-ray show any",
+                "Q:Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\nA:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -75.95613855309784,
+                    -105.461904973723,
+                    -112.76545171704493,
+                    -94.32948639639653,
+                    -87.83235745792626,
+                    -92.0869164117612,
+                    -93.69568648966379,
+                    -84.56821051170118,
+                    -111.05744337524811,
+                    -96.09942919042078,
+                    -92.66141123906709
+                ],
+                [
+                    -88.34209487889893,
+                    -67.82246345491149,
+                    -98.69416523189284,
+                    -89.54536011407617,
+                    -71.32937563344603,
+                    -91.84969516796991,
+                    -87.10467718591099,
+                    -83.33077768108342,
+                    -103.94793322688201,
+                    -83.68456844500906,
+                    -80.87646271626
+                ],
+                [
+                    -79.63701377622783,
+                    -98.7896717308322,
+                    -63.38555931244264,
+                    -86.90220836503431,
+                    -90.54178868109011,
+                    -80.80929073039442,
+                    -84.4811427652603,
+                    -75.38137118611485,
+                    -101.07687985384837,
+                    -81.82612953626085,
+                    -72.48418096126989
+                ],
+                [
+                    -82.11844050162472,
+                    -97.8173086384777,
+                    -96.18998851944343,
+                    -58.51308872946538,
+                    -82.15419309074059,
+                    -71.60445537045598,
+                    -58.16209757258184,
+                    -56.207108201575466,
+                    -98.26903327957552,
+                    -68.42083358277159,
+                    -75.04679424897768
+                ],
+                [
+                    -84.32841215329245,
+                    -91.00892982608639,
+                    -110.25035899397335,
+                    -79.52174123004079,
+                    -57.778694171400275,
+                    -86.4315701466985,
+                    -76.00139580004907,
+                    -70.65460042166524,
+                    -103.57938072677644,
+                    -81.77554785944812,
+                    -89.74916147999465
+                ],
+                [
+                    -79.15926992241293,
+                    -105.2464757442358,
+                    -102.37189529641182,
+                    -74.91249615489505,
+                    -83.63157291692914,
+                    -56.94915330794174,
+                    -69.62344031232351,
+                    -64.68472544150427,
+                    -96.4865782589477,
+                    -70.6804303960962,
+                    -80.09122192463838
+                ],
+                [
+                    -83.6537140388973,
+                    -105.46750804380281,
+                    -101.27278450364247,
+                    -64.76469325972721,
+                    -81.5015757313231,
+                    -71.63291518762708,
+                    -53.740782601889805,
+                    -57.29864231473766,
+                    -91.96500063686108,
+                    -63.11108482524287,
+                    -76.9833676838316
+                ],
+                [
+                    -83.08902953891084,
+                    -106.01039996522013,
+                    -100.77604995406,
+                    -63.17688689404167,
+                    -78.35701627249364,
+                    -70.66625185357407,
+                    -59.20187930771499,
+                    -56.5264617059147,
+                    -94.54942112902063,
+                    -69.71231911936775,
+                    -75.93069616076536
+                ],
+                [
+                    -79.53205885179341,
+                    -107.26424807979492,
+                    -103.9598856879602,
+                    -87.27275134949014,
+                    -90.56451402971288,
+                    -81.56746436282992,
+                    -84.51059978100238,
+                    -74.12835776433349,
+                    -52.415637407924805,
+                    -72.63183193838631,
+                    -84.72770029259846
+                ],
+                [
+                    -79.99676932860166,
+                    -104.36853836406954,
+                    -102.01996085519204,
+                    -77.02520592301153,
+                    -84.9177357404842,
+                    -73.8340106708929,
+                    -68.62369688611943,
+                    -66.60438171005808,
+                    -83.31447537851636,
+                    -54.293041470402386,
+                    -79.2757935167756
+                ],
+                [
+                    -83.16964037786238,
+                    -90.60136345686624,
+                    -83.62700060813222,
+                    -74.93325330503285,
+                    -88.33105932374019,
+                    -78.94089107215405,
+                    -71.9505911435408,
+                    -68.51641362288501,
+                    -97.45349275720946,
+                    -70.19714817241766,
+                    -59.64591041021049
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.2832486457654592
+        ],
+        "posix": 0.2832486457654592
+    }
+}

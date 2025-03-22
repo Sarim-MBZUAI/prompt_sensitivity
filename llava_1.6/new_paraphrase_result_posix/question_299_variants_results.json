@@ -1,0 +1,189 @@
+{
+    "file_name": "question_299_variants.json",
+    "overall_posix": 5.060281706816603,
+    "detailed_scores": [
+        {
+            "Variation 1": 6.374289402961731,
+            "Variation 2": 0.3013319287981306,
+            "Variation 3": 3.0392631908942915,
+            "Variation 4": 6.306866269111634,
+            "Variation 5": 0.08296214906792891,
+            "Variation 6": 6.759304518699646,
+            "Variation 7": 4.701437356995373,
+            "Variation 8": 6.113930220603943,
+            "Variation 9": 4.580026723836598,
+            "Variation 10": 5.510629906210789
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any visible pathology in the mediastinum on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no visible pathology in the mediastinum on the X-ray.",
+                "Yes, there is a visible abnormality within the mediastinal region on the provided X-ray image. The image shows a mass in the mediastinal region, which could be indicative of a tumor or other pathological condition.",
+                "Yes, there is visible pathology in the mediastinum on the X-ray.",
+                "No, there are no notable findings or abnormalities in the mediastinum as visualized on this chest X-ray.",
+                "Based on the X-ray image provided, there are no pathological features visible within the central compartment of the thoracic cavity (mediastinum). The image shows the lungs and heart, but there are no signs of ab",
+                "Yes, there is evidence of mediastinal pathology on the radiograph provided.",
+                "Based on the image provided, it is not possible for me to definitively determine if there are any abnormal structures or lesions within the mediastinal region. The image is of low resolution and quality, which makes it difficult to discern specific",
+                "No, there are no visible signs of disease or abnormality in the central thoracic compartment on this radiograph. The image appears to be a normal chest X-ray.",
+                "Based on the image provided, it is not possible for me to accurately assess the contents of the mediastinum and determine if there are any abnormalities. X-rays are typically used to visualize the skeletal system, and",
+                "No, there is no visible evidence of pathological changes in the central compartment of the chest on this radiograph. The image appears to be a normal chest X-ray.",
+                "Based on the provided X-ray, there are no notable abnormalities or lesions within the mediastinum that require further evaluation. The image appears to be a normal chest X-ray."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -192.84646010398865,
+                    -511.5609302520752,
+                    -199.1744306087494,
+                    -280.9850926399231,
+                    -508.1897735595703,
+                    -191.270179271698,
+                    -530.811686038971,
+                    -385.60539174079895,
+                    -498.5429711341858,
+                    -366.88747560977936,
+                    -429.80354607105255
+                ],
+                [
+                    -194.00591206550598,
+                    -501.546603679657,
+                    -191.82744598388672,
+                    -271.9619450569153,
+                    -490.63547334074974,
+                    -175.22871232032776,
+                    -530.2050857543945,
+                    -413.6734640598297,
+                    -508.70968675613403,
+                    -350.01902985572815,
+                    -447.4600682258606
+                ],
+                [
+                    -192.84646010398865,
+                    -511.5609302520752,
+                    -199.1744306087494,
+                    -280.9850926399231,
+                    -508.1897735595703,
+                    -191.270179271698,
+                    -530.811686038971,
+                    -385.60539174079895,
+                    -498.5429711341858,
+                    -366.88747560977936,
+                    -429.80354607105255
+                ],
+                [
+                    -203.17129182815552,
+                    -514.753306388855,
+                    -191.81277704238892,
+                    -294.2757341861725,
+                    -493.4957275390625,
+                    -183.0591106414795,
+                    -513.9803562164307,
+                    -401.1934769153595,
+                    -476.8797013759613,
+                    -373.00668382644653,
+                    -432.435259103775
+                ],
+                [
+                    -206.74971532821655,
+                    -524.915331363678,
+                    -198.5536012649536,
+                    -281.7657654285431,
+                    -515.7618026733398,
+                    -198.20114874839783,
+                    -534.8281750679016,
+                    -387.52997303009033,
+                    -496.6194281578064,
+                    -365.7859717607498,
+                    -430.0702705383301
+                ],
+                [
+                    -201.88087821006775,
+                    -486.23286962509155,
+                    -191.71331357955933,
+                    -283.55162286758423,
+                    -506.88218569755554,
+                    -195.10364484786987,
+                    -524.5639276504517,
+                    -402.12585413455963,
+                    -497.4185035228729,
+                    -363.99138474464417,
+                    -423.3736116886139
+                ],
+                [
+                    -194.00591206550598,
+                    -501.546603679657,
+                    -191.82744598388672,
+                    -271.9619450569153,
+                    -490.63547334074974,
+                    -175.22871232032776,
+                    -530.2050857543945,
+                    -413.6734640598297,
+                    -508.70968675613403,
+                    -350.01902985572815,
+                    -447.4600682258606
+                ],
+                [
+                    -203.17129182815552,
+                    -514.753306388855,
+                    -191.81277704238892,
+                    -294.2757341861725,
+                    -493.4957275390625,
+                    -183.0591106414795,
+                    -513.9803562164307,
+                    -401.1934769153595,
+                    -476.8797013759613,
+                    -373.00668382644653,
+                    -432.435259103775
+                ],
+                [
+                    -203.17129182815552,
+                    -514.753306388855,
+                    -191.81277704238892,
+                    -294.2757341861725,
+                    -493.4957275390625,
+                    -183.0591106414795,
+                    -513.9803562164307,
+                    -401.1934769153595,
+                    -476.8797013759613,
+                    -373.00668382644653,
+                    -432.435259103775
+                ],
+                [
+                    -194.00591206550598,
+                    -501.546603679657,
+                    -191.82744598388672,
+                    -271.9619450569153,
+                    -490.63547334074974,
+                    -175.22871232032776,
+                    -530.2050857543945,
+                    -413.6734640598297,
+                    -508.70968675613403,
+                    -350.01902985572815,
+                    -447.4600682258606
+                ],
+                [
+                    -205.74010825157166,
+                    -500.01722514629364,
+                    -194.4325394630432,
+                    -288.31347489356995,
+                    -512.6108701229095,
+                    -201.80321669578552,
+                    -536.8429744243622,
+                    -390.7475229501724,
+                    -511.22380018234253,
+                    -382.3114957809448,
+                    -445.6539568901062
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            5.060281706816603
+        ],
+        "posix": 5.060281706816603
+    }
+}

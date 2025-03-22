@@ -1,0 +1,42 @@
+{
+    "file_name": "question_382_variants.json",
+    "overall_posix": 0.4078688828851197,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4053030303030303,
+            "Variation 2": 0.4668769716088328,
+            "Variation 3": 0.3927125506072875,
+            "Variation 4": 0.417004048582996,
+            "Variation 5": 0.4511041009463723,
+            "Variation 6": 0.31174089068825905,
+            "Variation 7": 0.3927125506072875,
+            "Variation 8": 0.3765182186234818,
+            "Variation 9": 0.417004048582996,
+            "Variation 10": 0.44771241830065356
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n [A]Asthma\n [B]Pneumonia\n [C]Pulmonary embolism\n [D]Tuberculosis\n [E]",
+                "<s> QUESTION:Can any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tYes, a right-sided pneumothorax can be seen.\n \u2022\tNo, no abnormalities can be seen.\n 10\n 10\n 10\n",
+                "<s> QUESTION\tCan any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n The normal mediastinum is triangular in shape. The superior border is formed by the aortic arch, the inferior border by the trachea,",
+                "<s> q::Can any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION:Can any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n B\n 2\n 1\n R\n E\n T\n P\n A\n H\n C\n 2\n R\n E\n T\n P\n A\n H\n C\n 2\n",
+                "<s> question:Can any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\nyes\n 11.Question:Can any abnormalities be seen in the mediastinal contours on the CT? Please choose from the following two options: [yes, no]\n answer:\n Yes\n 12.",
+                "<s> Q:Can any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n Q:What is the most likely diagnosis?\n A:Lymphoma\n B:Thymoma\n C:Thymic cyst\n D:",
+                "<s> q:Can any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> Q:Can any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n A 166: Answer 166\n Q:What is the most likely diagnosis?\n A:Aortic dissection\n B:",
+                "<s> Q::: Can any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q::Can any abnormalities be seen in the mediastinal contours on the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Can any abnormalities be seen in the pulmonary vascular network on the X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Can"
+            ]
+        ],
+        "sensitivities": [
+            0.4078688828851197
+        ],
+        "posix": 0.4078688828851197
+    }
+}

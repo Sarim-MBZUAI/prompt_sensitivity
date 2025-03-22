@@ -1,0 +1,42 @@
+{
+    "file_name": "question_276_variants.json",
+    "overall_posix": 0.35125420769286386,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.25268817204301075,
+            "Variation 2": 0.19354838709677424,
+            "Variation 3": 0.5928571428571429,
+            "Variation 4": 0.5608856088560885,
+            "Variation 5": 0.22580645161290325,
+            "Variation 6": 0.580952380952381,
+            "Variation 7": 0.2822966507177034,
+            "Variation 8": 0.2849740932642487,
+            "Variation 9": 0.2021276595744681,
+            "Variation 10": 0.33640552995391704
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have any visible lung opacities on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have any visible lung opacities on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray demonstrate any pulmonary opacities? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there visible lung lesions on the radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we identify any radiographic evidence of lung pathology on this image? Please choose from the following two options: [yes, no]\n<image> a. Lung consolidation\n b. Lung atelectasis\n c. Lung fibrosis\n d. Lung cyst\n e. Lung nodule\n 4.\n Can we identify any radiographic evidence",
+                "<s> Do the lungs show any abnormal opacity on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, a right lower lobe consolidation\n b. No, the lungs are clear\n 3. What is the most likely diagnosis?\n a. Pneumonia\n b. Pulmonary edema\n c",
+                "<s> Is there a visible infiltrate in the lung parenchyma on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient have any detectable pulmonary consolidation on the radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  Is there any evidence of atelectasis on the radiograph? Please choose from the following two options: [yes, no]\n 12.  Is there any evidence of pneumothorax on the",
+                "<s> Are there any abnormalities suggestive of pneumonia or infection visible on the chest film? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we see any nodular or mass-like lesions within the lungs on this image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pulmonary edema or congestion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the lungs appear normal in terms of opacification, with no signs of infiltrate or consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.35125420769286386
+        ],
+        "posix": 0.35125420769286386
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_64_variants.json",
+    "overall_posix": 0.33757988254039495,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.16393442622950816,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5663082437275986,
+            "Variation 4": 0.20765027322404372,
+            "Variation 5": 0.6476190476190476,
+            "Variation 6": 0.21311475409836067,
+            "Variation 7": 0.16746411483253587,
+            "Variation 8": 0.5903225806451613,
+            "Variation 9": 0.5758620689655173,
+            "Variation 10": 0.24352331606217614
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of rib fracture on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient show signs of a rib fracture on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there signs of rib fracture visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are signs of rib fracture visible on this chest X-ray.\n b. No, there are no signs of rib fracture visible on this chest X-ray.\n 10. What",
+                "<s> Does the chest film demonstrate a fractured rib? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence of rib trauma resulting in a fracture? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pneumothorax? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of a hemothorax? Please choose from the following",
+                "<s> Are any fractures of the ribs identified on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient exhibit radiologic signs consistent with a rib fracture on the chest film? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visual indication of rib fracture present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there a visual indication of pneumothorax present on the chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there a visual indication of",
+                "<s> Are there any abnormalities suggestive of rib fracture seen on this radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are multiple rib fractures.\n b. No, there are no rib fractures.\n 4.\n What is the most likely diagnosis?\n a. Pneumothorax\n b. Pul",
+                "<s> Does the chest image reveal evidence of rib trauma resulting in a fracture? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.33757988254039495
+        ],
+        "posix": 0.33757988254039495
+    }
+}

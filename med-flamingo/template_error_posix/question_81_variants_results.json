@@ -1,0 +1,42 @@
+{
+    "file_name": "question_81_variants.json",
+    "overall_posix": 0.43067199044855486,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5337837837837838,
+            "Variation 2": 0.5105633802816901,
+            "Variation 3": 0.24352331606217614,
+            "Variation 4": 0.4871794871794872,
+            "Variation 5": 0.5,
+            "Variation 6": 0.5337837837837838,
+            "Variation 7": 0.4285714285714286,
+            "Variation 8": 0.24242424242424243,
+            "Variation 9": 0.29807692307692313,
+            "Variation 10": 0.5288135593220339
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n Question:Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no]\n 1",
+                "<s> Q:Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n Q:Is",
+                "<s> Question:Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21",
+                "<s> QUESTION:Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 100\n 101\n REPORT \u2013 PLEURAL EFFUSION\n Patient ID: AnonymousNormal pulmonary vascularity.The imaged skeleton is intact with noPro",
+                "<s> QUESTION\tIs there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a right-sided pleural effusion. The pleural line is raised and the right hemithorax is expanded. The left",
+                "<s> Question:Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n Question:Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no]\n 1",
+                "<s> question:Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked [2] on the answer sheet that the chest X-ray shows a pleural effusion.\n 1.",
+                "<s> Q:Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n C:\n F:\n G:\n Figure 10.1\n 10.",
+                "<s> q:::Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question-Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n\n Question-Is there a pleural effusion present on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes, no]\n 10"
+            ]
+        ],
+        "sensitivities": [
+            0.43067199044855486
+        ],
+        "posix": 0.43067199044855486
+    }
+}

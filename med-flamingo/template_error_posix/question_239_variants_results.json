@@ -1,0 +1,42 @@
+{
+    "file_name": "question_239_variants.json",
+    "overall_posix": 0.3519316627800335,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4968152866242038,
+            "Variation 2": 0.2931034482758621,
+            "Variation 3": 0.49514563106796117,
+            "Variation 4": 0.2180094786729858,
+            "Variation 5": 0.2180094786729858,
+            "Variation 6": 0.375,
+            "Variation 7": 0.3214285714285714,
+            "Variation 8": 0.3854961832061068,
+            "Variation 9": 0.27753303964757703,
+            "Variation 10": 0.43877551020408156
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question-Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is there any evidence of cardiomegaly on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes, no",
+                "<s> Q::Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tYes, the cardiomediastinal silhouette appears abnormal on the chest X-ray.\n The cardiomediastinal silhouette appears abnormal on the chest X-ray",
+                "<s> Question:Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please select from the following two options: [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8",
+                "<s> question:Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n A.Yes\n B.No\n C.Yes\n D.No\n E.Yes\n 11.The patient\u2019s chest X-ray is shown in Figure 11.1.\n 12.",
+                "<s> Q:Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n Q:What is the most likely diagnosis?\n A:Aortic dissection\n B:Pericardial effusion\n C:Pulmonary",
+                "<s> Q::: Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> question::Does the cardiomediastinal silhouette appear abnormal on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The cardiomediastinal silhouette is normal.\n B: The cardiomediastinal silhouette is abnormal.\n 10.Question10.jpg\n 10.1.Answer"
+            ]
+        ],
+        "sensitivities": [
+            0.3519316627800335
+        ],
+        "posix": 0.3519316627800335
+    }
+}

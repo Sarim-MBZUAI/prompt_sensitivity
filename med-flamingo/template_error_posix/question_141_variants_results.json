@@ -1,0 +1,42 @@
+{
+    "file_name": "question_141_variants.json",
+    "overall_posix": 0.34998404858564136,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.47292418772563183,
+            "Variation 2": 0.36071428571428577,
+            "Variation 3": 0.18493150684931503,
+            "Variation 4": 0.49011857707509887,
+            "Variation 5": 0.45059288537549413,
+            "Variation 6": 0.4861660079051384,
+            "Variation 7": 0.4426877470355731,
+            "Variation 8": 0.23232323232323226,
+            "Variation 9": 0.23232323232323226,
+            "Variation 10": 0.1470588235294118
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n<image> 11. Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n 11. 100.11. 100.",
+                "<s> Question::: Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumothorax\n B. Pulmonary edema\n C. Pulmonary embolism\n D. Pulmonary inf",
+                "<s> QUESTION\tIs the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient's chest X-ray is completely unremarkable. The patient has no\n cardiopulmonary symptoms and the chest X-",
+                "<s> Question-Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 11.\n Question-Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n Answer\n [yes, no]\n",
+                "<s> question:Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No",
+                "<s> q:Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> question::Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1answer::\n no\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 2",
+                "<s> Q:Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166:Chest ImagingCases and Questions\n 167\n 167:Chest Imaging\n A 75-year-old",
+                "<s> Question:Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n 11.Question:Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n Answer:\n",
+                "<s> Question:Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n 11.Question:Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n Answer:\n",
+                "<s> QUESTION:Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n A:\n B:\n 3."
+            ]
+        ],
+        "sensitivities": [
+            0.34998404858564136
+        ],
+        "posix": 0.34998404858564136
+    }
+}

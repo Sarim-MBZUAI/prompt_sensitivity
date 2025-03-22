@@ -1,0 +1,42 @@
+{
+    "file_name": "question_85_variants.json",
+    "overall_posix": 0.40766944523759807,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.42805755395683454,
+            "Variation 2": 0.36363636363636365,
+            "Variation 3": 0.4172661870503598,
+            "Variation 4": 0.39420289855072466,
+            "Variation 5": 0.3992805755395683,
+            "Variation 6": 0.41007194244604317,
+            "Variation 7": 0.4171597633136095,
+            "Variation 8": 0.4244604316546763,
+            "Variation 9": 0.4064748201438849,
+            "Variation 10": 0.41608391608391604
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Has the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. ___\n A. The patient has a left pneumothorax.\n 2. ___ B. The patient has a left pneumothorax.\n 3. ___ C. The patient has a",
+                "<s> Q::: Has the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION\tHas the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient\u2019s chest X-ray shows a right midlung opacity. The patient was treated with\n antibiotics and was discharged. The",
+                "<s> QUESTION:Has the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (A)Yes\n (B)No\n 3.\n QUESTION:What is the most likely diagnosis?\n (A)Pneumonia\n (B)Pneumothorax\n (C)Pleural",
+                "<s> question::Has the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n ANSWER:\n The patient\u2019s chest X-ray shows a right midlung opacity that has resolved.\n The patient\u2019s chest X-ray shows a right midlung opacity that has not resolved.\n CO",
+                "<s> Q:Has the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n L:\n U:\n X:\n E:\n L:\n U:\n X:",
+                "<s> Question:Has the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Question:Has the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale:The patient\u2019s chest X-ray shows a right midlung opacity that has resolved. The patient\u2019s\n chest X-ray shows a right midlung",
+                "<s> Question::: Has the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q::Has the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question:Has the previously noted right midlung opacity resolved on the follow-up chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)Yes\n (b)No\n 6.Question:What is the most likely diagnosis?\n (a)Pneumothorax\n (b)Pneumomediastinum\n (c)Pneumoperic"
+            ]
+        ],
+        "sensitivities": [
+            0.40766944523759807
+        ],
+        "posix": 0.40766944523759807
+    }
+}

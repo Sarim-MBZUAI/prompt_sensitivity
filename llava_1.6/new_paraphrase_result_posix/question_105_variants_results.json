@@ -1,0 +1,189 @@
+{
+    "file_name": "question_105_variants.json",
+    "overall_posix": 1.9294321362963023,
+    "detailed_scores": [
+        {
+            "Variation 1": 4.200255535086807,
+            "Variation 2": 4.5282337769218115,
+            "Variation 3": 3.827423491129061,
+            "Variation 4": 4.396768506537092,
+            "Variation 5": 5.088417773246765,
+            "Variation 6": 4.463418846130371,
+            "Variation 7": 4.5553349220752715,
+            "Variation 8": 4.730124897956848,
+            "Variation 9": 4.31190688269479,
+            "Variation 10": 5.041913063526153
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the chest X-ray does not show signs of scoliosis in the lumbar region.",
+                "No, the image you provided is a chest X-ray, not a lumbar X-ray. Scoliosis is typically assessed on a lateral lumbar X-ray, which is not visible in this image.",
+                "No, the anterior-posterior chest radiograph does not reveal evidence of lateral deviation of the lumbar spine. It is focused on the chest and lungs, and does not provide information about the spine.",
+                "No, there is no abnormal curvature in the lower back region visible on the chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "No, the chest radiograph does not show a rotational deformity of the lumbar spine. It is focused on the chest and lungs, and there is no visible deformity of the spine in this image.",
+                "No, there are no signs of thoracic-lumbar kyphosis or scoliosis evident on the anterior-posterior chest film. The image shows the chest and lungs, but there is no indication of sp",
+                "No, there is no lateral curvature of the lumbar spine visible on the chest X-ray. The image you've provided is of a chest X-ray, which is used to examine the lungs and heart, not the spine.",
+                "No, the anterior-posterior chest radiograph does not reveal a Cobb angle greater than 10 degrees in the lumbar region. The Cobb angle is typically measured in the thoracic spine, not the lumbar spine",
+                "No, there are no visible deformities of the spine, including scoliosis or kyphosis, in the lower back region on the chest X-ray. The image shows a normal chest X-ray with the lungs and heart",
+                "No, there is no lateral curvature of the lumbar vertebrae visible on the anterior-posterior chest film. The image shows the chest and lungs, not the spine.",
+                "No, the chest radiograph does not show a rotational deformity with compensatory mechanisms in the lower back region. It appears to be a standard frontal chest X-ray, which is not designed to show the lower back region."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -216.67804384231567,
+                    -422.4905650615692,
+                    -424.976797580719,
+                    -373.6024069786072,
+                    -423.326163649559,
+                    -471.09893250465393,
+                    -439.84898614883423,
+                    -444.44478994607925,
+                    -453.1842887401581,
+                    -397.7781329154968,
+                    -468.77369701862335
+                ],
+                [
+                    -216.67804384231567,
+                    -422.4905650615692,
+                    -424.976797580719,
+                    -373.6024069786072,
+                    -423.326163649559,
+                    -471.09893250465393,
+                    -439.84898614883423,
+                    -444.44478994607925,
+                    -453.1842887401581,
+                    -397.7781329154968,
+                    -468.77369701862335
+                ],
+                [
+                    -224.16457891464233,
+                    -435.5477205514908,
+                    -423.957612991333,
+                    -389.9753954410553,
+                    -424.70833468437195,
+                    -459.22522830963135,
+                    -427.11826181411743,
+                    -489.7407805919647,
+                    -458.3418700695038,
+                    -393.17125034332275,
+                    -448.3536858558655
+                ],
+                [
+                    -210.03343534469604,
+                    -447.88119530677795,
+                    -434.9458885192871,
+                    -392.9783480167389,
+                    -429.6259460449219,
+                    -453.62401580810547,
+                    -442.4157636165619,
+                    -473.2776663303375,
+                    -467.5659306049347,
+                    -383.34106183052063,
+                    -445.5953805446625
+                ],
+                [
+                    -235.71706247329712,
+                    -423.8505403995514,
+                    -430.7042238712311,
+                    -392.8117645382881,
+                    -470.1572263240814,
+                    -467.824360370636,
+                    -449.9931483268738,
+                    -469.03400468826294,
+                    -432.46473240852356,
+                    -385.0487142801285,
+                    -474.6903793811798
+                ],
+                [
+                    -231.83169794082642,
+                    -436.50295543670654,
+                    -414.33883595466614,
+                    -366.9350483417511,
+                    -427.0772535800934,
+                    -484.6436529159546,
+                    -433.8100069761276,
+                    -495.4164640903473,
+                    -474.37770915031433,
+                    -394.2558333873749,
+                    -468.4496922492981
+                ],
+                [
+                    -217.04898470640182,
+                    -419.6311975121498,
+                    -436.26887184381485,
+                    -371.0439695715904,
+                    -431.8623586297035,
+                    -456.8389795422554,
+                    -448.1810937523842,
+                    -490.70104390382767,
+                    -451.607273876667,
+                    -370.3897300362587,
+                    -441.5412841439247
+                ],
+                [
+                    -218.04611539840698,
+                    -457.39683842658997,
+                    -420.32024240493774,
+                    -371.08780336380005,
+                    -435.37023425102234,
+                    -447.94649863243103,
+                    -448.8201103210449,
+                    -481.23861289024353,
+                    -485.5306520462036,
+                    -388.56054759025574,
+                    -476.8337359428406
+                ],
+                [
+                    -241.95660591125488,
+                    -444.4833059310913,
+                    -431.5902268886566,
+                    -378.69530844688416,
+                    -445.43027353286743,
+                    -464.94520235061646,
+                    -412.5134301185608,
+                    -477.5723674297333,
+                    -447.82081365585327,
+                    -353.5935649871826,
+                    -489.3646309375763
+                ],
+                [
+                    -218.04611539840698,
+                    -457.39683842658997,
+                    -420.32024240493774,
+                    -371.08780336380005,
+                    -435.37023425102234,
+                    -447.94649863243103,
+                    -448.8201103210449,
+                    -481.23861289024353,
+                    -485.5306520462036,
+                    -388.56054759025574,
+                    -476.8337359428406
+                ],
+                [
+                    -217.04898470640182,
+                    -419.6311975121498,
+                    -436.26887184381485,
+                    -371.0439695715904,
+                    -431.8623586297035,
+                    -456.8389795422554,
+                    -448.1810937523842,
+                    -490.70104390382767,
+                    -451.607273876667,
+                    -370.3897300362587,
+                    -441.5412841439247
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.9294321362963023
+        ],
+        "posix": 1.9294321362963023
+    }
+}

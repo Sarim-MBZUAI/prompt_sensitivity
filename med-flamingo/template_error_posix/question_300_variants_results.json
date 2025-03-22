@@ -1,0 +1,42 @@
+{
+    "file_name": "question_300_variants.json",
+    "overall_posix": 0.2994704543566623,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.49840255591054317,
+            "Variation 2": 0.4015151515151515,
+            "Variation 3": 0.22115384615384615,
+            "Variation 4": 0.22115384615384615,
+            "Variation 5": 0.2333333333333334,
+            "Variation 6": 0.22115384615384615,
+            "Variation 7": 0.4763513513513513,
+            "Variation 8": 0.21028037383177567,
+            "Variation 9": 0.2333333333333334,
+            "Variation 10": 0.27802690582959644
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Interpretation:There are no abnormal findings in the mediastinum in the chest X-ray.\n 10.\n Question:Are there any abnormal findings in the chest X-ray?",
+                "<s> QUESTION:Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Aortic aneurysm\n B:Aortic dissection\n 3.\n QUESTION:What is",
+                "<s> Question:Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n N:\n O:\n I:\n L:\n U:\n X:\n E:\n D:\n E:\n R:\n S:\n R",
+                "<s> QUESTION:Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Aortic dissection\n Q:What is the most likely diagnosis?\n A:Aortic dissection\n Q:What is the most",
+                "<s> question::Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n [no, no]\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 1",
+                "<s> q:Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> q:::Are there any abnormal findings in the mediastinum in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::"
+            ]
+        ],
+        "sensitivities": [
+            0.2994704543566623
+        ],
+        "posix": 0.2994704543566623
+    }
+}

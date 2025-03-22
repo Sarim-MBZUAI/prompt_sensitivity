@@ -1,0 +1,189 @@
+{
+    "file_name": "question_27_variants.json",
+    "overall_posix": 4.812003331157963,
+    "detailed_scores": [
+        {
+            "Variation 1": 4.7111970152173726,
+            "Variation 2": 0.0,
+            "Variation 3": 5.561468176219774,
+            "Variation 4": 3.968858763575554,
+            "Variation 5": 4.875110171562017,
+            "Variation 6": 5.9536195707321165,
+            "Variation 7": 3.0643251928789863,
+            "Variation 8": 4.528372287750244,
+            "Variation 9": 0.0,
+            "Variation 10": 0.05313919719896818
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the XXXX, which likely refers to some structures such as bones or implants, intact according to the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the XXXX are not intact according to the chest X-ray.",
+                "Based on the X-ray image provided, it appears that the XXXX are intact. There are no visible signs of fracture or dislocation in the image.",
+                "No, the XXXX are not intact according to the chest X-ray.",
+                "No, the XXXX are not intact according to the chest X-ray. There is a visible fracture in the ribcage, which is indicated by the \"JLS\" label on the X-ray.",
+                "No, the XXXX are not intact according to the chest X-ray. There is a significant fracture visible in the chest X-ray.",
+                "No, the XXXxX are not intact according to the chest X-ray. There is a visible fracture in the ribs, which is indicated by the broken line on the X-ray.",
+                "Based on the chest X-ray, it appears that the XXXX are intact. There are no visible fractures or dislocations in the ribs or sternum, and the heart and lungs appear to be in their normal positions.",
+                "No, the XXXX are not intact according to the chest X-ray. There is a significant fracture visible in the image.",
+                "No, the XXXX are not intact according to the chest X-ray. There is a visible fracture in the ribcage, which is indicated by the broken line.",
+                "No, the XXXX are not intact according to the chest X-ray.",
+                "Yes, the XXXX appear to be intact according to the chest X-ray."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -174.20518493652344,
+                    -339.09708046913147,
+                    -174.20518493652344,
+                    -430.03272104263306,
+                    -301.20866537094116,
+                    -383.8349223136902,
+                    -471.8861634731293,
+                    -263.07061553001404,
+                    -346.2833318710327,
+                    -174.20518493652344,
+                    -175.21482968330383
+                ],
+                [
+                    -172.38178539276123,
+                    -306.2596914768219,
+                    -172.38178539276123,
+                    -414.84286284446716,
+                    -293.18950068950653,
+                    -401.0258958339691,
+                    -464.10140359401703,
+                    -270.9382071495056,
+                    -350.3791854381561,
+                    -172.38178539276123,
+                    -179.07429313659668
+                ],
+                [
+                    -154.95512342453003,
+                    -328.15878534317017,
+                    -154.95512342453003,
+                    -411.60093092918396,
+                    -282.88680052757263,
+                    -390.226482629776,
+                    -466.62845063209534,
+                    -260.1895763874054,
+                    -337.4089843034744,
+                    -154.95512342453003,
+                    -177.36104583740234
+                ],
+                [
+                    -175.26956009864807,
+                    -350.4938268661499,
+                    -175.26956009864807,
+                    -433.2423846721649,
+                    -310.15187335014343,
+                    -403.7322721481323,
+                    -467.4561787843704,
+                    -272.37969529628754,
+                    -362.9170272350311,
+                    -175.26956009864807,
+                    -183.18385219573975
+                ],
+                [
+                    -158.80748081207275,
+                    -338.1832640171051,
+                    -158.80748081207275,
+                    -397.8332004547119,
+                    -294.3448872566223,
+                    -387.323184967041,
+                    -469.74419248104095,
+                    -256.6906108856201,
+                    -352.5727858543396,
+                    -158.80748081207275,
+                    -166.1189295053482
+                ],
+                [
+                    -154.95512342453003,
+                    -328.15878534317017,
+                    -154.95512342453003,
+                    -411.60093092918396,
+                    -282.88680052757263,
+                    -390.226482629776,
+                    -466.62845063209534,
+                    -260.1895763874054,
+                    -337.4089843034744,
+                    -154.95512342453003,
+                    -177.36104583740234
+                ],
+                [
+                    -158.80748081207275,
+                    -338.1832640171051,
+                    -158.80748081207275,
+                    -397.8332004547119,
+                    -294.3448872566223,
+                    -387.323184967041,
+                    -469.74419248104095,
+                    -256.6906108856201,
+                    -352.5727858543396,
+                    -158.80748081207275,
+                    -166.1189295053482
+                ],
+                [
+                    -172.38178539276123,
+                    -306.2596914768219,
+                    -172.38178539276123,
+                    -414.84286284446716,
+                    -293.18950068950653,
+                    -401.0258958339691,
+                    -464.10140359401703,
+                    -270.9382071495056,
+                    -350.3791854381561,
+                    -172.38178539276123,
+                    -179.07429313659668
+                ],
+                [
+                    -158.31513893604279,
+                    -343.2082909345627,
+                    -158.31513893604279,
+                    -408.2423508167267,
+                    -291.25595235824585,
+                    -394.69952726364136,
+                    -479.56955552101135,
+                    -258.02354431152344,
+                    -356.4148519039154,
+                    -158.31513893604279,
+                    -182.58772826194763
+                ],
+                [
+                    -172.38178539276123,
+                    -306.2596914768219,
+                    -172.38178539276123,
+                    -414.84286284446716,
+                    -293.18950068950653,
+                    -401.0258958339691,
+                    -464.10140359401703,
+                    -270.9382071495056,
+                    -350.3791854381561,
+                    -172.38178539276123,
+                    -179.07429313659668
+                ],
+                [
+                    -158.80748081207275,
+                    -338.1832640171051,
+                    -158.80748081207275,
+                    -397.8332004547119,
+                    -294.3448872566223,
+                    -387.323184967041,
+                    -469.74419248104095,
+                    -256.6906108856201,
+                    -352.5727858543396,
+                    -158.80748081207275,
+                    -166.1189295053482
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.812003331157963
+        ],
+        "posix": 4.812003331157963
+    }
+}

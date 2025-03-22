@@ -1,0 +1,42 @@
+{
+    "file_name": "question_49_variants.json",
+    "overall_posix": 0.3902252956857356,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.27755102040816326,
+            "Variation 2": 0.2053571428571428,
+            "Variation 3": 0.2594142259414226,
+            "Variation 4": 0.5070821529745042,
+            "Variation 5": 0.449685534591195,
+            "Variation 6": 0.48484848484848486,
+            "Variation 7": 0.43630573248407645,
+            "Variation 8": 0.49101796407185627,
+            "Variation 9": 0.37681159420289856,
+            "Variation 10": 0.41417910447761197
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q::Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> q:::Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question:Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n 1.Yes\n 2.No\n correct answer:Yes\n Reason for this image:This X-ray was requested to assess the patient\u2019s response to treatment. The patient has been treated with antibiotics and has",
+                "<s> QUESTION\tHas the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a large area of consolidation in the right upper lobe. This is likely to be due to a pneumonia. The cons",
+                "<s> Q::Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of atelectasis in the right lower lobe? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there any evidence of ate",
+                "<s> Question::: Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question: What is the most likely diagnosis?\n A. Pneumonia\n B. Pulmonary edema\n C. Pleural effusion\n D. Atelectasis\n E. Tension",
+                "<s> Question:Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer:Yes\n The chest X-ray shows a right-sided pneumothorax, which has resolved. The right hemithorax is now of normal size. The left hemithor",
+                "<s> Q:Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n\n C:\n\n D:\n\n E:\n\n 166.1: Radiographic Summary\n A 25-year-old male with a history of aortic valve replacement and a",
+                "<s> Q:Has the consolidation and blunting in the chest X-ray resolved since the last imaging? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes]\n \u2022\tThe\tchest\tX-ray\tshows\ta\tresolution\tof\tthe\tconsolidation\tand\tblunting\tin\tthe\tright\tupper\tlobe\t("
+            ]
+        ],
+        "sensitivities": [
+            0.3902252956857356
+        ],
+        "posix": 0.3902252956857356
+    }
+}

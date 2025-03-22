@@ -1,0 +1,42 @@
+{
+    "file_name": "question_10_variants.json",
+    "overall_posix": 0.47944938440492474,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.43529411764705883,
+            "Variation 2": 0.46802325581395343,
+            "Variation 3": 0.5066666666666667,
+            "Variation 4": 0.4966666666666666,
+            "Variation 5": 0.4411764705882353,
+            "Variation 6": 0.4966666666666666,
+            "Variation 7": 0.4966666666666666,
+            "Variation 8": 0.4766666666666667,
+            "Variation 9": 0.4766666666666667,
+            "Variation 10": 0.5
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other pertinent findings on the chest X-ray?\n Please circle all that apply:\n [Yes, no]\n 12.  Are there any other pertinent findings on the",
+                "<s> Question:Can any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale: The chest X-ray shows a right upper lobe mass.\n The patient's history of cough and shortness of breath is consistent with a right upper",
+                "<s> Question:Can any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following radiograph is of a 65-year-old woman who presented to the emergency department with a 2-week history of cough and fever. She had no history of smoking",
+                "<s> QUESTION:Can any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Can any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Can any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n \u2022\tYes, a nodule is present in the right lower lobe.\n \u2022\tNo, no nodules or masses are identified.\n \u2022\tNo, no nodules or masses are identified.\n \u2022",
+                "<s> Question:Can any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question-Can any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> QUESTION\tCan any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 11.1\t\u2022\tChest\tX-Ray\t(Figure\t11.1)\n 11.1.1\tPosteroanterior\t(PA)\tCh",
+                "<s> Question::: Can any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Lung cancer\n B. Lymphoma\n C. Tuberculosis\n D. Sarcoidosis\n E. Pneum",
+                "<s> Q::: Can any lung nodules or masses be identified in the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::"
+            ]
+        ],
+        "sensitivities": [
+            0.47944938440492474
+        ],
+        "posix": 0.47944938440492474
+    }
+}

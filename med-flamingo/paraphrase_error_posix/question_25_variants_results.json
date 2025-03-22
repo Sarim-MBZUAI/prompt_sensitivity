@@ -1,0 +1,42 @@
+{
+    "file_name": "question_25_variants.json",
+    "overall_posix": 0.38953570079054634,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5635179153094463,
+            "Variation 2": 0.5271739130434783,
+            "Variation 3": 0.0,
+            "Variation 4": 0.2743362831858407,
+            "Variation 5": 0.658753709198813,
+            "Variation 6": 0.3288888888888889,
+            "Variation 7": 0.3055555555555556,
+            "Variation 8": 0.4361233480176212,
+            "Variation 9": 0.39170506912442393,
+            "Variation 10": 0.40930232558139534
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of a foreign body in the chest on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of a foreign body in the chest on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a detectable radiographic presence of an extraneous object in the thoracic cavity on this X-ray? Please choose from the following two options: [yes, no]\n<image> 2. Is the object in the thoracic cavity a foreign body? [yes, no]\n 3. Is the object in the thoracic cavity a pacemaker? [yes, no]\n 4.",
+                "<s> Please choose from the following two options: [yes, no]\n<image> \u2460\n \u2461\n \u2462\n \u2463\n \u2464\n \u2465\n \u2466\n \u2467\n \u2468\n \u2469\n",
+                "<s> Is there any evidence of a foreign body in the chest on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray reveal any visible indication of a foreign body lodged within the lungs or mediastinum? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we observe any clear radiographic signs of an intrathoracic foreign body on this image? Please choose from the following two options: [yes, no]\n<image> 1. The presence of a foreign body in the thorax can be observed in the form of a mass, a nodule, or a cavity.\n 2. The presence of a foreign body in the thorax can be observed in",
+                "<s> Is there a noticeable abnormality in the chest X-ray that could be indicative of a retained foreign object? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiographic examination show any evidence of an intra-thoracic foreign body or fragment? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we visualize any distinct features on this chest X-ray that suggest a retained foreign object is present? Please choose from the following two options: [yes, no]\n<image>\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.",
+                "<s> Is there radiographic confirmation of a non-native object within the thoracic cavity on this image? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Does this chest X-ray display any apparent signs or indicators of an intra-thoracic foreign body? Please choose from the following two options: [yes, no]\n<image>\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20."
+            ]
+        ],
+        "sensitivities": [
+            0.38953570079054634
+        ],
+        "posix": 0.38953570079054634
+    }
+}

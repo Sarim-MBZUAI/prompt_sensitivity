@@ -1,0 +1,42 @@
+{
+    "file_name": "question_349_variants.json",
+    "overall_posix": 0.305529373543935,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2314814814814815,
+            "Variation 2": 0.16203703703703698,
+            "Variation 3": 0.43511450381679384,
+            "Variation 4": 0.27192982456140347,
+            "Variation 5": 0.42809364548494977,
+            "Variation 6": 0.4078014184397163,
+            "Variation 7": 0.07655502392344493,
+            "Variation 8": 0.17961165048543692,
+            "Variation 9": 0.3706563706563706,
+            "Variation 10": 0.4920127795527156
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n T:\n Y:\n R:\n E:\n D:\n E:\n R:\n E:\n N:\n O:\n T:",
+                "<s> Question:Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Question:Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tIf\tyou\tanswered\t\u201cyes,\u201d\tyou\tare\tcorrect.\tThe\tchest\tX-ray\tshows\ta\tleft\tlower\tlobe\tconsolid",
+                "<s> q:::Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question::Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]\nanswer::\n<image> 1.Yes\n 2.No\n - If you answered option 1, please continue to Question 10.\n - If you answered option 2, please go to Question 11.\n 10.::Is",
+                "<s> question:Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes Please select from the following two options: [cardiomegaly, no cardiomegaly]\n answer:\n 1.No\n 2.Yes\n 1",
+                "<s> Question-Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]\nAnswer\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 20\n 19\n 18\n 17\n 16\n 15\n 14\n 13\n 12\n 11\n 10\n 9\n",
+                "<s> Q:Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166: Chest Imaging\n 166A: YesCorrect Answer: Yes\n B: NoCorrect Answer: No\n C: NoCorrect Answer",
+                "<s> Q::Is there any lobar air space consolidation present on the chest X-ray? - No Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of pneumomediastinum? - No Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there any evidence of pneumothor"
+            ]
+        ],
+        "sensitivities": [
+            0.305529373543935
+        ],
+        "posix": 0.305529373543935
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_102_variants.json",
+    "overall_posix": 0.4982851566302385,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3817204301075269,
+            "Variation 2": 0.3513513513513513,
+            "Variation 3": 0.4368932038834952,
+            "Variation 4": 0.6148409893992933,
+            "Variation 5": 0.6386292834890965,
+            "Variation 6": 0.4511627906976744,
+            "Variation 7": 0.45833333333333326,
+            "Variation 8": 0.6314102564102564,
+            "Variation 9": 0.6214511041009464,
+            "Variation 10": 0.3970588235294117
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart size abnormal on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there cardiac silhouette enlargement visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Does the heart size appear within normal limits on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are the cardiac dimensions within expected parameters for an adult female on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Can we observe cardiomegaly on this anteroposterior (AP) chest X-ray view? Please choose from the following two options: [yes, no]\n<image> 1. Yes, we can observe cardiomegaly on this AP chest X-ray view.\n 2. No, we cannot observe cardiomegaly on this AP chest X-ray view.\n 1. Yes",
+                "<s> Do the cardiac contours appear normal in shape and size on this digital radiograph? Please choose from the following two options: [yes, no]\n<image> 1. The cardiac contours are normal in shape and size.\n 2. The cardiac contours are not normal in shape and size.\n 1. The cardiac contours are normal in shape and size.\n ",
+                "<s> Is there evidence of cardiac hypertrophy or enlargement visible on this supine chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Are the heart borders well-circumscribed and within expected dimensions on this erect chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Does the cardiac silhouette appear proportional to body habitus on this AP view? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the cardiac silhouette is proportional to the patient's body habitus.\n 2. No, the cardiac silhouette is not proportional to the patient's body habitus.\n 1.",
+                "<s> Can we see any abnormalities in cardiac size or shape on this portable chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Cardiac size and shape appear normal.\n 2. Cardiac size and shape are abnormal.\n 1. Cardiac size and shape appear normal.\n 2. Cardiac size and shape are abnormal.\n",
+                "<s> Is the heart size consistent with normal anatomy for an adult male on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1"
+            ]
+        ],
+        "sensitivities": [
+            0.4982851566302385
+        ],
+        "posix": 0.4982851566302385
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_262_variants.json",
+    "overall_posix": 2.478202162911922,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.0238096958551652,
+            "Variation 2": 2.347995396318107,
+            "Variation 3": 0.45903414137223186,
+            "Variation 4": 0.3452218062168843,
+            "Variation 5": 0.08858814755001583,
+            "Variation 6": 7.895560574531555,
+            "Variation 7": 0.0,
+            "Variation 8": 7.978392488078067,
+            "Variation 9": 0.0,
+            "Variation 10": 0.3452218062168843
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of heart enlargement on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no signs of heart enlargement on the chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "Yes, there is a sign of heart ehlargement on the chest X-ray. The heart appears to be enlarged, which could indicate heart ehlargement.",
+                "No, there are no signs of heart enlargement on the chest X-ray. The image shows a normal-sized heart.",
+                "No, there are no signs of heart enlargement on the chest X-ray. The image shows a normal-sized heart within the chest cavity.",
+                "Yes, there is a sign of heart enlargement on the chest X-ray. The heart appears to be larger than normal, which could indicate heart enlargement.",
+                "No, there are no signs of heart enlargement on the chest X-ray. The image shows a normal chest X-ray with the heart and lungs clearly visible.",
+                "Yes, there is a sign of heart enlargement on the chest X-ray.",
+                "No, there are no signs of heart enlargement on the chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "Yes, there are signs of heart enlargement on the chest X-ray.",
+                "No, there are no signs of heart enlargement on the chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "Yes, there is a sign of heart enlargement on the chest X-ray. The heart appears to be larger than normal, which could indicate heart enlargement."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -330.0398118495941,
+                    -369.96838998794556,
+                    -261.947945356369,
+                    -314.43265104293823,
+                    -342.81301867961884,
+                    -326.76205039024353,
+                    -172.128600358963,
+                    -330.0398118495941,
+                    -178.45035457611084,
+                    -330.0398118495941,
+                    -342.81301867961884
+                ],
+                [
+                    -341.0194525718689,
+                    -375.65580463409424,
+                    -282.63620805740356,
+                    -334.50139367580414,
+                    -354.7810935974121,
+                    -340.8062710762024,
+                    -189.7832634449005,
+                    -341.0194525718689,
+                    -163.85266780853271,
+                    -341.0194525718689,
+                    -354.7810935974121
+                ],
+                [
+                    -341.0194525718689,
+                    -375.65580463409424,
+                    -282.63620805740356,
+                    -334.50139367580414,
+                    -354.7810935974121,
+                    -340.8062710762024,
+                    -189.7832634449005,
+                    -341.0194525718689,
+                    -163.85266780853271,
+                    -341.0194525718689,
+                    -354.7810935974121
+                ],
+                [
+                    -337.7865972518921,
+                    -355.6661026477814,
+                    -279.0300555229187,
+                    -334.5817160606384,
+                    -363.21688985824585,
+                    -336.63029956817627,
+                    -197.31109762191772,
+                    -337.7865972518921,
+                    -172.4316246509552,
+                    -337.7865972518921,
+                    -363.21688985824585
+                ],
+                [
+                    -313.65522849559784,
+                    -367.97067284584045,
+                    -255.75684297084808,
+                    -305.75774109363556,
+                    -325.9218956232071,
+                    -315.54576575756073,
+                    -161.15186297893524,
+                    -313.65522849559784,
+                    -179.34617221355438,
+                    -313.65522849559784,
+                    -325.9218956232071
+                ],
+                [
+                    -337.7865972518921,
+                    -355.6661026477814,
+                    -279.0300555229187,
+                    -334.5817160606384,
+                    -363.21688985824585,
+                    -336.63029956817627,
+                    -197.31109762191772,
+                    -337.7865972518921,
+                    -172.4316246509552,
+                    -337.7865972518921,
+                    -363.21688985824585
+                ],
+                [
+                    -330.0398118495941,
+                    -369.96838998794556,
+                    -261.947945356369,
+                    -314.43265104293823,
+                    -342.81301867961884,
+                    -326.76205039024353,
+                    -172.128600358963,
+                    -330.0398118495941,
+                    -178.45035457611084,
+                    -330.0398118495941,
+                    -342.81301867961884
+                ],
+                [
+                    -313.65522849559784,
+                    -367.97067284584045,
+                    -255.75684297084808,
+                    -305.75774109363556,
+                    -325.9218956232071,
+                    -315.54576575756073,
+                    -161.15186297893524,
+                    -313.65522849559784,
+                    -179.34617221355438,
+                    -313.65522849559784,
+                    -325.9218956232071
+                ],
+                [
+                    -313.65522849559784,
+                    -367.97067284584045,
+                    -255.75684297084808,
+                    -305.75774109363556,
+                    -325.9218956232071,
+                    -315.54576575756073,
+                    -161.15186297893524,
+                    -313.65522849559784,
+                    -179.34617221355438,
+                    -313.65522849559784,
+                    -325.9218956232071
+                ],
+                [
+                    -341.0194525718689,
+                    -375.65580463409424,
+                    -282.63620805740356,
+                    -334.50139367580414,
+                    -354.7810935974121,
+                    -340.8062710762024,
+                    -189.7832634449005,
+                    -341.0194525718689,
+                    -163.85266780853271,
+                    -341.0194525718689,
+                    -354.7810935974121
+                ],
+                [
+                    -341.0194525718689,
+                    -375.65580463409424,
+                    -282.63620805740356,
+                    -334.50139367580414,
+                    -354.7810935974121,
+                    -340.8062710762024,
+                    -189.7832634449005,
+                    -341.0194525718689,
+                    -163.85266780853271,
+                    -341.0194525718689,
+                    -354.7810935974121
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.478202162911922
+        ],
+        "posix": 2.478202162911922
+    }
+}

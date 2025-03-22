@@ -1,0 +1,189 @@
+{
+    "file_name": "question_198_variants.json",
+    "overall_posix": 8.085034762607384,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.029929399490356445,
+            "Variation 2": 1.328966747522354,
+            "Variation 3": 42.88296169042587,
+            "Variation 4": 12.248181414604186,
+            "Variation 5": 0.2529925634694654,
+            "Variation 6": 0.45971496468004974,
+            "Variation 7": 12.248181414604186,
+            "Variation 8": 0.6754575848579407,
+            "Variation 9": 12.248181414604186,
+            "Variation 10": 12.248181414604186
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart size within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the heart size on the chest X-ray is not within normal limits. It appears to be enlarged, which could indicate a medical condition such as heart failure or another cardiac issue.",
+                "No, the heart size on the chest X-ray is not within normal limits. The heart appears to be enlarged, which could indicate a medical condition such as heart failure or another cardiac issue.",
+                "Based on the image provided, it appears that the heart size is within normal limits. The heart shadow is of average size and is not significantly enlarged or reduced compared to the surrounding structures. However, it is important to note that a definitive",
+                "[ye,s no]",
+                "No, the heart size on the chest X-ray appears to be enlarged.",
+                "No, the heart size on the chest X-ray is not within normal limits. The heart appears to be enlarged, which could indicate a condition such as heart failure or another cardiac issue.",
+                "Based on the image provided, it appears that the heart size is within normal limits. The heart shadow is visible and appears to be of average size, which is consistent with normal heart size on a chest X-ray.",
+                "No, the heart size on the chest X-ray appears to be enlarged.",
+                "Based on the image provided, it is not possible to accurately assess the size of the heart. The image is a chest X-ray, which primarily focuses on the lungs and the ribcage. The heart is not clearly visible in this type of",
+                "No, the heart size on the chest X-ray appears to be enlarged.",
+                "No, the heart size on the chest X-ray appears to be enlarged."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -411.2011042833328,
+                    -412.5179978609085,
+                    -477.64944165945053,
+                    -68.13741075992584,
+                    -166.23747599124908,
+                    -400.3224240541458,
+                    -432.3479926586151,
+                    -166.23747599124908,
+                    -444.97398352622986,
+                    -166.23747599124908,
+                    -166.23747599124908
+                ],
+                [
+                    -420.392942905426,
+                    -446.6713442802429,
+                    -474.8185465782881,
+                    -80.76282739639282,
+                    -178.57695031166077,
+                    -430.7516403198242,
+                    -424.47733545303345,
+                    -178.57695031166077,
+                    -481.56885981559753,
+                    -178.57695031166077,
+                    -178.57695031166077
+                ],
+                [
+                    -424.81804037094116,
+                    -435.5685918331146,
+                    -500.54869294166565,
+                    -75.55217742919922,
+                    -189.3095030784607,
+                    -424.08511447906494,
+                    -452.16650676727295,
+                    -189.3095030784607,
+                    -482.36677646636963,
+                    -189.3095030784607,
+                    -189.3095030784607
+                ],
+                [
+                    -424.81804037094116,
+                    -435.5685918331146,
+                    -500.54869294166565,
+                    -75.55217742919922,
+                    -189.3095030784607,
+                    -424.08511447906494,
+                    -452.16650676727295,
+                    -189.3095030784607,
+                    -482.36677646636963,
+                    -189.3095030784607,
+                    -189.3095030784607
+                ],
+                [
+                    -425.62515664100647,
+                    -434.9920380115509,
+                    -489.8414123058319,
+                    -68.56541967391968,
+                    -182.59956669807434,
+                    -423.84969449043274,
+                    -445.76477551460266,
+                    -182.59956669807434,
+                    -470.7101209163666,
+                    -182.59956669807434,
+                    -182.59956669807434
+                ],
+                [
+                    -424.81804037094116,
+                    -435.5685918331146,
+                    -500.54869294166565,
+                    -75.55217742919922,
+                    -189.3095030784607,
+                    -424.08511447906494,
+                    -452.16650676727295,
+                    -189.3095030784607,
+                    -482.36677646636963,
+                    -189.3095030784607,
+                    -189.3095030784607
+                ],
+                [
+                    -424.81804037094116,
+                    -435.5685918331146,
+                    -500.54869294166565,
+                    -75.55217742919922,
+                    -189.3095030784607,
+                    -424.08511447906494,
+                    -452.16650676727295,
+                    -189.3095030784607,
+                    -482.36677646636963,
+                    -189.3095030784607,
+                    -189.3095030784607
+                ],
+                [
+                    -411.2011042833328,
+                    -412.5179978609085,
+                    -477.64944165945053,
+                    -68.13741075992584,
+                    -166.23747599124908,
+                    -400.3224240541458,
+                    -432.3479926586151,
+                    -166.23747599124908,
+                    -444.97398352622986,
+                    -166.23747599124908,
+                    -166.23747599124908
+                ],
+                [
+                    -425.1905176639557,
+                    -439.2307696342468,
+                    -487.8886613845825,
+                    -66.32410717010498,
+                    -193.53470373153687,
+                    -419.7405369281769,
+                    -447.1277868747711,
+                    -193.53470373153687,
+                    -469.4308360815048,
+                    -193.53470373153687,
+                    -193.53470373153687
+                ],
+                [
+                    -424.81804037094116,
+                    -435.5685918331146,
+                    -500.54869294166565,
+                    -75.55217742919922,
+                    -189.3095030784607,
+                    -424.08511447906494,
+                    -452.16650676727295,
+                    -189.3095030784607,
+                    -482.36677646636963,
+                    -189.3095030784607,
+                    -189.3095030784607
+                ],
+                [
+                    -424.81804037094116,
+                    -435.5685918331146,
+                    -500.54869294166565,
+                    -75.55217742919922,
+                    -189.3095030784607,
+                    -424.08511447906494,
+                    -452.16650676727295,
+                    -189.3095030784607,
+                    -482.36677646636963,
+                    -189.3095030784607,
+                    -189.3095030784607
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            8.085034762607384
+        ],
+        "posix": 8.085034762607384
+    }
+}

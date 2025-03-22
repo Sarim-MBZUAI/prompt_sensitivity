@@ -1,0 +1,42 @@
+{
+    "file_name": "question_47_variants.json",
+    "overall_posix": 0.4221014625468499,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.09625668449197855,
+            "Variation 2": 0.0,
+            "Variation 3": 0.653125,
+            "Variation 4": 0.3739495798319328,
+            "Variation 5": 0.6,
+            "Variation 6": 0.6571428571428571,
+            "Variation 7": 0.6666666666666666,
+            "Variation 8": 0.663768115942029,
+            "Variation 9": 0.28125,
+            "Variation 10": 0.2288557213930349
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographic abnormalities observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the chest X-ray unremarkable with regard to lung parenchymal or mediastinal pathology? Please choose from the following two options: [yes, no]\n<image> 11. Is the chest X-ray unremarkable with regard to cardiac pathology? Please choose from the following two options: [yes, no]\n 12. Is the chest X-ray unremarkable",
+                "<s> Does the chest X-ray demonstrate any suspicious findings suggestive of lung disease, malignancy, or other abnormalities? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any notable radiographic features observed in the chest X-ray that could be related to respiratory pathology? Please choose from the following two options: [yes, no]\n<image> 1. Are there any nodules or masses in the lungs?\n 2. Are there any signs of pulmonary fibrosis?\n 3. Are there any signs of pneumonia?\n 4. Are there",
+                "<s> Is the chest X-ray free of any significant abnormalities, including lung lesions or mediastinal masses? Please choose from the following two options: [yes, no]\n<image> 11. Is the chest X-ray free of any significant abnormalities, including lung lesions or mediastinal masses? Please choose from the following two options: [yes, no]\n 12. Is the ch",
+                "<s> Are there any visible radiographic signs indicative of pulmonary disease, including pneumothorax or pleural effusion? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other findings on the chest radiograph that are suggestive of pulmonary disease? Please choose from the following two options: [yes, no]\n 12.  Are there any find",
+                "<s> Does the chest X-ray show a normal lung silhouette without evidence of volume loss or consolidation? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the chest X-ray shows a normal lung silhouette without evidence of volume loss or consolidation.\n 2. No, the chest X-ray shows a normal lung silhouette with evidence of",
+                "<s> Is there any visible mediastinal pathology detected on the chest X-ray, such as lymphadenopathy or masses? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lung fields and cardiac silhouette within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.4221014625468499
+        ],
+        "posix": 0.4221014625468499
+    }
+}

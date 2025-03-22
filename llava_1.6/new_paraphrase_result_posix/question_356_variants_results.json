@@ -1,0 +1,189 @@
+{
+    "file_name": "question_356_variants.json",
+    "overall_posix": 5.105080038420643,
+    "detailed_scores": [
+        {
+            "Variation 1": 10.05754086971283,
+            "Variation 2": 0.8452992062819632,
+            "Variation 3": 2.3272284269332886,
+            "Variation 4": 1.0787292432785034,
+            "Variation 5": 1.8763805913925171,
+            "Variation 6": 3.4050402005513507,
+            "Variation 7": 11.863092535071903,
+            "Variation 8": 2.4168934488296507,
+            "Variation 9": 0.8290878985379193,
+            "Variation 10": 10.85741651058197
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of a collapsed lung, or pneumothorax, on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no signs of a collapsed lung or pneumothorax on the chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "No, there is no evidence of pneumothorax on the chest radiograph.",
+                "No, there are no signs of lung collapse visible on this X-ray. The image shows a normal chest X-ray with the lungs appearing clear and well-expanded.",
+                "No, the image does not show a pneumothorax. A pneumothorax is a medical condition where air accumulates in the pleural space outside the lungs, causing the lung to collapse. The image you provided appears to be",
+                "No, a collapsed lung or air leak cannot be identified on this chest X-ray. The image shows a lateral chest X-ray with the letters \"LT\" and \"DR\" indicating the left and right sides of the chest, respectively.",
+                "No, there is no pneumothorax present in this image. The image shows a chest X-ray with the lungs visible, but there is no evidence of air accumulation in the pleural space, which is characteristic of pneumoth",
+                "No, there is no indication of lung collapse in the provided image. The image shows a chest X-ray with the lungs appearing normal.",
+                "No, the radiograph does not reveal signs of pneumothorax.",
+                "No, pneumothorax or lung collapse cannot be confirmed from the image provided. The image shows an X-ray of a chest with the lungs visible, but without additional context or medical expertise, it is not possible to diagnose any medical",
+                "No, there are no visual signs of a collapsed lung on the chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "No, there is no visible pneumothorax on this X-ray."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -383.2106988430023,
+                    -182.05988144874573,
+                    -351.0893290042877,
+                    -499.57212018966675,
+                    -437.1471610069275,
+                    -477.0297284126282,
+                    -281.0594928264618,
+                    -169.67503321170807,
+                    -504.05537128448486,
+                    -352.5344465970993,
+                    -176.91978514194489
+                ],
+                [
+                    -419.6904675960541,
+                    -198.84920072555542,
+                    -368.9702570438385,
+                    -520.8166210651398,
+                    -442.21754455566406,
+                    -491.9963731765747,
+                    -279.6901664733887,
+                    -186.53356063365936,
+                    -501.7908499240875,
+                    -355.8514461517334,
+                    -183.57213139533997
+                ],
+                [
+                    -392.39931178092957,
+                    -194.82405471801758,
+                    -372.488760471344,
+                    -513.4467742443085,
+                    -480.67583537101746,
+                    -493.05489778518677,
+                    -262.1611136198044,
+                    -182.25492107868195,
+                    -498.6769256591797,
+                    -348.5513834953308,
+                    -178.06216025352478
+                ],
+                [
+                    -408.31066155433655,
+                    -199.92406010627747,
+                    -372.3861994743347,
+                    -498.8144600391388,
+                    -471.6240086555481,
+                    -507.8486976623535,
+                    -282.81970596313477,
+                    -175.88644814491272,
+                    -482.02394938468933,
+                    -343.8113102912903,
+                    -186.03061294555664
+                ],
+                [
+                    -395.5415925979614,
+                    -187.49560856819153,
+                    -378.99742805957794,
+                    -511.37770414352417,
+                    -464.5365149974823,
+                    -481.86986458301544,
+                    -264.6581287384033,
+                    -182.87672448158264,
+                    -491.4921793937683,
+                    -333.05196261405945,
+                    -177.5657730102539
+                ],
+                [
+                    -413.6408245563507,
+                    -195.18045735359192,
+                    -353.2996401786804,
+                    -508.3667833805084,
+                    -454.18147444725037,
+                    -498.312073469162,
+                    -279.0786352157593,
+                    -174.90295243263245,
+                    -492.3469376564026,
+                    -355.7492928504944,
+                    -176.47081911563873
+                ],
+                [
+                    -408.31066155433655,
+                    -199.92406010627747,
+                    -372.3861994743347,
+                    -498.8144600391388,
+                    -471.6240086555481,
+                    -507.8486976623535,
+                    -282.81970596313477,
+                    -175.88644814491272,
+                    -482.02394938468933,
+                    -343.8113102912903,
+                    -186.03061294555664
+                ],
+                [
+                    -389.39966082572937,
+                    -193.64047420024872,
+                    -362.2560043334961,
+                    -506.19470739364624,
+                    -470.7768716812134,
+                    -504.142459154129,
+                    -277.4389953613281,
+                    -183.38727712631226,
+                    -493.3151888847351,
+                    -341.2585093975067,
+                    -173.88388085365295
+                ],
+                [
+                    -419.6904675960541,
+                    -198.84920072555542,
+                    -368.9702570438385,
+                    -520.8166210651398,
+                    -442.21754455566406,
+                    -491.9963731765747,
+                    -279.6901664733887,
+                    -186.53356063365936,
+                    -501.7908499240875,
+                    -355.8514461517334,
+                    -183.57213139533997
+                ],
+                [
+                    -419.6904675960541,
+                    -198.84920072555542,
+                    -368.9702570438385,
+                    -520.8166210651398,
+                    -442.21754455566406,
+                    -491.9963731765747,
+                    -279.6901664733887,
+                    -186.53356063365936,
+                    -501.7908499240875,
+                    -355.8514461517334,
+                    -183.57213139533997
+                ],
+                [
+                    -395.5415925979614,
+                    -187.49560856819153,
+                    -378.99742805957794,
+                    -511.37770414352417,
+                    -464.5365149974823,
+                    -481.86986458301544,
+                    -264.6581287384033,
+                    -182.87672448158264,
+                    -491.4921793937683,
+                    -333.05196261405945,
+                    -177.5657730102539
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            5.105080038420643
+        ],
+        "posix": 5.105080038420643
+    }
+}

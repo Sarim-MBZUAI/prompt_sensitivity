@@ -1,0 +1,42 @@
+{
+    "file_name": "question_231_variants.json",
+    "overall_posix": 0.44962410996281904,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5125786163522013,
+            "Variation 2": 0.4308176100628931,
+            "Variation 3": 0.32198142414860675,
+            "Variation 4": 0.335423197492163,
+            "Variation 5": 0.4968553459119497,
+            "Variation 6": 0.45833333333333326,
+            "Variation 7": 0.44025157232704404,
+            "Variation 8": 0.48742138364779874,
+            "Variation 9": 0.5062893081761006,
+            "Variation 10": 0.5062893081761006
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of a pneumothor",
+                "<s> QUESTION:Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tYes, there is a right paratracheal mass.\n \u2022\tNo, there is no abnormality in the mediastinal contour.\n \u2022\tNo, there is no abnormality",
+                "<s> Question-Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n [yes, no]\n 11.Question\n Is there any evidence of a mediastinal mass on the chest X-ray? Please choose from the following two options: [yes, no]\n",
+                "<s> question:Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n [yes, no]\n 11.Question:Is there any abnormality in the cardiac contour? Please choose from the following two options: [yes, no]\n answer:\n [yes, no]\n ",
+                "<s> q:Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 1",
+                "<s> question::Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The mediastinal contour is normal.\n B: The mediastinal contour is abnormal.\n 3.Question: Is there any abnormality detected in the chest X-ray in terms of the",
+                "<s> Q:Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n A 166: Chest X-Ray Question\n ANSWER:\n B\n DEFINITIONS:\n \u2022\tBron",
+                "<s> q:::Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q::: Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Are there any abnormalities detected in the mediastinal contour on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n [no]\n 10\n 10.1\n 10.1A\n 10.1B\n 10.1C\n 10.1D\n 10."
+            ]
+        ],
+        "sensitivities": [
+            0.44962410996281904
+        ],
+        "posix": 0.44962410996281904
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_38_variants.json",
+    "overall_posix": 0.41936302220968374,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.30208333333333326,
+            "Variation 2": 0.0,
+            "Variation 3": 0.4444444444444444,
+            "Variation 4": 0.5878136200716846,
+            "Variation 5": 0.551094890510949,
+            "Variation 6": 0.2822966507177034,
+            "Variation 7": 0.46798029556650245,
+            "Variation 8": 0.6366459627329193,
+            "Variation 9": 0.29064039408866993,
+            "Variation 10": 0.6306306306306306
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray indicate the presence of focal airspace disease? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray indicate the presence of focal airspace disease? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of localized alveolar consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray indicate the presence of focal airspace disease? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the imaging study reveal a well-defined area of increased opacity in the lung fields? Please choose from the following two options: [yes, no]\n<image> 1. ___\n 2. ___\n 3. ___\n _ 4. ___\n 5. ___\n 6. ___\n 7. ___\n 8. ___\n ",
+                "<s> Are there radiographic findings suggestive of patchy pulmonary opacification? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are.\n b. No, there are not.\n 10. What is the most likely diagnosis?\n a. Pneumonia\n b. Pulmonary edema\n c. Pulmonary hem",
+                "<s> Is this chest X-ray consistent with a pattern of focal lobar pneumonia? Please choose from the following two options: [yes, no]\n<image> A. Yes, focal lobar pneumonia is present in the right upper lobe.\n B. No, focal lobar pneumonia is not present.\n 3.\n A 25-year-old man",
+                "<s> Does the image suggest the presence of an alveolar filling process in the lower lung lobes? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of segmental or lobar airspace disease visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 15.1.1.1\n 15.1.1.2\n 15.1.1.3\n 15.1.1.4\n 15.1.1.5\n",
+                "<s> Does the radiographic examination reveal a localized area of increased density in the lung parenchyma? Please choose from the following two options: [yes, no]\n<image> 11.  Is the density of the lesion homogeneous or heterogeneous?\n [yes, no]\n 12.  Is the lesion located in the upper lobe, middle lobe, or lower lobe of",
+                "<s> Are there imaging findings indicative of focal alveolar consolidation or atelectasis? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray show a pattern of patchy lung infiltrates suggestive of an infectious process? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the X-ray shows patchy infiltrates in the right middle and left lower lobes, which are more extensive in the left lower lobe.\n 2. No, the X-ray shows patchy"
+            ]
+        ],
+        "sensitivities": [
+            0.41936302220968374
+        ],
+        "posix": 0.41936302220968374
+    }
+}

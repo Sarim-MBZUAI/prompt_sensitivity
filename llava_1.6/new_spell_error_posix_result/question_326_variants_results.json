@@ -1,0 +1,189 @@
+{
+    "file_name": "question_326_variants.json",
+    "overall_posix": 2.5431666331276133,
+    "detailed_scores": [
+        {
+            "Variation 1": 2.201768088340759,
+            "Variation 2": 1.117316648695204,
+            "Variation 3": 2.5324249362945555,
+            "Variation 4": 2.0177512121200563,
+            "Variation 5": 2.167418713569641,
+            "Variation 6": 0.7574605128981851,
+            "Variation 7": 2.201768088340759,
+            "Variation 8": 4.222818383464107,
+            "Variation 9": 4.222818383464107,
+            "Variation 10": 0.3893617129907375
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any fractures or abnormalities in the osseous structures included in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no fractures or abnormalities in the osseous structures visible in the chest X-ray. The image shows the ribs and spine, which appear normal.",
+                "No, there are no fractures or abnormalities in the osseous structures visible in the chest X-ray. The image shows the lungs and heart, but there are no signs of fractures or other abnormalities in the bones.",
+                "No, there are no fractures or abnormalities visible in the osseous structures included in the chest X-ray. The image shows a normal chest X-ray with no signs of injury or disease.",
+                "No, there are no fractures or abnormalities in the osseous structures visible in the chest X-ray. The image shows the lungs and heart clearly, but there are no signs of fractures or other abnormalities in the bones",
+                "Based on the image provided, there are no visible fractures or abnormalities in the osseous structures included in the chest X-ray. The image shows the lungs and heart, but there is no indication of any fractures or abnormal",
+                "No, there are no fractures or abnormalities in the osseous structures visible in the chest X-ray. The image shows the lungs and heart, but there is no indication of any fractures or abnormalities in the bones.",
+                "No, there are no fractures or bnormalities in the osseous structures included in the chest X-ray. The image shows a normal chest X-ray with no signs of injury or disease.",
+                "No, there are no fractures or abnormalities in the osseous structures visible in the chest X-ray. The image shows the lungs and heart, but there are no signs of fractures or other abnormalities in the bones.",
+                "No, there are no fractures or abnormalities in the osseous structures visible in the chest X-ray.",
+                "No, there are no fractures or abnormalities in the osseous structures visible in the chest X-ray.",
+                "No, there are no fractures or abnormalities in the osseous structures visible in the chest X-ray. The image shows the lungs and heart, but the bones appear normal."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -368.2349636554718,
+                    -478.32336807250977,
+                    -418.514212846756,
+                    -494.8562104701996,
+                    -469.1225242614746,
+                    -476.60589933395386,
+                    -401.56322622299194,
+                    -478.32336807250977,
+                    -254.21886730194092,
+                    -254.21886730194092,
+                    -384.19879388809204
+                ],
+                [
+                    -362.77503490448,
+                    -472.8187606334686,
+                    -430.1430823802948,
+                    -477.7999532222748,
+                    -468.79139614105225,
+                    -470.3229100704193,
+                    -406.761394739151,
+                    -472.8187606334686,
+                    -247.8444184064865,
+                    -247.8444184064865,
+                    -363.81548619270325
+                ],
+                [
+                    -372.17252492904663,
+                    -487.95037150382996,
+                    -433.9886975288391,
+                    -473.92002534866333,
+                    -473.7472710609436,
+                    -483.06848978996277,
+                    -425.57698106765747,
+                    -487.95037150382996,
+                    -256.91311383247375,
+                    -256.91311383247375,
+                    -387.44311237335205
+                ],
+                [
+                    -372.17252492904663,
+                    -487.95037150382996,
+                    -433.9886975288391,
+                    -473.92002534866333,
+                    -473.7472710609436,
+                    -483.06848978996277,
+                    -425.57698106765747,
+                    -487.95037150382996,
+                    -256.91311383247375,
+                    -256.91311383247375,
+                    -387.44311237335205
+                ],
+                [
+                    -350.89777851104736,
+                    -443.30096530914307,
+                    -421.9947683811188,
+                    -466.9013018608093,
+                    -478.9080011844635,
+                    -445.49274587631226,
+                    -411.634605884552,
+                    -443.30096530914307,
+                    -237.33479475975037,
+                    -237.33479475975037,
+                    -348.60764199495316
+                ],
+                [
+                    -353.98420214653015,
+                    -471.5533752441406,
+                    -422.49176597595215,
+                    -475.751944065094,
+                    -456.63829708099365,
+                    -471.0932922363281,
+                    -413.30968737602234,
+                    -471.5533752441406,
+                    -245.17130970954895,
+                    -245.17130970954895,
+                    -378.227144241333
+                ],
+                [
+                    -368.2349636554718,
+                    -478.32336807250977,
+                    -418.514212846756,
+                    -494.8562104701996,
+                    -469.1225242614746,
+                    -476.60589933395386,
+                    -401.56322622299194,
+                    -478.32336807250977,
+                    -254.21886730194092,
+                    -254.21886730194092,
+                    -384.19879388809204
+                ],
+                [
+                    -350.89777851104736,
+                    -443.30096530914307,
+                    -421.9947683811188,
+                    -466.9013018608093,
+                    -478.9080011844635,
+                    -445.49274587631226,
+                    -411.634605884552,
+                    -443.30096530914307,
+                    -237.33479475975037,
+                    -237.33479475975037,
+                    -348.60764199495316
+                ],
+                [
+                    -350.89777851104736,
+                    -443.30096530914307,
+                    -421.9947683811188,
+                    -466.9013018608093,
+                    -478.9080011844635,
+                    -445.49274587631226,
+                    -411.634605884552,
+                    -443.30096530914307,
+                    -237.33479475975037,
+                    -237.33479475975037,
+                    -348.60764199495316
+                ],
+                [
+                    -350.89777851104736,
+                    -443.30096530914307,
+                    -421.9947683811188,
+                    -466.9013018608093,
+                    -478.9080011844635,
+                    -445.49274587631226,
+                    -411.634605884552,
+                    -443.30096530914307,
+                    -237.33479475975037,
+                    -237.33479475975037,
+                    -348.60764199495316
+                ],
+                [
+                    -372.17252492904663,
+                    -487.95037150382996,
+                    -433.9886975288391,
+                    -473.92002534866333,
+                    -473.7472710609436,
+                    -483.06848978996277,
+                    -425.57698106765747,
+                    -487.95037150382996,
+                    -256.91311383247375,
+                    -256.91311383247375,
+                    -387.44311237335205
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.5431666331276133
+        ],
+        "posix": 2.5431666331276133
+    }
+}

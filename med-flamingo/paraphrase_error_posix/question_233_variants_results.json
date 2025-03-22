@@ -1,0 +1,42 @@
+{
+    "file_name": "question_233_variants.json",
+    "overall_posix": 0.2836298607523165,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.24137931034482762,
+            "Variation 2": 0.0,
+            "Variation 3": 0.1910112359550562,
+            "Variation 4": 0.3407079646017699,
+            "Variation 5": 0.15841584158415845,
+            "Variation 6": 0.30660377358490565,
+            "Variation 7": 0.3697478991596639,
+            "Variation 8": 0.3817427385892116,
+            "Variation 9": 0.35021097046413496,
+            "Variation 10": 0.4964788732394366
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of atelectasis on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiograph reveal any indications of lung collapse? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any signs of pneumothorax or pleural effusion that would suggest lung collapse on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest radiograph show any mediastinal shift suggestive of a collapsed lung? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any abnormal opacity or density on the chest X-ray that might indicate lung collapse? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiograph reveal any features consistent with lung atelectasis, such as a meniscus sign or dark triangle sign? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographic signs of lung collapse, such as increased opacity or decreased lung markings on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show any evidence of volume loss in one lung compared to the other, suggestive of lung collapse? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n a.\n b.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Is there any indication on the chest radiograph that would suggest a collapsed lung, such as an increased cardiothoracic ratio or shifted mediastinal border? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a"
+            ]
+        ],
+        "sensitivities": [
+            0.2836298607523165
+        ],
+        "posix": 0.2836298607523165
+    }
+}

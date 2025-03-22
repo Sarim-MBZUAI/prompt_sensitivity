@@ -1,0 +1,42 @@
+{
+    "file_name": "question_165_variants.json",
+    "overall_posix": 0.48039890512867434,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6104294478527608,
+            "Variation 2": 0.0,
+            "Variation 3": 0.4618834080717489,
+            "Variation 4": 0.568904593639576,
+            "Variation 5": 0.6415094339622641,
+            "Variation 6": 0.638235294117647,
+            "Variation 7": 0.6441176470588236,
+            "Variation 8": 0.4075829383886256,
+            "Variation 9": 0.6261980830670927,
+            "Variation 10": 0.20512820512820507
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any opacities visible within the lung fields on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Yes, there are opacities visible within the lung fields.\n 2. No, there are no opacities visible within the lung fields.\n 1. Yes, there are opacities visible within the lung fields",
+                "<s> Are the patient's lungs appearing clear on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the current chest X-ray show the lungs to be radiographically clear of any lesions or abnormalities? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is there any evidence of pulmonary pathology present on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> A. Lung consolidation\n B. Lung atelectasis\n C. Pleural effusion\n D. Pneumothorax\n E. Mediastinal widening\n 4.\n Which of the following is",
+                "<s> Do the lung fields appear normal and unremarkable on this X-ray examination? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lung fields are normal and unremarkable.\n b. No, the lung fields are not normal and unremarkable.\n 10. What is the most likely diagnosis?\n a. Normal and unremark",
+                "<s> Are the lungs free of any visible lesions or abnormalities according to this chest radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lungs are free of any visible lesions or abnormalities.\n b. No, the lungs contain a visible lesion or abnormality.\n 10. Please select from the following two options:",
+                "<s> Does this chest X-ray depict the lung parenchyma as being clear and without evidence of disease? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lung parenchyma is clear and without evidence of disease\n b. No, the lung parenchyma is not clear and does show evidence of disease\n 1. The correct answer is a.\n 2",
+                "<s> Is there any visible consolidation or infiltration within the lung fields on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Do the lungs appear normal in terms of radiographic appearance on this X-ray examination? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lungs are normal\n b. No, the lungs are not normal\n 4. Please select from the following two options: [left, right]\n a. Left\n b. Right\n 5. Please",
+                "<s> Are there any pulmonary abnormalities or lesions visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.48039890512867434
+        ],
+        "posix": 0.48039890512867434
+    }
+}

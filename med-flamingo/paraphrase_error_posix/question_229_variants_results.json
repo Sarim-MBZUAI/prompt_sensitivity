@@ -1,0 +1,42 @@
+{
+    "file_name": "question_229_variants.json",
+    "overall_posix": 0.40445682278334605,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.615625,
+            "Variation 2": 0.0,
+            "Variation 3": 0.583916083916084,
+            "Variation 4": 0.32307692307692304,
+            "Variation 5": 0.2761904761904762,
+            "Variation 6": 0.41116751269035534,
+            "Variation 7": 0.6555891238670695,
+            "Variation 8": 0.37254901960784315,
+            "Variation 9": 0.33613445378151263,
+            "Variation 10": 0.4703196347031964
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a radiographically evident lung neoplasm present on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a radiographically evident lung neoplasm present on this chest X-ray.\n b. No, there is not a radiographically evident lung neoplasm present on this chest X-",
+                "<s> Is there evidence of a lung tumor on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray demonstrate a lung tumor that is visible to the naked eye? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the lung tumor is visible to the naked eye.\n 2.  No, the lung tumor is not visible to the naked eye.\n 1.  Yes, the lung tumor is",
+                "<s> Is there a palpable or radiologically apparent lung mass on this chest image? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Does the chest X-ray show evidence of a primary lung cancer that is large enough to be seen? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visible lung lesion on this radiograph that might represent a tumor? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does this chest X-ray demonstrate a new or enlarging lung mass that could be malignant in nature? Please choose from the following two options: [yes, no]\n<image> 1.Yes, this X-ray demonstrates a new mass in the right lower lobe of the lung.\n 2.No, this X-ray does not demonstrate a new mass in the right lower lobe of the lung.",
+                "<s> Is there a detectable lung tumor on this radiograph that meets criteria for reporting? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does the chest X-ray show any evidence of a lung lesion that might be considered suspicious or worrisome for malignancy? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visible lung mass on this radiograph that could potentially represent a tumor or neoplasm? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1"
+            ]
+        ],
+        "sensitivities": [
+            0.40445682278334605
+        ],
+        "posix": 0.40445682278334605
+    }
+}

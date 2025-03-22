@@ -1,0 +1,42 @@
+{
+    "file_name": "question_372_variants.json",
+    "overall_posix": 0.3570656810162889,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5239852398523985,
+            "Variation 2": 0.40454545454545454,
+            "Variation 3": 0.49416342412451364,
+            "Variation 4": 0.3163265306122449,
+            "Variation 5": 0.5350553505535055,
+            "Variation 6": 0.2786885245901639,
+            "Variation 7": 0.24731182795698925,
+            "Variation 8": 0.2541436464088398,
+            "Variation 9": 0.2486772486772486,
+            "Variation 10": 0.26775956284153013
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n [no]\n 10.\n QUESTION:Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\n Answer:\n [yes]",
+                "<s> Q:Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: 166.1: [A] The cardiomediastinal silhouette is normal. [B] The cardiomediastinal",
+                "<s> QUESTION:Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\n A:\n B:\n 3.\n QUE",
+                "<s> q:::Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question:Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n [yes, no]\n 10.What is the most likely diagnosis?\n [acquired pulmonary artery sling, pulmonary artery sling, pulmonary artery sling, pulmonary",
+                "<s> question::Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Question::: Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19",
+                "<s> QUESTION:Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n [yes, no]\n 12.\n 12.\n 12.\n 12.\n 12.\n 12.\n 12.\n 12",
+                "<s> q:Is the cardiomediastinal silhouette normal? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:"
+            ]
+        ],
+        "sensitivities": [
+            0.3570656810162889
+        ],
+        "posix": 0.3570656810162889
+    }
+}

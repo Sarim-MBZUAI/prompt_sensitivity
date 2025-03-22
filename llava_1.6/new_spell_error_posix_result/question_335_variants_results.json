@@ -1,0 +1,189 @@
+{
+    "file_name": "question_335_variants.json",
+    "overall_posix": 9.806688095662501,
+    "detailed_scores": [
+        {
+            "Variation 1": 46.499671595437185,
+            "Variation 2": 1.0055067019584851,
+            "Variation 3": 0.1264530477069673,
+            "Variation 4": 1.0055067019584851,
+            "Variation 5": 2.368460783958435,
+            "Variation 6": 1.1432488995629388,
+            "Variation 7": 1.1302918440256364,
+            "Variation 8": 1.0055067019584851,
+            "Variation 9": 47.69742393493652,
+            "Variation 10": 1.1335547069708507
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs over-inflated on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the lungs on the patient's chest X-ray do not appear to be over-inflated. The X-ray shows the lungs in a normal position within the chest cavity.",
+                "[j[no]]",
+                "No, the lungs do not appear to be over-inflated on the patient's chest X-ray. The lungs are visible and appear to be of normal size and shape.",
+                "No, the lungs do not appear to be over-inflated on the patient's chest X-ray. The lungs are of normal size and density, which is consistent with normal lung function.",
+                "No, the lungs do not appear to be over-inflated on the patient's chest X-ray. The lungs are visible and appear to be of normal size and shape.",
+                "Based on the image provided, it appears that the lungs are over-inflated. This is indicated by the presence of hyperinflated areas within the lungs, which can be seen as darker regions on the X-ray. Over-inflation",
+                "No, the lungs do not appear over-inflated on the patient's chest X-ray. The lungs are visible and appear to be of normal size and shape.",
+                "No, the lungs on the patient's chest X-ray do not appear to be over-inflated. The lungs are visible and appear to be of normal size and shape.",
+                "No, the lungs do not appear to be over-inflated on the patient's chest X-ray. The lungs are visible and appear to be of normal size and shape.",
+                "[es, no]",
+                "No, the lungs do not appear to be over-inflated on the patient's chest X-ray. The X-ray shows the lungs in a normal position and size, with no signs of over-inflation."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -393.78589940071106,
+                    -68.28819823265076,
+                    -354.57113802433014,
+                    -388.47487139701843,
+                    -354.57113802433014,
+                    -512.2089385986328,
+                    -351.4856901168823,
+                    -349.70451748371124,
+                    -354.57113802433014,
+                    -59.903931856155396,
+                    -448.1965253353119
+                ],
+                [
+                    -403.5168628692627,
+                    -69.21994113922119,
+                    -350.85945081710815,
+                    -377.5392236709595,
+                    -350.85945081710815,
+                    -500.37004566192627,
+                    -332.80838119983673,
+                    -362.0006060600281,
+                    -350.85945081710815,
+                    -63.21964693069458,
+                    -431.6668438911438
+                ],
+                [
+                    -415.50208139419556,
+                    -66.2676522731781,
+                    -376.14876651763916,
+                    -405.37978959083557,
+                    -376.14876651763916,
+                    -504.3745416402817,
+                    -309.9864251613617,
+                    -373.2078289985657,
+                    -376.14876651763916,
+                    -60.58856415748596,
+                    -463.4568829536438
+                ],
+                [
+                    -415.50208139419556,
+                    -66.2676522731781,
+                    -376.14876651763916,
+                    -405.37978959083557,
+                    -376.14876651763916,
+                    -504.3745416402817,
+                    -309.9864251613617,
+                    -373.2078289985657,
+                    -376.14876651763916,
+                    -60.58856415748596,
+                    -463.4568829536438
+                ],
+                [
+                    -403.5168628692627,
+                    -69.21994113922119,
+                    -350.85945081710815,
+                    -377.5392236709595,
+                    -350.85945081710815,
+                    -500.37004566192627,
+                    -332.80838119983673,
+                    -362.0006060600281,
+                    -350.85945081710815,
+                    -63.21964693069458,
+                    -431.6668438911438
+                ],
+                [
+                    -403.5168628692627,
+                    -69.21994113922119,
+                    -350.85945081710815,
+                    -377.5392236709595,
+                    -350.85945081710815,
+                    -500.37004566192627,
+                    -332.80838119983673,
+                    -362.0006060600281,
+                    -350.85945081710815,
+                    -63.21964693069458,
+                    -431.6668438911438
+                ],
+                [
+                    -403.5168628692627,
+                    -69.21994113922119,
+                    -350.85945081710815,
+                    -377.5392236709595,
+                    -350.85945081710815,
+                    -500.37004566192627,
+                    -332.80838119983673,
+                    -362.0006060600281,
+                    -350.85945081710815,
+                    -63.21964693069458,
+                    -431.6668438911438
+                ],
+                [
+                    -415.50208139419556,
+                    -66.2676522731781,
+                    -376.14876651763916,
+                    -405.37978959083557,
+                    -376.14876651763916,
+                    -504.3745416402817,
+                    -309.9864251613617,
+                    -373.2078289985657,
+                    -376.14876651763916,
+                    -60.58856415748596,
+                    -463.4568829536438
+                ],
+                [
+                    -403.5168628692627,
+                    -69.21994113922119,
+                    -350.85945081710815,
+                    -377.5392236709595,
+                    -350.85945081710815,
+                    -500.37004566192627,
+                    -332.80838119983673,
+                    -362.0006060600281,
+                    -350.85945081710815,
+                    -63.21964693069458,
+                    -431.6668438911438
+                ],
+                [
+                    -415.50208139419556,
+                    -66.2676522731781,
+                    -376.14876651763916,
+                    -405.37978959083557,
+                    -376.14876651763916,
+                    -504.3745416402817,
+                    -309.9864251613617,
+                    -373.2078289985657,
+                    -376.14876651763916,
+                    -60.58856415748596,
+                    -463.4568829536438
+                ],
+                [
+                    -403.5168628692627,
+                    -69.21994113922119,
+                    -350.85945081710815,
+                    -377.5392236709595,
+                    -350.85945081710815,
+                    -500.37004566192627,
+                    -332.80838119983673,
+                    -362.0006060600281,
+                    -350.85945081710815,
+                    -63.21964693069458,
+                    -431.6668438911438
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            9.806688095662501
+        ],
+        "posix": 9.806688095662501
+    }
+}

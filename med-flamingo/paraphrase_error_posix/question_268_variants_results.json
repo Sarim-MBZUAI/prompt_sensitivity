@@ -1,0 +1,42 @@
+{
+    "file_name": "question_268_variants.json",
+    "overall_posix": 0.530684187753549,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5882352941176471,
+            "Variation 2": 0.6491228070175439,
+            "Variation 3": 0.6313993174061433,
+            "Variation 4": 0.25257731958762886,
+            "Variation 5": 0.2995169082125604,
+            "Variation 6": 0.6334519572953736,
+            "Variation 7": 0.6819571865443425,
+            "Variation 8": 0.23076923076923084,
+            "Variation 9": 0.645367412140575,
+            "Variation 10": 0.6944444444444444
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have any acute abnormalities in the lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any unexpected opacities in the lung parenchyma? Please choose from the following two options: [yes, no]\n<image> a\n b\n Fig. 1.16a,b. Chest radiographs of a 55-year-old man with a history of a right-sided pleural efusion. a Initial chest radi",
+                "<s> Is there evidence of acute pulmonary pathology on imaging? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a large right-sided pleural effusion with a right-sided pneumothorax. There is also a small right-sided pneumothorax. There is a large left-s",
+                "<s> Do you see any abnormal lung densities that suggest an acute process? Please choose from the following two options: [yes, no]\n<image> a. Yes, I see a right lower lobe consolidation with air bronchograms.\n b. No, I do not see any lung abnormalities.\n 10. What is the most likely diagnosis?\n",
+                "<s> Are there any focal consolidations or infiltrates in the lungs at this time? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please indicate whether there are any significant deviations from normal lung appearance. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Would you agree that the lung fields show no signs of recent inflammation? Please choose from the following two options: [yes, no]\n<image> a\n b\n Fig. 1.16a,b. Chest radiographs of a 60-year-old man with a history of chronic obstructive pulmonary disease. The patient wasadmited",
+                "<s> Is the lung tissue free from any newly developed abnormalities? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lung tissue is free from any newly developed abnormalities\n b. No, the lung tissue is not free from any newly developed abnormalities\n 10. Please indicate whether the patient\u2019s lung t",
+                "<s> Do the images reveal any signs of pulmonary edema or hemorrhage? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any acute changes visible in the lung vasculature? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are acute changes in the lung vasculature.\n b. No, there are no acute changes in the lung vasculature.\n 10. Please indicate whether there are any acute changes visible in",
+                "<s> Can you confirm whether the lungs appear normal without evidence of pathology? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lungs appear normal without evidence of pathology\n b. No, the lungs appear abnormal with evidence of pathology\n 10. Please indicate whether the lungs appear normal without evidence of pathology? Please"
+            ]
+        ],
+        "sensitivities": [
+            0.530684187753549
+        ],
+        "posix": 0.530684187753549
+    }
+}

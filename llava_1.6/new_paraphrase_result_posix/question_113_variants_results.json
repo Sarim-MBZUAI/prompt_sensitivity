@@ -1,0 +1,189 @@
+{
+    "file_name": "question_113_variants.json",
+    "overall_posix": 3.4466065918195254,
+    "detailed_scores": [
+        {
+            "Variation 1": 11.437345649885094,
+            "Variation 2": 0.02396866798400879,
+            "Variation 3": 9.967941455841064,
+            "Variation 4": 4.123434400558471,
+            "Variation 5": 1.2392691712487827,
+            "Variation 6": 5.962592151857192,
+            "Variation 7": 1.3728459740793981,
+            "Variation 8": 4.657374450138637,
+            "Variation 9": 1.1023007583618165,
+            "Variation 10": 5.018279582262039
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no evidence of a collapsed lung or pneumothorax on this chest X-ray. The lung fields appear to be well-aerated and there are no signs of air or fluid accumulation that would indicate a p",
+                "No, there is no radiographic evidence of pneumothorax on this chest X-ray.",
+                "No, there is no evidence of a collapsed lung, or pneumothorax, on this chest X-ray. The lungs appear to be well-expanded and there are no signs of air or fluid accumulation in the pleural space",
+                "No, the chest X-ray does not demonstrate a pneumatocele or pneumothorax.",
+                "No, there is no indication of lung collapse on this radiograph. The image shows a normal chest radiograph with the lungs appearing clear and well-expanded.",
+                "Yes, there is an air collection visible in the thoracic cavity on this chest X-ray, which suggests the presence of a pneumothorax or pneumatocele formation.",
+                "Yes, the chest X-ray shows evidence of mediastinal shift away from the side of lung collapse due to pneumothorax.",
+                "No, there is no visual indication of pneumothorax or lung collapse on this radiograph. The lungs appear to be well-expanded and there are no signs of collapse or consolidation.",
+                "Yes, there is an air-filled space visible in the thoracic cavity that might suggest pneumothorax on this chest X-ray.",
+                "No, the radiograph does not demonstrate a significant increase in interstitial markings or lung lucency suggestive of pneumothorax. The lung fields appear to be relatively clear, with no evidence of air within the pleural space",
+                "No, there is no visible evidence on the chest X-ray of air leaking into the pleural space due to lung injury or disease process."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -485.4358432292938,
+                    -222.37689328193665,
+                    -486.63427662849426,
+                    -236.2373068332672,
+                    -341.1156392097473,
+                    -430.9079996943474,
+                    -300.5954865217209,
+                    -426.4034663438797,
+                    -322.4277374744415,
+                    -540.5508811473846,
+                    -324.85089659690857
+                ],
+                [
+                    -499.0508668422699,
+                    -217.44766473770142,
+                    -493.7088074684143,
+                    -241.44655179977417,
+                    -350.27128517627716,
+                    -433.9683792591095,
+                    -294.10290479660034,
+                    -432.40942454338074,
+                    -347.757594704628,
+                    -518.6461527347565,
+                    -315.8697144985199
+                ],
+                [
+                    -485.4358432292938,
+                    -222.37689328193665,
+                    -486.63427662849426,
+                    -236.2373068332672,
+                    -341.1156392097473,
+                    -430.9079996943474,
+                    -300.5954865217209,
+                    -426.4034663438797,
+                    -322.4277374744415,
+                    -540.5508811473846,
+                    -324.85089659690857
+                ],
+                [
+                    -490.45438730716705,
+                    -229.61619424819946,
+                    -499.87130749225616,
+                    -244.7340145111084,
+                    -347.16313219070435,
+                    -432.36365509033203,
+                    -299.72821497917175,
+                    -421.9697296619415,
+                    -347.72435784339905,
+                    -515.4103698730469,
+                    -318.8738775253296
+                ],
+                [
+                    -502.062246799469,
+                    -222.0821623802185,
+                    -509.65922141075134,
+                    -260.37149727344513,
+                    -357.40827441215515,
+                    -424.4795141220093,
+                    -314.96679759025574,
+                    -427.1683168411255,
+                    -350.7169806957245,
+                    -514.3236880302429,
+                    -325.840651512146
+                ],
+                [
+                    -483.8288583755493,
+                    -216.99936652183533,
+                    -469.4122705459595,
+                    -248.27815198898315,
+                    -346.0816912651062,
+                    -433.1654722690582,
+                    -307.21262562274933,
+                    -440.7856469154358,
+                    -336.4192156791687,
+                    -518.5806089639664,
+                    -309.7733468413353
+                ],
+                [
+                    -485.6660029888153,
+                    -224.1929795742035,
+                    -491.8247365951538,
+                    -243.1113463640213,
+                    -341.17026674747467,
+                    -428.4329082965851,
+                    -319.47915506362915,
+                    -414.5378108024597,
+                    -343.5907778739929,
+                    -530.7312207221985,
+                    -305.11347460746765
+                ],
+                [
+                    -485.33368134498596,
+                    -221.62570595741272,
+                    -486.334525346756,
+                    -255.2274694442749,
+                    -349.85904145240784,
+                    -428.5365471839905,
+                    -315.886935710907,
+                    -429.70842987298965,
+                    -321.0913031101227,
+                    -502.1140079498291,
+                    -321.13517665863037
+                ],
+                [
+                    -468.97337436676025,
+                    -219.8993626832962,
+                    -497.6728267669678,
+                    -239.5173282623291,
+                    -340.2459577322006,
+                    -419.21134519577026,
+                    -303.6962022781372,
+                    -430.0331377983093,
+                    -342.1481271982193,
+                    -493.7495732307434,
+                    -318.6187813282013
+                ],
+                [
+                    -462.6258246898651,
+                    -213.9033386707306,
+                    -472.11129546165466,
+                    -236.29898524284363,
+                    -340.2140862941742,
+                    -410.4235453605652,
+                    -306.89369440078735,
+                    -422.1438957452774,
+                    -345.0355336666107,
+                    -500.1984043121338,
+                    -300.4909038543701
+                ],
+                [
+                    -462.6258246898651,
+                    -213.9033386707306,
+                    -472.11129546165466,
+                    -236.29898524284363,
+                    -340.2140862941742,
+                    -410.4235453605652,
+                    -306.89369440078735,
+                    -422.1438957452774,
+                    -345.0355336666107,
+                    -500.1984043121338,
+                    -300.4909038543701
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.4466065918195254
+        ],
+        "posix": 3.4466065918195254
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_156_variants.json",
+    "overall_posix": 0.4239328638051042,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3639575971731448,
+            "Variation 2": 0.34892086330935257,
+            "Variation 3": 0.5,
+            "Variation 4": 0.45238095238095233,
+            "Variation 5": 0.31058020477815695,
+            "Variation 6": 0.3391003460207612,
+            "Variation 7": 0.5277777777777778,
+            "Variation 8": 0.503968253968254,
+            "Variation 9": 0.5277777777777778,
+            "Variation 10": 0.3648648648648649
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\n<image> a. Yes, the chest X-ray is clear of any acute abnormalities.\n b. No, the chest X-ray shows a right-sided pneumothorax.\n 10. What is",
+                "<s> question:Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 3.\n Question:Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\n answer:\n ",
+                "<s> QUESTION\tIs the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The chest X-ray is clear of any acute abnormalities. The cardiothoracic ratio is normal. The heart size is normal.",
+                "<s> question::Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n No\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n ",
+                "<s> Q:Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n",
+                "<s> QUESTION:Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes]\n rationale:The chest X-ray is clear of any acute abnormalities. The patient\u2019s chest X-ray is clear of any acute abnormalities.\n The patient\u2019s chest X",
+                "<s> Question::: Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n Discussion:\n The chest X-ray is clear of any acute abnormalities.\n Summary: The patient has a history of a recent fall and a chest X-",
+                "<s> Question:Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Q::: Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Question-Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n 10\n Question-Is the chest X-ray clear of any acute abnormalities? Please choose from the following two options: [yes, no]\n Answer\n No\n 11\n Question-Is the"
+            ]
+        ],
+        "sensitivities": [
+            0.4239328638051042
+        ],
+        "posix": 0.4239328638051042
+    }
+}

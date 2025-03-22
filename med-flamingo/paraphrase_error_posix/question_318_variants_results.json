@@ -1,0 +1,42 @@
+{
+    "file_name": "question_318_variants.json",
+    "overall_posix": 0.4737608793372911,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5780730897009967,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6576576576576577,
+            "Variation 4": 0.5846153846153846,
+            "Variation 5": 0.5802047781569966,
+            "Variation 6": 0.639871382636656,
+            "Variation 7": 0.6595092024539877,
+            "Variation 8": 0.30666666666666664,
+            "Variation 9": 0.43243243243243246,
+            "Variation 10": 0.2985781990521327
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any visible signs of rib fractures in this radiographic image? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are visible signs of rib fractures.\n b. No, there are no visible signs of rib fractures.\n 10. What is the most likely diagnosis?\n a. Traumatic rib",
+                "<s> Is there an indication of any rib fractures in the report? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient exhibit any evidence of rib trauma on the current imaging study? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other injuries on the current imaging study? Please choose from the following two options: [yes, no]\n 12.  Is there any evidence of rib fracture on the current imag",
+                "<s> Is there clear-cut indication of rib fracture(s) within the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other injuries or signs of trauma on the\n provided radiograph? Please choose from the following two\n options: [yes, no]\n 12.  Are there any other injuries or",
+                "<s> Are there noticeable alterations in the normal anatomical configuration of the ribs, suggestive of a fracture? Please choose from the following two options: [yes, no]\n<image> 11. Is there a fracture of the left 10th rib?\n [yes, no]\n 12. Is there a fracture of the right 10th rib?\n [yes, no",
+                "<s> Does this image show any suspicious features consistent with rib fractures? Please choose from the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2.\n Does this image show any suspicious features consistent with rib fractures? Please choose from the following two options: [yes, no]\n a. Yes\n b. No\n ",
+                "<s> Is the presence of rib fracture(s) evident on the supplied radiologic images? Please choose from the following two options: [yes, no]\n<image> 11. Is the presence of pneumothorax evident on the supplied radiologic images? Please choose from the following two options: [yes, no]\n 12. Is the presence of hemothorax evident on",
+                "<s> Are there indications of stress or trauma-related changes in the rib anatomy that might suggest a fracture? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this patient demonstrate any abnormalities in rib alignment or contouring suggestive of a fracture? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is there sufficient evidence on this imaging study to support the diagnosis of rib fractures? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.4737608793372911
+        ],
+        "posix": 0.4737608793372911
+    }
+}

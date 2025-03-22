@@ -1,0 +1,42 @@
+{
+    "file_name": "question_202_variants.json",
+    "overall_posix": 0.41159328904402653,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4672897196261683,
+            "Variation 2": 0.4049844236760125,
+            "Variation 3": 0.47040498442367595,
+            "Variation 4": 0.2168674698795181,
+            "Variation 5": 0.4548286604361371,
+            "Variation 6": 0.4610591900311527,
+            "Variation 7": 0.42056074766355134,
+            "Variation 8": 0.5046728971962616,
+            "Variation 9": 0.2666666666666666,
+            "Variation 10": 0.44859813084112155
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of aortic regurgitation on the chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of aortic reg",
+                "<s> QUESTION:Is there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n [no]\n s\n s\n r\n e\n Figure 10.1\n s\n r\n e\n Figure 10.2\n 10.1A 55-year-old man",
+                "<s> q:Is there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.  Describe the abnormality in the cardiomediastinal silhouette.\n a: There is a large right-s",
+                "<s> Question:Is there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Question:What is the most likely diagnosis?\n [cardiomegaly, pericardial effusion, pleural effusion, pneumothorax, pneumoperic",
+                "<s> Q::Is there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of a pericardial effusion? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there any evidence of a pleural effusion",
+                "<s> Question:Is there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please indicate your answer by marking the circle that corresponds to your answer.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n",
+                "<s> question::Is there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The cardiomediastinal silhouette is normal.\n B: The cardiomediastinal silhouette is abnormal.\n 10.\n 10.\n 10.\n 1",
+                "<s> question:Is there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n Correct answer:Yes\n The chest X-ray shows a right-sided pneumothorax.\n The chest X-ray",
+                "<s> QUESTION:Is there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n B\n 20\n 11\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n ",
+                "<s> Question-Is there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is there any evidence of a pericardial effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [",
+                "<s> QUESTION\tIs there any abnormality in the cardiomediastinal silhouette noted on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The chest X-ray shows a right-sided pneumothorax. The cardiomediastinal silhouette is normal.\n The right"
+            ]
+        ],
+        "sensitivities": [
+            0.41159328904402653
+        ],
+        "posix": 0.41159328904402653
+    }
+}

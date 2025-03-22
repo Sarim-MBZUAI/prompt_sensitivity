@@ -1,0 +1,42 @@
+{
+    "file_name": "question_289_variants.json",
+    "overall_posix": 0.4705824244725744,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.24766355140186913,
+            "Variation 2": 0.7740384615384616,
+            "Variation 3": 0.0,
+            "Variation 4": 0.6337209302325582,
+            "Variation 5": 0.5934065934065934,
+            "Variation 6": 0.5862068965517241,
+            "Variation 7": 0.6288659793814433,
+            "Variation 8": 0.6025641025641025,
+            "Variation 9": 0.3932038834951457,
+            "Variation 10": 0.24615384615384617
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show decreased lung volumes in comparison to normal radiographic standards? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please choose from the following two options: [yes, no]\n<image> 1.Do you have any pain in your chest?\n 2.Do you have any pain in your back?\n 3.Do you have any pain in your abdomen?\n 4.Do you have any pain",
+                "<s> Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there notable reductions in lung volume visible on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are notable reductions in lung volume visible on this chest radiograph.\n b. No, there are no notable reductions in lung volume visible on this chest radiograph.\n 10. Please select from",
+                "<s> Can we observe diminished thoracic lung capacity on this X-ray image? Please choose from the following two options: [yes, no]\n<image> 1. Yes, because the diaphragm is not seen in the thoracic cavity.\n 2. No, because the diaphragm is seen in the thoracic cavity.\n 1. No,",
+                "<s> Does the patient demonstrate lower-than-expected lung volumes as depicted on this CXR? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the patient has lower-than-expected lung volumes.\n 2.  No, the patient does not have lower-than-expected lung volumes.\n 1.  Yes, the patient has lower-than",
+                "<s> Are there radiographic indications of reduced pulmonary expansion? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are.\n b. No, there are not.\n 10. Please select from the following two options: [left, right]\n a. The left lung is hyperinflated.\n b. The right",
+                "<s> Can we confirm a decrease in lung volume dimensions as shown on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lung volume is decreased\n b. No, the lung volume is not decreased\n 5. Which of the following is the most likely diagnosis?\n a. Pneumothorax\n b. Pulmon",
+                "<s> Is there visible evidence of decreased thoracic cavity lung capacity on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Does the chest X-ray reveal less-than-expected lung expansion in the patient? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.4705824244725744
+        ],
+        "posix": 0.4705824244725744
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_94_variants_results.json",
+    "overall_posix": 0.9182848409728953,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.7322037643040138,
+            "Variation 2": 0.0,
+            "Variation 3": 0.7566412583012355,
+            "Variation 4": 0.6986202689578469,
+            "Variation 5": 0.6586777720099728,
+            "Variation 6": 0.8042475846783911,
+            "Variation 7": 1.0474530296156348,
+            "Variation 8": 1.1076102810862651,
+            "Variation 9": 1.4049874570194627,
+            "Variation 10": 0.48522999683425116
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray image indicate that the lungs and pleural spaces are free of acute abnormalities? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the chest X-ray image shows that the lungs and pleural spaces appear to be free of acute abnormalities. ",
+                "Yes, the chest X-ray image demonstrates normal lung and pleural space morphology with no acute abnormalities present. ",
+                "Yes, the chest X-ray image shows that the lungs and pleural spaces appear to be free of acute abnormalities. ",
+                "The chest x-ray does not show any evidence of acute disease or pathology within the lungs and pleural spaces. ",
+                "Yes, the chest X-ray image shows unremarkable lungs and pleural spaces, with no signs of acute abnormality. ",
+                "Yes, the chest X-ray shows normal lung aeration and no evidence of acute abnormalities in the pleural spaces. ",
+                "The chest x-ray image does not show any visible signs of acute disease or pathology affecting the lungs and pleural spaces. ",
+                "Yes, the chest X-ray shows normal lung parenchyma and pleural space morphology, with no indication of acute abnormality. ",
+                "The chest x-ray image does not show any acute disease or pathology within the lungs. ",
+                "Yes, the chest X-ray shows normal lung and pleural space morphology with no evidence of acute abnormality in patients who are symptomatic for respiratory issues. ",
+                "Yes, the chest X-ray image shows normal lungs, which means there are no acute abnormalities detected in the image. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -42.66104322751596,
+                    -64.62715615663637,
+                    -42.66104322751596,
+                    -63.846998459950555,
+                    -64.31827156520922,
+                    -62.421376387815144,
+                    -66.7884707678677,
+                    -79.32189926406318,
+                    -68.13607969250006,
+                    -100.26552896531393,
+                    -57.217943132543496
+                ],
+                [
+                    -63.04870698592276,
+                    -42.86398263409524,
+                    -63.04870698592276,
+                    -70.46510281976953,
+                    -69.64994012030547,
+                    -72.29086459533028,
+                    -72.68742979136005,
+                    -70.13566985338002,
+                    -69.14655600629703,
+                    -92.4169478105232,
+                    -61.75266029698014
+                ],
+                [
+                    -42.66104322751596,
+                    -64.62715615663637,
+                    -42.66104322751596,
+                    -63.846998459950555,
+                    -64.31827156520922,
+                    -62.421376387815144,
+                    -66.7884707678677,
+                    -79.32189926406318,
+                    -68.13607969250006,
+                    -100.26552896531393,
+                    -57.217943132543496
+                ],
+                [
+                    -67.02360565573235,
+                    -80.73529598890582,
+                    -67.02360565573235,
+                    -42.52395102670198,
+                    -77.37275970631799,
+                    -68.76077065100162,
+                    -61.01201701140599,
+                    -83.53925777592576,
+                    -54.87595607507683,
+                    -102.50261811823475,
+                    -77.0459710490386
+                ],
+                [
+                    -55.55614337989573,
+                    -63.57828434644398,
+                    -55.55614337989573,
+                    -66.65768755518366,
+                    -43.50923318418734,
+                    -63.08231603919012,
+                    -66.37963652132748,
+                    -72.94156808345906,
+                    -69.5695771134051,
+                    -94.00025420163183,
+                    -57.46757318409982
+                ],
+                [
+                    -68.76890870688385,
+                    -81.51971498736111,
+                    -68.76890870688385,
+                    -70.51439120615032,
+                    -78.62621579476763,
+                    -42.40740370855042,
+                    -78.77873741677467,
+                    -82.28074676462802,
+                    -75.59671067048112,
+                    -108.06122346222128,
+                    -68.34739637010443
+                ],
+                [
+                    -59.73776666494814,
+                    -72.50554846468003,
+                    -59.73776666494814,
+                    -54.4305860581444,
+                    -69.37654466993627,
+                    -69.87312629838561,
+                    -43.03785201584833,
+                    -83.73597569767298,
+                    -57.08595634386438,
+                    -104.47791336916998,
+                    -71.19044097389997
+                ],
+                [
+                    -70.9157852146509,
+                    -67.7500054136699,
+                    -70.9157852146509,
+                    -71.44634330605913,
+                    -70.09336656122787,
+                    -73.60555692243179,
+                    -80.99054157271894,
+                    -42.91149881097482,
+                    -73.33412364187825,
+                    -90.54782846999615,
+                    -68.1675672101137
+                ],
+                [
+                    -74.21474805343769,
+                    -85.55785151748296,
+                    -74.21474805343769,
+                    -61.279204006292275,
+                    -81.80382475587703,
+                    -80.52968650710409,
+                    -69.61186711657501,
+                    -90.36940094751753,
+                    -44.109902151467395,
+                    -114.62759443220875,
+                    -67.09531077729207
+                ],
+                [
+                    -68.7433923133467,
+                    -60.61837347681467,
+                    -68.7433923133467,
+                    -72.0092362968353,
+                    -68.75444996259102,
+                    -70.21015736962545,
+                    -79.15273664132837,
+                    -63.67654241235323,
+                    -75.65320080517995,
+                    -43.18245385332409,
+                    -69.39667822559932
+                ],
+                [
+                    -62.04023042895369,
+                    -70.77508496558858,
+                    -62.04023042895369,
+                    -75.94270050828345,
+                    -73.75979381223442,
+                    -70.05945409392825,
+                    -78.96219460224529,
+                    -83.3002727804951,
+                    -64.34277001766168,
+                    -107.37158693486072,
+                    -46.06519818032689
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.9182848409728953
+        ],
+        "posix": 0.9182848409728953
+    }
+}

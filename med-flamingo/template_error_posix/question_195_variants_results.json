@@ -1,0 +1,42 @@
+{
+    "file_name": "question_195_variants.json",
+    "overall_posix": 0.3357027332371335,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2889908256880733,
+            "Variation 2": 0.2277227722772277,
+            "Variation 3": 0.4882943143812709,
+            "Variation 4": 0.4676258992805755,
+            "Variation 5": 0.2857142857142857,
+            "Variation 6": 0.2570093457943925,
+            "Variation 7": 0.38132295719844356,
+            "Variation 8": 0.22613065326633164,
+            "Variation 9": 0.5064935064935064,
+            "Variation 10": 0.2277227722772277
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::: Is there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Is there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Is there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> Yes\n Instructions:\u00a0The radiograph shows a right pneumothorax.\n 1.The right lung is collapsed.\n 2.The right lung is not collapsed.\n 3.The left lung is",
+                "<s> QUESTION:Is there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n [yes, no]\n 10.\n QUESTION:Is there evidence of a pleural effusion (fluid in the pleural space) on the X-ray? Please choose",
+                "<s> q:::Is there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question:Is there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question:Is there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions: Please mark the circle corresponding to your answer.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9",
+                "<s> Q:Is there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n\n C:\n\n D:\n\n E:\n\n F:\n\n G:\n\n H:\n\n I:\n\n J:\n\n K:\n\n L:\n\nM:\n\n N:",
+                "<s> QUESTION\tIs there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a large area of lucency in the right lower zone of the lung. This is due to the presence of air in the pleural space",
+                "<s> QUESTION:Is there evidence of collapsed lung (pneumothorax) on the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n"
+            ]
+        ],
+        "sensitivities": [
+            0.3357027332371335
+        ],
+        "posix": 0.3357027332371335
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_279_variants.json",
+    "overall_posix": 0.5069284848352479,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.591715976331361,
+            "Variation 2": 0.0,
+            "Variation 3": 0.654911838790932,
+            "Variation 4": 0.6015831134564644,
+            "Variation 5": 0.6684073107049608,
+            "Variation 6": 0.5677083333333334,
+            "Variation 7": 0.41224489795918373,
+            "Variation 8": 0.5769230769230769,
+            "Variation 9": 0.6102941176470589,
+            "Variation 10": 0.3854961832061068
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can the chest X-ray confirm whether the spine deformity demonstrated on this image represents a stable or progressing condition? Please choose from the following two options: [yes, no]\n<image> 29\n Suggested response\n This is a chest X-ray of a 12-year-old boy with a history of scoliosis. The patient has a right thoracic curve of 40\u00b0",
+                "<s> Can the chest X-ray confirm the stability or progression of the noted spine deformity? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray provide sufficient information to determine if the noted spinal deformity is static or has undergone change? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the X-ray provides sufficient information to determine that the spinal deformity is static.\n 2.  No, the X-ray does not provide sufficient information to determine that the spinal deformity",
+                "<s> Can the findings on the chest X-ray be used to infer the degree of progression or stability of the spine deformity observed in this patient? Please choose from the following two options: [yes, no]\n<image> a. No, the findings on the chest X-ray are not reliable for this purpose.\n b. Yes, the findings on the chest X-ray are reliable for this purpose.\n 10. Please describe the",
+                "<s> Is there sufficient evidence on the chest X-ray to confirm whether the spine deformity is static or has progressed over time? Please choose from the following two options: [yes, no]\n<image> 11. Is there sufficient evidence on the chest X-ray to confirm whether the spine deformity is static or has progressed over time? Please choose from the following two options: [yes, no]\n 12",
+                "<s> Can the chest X-ray provide a definitive answer regarding the stability or progression of the noted spinal deformity? Please choose from the following two options: [yes, no]\n<image> a. Yes, the chest X-ray can provide a definitive answer regarding the stability or progression of the noted spinal deformity.\n b. No, the chest X-ray cannot provide a definitive answer regarding the",
+                "<s> Does this image demonstrate any changes in the spine deformity that would indicate progression or stability on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Can the findings on the chest X-ray be used to establish a baseline for assessing the stability or progression of the noted spinal deformity? Please choose from the following two options: [yes, no]\n<image> a. Yes, the findings on the chest X-ray can be used to establish a baseline for assessing the stability or progression of the noted spinal deformity.\n b. No, the findings on the ch",
+                "<s> Is there sufficient information on this chest X-ray to make an informed decision about the stability or progression of the spine deformity? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is sufficient information\n b. No, there is not sufficient information\n 11.\n If the answer to question 10 is yes, please describe the information that is sufficient to make a decision.\n 1",
+                "<s> Can the chest X-ray be used to confirm whether the noted spinal deformity represents a stable or progressing condition in this patient? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a"
+            ]
+        ],
+        "sensitivities": [
+            0.5069284848352479
+        ],
+        "posix": 0.5069284848352479
+    }
+}

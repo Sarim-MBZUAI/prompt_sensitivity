@@ -1,0 +1,189 @@
+{
+    "file_name": "question_246_variants.json",
+    "overall_posix": 13.688024735296507,
+    "detailed_scores": [
+        {
+            "Variation 1": 6.597471458571298,
+            "Variation 2": 1.418882173161174,
+            "Variation 3": 99.83984371026357,
+            "Variation 4": 0.37043346502842045,
+            "Variation 5": 6.093028108278911,
+            "Variation 6": 2.454373438358307,
+            "Variation 7": 8.339139719804129,
+            "Variation 8": 2.196915597400882,
+            "Variation 9": 5.492042579434135,
+            "Variation 10": 2.8382529711723326
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any sign of a collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no sign of a collapsed lung on the chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "No, the chest X-ray does not show evidence of a pneumothorax.",
+                "No, there is no visualization of lung collapse on the provided radiograph. The image shows a side view of the chest with the lungs and heart visible, but there is no indication of lung collapse.",
+                "No",
+                "No, there is no sign of a collapsed lung on the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and ribs visible.",
+                "Yes, the image demonstrates a mediastinal shift away from the side of lung compression.",
+                "No, we cannot definitively diagnose a spontaneous pneumothorax from the chest X-ray provided. The image shows a lateral chest X-ray, which is not the best view for assessing the presence of a pneum",
+                "Yes, the radiographic findings indicate a collapsed lung with resulting atelectasis.",
+                "Yes, there is evidence of lung volume loss consistent with pneumothorax on the film. The lung appears to be collapsed on one side, which is indicative of a pneumothorax.",
+                "Yes, the image shows displacement of mediastinal structures away from a side of lung compression.",
+                "No, we cannot confirm the collapse of one or more lung lobes on the chest X-ray based on the image provided. The image is too blurry and lacks sufficient detail to make a definitive assessment. A clearer image would be"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -327.08119809627533,
+                    -188.53429746627808,
+                    -388.0931315422058,
+                    -27.56166696548462,
+                    -341.5281032323837,
+                    -199.1276078224182,
+                    -449.7998700141907,
+                    -176.97668313980103,
+                    -423.74548438191414,
+                    -206.25626134872437,
+                    -468.99384665489197
+                ],
+                [
+                    -318.205637216568,
+                    -183.03910279273987,
+                    -392.33512845635414,
+                    -27.876336097717285,
+                    -334.5003890991211,
+                    -194.87816071510315,
+                    -459.12879180908203,
+                    -169.7991567850113,
+                    -419.87046003341675,
+                    -221.2390148639679,
+                    -474.1411647796631
+                ],
+                [
+                    -326.25201630592346,
+                    -202.3649433851242,
+                    -407.7296017408371,
+                    -27.97342348098755,
+                    -336.8008711338043,
+                    -205.2279976606369,
+                    -483.59388065338135,
+                    -190.46973943710327,
+                    -432.38243293762207,
+                    -217.10171830654144,
+                    -475.599365234375
+                ],
+                [
+                    -338.34256982803345,
+                    -183.10096287727356,
+                    -400.2712607383728,
+                    -26.976749181747437,
+                    -357.1980481147766,
+                    -214.5922065973282,
+                    -490.55746150016785,
+                    -182.27075481414795,
+                    -426.70275807380676,
+                    -222.766215801239,
+                    -500.8669066429138
+                ],
+                [
+                    -327.08119809627533,
+                    -188.53429746627808,
+                    -388.0931315422058,
+                    -27.56166696548462,
+                    -341.5281032323837,
+                    -199.1276078224182,
+                    -449.7998700141907,
+                    -176.97668313980103,
+                    -423.74548438191414,
+                    -206.25626134872437,
+                    -468.99384665489197
+                ],
+                [
+                    -346.57977867126465,
+                    -205.82550764083862,
+                    -407.756685256958,
+                    -29.50865650177002,
+                    -366.6728996038437,
+                    -217.24979543685913,
+                    -480.00189304351807,
+                    -186.2093801498413,
+                    -436.6920359134674,
+                    -224.16353464126587,
+                    -483.7476177215576
+                ],
+                [
+                    -314.25709426403046,
+                    -194.59002447128296,
+                    -383.2061035633087,
+                    -28.73151683807373,
+                    -344.10497549176216,
+                    -210.1482310295105,
+                    -498.28656458854675,
+                    -193.33721256256104,
+                    -426.8324930667877,
+                    -226.56078338623047,
+                    -485.70153880119324
+                ],
+                [
+                    -327.08119809627533,
+                    -188.53429746627808,
+                    -388.0931315422058,
+                    -27.56166696548462,
+                    -341.5281032323837,
+                    -199.1276078224182,
+                    -449.7998700141907,
+                    -176.97668313980103,
+                    -423.74548438191414,
+                    -206.25626134872437,
+                    -468.99384665489197
+                ],
+                [
+                    -329.76337933540344,
+                    -209.67745208740234,
+                    -382.34595346450806,
+                    -24.205440998077393,
+                    -354.4504761695862,
+                    -211.84095287322998,
+                    -481.2413475513458,
+                    -195.85574054718018,
+                    -409.3107919692993,
+                    -212.2581024169922,
+                    -468.3517498970032
+                ],
+                [
+                    -314.25709426403046,
+                    -194.59002447128296,
+                    -383.2061035633087,
+                    -28.73151683807373,
+                    -344.10497549176216,
+                    -210.1482310295105,
+                    -498.28656458854675,
+                    -193.33721256256104,
+                    -426.8324930667877,
+                    -226.56078338623047,
+                    -485.70153880119324
+                ],
+                [
+                    -329.76337933540344,
+                    -209.67745208740234,
+                    -382.34595346450806,
+                    -24.205440998077393,
+                    -354.4504761695862,
+                    -211.84095287322998,
+                    -481.2413475513458,
+                    -195.85574054718018,
+                    -409.3107919692993,
+                    -212.2581024169922,
+                    -468.3517498970032
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            13.688024735296507
+        ],
+        "posix": 13.688024735296507
+    }
+}

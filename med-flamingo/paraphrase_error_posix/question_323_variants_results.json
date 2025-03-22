@@ -1,0 +1,42 @@
+{
+    "file_name": "question_323_variants.json",
+    "overall_posix": 0.4700057319628924,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5442622950819672,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6136363636363636,
+            "Variation 4": 0.56,
+            "Variation 5": 0.49173553719008267,
+            "Variation 6": 0.3629032258064516,
+            "Variation 7": 0.5377049180327869,
+            "Variation 8": 0.4159999999999999,
+            "Variation 9": 0.5732484076433121,
+            "Variation 10": 0.6005665722379604
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic signs of bony disruption in the thoracic skeleton on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a fracture of the left 10th rib.\n b. No, there is no fracture of the thoracic skeleton.\n 2.\n What is the most likely diagnosis",
+                "<s> Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray show evidence of skeletal trauma or fractures in the thoracic region? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a fracture in the thoracic region\n b. No, there is no fracture in the thoracic region\n 4.\n What is the most likely diagnosis?\n a. F",
+                "<s> Is there radiographic indication of bone breakage or fracture within the ribcage and/or sternum on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.2.10  Answer\n There is no radiographic evidence of bone breakage or fracture within the ribcage and/or sternum on this chest X-ray.\n 11.2",
+                "<s> Are the skeletal structures visible in the chest X-ray suggestive of a pathological process such as fracture or dislocation? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Does the chest X-ray reveal any abnormalities in bone alignment or shape within the thoracic cavity that might suggest a fracture? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there clear-cut radiographic evidence of rib fractures, bone deformity, or other skeletal injuries on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other injuries on this X-ray? Please circle the appropriate number: [1, 2, 3, 4, 5, 6, 7, 8, 9,",
+                "<s> Are there visible signs of trauma-induced changes in the bony structures within the chest cavity as shown on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.2.1.1  Chest X-Ray\n 11.2.1.2  CT Scan\n 11.2.1.3  MRI\n 11.2.",
+                "<s> Does the radiographic image indicate any disruption or fracture to the skeletal elements within the thoracic region? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n The radiographic image shows a fracture of the thoracic vertebrae.\n 11.10.2  Explanation\n The thoracic vertebrae",
+                "<s> Are there radiological signs of bony injury, including fractures, breaks, or dislocations visible in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other injuries to the chest or abdomen? Please choose from the following two options: [yes, no]\n 12.  Is there any evidence of a pulmonary contusion"
+            ]
+        ],
+        "sensitivities": [
+            0.4700057319628924
+        ],
+        "posix": 0.4700057319628924
+    }
+}

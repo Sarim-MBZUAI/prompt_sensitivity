@@ -1,0 +1,42 @@
+{
+    "file_name": "question_323_variants.json",
+    "overall_posix": 0.34971538755968706,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.42763157894736836,
+            "Variation 2": 0.459375,
+            "Variation 3": 0.13043478260869568,
+            "Variation 4": 0.39855072463768115,
+            "Variation 5": 0.24311926605504586,
+            "Variation 6": 0.5469613259668509,
+            "Variation 7": 0.39855072463768115,
+            "Variation 8": 0.2845188284518829,
+            "Variation 9": 0.4692556634304207,
+            "Variation 10": 0.13875598086124397
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> question:Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n Reason for the radiograph:The patient was involved in a car accident.\n 10.Question10.Question\n 11.Question\n 12.Question\n 13.Question\n 14.",
+                "<s> Question::: Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the diagnosis?\n 11.\n Question:\n What is the differential diagnosis?\n 12.\n Question:\n What is the most likely diagnosis?\n",
+                "<s> Q:Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Question:Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the diagnosis?\n 1.Fracture of the sternum\n 2.Fracture of the ribs\n 3.Fracture of the vertebrae\n",
+                "<s> Q::: Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n 10.10.10.10.10.10.10.10.10.10",
+                "<s> Question:Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0Differentiate between the two options given in this question and answer it by marking the correct answer.\n 1.Are there signs of bone fractures in the skeletal structures of the",
+                "<s> Question:Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the diagnosis?\n 1.Fracture of the sternum\n 2.Fracture of the ribs\n 3.Fracture of the vertebrae\n",
+                "<s> q::Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:What is the most likely diagnosis?\n A:Pulmonary tuberculosis\n Q:What is the most likely cause of the patient\u2019s death?\n A:Pulmonary tuberculosis",
+                "<s> q:Are there signs of bone fractures in the skeletal structures of the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1"
+            ]
+        ],
+        "sensitivities": [
+            0.34971538755968706
+        ],
+        "posix": 0.34971538755968706
+    }
+}

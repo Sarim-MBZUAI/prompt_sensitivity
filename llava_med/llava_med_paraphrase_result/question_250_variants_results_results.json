@@ -1,0 +1,189 @@
+{
+    "file_name": "question_250_variants_results.json",
+    "overall_posix": 0.9544170853769439,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3662396677695283,
+            "Variation 2": 0.361789846933837,
+            "Variation 3": 0.9291175377841845,
+            "Variation 4": 0.5438792191792108,
+            "Variation 5": 0.9370740150308512,
+            "Variation 6": 0.9196903151920982,
+            "Variation 7": 1.3083929507605283,
+            "Variation 8": 0.9554454498147048,
+            "Variation 9": 0.8623685659980663,
+            "Variation 10": 1.3617982633214192
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Have the degenerative changes of the thoracic spine worsened recently based on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the chest X-ray shows that the degenerative changes of the thoracic spine have worsened compared to the previous imaging. ",
+                "Yes, the chest X-ray shows progression of thoracic spine degenerative changes compared to prior images. ",
+                "It appears that the thoracic spine degeneration has worsened since the previous examination. ",
+                "The chest X-ray does not show any radiographic evidence of increased severity of thoracic spine degenerative disease. ",
+                "Yes, the chest X-ray shows an increase in thoracic spine degenerative changes compared to the baseline imaging studies. ",
+                "Yes, the findings on the current chest X-ray are consistent with a recent exacerbation of thoracic spine degeneration. ",
+                "Yes, the provided image shows radiographic evidence of worsening thoracic spine osteoarthritis. ",
+                "It appears that there has been a notable decline in the status of thoracic spine degenerative disease since the prior examination. ",
+                "It appears that the chest x-ray shows an adverse change in thoracic spine degeneration compared to prior images. ",
+                "Yes, the radiographic findings on the current chest X-ray are consistent with a recent deterioration of thoracic spine degenerative changes. ",
+                "Yes, the current imaging study has confirmed an increase in severity of thoracic spine osteoarthritis when compared to prior studies. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -46.79689907313585,
+                    -56.68537010291311,
+                    -55.1180655526141,
+                    -73.7413076688772,
+                    -63.11327564851217,
+                    -76.78326755412309,
+                    -72.5482278985146,
+                    -84.74029464519117,
+                    -74.50481711776229,
+                    -76.1174303170701,
+                    -94.45983828938552
+                ],
+                [
+                    -57.11770756173132,
+                    -42.876907912947104,
+                    -61.606524857035765,
+                    -73.97536064050473,
+                    -60.80025081385338,
+                    -80.52701975901255,
+                    -72.78428174568398,
+                    -82.5708211097517,
+                    -68.38276434685031,
+                    -76.8044525161713,
+                    -92.64663271034624
+                ],
+                [
+                    -60.62782897215175,
+                    -61.664913537641496,
+                    -43.90911605348401,
+                    -73.9388160810513,
+                    -67.90691584694036,
+                    -69.94524216491345,
+                    -72.64489661221717,
+                    -81.18059780233489,
+                    -70.91222972938522,
+                    -79.36092463183604,
+                    -91.56141767216741
+                ],
+                [
+                    -59.12204048334388,
+                    -57.5605963169528,
+                    -62.562219831601396,
+                    -47.11497229112513,
+                    -66.19468942757521,
+                    -81.98535147864732,
+                    -61.17338315543748,
+                    -79.0670883920975,
+                    -76.98652076576764,
+                    -77.44335214911189,
+                    -86.46412382472818
+                ],
+                [
+                    -61.353994974315924,
+                    -55.250632779629086,
+                    -60.912817012500454,
+                    -70.717468861013,
+                    -41.97159082764662,
+                    -81.36983667578534,
+                    -73.58333555757144,
+                    -82.79372093855636,
+                    -70.64775367053517,
+                    -80.60029879140393,
+                    -90.29615614242721
+                ],
+                [
+                    -62.8956356981389,
+                    -64.29392873069719,
+                    -59.286041181647306,
+                    -72.02344215098492,
+                    -74.03879596197203,
+                    -41.75215033564601,
+                    -74.82047351900837,
+                    -91.56412956857821,
+                    -79.26337854975282,
+                    -63.121177324997916,
+                    -94.60264559832285
+                ],
+                [
+                    -65.07079434524348,
+                    -63.23999194922271,
+                    -62.78806573226757,
+                    -67.93246089430295,
+                    -74.03551803989103,
+                    -88.41579840909026,
+                    -42.68237852264548,
+                    -87.73553077832184,
+                    -82.41353176797566,
+                    -86.79418881047809,
+                    -84.38794854652542
+                ],
+                [
+                    -62.94346223728667,
+                    -64.6258733424338,
+                    -57.196040048518626,
+                    -67.95175762468534,
+                    -71.95176057077424,
+                    -85.1105399805856,
+                    -79.22801256892126,
+                    -44.12513887880425,
+                    -77.19802024263845,
+                    -85.24282746950485,
+                    -99.80967267394954
+                ],
+                [
+                    -61.200360766913946,
+                    -52.1826731130559,
+                    -56.26359427544139,
+                    -73.32856799951605,
+                    -65.29802460761312,
+                    -73.01219515824823,
+                    -68.50922781348004,
+                    -82.0109567975087,
+                    -46.40172335796592,
+                    -80.64625361603385,
+                    -93.4817772517531
+                ],
+                [
+                    -56.42043796058351,
+                    -55.61291077347687,
+                    -63.086612526123645,
+                    -68.06448604064371,
+                    -65.16684833985528,
+                    -61.99314697086413,
+                    -69.77173544314837,
+                    -86.71363893922899,
+                    -77.10899662007068,
+                    -41.848217344813634,
+                    -94.6987390480972
+                ],
+                [
+                    -71.79745658555021,
+                    -65.94991203407517,
+                    -62.6734727367766,
+                    -70.8824604792137,
+                    -70.42658265077625,
+                    -84.51691247425697,
+                    -68.27408274955906,
+                    -82.00522384820215,
+                    -81.04982045473298,
+                    -86.2362966044393,
+                    -44.23341542483544
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.9544170853769439
+        ],
+        "posix": 0.9544170853769439
+    }
+}

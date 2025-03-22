@@ -1,0 +1,42 @@
+{
+    "file_name": "question_169_variants.json",
+    "overall_posix": 0.39346418628773083,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4338235294117647,
+            "Variation 2": 0.3936507936507936,
+            "Variation 3": 0.3364197530864197,
+            "Variation 4": 0.44852941176470584,
+            "Variation 5": 0.44852941176470584,
+            "Variation 6": 0.4330218068535825,
+            "Variation 7": 0.4779411764705883,
+            "Variation 8": 0.38628158844765337,
+            "Variation 9": 0.2530120481927711,
+            "Variation 10": 0.32343234323432335
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  The patient has normal cardiac contours according to the X-ray.\n The X-ray shows a normal cardiac contour.",
+                "<s> q:Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> QUESTION:Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Explanation:\n The X-ray shows a normal cardiac contour. The cardiac contour is normal in that it is not enlarged, not deformed, and",
+                "<s> Question:Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n\n 10.Question:Does the patient have a normal cardiac contour according to the X-ray? Please choose from the following two options: [yes, no]\n",
+                "<s> q::Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n\n 16\n 15\n 14\n 13\n 12\n 11\n 10\n 9\n 8\n 7\n 6\n 5\n 4",
+                "<s> Question-Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2794Question\n Is the patient\u2019s heart size normal? Please choose from the following two options: [yes, no]\n Answer\n No\n \u2794Question\n Is the patient\u2019s heart size normal?",
+                "<s> Q::: Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q::Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A: Normal cardiac contours\n B: Cardiomegaly\n 106\n 106:  Cardiomegaly\n Correct Answer: B\n",
+                "<s> Question:Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: Yes\n The patient has normal cardiac contours according to the X-ray.\n The X-ray shows a normal cardiac contour. The cardiac silhouette is not enlarged",
+                "<s> QUESTION:Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Does the patient have a normal cardiac contour according to the X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n "
+            ]
+        ],
+        "sensitivities": [
+            0.39346418628773083
+        ],
+        "posix": 0.39346418628773083
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_244_variants.json",
+    "overall_posix": 0.3189259377051104,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.27807486631016043,
+            "Variation 2": 0.24102564102564106,
+            "Variation 3": 0.2584269662921348,
+            "Variation 4": 0.27567567567567575,
+            "Variation 5": 0.672463768115942,
+            "Variation 6": 0.3302752293577982,
+            "Variation 7": 0.3148148148148149,
+            "Variation 8": 0.275,
+            "Variation 9": 0.21499999999999997,
+            "Variation 10": 0.3285024154589372
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray reveal any lung nodules or masses? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray reveal any lung nodules or masses? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any pulmonary nodules or masses visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiographic examination of the chest reveal lung masses or nodules? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are lung tumors or growths present on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pulmonary lesions on the provided chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the lung fields appear normal with no masses or nodules identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.Yes, the lung fields appear normal with no masses or nodules identified on the chest X-ray.\n 2.No, the lung fields do not appear normal with masses or nodules identified on the chest X-",
+                "<s> Can you confirm that there are no lung abnormalities such as masses or nodules visible on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographic signs of lung disease, including masses or nodules, on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the image reveal any pulmonary lesions or growths within the lung parenchyma? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the chest X-ray clear of lung masses or nodules, or are these features present? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are lung abnormalities such as masses or nodules visible on the radiographic examination? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.3189259377051104
+        ],
+        "posix": 0.3189259377051104
+    }
+}

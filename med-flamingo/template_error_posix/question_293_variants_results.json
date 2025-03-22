@@ -1,0 +1,42 @@
+{
+    "file_name": "question_293_variants.json",
+    "overall_posix": 0.41098937089601595,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5705521472392638,
+            "Variation 2": 0.5221843003412969,
+            "Variation 3": 0.30000000000000004,
+            "Variation 4": 0.3162790697674418,
+            "Variation 5": 0.49473684210526314,
+            "Variation 6": 0.25380710659898476,
+            "Variation 7": 0.5813253012048193,
+            "Variation 8": 0.24630541871921185,
+            "Variation 9": 0.528052805280528,
+            "Variation 10": 0.2966507177033493
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tIs there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n REASONING\n The patient has a history of a granuloma in the right upper lobe. The patient has a left upper lobe\n opacity that is similar in appearance to the granuloma in the",
+                "<s> Question:Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [no, yes]\n Reasoning:The patient has a left upper lobe consolidation with a cavity. The cavity is not a granuloma. The cavity is",
+                "<s> Q::: Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q::Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> question:Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n A.Yes\n B.No\n 10.Question10.A 55-year-old man with a history of smoking has a chest radiograph that shows a right upper lobe\n mass. The patient",
+                "<s> Q:Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n E:\n R:\n D:\n E:\n F:\n Y:\n G:\n O:\n L:\n A:\n B:\n S:\n T:\n E:",
+                "<s> question::Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The chest radiograph shows a left upper lobe cavity lesion with a thickened wal and a surrounding halo of ground-glass opacity.\n B: The chest radiograph shows a left upper lobe cav",
+                "<s> q::Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n 19.\n 15.\n 16.\n 1",
+                "<s> Question::: Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n Discussion:\n The patient has a large cavitary lesion in the left upper lobe. The lesion is not a granuloma. The lesion is a cav",
+                "<s> q:::Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::"
+            ]
+        ],
+        "sensitivities": [
+            0.41098937089601595
+        ],
+        "posix": 0.41098937089601595
+    }
+}

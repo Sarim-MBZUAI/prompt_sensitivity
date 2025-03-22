@@ -1,0 +1,42 @@
+{
+    "file_name": "question_278_variants.json",
+    "overall_posix": 0.3627956900943287,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.15104166666666663,
+            "Variation 2": 0.5066225165562914,
+            "Variation 3": 0.4676258992805755,
+            "Variation 4": 0.29032258064516125,
+            "Variation 5": 0.25,
+            "Variation 6": 0.287037037037037,
+            "Variation 7": 0.44160583941605847,
+            "Variation 8": 0.44981412639405205,
+            "Variation 9": 0.5132450331125827,
+            "Variation 10": 0.27064220183486243
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> Question-Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes]\n Reasoning\n The patient has an enlarged cardiomediastinal silhouette. The cardiothoracic ratio is 0.6, which is greater than the normal value of 0.5",
+                "<s> Q:Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n S:\n T:\n A 24-year-old woman with a history of aortic valve replacement for a bicuspid aortic valve presents with fever and chest pain.\n 1",
+                "<s> Q::: Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> question:Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.",
+                "<s> q:::Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n 10.\n Question:What is the most likely diagnosis?\n A.Aortic stenosis\n B.Aortic regurgitation\n C.Mit",
+                "<s> Q::Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A::Aortic aneurysm\n B::Aortic dissection\n C::Aortic regurgitation\n D::Aortic stenosis\n",
+                "<s> Question:Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n Reason: The patient has an enlarged cardiomediastinal silhouette.\n The patient has an enlarged cardiomediastinal silhou",
+                "<s> Question::: Does the patient have an enlarged cardiomediastinal silhouette? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n"
+            ]
+        ],
+        "sensitivities": [
+            0.3627956900943287
+        ],
+        "posix": 0.3627956900943287
+    }
+}

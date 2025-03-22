@@ -1,0 +1,189 @@
+{
+    "file_name": "question_337_variants.json",
+    "overall_posix": 9.815720040997515,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.21850353598594666,
+            "Variation 2": 1.009912632703781,
+            "Variation 3": 79.33365794420243,
+            "Variation 4": 1.009912632703781,
+            "Variation 5": 0.17059533679208091,
+            "Variation 6": 0.023750747442245482,
+            "Variation 7": 1.009912632703781,
+            "Variation 8": 0.809050110578537,
+            "Variation 9": 0.5273419749736786,
+            "Variation 10": 10.04052298990163
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can pulmonary vascularity be described as increased on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, pulmonary vascularity cannot be described as increased on the chest X-ray. The image shows a chest X-ray with the lungs appearing clear, and there is no evidence of increased vascularity.",
+                "No, pulmonary vascularity cannot be described as increased on the chest X-ray. The image you've provided is a lateral chest X-ray, which is a type of X-ray that shows the side of the chest",
+                "No, pulmonary vascularity cannot be described as increased on the chest X-ray. The image shows a chest X-ray with a normal appearance of the lungs and heart. There is no evidence of increased pulmonary vascularity",
+                "[n]",
+                "No, pulmonary vascularity cannot be described as increased on the chest X-ray. The image shows a chest X-ray with a normal appearance of the lungs and heart. There is no evidence of increased pulmonary vascularity",
+                "No, pulmonary vascularity cannot be described as increased on the chest X-ray. The image shows a normal chest X-ray with no signs of increased pulmonary vascularity.",
+                "Based on the image provided, it is not possible to accurately assess the pulmonary vascularity. The image is a chest X-ray, which primarily shows the skeletal structure of the chest, including the ribs, vertebra",
+                "No, pulmonary vascularity cannot be described as increased on the chest X-ray. The image shows a chest X-ray with a normal appearance of the lungs and heart. There is no evidence of increased pulmonary vascularity",
+                "No, pulmonary vascularity cannot be described as increased on the chest X-ray. The image shows a chest X-ray with the lungs and heart visible. However, without additional context or medical expertise, it is not possible to accurately",
+                "No, pulmonary vascularity cannot be described as increased on the chest X-ray. The image shows a chest X-ray with a normal appearance of the lungs and heart. The lungs appear to be clear, and there are no signs",
+                "Yes, pulmonary vascularity can be described as increased on a chest X-ray."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -442.1276827454567,
+                    -453.052859544754,
+                    -492.62331438064575,
+                    -45.45939302444458,
+                    -492.62331438064575,
+                    -434.7920832633972,
+                    -440.9401453733444,
+                    -492.62331438064575,
+                    -482.58018827438354,
+                    -468.4947814941406,
+                    -221.23617696762085
+                ],
+                [
+                    -442.1276827454567,
+                    -453.052859544754,
+                    -492.62331438064575,
+                    -45.45939302444458,
+                    -492.62331438064575,
+                    -434.7920832633972,
+                    -440.9401453733444,
+                    -492.62331438064575,
+                    -482.58018827438354,
+                    -468.4947814941406,
+                    -221.23617696762085
+                ],
+                [
+                    -441.7201261520386,
+                    -464.70297956466675,
+                    -495.75133991241455,
+                    -41.498732566833496,
+                    -495.75133991241455,
+                    -430.9399175643921,
+                    -441.46684911847115,
+                    -495.75133991241455,
+                    -474.55828762054443,
+                    -468.5985314846039,
+                    -228.08232593536377
+                ],
+                [
+                    -459.81443428993225,
+                    -465.7868552207947,
+                    -515.869978427887,
+                    -50.003501415252686,
+                    -515.869978427887,
+                    -451.4753329753876,
+                    -427.13987970352173,
+                    -515.869978427887,
+                    -494.7812219262123,
+                    -490.0072762966156,
+                    -242.124365568161
+                ],
+                [
+                    -441.7201261520386,
+                    -464.70297956466675,
+                    -495.75133991241455,
+                    -41.498732566833496,
+                    -495.75133991241455,
+                    -430.9399175643921,
+                    -441.46684911847115,
+                    -495.75133991241455,
+                    -474.55828762054443,
+                    -468.5985314846039,
+                    -228.08232593536377
+                ],
+                [
+                    -459.81443428993225,
+                    -465.7868552207947,
+                    -515.869978427887,
+                    -50.003501415252686,
+                    -515.869978427887,
+                    -451.4753329753876,
+                    -427.13987970352173,
+                    -515.869978427887,
+                    -494.7812219262123,
+                    -490.0072762966156,
+                    -242.124365568161
+                ],
+                [
+                    -447.5245316028595,
+                    -485.13008165359497,
+                    -487.71787691116333,
+                    -45.713176012039185,
+                    -487.71787691116333,
+                    -429.4106191396713,
+                    -452.1006283760071,
+                    -487.71787691116333,
+                    -470.0303372144699,
+                    -463.7057111263275,
+                    -216.91522240638733
+                ],
+                [
+                    -459.81443428993225,
+                    -465.7868552207947,
+                    -515.869978427887,
+                    -50.003501415252686,
+                    -515.869978427887,
+                    -451.4753329753876,
+                    -427.13987970352173,
+                    -515.869978427887,
+                    -494.7812219262123,
+                    -490.0072762966156,
+                    -242.124365568161
+                ],
+                [
+                    -444.6309893131256,
+                    -440.83187890052795,
+                    -493.0975353717804,
+                    -51.87197685241699,
+                    -493.0975353717804,
+                    -429.0407016277313,
+                    -447.33384239673615,
+                    -493.0975353717804,
+                    -478.75406312942505,
+                    -473.6732954978943,
+                    -219.29675126075745
+                ],
+                [
+                    -447.5245316028595,
+                    -485.13008165359497,
+                    -487.71787691116333,
+                    -45.713176012039185,
+                    -487.71787691116333,
+                    -429.4106191396713,
+                    -452.1006283760071,
+                    -487.71787691116333,
+                    -470.0303372144699,
+                    -463.7057111263275,
+                    -216.91522240638733
+                ],
+                [
+                    -445.36541199684143,
+                    -466.28127574920654,
+                    -495.4913659095764,
+                    -50.77830696105957,
+                    -495.4913659095764,
+                    -444.47833156585693,
+                    -463.8188328742981,
+                    -495.4913659095764,
+                    -481.9135618209839,
+                    -466.184042930603,
+                    -229.88034749031067
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            9.815720040997515
+        ],
+        "posix": 9.815720040997515
+    }
+}

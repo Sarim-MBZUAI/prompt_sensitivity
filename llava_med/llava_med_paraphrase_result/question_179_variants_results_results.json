@@ -1,0 +1,189 @@
+{
+    "file_name": "question_179_variants_results.json",
+    "overall_posix": 0.8434464524639238,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.8207577048453142,
+            "Variation 2": 0.0,
+            "Variation 3": 0.7828866040436765,
+            "Variation 4": 0.7353787460313916,
+            "Variation 5": 0.41919154683699844,
+            "Variation 6": 0.8740741971910779,
+            "Variation 7": 1.096377185086908,
+            "Variation 8": 0.6362469505688431,
+            "Variation 9": 1.2986242481099914,
+            "Variation 10": 1.0920533204550025
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of spinal deformity compatible with thoracic spondylosis on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the X-ray shows evidence of spinal deformity compatible with thoracic spondylosis. ",
+                "The thoracic spine x-ray does not show any signs of spondylosis-related deformity. ",
+                "Yes, the X-ray shows evidence of spinal deformity compatible with thoracic spondylosis. ",
+                "Yes, the X-ray shows radiographic features consistent with thoracic spondylosis causing spinal deformity. ",
+                "The provided X-ray does not show any evidence of spinal curvature associated with thoracic spondylosis. ",
+                "Yes, the X-ray shows a deformity in the thoracic spine that is compatible with spondylosis. ",
+                "Yes, the spinal alignment abnormalities visible on the X-ray are consistent with thoracic spondylosis. ",
+                "The image does not show any radiographic signs of deformity in the thoracic spine potentially related to spondylosis. ",
+                "Yes, the X-ray shows clear imaging evidence of a spinal deformity consistent with thoracic spondylosis. ",
+                "Yes, the features visible on the X-ray are characteristic of thoracic spondylosis-induced spinal deformation. ",
+                "The provided radiograph does not show any clear signs of deformity in the thoracic spine that could be attributed to spondylosis. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -40.67265601676934,
+                    -63.653871752438135,
+                    -40.67265601676934,
+                    -64.15925413807963,
+                    -61.998639651679696,
+                    -53.24840242187929,
+                    -66.89488193250168,
+                    -74.66034875446348,
+                    -61.032558434972316,
+                    -82.22863195628906,
+                    -77.80246891223942
+                ],
+                [
+                    -63.70951748993866,
+                    -41.032437247274174,
+                    -63.70951748993866,
+                    -69.4590994670998,
+                    -75.49875258032989,
+                    -54.578283850446496,
+                    -77.76815630363853,
+                    -66.79604992770192,
+                    -75.91470023539841,
+                    -87.74423845003912,
+                    -71.58313453620804
+                ],
+                [
+                    -40.67265601676934,
+                    -63.653871752438135,
+                    -40.67265601676934,
+                    -64.15925413807963,
+                    -61.998639651679696,
+                    -53.24840242187929,
+                    -66.89488193250168,
+                    -74.66034875446348,
+                    -61.032558434972316,
+                    -82.22863195628906,
+                    -77.80246891223942
+                ],
+                [
+                    -55.03109528423829,
+                    -63.10625304945279,
+                    -55.03109528423829,
+                    -42.10133453259965,
+                    -67.87237348336657,
+                    -61.084888268231225,
+                    -68.77373369582574,
+                    -73.23870736787649,
+                    -65.99278339132889,
+                    -78.62959382206873,
+                    -76.45005754864542
+                ],
+                [
+                    -56.453301897015535,
+                    -67.04441436540219,
+                    -56.453301897015535,
+                    -67.34208266530914,
+                    -42.08909179109375,
+                    -66.21961031057435,
+                    -73.6244280431265,
+                    -75.25117475516163,
+                    -69.13354488560162,
+                    -84.20249783377585,
+                    -75.93190708159818
+                ],
+                [
+                    -52.96181144935326,
+                    -55.95628514990676,
+                    -52.96181144935326,
+                    -67.9660811319045,
+                    -68.95713782706662,
+                    -44.32795222042273,
+                    -72.35992768442156,
+                    -66.88469851986247,
+                    -59.99561193139016,
+                    -87.90270721425622,
+                    -70.09839641275448
+                ],
+                [
+                    -59.68203789724657,
+                    -66.6272320736607,
+                    -59.68203789724657,
+                    -68.00527852744472,
+                    -66.45336741432311,
+                    -65.10297276708116,
+                    -40.744836312933444,
+                    -81.66565115653793,
+                    -70.93263760851346,
+                    -82.17374799274057,
+                    -83.70401769712043
+                ],
+                [
+                    -61.54692006161349,
+                    -55.492563946172595,
+                    -61.54692006161349,
+                    -66.49579668729712,
+                    -69.65633486291335,
+                    -53.29186663855171,
+                    -79.0667994411051,
+                    -43.14327498578814,
+                    -74.08475427678059,
+                    -89.83420764034236,
+                    -64.64892380166339
+                ],
+                [
+                    -53.61141541124107,
+                    -65.23412056360394,
+                    -53.61141541124107,
+                    -65.10561663747399,
+                    -66.46414049756322,
+                    -60.610916005502986,
+                    -66.15758010938964,
+                    -76.19923584728895,
+                    -42.25125036049127,
+                    -85.67685260604276,
+                    -78.81540673073323
+                ],
+                [
+                    -58.67892011850381,
+                    -66.02288090134971,
+                    -58.67892011850381,
+                    -60.633536158355355,
+                    -66.80775699455262,
+                    -65.38169114923949,
+                    -64.69436491350507,
+                    -75.8127832103637,
+                    -70.42900027870223,
+                    -41.51829961284636,
+                    -78.53465034623514
+                ],
+                [
+                    -67.01972190043307,
+                    -59.27104328866699,
+                    -67.01972190043307,
+                    -75.05367747985292,
+                    -75.2530223246722,
+                    -57.85324548397875,
+                    -81.71171897434397,
+                    -65.46786516097336,
+                    -76.21607677720021,
+                    -93.99075252507464,
+                    -43.0632458782751
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8434464524639238
+        ],
+        "posix": 0.8434464524639238
+    }
+}

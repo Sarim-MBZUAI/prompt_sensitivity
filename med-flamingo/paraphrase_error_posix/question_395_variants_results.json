@@ -1,0 +1,42 @@
+{
+    "file_name": "question_395_variants.json",
+    "overall_posix": 0.33506883780171187,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6360153256704981,
+            "Variation 2": 0.0,
+            "Variation 3": 0.2901554404145077,
+            "Variation 4": 0.31016042780748665,
+            "Variation 5": 0.30952380952380953,
+            "Variation 6": 0.33783783783783783,
+            "Variation 7": 0.19696969696969702,
+            "Variation 8": 0.30000000000000004,
+            "Variation 9": 0.6444444444444445,
+            "Variation 10": 0.32558139534883723
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a pneumothorax according to the X-ray report? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have a pneumothorax according to the X-ray report? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this X-ray demonstrate evidence of pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1. The X-ray demonstrates a right-sided pneumothorax.\n 2. The X-ray does not demonstrate a pneumothorax.\n 1. The X-ray demonstrates a right",
+                "<s> Does the patient have a pneumothorax according to the X-ray report? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visible air collection in the pleural space on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can a pneumothorax be identified based on this radiographic evidence? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this X-ray show any signs of lung air leak resulting in pleural space air accumulation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visible separation between lung and chest wall due to air in the pleural space on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient have evidence of pneumothorax as per the radiographic findings? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any visible air-filled spaces in the pleural cavity on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can a diagnosis of pneumothorax be made based on the imaging findings reported here? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the diagnosis of pneumothorax can be made based on the imaging findings reported here.\n 2.  No, the diagnosis of pneumothorax cannot be made based on the",
+                "<s> Is there air in the pleural space visible on this X-ray report that would confirm a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.33506883780171187
+        ],
+        "posix": 0.33506883780171187
+    }
+}

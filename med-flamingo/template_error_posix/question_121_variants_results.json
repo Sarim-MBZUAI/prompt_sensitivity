@@ -1,0 +1,42 @@
+{
+    "file_name": "question_121_variants.json",
+    "overall_posix": 0.339419773664866,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2831858407079646,
+            "Variation 2": 0.2222222222222222,
+            "Variation 3": 0.2792792792792793,
+            "Variation 4": 0.5706214689265536,
+            "Variation 5": 0.29824561403508776,
+            "Variation 6": 0.22009569377990434,
+            "Variation 7": 0.498371335504886,
+            "Variation 8": 0.25114155251141557,
+            "Variation 9": 0.29824561403508776,
+            "Variation 10": 0.4727891156462585
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::: Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n 10.\n 360\n   Answers\n A. No\n B. No\n C. No\n D. No\n",
+                "<s> QUESTION:Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> q:::Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please select the option that best answers the question.\n Question:Is there any evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]",
+                "<s> Q::Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> QUESTION\tIs there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question-Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is there any evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes,",
+                "<s> question:Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> q::Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Is there any evidence of fluid in the lung spaces on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the next step in the management of this patient?\n A.Placement of a chest tube\n B.Placement of a needle thoracostomy tube\n C."
+            ]
+        ],
+        "sensitivities": [
+            0.339419773664866
+        ],
+        "posix": 0.339419773664866
+    }
+}

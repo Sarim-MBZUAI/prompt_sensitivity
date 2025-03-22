@@ -1,0 +1,189 @@
+{
+    "file_name": "question_162_variants_results.json",
+    "overall_posix": 0.8287936561491644,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.708042539224109,
+            "Variation 2": 0.0,
+            "Variation 3": 0.8137084632246114,
+            "Variation 4": 1.2140086123806462,
+            "Variation 5": 0.855890135980336,
+            "Variation 6": 1.3475990235817032,
+            "Variation 7": 0.5316465512010194,
+            "Variation 8": 0.7745838422111845,
+            "Variation 9": 1.2343071512791004,
+            "Variation 10": 1.0303505877814483
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any noticeable skeletal abnormalities in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray appears to be normal, with no noticeable skeletal abnormalities. ",
+                "The chest x-ray does not show any radiographic signs of skeletal disease. ",
+                "The chest x-ray appears to be normal, with no noticeable skeletal abnormalities. ",
+                "The chest x-ray does not show any obvious abnormalities in the osseous structures within the thoracic cage. ",
+                "The chest radiograph does not show any notable anomalies in skeletal morphology. ",
+                "The chest x-ray does not show any evidence of skeletal abnormalities that are relevant to this patient's clinical context. ",
+                "The chest radiograph appears to be normal, with no distinctive skeletal features that warrant further attention. ",
+                "The chest x-ray does not show any visible signs of osseous pathology. however, it is important to remember that a chest x-ray is just one diagnostic tool, and further evaluation may be necessary to assess the patient's overall",
+                "The chest x-ray appears to be normal, with no significant abnormalities in skeletal configuration or morphology. this means that the bones and structures in the chest x-ray do not show any signs of injury, disease, or other",
+                "Yes, there are notable osseous features on the chest radiograph. These features may have implications for patient care, as they could be indicative of underlying conditions or abnormalities that need to be addressed. It is important for healthcare professionals to",
+                "The chest x-ray appears to be normal, with no visual indicators of skeletal disease or injury. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.26790233999054,
+                    -56.13679566369683,
+                    -41.26790233999054,
+                    -65.67915623672889,
+                    -67.97609181236476,
+                    -67.80049655538096,
+                    -73.61027890595142,
+                    -68.38187645124253,
+                    -80.77167829276095,
+                    -104.21756705522466,
+                    -68.0570176223082
+                ],
+                [
+                    -57.01080847913909,
+                    -40.25372369195247,
+                    -57.01080847913909,
+                    -71.30389162674328,
+                    -75.04949055431644,
+                    -72.99428229005207,
+                    -78.57271039826446,
+                    -67.12173315067366,
+                    -92.36398042061592,
+                    -108.65249584490539,
+                    -63.036527942957036
+                ],
+                [
+                    -41.26790233999054,
+                    -56.13679566369683,
+                    -41.26790233999054,
+                    -65.67915623672889,
+                    -67.97609181236476,
+                    -67.80049655538096,
+                    -73.61027890595142,
+                    -68.38187645124253,
+                    -80.77167829276095,
+                    -104.21756705522466,
+                    -68.0570176223082
+                ],
+                [
+                    -61.03659142665856,
+                    -64.23264827175808,
+                    -61.03659142665856,
+                    -42.40142843819487,
+                    -78.82674582611071,
+                    -79.76228345929849,
+                    -83.85855185741093,
+                    -64.61422732124527,
+                    -98.92290224342332,
+                    -105.53200472557,
+                    -74.5110910434014
+                ],
+                [
+                    -56.534571509480884,
+                    -62.20221519347979,
+                    -56.534571509480884,
+                    -69.93625719845295,
+                    -41.9360905962111,
+                    -76.66424519158318,
+                    -69.58392185588309,
+                    -73.34280254366888,
+                    -82.2512767083075,
+                    -90.22682812954918,
+                    -73.98597493619309
+                ],
+                [
+                    -55.30764494713094,
+                    -57.18020205018911,
+                    -55.30764494713094,
+                    -68.46584027513745,
+                    -72.0611561643891,
+                    -43.29488991997505,
+                    -80.31082776484254,
+                    -70.69492106485552,
+                    -85.01721476408102,
+                    -106.42261219839929,
+                    -73.7025261921317
+                ],
+                [
+                    -53.438870916294036,
+                    -58.23879973034491,
+                    -53.438870916294036,
+                    -70.91060057669529,
+                    -62.17302634293446,
+                    -74.27124019338771,
+                    -44.24358774200982,
+                    -70.29216070874895,
+                    -82.388879983474,
+                    -83.07006967207053,
+                    -69.89425526295963
+                ],
+                [
+                    -62.35089057746882,
+                    -61.26123957800155,
+                    -62.35089057746882,
+                    -66.67779168840934,
+                    -76.6775446619722,
+                    -76.4110059912091,
+                    -80.78060352150351,
+                    -49.42579674466947,
+                    -92.73771835673597,
+                    -93.37837515519959,
+                    -76.43146306868948
+                ],
+                [
+                    -56.28195157340815,
+                    -63.88350038828867,
+                    -56.28195157340815,
+                    -69.7077549276728,
+                    -63.48012786177787,
+                    -71.08327136917615,
+                    -78.6083085097489,
+                    -71.78704389970142,
+                    -53.63242583737747,
+                    -100.18968579357897,
+                    -74.65683236448967
+                ],
+                [
+                    -62.638051146874204,
+                    -62.474401219020365,
+                    -62.638051146874204,
+                    -67.10291670850711,
+                    -65.73797577701043,
+                    -76.97101284363816,
+                    -67.82998731981206,
+                    -65.88683595884879,
+                    -85.17652396734775,
+                    -53.211471512335606,
+                    -75.90242715517525
+                ],
+                [
+                    -59.25537098144923,
+                    -54.37369757615306,
+                    -59.25537098144923,
+                    -72.30050086296978,
+                    -76.00802507606568,
+                    -74.29157627758468,
+                    -77.34290061559295,
+                    -69.20645540809448,
+                    -88.16096585901141,
+                    -107.86123207528908,
+                    -46.80454704723843
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8287936561491644
+        ],
+        "posix": 0.8287936561491644
+    }
+}

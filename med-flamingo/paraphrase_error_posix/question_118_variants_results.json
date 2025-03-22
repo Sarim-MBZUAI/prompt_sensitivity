@@ -1,0 +1,42 @@
+{
+    "file_name": "question_118_variants.json",
+    "overall_posix": 0.4845783522084684,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.25520833333333326,
+            "Variation 2": 0.6456953642384106,
+            "Variation 3": 0.23076923076923084,
+            "Variation 4": 0.2885572139303483,
+            "Variation 5": 0.4524886877828054,
+            "Variation 6": 0.7095115681233933,
+            "Variation 7": 0.7075471698113207,
+            "Variation 8": 0.4943820224719101,
+            "Variation 9": 0.43162393162393164,
+            "Variation 10": 0.63
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray suggest the presence of a pleural effusion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray suggest the presence of a pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest radiograph reveal evidence of pleural fluid accumulation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n a.\n b.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Is there radiographic indication of pleural effusion on the provided image? Please choose from the following two options: [yes, no]\n<image> 1a. No\n 1b. Yes\n 2. Is there radiographic evidence of pneumothorax on the provided image? Please choose from the following two options: [yes, no]\n 3. Is there",
+                "<s> Does the X-ray suggest the presence of a significant amount of fluid in the pleural space? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there imaging findings suggestive of pleural effusion on the given chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we infer from the radiograph that there is a notable collection of fluid within the pleural cavity? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Is the presence of pleural effusion supported by the imaging characteristics of the provided image? Please choose from the following two options: [yes, no]\n<image> a. Yes, the presence of pleural effusion is supported by the imaging characteristics of the provided image.\n b. No, the presence of pleural effusion is not supported by the imaging characteristics of the provided image.\n ",
+                "<s> Does the radiographic appearance suggest the accumulation of a substantial amount of serous fluid in the pleural space? Please choose from the following two options: [yes, no]\n<image> A. Yes, the radiographic appearance suggests the accumulation of a substantial amount of serous fluid in the pleural space.\n B. No, the radiographic appearance does not suggest the accumulation of a substantial amount of serous fluid in",
+                "<s> Would you agree that the imaging findings on the chest X-ray are compatible with the diagnosis of pleural effusion? Please choose from the following two options: [yes, no]\n<image> a\n b\n Fig. 1.1.1\n 1.1.1  Case 1\n 11\n 121.1 Imaging Findings ofPleural Effusion\n 1.1",
+                "<s> Are there sufficient radiological criteria to support the suspicion of pleural effusion based on the provided image? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does the chest X-ray suggest the presence of a notable amount of pleural fluid, which might be contributing to the patient's clinical presentation? Please choose from the following two options: [yes, no]\n<image> 11.  Is the patient's heart size normal? Please choose from the following two options: [yes, no]\n 12.  Is the patient's heart size normal? Please choose from the following two options:"
+            ]
+        ],
+        "sensitivities": [
+            0.4845783522084684
+        ],
+        "posix": 0.4845783522084684
+    }
+}

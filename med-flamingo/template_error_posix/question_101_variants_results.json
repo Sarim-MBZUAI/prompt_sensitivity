@@ -1,0 +1,42 @@
+{
+    "file_name": "question_101_variants.json",
+    "overall_posix": 0.4358731858276606,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.49650349650349646,
+            "Variation 2": 0.5221843003412969,
+            "Variation 3": 0.4461538461538461,
+            "Variation 4": 0.48056537102473496,
+            "Variation 5": 0.5523809523809524,
+            "Variation 6": 0.2985781990521327,
+            "Variation 7": 0.43027888446215146,
+            "Variation 8": 0.5220338983050847,
+            "Variation 9": 0.3148148148148149,
+            "Variation 10": 0.2952380952380953
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> question::Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The chest X-ray shows an enlarged cardiac silhouette.\n B: The chest X-ray does not show an enlarged cardiac silhouette.\n 10.Question1",
+                "<s> Question:Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n [yes, no]\n 10.Question:Does the chest X-ray show a right-sided pleural effusion? Please choose from the following two options: [yes, no]||",
+                "<s> QUESTION:Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Aortic dissection\n B:Pericardial effusion\n C:Pulmonary embolism\n D:",
+                "<s> Question::: Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question: Is the cardiac silhouette enlarged?\n Answer:\n No\n 11.\n Question: Is the cardiac silhouette enlarged?\n Answer:\n Yes\n",
+                "<s> QUESTION:Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n Discussion:\n The chest X-ray shows an enlarged cardiac silhouette. The cardiac silhouette is enlarged, and the cardiac shadow is more prominent. The cardiac silhouette",
+                "<s> Q::: Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 16.Q:What is the most likely diagnosis?\n A:Aortic dissection\n B:Pulmonary embolus\n C:Pneumonia\n D:Pneum",
+                "<s> Question:Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 10.Question:Does the chest X-ray show a right-sided pleural effusion? Please choose from the following two options: [yes, no]\n Answer:\n [yes,",
+                "<s> Q::Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> q:::Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::"
+            ]
+        ],
+        "sensitivities": [
+            0.4358731858276606
+        ],
+        "posix": 0.4358731858276606
+    }
+}

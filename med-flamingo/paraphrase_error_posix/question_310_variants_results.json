@@ -1,0 +1,42 @@
+{
+    "file_name": "question_310_variants.json",
+    "overall_posix": 0.4348363464232734,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6081081081081081,
+            "Variation 2": 0.3982300884955752,
+            "Variation 3": 0.25,
+            "Variation 4": 0.6349693251533742,
+            "Variation 5": 0.24102564102564106,
+            "Variation 6": 0.38095238095238093,
+            "Variation 7": 0.2806122448979591,
+            "Variation 8": 0.28350515463917525,
+            "Variation 9": 0.6638176638176638,
+            "Variation 10": 0.6071428571428571
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the included osseous (bone) structures appearing intact on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the included osseous (bone) structures appearing intact on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the skeletal elements visible on this radiograph showing normal architecture? Please choose from the following two options: [yes, no]\n<image> a. Yes, the ribs are visible.\n b. No, the ribs are not visible.\n 2.\n What is the most likely diagnosis?\n a. Normal chest radiograph\n b. Pneumothor",
+                "<s> Do the osseous structures within this image appear to be intact with no evidence of abnormality? Please choose from the following two options: [yes, no]\n<image> 15.\n a.\n b.\n c.\n d.\n e.\n f.\n 16.\n a.\n b.\n c.\n d.\n e.\n f.\n 17.",
+                "<s> Are there any abnormalities in the bony morphology depicted on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this X-ray show the bone structures to be normally formed and without disruption? Please choose from the following two options: [yes, no]\n<image> a. Yes, the bone structures are normal\n b. No, the bone structures are not normal\n 5. What is the diagnosis?\n a. Normal bone structures\n b. Pathological bone structures\n 6",
+                "<s> Are the included skeletal elements demonstrating normal anatomical integrity? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any deviation from normal osseous architecture evident on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> Do the bones visible on this X-ray appear intact with no pathological changes? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the bony components of this image free of any structural irregularities? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this X-ray show the bone structures to be normally aligned and without abnormality? Please choose from the following two options: [yes, no]\n<image> a. Yes, the bone structures are normally aligned and without abnormality\n b. No, the bone structures are not normally aligned and there is an abnormality\n 2.\n What is the most likely diagnosis?\n",
+                "<s> Can the skeletal elements depicted on this X-ray be characterized as normal? Please choose from the following two options: [yes, no]\n<image> a. Yes, the ribs are normal.\n b. No, the ribs are abnormal.\n 2.\n What is the most likely diagnosis?\n a. Congenital scoliosis\n b. Congen"
+            ]
+        ],
+        "sensitivities": [
+            0.4348363464232734
+        ],
+        "posix": 0.4348363464232734
+    }
+}

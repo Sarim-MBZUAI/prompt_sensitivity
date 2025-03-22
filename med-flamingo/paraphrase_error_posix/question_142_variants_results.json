@@ -1,0 +1,42 @@
+{
+    "file_name": "question_142_variants.json",
+    "overall_posix": 0.48674919174974435,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5014577259475219,
+            "Variation 2": 0.512280701754386,
+            "Variation 3": 0.6350877192982456,
+            "Variation 4": 0.0,
+            "Variation 5": 0.5789473684210527,
+            "Variation 6": 0.4766081871345029,
+            "Variation 7": 0.531986531986532,
+            "Variation 8": 0.518005540166205,
+            "Variation 9": 0.7052631578947368,
+            "Variation 10": 0.40785498489425986
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart of abnormal size as suggested by the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart of abnormal size as suggested by the chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, the heart is of abnormal size.\n b. No, the heart is of normal size.\n 10. Please select from the following two options: [left, right]\n a. Left.\n b.",
+                "<s> Is the cardiac silhouette on the chest X-ray dimensionally abnormal in comparison to normal values? Please choose from the following two options: [yes, no]\n<image> 11. Is the cardiac silhouette on the chest X-ray dimensionally abnormal in comparison to normal values? Please choose from the following two options: [yes, no]\n a. No\n b. Yes\n",
+                "<s> Does the heart size appear enlarged based on the radiographic measurements? Please choose from the following two options: [yes, no]\n<image> 11.  Is the heart size normal?\n 12.  Is the heart size enlarged?\n 13.  Is the heart size decreased?\n 14.  Is the heart size normal?",
+                "<s> Please choose from the following two options: [yes, no]\n<image> [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes",
+                "<s> Is the heart of abnormal size as suggested by the chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, the heart is of abnormal size.\n b. No, the heart is of normal size.\n 10. Please select from the following two options: [left, right]\n a. Left.\n b.",
+                "<s> Are there signs of cardiomegaly visible on the provided chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Correct Answer: Yes\n The chest X-ray shows a cardiomegaly with a cardiothoracic ratio of ",
+                "<s> Is the cardiac contour visually apparent as being increased in size relative to the thoracic cage? Please choose from the following two options: [yes, no]\n<image> 11. Is the cardiac contour visually apparent as being increased in size relative to the thoracic cage? Please choose from the following two options: [yes, no]\n a. Yes\n b. No\n ",
+                "<s> Does the heart appear enlarged or of abnormal dimensions when compared to a normal chest X-ray template? Please choose from the following two options: [yes, no]\n<image> 11.  Is the heart enlarged?\n 12.  Is the heart of abnormal dimensions?\n 13.  Is the heart enlarged?\n 14.  Is the heart of ab",
+                "<s> Is the silhouette of the heart on the chest X-ray image greater than expected for the given patient demographics? Please choose from the following two options: [yes, no]\n<image> 11.  Is the silhouette of the heart on the chest X-ray image greater than expected for the given patient demographics? Please choose from the following two options: [yes, no]\n 12.",
+                "<s> Are there radiographic signs indicative of cardiac hypertrophy visible on the provided image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the heart size appear larger or abnormal in size based on the provided chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is the heart size larger or abnormal in size based on the provided chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Is the heart size larger or"
+            ]
+        ],
+        "sensitivities": [
+            0.48674919174974435
+        ],
+        "posix": 0.48674919174974435
+    }
+}

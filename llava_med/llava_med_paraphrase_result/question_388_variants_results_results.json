@@ -1,0 +1,189 @@
+{
+    "file_name": "question_388_variants_results.json",
+    "overall_posix": 1.1388850437919584,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.7708080308923925,
+            "Variation 2": 0.0,
+            "Variation 3": 1.138671480444259,
+            "Variation 4": 0.4282195703719827,
+            "Variation 5": 1.3035107985700165,
+            "Variation 6": 0.9549185881348876,
+            "Variation 7": 0.8815612278646464,
+            "Variation 8": 0.6376568834079633,
+            "Variation 9": 0.7857628939231357,
+            "Variation 10": 1.0501251275352685
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has there been any change in the heart and lungs since the previous interval? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, there has been a change in the heart and lungs since the previous interval. The chest X-ray shows a decrease in the size of the cardiac silhouette and a reduction in the pulmonary vascular markings. This suggests",
+                "The radiographic appearance of the heart and lungs on the current examination shows no interval changes compared to the prior study. ",
+                "Yes, there has been a change in the heart and lungs since the previous interval. The chest X-ray shows a decrease in the size of the cardiac silhouette and a reduction in the pulmonary vascular markings. This suggests",
+                "Yes, there are notable alterations in the cardiac and pulmonary anatomy or morphology since the preceding imaging interval. ",
+                "The chest radiograph shows no differences in heart and lung appearance compared to the previous examination. ",
+                "Yes, there are observable changes in cardiac or pulmonary morphology on the current imaging study compared to the preceding one. ",
+                "The current radiographic examination does not show any evidence of interval change in heart and lung anatomy. ",
+                "The comparison between the current and prior chest X-rays does not show any alterations in cardiac or pulmonary structure. ",
+                "Yes, there appears to be a notable difference in the heart and lung appearance on the current imaging study compared to the previous examination. This suggests that there has been an interval change, which could be due to various factors such as the progression of",
+                "No, there are no radiographic findings suggestive of interval change in cardiac or pulmonary anatomy. ",
+                "Yes, the comparison between current and prior imaging studies reveals changes in heart and lung morphology. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -57.14854460643801,
+                    -77.18955340964021,
+                    -57.14854460643801,
+                    -93.5860319806543,
+                    -66.14115558424965,
+                    -98.86089016067854,
+                    -80.06659072167531,
+                    -83.5953814423774,
+                    -89.66904566024414,
+                    -78.36414274236267,
+                    -81.30142253974918
+                ],
+                [
+                    -93.7428486539211,
+                    -44.86040521207906,
+                    -93.7428486539211,
+                    -106.41053371583166,
+                    -72.13770354300505,
+                    -96.62704682758704,
+                    -74.35360280355962,
+                    -85.52128316769085,
+                    -85.50160742053356,
+                    -75.07951713794137,
+                    -83.05391756398603
+                ],
+                [
+                    -57.14854460643801,
+                    -77.18955340964021,
+                    -57.14854460643801,
+                    -93.5860319806543,
+                    -66.14115558424965,
+                    -98.86089016067854,
+                    -80.06659072167531,
+                    -83.5953814423774,
+                    -89.66904566024414,
+                    -78.36414274236267,
+                    -81.30142253974918
+                ],
+                [
+                    -85.70636732823914,
+                    -85.88412825303385,
+                    -85.70636732823914,
+                    -44.47286534962467,
+                    -73.00165736390045,
+                    -81.51663155588744,
+                    -81.5160823166334,
+                    -73.89780490105488,
+                    -94.23935287049869,
+                    -68.28706359573687,
+                    -78.99338382430142
+                ],
+                [
+                    -93.37742911146051,
+                    -78.43364140938502,
+                    -93.37742911146051,
+                    -103.3563779930173,
+                    -45.54762496537296,
+                    -95.13567409001553,
+                    -83.94096738510052,
+                    -83.51720254458633,
+                    -81.81161947191708,
+                    -77.34415430701483,
+                    -82.71304840268567
+                ],
+                [
+                    -92.85239528229249,
+                    -79.717726375442,
+                    -92.85239528229249,
+                    -85.72812852522543,
+                    -71.82079053513007,
+                    -45.01912007384223,
+                    -81.97212022050371,
+                    -75.60942361182845,
+                    -88.66353452914609,
+                    -73.55393248939947,
+                    -73.65799115636037
+                ],
+                [
+                    -91.32188144028987,
+                    -64.98387418326456,
+                    -91.32188144028987,
+                    -100.51239383442953,
+                    -68.78539175179321,
+                    -91.65908599077375,
+                    -44.597681593763355,
+                    -82.10775848689627,
+                    -84.64058207029848,
+                    -61.866232667201984,
+                    -76.74666385690216
+                ],
+                [
+                    -92.45697652513445,
+                    -86.21957554260734,
+                    -92.45697652513445,
+                    -95.68487798009119,
+                    -74.43433244188782,
+                    -90.29032906709648,
+                    -86.22823257814889,
+                    -44.51983703209134,
+                    -104.01340503538711,
+                    -74.40175504592787,
+                    -79.13996889517875
+                ],
+                [
+                    -93.57803979210439,
+                    -68.90699611033779,
+                    -93.57803979210439,
+                    -102.44568481224269,
+                    -59.45788154518232,
+                    -85.5904390644173,
+                    -74.0285513579729,
+                    -83.639652202055,
+                    -46.93128465048869,
+                    -74.01933479028412,
+                    -76.57741321087815
+                ],
+                [
+                    -88.85808987172095,
+                    -78.26394485088531,
+                    -88.85808987172095,
+                    -93.42689051001935,
+                    -75.15926870470867,
+                    -86.14358334766507,
+                    -68.34494657651521,
+                    -77.2039499280728,
+                    -98.13242422338635,
+                    -41.49799975271705,
+                    -79.4604845859576
+                ],
+                [
+                    -93.93014800204764,
+                    -80.01910856709583,
+                    -93.93014800204764,
+                    -97.20082361767163,
+                    -72.87188548053382,
+                    -84.36243203821869,
+                    -79.06190882284864,
+                    -67.18040640065192,
+                    -92.11259734968758,
+                    -75.32381472323777,
+                    -43.397510775807405
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.1388850437919584
+        ],
+        "posix": 1.1388850437919584
+    }
+}

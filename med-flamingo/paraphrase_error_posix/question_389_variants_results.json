@@ -1,0 +1,42 @@
+{
+    "file_name": "question_389_variants.json",
+    "overall_posix": 0.37037648782937344,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.24090909090909096,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5989445910290238,
+            "Variation 4": 0.33976833976833976,
+            "Variation 5": 0.25,
+            "Variation 6": 0.5714285714285714,
+            "Variation 7": 0.3623693379790941,
+            "Variation 8": 0.6788990825688074,
+            "Variation 9": 0.3245283018867924,
+            "Variation 10": 0.3369175627240144
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is the cardiac silhouette size within the expected normal range for an adult male on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does the cardiac silhouette appear to be within the normal limits for a patient of similar body habitus on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.Does the cardiac silhouette appear to be within the normal limits for a patient of similar body habitus on this chest X-ray? Please choose from the following two options: [yes, no]\n 1",
+                "<s> Is the cardiac contour and size consistent with expected findings in an average-sized adult male on this anterior-posterior chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does the cardiac silhouette demonstrate a normal size relative to the thoracic cage dimensions on this supine chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is the cardiac silhouette within the normal boundaries for an average-sized adult female as depicted on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 19\n 156\n REPORT \u2013 CHEST RADIOGRAPH\n Patient ID: AnonymousNormal size and shape of heart.The imaged skeleton is intact with noProjection: AP E",
+                "<s> Does the size and contour of the cardiac silhouette appear to be consistent with expected findings in a patient without known cardiovascular disease on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is the cardiac silhouette within the normal limits for an average-sized adult male based on the available reference data and the provided imaging study? Please choose from the following two options: [yes, no]\n<image> 11. Is the cardiac silhouette within the normal limits for an average-sized adult female based on the available reference data and the provided imaging study? Please choose from the following two options: [yes, no]\n",
+                "<s> Does the size of the cardiac silhouette appear to be within the expected range for a patient with similar body mass index on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is the cardiac silhouette size and contour consistent with normal findings in an average-sized adult without known heart disease as depicted on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2"
+            ]
+        ],
+        "sensitivities": [
+            0.37037648782937344
+        ],
+        "posix": 0.37037648782937344
+    }
+}

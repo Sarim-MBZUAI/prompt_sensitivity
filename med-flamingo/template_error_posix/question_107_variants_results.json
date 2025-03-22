@@ -1,0 +1,42 @@
+{
+    "file_name": "question_107_variants.json",
+    "overall_posix": 0.33940584524599027,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4407894736842105,
+            "Variation 2": 0.4662576687116564,
+            "Variation 3": 0.24663677130044848,
+            "Variation 4": 0.48318042813455664,
+            "Variation 5": 0.16279069767441867,
+            "Variation 6": 0.22869955156950672,
+            "Variation 7": 0.24347826086956526,
+            "Variation 8": 0.2627118644067796,
+            "Variation 9": 0.46302250803858525,
+            "Variation 10": 0.39649122807017545
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question::: Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> \u2756\u2756Yes, focal consolidation in the right lower lobe\n \u2756\u2756No, no focal consolidation\n 10.\n Question:\n Please choose from the following",
+                "<s> Question-Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n No\n 10.\n Question-Is there any evidence of a pleural effusion? Please choose from the following two options: [yes, no]\n Answer\n Yes\n No\n 11.\n Question-Is",
+                "<s> Question:Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> QUESTION:Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct Answer: Yes\n The chest X-ray shows a focal consolidation in the right upper lobe (arrow).\n The patient has pneumonia.\n The patient is a 65-",
+                "<s> q:Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\na:\n<image> b:\n 10.\n a:\n b:\n 11.\n a:\n b:\n 12.\n a:\n b:\n 13.\n a:\n b:\n 14",
+                "<s> question::Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Q:Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Does the",
+                "<s> q:::Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q::Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is the chest X-ray suggestive of any other abnormality? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is the chest X-ray",
+                "<s> QUESTION:Does the chest X-ray show any signs of lung infection, such as focal consolidation? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n 3.\n QUESTION:What is the most likely diagnosis?\n A:"
+            ]
+        ],
+        "sensitivities": [
+            0.33940584524599027
+        ],
+        "posix": 0.33940584524599027
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_50_variants.json",
+    "overall_posix": 0.3827974043012578,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.21578947368421053,
+            "Variation 2": 0.0,
+            "Variation 3": 0.3582089552238805,
+            "Variation 4": 0.5981308411214953,
+            "Variation 5": 0.3517587939698492,
+            "Variation 6": 0.3380281690140845,
+            "Variation 7": 0.33488372093023255,
+            "Variation 8": 0.4649122807017544,
+            "Variation 9": 0.5508771929824562,
+            "Variation 10": 0.6153846153846154
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> Is the cardiac silhouette size within normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is the cardiac silhouette within normal limits on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> Does the cardiac contour appear to be within the expected range on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Are there any abnormalities or deviations in the size of the cardiac silhouette visible on this X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Correct answer\n No, there are no abnormalities or deviations in the size of the cardiac silhouette visible on this X",
+                "<s> Is the cardiothoracic ratio within normal limits for an adult on this chest film? Please choose from the following two options: [yes, no]\n<image> 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 23\n 24\n 25\n 26\n 2",
+                "<s> Does the cardiac shape appear to be within normal anatomical limits on this radiographic image? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is the cardiac silhouette enlarged or within expected size parameters for an adult on this X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Does the chest X-ray show a normal-sized cardiac contour when compared to the surrounding thoracic structures? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is there any evidence of cardiomegaly or abnormal cardiac silhouette size on this radiographic image? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Aortic aneurysm\n B.Pulmonary embolus\n C.Pulmonary infarct\n D.Pneumonia\n E.",
+                "<s> Are the cardiac borders and shape within expected limits for an adult on this chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1. The cardiac borders are within expected limits for an adult.\n 2. The cardiac borders are not within expected limits for an adult.\n 1. The cardiac borders are within expected limits for an adult.\n "
+            ]
+        ],
+        "sensitivities": [
+            0.3827974043012578
+        ],
+        "posix": 0.3827974043012578
+    }
+}

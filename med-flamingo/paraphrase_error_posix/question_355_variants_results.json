@@ -1,0 +1,42 @@
+{
+    "file_name": "question_355_variants.json",
+    "overall_posix": 0.5133807044032468,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.691358024691358,
+            "Variation 2": 0.41493775933609967,
+            "Variation 3": 0.6235955056179775,
+            "Variation 4": 0.546875,
+            "Variation 5": 0.0,
+            "Variation 6": 0.519434628975265,
+            "Variation 7": 0.6284916201117319,
+            "Variation 8": 0.5271317829457365,
+            "Variation 9": 0.6368563685636857,
+            "Variation 10": 0.5451263537906137
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest radiograph show a significant accumulation of fluid in the pleural space that would be classified as a large effusion? Please choose from the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2.\n Does this chest radiograph show a significant accumulation of fluid in the pleural space that would be classified as a moderate effusion? Please choose from the following two options:",
+                "<s> Is there a notable increase in intercostal spaces suggestive of a substantial pleural effusion visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does the patient's chest imaging demonstrate an extensive collection of fluid within the pleural cavities, consistent with a significant effusion? Please choose from the following two options: [yes, no]\n<image> 11.  Is the patient's chest imaging suggestive of a pleural effusion?\n [yes, no]\n 12.  Is the patient's chest imaging suggestive of a pleural",
+                "<s> Please choose from the following two options: [yes, no]\n<image> \u2460\n \u2461\n \u2462\n \u2463\n \u2464\n \u2465\n \u2466\n \u2467\n \u2468\n \u2469\n",
+                "<s> Does the patient have a large pleural effusion as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of a substantial amount of free fluid in the pleural space as seen on this chest radiograph, which would be indicative of a large pleural effusion? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Does this chest X-ray show any notable features that would suggest the presence of a significant accumulation of fluid within the pleural cavities? Please choose from the following two options: [yes, no]\n<image> A. No. The X-ray is normal.\n B. No. The X-ray is normal.\n C. Yes. There is a small pleural effusion on the right.\n D. Yes. There is a moderate",
+                "<s> Is there a visible increase in the density of the intercostal spaces on this chest radiograph, suggestive of a substantial pleural effusion? Please choose from the following two options: [yes, no]\n<image> 11.10a\n 11.10b\n 11.10c\n 11.10d\n 11.10e\n 11.10f\n 1",
+                "<s> Does the patient's chest imaging reveal any findings that would be consistent with a large volume of fluid accumulating within the pleural space? Please choose from the following two options: [yes, no]\n<image> A.  Yes, there is a large pleural effusion on the left side of the chest.\n B.  No, there is no evidence of a pleural effusion on the chest radiograph.\n 2. ",
+                "<s> Is there a notable shift in mediastinal structures or an increase in intercostal spaces on this chest radiograph, indicative of a significant pleural effusion? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1"
+            ]
+        ],
+        "sensitivities": [
+            0.5133807044032468
+        ],
+        "posix": 0.5133807044032468
+    }
+}

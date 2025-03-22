@@ -1,0 +1,42 @@
+{
+    "file_name": "question_209_variants.json",
+    "overall_posix": 0.31289637833819833,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.25531914893617014,
+            "Variation 2": 0.1691542288557214,
+            "Variation 3": 0.25365853658536586,
+            "Variation 4": 0.3090909090909091,
+            "Variation 5": 0.5352564102564102,
+            "Variation 6": 0.4535714285714285,
+            "Variation 7": 0.24752475247524752,
+            "Variation 8": 0.3090909090909091,
+            "Variation 9": 0.4756944444444444,
+            "Variation 10": 0.12060301507537685
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: \u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191",
+                "<s> Question:Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> q:Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 19.  A 55-year-old man",
+                "<s> q::Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question-Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n Comments\n The chest X-ray shows a right upper lobe infiltrate. The patient has a history of\n chronic obstructive pulmonary disease (COPD) and is on regular",
+                "<s> QUESTION\tIs there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n The chest X-ray is normal. There is no sign of chronic lung disease.\n COMMENT\n The chest X-ray is normal.",
+                "<s> Q:Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n E:\n R:\n D:\n E:\n F:\n I:\n L:\n U:\n X:\n S:\n E:\n R:\n D:\n E:",
+                "<s> Q::Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question::: Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Bronchiectasis\n B. Bronchopneumonia\n C. Bronchospasm\n D. Bronchogenic carcin",
+                "<s> question:Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 1"
+            ]
+        ],
+        "sensitivities": [
+            0.31289637833819833
+        ],
+        "posix": 0.31289637833819833
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_82_variants.json",
+    "overall_posix": 0.49865953981709604,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.41233766233766234,
+            "Variation 2": 0.5227272727272727,
+            "Variation 3": 0.5064935064935064,
+            "Variation 4": 0.474025974025974,
+            "Variation 5": 0.49350649350649345,
+            "Variation 6": 0.577922077922078,
+            "Variation 7": 0.5714285714285714,
+            "Variation 8": 0.46753246753246747,
+            "Variation 9": 0.3762057877813505,
+            "Variation 10": 0.5844155844155844
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pleural effusion? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of a pneumothorax? Please choose from the following",
+                "<s> Q::Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Can any abdominal organs be observed on the abdominal X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Can any abdominal",
+                "<s> Question::: Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumonia\n B. Pulmonary edema\n C. Pulmonary embolism\n D. Pulmonary infarction",
+                "<s> QUESTION\tCan any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n The chest X-ray is normal. The lungs are clear. The heart is not enlarged. The trachea is central. The thorac",
+                "<s> QUESTION:Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n [yes, no]\n 10.\n QUESTION:Which of the following is the most common cause of atelectasis?\n A:\n B:\n C:\n",
+                "<s> QUESTION:Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n [yes, no]\n 10.\n QUESTION:Can any pleural effusions be observed on the chest X-ray? Please choose from the following two options: [yes,",
+                "<s> Q::: Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.\n QUESTION:Can any pleural effusion be observed on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n 11",
+                "<s> Q:Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:Can any pleural effusion be observed on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n Q:Can any pleural effusion be observed on",
+                "<s> question::Can any lung infiltrates be observed on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 109"
+            ]
+        ],
+        "sensitivities": [
+            0.49865953981709604
+        ],
+        "posix": 0.49865953981709604
+    }
+}

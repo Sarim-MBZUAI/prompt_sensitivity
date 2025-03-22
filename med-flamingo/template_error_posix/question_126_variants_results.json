@@ -1,0 +1,42 @@
+{
+    "file_name": "question_126_variants.json",
+    "overall_posix": 0.40496103029929065,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.37857142857142856,
+            "Variation 2": 0.4464285714285714,
+            "Variation 3": 0.46785714285714286,
+            "Variation 4": 0.2874617737003058,
+            "Variation 5": 0.2491694352159468,
+            "Variation 6": 0.3928571428571428,
+            "Variation 7": 0.4892857142857143,
+            "Variation 8": 0.44512195121951215,
+            "Variation 9": 0.4535714285714285,
+            "Variation 10": 0.4392857142857143
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is the cardiomediastinal silhouette normal in the chest X-ray?\n [yes, no]\n 12. Is the cardiomediastinal silhouette normal in the chest X",
+                "<s> Q:Does the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166:Chest X-rays\n 166:Chest X-rays\n Answer:\n B\n Rationale:The cardiomediastinal",
+                "<s> q::Does the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:::Does the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question-Does the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The cardiomediastinal silhouette appears normal in the chest X-ray.\n The cardiomediastinal silhouette appears normal in the chest X-ray.\n The cardiomediastinal silhou",
+                "<s> QUESTION\tDoes the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The cardiomediastinal silhouette is normal in the chest X-ray. The cardiomediastinal silhouette is formed by the heart",
+                "<s> q:Does the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 18.  A 65-year-old man with a history of hypertension and hyperlipidemia is brought to the emer",
+                "<s> QUESTION:Does the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Does the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 65-year-old man with a history of hypertension and hyperlipidemia. He has been diagnosed with aortic stenosis and is scheduled for aort",
+                "<s> QUESTION:Does the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Aortic dissection\n B:Pericardial effusion\n C:Pulmonary embolism\n D:",
+                "<s> Q::Does the cardiomediastinal silhouette appear normal in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A::Aortic dissection\n B::Aortic aneurysm\n C::Aortic regurgitation\n D::Aortic stenosis\n"
+            ]
+        ],
+        "sensitivities": [
+            0.40496103029929065
+        ],
+        "posix": 0.40496103029929065
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_182_variants.json",
+    "overall_posix": 0.4322670262052378,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.16000000000000003,
+            "Variation 3": 0.6208053691275168,
+            "Variation 4": 0.587248322147651,
+            "Variation 5": 0.3719806763285024,
+            "Variation 6": 0.6351791530944625,
+            "Variation 7": 0.29186602870813405,
+            "Variation 8": 0.39423076923076916,
+            "Variation 9": 0.6352201257861635,
+            "Variation 10": 0.6261398176291794
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient have clear lungs on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lung fields completely clear on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any opacification seen in the lung parenchyma on this radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is opacification in the right upper lobe.\n b. No, there is no opacification in the lung parenchyma.\n 10.\n What is the most likely diagnosis?\n",
+                "<s> Do the lungs appear transparent and devoid of infiltrates on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the lungs are transparent and devoid of infiltrates.\n 2. No, the lungs are not transparent and do not appear devoid of infiltrates.\n 1. No, the",
+                "<s> Are there any visual signs of pulmonary pathology visible on this imaging study? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> Is the lung tissue free of abnormal densities and opacities on this radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lung tissue is free of abnormal densities and opacities.\n b. No, the lung tissue is not free of abnormal densities and opacities.\n 3.\n Is the heart",
+                "<s> Does the chest X-ray show a lack of alveolar consolidation or other abnormal lung patterns? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any abnormalities in lung texture or architecture visible on this imaging study? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is the lung field unremarkable and free of pathologic changes on this radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lung field is unremarkable and free of pathologic changes.\n b. No, the lung field is not unremarkable and free of pathologic changes.\n 10.\n What is the most",
+                "<s> Does the patient's chest X-ray display normal lung markings without evidence of disease? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the chest X-ray displays normal lung markings without evidence of disease.\n 2. No, the chest X-ray displays abnormal lung markings with evidence of disease.\n 1. No,"
+            ]
+        ],
+        "sensitivities": [
+            0.4322670262052378
+        ],
+        "posix": 0.4322670262052378
+    }
+}

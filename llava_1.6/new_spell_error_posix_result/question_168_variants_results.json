@@ -1,0 +1,189 @@
+{
+    "file_name": "question_168_variants.json",
+    "overall_posix": 9.089273573075516,
+    "detailed_scores": [
+        {
+            "Variation 1": 2.3484087085723875,
+            "Variation 2": 9.594754898548127,
+            "Variation 3": 0.8094163585353542,
+            "Variation 4": 0.0,
+            "Variation 5": 1.7378671002388,
+            "Variation 6": 9.594754898548127,
+            "Variation 7": 9.594754898548127,
+            "Variation 8": 55.97768767674764,
+            "Variation 9": 0.0,
+            "Variation 10": 2.2640901517868044
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no evidence of pleural effusion on the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and bones clearly visible.",
+                "Based on the image provided, there is no evidence of pleural effusion on the chest X-ray. Pleural effusion typically appears as a blunting of the costophrenic angles, which are the angles formed by the diaphr",
+                "No, there is no evidence of pleural effusion on the chest X-ray.",
+                "No, there is no evidence of pleural effusion on the chest X-ray. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "No, there is no evidence of pleural effusion on the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and bones clearly visible.",
+                "Yes, there is evidence of pleural effusion on the chest X-ray. The presence of a blunting of the costophrenic angles and the appearance of a \"square\" shape on the lateral side of the chest suggest the presence",
+                "No, there is no evidence of pleural effusion on the chest X-ray.",
+                "No, there is no evidence of pleural effusion on the chest X-ray.",
+                "H[no]",
+                "No, there is no evidence of pleural effusion on the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and bones clearly visible.",
+                "Based on the image provided, there are three visible signs that could suggest pleural effusion on the chest X-ray:\n\n1. The presence of a blunting of the costophrenic angles, which are the angles formed by the"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -394.72862672805786,
+                    -512.1490621566772,
+                    -202.83352875709534,
+                    -364.78022146224976,
+                    -394.72862672805786,
+                    -481.62198173999786,
+                    -202.83352875709534,
+                    -202.83352875709534,
+                    -58.86250066757202,
+                    -394.72862672805786,
+                    -507.93313431739807
+                ],
+                [
+                    -345.57312139868736,
+                    -519.9464876651764,
+                    -184.6572070121765,
+                    -341.5040400028229,
+                    -345.57312139868736,
+                    -477.3198928833008,
+                    -184.6572070121765,
+                    -184.6572070121765,
+                    -57.40208601951599,
+                    -345.57312139868736,
+                    -479.88846254348755
+                ],
+                [
+                    -345.57312139868736,
+                    -519.9464876651764,
+                    -184.6572070121765,
+                    -341.5040400028229,
+                    -345.57312139868736,
+                    -477.3198928833008,
+                    -184.6572070121765,
+                    -184.6572070121765,
+                    -57.40208601951599,
+                    -345.57312139868736,
+                    -479.88846254348755
+                ],
+                [
+                    -380.48853182792664,
+                    -535.6233153343201,
+                    -187.82836294174194,
+                    -349.42006754875183,
+                    -380.48853182792664,
+                    -471.47751104831696,
+                    -187.82836294174194,
+                    -187.82836294174194,
+                    -58.384196519851685,
+                    -380.48853182792664,
+                    -485.32912135124207
+                ],
+                [
+                    -345.57312139868736,
+                    -519.9464876651764,
+                    -184.6572070121765,
+                    -341.5040400028229,
+                    -345.57312139868736,
+                    -477.3198928833008,
+                    -184.6572070121765,
+                    -184.6572070121765,
+                    -57.40208601951599,
+                    -345.57312139868736,
+                    -479.88846254348755
+                ],
+                [
+                    -380.48853182792664,
+                    -535.6233153343201,
+                    -187.82836294174194,
+                    -349.42006754875183,
+                    -380.48853182792664,
+                    -471.47751104831696,
+                    -187.82836294174194,
+                    -187.82836294174194,
+                    -58.384196519851685,
+                    -380.48853182792664,
+                    -485.32912135124207
+                ],
+                [
+                    -377.10877537727356,
+                    -485.15555453300476,
+                    -192.12749457359314,
+                    -352.7653658390045,
+                    -377.10877537727356,
+                    -484.51042127609253,
+                    -192.12749457359314,
+                    -192.12749457359314,
+                    -54.17082214355469,
+                    -377.10877537727356,
+                    -496.2558083534241
+                ],
+                [
+                    -377.10877537727356,
+                    -485.15555453300476,
+                    -192.12749457359314,
+                    -352.7653658390045,
+                    -377.10877537727356,
+                    -484.51042127609253,
+                    -192.12749457359314,
+                    -192.12749457359314,
+                    -54.17082214355469,
+                    -377.10877537727356,
+                    -496.2558083534241
+                ],
+                [
+                    -377.10877537727356,
+                    -485.15555453300476,
+                    -192.12749457359314,
+                    -352.7653658390045,
+                    -377.10877537727356,
+                    -484.51042127609253,
+                    -192.12749457359314,
+                    -192.12749457359314,
+                    -54.17082214355469,
+                    -377.10877537727356,
+                    -496.2558083534241
+                ],
+                [
+                    -380.48853182792664,
+                    -535.6233153343201,
+                    -187.82836294174194,
+                    -349.42006754875183,
+                    -380.48853182792664,
+                    -471.47751104831696,
+                    -187.82836294174194,
+                    -187.82836294174194,
+                    -58.384196519851685,
+                    -380.48853182792664,
+                    -485.32912135124207
+                ],
+                [
+                    -345.57312139868736,
+                    -519.9464876651764,
+                    -184.6572070121765,
+                    -341.5040400028229,
+                    -345.57312139868736,
+                    -477.3198928833008,
+                    -184.6572070121765,
+                    -184.6572070121765,
+                    -57.40208601951599,
+                    -345.57312139868736,
+                    -479.88846254348755
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            9.089273573075516
+        ],
+        "posix": 9.089273573075516
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_164_variants.json",
+    "overall_posix": 0.31323046851214675,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2238095238095238,
+            "Variation 2": 0.47811447811447816,
+            "Variation 3": 0.22115384615384615,
+            "Variation 4": 0.2333333333333334,
+            "Variation 5": 0.28125,
+            "Variation 6": 0.29694323144104806,
+            "Variation 7": 0.22596153846153844,
+            "Variation 8": 0.22857142857142854,
+            "Variation 9": 0.42592592592592593,
+            "Variation 10": 0.5172413793103449
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n [no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 1",
+                "<s> Question:Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n The correct answer is [yes, no].\n The X-ray shows a right-sided pneumothorax. The right hemithorax is hyper",
+                "<s> QUESTION:Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n N:\n O:\n I:\n L:\n U:\n X:\n E:\n D:\n E:\n R:\n S:\n R",
+                "<s> Q::: Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q::Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21",
+                "<s> question::Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n ",
+                "<s> Question:Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the diagnosis?\n Aortic dissection\n 3\n 10\n \u2756\u2756What is the differential diagnosis?\n Aortic dissection\n",
+                "<s> Question-Are there any abnormalities in the pulmonary vascularity on the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n\n Question-Is there any evidence of pulmonary embolism on the X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes, no]\n Question-"
+            ]
+        ],
+        "sensitivities": [
+            0.31323046851214675
+        ],
+        "posix": 0.31323046851214675
+    }
+}

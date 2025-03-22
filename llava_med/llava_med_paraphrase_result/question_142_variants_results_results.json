@@ -1,0 +1,189 @@
+{
+    "file_name": "question_142_variants_results.json",
+    "overall_posix": 1.003965862345329,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.9702136022323248,
+            "Variation 2": 1.2237613036669202,
+            "Variation 3": 1.2027867858113068,
+            "Variation 4": 0.0,
+            "Variation 5": 0.8225369912358603,
+            "Variation 6": 0.9139491405241279,
+            "Variation 7": 1.1936146092986581,
+            "Variation 8": 1.4422283743931599,
+            "Variation 9": 0.8665682234034684,
+            "Variation 10": 0.2783420827073314
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart of abnormal size as suggested by the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest X-ray suggests that the heart is of abnormal size. ",
+                "The cardiac silhouette on the chest X-ray appears to be normal in comparison to normal values. ",
+                "Yes, the heart size appears to be enlarged based on the radiographic measurements. ",
+                "The image is likely related to a question or statement that requires a yes or no answer. Without more context, it's difficult to determine the specific question or statement. However, the image is likely used to visually represent the options or choices for",
+                "The chest X-ray suggests that the heart is of abnormal size. ",
+                "The chest x-ray image does not show any signs of cardiomegaly. ",
+                "Yes, the cardiac contour appears to be increased in size relative to the thoracic cage. ",
+                "The heart appears to be of normal dimensions when compared to a normal chest X-ray template. ",
+                "Yes, the silhouette of the heart on the chest X-ray image appears to be greater than expected for the given patient demographics. ",
+                "The provided image is a chest X-ray, and it is not possible to directly observe radiographic signs of cardiac hypertrophy. Cardiac hypertrophy is a condition where the heart muscle becomes thicker, which can be seen",
+                "The chest x-ray does not show any abnormalities in the heart size. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -44.49870404840658,
+                    -68.7540441042147,
+                    -70.1976914254119,
+                    -105.84083012478322,
+                    -44.49870404840658,
+                    -61.77198086435965,
+                    -67.34743256150978,
+                    -70.75822545297706,
+                    -92.09224040338086,
+                    -88.69368344198347,
+                    -50.06554570255321
+                ],
+                [
+                    -68.5097591830181,
+                    -44.4229705560183,
+                    -68.13102966673614,
+                    -106.54734023977608,
+                    -68.5097591830181,
+                    -60.68095068992261,
+                    -66.11958622148813,
+                    -67.66447022866487,
+                    -85.13610394176067,
+                    -88.81014655870626,
+                    -54.98309342995344
+                ],
+                [
+                    -70.3198097543791,
+                    -68.29130741889821,
+                    -41.539626034820685,
+                    -104.08784792607366,
+                    -70.3198097543791,
+                    -57.28973064012098,
+                    -65.95078456628835,
+                    -70.41117479238892,
+                    -84.90007020731173,
+                    -88.92926106302366,
+                    -53.81592709798133
+                ],
+                [
+                    -76.02835164684075,
+                    -74.04210478516325,
+                    -76.88940781397105,
+                    -63.47161440090895,
+                    -76.02835164684075,
+                    -60.86222279339563,
+                    -75.23245935031446,
+                    -82.17460574286815,
+                    -89.06135549532155,
+                    -92.64138323116731,
+                    -62.424853598931804
+                ],
+                [
+                    -44.49870404840658,
+                    -68.7540441042147,
+                    -70.1976914254119,
+                    -105.84083012478322,
+                    -44.49870404840658,
+                    -61.77198086435965,
+                    -67.34743256150978,
+                    -70.75822545297706,
+                    -92.09224040338086,
+                    -88.69368344198347,
+                    -50.06554570255321
+                ],
+                [
+                    -74.44564739424459,
+                    -71.77277817045979,
+                    -70.88191838776402,
+                    -113.21706403290591,
+                    -74.44564739424459,
+                    -40.9751636410424,
+                    -70.77445592789445,
+                    -75.4540318386862,
+                    -86.35273475507893,
+                    -82.2258035683974,
+                    -57.54971236030542
+                ],
+                [
+                    -73.2113510415511,
+                    -67.77247295927373,
+                    -75.01295808645955,
+                    -106.61970779372541,
+                    -73.2113510415511,
+                    -64.59044650688156,
+                    -40.34868931735127,
+                    -73.73589997403906,
+                    -85.23377432420239,
+                    -87.77635999669394,
+                    -64.0105258305266
+                ],
+                [
+                    -59.385814184806804,
+                    -67.46266387065225,
+                    -68.24093096403521,
+                    -104.9849316498387,
+                    -59.385814184806804,
+                    -57.966703754180344,
+                    -66.50608467083657,
+                    -42.547654219501965,
+                    -83.14333919814635,
+                    -91.72952534550802,
+                    -54.57390483720519
+                ],
+                [
+                    -71.50519614038421,
+                    -67.13653074845206,
+                    -71.79537517158315,
+                    -102.23135361739787,
+                    -71.50519614038421,
+                    -59.37668599117751,
+                    -70.92004743420694,
+                    -76.01479516382824,
+                    -41.22133208847663,
+                    -90.20245577291234,
+                    -60.63114401785424
+                ],
+                [
+                    -75.33211663238762,
+                    -70.22972479165765,
+                    -69.51069551095134,
+                    -110.43820868691364,
+                    -75.33211663238762,
+                    -57.57010021841779,
+                    -70.55780531192431,
+                    -79.01950124659925,
+                    -91.2552475155353,
+                    -57.292798372311324,
+                    -61.352761340967845
+                ],
+                [
+                    -59.97976388070674,
+                    -68.4619937898533,
+                    -60.99565571637868,
+                    -111.2042910197988,
+                    -59.97976388070674,
+                    -57.654696584013436,
+                    -64.78541702774237,
+                    -69.33720774700487,
+                    -87.82154559162063,
+                    -86.71286065883066,
+                    -46.13193945135936
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.003965862345329
+        ],
+        "posix": 1.003965862345329
+    }
+}

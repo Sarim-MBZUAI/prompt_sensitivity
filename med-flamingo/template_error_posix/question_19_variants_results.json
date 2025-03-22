@@ -1,0 +1,42 @@
+{
+    "file_name": "question_19_variants.json",
+    "overall_posix": 0.47791180927919763,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.44051446945337625,
+            "Variation 2": 0.5,
+            "Variation 3": 0.5225806451612903,
+            "Variation 4": 0.4161290322580645,
+            "Variation 5": 0.44376899696048633,
+            "Variation 6": 0.4612903225806452,
+            "Variation 7": 0.5161290322580645,
+            "Variation 8": 0.5096774193548387,
+            "Variation 9": 0.535483870967742,
+            "Variation 10": 0.43354430379746833
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n a. Yes, there is focal consolidation in",
+                "<s> QUESTION\tIs there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The patient's chest X-ray shows a focal area of consolidation in the right upper lobe. This is a typical finding in patients with",
+                "<s> Q:Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: Radiology\n 166.1A: Yes\n 166.1B: No\n 166.1C",
+                "<s> Question::: Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> question::Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: There is focal consolidation in the right upper lobe.\n B: There is focal consolidation in the left lower lobe.\n 3.\n Question\n 10.\n 1.",
+                "<s> Question:Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n\n Reasoning:\n The patient has a right upper lobe consolidation.\n The patient has a left lower lobe consolidation.\n The patient has a left upper lobe consolidation.",
+                "<s> Question:Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n [yes, no]\n 10.10 Reproduce the chest X-ray.\n 10.11 What is the most likely diagnosis?\n [pneumonia]\n",
+                "<s> Q::Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n L:\n U:\n X:\n S:\n E:\n T:\n Y:",
+                "<s> Q::: Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Is there any focal consolidation present on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct Answer: Yes\n The patient's chest X-ray shows focal consolidation in the right upper lobe.\n The patient is a 65-year-old man with a history of"
+            ]
+        ],
+        "sensitivities": [
+            0.47791180927919763
+        ],
+        "posix": 0.47791180927919763
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_11_variants.json",
+    "overall_posix": 0.35607798362195575,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.12796208530805686,
+            "Variation 2": 0.2318181818181818,
+            "Variation 3": 0.49696969696969695,
+            "Variation 4": 0.46325878594249204,
+            "Variation 5": 0.45150501672240795,
+            "Variation 6": 0.23478260869565215,
+            "Variation 7": 0.48750000000000004,
+            "Variation 8": 0.3058823529411765,
+            "Variation 9": 0.45695364238410596,
+            "Variation 10": 0.30414746543778803
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> question::Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> Question:Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n Reason: The patient has a left lower lobe consolidation.\n The patient has a left lower lobe consolidation.\n The patient has a left",
+                "<s> QUESTION\tAre there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a history of a cough and fever. The chest X-ray shows a focal area of consolidation in the right upper lo",
+                "<s> Q:Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Figure 10.1\n 10.1A 70-year-old man with a history of diabetes and hypertension is brought to the emergency department with fever, cough, and",
+                "<s> question:Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question:Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 11.Question:Is there any evidence of atelectasis on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no",
+                "<s> Question:Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions: Please mark the correct answer.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n ",
+                "<s> Q:Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Pulmonary tuberculosis\n Q:What is the most likely cause of the patient\u2019s symptoms?\n A:Pulmon",
+                "<s> Question-Are there any signs of focal consolidation such as pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd"
+            ]
+        ],
+        "sensitivities": [
+            0.35607798362195575
+        ],
+        "posix": 0.35607798362195575
+    }
+}

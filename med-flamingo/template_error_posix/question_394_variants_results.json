@@ -1,0 +1,42 @@
+{
+    "file_name": "question_394_variants.json",
+    "overall_posix": 0.49185304122027657,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5068493150684932,
+            "Variation 2": 0.47530864197530864,
+            "Variation 3": 0.4638157894736843,
+            "Variation 4": 0.5102739726027398,
+            "Variation 5": 0.4890965732087227,
+            "Variation 6": 0.473186119873817,
+            "Variation 7": 0.5068493150684932,
+            "Variation 8": 0.5273972602739726,
+            "Variation 9": 0.5308219178082192,
+            "Variation 10": 0.43493150684931514
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there any evidence of atelectasis on the X-ray? Please choose from the following two options: [yes, no]\n 12.  Is there any evidence of pneumothorax on",
+                "<s> question::Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1answer::\n no\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 2",
+                "<s> QUESTION:Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Correct Answer:\n Option 1\n Explanation:\n The patient has a large right upper lobe mass. The mass is not visible on the lateral view of the chest",
+                "<s> Question-Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The patient has a visible pulmonary nodule in the right lower lobe.\n 11.\n Question-What is the most likely diagnosis?\n A. Lung cancer\n B. Lymphoma\n C",
+                "<s> Q:Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 3:\n E:\n D:\n 1:\n 2:\n 3:\n 4:\n 5:\n 6:\n 7:\n",
+                "<s> Question:Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Correct Answer:Option 1\n Explanation:\n The patient has a large right upper lobe pulmonary nodule.\n The patient has a large right upper lobe pul",
+                "<s> Question:Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale: The patient has a right upper lobe pulmonary nodule. The nodule is not visible on the frontal chest X-ray. However, it is",
+                "<s> q:::Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q::: Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> question:Does the patient have any visible pulmonary nodules on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes, there are pulmonary nodules.\n 2.No, there are no pulmonary nodules.\n 1.Yes, there are pulmonary nodules.\n 2.No,"
+            ]
+        ],
+        "sensitivities": [
+            0.49185304122027657
+        ],
+        "posix": 0.49185304122027657
+    }
+}

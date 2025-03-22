@@ -1,0 +1,42 @@
+{
+    "file_name": "question_136_variants.json",
+    "overall_posix": 0.36545483064520745,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6265822784810127,
+            "Variation 2": 0.0,
+            "Variation 3": 0.24489795918367352,
+            "Variation 4": 0.1428571428571428,
+            "Variation 5": 0.45410628019323673,
+            "Variation 6": 0.3526570048309179,
+            "Variation 7": 0.2666666666666666,
+            "Variation 8": 0.6040955631399317,
+            "Variation 9": 0.35672514619883033,
+            "Variation 10": 0.6059602649006622
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the cardiac silhouette enlarged compared to the expected size on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is the cardiac silhouette enlarged compared to the expected size on the X-ray? Please choose from the following two options: [yes, no]\n 12. Is the cardiac silhouette",
+                "<s> Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the heart appear larger than normal in the mediastinum on the radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is cardiomegaly evident on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there signs of cardiac hypertrophy visible on the anterior-posterior (AP) projection? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is the silhouette of the heart greater than the expected size on the radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> Does the X-ray show an enlarged cardiac contour compared to normal standards? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there indications of left ventricular enlargement evident in the cardiac silhouette on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Correct Answer: Yes\n The cardiac silhouette is enlarged on the X-ray. The cardiac silhouette is",
+                "<s> Is cardiac dilation observed on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.10.1\n 1.10.2\n 1.10.3\n 1.10.4\n 1.10.5\n 1.10.6\n 1",
+                "<s> Does the heart appear disproportionately large in relation to the thoracic cage on the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer 11.10.1a\n The heart is not disproportionately large in relation to the thoracic cage.\n The heart is disproportionately large"
+            ]
+        ],
+        "sensitivities": [
+            0.36545483064520745
+        ],
+        "posix": 0.36545483064520745
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_293_variants_results.json",
+    "overall_posix": 0.9617246627154485,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.7628751893622329,
+            "Variation 2": 0.0,
+            "Variation 3": 0.7898165790678215,
+            "Variation 4": 0.7096066102021815,
+            "Variation 5": 1.3045827635964722,
+            "Variation 6": 0.8704424200515842,
+            "Variation 7": 1.1939616547669658,
+            "Variation 8": 0.8990276219982064,
+            "Variation 9": 1.139796756246345,
+            "Variation 10": 1.2063456822019492
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of a granuloma in the left upper lobe? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the image shows evidence of a granuloma in the left upper lobe. ",
+                "Yes, the image shows evidence of granulomatous inflammation in the left upper lobe, which is suggestive of tuberculosis or other chronic infection. ",
+                "Yes, the image shows evidence of a granuloma in the left upper lobe. ",
+                "Yes, the left upper lobe contains a focal collection of epithelioid histiocytes and lymphocytes, which is consistent with a granuloma. ",
+                "Yes, the image shows multiple discrete, well-circumscribed nodules in the left upper lobe, which are suggestive of granulomatous disease. ",
+                "Yes, the imaging reveals a chronic inflammatory process in the left upper lobe characterized by granuloma formation. ",
+                "Yes, the image shows a fibro-caseous lesion in the left upper lobe with a central granulomatous focus, which is consistent with tuberculosis. ",
+                "Yes, the chest X-ray shows radiographic findings consistent with a localized inflammatory process in the left upper lobe, which features granuloma and lymphocytic infiltration. ",
+                "Yes, the image shows a characteristic \"tree-in-bud\" pattern of bronchiolar inflammation with associated granulomatous changes in the left upper lobe. ",
+                "Yes, the image shows evidence of a suppurative process in the left upper lobe, which includes granuloma formation and fibrosis. ",
+                "Yes, the radiograph shows a distinctive pattern of calcification within a granulomatous lesion in the left upper lobe. This pattern is similar to what is seen in sarcoidosis or histoplasmosis. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.955924868187935,
+                    -71.70805725331502,
+                    -41.955924868187935,
+                    -74.33840460996862,
+                    -68.21136944566865,
+                    -79.78882501248563,
+                    -77.64406409030289,
+                    -99.2660842970023,
+                    -77.91702974811619,
+                    -79.56921782431732,
+                    -103.47955466048734
+                ],
+                [
+                    -58.629951359900474,
+                    -44.71138591372437,
+                    -58.629951359900474,
+                    -83.81134655228107,
+                    -78.82663455654881,
+                    -85.62297974481498,
+                    -78.1372154891377,
+                    -105.4016132638676,
+                    -85.35113438363123,
+                    -84.39661849517006,
+                    -106.92778724940536
+                ],
+                [
+                    -41.955924868187935,
+                    -71.70805725331502,
+                    -41.955924868187935,
+                    -74.33840460996862,
+                    -68.21136944566865,
+                    -79.78882501248563,
+                    -77.64406409030289,
+                    -99.2660842970023,
+                    -77.91702974811619,
+                    -79.56921782431732,
+                    -103.47955466048734
+                ],
+                [
+                    -52.71313337959856,
+                    -78.35295693573539,
+                    -52.71313337959856,
+                    -43.41792366825953,
+                    -76.34774552411068,
+                    -82.79013703869532,
+                    -78.25396466595669,
+                    -99.18424073503002,
+                    -83.75904340102306,
+                    -84.65511257364096,
+                    -102.76223586577339
+                ],
+                [
+                    -58.49793484931297,
+                    -77.31990897565584,
+                    -58.49793484931297,
+                    -87.86938101990063,
+                    -44.154441841778635,
+                    -83.99139811605164,
+                    -82.66445719092007,
+                    -102.19255177184982,
+                    -84.72914361825406,
+                    -84.13771291861985,
+                    -100.16509589376074
+                ],
+                [
+                    -59.55411621830535,
+                    -76.39267405945952,
+                    -59.55411621830535,
+                    -85.92515553914563,
+                    -77.65915937894351,
+                    -42.94989958081669,
+                    -81.48753373132058,
+                    -96.5138017973535,
+                    -80.44080455151357,
+                    -75.45726360863318,
+                    -106.20508164284911
+                ],
+                [
+                    -59.89579092513145,
+                    -75.84105237398762,
+                    -59.89579092513145,
+                    -91.22927766996713,
+                    -77.93709455545945,
+                    -89.3402038827412,
+                    -47.12607165201973,
+                    -107.59402761787726,
+                    -88.39794443386836,
+                    -83.90635817160114,
+                    -107.23159969227709
+                ],
+                [
+                    -59.725481652068765,
+                    -77.5560319628812,
+                    -59.725481652068765,
+                    -87.36244930106523,
+                    -75.93359326859081,
+                    -75.98218732712621,
+                    -81.21668917665374,
+                    -44.69849003895845,
+                    -85.13057193027316,
+                    -78.6409156322361,
+                    -100.11746429549112
+                ],
+                [
+                    -62.386255410962804,
+                    -79.05075848986394,
+                    -62.386255410962804,
+                    -94.79880733159189,
+                    -79.32570123896926,
+                    -85.57880440791678,
+                    -84.88204030590532,
+                    -107.4468942657935,
+                    -43.10191486959536,
+                    -82.7517668550081,
+                    -108.51196873065874
+                ],
+                [
+                    -52.94616692668387,
+                    -75.95622413813066,
+                    -52.94616692668387,
+                    -88.05795124102951,
+                    -78.27184139045767,
+                    -71.3527458504791,
+                    -78.13059398494079,
+                    -96.3058363939324,
+                    -84.23485381532555,
+                    -44.35751437893339,
+                    -104.57613561148173
+                ],
+                [
+                    -63.29925127349816,
+                    -83.27948016173218,
+                    -63.29925127349816,
+                    -97.47096959404917,
+                    -78.14392579229343,
+                    -88.39659849373447,
+                    -84.11084450156795,
+                    -104.94072452886667,
+                    -82.6120909063734,
+                    -89.24014466811605,
+                    -49.21280950260632
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.9617246627154485
+        ],
+        "posix": 0.9617246627154485
+    }
+}

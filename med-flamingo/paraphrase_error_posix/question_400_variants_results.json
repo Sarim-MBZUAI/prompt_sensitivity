@@ -1,0 +1,42 @@
+{
+    "file_name": "question_400_variants.json",
+    "overall_posix": 0.41339595704175636,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.25274725274725274,
+            "Variation 3": 0.5735294117647058,
+            "Variation 4": 0.5605536332179931,
+            "Variation 5": 0.6124567474048442,
+            "Variation 6": 0.5477031802120141,
+            "Variation 7": 0.5131578947368421,
+            "Variation 8": 0.4174311926605505,
+            "Variation 9": 0.35096153846153844,
+            "Variation 10": 0.30541871921182273
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is the cardiac silhouette excessively large on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does the heart appear dilated or hypertrophied on the given radiograph? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Aortic regurgitation\n B.Aortic stenosis\n C.Coronary artery disease\n D.Dilated cardiomyopath",
+                "<s> Is there evidence of cardiomegaly (enlarged heart) on the provided chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.2.10  Answer\n The chest X-ray image shows cardiomegaly.\n 11.2.11  Next Steps\n The next step is to determine the cause of the cardiom",
+                "<s> Please confirm if the cardiac contour is abnormally enlarged on this X-ray. Please choose from the following two options: [yes, no]\n<image> 1. The cardiac contour is abnormally enlarged.\n 2. The cardiac contour is not abnormally enlarged.\n 1. The cardiac contour is abnormally enlarged",
+                "<s> Do you agree that the heart size exceeds normal limits on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.The heart size is normal.\n 2.The heart size is enlarged.\n 1. The heart size is normal.\n 2. The heart size is enlarged.\n 1. The heart size",
+                "<s> Would you describe the heart silhouette as larger than expected on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\u2002\u2002Heart\u2002Silhouette\u2002(Figure11.10.1)\n 11.10.1.1\u2002\u2002Large\u2002Heart\u2002Silhouette",
+                "<s> Is the cardiac outline disproportionately large compared to other thoracic structures on this X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does the heart appear to be over-sized or expanded beyond normal dimensions on this image? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Are there visible signs of cardiomegaly (enlarged heart) present on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.41339595704175636
+        ],
+        "posix": 0.41339595704175636
+    }
+}

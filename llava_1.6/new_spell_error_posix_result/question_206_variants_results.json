@@ -1,0 +1,189 @@
+{
+    "file_name": "question_206_variants.json",
+    "overall_posix": 1.9122533393210501,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.0,
+            "Variation 3": 3.0498275709152223,
+            "Variation 4": 2.700509822886923,
+            "Variation 5": 0.0,
+            "Variation 6": 0.0,
+            "Variation 7": 3.4466480135917665,
+            "Variation 8": 0.0,
+            "Variation 9": 0.0,
+            "Variation 10": 0.26858213171362877
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the X-ray show any abnormalities in the heart size or shape? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the X-ray does not show any abnormalities in the heart size or shape. The heart appears to be of normal size and shape.",
+                "No, the X-ray does not show any abnormalities in the heart size or shape. The heart appears to be of normal size and shape.",
+                "No, the X-ray does not show any abnormalities in the heart size or shape. The heart appears to be of normal size and shape.",
+                "Based on the X-ray image provided, it appears that the heart size and shape are within normal limits. The heart is visible in the center of the chest, and there are no obvious abnormalities in its size or shape. However, it",
+                "Yes, the X-ray shows an abnormal heart size and shape. The heart appears to be enlarged and has an irregular shape, which could indicate a medical condition such as heart disease or heart failure.",
+                "No, the X-ray does not show any abnormalities in the heart size or shape. The heart appears to be of normal size and shape.",
+                "No, the X-ray does not show any abnormalities in the heart size or shape. The heart appears to be of normal size and shape.",
+                "Yes, the X-ray shows an abnormal heart size and shape. The heart appears to be enlarged and irregularly shaped, which could indicate a condition such as hypertrophic cardiomyopathy or another form of",
+                "No, the X-ray does not show any abnormalities in the heart size or shape. The heart appears to be of normal size and shape.",
+                "No, the X-ray does not show any abnormalities in the heart size or shape. The heart appears to be of normal size and shape.",
+                "No, the -ray does not show any abnormalities in the heart size or shape. The heart appears to be of normal size and shape."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -296.67502307891846,
+                    -296.67502307891846,
+                    -296.67502307891846,
+                    -449.16640162467957,
+                    -420.8984749317169,
+                    -296.67502307891846,
+                    -296.67502307891846,
+                    -469.0074237585068,
+                    -296.67502307891846,
+                    -296.67502307891846,
+                    -288.08039486408234
+                ],
+                [
+                    -296.67502307891846,
+                    -296.67502307891846,
+                    -296.67502307891846,
+                    -449.16640162467957,
+                    -420.8984749317169,
+                    -296.67502307891846,
+                    -296.67502307891846,
+                    -469.0074237585068,
+                    -296.67502307891846,
+                    -296.67502307891846,
+                    -288.08039486408234
+                ],
+                [
+                    -303.4966161251068,
+                    -303.4966161251068,
+                    -303.4966161251068,
+                    -468.0161328315735,
+                    -429.4997169971466,
+                    -303.4966161251068,
+                    -303.4966161251068,
+                    -488.1117489337921,
+                    -303.4966161251068,
+                    -303.4966161251068,
+                    -304.6590394973755
+                ],
+                [
+                    -303.4966161251068,
+                    -303.4966161251068,
+                    -303.4966161251068,
+                    -468.0161328315735,
+                    -429.4997169971466,
+                    -303.4966161251068,
+                    -303.4966161251068,
+                    -488.1117489337921,
+                    -303.4966161251068,
+                    -303.4966161251068,
+                    -304.6590394973755
+                ],
+                [
+                    -281.06269013881683,
+                    -281.06269013881683,
+                    -281.06269013881683,
+                    -415.80299067497253,
+                    -418.3605341911316,
+                    -281.06269013881683,
+                    -281.06269013881683,
+                    -482.40870666503906,
+                    -281.06269013881683,
+                    -281.06269013881683,
+                    -281.26569378376007
+                ],
+                [
+                    -303.4966161251068,
+                    -303.4966161251068,
+                    -303.4966161251068,
+                    -468.0161328315735,
+                    -429.4997169971466,
+                    -303.4966161251068,
+                    -303.4966161251068,
+                    -488.1117489337921,
+                    -303.4966161251068,
+                    -303.4966161251068,
+                    -304.6590394973755
+                ],
+                [
+                    -310.21706366539,
+                    -310.21706366539,
+                    -310.21706366539,
+                    -422.94287526607513,
+                    -456.56315565109253,
+                    -310.21706366539,
+                    -310.21706366539,
+                    -513.8937571048737,
+                    -310.21706366539,
+                    -310.21706366539,
+                    -284.58171129226685
+                ],
+                [
+                    -310.21706366539,
+                    -310.21706366539,
+                    -310.21706366539,
+                    -422.94287526607513,
+                    -456.56315565109253,
+                    -310.21706366539,
+                    -310.21706366539,
+                    -513.8937571048737,
+                    -310.21706366539,
+                    -310.21706366539,
+                    -284.58171129226685
+                ],
+                [
+                    -310.21706366539,
+                    -310.21706366539,
+                    -310.21706366539,
+                    -422.94287526607513,
+                    -456.56315565109253,
+                    -310.21706366539,
+                    -310.21706366539,
+                    -513.8937571048737,
+                    -310.21706366539,
+                    -310.21706366539,
+                    -284.58171129226685
+                ],
+                [
+                    -310.21706366539,
+                    -310.21706366539,
+                    -310.21706366539,
+                    -422.94287526607513,
+                    -456.56315565109253,
+                    -310.21706366539,
+                    -310.21706366539,
+                    -513.8937571048737,
+                    -310.21706366539,
+                    -310.21706366539,
+                    -284.58171129226685
+                ],
+                [
+                    -296.67502307891846,
+                    -296.67502307891846,
+                    -296.67502307891846,
+                    -449.16640162467957,
+                    -420.8984749317169,
+                    -296.67502307891846,
+                    -296.67502307891846,
+                    -469.0074237585068,
+                    -296.67502307891846,
+                    -296.67502307891846,
+                    -288.08039486408234
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.9122533393210501
+        ],
+        "posix": 1.9122533393210501
+    }
+}

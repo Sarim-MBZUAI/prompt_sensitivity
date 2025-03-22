@@ -1,0 +1,42 @@
+{
+    "file_name": "question_61_variants.json",
+    "overall_posix": 0.3780851229458364,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5292096219931272,
+            "Variation 2": 0.3728070175438596,
+            "Variation 3": 0.2727272727272727,
+            "Variation 4": 0.24864864864864866,
+            "Variation 5": 0.27040816326530615,
+            "Variation 6": 0.2920792079207921,
+            "Variation 7": 0.31343283582089554,
+            "Variation 8": 0.48076923076923084,
+            "Variation 9": 0.48076923076923084,
+            "Variation 10": 0.52
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Correct Answer:\n Option 1\n Explanation:\n The patient has clear lungs on the X-ray. The patient has a normal chest X-ray.\n Chapter",
+                "<s> question:Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have scored 100% on this quiz.\n 100% is the correct answer.\n 10",
+                "<s> question::Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 109",
+                "<s> QUESTION:Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question-Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question::: Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q::: Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n 10.Question:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumomediastinum\n C.Pneumoperit",
+                "<s> Question:Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n 10.Question:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumomediastinum\n C.Pneumoperit",
+                "<s> Q:Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tYes, the patient has clear lungs on the X-ray.\n \u2022\tNo, the patient does not have clear lungs on the X-ray.\n \u2022\tThe patient has clear lungs"
+            ]
+        ],
+        "sensitivities": [
+            0.3780851229458364
+        ],
+        "posix": 0.3780851229458364
+    }
+}

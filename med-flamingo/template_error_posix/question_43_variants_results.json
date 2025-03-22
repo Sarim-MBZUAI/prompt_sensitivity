@@ -1,0 +1,42 @@
+{
+    "file_name": "question_43_variants.json",
+    "overall_posix": 0.36303834742464147,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.40909090909090917,
+            "Variation 2": 0.2168141592920354,
+            "Variation 3": 0.2594142259414226,
+            "Variation 4": 0.48640483383685806,
+            "Variation 5": 0.445859872611465,
+            "Variation 6": 0.40666666666666673,
+            "Variation 7": 0.2256637168141593,
+            "Variation 8": 0.47530864197530864,
+            "Variation 9": 0.27755102040816326,
+            "Variation 10": 0.42760942760942755
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question-Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2756\u2756What does the chest X-ray show?\n \u2756\u2756What is the differential diagnosis?\n \u2756\u2756What is the most likely diagnosis?",
+                "<s> q:Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> q:::Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The chest X-ray shows signs of COPD. The patient has bilateral basal hyperinflation, with atelectasis of the upper lobes. The",
+                "<s> QUESTION\tAre signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n The chest X-ray shows signs of COPD. The lung fields are hyperinflated, with flattening of the diaphragms and loss",
+                "<s> question:Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n Correct answer:2\n The chest X-ray shows signs of COPD. The patient has bilateral basal hyperinflation,",
+                "<s> question::Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> QUESTION:Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The patient is a 75-year-old man with a history of chronic obstructive pulmonary disease (COPD).\n The chest X-ray shows bilateral basal infil",
+                "<s> q::Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q::Are signs of chronic obstructive pulmonary disease (COPD) apparent in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A:Chronic obstructive pulmonary disease (COPD)\n B:Pulmonary fibrosis\n C:Pulmonary embolism\n"
+            ]
+        ],
+        "sensitivities": [
+            0.36303834742464147
+        ],
+        "posix": 0.36303834742464147
+    }
+}

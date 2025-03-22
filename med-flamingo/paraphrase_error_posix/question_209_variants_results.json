@@ -1,0 +1,42 @@
+{
+    "file_name": "question_209_variants.json",
+    "overall_posix": 0.35539523416502944,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.17085427135678388,
+            "Variation 2": 0.0,
+            "Variation 3": 0.3571428571428572,
+            "Variation 4": 0.5955414012738853,
+            "Variation 5": 0.32478632478632474,
+            "Variation 6": 0.580327868852459,
+            "Variation 7": 0.34199134199134207,
+            "Variation 8": 0.3097345132743363,
+            "Variation 9": 0.6165644171779141,
+            "Variation 10": 0.2570093457943925
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of emphysema or other chronic lung changes on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show any features suggestive of long-standing respiratory disease, such as cystic fibrosis or COPD? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence of chronic lung pathology on this imaging study? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is bilateral, patchy, reticular interstitial opacities.\n b. No, there is no radiographic evidence of chronic lung pathology.\n 3. What is the most likely",
+                "<s> Do the chest X-ray findings indicate any signs of irreversible lung damage or disease, such as fibrosis or scarring? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visible sign of long-standing airway obstruction or other chronic respiratory compromise on this image? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Tracheal stenosis\n B.Tracheoesophageal fistula\n C.Tracheobronchomalacia\n D.Trache",
+                "<s> Does the chest X-ray display any typical radiographic features of cystic fibrosis or other chronic lung diseases? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there imaging findings consistent with a history of chronic respiratory disease, such as asthma or COPD? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the chest X-ray suggestive of any irreversible changes in lung architecture due to long-standing disease? Please choose from the following two options: [yes, no]\n<image> a. Yes, the lung fields are hyperinflated.\n b. Yes, there is a right-sided pleural effusion.\n c. Yes, there is a left-sided pleural effusion.\n d. Yes",
+                "<s> Do the imaging findings indicate any evidence of chronic lung damage or pathology on this study? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.35539523416502944
+        ],
+        "posix": 0.35539523416502944
+    }
+}

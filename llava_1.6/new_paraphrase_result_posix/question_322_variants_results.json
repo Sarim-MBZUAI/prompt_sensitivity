@@ -1,0 +1,189 @@
+{
+    "file_name": "question_322_variants.json",
+    "overall_posix": 15.928635095352789,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.18800624887993994,
+            "Variation 2": 2.083253249889467,
+            "Variation 3": 158.6421145995458,
+            "Variation 4": 0.45672362327575683,
+            "Variation 5": 8.509931743144989,
+            "Variation 6": 10.235198992949266,
+            "Variation 7": 1.5230715552041696,
+            "Variation 8": 0.34167458534240724,
+            "Variation 9": 0.5994012784957886,
+            "Variation 10": 0.25333667278289795
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it is not possible to definitively determine if there are signs of lung infection or congestion. The image is a lateral chest X-ray, which is a type of X-ray that shows the side profile",
+                "No, the chest X-ray does not demonstrate any radiographic evidence of pneumonia or acute respiratory distress. The image shows a normal chest X-ray with no signs of infection or inflammation.",
+                "No, there is no suggestion of pulmonary edema or atelectasis on the provided chest radiograph. The image shows a normal chest radiograph with no signs of abnormalities.",
+                "No",
+                "Based on the image provided, it is not possible to definitively determine if there are signs of lung infection or congestion. The image is of low resolution and does not provide enough detail to make a confident assessment. A clearer image would be",
+                "No, the chest X-ray does not reveal signs consistent with an upper respiratory tract infection or bronchitis.",
+                "Yes, there is an indication of lung consolidation or infiltration visible on the given chest X-ray.",
+                "No, the chest X-ray does not suggest pulmonary congestion or fluid overload. The image shows a normal chest X-ray with no signs of congestion or overload.",
+                "Yes, the image shows evidence of acute lung injury or inflammation. The presence of the term \"LT LAT\" suggests that this is a medical image, likely an X-ray or CT scan, and the term \"acute lung",
+                "No, I cannot definitively identify signs of bronchiolitis or viral pneumonia in the pediatric population from the chest radiograph provided. Radiographs are typically used to diagnose pneumonia, but they may not",
+                "No, there is no suggestion of pleural effusion or empyema on the given chest X-ray. The image shows a lateral chest X-ray with the lungs and heart visible, but there are no signs of fluid accumulation or"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -497.7548599243164,
+                    -488.91856622695923,
+                    -412.34147667884827,
+                    -21.828516125679016,
+                    -520.5910410881042,
+                    -267.9867028594017,
+                    -231.6396861076355,
+                    -432.2627830505371,
+                    -480.67113065719604,
+                    -527.7249238491058,
+                    -510.4216935634613
+                ],
+                [
+                    -485.0112006664276,
+                    -476.6620693206787,
+                    -430.0874161720276,
+                    -21.597607493400574,
+                    -505.7785041332245,
+                    -275.99229192733765,
+                    -244.97288942337036,
+                    -442.068221449852,
+                    -475.66495156288147,
+                    -538.27774477005,
+                    -501.31246185302734
+                ],
+                [
+                    -496.8919243812561,
+                    -479.9256901741028,
+                    -427.80105566978455,
+                    -28.540210485458374,
+                    -524.4286909103394,
+                    -267.06923723220825,
+                    -247.3341543674469,
+                    -435.1493134498596,
+                    -474.4135570526123,
+                    -541.1959071159363,
+                    -473.7196731567383
+                ],
+                [
+                    -496.4999361038208,
+                    -477.8095965385437,
+                    -430.97255086898804,
+                    -22.469281435012817,
+                    -517.4833483695984,
+                    -276.53493082523346,
+                    -251.38964927196503,
+                    -440.8329622745514,
+                    -493.07872247695923,
+                    -542.2041020393372,
+                    -511.25017285346985
+                ],
+                [
+                    -497.7548599243164,
+                    -488.91856622695923,
+                    -412.34147667884827,
+                    -21.828516125679016,
+                    -520.5910410881042,
+                    -267.9867028594017,
+                    -231.6396861076355,
+                    -432.2627830505371,
+                    -480.67113065719604,
+                    -527.7249238491058,
+                    -510.4216935634613
+                ],
+                [
+                    -466.1362729072571,
+                    -484.59568107128143,
+                    -426.2361978292465,
+                    -22.68710494041443,
+                    -501.6512134075165,
+                    -270.2229702472687,
+                    -243.97515439987183,
+                    -446.7850705385208,
+                    -454.37391448020935,
+                    -529.4062466621399,
+                    -516.5788316726685
+                ],
+                [
+                    -485.0112006664276,
+                    -476.6620693206787,
+                    -430.0874161720276,
+                    -21.597607493400574,
+                    -505.7785041332245,
+                    -275.99229192733765,
+                    -244.97288942337036,
+                    -442.068221449852,
+                    -475.66495156288147,
+                    -538.27774477005,
+                    -501.31246185302734
+                ],
+                [
+                    -482.31398487091064,
+                    -488.6353825330734,
+                    -417.2456945180893,
+                    -21.037373065948486,
+                    -499.80268120765686,
+                    -267.3136808872223,
+                    -242.65787625312805,
+                    -437.35554480552673,
+                    -469.5098524093628,
+                    -540.1199169158936,
+                    -510.62315607070923
+                ],
+                [
+                    -480.3434615135193,
+                    -478.16235542297363,
+                    -413.60426342487335,
+                    -21.032592058181763,
+                    -507.3723711967468,
+                    -269.72279596328735,
+                    -238.91032588481903,
+                    -429.46604323387146,
+                    -498.2665615081787,
+                    -530.6820149421692,
+                    -478.9145531654358
+                ],
+                [
+                    -480.94992089271545,
+                    -481.1094515323639,
+                    -434.17709589004517,
+                    -23.876778483390808,
+                    -522.0189828872681,
+                    -284.6127395629883,
+                    -254.82083797454834,
+                    -422.79903984069824,
+                    -484.92586612701416,
+                    -544.0705740451813,
+                    -490.5859200954437
+                ],
+                [
+                    -496.8919243812561,
+                    -479.9256901741028,
+                    -427.80105566978455,
+                    -28.540210485458374,
+                    -524.4286909103394,
+                    -267.06923723220825,
+                    -247.3341543674469,
+                    -435.1493134498596,
+                    -474.4135570526123,
+                    -541.1959071159363,
+                    -473.7196731567383
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            15.928635095352789
+        ],
+        "posix": 15.928635095352789
+    }
+}

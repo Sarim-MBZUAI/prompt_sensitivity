@@ -1,0 +1,189 @@
+{
+    "file_name": "question_52_variants.json",
+    "overall_posix": 2.4488110384305446,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6174718737602234,
+            "Variation 2": 1.9086803866595756,
+            "Variation 3": 7.384646751262523,
+            "Variation 4": 0.055326013565063475,
+            "Variation 5": 0.5728706146808381,
+            "Variation 6": 1.146617667619572,
+            "Variation 7": 7.067706482751029,
+            "Variation 8": 0.46465310843094537,
+            "Variation 9": 3.6625488532914057,
+            "Variation 10": 0.3008559226989746
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a clear chest X-ray with no signs of focal infiltrates? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the patient does not have a clear chest X-ray with no signs of focal infiltrates. There are areas of increased opacity, which could indicate focal infiltrates or other abnormalities.",
+                "No, the chest X-ray does not demonstrate a normal lung pattern. There is evidence of localized consolidation, which is visible as a white area in the lung field. This could indicate a condition such as pneumonia or a lung infection",
+                "No, there is no visible lack of focal opacities on the chest radiograph. The image shows a normal chest radiograph with the lungs appearing clear and well-aerated.",
+                "Yes, the image shows the lungs with visible lung fields, indicating that there are no obvious signs of obstruction or damage.",
+                "No, we cannot confidently exclude the presence of discrete pulmonary infiltrates from the chest film. The image shows a chest X-ray with some areas of opacity that could be indicative of infiltrates. However, without",
+                "No, the patient's chest X-ray does not show a clear absence of distinct areas of increased density. There are several areas of increased density, which could indicate the presence of lung diseases or other abnormalities.",
+                "No, the chest X-ray is not devoid of any focal densitometric abnormalities. There is a focal densitometric abnormality visible in the lower right lung field.",
+                "Yes, the image shows the normal lung texture and architecture, with visible bronchial structures and the diaphragm.",
+                "No, I would not expect to see evidence of focal infiltrative disease on the provided chest radiograph. The image shows a normal chest radiograph with no signs of focal infiltrative disease.",
+                "Based on the X-ray image provided, it appears that the patient's lungs are clear without any discrete lesions visible. Therefore, the answer is \"yes.\"",
+                "No, the chest X-ray does not depict a normal lung silhouette with no indication of localized abnormalities. There are visible abnormalities, including a mass in the right lung and a possible nodule in the left lung"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -480.1465814113617,
+                    -449.2729877233505,
+                    -401.8906855583191,
+                    -280.76111912727356,
+                    -482.91288208961487,
+                    -453.2216625213623,
+                    -430.8420217037201,
+                    -282.2507998943329,
+                    -458.7725384235382,
+                    -348.2948226928711,
+                    -465.10378527641296
+                ],
+                [
+                    -459.86438822746277,
+                    -484.6775912642479,
+                    -409.86718344688416,
+                    -278.2035708427429,
+                    -495.9530235528946,
+                    -445.96194982528687,
+                    -448.93138551712036,
+                    -299.68547201156616,
+                    -449.8574118614197,
+                    -338.72880697250366,
+                    -496.29516983032227
+                ],
+                [
+                    -469.7183105945587,
+                    -478.6748251914978,
+                    -365.599333435297,
+                    -266.2812498807907,
+                    -466.5650626420975,
+                    -441.89963287115097,
+                    -437.0497479438782,
+                    -268.3194726705551,
+                    -443.2770472764969,
+                    -347.4115700721741,
+                    -476.900160074234
+                ],
+                [
+                    -451.9184408187866,
+                    -473.95876717567444,
+                    -391.9748945236206,
+                    -273.78693294525146,
+                    -496.8427610397339,
+                    -434.151260137558,
+                    -425.0601247549057,
+                    -275.6480941772461,
+                    -454.1580240726471,
+                    -334.062757730484,
+                    -486.2314691543579
+                ],
+                [
+                    -480.1465814113617,
+                    -449.2729877233505,
+                    -401.8906855583191,
+                    -280.76111912727356,
+                    -482.91288208961487,
+                    -453.2216625213623,
+                    -430.8420217037201,
+                    -282.2507998943329,
+                    -458.7725384235382,
+                    -348.2948226928711,
+                    -465.10378527641296
+                ],
+                [
+                    -459.86438822746277,
+                    -484.6775912642479,
+                    -409.86718344688416,
+                    -278.2035708427429,
+                    -495.9530235528946,
+                    -445.96194982528687,
+                    -448.93138551712036,
+                    -299.68547201156616,
+                    -449.8574118614197,
+                    -338.72880697250366,
+                    -496.29516983032227
+                ],
+                [
+                    -478.98319935798645,
+                    -466.814288854599,
+                    -392.2790855169296,
+                    -273.8711714744568,
+                    -467.18018221855164,
+                    -437.8616324663162,
+                    -433.4792387485504,
+                    -275.16661071777344,
+                    -469.71578431129456,
+                    -339.0919966697693,
+                    -474.3583888411522
+                ],
+                [
+                    -460.97959995269775,
+                    -475.3166687488556,
+                    -377.8094997406006,
+                    -263.6956932544708,
+                    -487.66604447364807,
+                    -451.0811710357666,
+                    -431.777201205492,
+                    -282.6107425689697,
+                    -449.9098947048187,
+                    -357.6907618045807,
+                    -491.19960510730743
+                ],
+                [
+                    -480.1465814113617,
+                    -449.2729877233505,
+                    -401.8906855583191,
+                    -280.76111912727356,
+                    -482.91288208961487,
+                    -453.2216625213623,
+                    -430.8420217037201,
+                    -282.2507998943329,
+                    -458.7725384235382,
+                    -348.2948226928711,
+                    -465.10378527641296
+                ],
+                [
+                    -467.5842180252075,
+                    -480.7062973976135,
+                    -403.9111523628235,
+                    -256.05704617500305,
+                    -477.0329692363739,
+                    -452.6722638607025,
+                    -432.18738198280334,
+                    -253.75682365894318,
+                    -467.12439227104187,
+                    -322.5645836889744,
+                    -480.5321762561798
+                ],
+                [
+                    -454.31170439720154,
+                    -481.8427104949951,
+                    -399.6078772544861,
+                    -260.2544138431549,
+                    -509.7685959339142,
+                    -437.47197914123535,
+                    -435.0501403808594,
+                    -258.9334280490875,
+                    -439.634569644928,
+                    -341.65984749794006,
+                    -495.91387444734573
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.4488110384305446
+        ],
+        "posix": 2.4488110384305446
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_183_variants.json",
+    "overall_posix": 4.507733246746201,
+    "detailed_scores": [
+        {
+            "Variation 1": 4.513959251782474,
+            "Variation 2": 0.0,
+            "Variation 3": 5.9606858766078945,
+            "Variation 4": 1.2167006920684467,
+            "Variation 5": 1.0393894729406938,
+            "Variation 6": 5.19033482609963,
+            "Variation 7": 5.3300246596336365,
+            "Variation 8": 1.5779625821113585,
+            "Variation 9": 2.476350415635992,
+            "Variation 10": 5.498736370801925
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Did the radiologist report any abnormal masses on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the radiologist did not report any abnormal masses on the chest X-ray.",
+                "No, there are no pathologic masses identified on the chest radiograph. The image shows a normal chest X-ray with no abnormalities visible.",
+                "No, the radiologist did not report any abnormal masses on the chest X-ray.",
+                "Based on the image provided, it is not possible for me to provide a definitive answer regarding the presence of abnormal masses on the chest X-ray. The image is too small and of low resolution to accurately assess the details of the X-",
+                "No, the radiographic examination does not reveal any nodular abnormalities in the chest region.",
+                "No, there are no radiographically visible masses or tumors present on the chest X-ray.",
+                "No, there is no evidence of abnormal soft tissue density within the thoracic cavity on the X-ray. The image shows a normal chest X-ray with the lungs, heart, and ribs clearly visible.",
+                "No, there are no masses or lesions on the chest radiograph that are not consistent with normal anatomy. The image shows a normal chest radiograph with no abnormalities visible.",
+                "No, there is no mention of any abnormal growths or tumors on the chest X-ray report.",
+                "No, there are no visible masses or nodules in the lung fields or mediastinum on the X-ray.",
+                "No, the radiograph does not show any evidence of abnormal soft tissue within the thoracic cavity that may indicate a mass lesion. The image appears to be a normal chest X-ray with no signs of pathology."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -189.97912937402725,
+                    -343.45374393463135,
+                    -189.97912937402725,
+                    -488.013423204422,
+                    -216.74654459953308,
+                    -213.8850872516632,
+                    -444.3055358529091,
+                    -408.51014041900635,
+                    -229.42819392681122,
+                    -256.84059059619904,
+                    -464.91594791412354
+                ],
+                [
+                    -194.30921030044556,
+                    -316.5196566581726,
+                    -194.30921030044556,
+                    -488.34250926971436,
+                    -217.2113037109375,
+                    -225.94024807214737,
+                    -455.9366178512573,
+                    -404.3401343822479,
+                    -235.1868555545807,
+                    -256.3870053291321,
+                    -496.95155334472656
+                ],
+                [
+                    -189.97912937402725,
+                    -343.45374393463135,
+                    -189.97912937402725,
+                    -488.013423204422,
+                    -216.74654459953308,
+                    -213.8850872516632,
+                    -444.3055358529091,
+                    -408.51014041900635,
+                    -229.42819392681122,
+                    -256.84059059619904,
+                    -464.91594791412354
+                ],
+                [
+                    -197.71370434761047,
+                    -310.2850365638733,
+                    -197.71370434761047,
+                    -492.89337825775146,
+                    -226.7634482383728,
+                    -222.44419240951538,
+                    -466.7721585035324,
+                    -388.7298572063446,
+                    -236.39212226867676,
+                    -248.14836359024048,
+                    -496.9636038541794
+                ],
+                [
+                    -187.85302305221558,
+                    -336.29015827178955,
+                    -187.85302305221558,
+                    -504.0429148674011,
+                    -222.76690220832825,
+                    -212.07445454597473,
+                    -466.14947032928467,
+                    -426.13980782032013,
+                    -234.57410860061646,
+                    -261.61062574386597,
+                    -484.34503293037415
+                ],
+                [
+                    -185.92186093330383,
+                    -341.41040217876434,
+                    -185.92186093330383,
+                    -486.7025513648987,
+                    -214.01187372207642,
+                    -223.24733209609985,
+                    -443.0807089805603,
+                    -405.0816249847412,
+                    -236.56969022750854,
+                    -268.81501817703247,
+                    -465.1999862194061
+                ],
+                [
+                    -195.58796882629395,
+                    -339.47805166244507,
+                    -195.58796882629395,
+                    -454.0625306367874,
+                    -218.08119201660156,
+                    -244.44197034835815,
+                    -445.39347314834595,
+                    -406.7914551496506,
+                    -252.70735549926758,
+                    -273.7316560745239,
+                    -479.66025471687317
+                ],
+                [
+                    -208.45305597782135,
+                    -338.70502972602844,
+                    -208.45305597782135,
+                    -459.3008921146393,
+                    -210.69755125045776,
+                    -235.75928354263306,
+                    -447.7967059612274,
+                    -399.0394124984741,
+                    -240.84284496307373,
+                    -258.60847675800323,
+                    -482.29274117946625
+                ],
+                [
+                    -198.2256898880005,
+                    -333.46574902534485,
+                    -198.2256898880005,
+                    -467.8175617456436,
+                    -221.05905401706696,
+                    -228.9393391609192,
+                    -443.29414796829224,
+                    -404.1076489686966,
+                    -246.89063787460327,
+                    -253.247225522995,
+                    -482.503436088562
+                ],
+                [
+                    -195.58796882629395,
+                    -339.47805166244507,
+                    -195.58796882629395,
+                    -454.0625306367874,
+                    -218.08119201660156,
+                    -244.44197034835815,
+                    -445.39347314834595,
+                    -406.7914551496506,
+                    -252.70735549926758,
+                    -273.7316560745239,
+                    -479.66025471687317
+                ],
+                [
+                    -209.789577126503,
+                    -343.42837703227997,
+                    -209.789577126503,
+                    -446.5014531612396,
+                    -219.02920007705688,
+                    -227.01633977890015,
+                    -440.14289766550064,
+                    -407.82324266433716,
+                    -248.78357827663422,
+                    -261.58804059028625,
+                    -517.8180258274078
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.507733246746201
+        ],
+        "posix": 4.507733246746201
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_169_variants.json",
+    "overall_posix": 0.5549872800373017,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5661764705882353,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6286764705882353,
+            "Variation 4": 0.6838235294117647,
+            "Variation 5": 0.5630498533724341,
+            "Variation 6": 0.6691176470588235,
+            "Variation 7": 0.40594059405940597,
+            "Variation 8": 0.75,
+            "Variation 9": 0.5955882352941176,
+            "Variation 10": 0.6875
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  The patient has normal cardiac contours according to the X-ray.\n The X-ray shows a normal cardiac contour.",
+                "<s> Does the patient's chest X-ray reveal normal cardiac configuration? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n a.\n b.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Does the patient have normal cardiac contours according to the X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  The patient has normal cardiac contours according to the X-ray.\n The X-ray shows a normal cardiac contour.",
+                "<s> Are the cardiac silhouettes seen on the radiograph within normal limits? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the cardiac profiles visible on the X-ray film correspond with expected anatomical dimensions? Please choose from the following two options: [yes, no]\n<image> 1.1a\n 1.1b\n 1.1c\n 1.1d\n 1.1e\n 1.1f\n 1.1g\n 1.1h\n 1",
+                "<s> Is the patient's cardiac silhouette depicted as within the normal range on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, the cardiac silhouette is within the normal range\n b. No, the cardiac silhouette is not within the normal range\n 2.\n What is the most likely diagnosis?\n a. Normal card",
+                "<s> Are the cardiac borders visible on the X-ray image consistent with normal cardiac anatomy? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does the patient's cardiac morphology appear normal according to the provided X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Correct answer\n The patient's cardiac morphology appears normal.\n The patient's cardiac morphology does not appear normal.",
+                "<s> Is there an abnormal variation in the cardiac silhouette seen on this chest radiograph? (inverse of original question) Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does the patient's chest X-ray show normal heart size and configuration? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the cardiac outlines visible on the radiograph congruent with expected normal anatomical contours? Please choose from the following two options: [yes, no]\n<image> 1.1a\n 1.1b\n 1.1c\n 1.1d\n 1.1e\n 1.1f\n 1.1g\n 1.1h\n 1"
+            ]
+        ],
+        "sensitivities": [
+            0.5549872800373017
+        ],
+        "posix": 0.5549872800373017
+    }
+}

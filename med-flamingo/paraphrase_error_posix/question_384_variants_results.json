@@ -1,0 +1,42 @@
+{
+    "file_name": "question_384_variants.json",
+    "overall_posix": 0.48085013561027534,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.09340659340659341,
+            "Variation 2": 0.430622009569378,
+            "Variation 3": 0.6222222222222222,
+            "Variation 4": 0.6027874564459931,
+            "Variation 5": 0.6063492063492063,
+            "Variation 6": 0.671875,
+            "Variation 7": 0.3464912280701755,
+            "Variation 8": 0.5543859649122806,
+            "Variation 9": 0.2741116751269035,
+            "Variation 10": 0.60625
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of pleural effusions? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of pleural effusions? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray demonstrate evidence of pleural effusions? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic proof of fluid accumulation in the pleural space on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 2\n 1\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 11\n 12\n 13\n 14\n 15",
+                "<s> Can we see signs of pleural effusion on this X-ray image? Please choose from the following two options: [yes, no]\n<image> 1. Yes, we can see signs of pleural effusion.\n 2. No, we cannot see signs of pleural effusion.\n 1. Yes, we can see signs of pleural effusion.\n 2",
+                "<s> Are there features suggestive of pleural effusion visible on this film? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a right pleural effusion\n b. No, there is no pleural effusion\n 4.\n What is the most likely diagnosis?\n a. Pneumothorax\n b. Pleural",
+                "<s> Do the findings on this chest X-ray indicate the presence of free air or fluid in the pleural space? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is free air in the left hemithorax.\n b. No, there is no free air in the left hemithorax.\n 4.\n What is the most likely diagnosis?\n a.",
+                "<s> Is there radiographic evidence of increased interstitial markings or blunting of the costophrenic angles, consistent with pleural effusion? Please choose from the following two options: [yes, no]\n<image> 11.  Is there any evidence of atelectasis? Please choose from the following two options: [yes, no]\n 12.  Is there any evidence of pneumothorax? Please choose from the following",
+                "<s> Does this image show any abnormalities that would suggest the accumulation of fluid within the pleural cavity? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there visual signs on this X-ray that indicate the presence of a pleural effusion? Please choose from the following two options: [yes, no]\n<image> a. Bilateral hilar lymphadenopathy\n b. Bilateral pleural effusions\n 10.\n What is the most likely diagnosis?\n a. Tuberculosis\n b. L",
+                "<s> Can we confirm the diagnosis of pleural effusion by analyzing this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there imaging evidence to support a clinical suspicion of pleural effusion on this radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a pleural effusion on the right side of the chest.\n b. No, there is no pleural effusion on the right side of the chest.\n 10.\n What is the"
+            ]
+        ],
+        "sensitivities": [
+            0.48085013561027534
+        ],
+        "posix": 0.48085013561027534
+    }
+}

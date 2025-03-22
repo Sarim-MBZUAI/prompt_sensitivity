@@ -1,0 +1,42 @@
+{
+    "file_name": "question_110_variants.json",
+    "overall_posix": 0.30456932311048074,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.12182741116751272,
+            "Variation 2": 0.0,
+            "Variation 3": 0.2421052631578947,
+            "Variation 4": 0.301980198019802,
+            "Variation 5": 0.224390243902439,
+            "Variation 6": 0.6210191082802548,
+            "Variation 7": 0.3291139240506329,
+            "Variation 8": 0.3055555555555556,
+            "Variation 9": 0.572347266881029,
+            "Variation 10": 0.32735426008968616
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic findings suggestive of heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there signs of congestive heart failure in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is congestive heart failure evident on the provided chest imaging study? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray reveal signs consistent with left-sided cardiac decompensation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic features indicative of pulmonary edema on the given chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is heart failure diagnosis supported by the findings in the chest imaging study provided? Please choose from the following two options: [yes, no]\n<image> a. Yes, the heart is enlarged.\n b. Yes, the heart is not enlarged.\n 2. Which of the following is the most likely diagnosis?\n a. Congestive heart failure\n b.",
+                "<s> Does the chest X-ray display signs of cardiomegaly or other cardiac enlargement indicative of congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence on the chest X-ray suggestive of fluid overload states leading to heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are radiographic signs of right-sided cardiac decompensation evident in the given chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Right atrial enlargement\n 2. Right ventricular enlargement\n 3. Right ventricular hypertrophy\n 4. Right ventricular dilation\n 5. Right ventricular",
+                "<s> Does the chest imaging study reveal pulmonary vascular congestion patterns consistent with heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.30456932311048074
+        ],
+        "posix": 0.30456932311048074
+    }
+}

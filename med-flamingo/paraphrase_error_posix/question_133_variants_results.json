@@ -1,0 +1,42 @@
+{
+    "file_name": "question_133_variants.json",
+    "overall_posix": 0.4876153172755694,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2714932126696832,
+            "Variation 2": 0.3854961832061068,
+            "Variation 3": 0.46440677966101696,
+            "Variation 4": 0.6709844559585493,
+            "Variation 5": 0.6705336426914154,
+            "Variation 6": 0.3584229390681004,
+            "Variation 7": 0.6512261580381471,
+            "Variation 8": 0.42524916943521596,
+            "Variation 9": 0.6338028169014085,
+            "Variation 10": 0.3445378151260504
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities with the osseous structures according to the patient's age? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any abnormalities with the osseous structures according to the patient's age? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any osseous abnormalities present in this patient that would be atypical for their age group? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiograph show any bone-related findings that are inconsistent with the expected norm for a patient of similar demographic background? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any skeletal irregularities visible on the image that warrant further investigation due to their potential significance in relation to the patient's chronological age? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Would an experienced osseous interpreter consider this radiographic appearance to be within normal limits for someone of comparable developmental stage? Please choose from the following two options: [yes, no]\n<image> a. Yes, this is a normal radiograph.\n b. No, this is not a normal radiograph.\n 1. The answer is b. This is not a normal radiograph. The normal chest radiograph of a ",
+                "<s> Is it likely that the observed bony morphological features are representative of a typical or atypical skeletal presentation, taking into account the patient's age and growth status? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a previous fracture or bony deformity in the region? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of a previous f",
+                "<s> Does the image suggest any abnormal bone formation or resorption patterns that would necessitate further diagnostic workup given the patient's chronological age? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Would this radiographic appearance be considered normative for an individual within the same age range as the patient in question? Please choose from the following two options: [yes, no]\n<image> a. Yes, this is a normal chest radiograph.\n b. No, this is not a normal chest radiograph.\n 1. Which of the following is the most likely diagnosis?\n a. Normal chest radi",
+                "<s> Is there any osseous pathology visible on the provided image that could explain symptoms or complaints, especially considering the patient's growth stage and developmental trajectory? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the image reveal any bony changes that would necessitate reassessment of the patient's overall skeletal health relative to their peer group? Please choose from the following two options: [yes, no]\n<image> 1.Yes, the patient has a right-sided thoracic scoliosis.\n 2.No, the patient has a normal thoracic curvature.\n 3.Yes, the patient has a right-",
+                "<s> Are the observed osseous features congruent with those typically expected in an individual at this stage of development? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.4876153172755694
+        ],
+        "posix": 0.4876153172755694
+    }
+}

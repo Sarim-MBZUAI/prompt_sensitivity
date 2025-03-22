@@ -1,0 +1,189 @@
+{
+    "file_name": "question_218_variants.json",
+    "overall_posix": 2.1069486025173005,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.9310952765601022,
+            "Variation 2": 1.1470021042558882,
+            "Variation 3": 2.718413598537445,
+            "Variation 4": 1.6729920630653698,
+            "Variation 5": 0.999636686125467,
+            "Variation 6": 2.4250943446159363,
+            "Variation 7": 3.3008447885513306,
+            "Variation 8": 2.260942729151979,
+            "Variation 9": 1.421566440300508,
+            "Variation 10": 2.6809711766242983
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of infiltration on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, there is a sign of infiltration on the chest X-ray. The infiltration appears as a darker area within the lung parenchyma.",
+                "No, there are no radiographic signs of pulmonary interstitial involvement on the chest X-ray. The image shows a normal chest X-ray with no abnormalities visible.",
+                "No, there are no signs of infiltration on the chest X-ray. The image shows a normal chest X-ray with no abnormalities visible.",
+                "Based on the image provided, it is not possible for me to make a definitive assessment of whether the chest X-ray shows evidence of parenchymal infiltration suggestive of a pathological process. The image is of low",
+                "No, there is no radiographic proof of alveolar space occupation by an abnormal substance or process on the chest X-ray. The image appears to be a normal chest X-ray with no visible abnormalities.",
+                "No, the chest X-ray does not reveal any indication of lung tissue involvement by a disease process. The image shows a normal chest X-ray with no signs of lung disease or abnormalities.",
+                "No, there are no radiographic signs of lung architecture disruption due to an infiltrative or destructive process on the chest X-ray. The image shows a normal chest X-ray with the lungs appearing clear and without any abnormal",
+                "No, the chest X-ray does not show any evidence of fluid collection or edema within the lung parenchyma.",
+                "No, there is no radiographic confirmation of a pathological process causing increased attenuation on the chest X-ray in the image provided. The image appears to be a normal chest X-ray with no visible abnormalities.",
+                "No, the chest X-ray does not reveal any signs of lung tissue compression or displacement by an abnormal mass or process. The image appears to be normal, with no evidence of lung pathology.",
+                "No, there are no radiographic indications of alveolar septal thickening due to a pathological process on the chest X-ray. The image shows a normal chest X-ray with no signs of lung disease or pathological processes."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -378.7399169206619,
+                    -417.8459185361862,
+                    -337.44784116744995,
+                    -514.6605968475342,
+                    -459.0435359477997,
+                    -421.724294424057,
+                    -499.99463415145874,
+                    -283.01541805267334,
+                    -489.5261106491089,
+                    -441.2888402938843,
+                    -512.7884757518768
+                ],
+                [
+                    -367.422216296196,
+                    -419.5495297908783,
+                    -343.3531173467636,
+                    -510.98997688293457,
+                    -480.1900177001953,
+                    -420.4040598869324,
+                    -492.53733921051025,
+                    -296.9012334346771,
+                    -486.23083305358887,
+                    -437.8371305465698,
+                    -524.9933371543884
+                ],
+                [
+                    -378.7399169206619,
+                    -417.8459185361862,
+                    -337.44784116744995,
+                    -514.6605968475342,
+                    -459.0435359477997,
+                    -421.724294424057,
+                    -499.99463415145874,
+                    -283.01541805267334,
+                    -489.5261106491089,
+                    -441.2888402938843,
+                    -512.7884757518768
+                ],
+                [
+                    -374.76129269599915,
+                    -416.15359258651733,
+                    -319.279056429863,
+                    -488.67676758766174,
+                    -493.0559184551239,
+                    -421.5966372489929,
+                    -510.06522822380066,
+                    -291.7135498523712,
+                    -485.17072105407715,
+                    -438.286386013031,
+                    -523.0907301902771
+                ],
+                [
+                    -388.7200059890747,
+                    -425.68326687812805,
+                    -345.9752222299576,
+                    -499.1464569568634,
+                    -478.92458295822144,
+                    -426.689621925354,
+                    -511.4123911857605,
+                    -300.0359969139099,
+                    -500.28514862060547,
+                    -454.3151469230652,
+                    -507.54526233673096
+                ],
+                [
+                    -369.8888541460037,
+                    -405.6032962799072,
+                    -333.46747279167175,
+                    -484.70535039901733,
+                    -472.2374575138092,
+                    -415.25388038158417,
+                    -502.78664684295654,
+                    -284.6726770401001,
+                    -473.7442533969879,
+                    -430.7396023273468,
+                    -503.640079498291
+                ],
+                [
+                    -394.6632168292999,
+                    -408.62309765815735,
+                    -345.6393668651581,
+                    -503.0509397983551,
+                    -448.5724049806595,
+                    -415.9295711517334,
+                    -520.7784378528595,
+                    -283.0816020965576,
+                    -467.9470069408417,
+                    -437.3242189884186,
+                    -486.04896914958954
+                ],
+                [
+                    -367.4371061325073,
+                    -421.02570724487305,
+                    -346.03143978118896,
+                    -513.42653465271,
+                    -483.1058051586151,
+                    -427.9876961708069,
+                    -514.1624159812927,
+                    -292.1465411186218,
+                    -495.93910121917725,
+                    -435.1363031864166,
+                    -519.4194662570953
+                ],
+                [
+                    -367.422216296196,
+                    -419.5495297908783,
+                    -343.3531173467636,
+                    -510.98997688293457,
+                    -480.1900177001953,
+                    -420.4040598869324,
+                    -492.53733921051025,
+                    -296.9012334346771,
+                    -486.23083305358887,
+                    -437.8371305465698,
+                    -524.9933371543884
+                ],
+                [
+                    -367.4371061325073,
+                    -421.02570724487305,
+                    -346.03143978118896,
+                    -513.42653465271,
+                    -483.1058051586151,
+                    -427.9876961708069,
+                    -514.1624159812927,
+                    -292.1465411186218,
+                    -495.93910121917725,
+                    -435.1363031864166,
+                    -519.4194662570953
+                ],
+                [
+                    -385.5868604183197,
+                    -422.8474659919739,
+                    -344.1269785165787,
+                    -506.01229667663574,
+                    -484.1739435195923,
+                    -420.0462918281555,
+                    -484.0814869403839,
+                    -287.89696276187897,
+                    -462.15361869335175,
+                    -433.03680324554443,
+                    -497.785569190979
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.1069486025173005
+        ],
+        "posix": 2.1069486025173005
+    }
+}

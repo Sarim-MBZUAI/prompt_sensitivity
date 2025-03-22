@@ -1,0 +1,42 @@
+{
+    "file_name": "question_131_variants.json",
+    "overall_posix": 0.4151146925401584,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3137254901960784,
+            "Variation 2": 0.534965034965035,
+            "Variation 3": 0.4724409448818898,
+            "Variation 4": 0.5941176470588235,
+            "Variation 5": 0.38990825688073394,
+            "Variation 6": 0.5818181818181818,
+            "Variation 7": 0.4035874439461884,
+            "Variation 8": 0.2821782178217822,
+            "Variation 9": 0.3480392156862745,
+            "Variation 10": 0.23036649214659688
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> question::Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100",
+                "<s> Q:Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n Q:What is the most likely diagnosis?\n A:Pulmonary fibrosis\n Q:What is the most likely cause of the pulmonary fibrosis?\n A:Idiopathic pul",
+                "<s> QUESTION:Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Asthma\n B:Pneumonia\n C:Pulmonary edema\n D:Pneumothorax",
+                "<s> Question:Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Rationale:The X-ray image shows a normal lung volume. The lung volumes are not considered to be normal. The lung volumes are normal.\n The lung volumes are normal.\n",
+                "<s> Q::: Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION\tAre the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray image shows a normal chest. The lung volumes are considered to be normal if they are within the normal range. The lung volumes are considered to",
+                "<s> q::Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION:Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> q:Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Q:Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9."
+            ]
+        ],
+        "sensitivities": [
+            0.4151146925401584
+        ],
+        "posix": 0.4151146925401584
+    }
+}

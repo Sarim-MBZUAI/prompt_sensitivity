@@ -1,0 +1,42 @@
+{
+    "file_name": "question_143_variants.json",
+    "overall_posix": 0.2980118386222778,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1391752577319587,
+            "Variation 2": 0.20975609756097557,
+            "Variation 3": 0.2222222222222222,
+            "Variation 4": 0.5032679738562091,
+            "Variation 5": 0.3008849557522124,
+            "Variation 6": 0.4571428571428571,
+            "Variation 7": 0.4516129032258065,
+            "Variation 8": 0.2558139534883721,
+            "Variation 9": 0.19487179487179485,
+            "Variation 10": 0.24537037037037035
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> QUESTION:Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> QUESTION\tAre any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> QUESTION:Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n [no]\n Correct answer: [yes]\n The X-ray shows a right-sided diaphragmatic hernia (arrow).\n The diaphragm is the muscular partition between the thor",
+                "<s> Q::Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tYes, a right-sided diaphragmatic hernia is present.\n \u2022\tNo, no abnormalities are detected in the diaphragm.\n Q:What is the",
+                "<s> Question:Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image>\nYes\n 10.Question:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumomediastinum\n C.Pneumoperitoneum\n D.Pneumomediast",
+                "<s> question::Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1answer::\n no\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 2",
+                "<s> Q:Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 3:\n 4:\n 5:\n 6:\n 7:\n 8:\n 9:\n 1",
+                "<s> question:Are any abnormalities detected in the diaphragm on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2."
+            ]
+        ],
+        "sensitivities": [
+            0.2980118386222778
+        ],
+        "posix": 0.2980118386222778
+    }
+}

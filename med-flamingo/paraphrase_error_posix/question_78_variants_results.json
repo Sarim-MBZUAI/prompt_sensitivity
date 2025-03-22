@@ -1,0 +1,42 @@
+{
+    "file_name": "question_78_variants.json",
+    "overall_posix": 0.34089531335588125,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6060606060606061,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6277602523659306,
+            "Variation 4": 0.2238095238095238,
+            "Variation 5": 0.19047619047619047,
+            "Variation 6": 0.29047619047619055,
+            "Variation 7": 0.6037037037037037,
+            "Variation 8": 0.19047619047619047,
+            "Variation 9": 0.2571428571428571,
+            "Variation 10": 0.4190476190476191
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographically apparent bony lesions or fractures present on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any radiographically apparent bony lesions or fractures present on this chest X-ray? Please choose from the following two options: [yes, no]\n A.  No\n B.",
+                "<s> Are there any visible fractures or abnormalities in the bony structures on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of bony abnormality or fracture visible on the provided chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there evidence of bony abnormality or fracture visible on the provided chest X-ray?\n 12.  Is there evidence of bony abnormality or fracture visible on the",
+                "<s> Does the chest X-ray show any visible fractures or abnormalities in the skeletal structures? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any osseous lesions or abnormalities detectable on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray reveal any bone fractures or deformities? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is a fracture or bony abnormality visible on the provided chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Answers\n A fracture is visible on the provided chest X-ray image.\n The fracture is located in the",
+                "<s> Are there any bony lesions or abnormalities observable on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray depict any fractures or anomalies in the skeletal system? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is a fracture or osseous abnormality present and visible on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1"
+            ]
+        ],
+        "sensitivities": [
+            0.34089531335588125
+        ],
+        "posix": 0.34089531335588125
+    }
+}

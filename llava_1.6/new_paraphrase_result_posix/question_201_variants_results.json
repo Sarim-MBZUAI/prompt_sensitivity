@@ -1,0 +1,189 @@
+{
+    "file_name": "question_201_variants.json",
+    "overall_posix": 3.515036712165498,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.0446947642735072,
+            "Variation 2": 0.13205692291259766,
+            "Variation 3": 11.641260309652848,
+            "Variation 4": 0.7597059965133667,
+            "Variation 5": 0.7395791673660278,
+            "Variation 6": 0.5524419166825034,
+            "Variation 7": 0.3658038403125519,
+            "Variation 8": 8.457369116636423,
+            "Variation 9": 1.0387533569335938,
+            "Variation 10": 6.612912328154953
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the X-ray shows signs of lung congestion. The presence of white areas in the lungs indicates that there is some fluid or inflammation present, which can be indicative of congestion.",
+                "Based on the image provided, there is no clear evidence of pulmonary congestion. The lungs appear to be relatively clear, with no visible signs of congestion or fluid accumulation.",
+                "No, there is no radiographic proof of fluid overload in the lungs on the X-ray. The image shows a chest X-ray with the lungs appearing clear, and there are no signs of fluid overload or any other abnormalities",
+                "No, there are no visible signs of alveolar edema on the lung X-ray.",
+                "Based on the image provided, it is not possible to definitively diagnose acute respiratory distress syndrome (ARDS). The image appears to be an X-ray or CT scan of the chest, which could show signs of ARDS,",
+                "Yes, a chest X-ray can confirm the presence of cardiogenic pulmonary edema (CPE). CPE is characterized by the presence of fluid in the lungs, which can be seen on a chest X-ray as increased",
+                "No, there is no radiographic evidence to support a diagnosis of atelectasis in the lungs on the X-ray. The image shows a normal chest X-ray with no signs of atelectasis.",
+                "No, the X-ray does not show any indication of pleural effusion or fluid accumulation in the lung tissue. The lung fields appear clear, and there are no signs of consolidation or infiltration.",
+                "Yes, there are visible signs of interstitial lung disease (ILD) present on the chest X-ray.",
+                "Based on the image provided, it is not possible to definitively determine if the patient has developed acute exacerbation of chronic obstructive pulmonary disease (AECOPD). The image shows a chest X-ray, but without",
+                "No, the X-ray does not display any characteristic features of pneumonia, such as consolidation or cavitation."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -463.8767273426056,
+                    -419.9995472431183,
+                    -470.4795734882355,
+                    -207.76900053024292,
+                    -501.8620271682739,
+                    -500.855685710907,
+                    -439.56928300857544,
+                    -481.06950783729553,
+                    -243.9851303100586,
+                    -515.8143951892853,
+                    -285.3280944824219
+                ],
+                [
+                    -445.94989490509033,
+                    -435.15019094944,
+                    -485.6358664035797,
+                    -201.35028314590454,
+                    -517.0123896598816,
+                    -491.52142786979675,
+                    -420.2075364589691,
+                    -476.5063326358795,
+                    -254.60139536857605,
+                    -535.0289621353149,
+                    -279.63749289512634
+                ],
+                [
+                    -468.85646587610245,
+                    -426.6480927467346,
+                    -497.0625162124634,
+                    -225.15342950820923,
+                    -499.75774097442627,
+                    -486.549534201622,
+                    -432.4789295196533,
+                    -462.180118560791,
+                    -258.4921269416809,
+                    -524.3627920150757,
+                    -268.41163969039917
+                ],
+                [
+                    -468.85646587610245,
+                    -426.6480927467346,
+                    -497.0625162124634,
+                    -225.15342950820923,
+                    -499.75774097442627,
+                    -486.549534201622,
+                    -432.4789295196533,
+                    -462.180118560791,
+                    -258.4921269416809,
+                    -524.3627920150757,
+                    -268.41163969039917
+                ],
+                [
+                    -480.63969254493713,
+                    -426.771479845047,
+                    -489.6406090259552,
+                    -209.7232484817505,
+                    -498.92473244667053,
+                    -463.7272458076477,
+                    -409.1580603122711,
+                    -470.8123927116394,
+                    -265.44467401504517,
+                    -523.0552625656128,
+                    -283.336199760437
+                ],
+                [
+                    -460.3461391925812,
+                    -434.2314348220825,
+                    -480.06428575515747,
+                    -224.36901187896729,
+                    -505.50028896331787,
+                    -486.7219486236572,
+                    -428.9322208762169,
+                    -467.7957377433777,
+                    -260.97121000289917,
+                    -534.8653326034546,
+                    -268.68737840652466
+                ],
+                [
+                    -480.63969254493713,
+                    -426.771479845047,
+                    -489.6406090259552,
+                    -209.7232484817505,
+                    -498.92473244667053,
+                    -463.7272458076477,
+                    -409.1580603122711,
+                    -470.8123927116394,
+                    -265.44467401504517,
+                    -523.0552625656128,
+                    -283.336199760437
+                ],
+                [
+                    -480.63969254493713,
+                    -426.771479845047,
+                    -489.6406090259552,
+                    -209.7232484817505,
+                    -498.92473244667053,
+                    -463.7272458076477,
+                    -409.1580603122711,
+                    -470.8123927116394,
+                    -265.44467401504517,
+                    -523.0552625656128,
+                    -283.336199760437
+                ],
+                [
+                    -480.63969254493713,
+                    -426.771479845047,
+                    -489.6406090259552,
+                    -209.7232484817505,
+                    -498.92473244667053,
+                    -463.7272458076477,
+                    -409.1580603122711,
+                    -470.8123927116394,
+                    -265.44467401504517,
+                    -523.0552625656128,
+                    -283.336199760437
+                ],
+                [
+                    -471.38913917541504,
+                    -434.10488986968994,
+                    -483.7849531173706,
+                    -216.85121822357178,
+                    -514.5973439216614,
+                    -507.2357449531555,
+                    -427.19373512268066,
+                    -472.88974690437317,
+                    -265.21136355400085,
+                    -521.754292011261,
+                    -265.7613790035248
+                ],
+                [
+                    -480.63969254493713,
+                    -426.771479845047,
+                    -489.6406090259552,
+                    -209.7232484817505,
+                    -498.92473244667053,
+                    -463.7272458076477,
+                    -409.1580603122711,
+                    -470.8123927116394,
+                    -265.44467401504517,
+                    -523.0552625656128,
+                    -283.336199760437
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.515036712165498
+        ],
+        "posix": 3.515036712165498
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_327_variants.json",
+    "overall_posix": 0.44769793452334117,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.24607329842931935,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5719557195571956,
+            "Variation 4": 0.23684210526315785,
+            "Variation 5": 0.7038961038961039,
+            "Variation 6": 0.636094674556213,
+            "Variation 7": 0.6473829201101928,
+            "Variation 8": 0.4719626168224299,
+            "Variation 9": 0.6632124352331606,
+            "Variation 10": 0.29955947136563876
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the silhouette sign in the cardiothoracic region within normal limits? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the cardiac contour on this imaging study appear unremarkable? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the cardiac contour is unremarkable.\n 2. No, the cardiac contour is abnormal.\n 1. Yes, the cardiac contour is unremarkable.\n 2.",
+                "<s> Is there an abnormality in the appearance of the mediastinal silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the contours of the heart and great vessels appearing within expected anatomical limits on this imaging study? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the contours of the heart and great vessels appear within expected anatomical limits on this imaging study.\n 2.  No, the contours of the heart and great vessels do not appear within expected an",
+                "<s> Does the cardiac and mediastinal silhouette appear normal in orientation, size, and shape? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the cardiac and mediastinal silhouette appear normal in orientation, size, and shape.\n 2.  No, the cardiac and mediastinal silhouette appear abnormal in orientation, size",
+                "<s> Is the mediastinal contour of the patient's chest within a range that is considered typical for their age and sex? Please choose from the following two options: [yes, no]\n<image> 11.  Is the mediastinal contour of the patient's chest within a range that is considered typical for their age and sex? Please choose from the following two options: [yes, no]\n 12.",
+                "<s> Are there any significant abnormalities in the cardiac silhouette visible on this imaging study? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does the contour of the heart and mediastinum appear consistent with normal anatomy as seen on prior studies or expected for this patient's demographic? Please choose from the following two options: [yes, no]\n<image> 11.  Is the contour of the heart and mediastinum consistent with aortic dissection?\n 12.  Is the contour of the heart and mediastinum consistent with pericardial eff",
+                "<s> Is there evidence of cardiac or mediastinal abnormality that would alter the silhouette sign in this patient? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.44769793452334117
+        ],
+        "posix": 0.44769793452334117
+    }
+}

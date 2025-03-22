@@ -1,0 +1,189 @@
+{
+    "file_name": "question_235_variants_results.json",
+    "overall_posix": 1.2291750620859334,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 1.0509861220997845,
+            "Variation 3": 0.9625567892016988,
+            "Variation 4": 1.4923197848038399,
+            "Variation 5": 1.3449040932479572,
+            "Variation 6": 0.5937383838427195,
+            "Variation 7": 0.9475373204903935,
+            "Variation 8": 1.589857088614496,
+            "Variation 9": 1.176716091776248,
+            "Variation 10": 1.3542271306781073
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, there is a device present within the right chest on the X-ray image. ",
+                "Yes, there is a device present within the right chest on the X-ray image. ",
+                "No, there is no internal device visible within the right hemithorax on this chest X-ray. ",
+                "Yes, the radiograph shows the presence of a medical device in the right thoracic cavity. ",
+                "Yes, the X-ray image in the right upper quadrant shows evidence of a foreign body, which includes an implanted device. ",
+                "The chest radiograph does not show any visible signs of a metallic object or prosthetic device within the right hemithorax. ",
+                "Yes, the chest X-ray image shows the presence of a central venous catheter in the right thoracic region. ",
+                "Yes, the X-ray shows a medical implant within the right hemithorax. This could be a pacemaker or a cardioverter-defibrillator, which are devices used to regulate heart rhythm and prevent life-",
+                "No, there are no radiographic signs suggestive of a foreign body, such as a central line or port, located in the right upper thoracic cavity. ",
+                "Yes, the chest X-ray shows a clear presence of an internal device within the right hemithorax. ",
+                "Yes, the X-ray image is consistent with the presence of a medical implant, including a cardiac device, within the right side of the thoracic cage. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -39.83560496724931,
+                    -39.83560496724931,
+                    -66.11025801974392,
+                    -63.89952469729178,
+                    -84.6051985113645,
+                    -80.18272776468802,
+                    -58.241494866373614,
+                    -88.16000831225938,
+                    -100.25017433460016,
+                    -70.43022335343176,
+                    -92.6504630636955
+                ],
+                [
+                    -39.83560496724931,
+                    -39.83560496724931,
+                    -66.11025801974392,
+                    -63.89952469729178,
+                    -84.6051985113645,
+                    -80.18272776468802,
+                    -58.241494866373614,
+                    -88.16000831225938,
+                    -100.25017433460016,
+                    -70.43022335343176,
+                    -92.6504630636955
+                ],
+                [
+                    -67.62795414700668,
+                    -67.62795414700668,
+                    -41.94457509849917,
+                    -71.81982238587807,
+                    -94.51474253859124,
+                    -78.69788263990085,
+                    -62.6808225484001,
+                    -89.41068466365346,
+                    -102.4541321076722,
+                    -58.12547741265871,
+                    -101.72926514737082
+                ],
+                [
+                    -80.60756815987406,
+                    -80.60756815987406,
+                    -74.9123161489224,
+                    -43.93235008248121,
+                    -96.27319021937546,
+                    -80.95287899014875,
+                    -59.393622778979875,
+                    -99.83545215744743,
+                    -90.27019703558472,
+                    -76.90804659554306,
+                    -105.79394652990686
+                ],
+                [
+                    -73.1113730090583,
+                    -73.1113730090583,
+                    -81.65042914963124,
+                    -71.83379619271727,
+                    -44.10338393765187,
+                    -89.7344981453789,
+                    -69.34150507973936,
+                    -101.64774802425018,
+                    -101.06774331753695,
+                    -82.62017496935914,
+                    -96.97809833676001
+                ],
+                [
+                    -73.244631043548,
+                    -73.244631043548,
+                    -67.7009855909298,
+                    -70.4430624331435,
+                    -98.3865217815146,
+                    -42.682162723403735,
+                    -73.732048351093,
+                    -91.2665521288767,
+                    -105.73209468374625,
+                    -74.04155394843804,
+                    -105.42507329124965
+                ],
+                [
+                    -78.51559758142685,
+                    -78.51559758142685,
+                    -74.95014871356398,
+                    -70.95889501737383,
+                    -88.93093191774642,
+                    -87.23262335936306,
+                    -42.10032197772131,
+                    -108.005131179827,
+                    -99.01619911733542,
+                    -82.39613218969635,
+                    -103.00672719471459
+                ],
+                [
+                    -72.74615483513844,
+                    -72.74615483513844,
+                    -58.1422800650289,
+                    -66.90104992550914,
+                    -83.94009696998546,
+                    -76.78540800273731,
+                    -65.99242382917873,
+                    -51.370692271720486,
+                    -102.05643947949648,
+                    -66.86571017016058,
+                    -78.04414305324701
+                ],
+                [
+                    -82.78380838647718,
+                    -82.78380838647718,
+                    -80.3305396874348,
+                    -66.65201274056744,
+                    -90.82556044207013,
+                    -85.89040216238936,
+                    -63.31743481414924,
+                    -104.49843045560397,
+                    -42.892466071262305,
+                    -81.08857052837266,
+                    -106.10760851999112
+                ],
+                [
+                    -74.93533568874409,
+                    -74.93533568874409,
+                    -57.77565431686344,
+                    -73.68600147639518,
+                    -99.09577235453071,
+                    -80.76973566810011,
+                    -66.23234879161464,
+                    -97.74988068309972,
+                    -99.79151997774898,
+                    -42.82158852269049,
+                    -104.95923621628845
+                ],
+                [
+                    -73.37314076864277,
+                    -73.37314076864277,
+                    -76.42666565984109,
+                    -63.710188490606924,
+                    -83.91582683637898,
+                    -82.72681216001365,
+                    -65.53947914084438,
+                    -89.99481388776985,
+                    -101.21125176168425,
+                    -75.64794107627404,
+                    -42.62562708426639
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.2291750620859334
+        ],
+        "posix": 1.2291750620859334
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_236_variants.json",
+    "overall_posix": 0.5142857142857142,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5,
+            "Variation 2": 0.4967532467532467,
+            "Variation 3": 0.5422077922077922,
+            "Variation 4": 0.5097402597402597,
+            "Variation 5": 0.4902597402597403,
+            "Variation 6": 0.4902597402597403,
+            "Variation 7": 0.5746753246753247,
+            "Variation 8": 0.5,
+            "Variation 9": 0.577922077922078,
+            "Variation 10": 0.461038961038961
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are signs of lung infection\n b. No, there are no signs of lung infection\n 4. Are there any signs of pneumonia on this chest X-ray? Please choose from the following two",
+                "<s> QUESTION\tAre there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n This X-ray demonstrates a large area of consolidation in the right upper lobe. This is a typical appearance of pneumonia.\n The patient",
+                "<s> QUESTION:Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n [yes, no]\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumonia\n B.Asthma\n C.Pneumothor",
+                "<s> q:::Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, yes]\n [No, no]\n [No, yes]\n [Yes, yes]\n [Yes, no]\n [No, yes]\n [Yes, no]\n [Yes",
+                "<s> Q:Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, yes]\n [No, no]\n [No, yes]\n [Yes, no]\n [Yes, yes]\n [No, no]\n [No, yes]\n Q:",
+                "<s> Question:Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0On the chest X-ray, there is a left pneumothorax, a left pleural effusion, and a left-sided pneumothorax.\n 1.What is",
+                "<s> Q::: Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, yes]\n Explanation:\n This is a frontal chest X-ray of a 55-year-old man with a history of chronic obstructive pulmonary disease",
+                "<s> question::Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n ",
+                "<s> Question-Are there any signs of lung infection on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n No\n 10.\n Question-Is there any evidence of a pneumothorax on this chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n Yes\n No\n"
+            ]
+        ],
+        "sensitivities": [
+            0.5142857142857142
+        ],
+        "posix": 0.5142857142857142
+    }
+}

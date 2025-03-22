@@ -1,0 +1,189 @@
+{
+    "file_name": "question_125_variants.json",
+    "overall_posix": 1.159208424226696,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.0240589300791423,
+            "Variation 2": 0.0,
+            "Variation 3": 0.15735448002815247,
+            "Variation 4": 2.849744186401367,
+            "Variation 5": 1.462328553199768,
+            "Variation 6": 0.8686378814957358,
+            "Variation 7": 1.2449774106343587,
+            "Variation 8": 2.777669458389282,
+            "Variation 9": 1.5698003302449766,
+            "Variation 10": 1.4409597593805064
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no evidence of lung collapse or atelectasis on the X-ray. The lungs appear to be well-expanded and there are no signs of consolidation or collapse.",
+                "No, there is no visualization of lung collapse or atelectasis on this X-ray. The X-ray appears to show a normal chest structure with the lungs, heart, and ribs clearly visible.",
+                "No, there is no evidence of lung collapse or atelectasis on the X-ray. The lungs appear to be well-expanded and there are no signs of consolidation or collapse.",
+                "No, there are no signs of alveolar consolidation leading to lung volume loss visible on the X-ray image. The lungs appear to be clear and well-aerated.",
+                "No, the chest radiograph does not show evidence of decreased lung aeration or possible atelectasis or lung collapse. The lungs appear to be well-aerated, and there are no signs of collapse or atelectasis.",
+                "No, there is no documentation of diminished lung volume due to atelectasis on this X-ray. The image shows a lateral chest X-ray with the letters \"LT\" and \"DT\" indicating the left and right sides of the",
+                "No, there are no characteristic radiographic features of lung collapse or atelectasis present on the image. The image shows a normal chest X-ray with the lungs appearing clear and well-aerated.",
+                "No, the lung volume does not appear to be decreased due to alveolar collapse in this X-ray. The lungs are well-expanded, and there are no signs of collapse or consolidation.",
+                "No, the X-ray does not show any signs of lung atelectasis or collapse. The lung markings appear to be of normal density, and there is no increased opacity or decreased lung markings that would indicate atelectasis or collapse",
+                "No, there are no radiographic features suggestive of lung volume loss due to atelectasis on this image. The lungs appear to be well-expanded, and there are no signs of collapse or consolidation.",
+                "No, there is no evidence of alveolar collapse or lung atelectasis on the chest X-ray. The image shows a normal chest X-ray with the lungs appearing clear and well-aerated."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -390.63894510269165,
+                    -436.72159695625305,
+                    -390.63894510269165,
+                    -384.34476590156555,
+                    -533.12615442276,
+                    -463.75537276268005,
+                    -428.859011888504,
+                    -446.6629285812378,
+                    -529.5224180221558,
+                    -462.84976029396057,
+                    -456.92309403419495
+                ],
+                [
+                    -403.5664973258972,
+                    -429.5874903202057,
+                    -403.5664973258972,
+                    -396.356737613678,
+                    -516.0758602619171,
+                    -493.4274444580078,
+                    -421.80587697029114,
+                    -429.0255787372589,
+                    -517.5302393436432,
+                    -461.2067368030548,
+                    -449.9415338039398
+                ],
+                [
+                    -390.63894510269165,
+                    -436.72159695625305,
+                    -390.63894510269165,
+                    -384.34476590156555,
+                    -533.12615442276,
+                    -463.75537276268005,
+                    -428.859011888504,
+                    -446.6629285812378,
+                    -529.5224180221558,
+                    -462.84976029396057,
+                    -456.92309403419495
+                ],
+                [
+                    -414.6125750541687,
+                    -421.668007850647,
+                    -414.6125750541687,
+                    -386.2666230201721,
+                    -495.3503329753876,
+                    -463.9959964752197,
+                    -431.1512668132782,
+                    -446.1169373989105,
+                    -524.1288073062897,
+                    -482.99533343315125,
+                    -443.69402146339417
+                ],
+                [
+                    -414.6125750541687,
+                    -421.668007850647,
+                    -414.6125750541687,
+                    -386.2666230201721,
+                    -495.3503329753876,
+                    -463.9959964752197,
+                    -431.1512668132782,
+                    -446.1169373989105,
+                    -524.1288073062897,
+                    -482.99533343315125,
+                    -443.69402146339417
+                ],
+                [
+                    -398.3887982368469,
+                    -436.99294209480286,
+                    -398.3887982368469,
+                    -387.9824905395508,
+                    -515.4653313159943,
+                    -482.42655205726624,
+                    -423.0566899776459,
+                    -444.4849680662155,
+                    -491.54779505729675,
+                    -471.45986890792847,
+                    -442.43231415748596
+                ],
+                [
+                    -403.92693281173706,
+                    -422.3027458190918,
+                    -403.92693281173706,
+                    -399.0671155452728,
+                    -517.8458068370819,
+                    -451.0123782157898,
+                    -431.59401273727417,
+                    -436.35895252227783,
+                    -509.91041231155396,
+                    -459.87567269802094,
+                    -454.84872698783875
+                ],
+                [
+                    -410.00584840774536,
+                    -430.1590533256531,
+                    -410.00584840774536,
+                    -390.11003136634827,
+                    -506.4100179672241,
+                    -476.2830548286438,
+                    -426.2599060535431,
+                    -463.48707127571106,
+                    -513.0375859737396,
+                    -471.6805696487427,
+                    -456.93488097190857
+                ],
+                [
+                    -400.09030413627625,
+                    -410.8973962068558,
+                    -400.09030413627625,
+                    -385.7795298099518,
+                    -494.2541968822479,
+                    -447.0689768791199,
+                    -418.66469728946686,
+                    -427.7941975593567,
+                    -514.8980183601379,
+                    -464.7285621166229,
+                    -420.69088649749756
+                ],
+                [
+                    -410.00584840774536,
+                    -430.1590533256531,
+                    -410.00584840774536,
+                    -390.11003136634827,
+                    -506.4100179672241,
+                    -476.2830548286438,
+                    -426.2599060535431,
+                    -463.48707127571106,
+                    -513.0375859737396,
+                    -471.6805696487427,
+                    -456.93488097190857
+                ],
+                [
+                    -403.92693281173706,
+                    -422.3027458190918,
+                    -403.92693281173706,
+                    -399.0671155452728,
+                    -517.8458068370819,
+                    -451.0123782157898,
+                    -431.59401273727417,
+                    -436.35895252227783,
+                    -509.91041231155396,
+                    -459.87567269802094,
+                    -454.84872698783875
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.159208424226696
+        ],
+        "posix": 1.159208424226696
+    }
+}

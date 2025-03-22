@@ -1,0 +1,42 @@
+{
+    "file_name": "question_260_variants.json",
+    "overall_posix": 0.3473687074155877,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.27638190954773867,
+            "Variation 2": 0.14210526315789473,
+            "Variation 3": 0.15104166666666663,
+            "Variation 4": 0.41984732824427473,
+            "Variation 5": 0.5,
+            "Variation 6": 0.5299684542586751,
+            "Variation 7": 0.23645320197044328,
+            "Variation 8": 0.4913494809688581,
+            "Variation 9": 0.3063063063063063,
+            "Variation 10": 0.4202334630350195
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question::: Are there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> \u2756\u2756\n 2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Q:Are there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q:Are there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> QUESTION:Are there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumonia\n B.Pleural effusion\n C.Pneumothorax\n D.A",
+                "<s> QUESTION\tAre there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a normal chest radiograph. The lungs are of normal volume and there are no signs of focal airspace disease.\n TECHNI",
+                "<s> QUESTION:Are there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n [No]\n The radiograph shows a large area of consolidation in the right upper lobe, with a cavity in the right lower lobe.\n The correct",
+                "<s> question::Are there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Are there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Pulmonary tuberculosis\n Q:What is the most likely cause of the focal airspace disease?\n A:Hypers",
+                "<s> q::Are there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Are there any signs of focal airspace disease within the lungs? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 11.Question:What is the most likely diagnosis?\n [A]Asthma\n [B]Pneumonia\n [C]Pulmonary edema\n [D]P"
+            ]
+        ],
+        "sensitivities": [
+            0.3473687074155877
+        ],
+        "posix": 0.3473687074155877
+    }
+}

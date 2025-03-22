@@ -1,0 +1,189 @@
+{
+    "file_name": "question_103_variants.json",
+    "overall_posix": 2.0889158688834133,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.88047284550137,
+            "Variation 2": 1.7095005784715924,
+            "Variation 3": 3.8325348472595215,
+            "Variation 4": 3.6568681240081786,
+            "Variation 5": 1.7095005784715924,
+            "Variation 6": 0.8084573874602446,
+            "Variation 7": 1.7095005784715924,
+            "Variation 8": 0.0,
+            "Variation 9": 0.0,
+            "Variation 10": 0.0
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the patient does not have an enlarged heart on the chest X-ray. The image shows a normal-sized heart.",
+                "No, the chest X-ray does not show an enlarged heart. The image appears to be a normal chest X-ray with the heart and lungs visible.",
+                "No, the patient does not have an enlarged heart on the chest X-ray. The image shows a normal-sized heart within the chest cavity.",
+                "Based on the image provided, it appears that the patient does not have an enlarged heart on the chest X-ray. The heart shadow is of normal size and shape, and there are no signs of cardiac enlargement or other ab",
+                "Based on the image provided, it appears that the patient has an enlarged heart on the chest X-ray. The heart shadow is significantly larger than the normal size, which is indicative of cardiomegaly, a condition where the",
+                "No, the patient does not have an enlarged heart on the chest X-ray. The image shows a normal-sized heart within the chest cavity.",
+                "No, the chest X-ray does not show an enlarged heart. The image appears to be a normal chest X-ray, with the heart and lungs visible.",
+                "No, the patient does not have an enlarged heart on the chest X-ray. The image shows a normal-sized heart within the chest cavity.",
+                "No, the patient does not have an enlarged heart on the chest X-ray. The image shows a normal-sized heart.",
+                "No, the patient does not have an enlarged heart on the chest X-ray. The image shows a normal-sized heart.",
+                "No, the patient does not have an enlarged heart on the chest X-ray. The image shows a normal-sized heart."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -296.76439237594604,
+                    -328.46141481399536,
+                    -356.5969126224518,
+                    -488.3911347389221,
+                    -479.607798576355,
+                    -356.5969126224518,
+                    -326.6773157119751,
+                    -356.5969126224518,
+                    -296.76439237594604,
+                    -296.76439237594604,
+                    -296.76439237594604
+                ],
+                [
+                    -285.2270929813385,
+                    -334.34126567840576,
+                    -333.67058086395264,
+                    -473.9985966682434,
+                    -492.20114302635193,
+                    -333.67058086395264,
+                    -350.99095582962036,
+                    -333.67058086395264,
+                    -285.2270929813385,
+                    -285.2270929813385,
+                    -285.2270929813385
+                ],
+                [
+                    -271.8491418361664,
+                    -329.9497902393341,
+                    -324.59439635276794,
+                    -493.8718590736389,
+                    -495.2040193080902,
+                    -324.59439635276794,
+                    -339.6871612071991,
+                    -324.59439635276794,
+                    -271.8491418361664,
+                    -271.8491418361664,
+                    -271.8491418361664
+                ],
+                [
+                    -283.6774969100952,
+                    -331.01412534713745,
+                    -337.4985399246216,
+                    -484.3347979784012,
+                    -485.71630024909973,
+                    -337.4985399246216,
+                    -329.7117877006531,
+                    -337.4985399246216,
+                    -283.6774969100952,
+                    -283.6774969100952,
+                    -283.6774969100952
+                ],
+                [
+                    -271.8491418361664,
+                    -329.9497902393341,
+                    -324.59439635276794,
+                    -493.8718590736389,
+                    -495.2040193080902,
+                    -324.59439635276794,
+                    -339.6871612071991,
+                    -324.59439635276794,
+                    -271.8491418361664,
+                    -271.8491418361664,
+                    -271.8491418361664
+                ],
+                [
+                    -285.2270929813385,
+                    -334.34126567840576,
+                    -333.67058086395264,
+                    -473.9985966682434,
+                    -492.20114302635193,
+                    -333.67058086395264,
+                    -350.99095582962036,
+                    -333.67058086395264,
+                    -285.2270929813385,
+                    -285.2270929813385,
+                    -285.2270929813385
+                ],
+                [
+                    -283.6774969100952,
+                    -331.01412534713745,
+                    -337.4985399246216,
+                    -484.3347979784012,
+                    -485.71630024909973,
+                    -337.4985399246216,
+                    -329.7117877006531,
+                    -337.4985399246216,
+                    -283.6774969100952,
+                    -283.6774969100952,
+                    -283.6774969100952
+                ],
+                [
+                    -296.76439237594604,
+                    -328.46141481399536,
+                    -356.5969126224518,
+                    -488.3911347389221,
+                    -479.607798576355,
+                    -356.5969126224518,
+                    -326.6773157119751,
+                    -356.5969126224518,
+                    -296.76439237594604,
+                    -296.76439237594604,
+                    -296.76439237594604
+                ],
+                [
+                    -271.8491418361664,
+                    -329.9497902393341,
+                    -324.59439635276794,
+                    -493.8718590736389,
+                    -495.2040193080902,
+                    -324.59439635276794,
+                    -339.6871612071991,
+                    -324.59439635276794,
+                    -271.8491418361664,
+                    -271.8491418361664,
+                    -271.8491418361664
+                ],
+                [
+                    -296.76439237594604,
+                    -328.46141481399536,
+                    -356.5969126224518,
+                    -488.3911347389221,
+                    -479.607798576355,
+                    -356.5969126224518,
+                    -326.6773157119751,
+                    -356.5969126224518,
+                    -296.76439237594604,
+                    -296.76439237594604,
+                    -296.76439237594604
+                ],
+                [
+                    -283.6774969100952,
+                    -331.01412534713745,
+                    -337.4985399246216,
+                    -484.3347979784012,
+                    -485.71630024909973,
+                    -337.4985399246216,
+                    -329.7117877006531,
+                    -337.4985399246216,
+                    -283.6774969100952,
+                    -283.6774969100952,
+                    -283.6774969100952
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.0889158688834133
+        ],
+        "posix": 2.0889158688834133
+    }
+}

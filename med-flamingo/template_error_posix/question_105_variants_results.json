@@ -1,0 +1,42 @@
+{
+    "file_name": "question_105_variants.json",
+    "overall_posix": 0.3698376730975944,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4691780821917808,
+            "Variation 2": 0.4076923076923077,
+            "Variation 3": 0.2831050228310502,
+            "Variation 4": 0.28037383177570097,
+            "Variation 5": 0.24390243902439024,
+            "Variation 6": 0.47619047619047616,
+            "Variation 7": 0.4915254237288136,
+            "Variation 8": 0.24882629107981225,
+            "Variation 9": 0.32188841201716745,
+            "Variation 10": 0.4756944444444444
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question::: Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Congenital scoliosis\n B. Adolescent idiopathic scoliosis\n C. Adult idiopath",
+                "<s> Question:Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the possible diagnosis?\n A.Scoliosis\n B.Pelvic tilt\n C.Spondylolisthesis\n D.Spondylolysis\n E.",
+                "<s> q:::Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q::: Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n 10.10.1 Lumbar Spine X-Ray\n 10.10.1A 58",
+                "<s> Q:Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n 166: 166\u2014Lumbar Spine\n 166A: Yes\n 166B: No\n ",
+                "<s> Question:Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 12-year-old boy who complains of back pain.\n 1.What is the diagnosis?\n 2.What is the treatment?\n 3.What is",
+                "<s> Q:Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Q:What is the most likely diagnosis?\n A:Lumbar disc prolapse\n Q:What is the most likely cause of the patient\u2019s symptoms?\n A:Lumbar disc pro",
+                "<s> q::Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n 10.10.10.10.10.1",
+                "<s> q:Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n 19.What is the most likely diagnosis?\n a:Pneumonia\n b",
+                "<s> QUESTION:Does the lumbar region show signs of scoliosis on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Correct Answer: Yes\n The chest X-ray shows a right thoracic scoliosis with a Cobb angle of 20\u00b0.\n The patient is a 60-year-old"
+            ]
+        ],
+        "sensitivities": [
+            0.3698376730975944
+        ],
+        "posix": 0.3698376730975944
+    }
+}

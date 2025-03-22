@@ -1,0 +1,42 @@
+{
+    "file_name": "question_113_variants.json",
+    "overall_posix": 0.3599307043576059,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.31092436974789917,
+            "Variation 2": 0.31092436974789917,
+            "Variation 3": 0.2070484581497798,
+            "Variation 4": 0.5,
+            "Variation 5": 0.42320819112627994,
+            "Variation 6": 0.2321428571428572,
+            "Variation 7": 0.49090909090909096,
+            "Variation 8": 0.44299674267100975,
+            "Variation 9": 0.24669603524229078,
+            "Variation 10": 0.43445692883895126
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the diagnosis?\n A:Pneumothorax\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9",
+                "<s> Question:Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the diagnosis?\n A:Pneumothorax\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9",
+                "<s> q::Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n 10.\n 11.\n 12.\n 1",
+                "<s> Question:Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The radiograph is of a 55-year-old man who presented to the emergency department with a 2-day history of fever, chills, and a cough. He has no",
+                "<s> QUESTION\tIs there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n This is a frontal chest X-ray of a 50-year-old man who presented with a 2-week history of cough and",
+                "<s> q:Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 19.  A 55-year-old man",
+                "<s> QUESTION:Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n The answer is yes. There is a collapsed left lower lobe, which is the most common site for a pneumothorax.\n 10.\n QUESTION:What is the most likely cause of this",
+                "<s> question:Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n A.Yes\n B.No\n C.I don\u2019t know\n D.I don\u2019t understand the question\n 6.Question:The X-ray shows a large mass in the right lung. The patient is a ",
+                "<s> Q:Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Is there",
+                "<s> Q:Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe\tlungs\tare\tclearly\tvisible\tin\tthe\tX-ray\tand\tthere\tis\tno\tevidence\tof\ta\tcollapsed\tlung\tor\tpneumothor"
+            ]
+        ],
+        "sensitivities": [
+            0.3599307043576059
+        ],
+        "posix": 0.3599307043576059
+    }
+}

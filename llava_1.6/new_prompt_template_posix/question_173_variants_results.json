@@ -1,0 +1,189 @@
+{
+    "file_name": "question_173_variants.json",
+    "overall_posix": 6.290992069618269,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.016946873664855956,
+            "Variation 2": 0.18872036457061767,
+            "Variation 3": 0.0752566957473755,
+            "Variation 4": 0.08847007751464844,
+            "Variation 5": 21.102173169453938,
+            "Variation 6": 0.5477760124206543,
+            "Variation 7": 21.102173169453938,
+            "Variation 8": 0.0,
+            "Variation 9": 21.102173169453938,
+            "Variation 10": 0.2905843257904053
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it is not possible to definitively determine if there is a current lung infection. The X-ray shows the lungs and the heart, but without additional context or medical expertise, it is not appropriate to make a diagnosis.",
+                "Based on the image provided, it is not possible to definitively determine if there is a current lung infection. The X-ray shows the lungs and the heart, but without more information or a medical professional's assessment, it is not appropriate to",
+                "Based on the image provided, it appears that there is a possible lung infection. The X-ray shows areas of opacity, which could indicate the presence of pneumonia or another type of lung infection. However, it is important to note that a",
+                "Based on the image provided, it appears that there is an area of consolidation in the right lower lobe of the lung, which could suggest a current lung infection. However, it is important to note that a single X-ray image may not",
+                "Based on the image provided, it is not possible to definitively determine if there is a current lung infection. The X-ray shows the lungs and chest area, but without additional context or medical expertise, it is not appropriate to make a diagnosis from",
+                "Yes, the chest X-ray suggests a current lung infection.",
+                "Based on the image provided, it is not possible to definitively determine if there is a current lung infection. The X-ray shows some areas of opacity, which could indicate the presence of a lung infection or other lung conditions. However, without additional",
+                "Yes, the chest X-ray suggests a current lung infection.",
+                "Based on the image provided, it is not possible to definitively determine if there is a current lung infection. The X-ray shows the lungs and the heart, but without additional context or medical expertise, it is not appropriate to make a diagnosis.",
+                "Yes, the chest X-ray suggests a current lung infection.",
+                "Based on the image provided, it is not possible to definitively determine if there is a current lung infection. The X-ray shows the lungs and chest area, but without additional medical information or a comparison to previous X-rays, it is"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -456.88851022720337,
+                    -457.73585391044617,
+                    -466.32452845573425,
+                    -460.65134501457214,
+                    -461.3120141029358,
+                    -140.3559126853943,
+                    -484.2773108482361,
+                    -140.3559126853943,
+                    -456.88851022720337,
+                    -140.3559126853943,
+                    -471.41772651672363
+                ],
+                [
+                    -466.1175956726074,
+                    -462.16744089126587,
+                    -449.63796854019165,
+                    -452.0345335006714,
+                    -469.50558376312256,
+                    -128.77492153644562,
+                    -468.51560497283936,
+                    -128.77492153644562,
+                    -466.1175956726074,
+                    -128.77492153644562,
+                    -470.99531078338623
+                ],
+                [
+                    -462.284236907959,
+                    -453.193674325943,
+                    -447.83054208755493,
+                    -468.9239422380924,
+                    -466.21314811706543,
+                    -139.08681893348694,
+                    -473.2413833141327,
+                    -139.08681893348694,
+                    -462.284236907959,
+                    -139.08681893348694,
+                    -456.6970772743225
+                ],
+                [
+                    -472.42062652111053,
+                    -473.73920714855194,
+                    -462.0515388250351,
+                    -450.28565084934235,
+                    -478.32268512248993,
+                    -138.2353000640869,
+                    -475.95389211177826,
+                    -138.2353000640869,
+                    -472.42062652111053,
+                    -138.2353000640869,
+                    -468.92472541332245
+                ],
+                [
+                    -453.77508449554443,
+                    -451.8973436355591,
+                    -439.20166063308716,
+                    -470.59207677841187,
+                    -463.4371476173401,
+                    -143.44798815250397,
+                    -479.0097737312317,
+                    -143.44798815250397,
+                    -453.77508449554443,
+                    -143.44798815250397,
+                    -468.603759765625
+                ],
+                [
+                    -472.42062652111053,
+                    -473.73920714855194,
+                    -462.0515388250351,
+                    -450.28565084934235,
+                    -478.32268512248993,
+                    -138.2353000640869,
+                    -475.95389211177826,
+                    -138.2353000640869,
+                    -472.42062652111053,
+                    -138.2353000640869,
+                    -468.92472541332245
+                ],
+                [
+                    -472.42062652111053,
+                    -473.73920714855194,
+                    -462.0515388250351,
+                    -450.28565084934235,
+                    -478.32268512248993,
+                    -138.2353000640869,
+                    -475.95389211177826,
+                    -138.2353000640869,
+                    -472.42062652111053,
+                    -138.2353000640869,
+                    -468.92472541332245
+                ],
+                [
+                    -491.4124598503113,
+                    -478.54240131378174,
+                    -479.19111013412476,
+                    -460.36994099617004,
+                    -490.98939514160156,
+                    -142.62411522865295,
+                    -491.92065143585205,
+                    -142.62411522865295,
+                    -491.4124598503113,
+                    -142.62411522865295,
+                    -486.7833800315857
+                ],
+                [
+                    -472.42062652111053,
+                    -473.73920714855194,
+                    -462.0515388250351,
+                    -450.28565084934235,
+                    -478.32268512248993,
+                    -138.2353000640869,
+                    -475.95389211177826,
+                    -138.2353000640869,
+                    -472.42062652111053,
+                    -138.2353000640869,
+                    -468.92472541332245
+                ],
+                [
+                    -453.77508449554443,
+                    -451.8973436355591,
+                    -439.20166063308716,
+                    -470.59207677841187,
+                    -463.4371476173401,
+                    -143.44798815250397,
+                    -479.0097737312317,
+                    -143.44798815250397,
+                    -453.77508449554443,
+                    -143.44798815250397,
+                    -468.603759765625
+                ],
+                [
+                    -491.4124598503113,
+                    -478.54240131378174,
+                    -479.19111013412476,
+                    -460.36994099617004,
+                    -490.98939514160156,
+                    -142.62411522865295,
+                    -491.92065143585205,
+                    -142.62411522865295,
+                    -491.4124598503113,
+                    -142.62411522865295,
+                    -486.7833800315857
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            6.290992069618269
+        ],
+        "posix": 6.290992069618269
+    }
+}

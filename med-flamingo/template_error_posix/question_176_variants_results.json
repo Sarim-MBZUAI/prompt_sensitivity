@@ -1,0 +1,42 @@
+{
+    "file_name": "question_176_variants.json",
+    "overall_posix": 0.4160366404901191,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5512367491166078,
+            "Variation 2": 0.49609375,
+            "Variation 3": 0.18888888888888888,
+            "Variation 4": 0.4820717131474104,
+            "Variation 5": 0.16167664670658688,
+            "Variation 6": 0.5303030303030303,
+            "Variation 7": 0.27222222222222214,
+            "Variation 8": 0.5670103092783505,
+            "Variation 9": 0.515625,
+            "Variation 10": 0.39523809523809517
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n \u2022\tWhat is the diagnosis?\n \u2022\tWhat is the differential diagnosis?\n \u2022\tWhat is the most likely diagnosis?\n \u2022\tWhat is the best way to",
+                "<s> QUESTION\tCan a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n The X-ray shows a pneumothorax. The pneumothorax is seen as a white shadow in the left hemithorax. The",
+                "<s> Question:Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> QUESTION:Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.\n QUESTION:What is the diagnosis?\n 11.\n QUESTION:What is the treatment?\n 12.\n QUESTION:What is the differential diagn",
+                "<s> Q:Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Q:Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:What is the diagnosis?\n A:Pneumothorax\n Q:What is the differential diagnosis?\n A:Pneumonia, tuberculosis, lung cancer, pulmonary embolism,",
+                "<s> q:Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Question:Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of a traumatic injury to the chest. He is complaining of shortness of breath.\n 1.What is the diagn",
+                "<s> Q::Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Can a pneumothorax be",
+                "<s> Q:Can a pneumothorax be seen in the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n Q:What is the diagnosis?\n A:Pneumothorax\n B:Pneumothorax\n S:Pneumothorax\n R"
+            ]
+        ],
+        "sensitivities": [
+            0.4160366404901191
+        ],
+        "posix": 0.4160366404901191
+    }
+}

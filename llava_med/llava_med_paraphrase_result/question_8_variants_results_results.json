@@ -1,0 +1,189 @@
+{
+    "file_name": "question_8_variants_results.json",
+    "overall_posix": 1.0674923809863437,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.7878205465673697,
+            "Variation 2": 0.0,
+            "Variation 3": 0.9598496490821575,
+            "Variation 4": 0.7559285771852816,
+            "Variation 5": 0.9909137617299936,
+            "Variation 6": 1.702740046827005,
+            "Variation 7": 0.4503006334597397,
+            "Variation 8": 0.6777703670548509,
+            "Variation 9": 1.6537476578226102,
+            "Variation 10": 2.1197954522808686
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a need for immediate intervention based on heart or lung findings on this X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "It appears that there is no need for immediate intervention based on the heart or lung findings on this chest x-ray. ",
+                "It appears that the chest x-ray findings do not indicate the need for an emergency surgical intervention. ",
+                "It appears that there is no need for immediate intervention based on the heart or lung findings on this chest x-ray. ",
+                "The chest x-ray does not show any radiographic signs that would warrant urgent medical attention. ",
+                "The chest x-ray does not show any life-threatening cardiac or pulmonary complications. ",
+                "Yes, based on the findings in this chest X-ray, an emergency thoracic consultation is recommended. ",
+                "The patient's chest x-ray does not show any evidence of a condition requiring rapid radiological assessment and possible intervention. ",
+                "The image is a chest X-ray, and it is not possible for me to view the actual image. However, if you have any concerns about the patient's condition, it is important to consult with a healthcare professional who can evaluate the X",
+                "It appears that the chest x-ray was normal, and the urgent thoracic ct scan was not indicated. however, it is important to consult with a healthcare professional to determine the appropriate course of action based on the patient's clinical",
+                "The patient's chest x-ray does not show any imaging features of a serious condition that requires immediate medical consultation. ",
+                "There are no high-priority cardiac or pulmonary findings visible on this image that necessitate rapid assessment and treatment. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -46.35268169290066,
+                    -65.26037481051753,
+                    -46.35268169290066,
+                    -67.46937397270813,
+                    -66.00682469971798,
+                    -72.11643949788049,
+                    -94.0294030040568,
+                    -69.31801399934739,
+                    -80.91897041269806,
+                    -92.65761611193375,
+                    -105.70695435676498
+                ],
+                [
+                    -83.4058791739808,
+                    -47.988948895915996,
+                    -83.4058791739808,
+                    -68.78684454848553,
+                    -69.02480131733046,
+                    -73.95731820187939,
+                    -89.89079220802887,
+                    -68.13820985735083,
+                    -77.51388358198881,
+                    -92.03669371566866,
+                    -115.75944690019242
+                ],
+                [
+                    -46.35268169290066,
+                    -65.26037481051753,
+                    -46.35268169290066,
+                    -67.46937397270813,
+                    -66.00682469971798,
+                    -72.11643949788049,
+                    -94.0294030040568,
+                    -69.31801399934739,
+                    -80.91897041269806,
+                    -92.65761611193375,
+                    -105.70695435676498
+                ],
+                [
+                    -82.01587267747527,
+                    -72.02663698776814,
+                    -82.01587267747527,
+                    -43.464478054569554,
+                    -67.41598672689133,
+                    -79.08275573934407,
+                    -85.24583573667951,
+                    -66.02511626985574,
+                    -81.87744503966383,
+                    -80.90709069091281,
+                    -106.81434954199358
+                ],
+                [
+                    -69.95268135063816,
+                    -68.4613110156497,
+                    -69.95268135063816,
+                    -61.5061563324125,
+                    -42.76346209663663,
+                    -78.91140720752446,
+                    -94.1110158182455,
+                    -62.655366869487125,
+                    -85.44283843568269,
+                    -87.00222703347754,
+                    -90.17113451939349
+                ],
+                [
+                    -82.52224118942104,
+                    -62.83495056234824,
+                    -82.52224118942104,
+                    -65.12294591901446,
+                    -69.70794434845357,
+                    -40.871696107521046,
+                    -89.62701597815067,
+                    -69.67585032974989,
+                    -77.87505303876924,
+                    -84.91121504170042,
+                    -112.118861649672
+                ],
+                [
+                    -83.64493145028246,
+                    -69.69716683970182,
+                    -83.64493145028246,
+                    -65.29420305852545,
+                    -70.62710975951268,
+                    -82.15494760066576,
+                    -44.87940057234664,
+                    -65.82200643576812,
+                    -82.65923397943948,
+                    -80.99346321953635,
+                    -103.04284278626437
+                ],
+                [
+                    -73.58294185838895,
+                    -69.55996243112895,
+                    -73.58294185838895,
+                    -59.96707959767082,
+                    -58.428285202325696,
+                    -82.8315208654385,
+                    -94.54413904031753,
+                    -61.39338659008854,
+                    -85.54093151968436,
+                    -86.47037606450976,
+                    -89.54478724176442
+                ],
+                [
+                    -86.14135006055585,
+                    -70.43459188858833,
+                    -86.14135006055585,
+                    -67.57587927353597,
+                    -72.58553652800128,
+                    -64.7894221339377,
+                    -92.63905397898452,
+                    -68.43621358743849,
+                    -59.32276876126667,
+                    -92.81447850147197,
+                    -115.30962818765329
+                ],
+                [
+                    -85.32343684497755,
+                    -74.07260021507682,
+                    -85.32343684497755,
+                    -60.414665764794336,
+                    -67.6714181920097,
+                    -81.35592559463839,
+                    -84.89163669539812,
+                    -65.72545660729452,
+                    -85.88877584301224,
+                    -45.0943155950863,
+                    -109.88143680038047
+                ],
+                [
+                    -72.55872294896108,
+                    -70.83812236654921,
+                    -72.55872294896108,
+                    -62.74159455631161,
+                    -59.77356142238682,
+                    -80.93994769067649,
+                    -89.31159676823518,
+                    -67.03984586043975,
+                    -85.07472618120107,
+                    -91.8179367491066,
+                    -46.102230195505626
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.0674923809863437
+        ],
+        "posix": 1.0674923809863437
+    }
+}

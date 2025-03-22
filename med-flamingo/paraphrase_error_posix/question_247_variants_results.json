@@ -1,0 +1,42 @@
+{
+    "file_name": "question_247_variants.json",
+    "overall_posix": 0.3448174317945728,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2554347826086957,
+            "Variation 2": 0.5139664804469274,
+            "Variation 3": 0.0,
+            "Variation 4": 0.2885572139303483,
+            "Variation 5": 0.1724137931034483,
+            "Variation 6": 0.5222222222222223,
+            "Variation 7": 0.2324324324324325,
+            "Variation 8": 0.5627009646302251,
+            "Variation 9": 0.565625,
+            "Variation 10": 0.3348214285714286
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray demonstrate evidence of pulmonary congestion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please choose from the following two options: [yes, no]\n<image> \u2460\n \u2461\n \u2462\n \u2463\n \u2464\n \u2465\n \u2466\n \u2467\n \u2468\n \u2469\n",
+                "<s> Is there an indication of pulmonary edema in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic suggestion of fluid overload in the lungs on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Are there signs suggestive of cardiogenic pulmonary edema visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is an abnormality consistent with fluid accumulation in the lungs observed on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> A.\tYes\n B.\tNo\n 2.\n What is the most likely diagnosis?\n A.\tPulmonary edema\n B.\tPneumonia\n C.\tAtelectasis\n D.",
+                "<s> Does the chest X-ray show evidence of pulmonary interstitial edema? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic features indicative of acute respiratory distress syndrome (ARDS) on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Bilateral interstitial opacities\n b. Bilateral alveolar opacities\n 2. What is the most likely diagnosis?\n a. ARDS\n b. Pneumonia\n c.",
+                "<s> Is there an indication of alveolar consolidation and fluid overload in the lungs visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Correct answer\n No, there is no indication of alveolar consolidation and fluid overload in the lungs visible on the",
+                "<s> Does the chest X-ray reveal signs consistent with congestive heart failure in the form of pulmonary edema? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.3448174317945728
+        ],
+        "posix": 0.3448174317945728
+    }
+}

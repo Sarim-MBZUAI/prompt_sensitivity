@@ -1,0 +1,189 @@
+{
+    "file_name": "question_332_variants.json",
+    "overall_posix": 3.399624677229042,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.381739451604731,
+            "Variation 2": 0.0,
+            "Variation 3": 4.075451359748841,
+            "Variation 4": 0.8897263924280803,
+            "Variation 5": 3.973849153518677,
+            "Variation 6": 4.612103407382965,
+            "Variation 7": 0.8365039666493733,
+            "Variation 8": 4.124882574081421,
+            "Variation 9": 4.270245642078166,
+            "Variation 10": 0.29414205639450636
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no definite pleural line of pneumothorax identified on the chest X-ray.",
+                "No, there is no clear evidence of a pneumothorax on the chest X-ray. The pleural line is not visible in this image.",
+                "No, there is no definite pleural line of pneumothorax identified on the chest X-ray.",
+                "No, the chest X-ray in the image does not definitively confirm the presence of a pneumothorax with a distinct pleural line. The image shows a side view of the chest, but the details are not clear enough to make",
+                "No, the provided chest X-ray image does not demonstrate a clearly visible pleural line indicative of a pneumothorax.",
+                "Yes, there is radiographic evidence to confirm the presence of a pneumothorax on the given chest X-ray. The well-defined pleural line is displaced away from the lung, which is indicative of a pneumoth",
+                "No, we cannot confidently diagnose a pneumothorax on the chest X-ray based on the visibility of its characteristic pleural line. The image provided is too blurry and lacks the necessary detail to make a confident diagnosis.",
+                "Yes, the chest X-ray shows an unmistakable pleural line that indicates the presence of a pneumothorax.",
+                "No, there is not sufficient radiographic evidence on the chest X-ray to support the diagnosis of a pneumothorax with its characteristic pleural line. The image shows a chest X-ray with a silhouette of the lung and",
+                "No, we cannot definitively state that a pleural line of pneumothorax is present on the given chest X-ray image. The image is too blurry and lacks sufficient detail to make a definitive diagnosis.",
+                "No, the chest X-ray does not clearly demonstrate a visible pleural line corresponding to a pneumothorax."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -272.5916602611542,
+                    -319.570801615715,
+                    -272.5916602611542,
+                    -476.3642282485962,
+                    -299.2834520339966,
+                    -471.284117937088,
+                    -503.19683063030243,
+                    -297.6867792606354,
+                    -478.8357889652252,
+                    -481.8336967229843,
+                    -264.6498247385025
+                ],
+                [
+                    -264.89389514923096,
+                    -318.63504123687744,
+                    -264.89389514923096,
+                    -486.4978941679001,
+                    -294.21421909332275,
+                    -529.7273244857788,
+                    -504.028874874115,
+                    -293.7483320236206,
+                    -485.0697648525238,
+                    -504.27529096603394,
+                    -276.6289448738098
+                ],
+                [
+                    -272.5916602611542,
+                    -319.570801615715,
+                    -272.5916602611542,
+                    -476.3642282485962,
+                    -299.2834520339966,
+                    -471.284117937088,
+                    -503.19683063030243,
+                    -297.6867792606354,
+                    -478.8357889652252,
+                    -481.8336967229843,
+                    -264.6498247385025
+                ],
+                [
+                    -264.89389514923096,
+                    -318.63504123687744,
+                    -264.89389514923096,
+                    -486.4978941679001,
+                    -294.21421909332275,
+                    -529.7273244857788,
+                    -504.028874874115,
+                    -293.7483320236206,
+                    -485.0697648525238,
+                    -504.27529096603394,
+                    -276.6289448738098
+                ],
+                [
+                    -264.89389514923096,
+                    -318.63504123687744,
+                    -264.89389514923096,
+                    -486.4978941679001,
+                    -294.21421909332275,
+                    -529.7273244857788,
+                    -504.028874874115,
+                    -293.7483320236206,
+                    -485.0697648525238,
+                    -504.27529096603394,
+                    -276.6289448738098
+                ],
+                [
+                    -250.67964446544647,
+                    -329.14990854263306,
+                    -250.67964446544647,
+                    -454.0966178178787,
+                    -289.10926163196564,
+                    -497.39790630340576,
+                    -503.04642629623413,
+                    -290.74777042865753,
+                    -497.82845520973206,
+                    -502.17151927948,
+                    -255.96323478221893
+                ],
+                [
+                    -264.8227276802063,
+                    -349.1955440044403,
+                    -264.8227276802063,
+                    -456.2188546657562,
+                    -306.30836713314056,
+                    -496.5577070713043,
+                    -504.61390924453735,
+                    -304.5815364122391,
+                    -504.5892605781555,
+                    -489.7986376285553,
+                    -264.3190026283264
+                ],
+                [
+                    -277.1387209892273,
+                    -310.9291009902954,
+                    -277.1387209892273,
+                    -479.0912084579468,
+                    -294.7156322002411,
+                    -501.86191034317017,
+                    -494.2297911643982,
+                    -287.8661844730377,
+                    -482.71990060806274,
+                    -502.44096851348877,
+                    -280.6909649372101
+                ],
+                [
+                    -252.49478769302368,
+                    -340.55439043045044,
+                    -252.49478769302368,
+                    -479.3107798099518,
+                    -301.7277235984802,
+                    -502.9152398109436,
+                    -502.0942406654358,
+                    -302.76795959472656,
+                    -469.5015848875046,
+                    -486.18127393722534,
+                    -265.00301814079285
+                ],
+                [
+                    -277.1387209892273,
+                    -310.9291009902954,
+                    -277.1387209892273,
+                    -479.0912084579468,
+                    -294.7156322002411,
+                    -501.86191034317017,
+                    -494.2297911643982,
+                    -287.8661844730377,
+                    -482.71990060806274,
+                    -502.44096851348877,
+                    -280.6909649372101
+                ],
+                [
+                    -272.5916602611542,
+                    -319.570801615715,
+                    -272.5916602611542,
+                    -476.3642282485962,
+                    -299.2834520339966,
+                    -471.284117937088,
+                    -503.19683063030243,
+                    -297.6867792606354,
+                    -478.8357889652252,
+                    -481.8336967229843,
+                    -264.6498247385025
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.399624677229042
+        ],
+        "posix": 3.399624677229042
+    }
+}

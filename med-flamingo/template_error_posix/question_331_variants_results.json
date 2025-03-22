@@ -1,0 +1,42 @@
+{
+    "file_name": "question_331_variants.json",
+    "overall_posix": 0.39208263442226343,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.19653179190751446,
+            "Variation 2": 0.2912087912087913,
+            "Variation 3": 0.16874999999999996,
+            "Variation 4": 0.6422018348623854,
+            "Variation 5": 0.3152173913043479,
+            "Variation 6": 0.42654028436018954,
+            "Variation 7": 0.4759825327510917,
+            "Variation 8": 0.5287356321839081,
+            "Variation 9": 0.5387596899224806,
+            "Variation 10": 0.33689839572192515
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> question:Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.",
+                "<s> Q:Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Question-Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n Question-Is there any evidence of pneumonia? Please choose from the following two options: [yes, no]\n Answer\n No\n Question-Is there any evidence of a pleural effusion? Please choose from the following two",
+                "<s> Q:Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n [yes, no]\n C:\n [yes, no]\n D:\n [yes, no]\n E:\n [yes, no]\n 106\n 106\n Quiz 1",
+                "<s> Question:Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes",
+                "<s> QUESTION:Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n [no]\n 10.\n QUESTION:What is the most likely diagnosis?\n [pneumonia]\n [tuberculosis]\n [pneumothorax]\n [p",
+                "<s> QUESTION\tAre the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a normal chest. The lungs are clear and there are no abnormalities.\n The X-ray is clear and shows no",
+                "<s> Question:Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of cough.\n 1.The patient is a 55-year-old man with a history of cough.\n ",
+                "<s> Q::: Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::"
+            ]
+        ],
+        "sensitivities": [
+            0.39208263442226343
+        ],
+        "posix": 0.39208263442226343
+    }
+}

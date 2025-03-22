@@ -1,0 +1,42 @@
+{
+    "file_name": "question_358_variants.json",
+    "overall_posix": 0.43063559045135485,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.49242424242424243,
+            "Variation 2": 0.2663043478260869,
+            "Variation 3": 0.25,
+            "Variation 4": 0.5923566878980892,
+            "Variation 5": 0.4516129032258065,
+            "Variation 6": 0.3411214953271028,
+            "Variation 7": 0.5133079847908745,
+            "Variation 8": 0.3349753694581281,
+            "Variation 9": 0.49425287356321834,
+            "Variation 10": 0.57
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> question:Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n A.Yes\n B.No\n C.Yes, but only in the lateral view\n D.Yes, but only in the frontal view\n E.Yes, but only in the supine position\n 6.The",
+                "<s> q:Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> QUESTION\tCan pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question:Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following radiograph is of a 55-year-old man who presented to the emergency department with a 2-day history of shortness of breath. He had no history of trauma.",
+                "<s> Question::: Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1:\n Option 2:\n   Option 1:\n Option 2:\n   Option 1:\n Option 2:\n   Option 1:\n Option 2:\n   Option 1:\n Option",
+                "<s> question::Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A pneumothorax can be seen in the chest X-ray.\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n",
+                "<s> QUESTION:Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n 10.\n QUESTION:Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\n ANSWER",
+                "<s> q::Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION:Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n The chest X-ray shows a pneumothorax in the right lung.\n 10.\n QUESTION:What is the diagnosis?\n Answer:\n Tension pneumothorax\n ",
+                "<s> Question-Can pneumothorax be seen in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n Reasoning\n The X-ray shows a large right-sided pneumothorax. The left lung is not visible. The right lung is collapsed and the mediastinum is shifted to the left. The"
+            ]
+        ],
+        "sensitivities": [
+            0.43063559045135485
+        ],
+        "posix": 0.43063559045135485
+    }
+}

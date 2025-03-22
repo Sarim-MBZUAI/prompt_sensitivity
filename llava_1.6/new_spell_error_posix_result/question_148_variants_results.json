@@ -1,0 +1,189 @@
+{
+    "file_name": "question_148_variants.json",
+    "overall_posix": 5.043258915879854,
+    "detailed_scores": [
+        {
+            "Variation 1": 20.844000339508057,
+            "Variation 2": 0.20239289045333864,
+            "Variation 3": 0.15999242782592774,
+            "Variation 4": 0.30697816371917724,
+            "Variation 5": 0.5673083548850202,
+            "Variation 6": 23.429145765304565,
+            "Variation 7": 0.01973850727081299,
+            "Variation 8": 0.08316957950592041,
+            "Variation 9": 0.3530298280715942,
+            "Variation 10": 0.05060613632202148
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the chest X-ray in the image is not normal in appearance. It shows a significant amount of fluid in the lungs, which is not typical for a normal X-ray. This could indicate a medical condition such as pneumonia,",
+                "Yes, the chest X-ray appears to be normal in appearance.",
+                "Based on the image provided, it appears that the chest X-ray is not normal in appearance. There are several abnormalities visible, including areas of consolidation, which could indicate the presence of pneumonia or other lung conditions. Additionally,",
+                "Based on the image provided, it appears that the X-ray is not normal in appearance. The image shows a chest X-ray with a significant amount of opacity in the right lung, which could indicate a lung condition such as pneumonia,",
+                "Based on the image provided, the chest X-ray appears to be normal in appearance. There are no obvious signs of abnormalities or pathologies that would indicate a problem. The lungs and heart are clearly visible, and there are no significant areas",
+                "No, the chest X-ray is not onrmal in appearance. It shows a significant amount of fluid in the lungs, which is not normal. This could indicate a condition such as pneumonia or heart failure.",
+                "No, the chest X-ray is not normal in appearance.",
+                "Based on the image provided, the chest X-ray appears to be normal in terms of the overall structure and alignment of the bones and lungs. However, it is important to note that a proper interpretation of a chest X-ray requires medical training and",
+                "Based on the image provided, it appears that the chest X-ray is not normal in appearance. There are several areas of concern that could indicate a medical issue. These include the presence of a mass or nodule in the right lung, which could",
+                "Based on the image provided, the chest X-ray appears to be normal in terms of its overall appearance. The lungs are visible and appear to be clear, with no obvious signs of infection, inflammation, or other abnormalities. However",
+                "Based on the image provided, it appears that the chest X-ray is not normal in appearance. There are several abnormalities visible, including a significant amount of fluid in the lungs, which could indicate a condition such as pneumonia or heart"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -486.49180340766907,
+                    -152.98779797554016,
+                    -496.611447930336,
+                    -494.49142479896545,
+                    -501.84071159362793,
+                    -459.8283107280731,
+                    -135.0546169281006,
+                    -487.4787287712097,
+                    -490.6502823829651,
+                    -504.1432948112488,
+                    -489.02211022377014
+                ],
+                [
+                    -487.5496509075165,
+                    -163.31159234046936,
+                    -510.12483739852905,
+                    -485.9357633590698,
+                    -484.4768166542053,
+                    -484.70547103881836,
+                    -143.73966526985168,
+                    -476.021945476532,
+                    -489.7956576347351,
+                    -497.43277502059937,
+                    -496.12943267822266
+                ],
+                [
+                    -470.4612367153168,
+                    -152.6078383922577,
+                    -503.5169677734375,
+                    -465.74955463409424,
+                    -509.92599511146545,
+                    -444.68202471733093,
+                    -137.90373015403748,
+                    -469.7864565849304,
+                    -492.16516721248627,
+                    -501.8717894554138,
+                    -483.1123265028
+                ],
+                [
+                    -470.4612367153168,
+                    -152.6078383922577,
+                    -503.5169677734375,
+                    -465.74955463409424,
+                    -509.92599511146545,
+                    -444.68202471733093,
+                    -137.90373015403748,
+                    -469.7864565849304,
+                    -492.16516721248627,
+                    -501.8717894554138,
+                    -483.1123265028
+                ],
+                [
+                    -470.4612367153168,
+                    -152.6078383922577,
+                    -503.5169677734375,
+                    -465.74955463409424,
+                    -509.92599511146545,
+                    -444.68202471733093,
+                    -137.90373015403748,
+                    -469.7864565849304,
+                    -492.16516721248627,
+                    -501.8717894554138,
+                    -483.1123265028
+                ],
+                [
+                    -470.4612367153168,
+                    -152.6078383922577,
+                    -503.5169677734375,
+                    -465.74955463409424,
+                    -509.92599511146545,
+                    -444.68202471733093,
+                    -137.90373015403748,
+                    -469.7864565849304,
+                    -492.16516721248627,
+                    -501.8717894554138,
+                    -483.1123265028
+                ],
+                [
+                    -468.06632709503174,
+                    -154.22207617759705,
+                    -497.47256326675415,
+                    -471.2934000492096,
+                    -505.48104417324066,
+                    -453.58283138275146,
+                    -137.84559750556946,
+                    -483.01303231716156,
+                    -476.64832162857056,
+                    -514.6264750957489,
+                    -478.78240418434143
+                ],
+                [
+                    -486.49180340766907,
+                    -152.98779797554016,
+                    -496.611447930336,
+                    -494.49142479896545,
+                    -501.84071159362793,
+                    -459.8283107280731,
+                    -135.0546169281006,
+                    -487.4787287712097,
+                    -490.6502823829651,
+                    -504.1432948112488,
+                    -489.02211022377014
+                ],
+                [
+                    -470.4612367153168,
+                    -152.6078383922577,
+                    -503.5169677734375,
+                    -465.74955463409424,
+                    -509.92599511146545,
+                    -444.68202471733093,
+                    -137.90373015403748,
+                    -469.7864565849304,
+                    -492.16516721248627,
+                    -501.8717894554138,
+                    -483.1123265028
+                ],
+                [
+                    -470.4612367153168,
+                    -152.6078383922577,
+                    -503.5169677734375,
+                    -465.74955463409424,
+                    -509.92599511146545,
+                    -444.68202471733093,
+                    -137.90373015403748,
+                    -469.7864565849304,
+                    -492.16516721248627,
+                    -501.8717894554138,
+                    -483.1123265028
+                ],
+                [
+                    -470.4612367153168,
+                    -152.6078383922577,
+                    -503.5169677734375,
+                    -465.74955463409424,
+                    -509.92599511146545,
+                    -444.68202471733093,
+                    -137.90373015403748,
+                    -469.7864565849304,
+                    -492.16516721248627,
+                    -501.8717894554138,
+                    -483.1123265028
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            5.043258915879854
+        ],
+        "posix": 5.043258915879854
+    }
+}

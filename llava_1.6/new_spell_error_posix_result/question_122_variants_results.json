@@ -1,0 +1,189 @@
+{
+    "file_name": "question_122_variants.json",
+    "overall_posix": 5.677685575932263,
+    "detailed_scores": [
+        {
+            "Variation 1": 9.921243215862074,
+            "Variation 2": 1.5188113071701743,
+            "Variation 3": 8.770949459075927,
+            "Variation 4": 2.6713807153701783,
+            "Variation 5": 0.0,
+            "Variation 6": 2.2213402462005614,
+            "Variation 7": 9.921243215862074,
+            "Variation 8": 9.921243215862074,
+            "Variation 9": 9.921243215862074,
+            "Variation 10": 2.1728956401348114
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can interstitial changes be observed in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, interstitial changes are not visible in the chest X-ray. The image shows a normal chest X-ray with no signs of interstitial changes.",
+                "Yes, interstitial changes can be observed in the chest X-ray.",
+                "No, interstitial changes are not visible in the chest X-ray. The image shows a normal chest X-ray with no signs of interstitial lung disease or other abnormalities.",
+                "Yes, itnerstitial changes can be observed in the chest X-ray.",
+                "Based on the image provided, it is not possible to definitively determine if there are interstitial changes in the chest X-ray. Interstitial changes can include a variety of conditions such as inflammation, fibrosis,",
+                "No, interstitial changes are not visible in the chest X-ray. The image shows a normal chest X-ray with no signs of interstitial changes.",
+                "Yes, interstitial changes can be observed in the chest X-ray. The image shows a chest X-ray with a visible halo sign, which is indicative of interstitial lung changes, such as those seen in conditions",
+                "Yes, interstitial changes can be observed in the chest X-ray.",
+                "Yes, interstitial changes can be observed in the chest X-ray.",
+                "Yes, interstitial changes can be observed in the chest X-ray.",
+                "No, interstitial changes are not visible in the chest X-ray. The image shows a normal chest X-ray with no signs of interstitial changes, such as infiltrates or consolidations."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -369.11904859542847,
+                    -180.61542749404907,
+                    -435.94674611091614,
+                    -193.7000594139099,
+                    -502.6880843639374,
+                    -369.11904859542847,
+                    -480.18606090545654,
+                    -180.61542749404907,
+                    -180.61542749404907,
+                    -180.61542749404907,
+                    -473.4180393218994
+                ],
+                [
+                    -358.5401186943054,
+                    -174.73631048202515,
+                    -419.11711847782135,
+                    -195.62637567520142,
+                    -479.3515386581421,
+                    -358.5401186943054,
+                    -483.5410659313202,
+                    -174.73631048202515,
+                    -174.73631048202515,
+                    -174.73631048202515,
+                    -457.16334986686707
+                ],
+                [
+                    -360.8102512359619,
+                    -174.52335941791534,
+                    -416.0079799890518,
+                    -190.03245693445206,
+                    -519.734094619751,
+                    -360.8102512359619,
+                    -471.190979719162,
+                    -174.52335941791534,
+                    -174.52335941791534,
+                    -174.52335941791534,
+                    -464.18980264663696
+                ],
+                [
+                    -354.4572596549988,
+                    -169.33195543289185,
+                    -421.4560091495514,
+                    -187.93158626556396,
+                    -514.787602186203,
+                    -354.4572596549988,
+                    -474.79539918899536,
+                    -169.33195543289185,
+                    -169.33195543289185,
+                    -169.33195543289185,
+                    -455.25365364551544
+                ],
+                [
+                    -363.3290057182312,
+                    -181.80150032043457,
+                    -428.6093089580536,
+                    -184.960834980011,
+                    -513.5046298503876,
+                    -363.3290057182312,
+                    -500.0838665962219,
+                    -181.80150032043457,
+                    -181.80150032043457,
+                    -181.80150032043457,
+                    -468.33889758586884
+                ],
+                [
+                    -358.5401186943054,
+                    -174.73631048202515,
+                    -419.11711847782135,
+                    -195.62637567520142,
+                    -479.3515386581421,
+                    -358.5401186943054,
+                    -483.5410659313202,
+                    -174.73631048202515,
+                    -174.73631048202515,
+                    -174.73631048202515,
+                    -457.16334986686707
+                ],
+                [
+                    -354.4572596549988,
+                    -169.33195543289185,
+                    -421.4560091495514,
+                    -187.93158626556396,
+                    -514.787602186203,
+                    -354.4572596549988,
+                    -474.79539918899536,
+                    -169.33195543289185,
+                    -169.33195543289185,
+                    -169.33195543289185,
+                    -455.25365364551544
+                ],
+                [
+                    -354.4572596549988,
+                    -169.33195543289185,
+                    -421.4560091495514,
+                    -187.93158626556396,
+                    -514.787602186203,
+                    -354.4572596549988,
+                    -474.79539918899536,
+                    -169.33195543289185,
+                    -169.33195543289185,
+                    -169.33195543289185,
+                    -455.25365364551544
+                ],
+                [
+                    -369.11904859542847,
+                    -180.61542749404907,
+                    -435.94674611091614,
+                    -193.7000594139099,
+                    -502.6880843639374,
+                    -369.11904859542847,
+                    -480.18606090545654,
+                    -180.61542749404907,
+                    -180.61542749404907,
+                    -180.61542749404907,
+                    -473.4180393218994
+                ],
+                [
+                    -354.4572596549988,
+                    -169.33195543289185,
+                    -421.4560091495514,
+                    -187.93158626556396,
+                    -514.787602186203,
+                    -354.4572596549988,
+                    -474.79539918899536,
+                    -169.33195543289185,
+                    -169.33195543289185,
+                    -169.33195543289185,
+                    -455.25365364551544
+                ],
+                [
+                    -363.3290057182312,
+                    -181.80150032043457,
+                    -428.6093089580536,
+                    -184.960834980011,
+                    -513.5046298503876,
+                    -363.3290057182312,
+                    -500.0838665962219,
+                    -181.80150032043457,
+                    -181.80150032043457,
+                    -181.80150032043457,
+                    -468.33889758586884
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            5.677685575932263
+        ],
+        "posix": 5.677685575932263
+    }
+}

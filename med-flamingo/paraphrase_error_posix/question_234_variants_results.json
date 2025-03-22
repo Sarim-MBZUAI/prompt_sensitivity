@@ -1,0 +1,42 @@
+{
+    "file_name": "question_234_variants.json",
+    "overall_posix": 0.44064257362439924,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2628865979381443,
+            "Variation 2": 0.39303482587064675,
+            "Variation 3": 0.5112359550561798,
+            "Variation 4": 0.0,
+            "Variation 5": 0.34196891191709844,
+            "Variation 6": 0.6496815286624203,
+            "Variation 7": 0.6951566951566952,
+            "Variation 8": 0.6677018633540373,
+            "Variation 9": 0.6029411764705882,
+            "Variation 10": 0.28181818181818175
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show any radiographic abnormalities in the lung fields? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any notable pulmonary lesions or infiltrates visible on this X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Please choose from the following two options: [yes, no]\n<image> \u2460\n \u2461\n \u2462\n \u2463\n \u2464\n \u2465\n \u2466\n \u2467\n \u2468\n \u2469\n",
+                "<s> Is there any abnormality detected in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pneumonic consolidation within the lungs on this film? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Would you expect to see normal lung parenchyma on an X-ray without any abnormalities? Please choose from the following two options: [yes, no]\n<image> a. Normal lung parenchyma\n b. Abnormal lung parenchyma\n 10. Please select from the following two options: [yes, no]\n a. The X-ray shows a normal heart shadow\n b",
+                "<s> Are abnormal lung markings, such as increased opacity or nodularity, visible in this image? Please choose from the following two options: [yes, no]\n<image> 1. Are abnormal lung markings, such as increased opacity or nodularity, visible in this image? Please choose from the following two options: [yes, no]\n 2. Are the heart and mediastinum normal",
+                "<s> Does this X-ray show any radiographic signs of pulmonary disease or pathology? Please choose from the following two options: [yes, no]\n<image> a. Yes, the X-ray shows a right lower lobe consolidation\n b. No, the X-ray shows no radiographic signs of pulmonary disease or pathology\n 2. Which of the following is the most",
+                "<s> Would you describe the lungs as normal-appearing on this chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1. Normal-appearing lungs\n 2. Abnormal-appearing lungs\n 1. Normal-appearing lungs\n 2. Abnormal-appearing lungs\n Correct answer: ",
+                "<s> Are there any lung abnormalities that could be consistent with infection, inflammation, or malignancy? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.44064257362439924
+        ],
+        "posix": 0.44064257362439924
+    }
+}

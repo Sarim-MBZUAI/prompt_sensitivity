@@ -1,0 +1,42 @@
+{
+    "file_name": "question_379_variants.json",
+    "overall_posix": 0.44088352087435984,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5306122448979592,
+            "Variation 2": 0.5310344827586206,
+            "Variation 3": 0.25520833333333326,
+            "Variation 4": 0.48888888888888893,
+            "Variation 5": 0.5310344827586206,
+            "Variation 6": 0.5070921985815603,
+            "Variation 7": 0.3222748815165877,
+            "Variation 8": 0.45914396887159525,
+            "Variation 9": 0.3913043478260869,
+            "Variation 10": 0.39224137931034475
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The patient has a fracture of the T11 vertebra. The fracture line is seen as a linear lucency in the vertebral body (Fig. ",
+                "<s> Question:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 10.Question:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n",
+                "<s> q:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> QUESTION:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\n A:\n B:\n 3.",
+                "<s> Question:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 10.Question:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n",
+                "<s> Question:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]||Answer:\n<image> Question:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\n 1.Yes\n 2.No\n 1.Yes\n 2.No",
+                "<s> q::Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n [no, yes]\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Acute fracture of the thoracic spine\n B.Acute",
+                "<s> QUESTION:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, no]\n [No, yes]\n [No, yes]\n [Yes, no]\n [Yes, no]\n [No, yes]\n [No, yes]\n [Yes",
+                "<s> Q:Is the thoracic spine showing any signs of fracture? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is there any evidence of a fracture of the thoracic spine?\n [Yes, no]\n 10\n 11\n 12\n 13\n 1"
+            ]
+        ],
+        "sensitivities": [
+            0.44088352087435984
+        ],
+        "posix": 0.44088352087435984
+    }
+}

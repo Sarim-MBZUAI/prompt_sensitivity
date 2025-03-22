@@ -1,0 +1,189 @@
+{
+    "file_name": "question_194_variants.json",
+    "overall_posix": 24.664042411586443,
+    "detailed_scores": [
+        {
+            "Variation 1": 2.8741521072387695,
+            "Variation 2": 2.5621886372566225,
+            "Variation 3": 115.95029815038045,
+            "Variation 4": 0.9500692451701445,
+            "Variation 5": 3.1480942821502684,
+            "Variation 6": 2.1339426760872207,
+            "Variation 7": 0.4777694759946881,
+            "Variation 8": 1.5333046528600878,
+            "Variation 9": 0.4777694759946881,
+            "Variation 10": 115.95029815038045
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs fully expanded without any areas of collapse? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the lungs in the image are not fully expanded without any areas of collapse. There is a visible area of collapse in the lower lobe of the right lung.",
+                "No, the lungs are not fully expanded without any areas of collapse. The image shows a chest X-ray with a collapsed lung, which is a medical condition where one or both lungs do not fully inflate. This can be caused by various factors",
+                "No, the lungs are not fully expanded without any areas of collapse. The image shows a chest X-ray with a lung that appears to be partially collapsed, which is indicated by the presence of air in the pleural space and the absence of air",
+                "No",
+                "No, the lungs are not fully expanded without any areas of collapse. The image shows a chest X-ray with a lung that appears to be partially collapsed.",
+                "Based on the image provided, it is not possible to definitively determine if the lungs are fully expanded without any areas of collapse. The image appears to be a medical X-ray, but the quality and angle of the image may not provide enough information",
+                "No, the lungs are not fully expanded without any areas of collapse. The image shows a chest X-ray with a lung that appears to be partially collapsed, which is indicated by the term \"LAT\" on the image.",
+                "No, the lungs are not fully expanded without any areas of collapse. There is a visible area of collapse in the lower lobe of the right lung.",
+                "No, the lungs in the image are not fully expanded. There is an area of collapse visible in the lower lobe of the right lung.",
+                "No, the lungs are not fully expanded without any areas of collapse. There is a visible area of collapse in the lower lobe of the right lung.",
+                "No"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -372.5573115348816,
+                    -516.2649168968201,
+                    -500.6667433977127,
+                    -24.706417083740234,
+                    -340.2549571990967,
+                    -529.962025642395,
+                    -474.9865599870682,
+                    -356.7909188270569,
+                    -325.0248672962189,
+                    -356.7909188270569,
+                    -24.706417083740234
+                ],
+                [
+                    -363.6810821890831,
+                    -527.6962696313858,
+                    -510.1514928340912,
+                    -26.54101324081421,
+                    -342.71568727493286,
+                    -542.7732877731323,
+                    -465.0093755722046,
+                    -341.95280504226685,
+                    -306.36919116973877,
+                    -341.95280504226685,
+                    -26.54101324081421
+                ],
+                [
+                    -379.27720403671265,
+                    -526.2764490842819,
+                    -509.4448707103729,
+                    -26.825849294662476,
+                    -350.9484374523163,
+                    -536.5656881332397,
+                    -471.8353786468506,
+                    -338.56387186050415,
+                    -315.39378929138184,
+                    -338.56387186050415,
+                    -26.825849294662476
+                ],
+                [
+                    -361.93049001693726,
+                    -519.8344926834106,
+                    -522.3570983409882,
+                    -27.275794982910156,
+                    -342.76469415426254,
+                    -513.961831331253,
+                    -473.2138569355011,
+                    -350.6474804878235,
+                    -319.7630000114441,
+                    -350.6474804878235,
+                    -27.275794982910156
+                ],
+                [
+                    -361.93049001693726,
+                    -519.8344926834106,
+                    -522.3570983409882,
+                    -27.275794982910156,
+                    -342.76469415426254,
+                    -513.961831331253,
+                    -473.2138569355011,
+                    -350.6474804878235,
+                    -319.7630000114441,
+                    -350.6474804878235,
+                    -27.275794982910156
+                ],
+                [
+                    -354.19041204452515,
+                    -532.3905172348022,
+                    -522.4996070861816,
+                    -27.284611225128174,
+                    -345.79424476623535,
+                    -537.1437478065491,
+                    -478.0184061527252,
+                    -348.3692636489868,
+                    -296.0015277862549,
+                    -348.3692636489868,
+                    -27.284611225128174
+                ],
+                [
+                    -363.6810821890831,
+                    -527.6962696313858,
+                    -510.1514928340912,
+                    -26.54101324081421,
+                    -342.71568727493286,
+                    -542.7732877731323,
+                    -465.0093755722046,
+                    -341.95280504226685,
+                    -306.36919116973877,
+                    -341.95280504226685,
+                    -26.54101324081421
+                ],
+                [
+                    -354.19041204452515,
+                    -532.3905172348022,
+                    -522.4996070861816,
+                    -27.284611225128174,
+                    -345.79424476623535,
+                    -537.1437478065491,
+                    -478.0184061527252,
+                    -348.3692636489868,
+                    -296.0015277862549,
+                    -348.3692636489868,
+                    -27.284611225128174
+                ],
+                [
+                    -379.27720403671265,
+                    -526.2764490842819,
+                    -509.4448707103729,
+                    -26.825849294662476,
+                    -350.9484374523163,
+                    -536.5656881332397,
+                    -471.8353786468506,
+                    -338.56387186050415,
+                    -315.39378929138184,
+                    -338.56387186050415,
+                    -26.825849294662476
+                ],
+                [
+                    -354.19041204452515,
+                    -532.3905172348022,
+                    -522.4996070861816,
+                    -27.284611225128174,
+                    -345.79424476623535,
+                    -537.1437478065491,
+                    -478.0184061527252,
+                    -348.3692636489868,
+                    -296.0015277862549,
+                    -348.3692636489868,
+                    -27.284611225128174
+                ],
+                [
+                    -355.10713052749634,
+                    -516.8772442340851,
+                    -510.91541171073914,
+                    -27.914586305618286,
+                    -337.3245038986206,
+                    -518.8512947559357,
+                    -463.375066280365,
+                    -336.1750172972679,
+                    -312.9061532020569,
+                    -336.1750172972679,
+                    -27.914586305618286
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            24.664042411586443
+        ],
+        "posix": 24.664042411586443
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_242_variants.json",
+    "overall_posix": 0.4009599488600205,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4823943661971831,
+            "Variation 2": 0.449438202247191,
+            "Variation 3": 0.3119266055045872,
+            "Variation 4": 0.4690909090909091,
+            "Variation 5": 0.5017421602787456,
+            "Variation 6": 0.4034334763948497,
+            "Variation 7": 0.25806451612903225,
+            "Variation 8": 0.4369747899159664,
+            "Variation 9": 0.2924528301886793,
+            "Variation 10": 0.4040816326530612
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question::: Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n Correct Answer: Option 1\n [10 points]\n 10.\n Question: A 55-year-old man with a history of diabetes and hy",
+                "<s> question:Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n A.Yes\n B.No\n 10.Question 10:\n A 55-year-old man with a history of a myocardial infarction 1 year ago, and a history of hy",
+                "<s> q::Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> question::Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The chest X-ray shows a right-sided hemothorax.\n B: The chest X-ray is normal.\n C: The chest X-ray is normal.\n D: The ch",
+                "<s> Q::Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any indication of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there any",
+                "<s> Question:Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tThe\tchest\tX-ray\tis\tnormal.\n \u2022\tThe\tchest\tX-ray\tshows\ta\tleft\themothorax.\n 10.",
+                "<s> Q:Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: \u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191\u2191",
+                "<s> Question:Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n \u2022\tThe\tchest\tX-ray\tshows\ta\tleft\themothorax.\n \u2022\tThe\tchest\tX-ray\tshows\ta\tleft\themothorax.\n",
+                "<s> q:::Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Is there any indication of a hemothorax on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)Yes\n (b)No\n 3.\n QUESTION:What is the most likely diagnosis?\n (a)Pneumothorax\n (b)Hemothorax\n (c)P"
+            ]
+        ],
+        "sensitivities": [
+            0.4009599488600205
+        ],
+        "posix": 0.4009599488600205
+    }
+}

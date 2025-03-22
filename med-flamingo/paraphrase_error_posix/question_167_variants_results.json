@@ -1,0 +1,42 @@
+{
+    "file_name": "question_167_variants.json",
+    "overall_posix": 0.40652080916318295,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6237623762376238,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5222929936305732,
+            "Variation 4": 0.31718061674008813,
+            "Variation 5": 0.42380952380952386,
+            "Variation 6": 0.4621513944223108,
+            "Variation 7": 0.3399209486166008,
+            "Variation 8": 0.38745387453874547,
+            "Variation 9": 0.6363636363636364,
+            "Variation 10": 0.3522727272727273
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient exhibit evidence of fluid overload on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  A 55-year-old man with a history of hypertension and diabetes presents to the emergency department with a 2-day history of fever, chills, and a nonproductive",
+                "<s> Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic findings indicative of congestive heart failure in this patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> A. Yes, there is cardiomegaly.\n B. No, there is no cardiomegaly.\n 4.\n What is the most likely diagnosis?\n A. Congestive heart failure\n B. Pulmon",
+                "<s> Does the chest X-ray reveal any signs suggestive of cardiac decompensation due to left-sided volume overload? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence of pulmonary venous congestion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does the patient display signs of cardiomegaly and/or pleural effusion on this chest X-ray, consistent with congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.10a\n 1.10b\n 1.10c\n 1.10d\n 1.10e\n 1.10f\n 1.10g\n ",
+                "<s> Are there radiographic findings suggestive of increased interstitial lung markings due to fluid overload in this patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray reveal any signs indicative of left atrial enlargement and/or left ventricular hypertrophy consistent with congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence of Kerley B lines or other interstitial lung markings suggestive of pulmonary edema in this patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 2. Is there a suggestion of a right upper lobe opacity? [yes, no]\n 3. Is there a suggestion of a left lower lobe opacity? [yes, no]\n 4. Is there a suggestion of",
+                "<s> Does the patient exhibit any signs of alveolar consolidation or atelectasis on this chest X-ray that could be related to congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.40652080916318295
+        ],
+        "posix": 0.40652080916318295
+    }
+}

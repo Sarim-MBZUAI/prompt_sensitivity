@@ -1,0 +1,189 @@
+{
+    "file_name": "question_7_variants.json",
+    "overall_posix": 29.862802962796515,
+    "detailed_scores": [
+        {
+            "Variation 1": 9.936988559636204,
+            "Variation 2": 10.32914169629415,
+            "Variation 3": 9.936988559636204,
+            "Variation 4": 134.02640644709268,
+            "Variation 5": 1.062229790687561,
+            "Variation 6": 134.02640644709268,
+            "Variation 7": 133.41525348027548,
+            "Variation 8": 1.4663592004776,
+            "Variation 9": 1.5414819288253785,
+            "Variation 10": 0.02872511318751744
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the pulmonary vascularity increased on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the pulmonary vascularity does not appear to be increased on the chest X-ray. The image shows a normal chest X-ray with no signs of increased vascularity.",
+                "Yes, the pulmonary vascularity appears to be increased on the chest X-ray.",
+                "No, the pulmonary vascularity is not increased on the chest X-ray.",
+                "Yes, the pulmonary vascularity appears to be increased on the chest X-ray.",
+                "No",
+                "Based on the image provided, it is not possible to accurately assess the pulmonary vascularity. The image is a black and white X-ray of the chest, which does not provide sufficient detail to make a definitive assessment of the pul",
+                "No",
+                "Yes",
+                "Based on the image provided, it is not possible to definitively determine if the pulmonary vascularity is increased. The image is a black and white X-ray of the chest, which does not provide enough information to make that assessment.",
+                "Based on the image provided, it appears that the pulmonary vascularity is increased. The chest X-ray shows a prominent vascular marking, which is indicative of increased blood flow to the lungs. This can be a sign of",
+                "No, the pulmonary vascularity is not increased on the chest X-ray. The image shows a normal chest X-ray with no signs of increased pulmonary vascularity."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -430.75813579559326,
+                    -212.1443874835968,
+                    -213.84616017341614,
+                    -212.1443874835968,
+                    -28.678916454315186,
+                    -483.8696253299713,
+                    -28.678916454315186,
+                    -30.512375354766846,
+                    -504.07609581947327,
+                    -507.8322322368622,
+                    -431.964590549469
+                ],
+                [
+                    -426.6518745422363,
+                    -232.71374988555908,
+                    -214.95543098449707,
+                    -232.71374988555908,
+                    -37.17478275299072,
+                    -503.5226171016693,
+                    -37.17478275299072,
+                    -38.37535381317139,
+                    -494.8996033668518,
+                    -507.0974049568176,
+                    -435.39879322052
+                ],
+                [
+                    -430.7633948326111,
+                    -242.72424840927124,
+                    -230.32324647903442,
+                    -242.72424840927124,
+                    -27.180572032928467,
+                    -487.93137872219086,
+                    -27.180572032928467,
+                    -28.72556734085083,
+                    -497.9935793876648,
+                    -521.2024483680725,
+                    -447.8954381942749
+                ],
+                [
+                    -430.7633948326111,
+                    -242.72424840927124,
+                    -230.32324647903442,
+                    -242.72424840927124,
+                    -27.180572032928467,
+                    -487.93137872219086,
+                    -27.180572032928467,
+                    -28.72556734085083,
+                    -497.9935793876648,
+                    -521.2024483680725,
+                    -447.8954381942749
+                ],
+                [
+                    -424.0218276977539,
+                    -228.20665192604065,
+                    -210.64222264289856,
+                    -228.20665192604065,
+                    -26.353301525115967,
+                    -463.1533408164978,
+                    -26.353301525115967,
+                    -28.83337640762329,
+                    -495.31115460395813,
+                    -488.3508081436157,
+                    -422.10602712631226
+                ],
+                [
+                    -433.68023800849915,
+                    -233.76889991760254,
+                    -230.94629621505737,
+                    -233.76889991760254,
+                    -25.494873046875,
+                    -493.2197177410126,
+                    -25.494873046875,
+                    -27.135456085205078,
+                    -508.36962604522705,
+                    -500.9885518550873,
+                    -448.51972103118896
+                ],
+                [
+                    -433.68023800849915,
+                    -233.76889991760254,
+                    -230.94629621505737,
+                    -233.76889991760254,
+                    -25.494873046875,
+                    -493.2197177410126,
+                    -25.494873046875,
+                    -27.135456085205078,
+                    -508.36962604522705,
+                    -500.9885518550873,
+                    -448.51972103118896
+                ],
+                [
+                    -426.33679151535034,
+                    -236.3358507156372,
+                    -210.79578495025635,
+                    -236.3358507156372,
+                    -27.46509099006653,
+                    -477.83655428886414,
+                    -27.46509099006653,
+                    -28.381712198257446,
+                    -469.6867575645447,
+                    -502.87893414497375,
+                    -430.56936597824097
+                ],
+                [
+                    -426.33679151535034,
+                    -236.3358507156372,
+                    -210.79578495025635,
+                    -236.3358507156372,
+                    -27.46509099006653,
+                    -477.83655428886414,
+                    -27.46509099006653,
+                    -28.381712198257446,
+                    -469.6867575645447,
+                    -502.87893414497375,
+                    -430.56936597824097
+                ],
+                [
+                    -433.68023800849915,
+                    -233.76889991760254,
+                    -230.94629621505737,
+                    -233.76889991760254,
+                    -25.494873046875,
+                    -493.2197177410126,
+                    -25.494873046875,
+                    -27.135456085205078,
+                    -508.36962604522705,
+                    -500.9885518550873,
+                    -448.51972103118896
+                ],
+                [
+                    -426.6518745422363,
+                    -232.71374988555908,
+                    -214.95543098449707,
+                    -232.71374988555908,
+                    -37.17478275299072,
+                    -503.5226171016693,
+                    -37.17478275299072,
+                    -38.37535381317139,
+                    -494.8996033668518,
+                    -507.0974049568176,
+                    -435.39879322052
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            29.862802962796515
+        ],
+        "posix": 29.862802962796515
+    }
+}

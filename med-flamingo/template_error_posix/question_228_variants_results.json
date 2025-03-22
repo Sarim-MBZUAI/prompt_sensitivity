@@ -1,0 +1,42 @@
+{
+    "file_name": "question_228_variants.json",
+    "overall_posix": 0.4239690707997495,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3008849557522124,
+            "Variation 2": 0.4172932330827068,
+            "Variation 3": 0.5170278637770898,
+            "Variation 4": 0.47750865051903113,
+            "Variation 5": 0.3008849557522124,
+            "Variation 6": 0.5096153846153846,
+            "Variation 7": 0.5032467532467533,
+            "Variation 8": 0.1465968586387434,
+            "Variation 9": 0.5295950155763239,
+            "Variation 10": 0.5370370370370371
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> QUESTION\tAre the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a normal cardiothoracic ratio (CTR) of 60% and a normal cardiothoracic\n",
+                "<s> QUESTION:Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Correct Answer:\n Option 1\n Explanation:\n The chest X-ray is normal. The pulmonary markings are within normal limits. The heart size is normal",
+                "<s> Q:Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Pulmonary edema\n Q:What is the most likely cause of this patient\u2019s pulmonary edema?\n A:Acute",
+                "<s> q::Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question::: Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n Correct Answer: Option 2\n A 24-year-old man presents to the emergency department with a 2-day history of fever, chills, and a",
+                "<s> question:Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes, the pulmonary markings are within normal limits on the chest X-ray.\n 2.No, the pulmonary markings are not within normal limits on the chest X-ray.",
+                "<s> q:Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 1",
+                "<s> Question-Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n Comments: The chest X-ray shows a normal cardiac silhouette. The heart size is normal, and the cardiac silhouette is not enlarged. The cardiac size is normal.",
+                "<s> Question:Are the pulmonary markings within normal limits on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of hypertension and hyperlipidemia. He has been diagnosed with aortic stenosis and is scheduled for aort"
+            ]
+        ],
+        "sensitivities": [
+            0.4239690707997495
+        ],
+        "posix": 0.4239690707997495
+    }
+}

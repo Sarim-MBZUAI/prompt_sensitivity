@@ -1,0 +1,42 @@
+{
+    "file_name": "question_245_variants.json",
+    "overall_posix": 0.3997661080367375,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5088967971530249,
+            "Variation 2": 0.3973799126637554,
+            "Variation 3": 0.23118279569892475,
+            "Variation 4": 0.5294117647058824,
+            "Variation 5": 0.30541871921182273,
+            "Variation 6": 0.5127272727272727,
+            "Variation 7": 0.22872340425531912,
+            "Variation 8": 0.32535885167464107,
+            "Variation 9": 0.42914979757085026,
+            "Variation 10": 0.5294117647058824
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n The chest X-ray shows a right-sided pleural effusion.\n 10.\n QUESTION:What is the differential diagnosis for a pleural effusion?\n Answer:\n 1.",
+                "<s> Question:Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, yes]\n [no, no]\n [yes, yes]\n [yes, no]\n [no, yes]\n [yes, yes]\n [yes, no]\n [no",
+                "<s> Q:Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n N:\n O:\n S:\n E:\n D:\n E:\n L:\n A:\n 1:\n 2:\n 3",
+                "<s> Question:Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.Question:Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n No\n 11.Question:Can",
+                "<s> q:::Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Q:Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no]\n Q:Can",
+                "<s> QUESTION:Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> q::Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> question::Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A chest X-ray can show a pleural effusion.\n 100\n Tests: Imaging\n 100\n Questions\n 100\n Tests: Imaging\n 10",
+                "<s> Question:Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10.Question:Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer:\n No\n 11.Question:Can"
+            ]
+        ],
+        "sensitivities": [
+            0.3997661080367375
+        ],
+        "posix": 0.3997661080367375
+    }
+}

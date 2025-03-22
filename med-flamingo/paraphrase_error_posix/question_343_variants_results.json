@@ -1,0 +1,42 @@
+{
+    "file_name": "question_343_variants.json",
+    "overall_posix": 0.3907580744300886,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.18787878787878787,
+            "Variation 3": 0.40414507772020725,
+            "Variation 4": 0.41530054644808745,
+            "Variation 5": 0.6603174603174603,
+            "Variation 6": 0.3110047846889952,
+            "Variation 7": 0.25,
+            "Variation 8": 0.6722689075630253,
+            "Variation 9": 0.29648241206030157,
+            "Variation 10": 0.7101827676240209
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the patient's heart size abnormal? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the cardiac silhouette larger than expected? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient's heart appear to be of normal size on this imaging study? Please choose from the following two options: [yes, no]\n<image> 2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are the dimensions of the cardiac shadow within the normal range? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Please note if the heart appears to be enlarged in this radiograph. Please choose from the following two options: [yes, no]\n<image> 1.The heart is enlarged.\n 2.The heart is not enlarged.\n Please indicate if the heart appears to be enlarged in this radiograph. Please choose from the following two options: [yes,",
+                "<s> Is there evidence of cardiomegaly, where the heart appears significantly larger than usual? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the heart size appear to be within the expected normative values? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the patient's cardiac silhouette larger than would be expected for a person of their stature and sex? Please choose from the following two options: [yes, no]\n<image> 11. Is the patient's cardiac silhouette larger than would be expected for a person of their stature and sex? Please choose from the following two options: [yes, no]\n 12. Is the patient",
+                "<s> Please indicate if the cardiac size is greater than normal on this imaging study. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the measurements of the cardiac silhouette consistent with those typically seen in healthy individuals? Please choose from the following two options: [yes, no]\n<image> 11.  Are the measurements of the cardiac silhouette consistent with those typically seen in healthy individuals? Please choose from the following two options: [yes, no]\n 12.  Are the measurements of the card"
+            ]
+        ],
+        "sensitivities": [
+            0.3907580744300886
+        ],
+        "posix": 0.3907580744300886
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_240_variants.json",
+    "overall_posix": 0.34440160613360565,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.25698324022346375,
+            "Variation 2": 0.23369565217391308,
+            "Variation 3": 0.2857142857142857,
+            "Variation 4": 0.4926829268292683,
+            "Variation 5": 0.5917602996254682,
+            "Variation 6": 0.5822368421052632,
+            "Variation 7": 0.19191919191919193,
+            "Variation 8": 0.4879227053140096,
+            "Variation 9": 0.32110091743119273,
+            "Variation 10": 0.0
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray indicate the presence of a pneumothorax? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray indicate the presence of a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of a pneumothorax on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiograph show air in the pleural space around the lung? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there signs of a spontaneous pneumothorax on this anterior-posterior view? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you identify a visible pneumothorax on this chest film? Please choose from the following two options: [yes, no]\n<image> 1. ______\n 2. ______\n 3. ______\n 4. ______\n 5. ______\n 6. ______\n 7. ______\n ",
+                "<s> Is there an indication of an open pneumothorax based on the provided image? Please choose from the following two options: [yes, no]\n<image> 1a. Yes, there is an open pneumothorax.\n 1b. No, there is not an open pneumothorax.\n 2a. Yes, there is an open pneumothorax",
+                "<s> On this X-ray, are there air leaks into the pleural space that suggest a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1. Air is leaking into the pleural space.\n 2. Air is not leaking into the pleural space.\n 1. Air is leaking into the pleural space.\n 2. Air is not le",
+                "<s> Does the chest X-ray indicate any abnormal air collections adjacent to the lung? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Would you expect to see evidence of a pneumothorax in this radiograph, and is it present? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are there visible signs of air escaping from the lung parenchyma onto the surrounding pleural space? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray indicate the presence of a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.34440160613360565
+        ],
+        "posix": 0.34440160613360565
+    }
+}

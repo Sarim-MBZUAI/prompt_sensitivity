@@ -1,0 +1,42 @@
+{
+    "file_name": "question_2_variants.json",
+    "overall_posix": 0.4107349131631203,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4758842443729904,
+            "Variation 2": 0.4790996784565916,
+            "Variation 3": 0.337620578778135,
+            "Variation 4": 0.495176848874598,
+            "Variation 5": 0.4437299035369775,
+            "Variation 6": 0.4533762057877814,
+            "Variation 7": 0.43887147335423204,
+            "Variation 8": 0.5016077170418006,
+            "Variation 9": 0.13793103448275867,
+            "Variation 10": 0.3440514469453376
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no]\n<image> 11. Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in shape? Please choose from the following two options: [yes, no]\n 12. Is the card",
+                "<s> question:Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n Reprinted from http://radiology-itup.com/ with permission.\n 10.10.1 K1000.qxd  7/14/06  11:3",
+                "<s> Q::Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> QUESTION\tIs the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The cardiomediastinal silhouette of the patient's chest X-ray is abnormal in size. The cardiomediastinal silhou",
+                "<s> Q::: Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q:Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> q::Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n The patient's cardiomediastinal silhouette is not abnormal in size.\n The patient's cardiomediastinal silhouette is ab",
+                "<s> QUESTION:Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in shape? Please choose from the following two options: [yes, no]",
+                "<s> Q:Is the cardiomediastinal silhouette of the patient's chest X-ray abnormal in size? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tThe\tcardiomediastinal\tsilhouette\tof\tthe\tpatient\u2019s\tchest\tX-ray\tis\tabnormal\tin\tsize.\n \u2022\tThe\t"
+            ]
+        ],
+        "sensitivities": [
+            0.4107349131631203
+        ],
+        "posix": 0.4107349131631203
+    }
+}

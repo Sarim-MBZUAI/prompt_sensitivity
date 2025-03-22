@@ -1,0 +1,42 @@
+{
+    "file_name": "question_87_variants.json",
+    "overall_posix": 0.4179019141120476,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.21311475409836067,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6912181303116147,
+            "Variation 4": 0.384180790960452,
+            "Variation 5": 0.24607329842931935,
+            "Variation 6": 0.38288288288288286,
+            "Variation 7": 0.631578947368421,
+            "Variation 8": 0.6997167138810199,
+            "Variation 9": 0.22916666666666663,
+            "Variation 10": 0.7010869565217391
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any opacities present in the lung fields on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the lungs appear normal on this radiograph with no evidence of consolidation or infiltration? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the lungs appear normal on this radiograph with no evidence of consolidation or infiltration.\n 2. No, the lungs appear abnormal on this radiograph with evidence of consolidation or",
+                "<s> Is there any pulmonary disease visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Are the lung markings and alveolar spaces clear and normal in appearance? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this X-ray show any abnormalities suggestive of respiratory disease such as emphysema or pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lung fields transparent on this radiograph with no visible lesions or masses? Please choose from the following two options: [yes, no]\n<image> 1.Yes, the lung fields are transparent.\n 2.No, the lung fields are not transparent.\n 1.Yes, the lung fields are transparent.\n 2.No, the lung fields are not transparent.\n",
+                "<s> Is there any evidence of cardiomegaly or other thoracic abnormalities affecting lung appearance? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of aortic arch calcification? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of aortic valve calcification? Please choose from",
+                "<s> Are the lung fields free of any opacities or consolidations on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this radiograph demonstrate normal lung architecture and no signs of respiratory disease? Please choose from the following two options: [yes, no]\n<image> 1. Normal lung architecture and no signs of respiratory disease\n 2. Normal lung architecture and signs of respiratory disease\n 3. Abnormal lung architecture and no signs of respiratory disease\n 4. Abnormal"
+            ]
+        ],
+        "sensitivities": [
+            0.4179019141120476
+        ],
+        "posix": 0.4179019141120476
+    }
+}

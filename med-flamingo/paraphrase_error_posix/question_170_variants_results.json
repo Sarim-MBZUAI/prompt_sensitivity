@@ -1,0 +1,42 @@
+{
+    "file_name": "question_170_variants.json",
+    "overall_posix": 0.380125241462159,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.11173184357541899,
+            "Variation 2": 0.303921568627451,
+            "Variation 3": 0.24154589371980673,
+            "Variation 4": 0.1968911917098446,
+            "Variation 5": 0.22916666666666663,
+            "Variation 6": 0.6548387096774193,
+            "Variation 7": 0.5993788819875776,
+            "Variation 8": 0.5551330798479087,
+            "Variation 9": 0.5785953177257525,
+            "Variation 10": 0.3300492610837438
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a pleural effusion be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is a significant pleural effusion visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest radiograph reveal a notable accumulation of fluid in the pleural space? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can a substantial amount of fluid in the pleural cavity be identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there signs suggestive of a pleural effusion evident on the chest film? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is an abnormality consistent with a pleural effusion visible on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiograph show evidence of free fluid within the pleural space? Please choose from the following two options: [yes, no]\n<image> 1. Free fluid in the pleural space is seen as a white area in the right hemithorax.\n 2. Free fluid in the pleural space is seen as a white area in the left hemithorax.\n",
+                "<s> Can the presence of fluid in the pleural cavity be confirmed by visual inspection of the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.10.1  Answer\n The presence of fluid in the pleural cavity can be confirmed by visual inspection of the chest X-ray.\n 1.10.2  Explanation\n The presence",
+                "<s> Are there radiographic signs indicative of an underlying pleural effusion present? Please choose from the following two options: [yes, no]\n<image> a.\n b.\n c.\n d.\n 2.\n What is the most likely diagnosis?\n a.\n Pneumothorax\n b.\n Pleural effusion\n c.\n Pneumonia\n d",
+                "<s> Is a moderate to large-sized pleural effusion apparent on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11. Is there a right-sided pneumothorax? Please choose from the following two options: [yes, no]\n 12. Is there a left-sided pneumothorax? Please choose",
+                "<s> Does the chest image demonstrate the characteristic appearance of a pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.380125241462159
+        ],
+        "posix": 0.380125241462159
+    }
+}

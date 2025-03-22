@@ -1,0 +1,189 @@
+{
+    "file_name": "question_47_variants_results.json",
+    "overall_posix": 0.9801595124708107,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4864658474136723,
+            "Variation 2": 0.0,
+            "Variation 3": 0.7550021783868657,
+            "Variation 4": 0.8755400131619379,
+            "Variation 5": 1.3610485492495956,
+            "Variation 6": 1.0261984793772376,
+            "Variation 7": 1.148261299222415,
+            "Variation 8": 1.4585109647400714,
+            "Variation 9": 0.8954749367738373,
+            "Variation 10": 0.963289336683689
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray appears to be normal, with no abnormalities detected. ",
+                "No, there are no radiographic abnormalities observed in the chest X-ray. ",
+                "The chest x-ray appears to be normal, with no abnormalities detected. ",
+                "Yes, the chest X-ray appears to be unremarkable with regard to lung parenchymal or mediastinal pathology. This means that there are no visible signs of abnormalities or issues in the lung tissue or the medi",
+                "The chest x-ray appears to be normal, which means that there are no suspicious findings suggestive of lung disease, malignancy, or other abnormalities. ",
+                "Yes, there are notable radiographic features observed in the chest X-ray that could be related to respiratory pathology. ",
+                "Yes, the chest X-ray appears to be free of any significant abnormalities, including lung lesions or mediastinal masses. ",
+                "The chest x-ray does not show any visible radiographic signs indicative of pulmonary disease, including pneumothorax or pleural effusion. ",
+                "Yes, the chest X-ray shows a normal lung silhouette without evidence of volume loss or consolidation. ",
+                "No, the chest X-ray does not show any visible mediastinal pathology, such as lymphadenopathy or masses. ",
+                "Yes, the chest X-ray shows that the lung fields and cardiac silhouette are within normal limits. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -40.682191209329176,
+                    -50.897974005016295,
+                    -40.682191209329176,
+                    -79.18730230705933,
+                    -73.07717169632087,
+                    -80.15259913756745,
+                    -72.49434407002354,
+                    -82.01959798133612,
+                    -78.60347629257103,
+                    -69.33738918609197,
+                    -65.72771396310509
+                ],
+                [
+                    -45.547431384649826,
+                    -39.0877346456582,
+                    -45.547431384649826,
+                    -82.43474865503777,
+                    -75.44479322417465,
+                    -73.84052519235775,
+                    -77.51129334424695,
+                    -78.90212179940136,
+                    -80.4408949132121,
+                    -68.88819418842104,
+                    -68.2407434304987
+                ],
+                [
+                    -40.682191209329176,
+                    -50.897974005016295,
+                    -40.682191209329176,
+                    -79.18730230705933,
+                    -73.07717169632087,
+                    -80.15259913756745,
+                    -72.49434407002354,
+                    -82.01959798133612,
+                    -78.60347629257103,
+                    -69.33738918609197,
+                    -65.72771396310509
+                ],
+                [
+                    -54.02914300843622,
+                    -60.91199510329716,
+                    -54.02914300843622,
+                    -44.972716455242676,
+                    -81.90996674715643,
+                    -93.27080359847241,
+                    -69.75451129480393,
+                    -92.88317449481474,
+                    -82.12043289749363,
+                    -64.86324037426766,
+                    -76.65631114353982
+                ],
+                [
+                    -49.84639580423391,
+                    -57.04530961668934,
+                    -49.84639580423391,
+                    -79.64860732587158,
+                    -44.395735687093975,
+                    -86.39517362986771,
+                    -73.97650094694518,
+                    -88.63023670587427,
+                    -86.33472560563723,
+                    -75.68815305929365,
+                    -70.02940066179917
+                ],
+                [
+                    -53.00960992374894,
+                    -52.94607766149056,
+                    -53.00960992374894,
+                    -82.1884063195539,
+                    -80.80859866482206,
+                    -42.028436451738116,
+                    -82.65563711583127,
+                    -79.91470452702924,
+                    -83.50366399424092,
+                    -70.1993505431019,
+                    -70.49645699457324
+                ],
+                [
+                    -50.54549033966396,
+                    -57.110529317276814,
+                    -50.54549033966396,
+                    -79.97717159284548,
+                    -78.89676592583055,
+                    -92.48167433604249,
+                    -40.86613911865493,
+                    -91.00804008616251,
+                    -84.02153302411443,
+                    -69.98953000157599,
+                    -69.10070985121547
+                ],
+                [
+                    -56.31969323189696,
+                    -56.555848245174275,
+                    -56.31969323189696,
+                    -86.77157927307417,
+                    -83.26023611787241,
+                    -82.09487901435932,
+                    -83.92905327334302,
+                    -43.6346306864821,
+                    -85.2924281513042,
+                    -75.00656219878874,
+                    -72.66329162701004
+                ],
+                [
+                    -55.589850768046745,
+                    -61.88439596481294,
+                    -55.589850768046745,
+                    -83.68895586636017,
+                    -83.35174217467647,
+                    -96.00241698615719,
+                    -75.69221198326295,
+                    -87.18027737736702,
+                    -41.62550751836352,
+                    -78.43292899855487,
+                    -66.10211450400266
+                ],
+                [
+                    -53.67953360638057,
+                    -57.84130047888539,
+                    -53.67953360638057,
+                    -77.3025129442326,
+                    -83.56373456878646,
+                    -91.04177623307442,
+                    -77.68871348445987,
+                    -87.82428494679334,
+                    -88.31640037616853,
+                    -42.47937582006318,
+                    -74.51223844844753
+                ],
+                [
+                    -50.40208612353308,
+                    -59.93332632969759,
+                    -50.40208612353308,
+                    -90.65461685008631,
+                    -82.22956060113938,
+                    -96.11131100924104,
+                    -71.68383359463496,
+                    -88.59744464718824,
+                    -73.02954399773535,
+                    -76.6060005618665,
+                    -41.78160842173202
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.9801595124708107
+        ],
+        "posix": 0.9801595124708107
+    }
+}

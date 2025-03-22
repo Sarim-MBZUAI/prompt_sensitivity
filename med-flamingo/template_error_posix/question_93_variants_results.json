@@ -1,0 +1,42 @@
+{
+    "file_name": "question_93_variants.json",
+    "overall_posix": 0.4191825697087984,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4578754578754578,
+            "Variation 2": 0.5198675496688742,
+            "Variation 3": 0.29383886255924163,
+            "Variation 4": 0.1767676767676768,
+            "Variation 5": 0.5675675675675675,
+            "Variation 6": 0.2971698113207547,
+            "Variation 7": 0.31336405529953915,
+            "Variation 8": 0.5170068027210885,
+            "Variation 9": 0.4893617021276595,
+            "Variation 10": 0.5590062111801242
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question::: Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A.Aortic stenosis\n B.Aortic regurgitation\n C.Mitral stenosis\n D.Mit",
+                "<s> QUESTION:Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes]\n Explanation:\n The cardiomediastinal silhouette is normal. The cardiac apex is at the level of the left 10th rib. The cardiac silhouette is not visible.",
+                "<s> q:::Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question::Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.",
+                "<s> Question-Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes]\n Reasoning\n The cardiomediastinal silhouette is normal. The cardiac shadow is not visible in the\n radiograph. The cardiac shadow is not visible in the radiograph. The cardiac shadow is",
+                "<s> Q::: Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q::Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\n Answer:\n [Yes, no]\n Q:Is the",
+                "<s> QUESTION:Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\n A:\n B:\n 3.",
+                "<s> Question:Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: Yes\n The cardiomediastinal silhouette of the patient is normal.\n The cardiomediastinal silhouette is the outline of the heart and mediastinum on the ch"
+            ]
+        ],
+        "sensitivities": [
+            0.4191825697087984
+        ],
+        "posix": 0.4191825697087984
+    }
+}

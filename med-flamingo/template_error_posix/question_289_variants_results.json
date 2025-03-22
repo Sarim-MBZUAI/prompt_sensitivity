@@ -1,0 +1,42 @@
+{
+    "file_name": "question_289_variants.json",
+    "overall_posix": 0.3983299583270986,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.22999999999999998,
+            "Variation 2": 0.3076923076923077,
+            "Variation 3": 0.5303514376996805,
+            "Variation 4": 0.5196078431372549,
+            "Variation 5": 0.4862068965517241,
+            "Variation 6": 0.5297805642633229,
+            "Variation 7": 0.29166666666666674,
+            "Variation 8": 0.25742574257425743,
+            "Variation 9": 0.5228758169934641,
+            "Variation 10": 0.3076923076923077
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q::Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n \u2022\tThe patient shows reduced lung volumes on the chest X-ray.\n \u2022\tThe patient shows increased lung volumes on the chest X-ray.\n Q:What is the most likely diagnosis?\n A",
+                "<s> Question-Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 10.\n Question-Is there any evidence of a pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes,",
+                "<s> QUESTION:Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\n A:\n B:\n 2.",
+                "<s> Question::: Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: Yes\n Option 2: No\n Correct Answer: Option 2\n A 24-year-old male patient with a history of cough and fever for 1 week is brought to the emergency department.",
+                "<s> Q::: Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> question::Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n ",
+                "<s> Question:Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale: The patient has a right-sided pneumothorax. The right hemithorax is collapsed, and the left hemithorax is normal.",
+                "<s> q::Does the patient show reduced lung volumes on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::"
+            ]
+        ],
+        "sensitivities": [
+            0.3983299583270986
+        ],
+        "posix": 0.3983299583270986
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_22_variants.json",
+    "overall_posix": 0.48859931207231105,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6023738872403561,
+            "Variation 2": 0.3317972350230415,
+            "Variation 3": 0.4424778761061947,
+            "Variation 4": 0.43497757847533625,
+            "Variation 5": 0.4,
+            "Variation 6": 0.4025974025974026,
+            "Variation 7": 0.5764705882352941,
+            "Variation 8": 0.6561604584527221,
+            "Variation 9": 0.6050955414012739,
+            "Variation 10": 0.4340425531914893
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiomediastinal silhouette of the patient normal? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the cardiac contour and mediastinal profile of this patient's chest X-ray within normal limits? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the cardiac contour and mediastinal profile are within normal limits.\n 2.  No, the cardiac contour and mediastinal profile are not within normal limits.\n 1.  Yes",
+                "<s> Does the cardiomediastinal silhouette on this radiograph meet the criteria for a normal appearance? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Are there any abnormalities in the configuration of the heart and central mediastinum visible on this image? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is the cardiac silhouette and surrounding soft tissues of this patient's chest X-ray typical or atypical? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Does the patient's cardiomediastinal contour appear normal on this radiographic examination? Please choose from the following two options: [yes, no]\n<image> 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n ",
+                "<s> Would you expect to see a normal-appearing cardiomediastinal profile in a healthy individual based on this image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1",
+                "<s> Are there any signs of pathologic enlargement or asymmetry of the cardiac silhouette visible on this X-ray? Please choose from the following two options: [yes, no]\n<image> 11.10.1\u2002\u2002Cardiothoracic\u2002Ratios\n 11.10.1.1\u2002\u2002Cardiothoracic\u2002Ratio\u2002(CTR)\n The card",
+                "<s> Is the patient's chest X-ray showing a normal-sized heart and mediastinum, without evidence of mass or volume displacement? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the chest X-ray shows a normal-sized heart and mediastinum, without evidence of mass or volume displacement.\n 2. No, the chest X-ray shows a normal-s",
+                "<s> Can you rule out the presence of an abnormal cardiac silhouette or mediastinal contour based on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the cardiac silhouette is normal.\n 2.  No, the cardiac silhouette is abnormal.\n 1.  Yes, the cardiac silhouette is normal.\n ",
+                "<s> Does the image demonstrate a standard or non-standard appearance of the cardiomediastinal silhouette in this patient? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2"
+            ]
+        ],
+        "sensitivities": [
+            0.48859931207231105
+        ],
+        "posix": 0.48859931207231105
+    }
+}

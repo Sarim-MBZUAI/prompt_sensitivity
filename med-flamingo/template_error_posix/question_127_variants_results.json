@@ -1,0 +1,42 @@
+{
+    "file_name": "question_127_variants.json",
+    "overall_posix": 0.26864325048444027,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.136150234741784,
+            "Variation 2": 0.49549549549549554,
+            "Variation 3": 0.12558139534883717,
+            "Variation 4": 0.25806451612903225,
+            "Variation 5": 0.504424778761062,
+            "Variation 6": 0.20264317180616742,
+            "Variation 7": 0.19730941704035876,
+            "Variation 8": 0.2222222222222222,
+            "Variation 9": 0.2798353909465021,
+            "Variation 10": 0.2647058823529411
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> Question:Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 100\n 100\n Question:Is there any evidence of a pleural effusion, according to the X-ray? Please choose from the following two options: [yes, no]||Answer:\n Yes",
+                "<s> QUESTION:Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> Q:Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nC:\nD:\nE:\nF:\nG:\nH:\nI:\nJ:\nK:\nL:\nM:\nN:\nO:\nP:\nQ:Is there any",
+                "<s> QUESTION:Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n Rationale:\n The X-ray shows a normal cardiac silhouette, normal pulmonary vascular markings, and no evidence of focal airspace disease",
+                "<s> Question::: Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20",
+                "<s> Question-Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n No\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 1",
+                "<s> Q:Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n E:\n R:\n D:\n E:\n F:\n Y:\n G:\n O:\n R:\n B:\n S:\n E:\n R:\n D:",
+                "<s> q::Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q::: Are the lungs free from any signs of focal airspace disease, according to the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::"
+            ]
+        ],
+        "sensitivities": [
+            0.26864325048444027
+        ],
+        "posix": 0.26864325048444027
+    }
+}

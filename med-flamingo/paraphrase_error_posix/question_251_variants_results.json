@@ -1,0 +1,42 @@
+{
+    "file_name": "question_251_variants.json",
+    "overall_posix": 0.38583904680642966,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.12315270935960587,
+            "Variation 2": 0.31472081218274117,
+            "Variation 3": 0.2766990291262136,
+            "Variation 4": 0.6201780415430267,
+            "Variation 5": 0.3755868544600939,
+            "Variation 6": 0.28372093023255807,
+            "Variation 7": 0.2990196078431373,
+            "Variation 8": 0.5748299319727891,
+            "Variation 9": 0.6320754716981132,
+            "Variation 10": 0.3584070796460177
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of pulmonary pathology, such as pneumonia or a mass? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence of lung pathology, such as pneumonia or a mass lesion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest imaging study show signs suggestive of a pulmonary abnormality? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any visible abnormalities in the lungs that might indicate disease or a tumor? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiologic evidence of a lung parenchymal process, including infections or masses? Please choose from the following two options: [yes, no]\n<image> 11.  Is there evidence of a pleural effusion? Please choose from the following two options: [yes, no]\n 12.  Is there evidence of a pneumothorax? Please choose from the following",
+                "<s> Can we see on this image any indication of lung pathology, such as consolidation or a neoplasm? Please choose from the following two options: [yes, no]\n<image> 25\n 26\n 27\n 28\n 29\n 30\n 31\n 32\n 33\n 34\n 35\n 36\n 3",
+                "<s> Does the imaging demonstrate any lung abnormality consistent with pneumonia or other pathologies? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there visible signs of lung disease in this study that warrant further evaluation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence to suggest pulmonary infection, infarction, or malignancy? Please choose from the following two options: [yes, no]\n<image> 11.  Is there evidence of a pleural effusion?\n 12.  Is there evidence of a pneumothorax?\n 13.  Is there evidence of a pneumomediastinum?",
+                "<s> Can we determine from this image whether the patient has a lung pathology requiring clinical attention? Please choose from the following two options: [yes, no]\n<image> 1.Yes, there is a pleural effusion.\n 2.No, there is no pleural effusion.\n 3.Yes, there is a pleural effusion, but it is not visible on this image.",
+                "<s> Does this imaging show any abnormality within the lungs that would necessitate additional diagnostic workup? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.38583904680642966
+        ],
+        "posix": 0.38583904680642966
+    }
+}

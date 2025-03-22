@@ -1,0 +1,42 @@
+{
+    "file_name": "question_280_variants.json",
+    "overall_posix": 0.3302664967552095,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.19117647058823528,
+            "Variation 2": 0.21198156682027647,
+            "Variation 3": 0.44625407166123776,
+            "Variation 4": 0.4086021505376345,
+            "Variation 5": 0.26956521739130435,
+            "Variation 6": 0.3925925925925926,
+            "Variation 7": 0.21395348837209305,
+            "Variation 8": 0.21395348837209305,
+            "Variation 9": 0.46905537459283386,
+            "Variation 10": 0.48553054662379425
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16:10\n 16:11\n 16:12\n 16:13\n 16:14\n 16",
+                "<s> QUESTION\tDoes the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question::: Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pulmonary edema\n B. Pneumonia\n C. Asthma\n D. Congestive heart failure\n E. Chron",
+                "<s> QUESTION:Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Aspiration pneumonia\n B:Pneumonia\n C:Pneumothorax\n D:Pneumonia and",
+                "<s> q:::Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> q:Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 16.  A 65-year-old man with a history of hypertension and hyperlipidemia is brought to the emer",
+                "<s> Question:Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question-Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\nAnswer\n<image> The chest X-ray shows cardiomegaly.\n The chest X-ray shows cardiomegaly.\n The chest X-ray shows cardiomegaly.\n The chest X-ray shows cardiomegaly",
+                "<s> Q:Does the chest X-ray suggest the patient might have congestive heart failure? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n\n Explanation:\n The chest X-ray shows cardiomegaly with pulmonary congestion. The heart size is enlarged, and the pulmonary vascular markings are"
+            ]
+        ],
+        "sensitivities": [
+            0.3302664967552095
+        ],
+        "posix": 0.3302664967552095
+    }
+}

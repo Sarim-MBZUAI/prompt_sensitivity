@@ -1,0 +1,42 @@
+{
+    "file_name": "question_125_variants.json",
+    "overall_posix": 0.3763592742713101,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2844444444444445,
+            "Variation 2": 0.3246753246753247,
+            "Variation 3": 0.5083612040133779,
+            "Variation 4": 0.5063694267515924,
+            "Variation 5": 0.46785714285714286,
+            "Variation 6": 0.14210526315789473,
+            "Variation 7": 0.34309623430962344,
+            "Variation 8": 0.26732673267326734,
+            "Variation 9": 0.4351464435146444,
+            "Variation 10": 0.4842105263157894
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> question:Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked:\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n",
+                "<s> q::Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n 19.  A 55-year-old man with a history",
+                "<s> Q::Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there evidence of pneumothorax on the X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there evidence of pneumomediast",
+                "<s> Question::: Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n Answer:\n Congestive heart failure\n 11.\n Question:\n What is the most likely diagnosis?\n Answer:\n Congest",
+                "<s> Question:Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the next step in the management of this patient?\n A.Obtain a chest CT scan\n B.Obtain a chest X-ray\n C.Obtain a chest",
+                "<s> Q:Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q:Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.  Describe the X-ray findings.\n 11.  What is the most likely diagnosis?\n 12",
+                "<s> Question-Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Q:Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe\tX-ray\tshows\ta\thazy\tarea\tin\tthe\tright\tupper\tlobe\tof\tthe\tlung.\tThis\tis\ta\tsign\tof\tatelect",
+                "<s> Question:Is there evidence of lung collapse or atelectasis on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> Yes\n Instructions:\u00a0The radiograph shows a\u00a0patient with a\u00a0left pneumothorax.\n 1.The patient is a\u00a055-year-old man with a\u00a0left pneumothorax"
+            ]
+        ],
+        "sensitivities": [
+            0.3763592742713101
+        ],
+        "posix": 0.3763592742713101
+    }
+}

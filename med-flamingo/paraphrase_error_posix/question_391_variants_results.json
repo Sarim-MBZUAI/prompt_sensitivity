@@ -1,0 +1,42 @@
+{
+    "file_name": "question_391_variants.json",
+    "overall_posix": 0.4606140973301711,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5412541254125413,
+            "Variation 2": 0.19886363636363635,
+            "Variation 3": 0.5862068965517241,
+            "Variation 4": 0.48672566371681414,
+            "Variation 5": 0.39453125,
+            "Variation 6": 0.37552742616033763,
+            "Variation 7": 0.6148867313915858,
+            "Variation 8": 0.627831715210356,
+            "Variation 9": 0.44565217391304346,
+            "Variation 10": 0.33466135458167323
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any indications of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographic signs of pneumonia present on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are.\n b. No, there are not.\n 10. Please select from the following two options: [left, right] which side of the chest is the X-ray being viewed?\n a",
+                "<s> Is pneumonic consolidation visible on the chest film? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiograph demonstrate features suggestive of an infectious process, such as lobar consolidation or alveolar infiltrates, consistent with a diagnosis of pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Can the chest X-ray be interpreted to show evidence of lung infection, including areas of increased opacity? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are there any abnormal patterns seen on the chest image that would raise suspicion for a superimposed pulmonary infection, like pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this radiograph reveal signs of an inflammatory process within the lungs consistent with a diagnosis of pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can pneumonitis or lobar pneumonia be identified on the provided chest X-ray image? Please choose from the following two options: [yes, no]\n<image> a. Yes, it can be identified.\n b. No, it cannot be identified.\n 4. Which of the following is the most common cause of pneumonitis?\n a. Mycoplasma pneumoniae\n",
+                "<s> Is this patient's radiographic pattern most suggestive of viral or bacterial etiology, such as pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the patient has a viral pneumonia.\n 2.  No, the patient has a bacterial pneumonia.\n 1.  Yes, the patient has a viral pneumonia",
+                "<s> Does the chest film demonstrate abnormalities that would suggest a pulmonary infection, including perihilar or lower lobe consolidation typical for pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiologic features of a lung infection, like alveolar consolidation or air-space disease, visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.4606140973301711
+        ],
+        "posix": 0.4606140973301711
+    }
+}

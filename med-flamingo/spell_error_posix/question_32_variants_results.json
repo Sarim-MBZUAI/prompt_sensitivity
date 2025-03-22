@@ -1,0 +1,42 @@
+{
+    "file_name": "question_32_variants.json",
+    "overall_posix": 0.15046139609916703,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.471830985915493,
+            "Variation 2": 0.4652777777777778,
+            "Variation 3": 0.010869565217391353,
+            "Variation 4": 0.005434782608695676,
+            "Variation 5": 0.016304347826086918,
+            "Variation 6": 0.010869565217391353,
+            "Variation 7": 0.010869565217391353,
+            "Variation 8": 0.048387096774193505,
+            "Variation 9": 0.010869565217391353,
+            "Variation 10": 0.45390070921985815
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray suggest the patient might have heart failure? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray suggest the patient might have heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray suggst the patient might have heart failure? Please choose frm the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2.\n Does the chest X-ray suggest the patient might have pneumonia? Please choose frm the following two options: [yes, no]\n a. Yes\n b. No",
+                "<s> Does the chest X-ray suggest the patient might yave heart failure? Please choose fromc the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2.\n Does the chest X-ray suggest the patient might have a\n pneumothorax? Please choose from the following two\n options: [yes, no]\n a. Yes",
+                "<s> Does the chest X-ray suggest the patient might have heartf ailure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray suggest the patient might have heat failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray suggest the patient might have heartfailure? Pelase choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray suggest the patient might have heart failurr? Please choose from the fllowing two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray suggestt he patient might have heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray suggest the patient mzight have heart failure? Please coose from the following two options: [yes, no]\n<image> a.\n b.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 1",
+                "<s> Does the chest X-fay suggest the patient might have heart failure? Please choose from the follosing two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Doies the chest X-ray suggest the patient might have heart failure? Please choose from the following two options: [yes, n]\n<image> a. Yes, the heart is enlarged.\n b. No, the heart is not enlarged.\n 3. What is the most likely diagnosis?\n a. Congestive heart failure\n b. Pulmonary"
+            ]
+        ],
+        "sensitivities": [
+            0.15046139609916703
+        ],
+        "posix": 0.15046139609916703
+    }
+}

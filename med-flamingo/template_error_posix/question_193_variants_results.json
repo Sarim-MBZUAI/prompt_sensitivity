@@ -1,0 +1,42 @@
+{
+    "file_name": "question_193_variants.json",
+    "overall_posix": 0.3476230195532213,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.34751773049645385,
+            "Variation 2": 0.35409836065573774,
+            "Variation 3": 0.39877300613496924,
+            "Variation 4": 0.35409836065573774,
+            "Variation 5": 0.23954372623574138,
+            "Variation 6": 0.4454022988505747,
+            "Variation 7": 0.41812865497076024,
+            "Variation 8": 0.23664122137404586,
+            "Variation 9": 0.21875,
+            "Variation 10": 0.46327683615819204
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe\tX-ray\tshows\tcardiomegaly\tand\ta\tcardiothoracic\tratio\tof\t50%.\n \u2022\tThe\tX-ray\tshows\tcard",
+                "<s> Question:Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n A.Pneumonia\n B.Pneumothorax\n C.Pneumomediastinum\n D.Pneumonitis\n E.",
+                "<s> QUESTION:Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Section: Imaging\n\n Reference:\n 1.Brown R, Katz J, eds. Clinical Radiology. 2nd ed. Philadelphia: Lippincott Wiliams & Wilkins,",
+                "<s> Question:Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n A.Pneumonia\n B.Pneumothorax\n C.Pneumomediastinum\n D.Pneumonitis\n E.",
+                "<s> Q::: Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> Yes\n Instructions:\u00a0The radiograph shows a chest X-ray of a patient with a right-sided pneumothorax.\n 1.What is the most likely cause of the pneumothorax?",
+                "<s> Question::: Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Congestive heart failure\n B. Pulmonary edema\n C. Pulmonary embolism\n D. Pneumonia\n",
+                "<s> q:::Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Is there",
+                "<s> Q::Is there any sign of congestive heart failure, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any sign of pericardial effusion, such as cardiomegaly or pulmonary edema, visible on the X-ray? Please choose from the following two options: [yes, no]"
+            ]
+        ],
+        "sensitivities": [
+            0.3476230195532213
+        ],
+        "posix": 0.3476230195532213
+    }
+}

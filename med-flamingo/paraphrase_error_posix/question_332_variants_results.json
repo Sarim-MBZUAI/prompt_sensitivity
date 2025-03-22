@@ -1,0 +1,42 @@
+{
+    "file_name": "question_332_variants.json",
+    "overall_posix": 0.5733400610616014,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.47058823529411764,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6550632911392406,
+            "Variation 4": 0.6677215189873418,
+            "Variation 5": 0.6360759493670886,
+            "Variation 6": 0.689873417721519,
+            "Variation 7": 0.6740506329113924,
+            "Variation 8": 0.6045845272206304,
+            "Variation 9": 0.6645569620253164,
+            "Variation 10": 0.6708860759493671
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there a definite pneumomediastinum identified on the chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there a definite pneumopericard",
+                "<s> Is there clear evidence of a pneumothorax on the chest X-ray characterized by a visible pleural line? Please choose from the following two options: [yes, no]\n<image> 11. Is there a pneumomediastinum? Please choose from the following two options: [yes, no]\n 12. Is there a pneumopericardium? Please choose from the following two options:",
+                "<s> Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there a definite pneumomediastinum identified on the chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there a definite pneumopericard",
+                "<s> Can the chest X-ray definitively confirm the presence of a pneumothorax with a distinct pleural line? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the provided chest X-ray image demonstrate a clearly visible pleural line indicative of a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is there radiographic evidence to confirm the presence of a pneumothorax on the given chest X-ray with a well-defined pleural line? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Can we confidently diagnose a pneumothorax on the chest X-ray based on the visibility of its characteristic pleural line? Please choose from the following two options: [yes, no]\n<image> 1. Yes, we can.\n 2. No, we cannot.\n 1. Yes, we can.\n 2. No, we cannot.\n Figure 1.1.1\n 1.1.1",
+                "<s> Does the chest X-ray show an unmistakable pleural line that indicates the presence of a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is there sufficient radiographic evidence on the chest X-ray to support the diagnosis of a pneumothorax with its characteristic pleural line? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n There is no evidence of a pneumothorax on the chest X-ray. The pleural line is intact and the lung fields are clear.\n 11.1",
+                "<s> Can we definitively state that a pleural line of pneumothorax is present on the given chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Does the chest X-ray clearly demonstrate a visible pleural line corresponding to a pneumothorax? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.5733400610616014
+        ],
+        "posix": 0.5733400610616014
+    }
+}

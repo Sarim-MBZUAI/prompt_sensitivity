@@ -1,0 +1,42 @@
+{
+    "file_name": "question_9_variants.json",
+    "overall_posix": 0.3794203572446355,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2717391304347826,
+            "Variation 2": 0.5319148936170213,
+            "Variation 3": 0.5071942446043165,
+            "Variation 4": 0.5852090032154341,
+            "Variation 5": 0.2541436464088398,
+            "Variation 6": 0.3366336633663367,
+            "Variation 7": 0.2879581151832461,
+            "Variation 8": 0.24705882352941178,
+            "Variation 9": 0.2404371584699454,
+            "Variation 10": 0.5319148936170213
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n L:\n U:\n X:\n Y:\n L:\n U:\n X:",
+                "<s> Question:Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n 10.Question:Is the heart size normal? Please choose from the following two options: [yes, no]\n Answer:\n Option 1:Yes\n Option 2",
+                "<s> Question::: Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question: Is the heart size normal?\n Answer:\n Yes\n 11.\n Question: Is the heart size normal?\n Answer:\n Yes\n 12.\n Question: Is the heart",
+                "<s> Question-Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The chest X-ray shows a clear lung field.\n Question-Is the heart size normal? Please choose from the following two options: [yes, no]\n Answer\n Yes\n The chest X-ray shows a normal",
+                "<s> QUESTION:Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q::Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> question::Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1answer::\n no\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 2",
+                "<s> Q:Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.16.15.14.13.12.11.10.9.8.7.6.5.4.3",
+                "<s> q:Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n 10.2.10  Answer\n 10.2.",
+                "<s> Question:Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n 10.Question:Is the heart size normal? Please choose from the following two options: [yes, no]\n Answer:\n Option 1:Yes\n Option 2"
+            ]
+        ],
+        "sensitivities": [
+            0.3794203572446355
+        ],
+        "posix": 0.3794203572446355
+    }
+}

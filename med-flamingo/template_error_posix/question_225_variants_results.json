@@ -1,0 +1,42 @@
+{
+    "file_name": "question_225_variants.json",
+    "overall_posix": 0.36743108616436343,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2583333333333333,
+            "Variation 2": 0.34328358208955223,
+            "Variation 3": 0.2614107883817427,
+            "Variation 4": 0.47239263803680975,
+            "Variation 5": 0.5086705202312138,
+            "Variation 6": 0.2422907488986784,
+            "Variation 7": 0.5057803468208093,
+            "Variation 8": 0.47590361445783125,
+            "Variation 9": 0.09633027522935778,
+            "Variation 10": 0.509915014164306
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:::Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.What is the most likely diagnosis?\n A:Pneumonia\n B:Pneumothorax\n C:Pleural effusion\n D:P",
+                "<s> Q::: Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe patient\u2019s right-sided opacities have resolved.\n \u2022\tThe patient\u2019s right-sided opacities have not changed.\n \u2022\tThe patient\u2019s right-sided opacities",
+                "<s> Q:Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The patient has a history of a right-sided pneumothorax, which is now resolved. The right-sided opacity is now less dense and more homogeneous. The left-sided opacity is",
+                "<s> QUESTION:Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Q::Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Has there been any resolution of the left-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Has there been any",
+                "<s> QUESTION:Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\nANSWER:\n<image>\n 1.Yes\n 2.No\n REASONING:The patient\u2019s right-sided opacities have improved compared to the previous radiograph. The patient\u2019s right-sided opacities are now less",
+                "<s> QUESTION:Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n ",
+                "<s> Question:Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10.Question:Has there been any resolution of the right-sided opacities compared to previous images? Please choose from the following two options: [yes, no]||Answer:\n Yes\n 11."
+            ]
+        ],
+        "sensitivities": [
+            0.36743108616436343
+        ],
+        "posix": 0.36743108616436343
+    }
+}

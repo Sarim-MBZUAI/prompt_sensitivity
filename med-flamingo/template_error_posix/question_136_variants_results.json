@@ -1,0 +1,42 @@
+{
+    "file_name": "question_136_variants.json",
+    "overall_posix": 0.3981727378396962,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.35051546391752575,
+            "Variation 2": 0.16666666666666663,
+            "Variation 3": 0.32978723404255317,
+            "Variation 4": 0.5698924731182796,
+            "Variation 5": 0.5535714285714286,
+            "Variation 6": 0.33333333333333326,
+            "Variation 7": 0.5804195804195804,
+            "Variation 8": 0.2848837209302326,
+            "Variation 9": 0.24855491329479773,
+            "Variation 10": 0.5641025641025641
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q::Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q:::Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question-Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n Comments\n This is a frontal chest radiograph of a 55-year-old man with a history of a\n myocardial infarction. The heart is enlarged, and the right ventric",
+                "<s> Question::: Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question: Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n 11.\n Question: Is the heart",
+                "<s> Q::: Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1Option 2\n   Question:Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\n   Option 1Option 2\n   Question:Is the heart",
+                "<s> question:Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\nyes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 1",
+                "<s> QUESTION:Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question:Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n 10.Question:Is the heart enlarged on the X-ray? Please choose from the following two options: [yes, no],Answer:\n [yes]"
+            ]
+        ],
+        "sensitivities": [
+            0.3981727378396962
+        ],
+        "posix": 0.3981727378396962
+    }
+}

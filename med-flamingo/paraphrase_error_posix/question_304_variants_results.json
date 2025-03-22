@@ -1,0 +1,42 @@
+{
+    "file_name": "question_304_variants.json",
+    "overall_posix": 0.41593323622866685,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.23369565217391308,
+            "Variation 2": 0.2602040816326531,
+            "Variation 3": 0.22790697674418603,
+            "Variation 4": 0.5107296137339056,
+            "Variation 5": 0.6112852664576802,
+            "Variation 6": 0.43214285714285716,
+            "Variation 7": 0.3360995850622407,
+            "Variation 8": 0.4978902953586498,
+            "Variation 9": 0.4765625,
+            "Variation 10": 0.5728155339805825
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there visible evidence of pleural effusion on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Does the radiograph show any abnormal fluid accumulation in the pleural space? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we observe any signs of pleural effusion, such as blunted costophrenic angles, on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is a significant amount of free fluid present in the pleural compartments, as indicated by this radiographic image? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Are there radiologic findings suggestive of pleural effusion, characterized by increased opacity and flatness of the hemithorax? Please choose from the following two options: [yes, no]\n<image> 11. Is there a pleural effusion?\n [yes, no]\n 12. Is there a pleural effusion?\n [yes, no]\n 13. Is there a pleural effusion?",
+                "<s> Does the X-ray display any characteristic features of pleural effusion, including blunting of the costophrenic angles or an increase in the basal layer thickness? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we identify pleural effusion on this chest radiograph through visual inspection, using established diagnostic criteria? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pleural effusion on this image, as defined by the accumulation of fluid in the interpleural space? Please choose from the following two options: [yes, no]\n<image> 2.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Do the radiographic findings indicate the presence of pleural effusion, marked by an increased volume of fluid surrounding the lungs? Please choose from the following two options: [yes, no]\n<image> [yes, no]\n 10.\n 10.\n 10.\n 10.\n 10.\n 10.\n 10.\n 10.\n 10.",
+                "<s> Are there visible signs of pleural effusion on this chest X-ray, warranting further investigation or intervention? Please choose from the following two options: [yes, no]\n<image> 19.10.1  Answer\n There are no visible signs of pleural effusion on this chest X-ray.\n 19.10.2  Explanation\n This X-ray is of a"
+            ]
+        ],
+        "sensitivities": [
+            0.41593323622866685
+        ],
+        "posix": 0.41593323622866685
+    }
+}

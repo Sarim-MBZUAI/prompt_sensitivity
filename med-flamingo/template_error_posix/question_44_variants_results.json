@@ -1,0 +1,42 @@
+{
+    "file_name": "question_44_variants.json",
+    "overall_posix": 0.43743779349927187,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1527777777777778,
+            "Variation 2": 0.5061349693251533,
+            "Variation 3": 0.47077922077922074,
+            "Variation 4": 0.4086021505376345,
+            "Variation 5": 0.4086021505376345,
+            "Variation 6": 0.54,
+            "Variation 7": 0.3906810035842294,
+            "Variation 8": 0.48765432098765427,
+            "Variation 9": 0.5,
+            "Variation 10": 0.5091463414634146
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question-Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> Q::Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there evidence of a new nodule in the right upper lung on the chest CT? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there evidence of",
+                "<s> QUESTION:Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 101\n REASONING:\n The X-ray shows a new nodule in the right upper lung. The nodule is not visible on the left side of the chest. The nod",
+                "<s> Question:Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the differential diagnosis?\n 1.Pneumonia\n 2.Pleural effusion\n 3.Pleural thickening\n 4.Pleural plaques",
+                "<s> Question:Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the differential diagnosis?\n 1.Pneumonia\n 2.Pleural effusion\n 3.Pleural thickening\n 4.Pleural plaques",
+                "<s> Question:Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following radiograph is of a 55-year-old woman who presented to the emergency department with a 2-week history of a persistent cough. She has a history of smoking ",
+                "<s> question:Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n A.Yes\n B.No\n 10.Questionnine.The patient\u2019s chest X-ray is shown in Figure 10.1.\n 11.Question\n The patient\u2019s chest X",
+                "<s> Question::: Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n Discussion:\n The patient has a history of a previous left upper lobe pneumonia. The chest X-ray shows a new nodule in the right upper lobe. The",
+                "<s> Question:Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [no, yes]\n Reason: The chest X-ray shows a new nodule in the right upper lung. The nodule is not visible on the left side of the chest",
+                "<s> Q:Is there evidence of a new nodule in the right upper lung on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The correct response is [yes]. There is a new nodule in the right upper lobe of the lung.\n The chest X-ray shows a new nodule in the right upper lobe of the lung"
+            ]
+        ],
+        "sensitivities": [
+            0.43743779349927187
+        ],
+        "posix": 0.43743779349927187
+    }
+}

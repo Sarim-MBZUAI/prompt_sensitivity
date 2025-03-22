@@ -1,0 +1,42 @@
+{
+    "file_name": "question_286_variants.json",
+    "overall_posix": 0.4068144102138236,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.15740740740740744,
+            "Variation 2": 0.33333333333333326,
+            "Variation 3": 0.38671875,
+            "Variation 4": 0.4633333333333334,
+            "Variation 5": 0.3070539419087137,
+            "Variation 6": 0.3114035087719298,
+            "Variation 7": 0.36693548387096775,
+            "Variation 8": 0.392,
+            "Variation 9": 0.6754176610978521,
+            "Variation 10": 0.6745406824146981
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic findings suggestive of congestive heart failure present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show signs indicative of left ventricular dysfunction consistent with congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pulmonary vascular redistribution or Kerley B lines on the chest X-ray, which could suggest congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you identify any radiographic features on the chest X-ray that would be consistent with cardiomegaly and/or pleural effusion in a patient with suspected congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there imaging findings suggestive of fluid overload or pulmonary congestion visible on the chest X-ray in this patient? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show signs of cardiac enlargement, which could be indicative of congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of increased vascular markings or perihilar haze on the chest X-ray that might suggest congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you determine if the chest X-ray shows any abnormalities consistent with fluid retention and/or pulmonary edema in this patient? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic findings suggestive of left atrial enlargement or dilatation visible on the chest X-ray, which could be indicative of congestive heart failure? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any radiographic findings suggestive of a pericardial effusion? Please choose from the following two options: [yes, no]\n 12.  Are there any radiographic findings suggest",
+                "<s> Is the chest X-ray consistent with signs of cardiac decompensation, as evidenced by cardiomegaly, pleural effusion, and/or pulmonary vascular redistribution? Please choose from the following two options: [yes, no]\n<image> 11.  Is the chest X-ray consistent with signs of pulmonary edema, as evidenced by cardiomegaly, pleural effusion, and/or pulmonary vascular redistribution?"
+            ]
+        ],
+        "sensitivities": [
+            0.4068144102138236
+        ],
+        "posix": 0.4068144102138236
+    }
+}

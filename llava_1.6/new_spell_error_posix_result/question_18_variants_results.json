@@ -1,0 +1,189 @@
+{
+    "file_name": "question_18_variants.json",
+    "overall_posix": 2.667563316212248,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.9566545125209924,
+            "Variation 2": 0.0,
+            "Variation 3": 0.018812803121713493,
+            "Variation 4": 10.79440242365787,
+            "Variation 5": 0.0,
+            "Variation 6": 1.7459154339397656,
+            "Variation 7": 2.0922048578456955,
+            "Variation 8": 2.5572909001381166,
+            "Variation 9": 1.7459154339397656,
+            "Variation 10": 0.018812803121713493
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of collapsed lung on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no evidence of a collapsed lung on the chest X-ray. The lungs appear to be well-expanded and there are no signs of consolidation or collapse.",
+                "No, there is no evidence of a collapsed lung on the chest X-ray. The lungs appear to be well-expanded and filled with air.",
+                "No, there is no evidence of a collapsed lung on the chest X-ray. The lungs appear to be well-expanded and there are no signs of consolidation or collapse.",
+                "No, there is no evidence of a collapsed lung on the chest X-ray. The lungs appear to be well-expanded and there are no signs of collapse or consolidation.",
+                "No, there is no evidence of a collapsed lung on the chest X-ray.",
+                "No, there is no evidence of a collapsed lung on the chest X-ray. The lungs appear to be well-expanded and there are no signs of consolidation or collapse.",
+                "No, there is no evidence of a collapsed lung on the chest X-ray. The X-ray shows a normal appearance of the lungs and chest structures.",
+                "No, there is no evidence of a collapsed lung on the chest X-ray. The lung fields appear to be well-expanded and there are no signs of consolidation or atelectasis, which could indicate a collapsed lung.",
+                "No, there is no evidence of a collapsed lung on the chest X-ray. The lung appears to be intact and well-expanded.",
+                "No, there is no evidence of a collapsed lung on the chest X-ray. The X-ray shows a normal appearance of the lungs and chest structures.",
+                "No, there is no evidence of a collapsed lung on the chest X-ray. The lungs appear to be well-expanded and there are no signs of collapse or consolidation."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -363.0538580417633,
+                    -298.48425912857056,
+                    -363.0538580417633,
+                    -362.3201587200165,
+                    -157.9602119922638,
+                    -363.0538580417633,
+                    -303.6927332878113,
+                    -465.5718960762024,
+                    -283.7778401374817,
+                    -303.6927332878113,
+                    -362.3201587200165
+                ],
+                [
+                    -358.9513499736786,
+                    -300.42176485061646,
+                    -358.9513499736786,
+                    -361.34872031211853,
+                    -158.4597773551941,
+                    -358.9513499736786,
+                    -301.82114028930664,
+                    -478.68922233581543,
+                    -279.36608934402466,
+                    -301.82114028930664,
+                    -361.34872031211853
+                ],
+                [
+                    -373.1640625,
+                    -315.45929646492004,
+                    -373.1640625,
+                    -372.0426902770996,
+                    -174.54142093658447,
+                    -373.1640625,
+                    -306.2081940174103,
+                    -484.0785059928894,
+                    -295.9907441139221,
+                    -306.2081940174103,
+                    -372.0426902770996
+                ],
+                [
+                    -358.9513499736786,
+                    -300.42176485061646,
+                    -358.9513499736786,
+                    -361.34872031211853,
+                    -158.4597773551941,
+                    -358.9513499736786,
+                    -301.82114028930664,
+                    -478.68922233581543,
+                    -279.36608934402466,
+                    -301.82114028930664,
+                    -361.34872031211853
+                ],
+                [
+                    -377.79739928245544,
+                    -318.9045305252075,
+                    -377.79739928245544,
+                    -376.655965089798,
+                    -166.43076372146606,
+                    -377.79739928245544,
+                    -303.5033423900604,
+                    -487.0548222064972,
+                    -287.06972646713257,
+                    -303.5033423900604,
+                    -376.655965089798
+                ],
+                [
+                    -363.0538580417633,
+                    -298.48425912857056,
+                    -363.0538580417633,
+                    -362.3201587200165,
+                    -157.9602119922638,
+                    -363.0538580417633,
+                    -303.6927332878113,
+                    -465.5718960762024,
+                    -283.7778401374817,
+                    -303.6927332878113,
+                    -362.3201587200165
+                ],
+                [
+                    -377.79739928245544,
+                    -318.9045305252075,
+                    -377.79739928245544,
+                    -376.655965089798,
+                    -166.43076372146606,
+                    -377.79739928245544,
+                    -303.5033423900604,
+                    -487.0548222064972,
+                    -287.06972646713257,
+                    -303.5033423900604,
+                    -376.655965089798
+                ],
+                [
+                    -358.9513499736786,
+                    -300.42176485061646,
+                    -358.9513499736786,
+                    -361.34872031211853,
+                    -158.4597773551941,
+                    -358.9513499736786,
+                    -301.82114028930664,
+                    -478.68922233581543,
+                    -279.36608934402466,
+                    -301.82114028930664,
+                    -361.34872031211853
+                ],
+                [
+                    -353.55211943387985,
+                    -297.18622970581055,
+                    -353.55211943387985,
+                    -355.0407125353813,
+                    -158.24303305149078,
+                    -353.55211943387985,
+                    -303.87433981895447,
+                    -471.7916696071625,
+                    -282.45507311820984,
+                    -303.87433981895447,
+                    -355.0407125353813
+                ],
+                [
+                    -377.79739928245544,
+                    -318.9045305252075,
+                    -377.79739928245544,
+                    -376.655965089798,
+                    -166.43076372146606,
+                    -377.79739928245544,
+                    -303.5033423900604,
+                    -487.0548222064972,
+                    -287.06972646713257,
+                    -303.5033423900604,
+                    -376.655965089798
+                ],
+                [
+                    -358.9513499736786,
+                    -300.42176485061646,
+                    -358.9513499736786,
+                    -361.34872031211853,
+                    -158.4597773551941,
+                    -358.9513499736786,
+                    -301.82114028930664,
+                    -478.68922233581543,
+                    -279.36608934402466,
+                    -301.82114028930664,
+                    -361.34872031211853
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.667563316212248
+        ],
+        "posix": 2.667563316212248
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_371_variants_results.json",
+    "overall_posix": 0.8750575582904295,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5933653911139009,
+            "Variation 2": 0.7999274393743663,
+            "Variation 3": 0.6208032972320715,
+            "Variation 4": 0.6957201038994767,
+            "Variation 5": 0.7642612786550814,
+            "Variation 6": 1.103755173105077,
+            "Variation 7": 1.1453842533935787,
+            "Variation 8": 1.279940039254101,
+            "Variation 9": 0.657279609954944,
+            "Variation 10": 0.8345385539204279
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any visible air under the diaphragm suggesting a potential perforated abdominal viscus on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray does not show any visible air under the diaphragm. ",
+                "The chest X-ray does not show any visible air present beneath the diaphragm. ",
+                "Yes, the chest X-ray shows air under the diaphragm, which could indicate a possible leak from an abdominal organ. ",
+                "The chest X-ray does not show any radiographic signs suggestive of free intraperitoneal air due to a perforated abdominal viscus. ",
+                "The chest X-ray does not show any evidence of pneumoperitoneum. ",
+                "The chest X-ray does not show any subdiaphragmatic air, which means that there is no air present below the diaphragm. This finding suggests that there is no perforation in the abdominal cavity",
+                "No, there are no visible signs of intraperitoneal air suggesting a potential perforated abdominal viscus on the given chest image. ",
+                "Yes, the presence of subdiaphragmatic air on the chest X-ray is consistent with an abdominal organ rupture or leak. ",
+                "The radiograph does not show any evidence of free air within the peritoneum. ",
+                "The chest x-ray does not show any signs of pneumoperitoneum. pneumoperitoneum is a condition where air or gas accumulates in the abdominal cavity, which can be caused by a leak from an",
+                "The image does not show any radiographic evidence of subdiaphragmatic air, which would suggest potential perforation or rupture of an abdominal viscus. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -42.72318694029033,
+                    -56.37059093591005,
+                    -69.12079243964442,
+                    -66.31371223510905,
+                    -57.333309122179344,
+                    -81.70051215169948,
+                    -81.35461799896802,
+                    -82.81163580906559,
+                    -69.60192776462645,
+                    -76.24444704799248,
+                    -76.93926765102788
+                ],
+                [
+                    -47.68715658901237,
+                    -45.35846656749342,
+                    -69.27860519832888,
+                    -67.19652320851492,
+                    -56.3884345921233,
+                    -81.9132276961563,
+                    -92.76495057799912,
+                    -81.97470618465059,
+                    -67.71787949153804,
+                    -72.6989691093795,
+                    -70.22102661675945
+                ],
+                [
+                    -48.93184644736323,
+                    -61.658202422197746,
+                    -43.238967206165114,
+                    -76.51779512431767,
+                    -58.17259478898086,
+                    -77.28683297264388,
+                    -106.27148571676662,
+                    -72.46989932714678,
+                    -71.60930797978654,
+                    -61.22586537580534,
+                    -89.57200503108925
+                ],
+                [
+                    -58.36547821563269,
+                    -70.05533470430507,
+                    -80.13375667770876,
+                    -42.88188722540332,
+                    -55.71877597415005,
+                    -84.91221566543567,
+                    -94.34759766940442,
+                    -85.13146030196731,
+                    -62.99429284155485,
+                    -76.12318741828105,
+                    -86.07987838724694
+                ],
+                [
+                    -59.91773676455975,
+                    -70.59270303736318,
+                    -74.55374896210876,
+                    -74.63256094542157,
+                    -45.3209297810854,
+                    -84.5935173475263,
+                    -97.46367183446273,
+                    -74.79293656907225,
+                    -69.0952445853618,
+                    -63.414350695800465,
+                    -81.87980565983469
+                ],
+                [
+                    -53.16799204865171,
+                    -61.02218177520169,
+                    -74.08922953014618,
+                    -74.16208154763899,
+                    -55.62862411994956,
+                    -48.551123624776096,
+                    -109.26138571095362,
+                    -82.37497319466001,
+                    -70.87285848153988,
+                    -75.07893165204587,
+                    -78.91412948034304
+                ],
+                [
+                    -54.66137208385496,
+                    -65.88436197508597,
+                    -76.28489816651287,
+                    -67.8531311690258,
+                    -59.44469259760808,
+                    -87.09066882817922,
+                    -43.08140182086379,
+                    -83.7125234335872,
+                    -66.92393963962968,
+                    -77.48140382606263,
+                    -77.74356907495712
+                ],
+                [
+                    -63.47542880828495,
+                    -70.50295388991614,
+                    -72.66340422333266,
+                    -81.41758125093475,
+                    -60.94634054321068,
+                    -73.89377867760044,
+                    -107.25640425347228,
+                    -41.984309240972266,
+                    -73.52528302330757,
+                    -73.44725458339826,
+                    -88.26067608507174
+                ],
+                [
+                    -60.71879260050625,
+                    -72.36073039141954,
+                    -78.00590786140125,
+                    -74.04175468612993,
+                    -58.49455975557794,
+                    -87.12701878679849,
+                    -104.73545356659815,
+                    -92.20048658521955,
+                    -42.878501447047256,
+                    -77.94293991646447,
+                    -85.2553044296892
+                ],
+                [
+                    -57.97606891575194,
+                    -69.74700527119236,
+                    -56.163724778616796,
+                    -75.8182344845045,
+                    -48.99544735297604,
+                    -81.58344027239485,
+                    -96.42547646494495,
+                    -70.74292947554932,
+                    -70.63601135226781,
+                    -48.54201338153993,
+                    -88.9294912164878
+                ],
+                [
+                    -57.3122634389374,
+                    -66.84066548172538,
+                    -74.75869177989262,
+                    -73.1981272493249,
+                    -57.351835656678304,
+                    -86.66878665111278,
+                    -94.49947550076467,
+                    -77.75076627386989,
+                    -64.00613972279825,
+                    -73.75917784217313,
+                    -44.58786915232088
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8750575582904295
+        ],
+        "posix": 0.8750575582904295
+    }
+}

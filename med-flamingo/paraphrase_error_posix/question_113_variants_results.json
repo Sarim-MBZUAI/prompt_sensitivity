@@ -1,0 +1,42 @@
+{
+    "file_name": "question_113_variants.json",
+    "overall_posix": 0.39820406964850846,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5482758620689655,
+            "Variation 2": 0.0,
+            "Variation 3": 0.28787878787878785,
+            "Variation 4": 0.2272727272727273,
+            "Variation 5": 0.6260623229461756,
+            "Variation 6": 0.32478632478632474,
+            "Variation 7": 0.38524590163934425,
+            "Variation 8": 0.24892703862660948,
+            "Variation 9": 0.7002583979328165,
+            "Variation 10": 0.6333333333333333
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any radiographic evidence of pneumothorax on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a right pneumothorax\n b. No, there is no pneumothorax\n 4. Is there any radiographic evidence of pneumomediastinum on this chest X-ray",
+                "<s> Is there any evidence of a collapsed lung, or pneumothorax, on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray demonstrate a pneumatocele or pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any indication of lung collapse on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any air collections visible in the thoracic cavity on this chest X-ray, suggesting pneumothorax or pneumatocele formation? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n There are no air collections visible in the thoracic cavity on this chest X-ray, suggesting pneumothorax or pneumatocele formation.\n 11",
+                "<s> Does the chest X-ray show any evidence of mediastinal shift away from the side of lung collapse due to pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any visual indication of pneumothorax or lung collapse on this radiograph, necessitating further evaluation? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> Are there any air-filled spaces visible in the thoracic cavity that might suggest pneumothorax on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this radiograph demonstrate a significant increase in interstitial markings or lung lucency suggestive of pneumothorax? Please choose from the following two options: [yes, no]\n<image> a. No\n b. Yes\n 2.\n Does this radiograph demonstrate a significant increase in interstitial markings or lung lucency suggestive of pneumothorax? Please choose from the following two options: [yes",
+                "<s> Is there any visible evidence on the chest X-ray of air leaking into the pleural space due to lung injury or disease process? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of a pneumothor"
+            ]
+        ],
+        "sensitivities": [
+            0.39820406964850846
+        ],
+        "posix": 0.39820406964850846
+    }
+}

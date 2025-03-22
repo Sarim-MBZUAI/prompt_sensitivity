@@ -1,0 +1,189 @@
+{
+    "file_name": "question_168_variants_results.json",
+    "overall_posix": 0.9706423494200696,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.217290245128951,
+            "Variation 2": 1.392162526510157,
+            "Variation 3": 0.0,
+            "Variation 4": 0.617197460587613,
+            "Variation 5": 1.872264498045024,
+            "Variation 6": 0.8338153616558691,
+            "Variation 7": 1.200678494632609,
+            "Variation 8": 0.37225968304230467,
+            "Variation 9": 1.3898649389266033,
+            "Variation 10": 1.3000879413807394
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the chest X-ray shows evidence of pleural effusion. ",
+                "Yes, the chest radiograph shows fluid accumulation in the pleural space. ",
+                "The image is likely related to a question or statement that requires a yes or no answer. Without more context, it's difficult to determine the specific question or statement. However, the image is likely used to visually represent the options or choices for",
+                "Yes, the chest X-ray shows evidence of pleural effusion. ",
+                "The chest X-ray does not show a significant amount of pleural effusion. ",
+                "Yes, the radiograph shows a distinct collection of fluid in the pleural space. ",
+                "Yes, the chest X-ray shows visible opacification in the costophrenic angles, which suggests the presence of pleural effusion. ",
+                "Yes, the presence of fluid in the pleural space can alter the normal lung markings and silhouette on a chest radiograph. The fluid accumulation can cause the lung to appear more opaque or \"whited out\" in the affected",
+                "The chest x-ray does not show any significant pleural effusion. ",
+                "Yes, a chest X-ray can identify a volume of fluid in the pleural space that exceeds 300 mL. However, it is important to note that the accuracy of the measurement may vary depending on the quality of the X",
+                "Yes, the presence of pleural effusion can lead to distortion or obliteration of the lung costophrenic angle on a chest radiograph. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -40.01536141753786,
+                    -63.14387607498793,
+                    -111.01565026955586,
+                    -40.01536141753786,
+                    -52.35931062929012,
+                    -77.46065137843834,
+                    -67.53126835218154,
+                    -101.24996464380092,
+                    -46.716035712299345,
+                    -110.89847330279463,
+                    -85.51843936586374
+                ],
+                [
+                    -54.43408050524158,
+                    -40.43719693417461,
+                    -113.29956571409593,
+                    -54.43408050524158,
+                    -58.91728590060666,
+                    -64.17100505612325,
+                    -78.33246983887875,
+                    -88.75525763139012,
+                    -52.32545329630375,
+                    -107.63414681710128,
+                    -81.22800805867882
+                ],
+                [
+                    -53.780397469497984,
+                    -63.00268402782967,
+                    -63.47161440090895,
+                    -53.780397469497984,
+                    -60.80171796528157,
+                    -73.69509659468895,
+                    -75.53278031260561,
+                    -99.22921200771816,
+                    -59.696230615634704,
+                    -103.33508570537833,
+                    -84.7802221881866
+                ],
+                [
+                    -40.01536141753786,
+                    -63.14387607498793,
+                    -111.01565026955586,
+                    -40.01536141753786,
+                    -52.35931062929012,
+                    -77.46065137843834,
+                    -67.53126835218154,
+                    -101.24996464380092,
+                    -46.716035712299345,
+                    -110.89847330279463,
+                    -85.51843936586374
+                ],
+                [
+                    -48.21656904274414,
+                    -64.49602346762549,
+                    -113.78978812363584,
+                    -48.21656904274414,
+                    -41.87273138799014,
+                    -74.21711407002294,
+                    -71.23863017925828,
+                    -104.39480642767012,
+                    -45.35460415192938,
+                    -101.00714926547516,
+                    -89.90910150893615
+                ],
+                [
+                    -55.347778923402075,
+                    -49.185480661079055,
+                    -111.97112689334244,
+                    -55.347778923402075,
+                    -58.60355008483748,
+                    -41.595339101795616,
+                    -74.43560642671764,
+                    -89.02662669039273,
+                    -54.82181912743545,
+                    -97.52110847736913,
+                    -80.59789980680216
+                ],
+                [
+                    -50.6039776787693,
+                    -69.99943601555424,
+                    -113.49232234662577,
+                    -50.6039776787693,
+                    -55.86174490289159,
+                    -84.07338872831315,
+                    -41.07860957375848,
+                    -110.67723840999679,
+                    -52.21054346883102,
+                    -114.74253311539815,
+                    -89.9438002439183
+                ],
+                [
+                    -64.25358675944153,
+                    -61.272290800581686,
+                    -110.80869715289464,
+                    -64.25358675944153,
+                    -65.28864576114574,
+                    -70.92161889572162,
+                    -84.77000019566185,
+                    -48.32149836828603,
+                    -61.99616642466572,
+                    -107.84663867955896,
+                    -72.62191515500308
+                ],
+                [
+                    -49.77504566920197,
+                    -66.55418812762946,
+                    -109.01598465280813,
+                    -49.77504566920197,
+                    -52.406754319687025,
+                    -78.51357666606782,
+                    -72.96651842844221,
+                    -108.48313094483456,
+                    -44.18282141189957,
+                    -102.11128815139637,
+                    -93.18788639461854
+                ],
+                [
+                    -64.40085141003374,
+                    -67.52883631875739,
+                    -108.6801631288431,
+                    -64.40085141003374,
+                    -62.518963545224324,
+                    -77.17226514063077,
+                    -84.01648813343718,
+                    -100.46950715642015,
+                    -64.3189317418728,
+                    -48.43070866716323,
+                    -95.38434441463323
+                ],
+                [
+                    -59.62118673661462,
+                    -68.62326141411904,
+                    -114.11111076862016,
+                    -59.62118673661462,
+                    -59.96634005558735,
+                    -77.94234639126807,
+                    -75.07432916538892,
+                    -97.5384186998781,
+                    -56.82692131870135,
+                    -110.3334347900527,
+                    -42.66088337602079
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.9706423494200696
+        ],
+        "posix": 0.9706423494200696
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_96_variants.json",
+    "overall_posix": 0.3873663785834409,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4758364312267658,
+            "Variation 2": 0.25257731958762886,
+            "Variation 3": 0.3028846153846154,
+            "Variation 4": 0.2995169082125604,
+            "Variation 5": 0.591715976331361,
+            "Variation 6": 0.3905579399141631,
+            "Variation 7": 0.14720812182741116,
+            "Variation 8": 0.31924882629107976,
+            "Variation 9": 0.5,
+            "Variation 10": 0.5941176470588235
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n 100\n 100\n",
+                "<s> q:Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Q::: Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q:::Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question::Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A collapsed lung can be identified on the chest X-ray.\n description:A collapsed lung is a condition in which the lung is not fuly inflated. This can be due to a variety of causes, including p",
+                "<s> Question:Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, yes]\n [no, no]\n [yes, yes]\n [yes, no]\n [no, yes]\n [yes, yes]\n [yes, no]\n [no",
+                "<s> Question::: Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 1",
+                "<s> q::Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Q:Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\n 1.Ans:\n [yes, no]\n",
+                "<s> Question:Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Comments: A collapsed lung can be identified on the chest X-ray. The lung that is collapsed is seen as a black shadow. The black shadow is caused by the airless lung. The black shadow is seen in"
+            ]
+        ],
+        "sensitivities": [
+            0.3873663785834409
+        ],
+        "posix": 0.3873663785834409
+    }
+}

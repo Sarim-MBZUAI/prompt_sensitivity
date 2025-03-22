@@ -1,0 +1,42 @@
+{
+    "file_name": "question_185_variants.json",
+    "overall_posix": 0.619196021837084,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.603125,
+            "Variation 2": 0.7062146892655368,
+            "Variation 3": 0.7420212765957447,
+            "Variation 4": 0.7837837837837838,
+            "Variation 5": 0.0,
+            "Variation 6": 0.7115384615384616,
+            "Variation 7": 0.6852941176470588,
+            "Variation 8": 0.6172413793103448,
+            "Variation 9": 0.7006960556844548,
+            "Variation 10": 0.6420454545454546
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the frontal view of the chest X-ray indicate low lung volumes? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the frontal view of the chest X-ray indicate low lung volumes? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Does the anterior-posterior projection of the chest X-ray suggest decreased lung volumes? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the lung volumes are decreased.\n 2.  No, the lung volumes are not decreased.\n 1.  Yes, the lung volumes are decreased.\n The anterior-posterior projection",
+                "<s> Does this chest X-ray image demonstrate reduced lung capacity due to underlying pathology? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the patient has reduced lung capacity due to underlying pathology.\n 2.  No, the patient does not have reduced lung capacity due to underlying pathology.\n 1.  Yes, the patient has reduced",
+                "<s> Are there radiographic signs indicative of decreased pulmonary volume on this frontal chest X-ray view? Please choose from the following two options: [yes, no]\n<image> [Yes, there are radiographic signs indicative of decreased pulmonary volume on this frontal chest X-ray view.]\n [No, there are not radiographic signs indicative of decreased pulmonary volume on this front",
+                "<s> Please choose from the following two options: [yes, no]\n<image> [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes",
+                "<s> Does the frontal view of the chest X-ray indicate low lung volumes? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is the presence of low lung volumes detectable on this frontal chest X-ray reading? Please choose from the following two options: [yes, no]\n<image> a) No\n b) Yes\n 3. Is the presence of atelectasis detectable on this lateral chest X-ray reading? Please choose from the following two options: [yes, no]\n a) No\n",
+                "<s> Does this chest X-ray projection indicate diminished lung expansion due to anatomic or pathologic factors? Please choose from the following two options: [yes, no]\n<image> a. Yes, the right lung is hyperinflated.\n b. No, the right lung is not hyperinflated.\n 1. The answer is a.\n The right lung is hyperinflated, and the left lung is hyp",
+                "<s> Are there diagnostic findings suggesting decreased pulmonary volume in this anterior-posterior chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, there are.\n 2.  No, there are not.\n 1.  Yes, there are.\n 2.  No, there are not.\n 1.  Yes, there are",
+                "<s> Is this frontal view of the chest X-ray consistent with reduced lung volumes secondary to underlying disease processes? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the lung volumes are reduced secondary to underlying disease processes.\n 2. No, the lung volumes are not reduced secondary to underlying disease processes.\n 1. Yes, the lung volumes are reduced secondary to underlying disease processes",
+                "<s> Does the radiographic appearance of this chest X-ray suggest diminished lung capacity compared to expected normal values? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, because the lung volumes are reduced.\n 2.  No, because the lung volumes are not reduced.\n 1.  Yes, because the lung volumes are reduced.\n 2.  No, because"
+            ]
+        ],
+        "sensitivities": [
+            0.619196021837084
+        ],
+        "posix": 0.619196021837084
+    }
+}

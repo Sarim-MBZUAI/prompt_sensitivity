@@ -1,0 +1,42 @@
+{
+    "file_name": "question_309_variants.json",
+    "overall_posix": 0.43617088362709655,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6220735785953178,
+            "Variation 2": 0.22282608695652173,
+            "Variation 3": 0.6720257234726688,
+            "Variation 4": 0.375,
+            "Variation 5": 0.27083333333333326,
+            "Variation 6": 0.2894736842105263,
+            "Variation 7": 0.6097560975609756,
+            "Variation 8": 0.27717391304347827,
+            "Variation 9": 0.6379310344827587,
+            "Variation 10": 0.3846153846153846
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any pulmonary nodules or masses visible on the imaging study? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any pulmonary nodules or masses visible on the imaging study?\n 12.  Are there any pulmonary nodules or masses visible on the imaging study?\n 13.",
+                "<s> Does the radiology report indicate the presence of lung lesions? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of lung tumor formation on the provided image? Please choose from the following two options: [yes, no]\n<image> 1a. Yes, there is evidence of lung tumor formation on the provided image.\n 1b. No, there is no evidence of lung tumor formation on the provided image.\n 2a. Yes, there is evidence",
+                "<s> Can a lung mass or nodule be seen in the specified region? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is the imaging study indicative of lung pathology characterized by masses? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there visible abnormalities consistent with lung cancer development? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can any pulmonary masses or nodules be identified using the given radiology report? Please choose from the following two options: [yes, no]\n<image> 1.Yes, a nodule is present in the right lower lobe.\n 2.No, no nodule is present.\n 3.Yes, a nodule is present in the left lower lobe.\n 4",
+                "<s> Does the image show clear evidence of lung tumor formation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is a lung nodule or mass present, as suggested by the radiographic findings? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any other significant findings on the chest radiograph?\n [yes, no]\n 12.  Is there any evidence of a pleural effusion?\n [yes, no]\n ",
+                "<s> Can the provided image clearly depict lung pathology characterized by masses? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n"
+            ]
+        ],
+        "sensitivities": [
+            0.43617088362709655
+        ],
+        "posix": 0.43617088362709655
+    }
+}

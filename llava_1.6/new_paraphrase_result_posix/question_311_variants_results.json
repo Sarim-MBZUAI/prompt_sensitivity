@@ -1,0 +1,189 @@
+{
+    "file_name": "question_311_variants.json",
+    "overall_posix": 2.330690873261713,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3169436073303223,
+            "Variation 2": 14.38518820025704,
+            "Variation 3": 0.08101832866668701,
+            "Variation 4": 1.1723268513983869,
+            "Variation 5": 0.9998068646951155,
+            "Variation 6": 1.3396878590186436,
+            "Variation 7": 2.711544170612242,
+            "Variation 8": 0.6854710912704468,
+            "Variation 9": 0.2140713930130005,
+            "Variation 10": 0.2947619581222534
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a pleural effusion according to the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the chest X-ray, it appears that the patient has a pleural effusion. The presence of a pleural effusion is indicated by the dark area surrounding the lung, which is likely to be fluid accumulating in the pleural",
+                "No, the chest X-ray does not reveal a significant accumulation of fluid in the pleural space that might indicate the presence of a pleural effusion. The image shows the silhouette of the lungs and heart, but there is no",
+                "Yes, the patient appears to have a pleural effusion according to the chest X-ray.",
+                "Yes, there is radiographic evidence suggesting the development of a pleural effusion on the provided chest X-ray. The presence of a blunting of the costophrenic angles, which are the angles formed by the diaphragm",
+                "No, the appearance of the lung fields in the chest X-ray does not suggest a moderate to large volume pleural effusion. The lung fields appear to be clear, with no evidence of a pleural effusion.",
+                "No, the chest X-ray does not show distinct radiographic signs of pleural effusion, such as blunting of the costophrenic angle or elevated hemidiaphragm.",
+                "No, it is not evident from the chest X-ray that there is an abnormal accumulation of fluid in the pleural space. The image shows a normal chest X-ray with no signs of pleural effusion.",
+                "No, the chest X-ray does not show clear-cut features indicative of a significant volume of pleural fluid. The image appears to be of normal lung and chest anatomy.",
+                "Yes, there are visible signs on the chest X-ray that might suggest the development of a pleural effusion. The lung markings appear blurred, and there is an increase in density in the lower part of the chest, which could indicate",
+                "Yes, the radiographic appearance of the chest X-ray suggests the presence of a sizeable pleural effusion. The effusion is visible as a dark, fluid-filled space surrounding the lung, which is a common characteristic of pleural eff",
+                "No, the lung fields in the given chest X-ray do not appear to be consistent with a notable accumulation of fluid within the pleural space. The X-ray shows the lungs and heart clearly, but there is no evidence of pleural"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -521.9438261985779,
+                    -506.09664583206177,
+                    -205.46968579292297,
+                    -517.8929097652435,
+                    -466.8444641828537,
+                    -477.9523241519928,
+                    -457.638808965683,
+                    -410.77051520347595,
+                    -487.67027163505554,
+                    -511.24025654792786,
+                    -507.2057282924652
+                ],
+                [
+                    -521.250171661377,
+                    -493.4715211391449,
+                    -227.4768419265747,
+                    -522.7631487846375,
+                    -494.7910671234131,
+                    -483.16998863220215,
+                    -486.46857392787933,
+                    -403.523161649704,
+                    -504.6532236337662,
+                    -511.89699923992157,
+                    -510.45857560634613
+                ],
+                [
+                    -521.9438261985779,
+                    -506.09664583206177,
+                    -205.46968579292297,
+                    -517.8929097652435,
+                    -466.8444641828537,
+                    -477.9523241519928,
+                    -457.638808965683,
+                    -410.77051520347595,
+                    -487.67027163505554,
+                    -511.24025654792786,
+                    -507.2057282924652
+                ],
+                [
+                    -521.1850049495697,
+                    -503.59868264198303,
+                    -231.82339811325073,
+                    -511.7253096103668,
+                    -459.4308135509491,
+                    -471.8456344604492,
+                    -482.1508686542511,
+                    -415.9271240234375,
+                    -503.42846608161926,
+                    -504.3126633167267,
+                    -493.32398319244385
+                ],
+                [
+                    -510.97668170928955,
+                    -491.6871806383133,
+                    -238.65106797218323,
+                    -512.1855767965317,
+                    -471.5149655342102,
+                    -458.2199373245239,
+                    -510.9430584907532,
+                    -388.303342461586,
+                    -500.7123246192932,
+                    -535.7407956123352,
+                    -518.4679543972015
+                ],
+                [
+                    -521.5992274284363,
+                    -478.6690049171448,
+                    -204.24241590499878,
+                    -488.290488243103,
+                    -459.0871727466583,
+                    -490.3899335861206,
+                    -457.0298470258713,
+                    -391.90497612953186,
+                    -492.5820310115814,
+                    -512.2089034318924,
+                    -513.7496824264526
+                ],
+                [
+                    -507.2785816192627,
+                    -510.45388770103455,
+                    -195.31858015060425,
+                    -502.73206424713135,
+                    -467.97136763855815,
+                    -455.4549012184143,
+                    -484.52961802482605,
+                    -381.85937237739563,
+                    -512.7280659675598,
+                    -504.3538541793823,
+                    -500.6703511476517
+                ],
+                [
+                    -507.3166735172272,
+                    -510.92462062835693,
+                    -229.84722918272018,
+                    -500.6042549610138,
+                    -476.66563653945923,
+                    -465.2590882778168,
+                    -475.38552153110504,
+                    -386.78645944595337,
+                    -498.9357945919037,
+                    -485.6987861394882,
+                    -492.8826344013214
+                ],
+                [
+                    -540.9952998161316,
+                    -501.4082269668579,
+                    -224.35247945785522,
+                    -502.1756401062012,
+                    -473.5028917789459,
+                    -469.943559885025,
+                    -480.37250566482544,
+                    -409.20229935646057,
+                    -489.00309550762177,
+                    -483.65779519081116,
+                    -498.5686858892441
+                ],
+                [
+                    -506.5359058380127,
+                    -505.92183351516724,
+                    -236.4481520652771,
+                    -504.553405046463,
+                    -496.21608448028564,
+                    -477.20863795280457,
+                    -465.99816703796387,
+                    -405.41601490974426,
+                    -504.793821811676,
+                    -534.1145052909851,
+                    -508.12637519836426
+                ],
+                [
+                    -521.250171661377,
+                    -493.4715211391449,
+                    -227.4768419265747,
+                    -522.7631487846375,
+                    -494.7910671234131,
+                    -483.16998863220215,
+                    -486.46857392787933,
+                    -403.523161649704,
+                    -504.6532236337662,
+                    -511.89699923992157,
+                    -510.45857560634613
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.330690873261713
+        ],
+        "posix": 2.330690873261713
+    }
+}

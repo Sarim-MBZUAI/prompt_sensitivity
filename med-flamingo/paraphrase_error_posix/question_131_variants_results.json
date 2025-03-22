@@ -1,0 +1,42 @@
+{
+    "file_name": "question_131_variants.json",
+    "overall_posix": 0.5175889599533068,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3691588785046729,
+            "Variation 2": 0.7747252747252747,
+            "Variation 3": 0.0,
+            "Variation 4": 0.6905444126074498,
+            "Variation 5": 0.39148936170212767,
+            "Variation 6": 0.7210526315789474,
+            "Variation 7": 0.6940874035989717,
+            "Variation 8": 0.44855967078189307,
+            "Variation 9": 0.7338129496402878,
+            "Variation 10": 0.3524590163934427
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are the lung volumes seen on this chest X-ray film within the normal range for an adult patient? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1",
+                "<s> Please choose from the following two options: [yes, no]\n<image> [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes",
+                "<s> Are the lung volumes on the X-ray image considered to be normal? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Do the lung fields appear to be of normal volume and size in this anterior-posterior chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the lung fields appear to be of normal volume and size.\n 2. No, the lung fields appear to be decreased in volume and size.\n 1. Yes, the lung fields appear to be of normal",
+                "<s> Are the lung dimensions on this X-ray image within the expected limits for an individual without respiratory disease? Please choose from the following two options: [yes, no]\n<image> 15.1.1.1\n 15.1.1.2\n 15.1.1.3\n 15.1.1.4\n 15.1.1.5\n",
+                "<s> Does this chest X-ray film show lung volumes that are consistent with normal lung function and capacity? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the lung volumes are consistent with normal lung function and capacity.\n 2.  No, the lung volumes are not consistent with normal lung function and capacity.\n 1.  Yes, the lung volumes are consistent",
+                "<s> Are the lung size and volume on this radiograph within the normal parameters for a healthy adult individual? Please choose from the following two options: [yes, no]\n<image> 1. The lung size and volume are within the normal parameters for a healthy adult individual.\n 2. The lung size and volume are not within the normal parameters for a healthy adult individual.\n 1. The lung size and",
+                "<s> Does the chest X-ray image indicate that the patient's lung volumes are at or near the normal upper limit of expected values? Please choose from the following two options: [yes, no]\n<image> 2.1.1.1.1\n 2.1.1.1.2\n 2.1.1.1.3\n 2.1.1.1.4\n 2.1.1",
+                "<s> Are the dimensions and proportions of the lungs on this film consistent with those of an average adult without respiratory disease? Please choose from the following two options: [yes, no]\n<image> 2. Are the dimensions and proportions of the lungs on this film consistent with those of an average adult without respiratory disease? Please choose from the following two options: [yes, no]\n 3. Are the dimensions and",
+                "<s> Does this radiograph show lung volumes that are within or very close to the expected normal range for a typical adult patient? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1"
+            ]
+        ],
+        "sensitivities": [
+            0.5175889599533068
+        ],
+        "posix": 0.5175889599533068
+    }
+}

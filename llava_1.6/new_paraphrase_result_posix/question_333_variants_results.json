@@ -1,0 +1,189 @@
+{
+    "file_name": "question_333_variants.json",
+    "overall_posix": 4.094023655803648,
+    "detailed_scores": [
+        {
+            "Variation 1": 3.195888374162757,
+            "Variation 2": 6.345129895210266,
+            "Variation 3": 6.513826694488525,
+            "Variation 4": 6.328195581436157,
+            "Variation 5": 6.652871000766754,
+            "Variation 6": 5.949700355529785,
+            "Variation 7": 6.814773802757263,
+            "Variation 8": 5.307857145581926,
+            "Variation 9": 5.607857596874237,
+            "Variation 10": 5.728305792808532
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has the chest X-ray detected any lung masses? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the chest X-ray does not show any lung masses.",
+                "No, there are no radiographically visible pulmonary nodules on this chest X-ray.",
+                "Based on the image provided, it is not possible for me to accurately determine if there are any lung masses present. A chest X-ray is a medical imaging test that uses X-rays to create images of the structures inside the chest,",
+                "No, there is no evidence of lung mass lesions present in this radiograph. The image shows a side view of a person's chest, but there are no visible masses or lesions that would indicate the presence of lung cancer or other significant",
+                "Based on the image provided, it is not possible to definitively determine the presence of lung tumors. The image appears to be a chest X-ray, but the quality and resolution of the image are not sufficient to make a clear diagnosis. L",
+                "No, there are no solid pulmonary masses visible on the provided X-ray image. The image appears to be a lateral chest X-ray, and it shows the lungs and heart silhouette, but there are no solid masses that",
+                "No, there are no suspicious foci suggestive of lung cancer visible in this radiograph. The image shows a normal chest X-ray with no abnormalities.",
+                "Based on the image provided, it is not possible to definitively determine if there is a mass lesion or any other abnormalities in the lungs. The image is a black and white X-ray, which may not provide enough detail to make",
+                "No, there is no indication of a lung tumor on the provided radiographic image. The image shows a normal chest X-ray with the lungs appearing clear.",
+                "No, there are no pulmonary masses visible on this chest X-ray that could be of clinical significance. The image shows a normal chest X-ray with no abnormalities.",
+                "No, the imaging study does not suggest the presence of lung tumors or mass lesions. The image appears to be a normal chest X-ray with no visible abnormalities."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -151.44131422042847,
+                    -224.94674682617188,
+                    -468.6978089809418,
+                    -477.13264894485474,
+                    -467.8510932922363,
+                    -484.0848642587662,
+                    -365.63052701950073,
+                    -492.1800043582916,
+                    -337.2163143157959,
+                    -375.75561809539795,
+                    -380.5735459327698
+                ],
+                [
+                    -149.0019814968109,
+                    -225.59677267074585,
+                    -464.0826064348221,
+                    -470.1093189716339,
+                    -472.6946963071823,
+                    -473.5537379980087,
+                    -355.6091240644455,
+                    -483.2002868652344,
+                    -323.90296506881714,
+                    -377.54936146736145,
+                    -382.0601463317871
+                ],
+                [
+                    -151.44131422042847,
+                    -224.94674682617188,
+                    -468.6978089809418,
+                    -477.13264894485474,
+                    -467.8510932922363,
+                    -484.0848642587662,
+                    -365.63052701950073,
+                    -492.1800043582916,
+                    -337.2163143157959,
+                    -375.75561809539795,
+                    -380.5735459327698
+                ],
+                [
+                    -138.77975171804428,
+                    -227.1803057193756,
+                    -475.17833065986633,
+                    -461.62716725468636,
+                    -457.62343740463257,
+                    -473.04705357551575,
+                    -345.53532671928406,
+                    -489.75070548057556,
+                    -314.41781532764435,
+                    -392.2617840766907,
+                    -381.0072979927063
+                ],
+                [
+                    -146.55552506446838,
+                    -236.42290449142456,
+                    -461.3847486972809,
+                    -473.7986023426056,
+                    -469.05931210517883,
+                    -480.1143386363983,
+                    -351.0312340259552,
+                    -467.27585339546204,
+                    -318.44265723228455,
+                    -378.7478734254837,
+                    -385.10018932819366
+                ],
+                [
+                    -140.89422082901,
+                    -227.94212102890015,
+                    -467.40314388275146,
+                    -472.78708052635193,
+                    -463.0754323005676,
+                    -471.2887530326843,
+                    -336.3080015182495,
+                    -475.9779522418976,
+                    -307.6118402481079,
+                    -382.5679020881653,
+                    -386.97680044174194
+                ],
+                [
+                    -140.89422082901,
+                    -227.94212102890015,
+                    -467.40314388275146,
+                    -472.78708052635193,
+                    -463.0754323005676,
+                    -471.2887530326843,
+                    -336.3080015182495,
+                    -475.9779522418976,
+                    -307.6118402481079,
+                    -382.5679020881653,
+                    -386.97680044174194
+                ],
+                [
+                    -145.10841178894043,
+                    -240.74320793151855,
+                    -465.9609479904175,
+                    -496.27225971221924,
+                    -476.8941054344177,
+                    -493.7647166252136,
+                    -353.8500699996948,
+                    -467.7596092224121,
+                    -349.3668999671936,
+                    -409.0875563621521,
+                    -391.8366241455078
+                ],
+                [
+                    -159.9587287902832,
+                    -209.6637532711029,
+                    -475.75324511528015,
+                    -476.6775755882263,
+                    -449.5054371356964,
+                    -475.87225103378296,
+                    -336.6611223220825,
+                    -468.2716498374939,
+                    -306.1932325363159,
+                    -377.61377558112144,
+                    -379.94486460089684
+                ],
+                [
+                    -149.0019814968109,
+                    -225.59677267074585,
+                    -464.0826064348221,
+                    -470.1093189716339,
+                    -472.6946963071823,
+                    -473.5537379980087,
+                    -355.6091240644455,
+                    -483.2002868652344,
+                    -323.90296506881714,
+                    -377.54936146736145,
+                    -382.0601463317871
+                ],
+                [
+                    -140.89422082901,
+                    -227.94212102890015,
+                    -467.40314388275146,
+                    -472.78708052635193,
+                    -463.0754323005676,
+                    -471.2887530326843,
+                    -336.3080015182495,
+                    -475.9779522418976,
+                    -307.6118402481079,
+                    -382.5679020881653,
+                    -386.97680044174194
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.094023655803648
+        ],
+        "posix": 4.094023655803648
+    }
+}

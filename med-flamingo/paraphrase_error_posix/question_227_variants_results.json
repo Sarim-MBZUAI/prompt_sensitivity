@@ -1,0 +1,42 @@
+{
+    "file_name": "question_227_variants.json",
+    "overall_posix": 0.511450578491252,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.2648648648648648,
+            "Variation 2": 0.41826923076923084,
+            "Variation 3": 0.4385245901639344,
+            "Variation 4": 0.6482558139534884,
+            "Variation 5": 0.29807692307692313,
+            "Variation 6": 0.6246056782334385,
+            "Variation 7": 0.6785714285714286,
+            "Variation 8": 0.6142433234421365,
+            "Variation 9": 0.43333333333333335,
+            "Variation 10": 0.6957605985037406
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart silhouette of normal size on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the cardiac silhouette dimensionally normal on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does the heart size appear within the expected range for an adult male on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Are the dimensions of the cardiac silhouette consistent with those typically seen in a healthy individual on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1a\n 1.1b\n 1.1c\n 1.1d\n 1.1e\n 1.1f\n 1.1g\n 1.1h\n 1",
+                "<s> Is the cardiac contour and size as would be expected in a normal adult on this radiographic image? Please choose from the following two options: [yes, no]\n<image> a. Yes, the cardiac contour and size are as expected in a normal adult\n b. No, the cardiac contour and size are not as expected in a normal adult\n 2.\n Is the cardiac contour and",
+                "<s> Does the heart silhouette demonstrate a normal size and shape on the provided chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.10.1\n 1.10.2\n 1.10.3\n 1.10.4\n 1.10.5\n 1.10.6\n 1",
+                "<s> Would you expect to see a heart of this size in an average-sized adult male on this radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, because the heart is enlarged.\n b. No, because the heart is normal size.\n 2.\n What is the most likely diagnosis?\n a. Aortic regurgitation\n b. Mit",
+                "<s> Are the cardiac dimensions within the normal range for an individual of average build on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. The cardiac dimensions are within the normal range for an individual of average build on this chest X-ray.\n 2. The cardiac dimensions are not within the normal range for an individual of average build on this chest",
+                "<s> Does the heart silhouette display typical proportions for an adult female on this radiographic image? Please choose from the following two options: [yes, no]\n<image> a. Yes, the heart is of normal proportions.\n b. No, the heart is of abnormal proportions.\n 2.\n What is the most likely diagnosis for this patient?\n a. Normal heart\n b.",
+                "<s> Is the cardiac silhouette consistent with normal findings for an individual of this age group on the provided chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Are the heart size and contour as would be expected in a healthy adult without any known cardiopulmonary disease on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1. The heart size and contour are as expected in a healthy adult without any known cardiopulmonary disease.\n 2. The heart size and contour are not as expected in a healthy adult without any known card"
+            ]
+        ],
+        "sensitivities": [
+            0.511450578491252
+        ],
+        "posix": 0.511450578491252
+    }
+}

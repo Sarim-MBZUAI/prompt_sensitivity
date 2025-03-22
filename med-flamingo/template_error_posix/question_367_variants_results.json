@@ -1,0 +1,42 @@
+{
+    "file_name": "question_367_variants.json",
+    "overall_posix": 0.3411571792662993,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4847457627118644,
+            "Variation 2": 0.24878048780487805,
+            "Variation 3": 0.2844036697247707,
+            "Variation 4": 0.4612403100775193,
+            "Variation 5": 0.43999999999999995,
+            "Variation 6": 0.24880382775119614,
+            "Variation 7": 0.2681818181818182,
+            "Variation 8": 0.416030534351145,
+            "Variation 9": 0.3035714285714286,
+            "Variation 10": 0.2558139534883721
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n The patient's chest X-ray shows a right-sided pleural effusion.\n 10.Question:What is the most likely diagnosis",
+                "<s> question::Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> q:::Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n   Answer: B\n \u2022\tThe\tpatient\thas\ta\tleft\tpleural\teffusion.\tThe\tleft\tlung\tis\tcolapsed\tand\tthe\theart\tis\tdisplaced",
+                "<s> QUESTION:Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n [No]\n The patient's chest X-ray shows a right-sided pleural effusion.\n 10.\n QUESTION:What",
+                "<s> q:Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 19.  A 55-year-old man",
+                "<s> Question::: Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> QUESTION:Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n [yes, no]\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pleural effusion\n C.P",
+                "<s> q::Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> question:Are there signs of pleural effusion on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n"
+            ]
+        ],
+        "sensitivities": [
+            0.3411571792662993
+        ],
+        "posix": 0.3411571792662993
+    }
+}

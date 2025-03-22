@@ -1,0 +1,189 @@
+{
+    "file_name": "question_24_variants.json",
+    "overall_posix": 3.1880122010046326,
+    "detailed_scores": [
+        {
+            "Variation 1": 9.02617948788863,
+            "Variation 2": 3.4446967965678166,
+            "Variation 3": 0.06441586017608643,
+            "Variation 4": 9.02617948788863,
+            "Variation 5": 1.238726862452247,
+            "Variation 6": 9.059526030833904,
+            "Variation 7": 3.4446967965678166,
+            "Variation 8": 9.02617948788863,
+            "Variation 9": 9.059768080711365,
+            "Variation 10": 9.02617948788863
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the lung fields in this chest X-ray do not show signs of congestion or fluid overload. The X-ray appears to be normal, with no evidence of pulmonary edema or other abnormalities.",
+                "No, the lung fields in this chest X-ray do not show signs of congestion or fluid overload.",
+                "No, the lung fields in this chest X-ray do not show signs of congestion or fluid overload. The lung fields appear clear and well-aerated.",
+                "No, the lung fields in this chest X-ray do not show signs of fluid overload or congestion. The X-ray appears to be normal, with no evidence of pleural effusion or other fluid-related issues.",
+                "No, the lung fields in this chest X-ray do not show signs of congestion or fluid overload.",
+                "No, the chest X-ray does not show signs of congestion or fluid overload in the lung fields. The lung fields appear clear, with no evidence of infiltration or overload.",
+                "No, the lung fields in the chest X-ray do not show signs of congestion or fluid overload.",
+                "No, the lung fields in this chest X-ray do not show signs of congestion or fluid overload. The lung fields appear clear and well-aerated.",
+                "No, the lung fields in this chest X-ray do not show signs of congestion or fluid overload.",
+                "No, the lung fields in this chest X-ray do not show signs of fluid overload or congestion.",
+                "No, the lung fields in this chest X-ray do not show signs of congestion or fluid overload."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -495.0364639759064,
+                    -260.355797290802,
+                    -364.13798570632935,
+                    -498.2572569847107,
+                    -260.355797290802,
+                    -440.5324820280075,
+                    -259.48878717422485,
+                    -364.13798570632935,
+                    -260.355797290802,
+                    -259.4824938774109,
+                    -260.355797290802
+                ],
+                [
+                    -479.08296728134155,
+                    -253.40939527750015,
+                    -352.8872311115265,
+                    -477.1036653518677,
+                    -253.40939527750015,
+                    -419.43682289123535,
+                    -250.48845154047012,
+                    -352.8872311115265,
+                    -253.40939527750015,
+                    -247.98660951852798,
+                    -253.40939527750015
+                ],
+                [
+                    -479.2379460334778,
+                    -257.5611197948456,
+                    -371.8687958717346,
+                    -482.1038465499878,
+                    -257.5611197948456,
+                    -433.2465250492096,
+                    -255.50221419334412,
+                    -371.8687958717346,
+                    -257.5611197948456,
+                    -260.22042441368103,
+                    -257.5611197948456
+                ],
+                [
+                    -479.2379460334778,
+                    -257.5611197948456,
+                    -371.8687958717346,
+                    -482.1038465499878,
+                    -257.5611197948456,
+                    -433.2465250492096,
+                    -255.50221419334412,
+                    -371.8687958717346,
+                    -257.5611197948456,
+                    -260.22042441368103,
+                    -257.5611197948456
+                ],
+                [
+                    -462.61002242565155,
+                    -232.97029176354408,
+                    -349.80946385860443,
+                    -463.50711810588837,
+                    -232.97029176354408,
+                    -426.1038488149643,
+                    -231.16293588280678,
+                    -349.80946385860443,
+                    -232.97029176354408,
+                    -235.25141969323158,
+                    -232.97029176354408
+                ],
+                [
+                    -462.61002242565155,
+                    -232.97029176354408,
+                    -349.80946385860443,
+                    -463.50711810588837,
+                    -232.97029176354408,
+                    -426.1038488149643,
+                    -231.16293588280678,
+                    -349.80946385860443,
+                    -232.97029176354408,
+                    -235.25141969323158,
+                    -232.97029176354408
+                ],
+                [
+                    -495.0364639759064,
+                    -260.355797290802,
+                    -364.13798570632935,
+                    -498.2572569847107,
+                    -260.355797290802,
+                    -440.5324820280075,
+                    -259.48878717422485,
+                    -364.13798570632935,
+                    -260.355797290802,
+                    -259.4824938774109,
+                    -260.355797290802
+                ],
+                [
+                    -483.41225600242615,
+                    -251.48986434936523,
+                    -359.5962932109833,
+                    -488.1399281024933,
+                    -251.48986434936523,
+                    -431.18789291381836,
+                    -249.69064807891846,
+                    -359.5962932109833,
+                    -251.48986434936523,
+                    -253.58617496490479,
+                    -251.48986434936523
+                ],
+                [
+                    -462.61002242565155,
+                    -232.97029176354408,
+                    -349.80946385860443,
+                    -463.50711810588837,
+                    -232.97029176354408,
+                    -426.1038488149643,
+                    -231.16293588280678,
+                    -349.80946385860443,
+                    -232.97029176354408,
+                    -235.25141969323158,
+                    -232.97029176354408
+                ],
+                [
+                    -483.41225600242615,
+                    -251.48986434936523,
+                    -359.5962932109833,
+                    -488.1399281024933,
+                    -251.48986434936523,
+                    -431.18789291381836,
+                    -249.69064807891846,
+                    -359.5962932109833,
+                    -251.48986434936523,
+                    -253.58617496490479,
+                    -251.48986434936523
+                ],
+                [
+                    -486.5650908946991,
+                    -257.74676978588104,
+                    -369.1247639656067,
+                    -489.6821563243866,
+                    -257.74676978588104,
+                    -424.30195569992065,
+                    -255.35054194927216,
+                    -369.1247639656067,
+                    -257.74676978588104,
+                    -256.3539856672287,
+                    -257.74676978588104
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.1880122010046326
+        ],
+        "posix": 3.1880122010046326
+    }
+}

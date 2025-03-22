@@ -1,0 +1,189 @@
+{
+    "file_name": "question_199_variants_results.json",
+    "overall_posix": 0.9645869230800226,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.006536779154885153,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6445747846483545,
+            "Variation 4": 1.0963782441952337,
+            "Variation 5": 1.3793893081593394,
+            "Variation 6": 0.5458074810574545,
+            "Variation 7": 0.7210964383768981,
+            "Variation 8": 0.8332707423060493,
+            "Variation 9": 0.9764112344013073,
+            "Variation 10": 0.7132816173367852
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an acute displaced rib fracture according to the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest X-ray shows a rib fracture, but it is not acute or displaced. ",
+                "The chest X-ray does not show any evidence of an acute displaced rib fracture in this patient. ",
+                "The chest X-ray shows a rib fracture, but it is not acute or displaced. ",
+                "The chest X-ray does not show any radiographic findings suggestive of a fractured rib with displacement. ",
+                "Yes, the imaging study shows an acute fracture of one or more ribs, which has resulted in significant displacement and deformity. ",
+                "The chest x-ray does not show any visible evidence of a recent traumatic injury to a rib, resulting in its displacement or malalignment. ",
+                "Yes, the provided radiographic images show an acute displaced rib fracture. ",
+                "The chest X-ray does not show a clear indication of a rib fracture with significant displacement in this patient. ",
+                "The provided radiograph does not show any imaging findings consistent with an acute displaced rib fracture. ",
+                "The chest x-ray does not show any evidence of a significant traumatic injury resulting in one or more displaced rib fractures. ",
+                "The provided radiograph shows a rib fracture, but it is not clear whether it is acute or chronic. An acute rib fracture typically presents with sharp pain, swelling, and tenderness in the affected area. However, without more"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -52.007457216528564,
+                    -51.83750095850155,
+                    -52.007457216528564,
+                    -68.76640161738578,
+                    -89.2843175191665,
+                    -100.28608300210544,
+                    -62.92360683767765,
+                    -71.47706105270481,
+                    -72.8392257741798,
+                    -82.27620548296909,
+                    -88.38481970070461
+                ],
+                [
+                    -56.47178518458168,
+                    -43.084298695678626,
+                    -56.47178518458168,
+                    -67.56623579584084,
+                    -91.30362494065776,
+                    -98.44561796273047,
+                    -65.79844841832528,
+                    -70.89184401669445,
+                    -71.10683530693495,
+                    -82.1465137315754,
+                    -92.14014542832183
+                ],
+                [
+                    -52.007457216528564,
+                    -51.83750095850155,
+                    -52.007457216528564,
+                    -68.76640161738578,
+                    -89.2843175191665,
+                    -100.28608300210544,
+                    -62.92360683767765,
+                    -71.47706105270481,
+                    -72.8392257741798,
+                    -82.27620548296909,
+                    -88.38481970070461
+                ],
+                [
+                    -67.59763580732943,
+                    -68.16975133322376,
+                    -67.59763580732943,
+                    -43.7384534677617,
+                    -87.76060375437373,
+                    -100.29269078263314,
+                    -66.58292179001728,
+                    -73.09406048308847,
+                    -74.36480470449897,
+                    -82.72467335678448,
+                    -98.72797159505444
+                ],
+                [
+                    -65.75459130093805,
+                    -65.43704509704548,
+                    -65.75459130093805,
+                    -70.85295238305116,
+                    -44.60517527240148,
+                    -97.02969214026962,
+                    -65.90645901203243,
+                    -70.48179477238546,
+                    -76.1159745012119,
+                    -80.28088424933958,
+                    -89.96856638156373
+                ],
+                [
+                    -68.02475375287395,
+                    -66.34867497872256,
+                    -68.02475375287395,
+                    -66.13790922973931,
+                    -86.24539522557461,
+                    -45.42936674702247,
+                    -72.11404850432882,
+                    -75.91121458340422,
+                    -83.39569576026406,
+                    -76.15870656689208,
+                    -100.71608902650996
+                ],
+                [
+                    -59.06253485774869,
+                    -59.08020476416277,
+                    -59.06253485774869,
+                    -69.35923609929159,
+                    -84.89404063372058,
+                    -104.22372914218431,
+                    -41.575633104206645,
+                    -77.24359798282967,
+                    -65.07108245297422,
+                    -86.02543947508093,
+                    -80.20449688546569
+                ],
+                [
+                    -64.25228700092703,
+                    -61.90026714249689,
+                    -64.25228700092703,
+                    -66.06354146206286,
+                    -86.02246451907558,
+                    -104.2185870913163,
+                    -74.45219374482986,
+                    -42.923000764526705,
+                    -83.7996175007429,
+                    -82.49029074825376,
+                    -100.47281244532815
+                ],
+                [
+                    -62.05917921733453,
+                    -59.44486905554368,
+                    -62.05917921733453,
+                    -67.02435485057504,
+                    -91.26570706609346,
+                    -100.24716952202289,
+                    -54.583430482511176,
+                    -81.51219306321582,
+                    -42.38123225546178,
+                    -84.52053380796133,
+                    -74.50913096752583
+                ],
+                [
+                    -66.45353423815595,
+                    -62.88025247294081,
+                    -66.45353423815595,
+                    -68.2601113282808,
+                    -87.52441044029547,
+                    -95.09289654935583,
+                    -73.6736831269809,
+                    -72.5240331987452,
+                    -81.04580780386459,
+                    -43.7719497415178,
+                    -101.42286033094433
+                ],
+                [
+                    -59.83834778108576,
+                    -60.830018465261674,
+                    -59.83834778108576,
+                    -72.31055465221289,
+                    -87.62105498925666,
+                    -103.43799109394604,
+                    -57.90038484372781,
+                    -72.74015594892262,
+                    -57.39240991463885,
+                    -86.77668630554399,
+                    -65.49738554776195
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.9645869230800226
+        ],
+        "posix": 0.9645869230800226
+    }
+}

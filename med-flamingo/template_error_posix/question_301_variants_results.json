@@ -1,0 +1,42 @@
+{
+    "file_name": "question_301_variants.json",
+    "overall_posix": 0.46687158910710974,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.45731707317073167,
+            "Variation 2": 0.45510835913312686,
+            "Variation 3": 0.47058823529411764,
+            "Variation 4": 0.5232198142414861,
+            "Variation 5": 0.5294117647058824,
+            "Variation 6": 0.24545454545454548,
+            "Variation 7": 0.5046439628482973,
+            "Variation 8": 0.4860681114551084,
+            "Variation 9": 0.4736842105263157,
+            "Variation 10": 0.5232198142414861
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of pulmonary hypertension on the chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of right ventricular",
+                "<s> Question:Is there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale:The chest X-ray demonstrates a right-sided pleural effusion. The right lung is hyperlucent, and the left lung is hyperl",
+                "<s> q:Is there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n   d:\n   e:\n   f:\n   g:\n   h:\n   i:\n   j:\n   k:\n   l:\n   m:\n   n:\n   o:",
+                "<s> QUESTION:Is there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Aortic dissection\n B:Aortic aneurysm\n C:Aortic rupture\n D:",
+                "<s> Q::: Is there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Is there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question-Is there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n\n Question-Is there any evidence of pulmonary edema on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [yes, no]\n Question",
+                "<s> q:::Is there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10.Question:What is the most likely diagnosis?\n A.Acute pulmonary embolism\n B.Acute pulmonary infarction\n C.Chronic pulmonary infarction\n",
+                "<s> QUESTION\tIs there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The chest X-ray is normal. The right heart border is clear. The right hilum is not visible. The right heart border is clear. The",
+                "<s> Question:Is there any abnormality noted in the pulmonary vasculature on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image>\nYes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21"
+            ]
+        ],
+        "sensitivities": [
+            0.46687158910710974
+        ],
+        "posix": 0.46687158910710974
+    }
+}

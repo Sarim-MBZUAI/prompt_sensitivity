@@ -1,0 +1,42 @@
+{
+    "file_name": "question_47_variants.json",
+    "overall_posix": 0.34173515330944426,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.21717171717171713,
+            "Variation 2": 0.25,
+            "Variation 3": 0.2065217391304348,
+            "Variation 4": 0.23711340206185572,
+            "Variation 5": 0.3162790697674418,
+            "Variation 6": 0.49640287769784175,
+            "Variation 7": 0.4221311475409837,
+            "Variation 8": 0.5121107266435986,
+            "Variation 9": 0.2796208530805687,
+            "Variation 10": 0.48
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> question::Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n [no]\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.",
+                "<s> q:Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Q:Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 3:\n 4:\n 5:\n 6:\n 7:\n 8:\n 9:\n 1",
+                "<s> QUESTION:Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> q::Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Pulmonary tuberculosis\n Q:What is the most likely cause of the patient\u2019s symptoms?\n A:Pulmon",
+                "<s> Question:Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the diagnosis?\n 1.Pulmonary tuberculosis\n 2.Pulmonary infarction\n 3.Pulmonary embolism\n",
+                "<s> QUESTION:Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n [Yes, yes]\n Explanation:\n The chest X-ray shows a right-sided pneumothorax.\n The patient is in the supine position, and the right hemith",
+                "<s> Question::: Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q::Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of a pleural effusion?\n A::\n B::\n Q::Is there any evidence of a pneumothorax?\n A::\n B::\n Q::Is there any evidence"
+            ]
+        ],
+        "sensitivities": [
+            0.34173515330944426
+        ],
+        "posix": 0.34173515330944426
+    }
+}

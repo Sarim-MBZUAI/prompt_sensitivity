@@ -1,0 +1,42 @@
+{
+    "file_name": "question_159_variants.json",
+    "overall_posix": 0.3435434263069769,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4437299035369775,
+            "Variation 2": 0.23893805309734517,
+            "Variation 3": 0.3537906137184115,
+            "Variation 4": 0.4271523178807948,
+            "Variation 5": 0.21621621621621623,
+            "Variation 6": 0.5378378378378378,
+            "Variation 7": 0.44051446945337625,
+            "Variation 8": 0.2614107883817427,
+            "Variation 9": 0.2583333333333333,
+            "Variation 10": 0.2575107296137339
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n [no]\n Correct Answer: [yes]\n The chest X-ray shows a fibrotic right middle lobe (arrows).\n 1.The chest X-ray shows a fibrotic right",
+                "<s> Question-Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> question:Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n1.Yes\n 2.No\n\n 1.Yes\n 2.No\n You have marked [2] for \u201cyes\u201d and [1] for \u201cno\u201d.\n The chest X-ray shows a fib",
+                "<s> Question:Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Question:What is the most likely diagnosis?\n [pneumonia, tuberculosis, bronchiectasis, fibrosis]\n 11.Question:What",
+                "<s> QUESTION:Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n B\n 20\n 11\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n ",
+                "<s> Q:Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Suggested response\n These are two spot views of the right lung. The right middle lobe is not visible on the first view, but is visible on the second. The right middle lobe is not visible on the first view",
+                "<s> question::Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The chest X-ray shows fibrosis of the right middle lobe.\n B: The chest X-ray shows no fibrosis of the right middle lobe.\n 10.10.",
+                "<s> Q::: Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q:::Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Does the chest X-ray show changes in the right middle lobe that could suggest fibrosis? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n [yes, no]\n 10.10.10.110.110.110.110.110.110.110."
+            ]
+        ],
+        "sensitivities": [
+            0.3435434263069769
+        ],
+        "posix": 0.3435434263069769
+    }
+}

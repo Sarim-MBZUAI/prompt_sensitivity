@@ -1,0 +1,189 @@
+{
+    "file_name": "question_138_variants.json",
+    "overall_posix": 32.38968896917502,
+    "detailed_scores": [
+        {
+            "Variation 1": 94.66814150810242,
+            "Variation 2": 94.66814150810242,
+            "Variation 3": 0.331733136177063,
+            "Variation 4": 0.23665055751800537,
+            "Variation 5": 0.6599858283996582,
+            "Variation 6": 0.6599858283996582,
+            "Variation 7": 94.66814150810242,
+            "Variation 8": 94.66814150810242,
+            "Variation 9": 0.1146015214920044,
+            "Variation 10": 163.19772572318712
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the patient does not have a normal cardiomediastinal silhouette on the chest X-ray. The silhouette is described as \"abnormal,\" which could indicate a variety of issues such as lung disease, heart disease,",
+                "[no]",
+                "[no]",
+                "No, the patient does not have a normal cardiomediastinal silhouette on the chest X-ray. The silhouette is described as \"very thin\" and \"very small,\" which indicates that it is not within the normal range",
+                "No, the patient does not have a normal cardiomediastinal silhouette on the chest X-ray. The silhouette is described as being \"very thin\" and \"very small,\" which indicates that it is not within the normal",
+                "No, the patient does not have a normal cardiomediastinal silhouette on the chest X-ray. The silhouette is described as \"very poor,\" which indicates that the cardiomediastinal silhouette is not clearly",
+                "No, the patient does not have a normal cardiomediastinal silhouette on the chest X-ray. The silhouette is described as \"very poor,\" which indicates that the cardiomediastinal silhouette is not clearly",
+                "[no]",
+                "[no]",
+                "No, the patient does not have a normal cardiomediastinal silhouette on the chest X-ray. The silhouette is described as \"very thin\" and \"very small,\" which are not typical characteristics of a normal cardiom",
+                "No"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -515.7505850791931,
+                    -42.40987753868103,
+                    -42.40987753868103,
+                    -499.16392827033997,
+                    -503.91805720329285,
+                    -548.749876499176,
+                    -548.749876499176,
+                    -42.40987753868103,
+                    -42.40987753868103,
+                    -510.0205090045929,
+                    -26.15740790963173
+                ],
+                [
+                    -510.61013412475586,
+                    -45.25119590759277,
+                    -45.25119590759277,
+                    -512.5899314880371,
+                    -512.896333694458,
+                    -537.7216763496399,
+                    -537.7216763496399,
+                    -45.25119590759277,
+                    -45.25119590759277,
+                    -519.1334257125854,
+                    -26.148349285125732
+                ],
+                [
+                    -481.73165261745453,
+                    -41.190211057662964,
+                    -41.190211057662964,
+                    -481.76984536647797,
+                    -481.51494777202606,
+                    -511.53832137584686,
+                    -511.53832137584686,
+                    -41.190211057662964,
+                    -41.190211057662964,
+                    -479.75768172740936,
+                    -22.15552067756653
+                ],
+                [
+                    -510.61013412475586,
+                    -45.25119590759277,
+                    -45.25119590759277,
+                    -512.5899314880371,
+                    -512.896333694458,
+                    -537.7216763496399,
+                    -537.7216763496399,
+                    -45.25119590759277,
+                    -45.25119590759277,
+                    -519.1334257125854,
+                    -26.148349285125732
+                ],
+                [
+                    -542.8330960273743,
+                    -38.33442395925522,
+                    -38.33442395925522,
+                    -524.6606965065002,
+                    -524.4981780052185,
+                    -553.8819017410278,
+                    -553.8819017410278,
+                    -38.33442395925522,
+                    -38.33442395925522,
+                    -529.047860622406,
+                    -23.713436126708984
+                ],
+                [
+                    -498.7106728553772,
+                    -42.75084042549133,
+                    -42.75084042549133,
+                    -496.5824680328369,
+                    -496.9119625091553,
+                    -512.5588054656982,
+                    -512.5588054656982,
+                    -42.75084042549133,
+                    -42.75084042549133,
+                    -499.31433296203613,
+                    -24.197779655456543
+                ],
+                [
+                    -498.7106728553772,
+                    -42.75084042549133,
+                    -42.75084042549133,
+                    -496.5824680328369,
+                    -496.9119625091553,
+                    -512.5588054656982,
+                    -512.5588054656982,
+                    -42.75084042549133,
+                    -42.75084042549133,
+                    -499.31433296203613,
+                    -24.197779655456543
+                ],
+                [
+                    -498.7106728553772,
+                    -42.75084042549133,
+                    -42.75084042549133,
+                    -496.5824680328369,
+                    -496.9119625091553,
+                    -512.5588054656982,
+                    -512.5588054656982,
+                    -42.75084042549133,
+                    -42.75084042549133,
+                    -499.31433296203613,
+                    -24.197779655456543
+                ],
+                [
+                    -481.73165261745453,
+                    -41.190211057662964,
+                    -41.190211057662964,
+                    -481.76984536647797,
+                    -481.51494777202606,
+                    -511.53832137584686,
+                    -511.53832137584686,
+                    -41.190211057662964,
+                    -41.190211057662964,
+                    -479.75768172740936,
+                    -22.15552067756653
+                ],
+                [
+                    -498.7106728553772,
+                    -42.75084042549133,
+                    -42.75084042549133,
+                    -496.5824680328369,
+                    -496.9119625091553,
+                    -512.5588054656982,
+                    -512.5588054656982,
+                    -42.75084042549133,
+                    -42.75084042549133,
+                    -499.31433296203613,
+                    -24.197779655456543
+                ],
+                [
+                    -510.61013412475586,
+                    -45.25119590759277,
+                    -45.25119590759277,
+                    -512.5899314880371,
+                    -512.896333694458,
+                    -537.7216763496399,
+                    -537.7216763496399,
+                    -45.25119590759277,
+                    -45.25119590759277,
+                    -519.1334257125854,
+                    -26.148349285125732
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            32.38968896917502
+        ],
+        "posix": 32.38968896917502
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_308_variants.json",
+    "overall_posix": 0.37123327063099243,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4965753424657534,
+            "Variation 2": 0.2962962962962963,
+            "Variation 3": 0.2930232558139535,
+            "Variation 4": 0.4948096885813149,
+            "Variation 5": 0.26923076923076916,
+            "Variation 6": 0.29166666666666674,
+            "Variation 7": 0.2523809523809524,
+            "Variation 8": 0.5182724252491694,
+            "Variation 9": 0.24623115577889454,
+            "Variation 10": 0.5538461538461539
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question-Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2756\u2756What is the next step in the management of this patient?\n 1. Obtain a CT scan of the chest to evaluate for pulmonary metastases.\n 2. Obtain",
+                "<s> Q:Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n",
+                "<s> Q::: Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n The correct response is [yes, no]. The chest X-ray shows enlarged lymph nodes in the right hilar region.\n 10",
+                "<s> Q:Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Is there",
+                "<s> q:Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n 19.  A 55-year-old man with a history",
+                "<s> question:Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n1.No\n 2.No\n 3.Yes\n 4.No\n 5.No\n 6.Yes\n 7.No\n 8.No\n 9.Yes\n ",
+                "<s> Q::Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there evidence of enlarged lymph nodes on the chest CT? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there evidence of enlarg",
+                "<s> QUESTION:Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> Question:Is there evidence of enlarged lymph nodes on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The following radiograph is of a 55-year-old man with a history of a cough. Please select from the following two options: [pneumonia, normal]||Answer:\n Normal"
+            ]
+        ],
+        "sensitivities": [
+            0.37123327063099243
+        ],
+        "posix": 0.37123327063099243
+    }
+}

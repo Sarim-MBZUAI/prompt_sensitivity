@@ -1,0 +1,189 @@
+{
+    "file_name": "question_346_variants.json",
+    "overall_posix": 3.620037000820471,
+    "detailed_scores": [
+        {
+            "Variation 1": 6.254083993587088,
+            "Variation 2": 3.1177844762802125,
+            "Variation 3": 4.341416474311583,
+            "Variation 4": 6.777972520665919,
+            "Variation 5": 5.565327161550522,
+            "Variation 6": 4.682727956771851,
+            "Variation 7": 3.9430049742971147,
+            "Variation 8": 6.470786151885986,
+            "Variation 9": 5.380266471342607,
+            "Variation 10": 3.6682414687596836
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can an acute infiltrate be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, an acute infiltrate can be seen on the chest X-ray.",
+                "No, there is no evidence of an acute alveolar infiltrate on the chest radiograph. The image shows a normal chest radiograph with no signs of acute lung disease or infiltrate.",
+                "Yes, the chest X-ray shows a patchy consolidation consistent with an acute pneumonic process.",
+                "Yes, a fluid-filled lobe can be identified on the chest film, which is suggestive of an acute alveolitis.",
+                "Based on the image provided, there is no radiographic evidence of an air-space consolidation consistent with a bacterial pneumonia. The lung fields appear clear without any areas of consolidation or infiltration.",
+                "No, there are no signs of an acute interstitial process visible on the chest X-ray. The image shows a normal chest X-ray with no abnormalities.",
+                "No, the radiograph does not reveal a patchy, homogeneous opacity consistent with an acute pulmonary infiltrate.",
+                "Yes, a focal area of increased opacification can be seen on the chest film, suggesting an acute lung infection.",
+                "Based on the image provided, it is not possible to definitively diagnose an acute alveolar filling process. The X-ray shows the lungs and chest structures, but without additional context or medical expertise, it is not appropriate to make a",
+                "No, there are no signs of an inflammatory response visible on the chest radiograph that are consistent with an acute pneumonitis.",
+                "No, the image does not show evidence of an acute consolidation in one or more lobes of the lung."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -174.591961145401,
+                    -468.53390884399414,
+                    -252.5365730524063,
+                    -309.17587184906006,
+                    -493.1566696166992,
+                    -397.2050476074219,
+                    -315.0737998485565,
+                    -284.9961004257202,
+                    -498.1312687397003,
+                    -352.14075469970703,
+                    -269.96623933315277
+                ],
+                [
+                    -216.87544775009155,
+                    -457.3735086917877,
+                    -251.15894508361816,
+                    -299.734063744545,
+                    -482.9547152519226,
+                    -391.21817231178284,
+                    -322.26087522506714,
+                    -285.8430595397949,
+                    -501.68197298049927,
+                    -347.48261308670044,
+                    -264.71835803985596
+                ],
+                [
+                    -208.18886840343475,
+                    -462.82678842544556,
+                    -256.7512490749359,
+                    -314.64051485061646,
+                    -494.8952331542969,
+                    -376.44682121276855,
+                    -316.5116195678711,
+                    -281.4631555080414,
+                    -506.125834941864,
+                    -328.92142045497894,
+                    -264.4714136123657
+                ],
+                [
+                    -205.6292281150818,
+                    -450.9222116470337,
+                    -254.51487159729004,
+                    -312.0375065803528,
+                    -479.13896799087524,
+                    -382.5013093948364,
+                    -310.0792506933212,
+                    -282.64474534988403,
+                    -491.76515650749207,
+                    -344.12847995758057,
+                    -236.45492374897003
+                ],
+                [
+                    -217.108052611351,
+                    -460.4663465023041,
+                    -259.33249855041504,
+                    -303.8453423976898,
+                    -472.68042969703674,
+                    -376.5732350349426,
+                    -307.68535339832306,
+                    -277.6524455547333,
+                    -502.81781339645386,
+                    -327.63098645210266,
+                    -256.4874436855316
+                ],
+                [
+                    -217.108052611351,
+                    -460.4663465023041,
+                    -259.33249855041504,
+                    -303.8453423976898,
+                    -472.68042969703674,
+                    -376.5732350349426,
+                    -307.68535339832306,
+                    -277.6524455547333,
+                    -502.81781339645386,
+                    -327.63098645210266,
+                    -256.4874436855316
+                ],
+                [
+                    -205.6292281150818,
+                    -450.9222116470337,
+                    -254.51487159729004,
+                    -312.0375065803528,
+                    -479.13896799087524,
+                    -382.5013093948364,
+                    -310.0792506933212,
+                    -282.64474534988403,
+                    -491.76515650749207,
+                    -344.12847995758057,
+                    -236.45492374897003
+                ],
+                [
+                    -196.74532651901245,
+                    -466.1152768135071,
+                    -272.43216276168823,
+                    -285.4893094301224,
+                    -488.61466884613037,
+                    -415.2148537635803,
+                    -305.8561797142029,
+                    -274.775753736496,
+                    -504.68680679798126,
+                    -345.5641508102417,
+                    -263.11183309555054
+                ],
+                [
+                    -216.87544775009155,
+                    -457.3735086917877,
+                    -251.15894508361816,
+                    -299.734063744545,
+                    -482.9547152519226,
+                    -391.21817231178284,
+                    -322.26087522506714,
+                    -285.8430595397949,
+                    -501.68197298049927,
+                    -347.48261308670044,
+                    -264.71835803985596
+                ],
+                [
+                    -217.7904109954834,
+                    -442.58569860458374,
+                    -256.16433811187744,
+                    -301.3372128009796,
+                    -463.7007346153259,
+                    -378.480504989624,
+                    -309.3090777397156,
+                    -287.7163472175598,
+                    -478.59317660331726,
+                    -334.9414072036743,
+                    -247.16772031784058
+                ],
+                [
+                    -217.108052611351,
+                    -460.4663465023041,
+                    -259.33249855041504,
+                    -303.8453423976898,
+                    -472.68042969703674,
+                    -376.5732350349426,
+                    -307.68535339832306,
+                    -277.6524455547333,
+                    -502.81781339645386,
+                    -327.63098645210266,
+                    -256.4874436855316
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.620037000820471
+        ],
+        "posix": 3.620037000820471
+    }
+}

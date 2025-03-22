@@ -1,0 +1,189 @@
+{
+    "file_name": "question_106_variants_results.json",
+    "overall_posix": 0.9965670553202287,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.316249318855158,
+            "Variation 2": 0.4398994048340114,
+            "Variation 3": 1.279300935022419,
+            "Variation 4": 1.416562544257792,
+            "Variation 5": 1.1767583344757564,
+            "Variation 6": 0.7005154979919533,
+            "Variation 7": 0.9430053843883035,
+            "Variation 8": 1.45934702309605,
+            "Variation 9": 0.706615410075683,
+            "Variation 10": 1.2829353173717466
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of chronic obstructive pulmonary disease (COPD) visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray does not show any signs of chronic obstructive pulmonary disease (copd). ",
+                "The chest radiograph does not show any evidence of chronic airflow limitation. ",
+                "The chest x-ray does not show any signs of obstructive lung disease. ",
+                "The chest film does not show features suggestive of emphysema or chronic bronchitis. ",
+                "The radiographic image does not show any findings consistent with COPD. ",
+                "The chest x-ray does not show any abnormalities indicative of air trapping or hyperinflation. ",
+                "The chest x-ray does not show any signs of pulmonary emphysematous changes. ",
+                "It appears that the patient has developed a pattern of obstructive lung disease. however, it is important to note that a single radiograph may not provide a complete picture of the patient's condition. further evaluation, including additional imaging studies and",
+                "The chest film does not show typical findings of chronic bronchitis or emphysema. ",
+                "Yes, the chest X-ray shows radiographic features that are consistent with a diagnosis of COPD (Chronic Obstructive Pulmonary Disease) in this patient. ",
+                "The image does not show any evidence of airway obstruction or parenchymal destruction. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.06966491577373,
+                    -64.76215265516657,
+                    -49.86765301245396,
+                    -70.49358642128936,
+                    -65.1512281681562,
+                    -71.66538161214339,
+                    -57.88203686758061,
+                    -89.16293951957721,
+                    -73.17529942388683,
+                    -68.62766590872536,
+                    -70.5771772153239
+                ],
+                [
+                    -53.42850133927959,
+                    -41.839291202661116,
+                    -56.929928444646066,
+                    -70.16067122117238,
+                    -73.2651162725524,
+                    -71.25384406669764,
+                    -62.450069488651934,
+                    -84.5296230179365,
+                    -71.44016572086002,
+                    -72.8610446513494,
+                    -68.534389187349
+                ],
+                [
+                    -48.27517637895096,
+                    -64.90377465763595,
+                    -41.59465476885089,
+                    -68.51759778005362,
+                    -72.3751155345526,
+                    -69.7815548828803,
+                    -57.09557181090349,
+                    -77.23411639875894,
+                    -71.41062646171486,
+                    -68.5430177133486,
+                    -65.97176384650811
+                ],
+                [
+                    -60.07809381766742,
+                    -69.04381660779472,
+                    -62.03032738744514,
+                    -41.008254672614214,
+                    -76.29413264762843,
+                    -76.55529376228515,
+                    -61.28407513450111,
+                    -91.35444741943888,
+                    -56.039372391145434,
+                    -73.10994008356829,
+                    -74.3113644036057
+                ],
+                [
+                    -47.17805368782649,
+                    -61.0698791553732,
+                    -54.07139399633161,
+                    -64.96097480500612,
+                    -40.67333664846751,
+                    -69.09662068754915,
+                    -56.113787557624164,
+                    -85.8643023484459,
+                    -68.07326912063945,
+                    -60.51936163372408,
+                    -66.3619568778231
+                ],
+                [
+                    -56.381414453664775,
+                    -66.79783535772003,
+                    -56.37024912069319,
+                    -73.55742222358094,
+                    -72.58485454786569,
+                    -43.3199595406204,
+                    -60.459457213117275,
+                    -91.01254160498524,
+                    -77.03875979635814,
+                    -71.78283026275369,
+                    -67.73805714264745
+                ],
+                [
+                    -56.92352611872104,
+                    -71.86931470804848,
+                    -58.15502604000358,
+                    -73.19394593312609,
+                    -77.30985764274374,
+                    -75.01688010713406,
+                    -42.5236349012099,
+                    -92.90556702229696,
+                    -75.68060125132615,
+                    -75.92656032228331,
+                    -77.77751398069086
+                ],
+                [
+                    -55.44648698376341,
+                    -63.115485857473686,
+                    -50.36735741791199,
+                    -72.48543562540726,
+                    -72.82212525920477,
+                    -72.75532729036058,
+                    -63.91829268677975,
+                    -52.00959593507645,
+                    -72.27541531037787,
+                    -71.34705532857322,
+                    -72.17267373224604
+                ],
+                [
+                    -59.7222166019377,
+                    -69.4094679011032,
+                    -62.574928165908204,
+                    -56.19996483983732,
+                    -76.17931535781827,
+                    -76.55993134029995,
+                    -63.714760604605544,
+                    -89.72189863389303,
+                    -42.83845143980784,
+                    -76.03758213979347,
+                    -76.0475356545794
+                ],
+                [
+                    -50.16977458758936,
+                    -63.3453543104697,
+                    -56.734991778823314,
+                    -66.7660096056934,
+                    -58.893145855208786,
+                    -72.55767631009076,
+                    -59.47897418692446,
+                    -87.38009262153855,
+                    -74.24170697195768,
+                    -47.486749969854706,
+                    -71.30917964222317
+                ],
+                [
+                    -58.42754899338365,
+                    -66.12689372524619,
+                    -57.57544510328444,
+                    -71.86934218583156,
+                    -72.49688514962327,
+                    -71.7668512037053,
+                    -63.48859948824975,
+                    -90.4973081865121,
+                    -76.70913058790029,
+                    -74.06285033365748,
+                    -44.292179260220564
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.9965670553202287
+        ],
+        "posix": 0.9965670553202287
+    }
+}

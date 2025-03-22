@@ -1,0 +1,42 @@
+{
+    "file_name": "question_217_variants.json",
+    "overall_posix": 0.5156708195633415,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5486111111111112,
+            "Variation 2": 0.38396624472573837,
+            "Variation 3": 0.42105263157894735,
+            "Variation 4": 0.5580645161290323,
+            "Variation 5": 0.6143790849673203,
+            "Variation 6": 0.6758104738154613,
+            "Variation 7": 0.6788732394366197,
+            "Variation 8": 0.6267409470752089,
+            "Variation 9": 0.37453183520599254,
+            "Variation 10": 0.27467811158798283
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of focal airspace disease? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray reveal any evidence of focal airway obstruction? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, there is focal airway obstruction in the right middle lobe.\n 2.  No, there is no focal airway obstruction in the right middle lobe.\n 1.  Yes",
+                "<s> Is there an appearance of alveolar consolidation on this radiograph that might suggest focal airspace disease? Please choose from the following two options: [yes, no]\n<image> 11.\n a.\n b.\n 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a",
+                "<s> Could you identify signs suggestive of focal lung pathology, such as atelectasis, in the provided chest image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1",
+                "<s> Does the radiographic findings on this film indicate a localized area of lung involvement that could be consistent with airspace disease? Please choose from the following two options: [yes, no]\n<image> 24.\n A.  No\n B.  Yes\n C.  Both\n D.  Neither\n 25.\n What is the most likely diagnosis?\n A.  Pneumonia\n B. ",
+                "<s> Is there any visual indication of a segmental or lobar pattern of disease manifestation on this X-ray? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Acute pneumonia\n B.Chronic obstructive pulmonary disease\n C.Pulmonary edema\n D.Pulmonary hemor",
+                "<s> Can you confirm whether there is an abnormality present on this image that might represent focal airspace disease, such as alveolar consolidation? Please choose from the following two options: [yes, no]\n<image> 29\n Suggested response\n This is a frontal chest radiograph of an adult male patient. There is a large area of alveolar consolidation in the right upper lobe. This is most likely due to p",
+                "<s> Would the appearance of air-space consolidation in one or more lung segments be visible on this radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes, the appearance of air-space consolidation in the right upper lobe is visible.\n b. No, the appearance of air-space consolidation in the right upper lobe is not visible.\n 4.",
+                "<s> Is it possible to determine from this image if there's an area of lung tissue involvement that could be indicative of focal airspace disease? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, there is an area of lung tissue involvement.\n 2.  No, there is no area of lung tissue involvement.\n 1.  Yes, there is an area of lung tissue",
+                "<s> Could you assess whether this chest X-ray shows any features consistent with localized lung pathology, such as atelectasis or alveolar consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the provided radiograph reveal any signs or symptoms that might suggest a diagnosis of focal airspace disease? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.5156708195633415
+        ],
+        "posix": 0.5156708195633415
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_296_variants.json",
+    "overall_posix": 0.373115417918808,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4483985765124555,
+            "Variation 2": 0.48852459016393435,
+            "Variation 3": 0.2850678733031674,
+            "Variation 4": 0.526813880126183,
+            "Variation 5": 0.28181818181818175,
+            "Variation 6": 0.2685185185185186,
+            "Variation 7": 0.38576779026217234,
+            "Variation 8": 0.5356037151702786,
+            "Variation 9": 0.20975609756097557,
+            "Variation 10": 0.3008849557522124
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> question:Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\nyes\n 1.The chest X-ray shows bilateral pleural effusions.\n 2.The chest X-ray does not show any pleural effusions.\n 1.The chest X",
+                "<s> QUESTION\tAre there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows bilateral pleural effusions. The right pleural effusion is more pronounced than the left. The left pleural eff",
+                "<s> Q::: Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n Rationale:The chest X-ray shows bilateral pleural effusions. The patient is in the supine position, and the right hemidiaphragm is",
+                "<s> q:::Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n   D:\n   E:\n   F:\n   G:\n   H:\n   I:\n   J:\n   K:\n   L:\n   M:\n   N:",
+                "<s> Question::: Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1:\n Option 2:\n Option 3:\n Option 4:\n Option 5:\n Option 6:\n Option 7:\n Option 8:\n Option 9:\n Option 10:",
+                "<s> Question-Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n Comments: The chest X-ray shows bilateral pleural effusions. The patient is in the supine position, and the right hemidiaphragm is lower than the left. The left",
+                "<s> QUESTION:Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Q::Are there bilateral pleural effusions indicated in the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::"
+            ]
+        ],
+        "sensitivities": [
+            0.373115417918808
+        ],
+        "posix": 0.373115417918808
+    }
+}

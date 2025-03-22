@@ -1,0 +1,42 @@
+{
+    "file_name": "question_61_variants.json",
+    "overall_posix": 0.279873783204741,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1454545454545455,
+            "Variation 2": 0.17575757575757578,
+            "Variation 3": 0.18181818181818188,
+            "Variation 4": 0.3854748603351955,
+            "Variation 5": 0.22857142857142854,
+            "Variation 6": 0.1785714285714286,
+            "Variation 7": 0.19393939393939397,
+            "Variation 8": 0.18644067796610164,
+            "Variation 9": 0.5491803278688525,
+            "Variation 10": 0.5735294117647058
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have clear lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any visible lung tissue on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the X-ray show normal lung opacification? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lungs transparent on the radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the lungs appear aerated on the chest film? Please choose from the following two options: [yes, no]\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Is the X-ray consistent with a lack of pulmonary disease? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you see through to the diaphragm on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lung fields clear of visible pathology? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the X-ray demonstrate normal lung tissue architecture? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Would you expect to see lung markings on the X-ray, and are they present? Please choose from the following two options: [yes, no]\n<image> 11.2.1.1  The X-ray shows a right-sided pneumothorax.\n 11.2.1.2  The X-ray shows a left-sided pneumoth",
+                "<s> Do the lungs appear normally expanded or contracted on the image? Please choose from the following two options: [yes, no]\n<image> 1. The lungs are normaly expanded.\n 2. The lungs are contracted.\n 3. The lungs are normaly expanded.\n 4. The lungs are contracted.\n 5. The"
+            ]
+        ],
+        "sensitivities": [
+            0.279873783204741
+        ],
+        "posix": 0.279873783204741
+    }
+}

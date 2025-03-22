@@ -1,0 +1,189 @@
+{
+    "file_name": "question_298_variants.json",
+    "overall_posix": 3.7778142157285015,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.9248203864464393,
+            "Variation 2": 0.0,
+            "Variation 3": 3.2588889360427857,
+            "Variation 4": 1.8834845605103865,
+            "Variation 5": 3.469720598529367,
+            "Variation 6": 1.526557725408803,
+            "Variation 7": 6.183691034317016,
+            "Variation 8": 2.260648974665889,
+            "Variation 9": 0.9768832870151686,
+            "Variation 10": 6.009868783950806
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the patient shows evidence of pleural effusion on the chest X-ray.",
+                "Yes, there is a visible accumulation of fluid in the pleural space as seen on the chest X-ray.",
+                "Yes, the patient shows evidence of pleural effusion on the chest X-ray.",
+                "Yes, the chest radiograph shows evidence of an abnormal collection of fluid between the lung and chest wall, which is indicative of a pleural effusion.",
+                "Yes, there are signs suggestive of pleural effusion on the provided chest X-ray image.",
+                "Yes, the patient's chest radiograph reveals an abnormal amount of fluid in the pleural space, which is indicative of pleural effusion.",
+                "Yes, there is visible evidence of a pleural effusion on the chest X-ray image provided.",
+                "Yes, a pleural effusion can be identified based on the findings seen on the chest radiograph. In the image provided, there is a visible opacity in the lower left lung field, which could be indicative of a pleural effusion.",
+                "Yes, there are abnormal fluid collections visible in the pleural space as seen on the provided chest X-ray image.",
+                "Yes, the patient's chest X-ray shows features indicative of a pleural effusion.",
+                "Yes, there is radiographic evidence suggestive of an abnormal fluid collection in the pleural space. The image shows a chest X-ray with a significant amount of fluid in the pleural space, which is the space between the lungs and the"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -194.2251124382019,
+                    -244.27044248580933,
+                    -194.2251124382019,
+                    -308.2862251996994,
+                    -237.5452573299408,
+                    -312.1956127882004,
+                    -229.33594012260437,
+                    -503.40966415405273,
+                    -255.2626347541809,
+                    -216.69342803955078,
+                    -494.7185516357422
+                ],
+                [
+                    -201.06400680541992,
+                    -248.6570794582367,
+                    -201.06400680541992,
+                    -331.0201647281647,
+                    -229.07155990600586,
+                    -337.8532956838608,
+                    -231.80841445922852,
+                    -478.95901918411255,
+                    -272.0221266746521,
+                    -216.9547634124756,
+                    -491.53201389312744
+                ],
+                [
+                    -194.2251124382019,
+                    -244.27044248580933,
+                    -194.2251124382019,
+                    -308.2862251996994,
+                    -237.5452573299408,
+                    -312.1956127882004,
+                    -229.33594012260437,
+                    -503.40966415405273,
+                    -255.2626347541809,
+                    -216.69342803955078,
+                    -494.7185516357422
+                ],
+                [
+                    -202.2414436340332,
+                    -253.42159867286682,
+                    -202.2414436340332,
+                    -322.9745329618454,
+                    -243.85862398147583,
+                    -331.50981855392456,
+                    -239.37431621551514,
+                    -482.6130666732788,
+                    -253.91564464569092,
+                    -229.86968803405762,
+                    -476.3887686729431
+                ],
+                [
+                    -209.79876613616943,
+                    -254.90414428710938,
+                    -209.79876613616943,
+                    -335.4422969818115,
+                    -232.5063500404358,
+                    -341.6992063522339,
+                    -223.9206190109253,
+                    -484.5066511631012,
+                    -267.0683763027191,
+                    -225.52552270889282,
+                    -487.6982002258301
+                ],
+                [
+                    -202.2414436340332,
+                    -253.42159867286682,
+                    -202.2414436340332,
+                    -322.9745329618454,
+                    -243.85862398147583,
+                    -331.50981855392456,
+                    -239.37431621551514,
+                    -482.6130666732788,
+                    -253.91564464569092,
+                    -229.86968803405762,
+                    -476.3887686729431
+                ],
+                [
+                    -201.96143794059753,
+                    -250.23307418823242,
+                    -201.96143794059753,
+                    -334.6709189414978,
+                    -243.1996350288391,
+                    -319.6097722053528,
+                    -241.8706250190735,
+                    -484.37727105617523,
+                    -250.61385297775269,
+                    -219.7211151123047,
+                    -485.3908169269562
+                ],
+                [
+                    -201.96143794059753,
+                    -250.23307418823242,
+                    -201.96143794059753,
+                    -334.6709189414978,
+                    -243.1996350288391,
+                    -319.6097722053528,
+                    -241.8706250190735,
+                    -484.37727105617523,
+                    -250.61385297775269,
+                    -219.7211151123047,
+                    -485.3908169269562
+                ],
+                [
+                    -189.85781073570251,
+                    -240.3412492275238,
+                    -189.85781073570251,
+                    -330.451682806015,
+                    -233.7639515399933,
+                    -341.50314927101135,
+                    -204.3713641166687,
+                    -490.33972215652466,
+                    -264.0755534172058,
+                    -220.549640417099,
+                    -469.2162296772003
+                ],
+                [
+                    -202.2414436340332,
+                    -253.42159867286682,
+                    -202.2414436340332,
+                    -322.9745329618454,
+                    -243.85862398147583,
+                    -331.50981855392456,
+                    -239.37431621551514,
+                    -482.6130666732788,
+                    -253.91564464569092,
+                    -229.86968803405762,
+                    -476.3887686729431
+                ],
+                [
+                    -201.96143794059753,
+                    -250.23307418823242,
+                    -201.96143794059753,
+                    -334.6709189414978,
+                    -243.1996350288391,
+                    -319.6097722053528,
+                    -241.8706250190735,
+                    -484.37727105617523,
+                    -250.61385297775269,
+                    -219.7211151123047,
+                    -485.3908169269562
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.7778142157285015
+        ],
+        "posix": 3.7778142157285015
+    }
+}

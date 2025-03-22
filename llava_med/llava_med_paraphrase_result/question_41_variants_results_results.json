@@ -1,0 +1,189 @@
+{
+    "file_name": "question_41_variants_results.json",
+    "overall_posix": 1.0358283093910692,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.6636276092133421,
+            "Variation 3": 0.9861573141734797,
+            "Variation 4": 1.1124342541509034,
+            "Variation 5": 1.3048309941313538,
+            "Variation 6": 1.2180068811769482,
+            "Variation 7": 1.2714614191815505,
+            "Variation 8": 1.233534086717729,
+            "Variation 9": 1.4368372162444416,
+            "Variation 10": 0.673880622938431
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there clear lung fields with no additional findings other than the right upper lobe nodule? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the chest X-ray shows clear lung fields with no additional findings other than the right upper lobe nodule. ",
+                "Yes, the chest X-ray shows clear lung fields with no additional findings other than the right upper lobe nodule. ",
+                "Yes, the image shows normal lung fields with only a single finding of a nodule in the right upper lobe. ",
+                "Yes, the chest radiographs show clear lung fields with no abnormalities other than a solitary lesion in the right upper lobe. ",
+                "Yes, the chest X-ray shows complete pulmonary lucency, which means that the lungs appear clear and free of any significant abnormalities. The only notable abnormality is a small nodule located in the right upper lobe.",
+                "Yes, the lung fields appear to be free of abnormalities aside from the solitary lesion observed in the right upper lobe on imaging. ",
+                "Yes, the chest images show clear lung parenchyma, with only one notable finding being a small nodule in the right upper lobe. ",
+                "No, there is no radiographic evidence of lung pathology aside from the single lesion seen in the right upper lobe. ",
+                "Yes, the images show normal lung fields with only a small nodule visible in the right upper lobe as an abnormality. ",
+                "Yes, the radiographs show clear lung borders with no abnormalities other than a solitary lesion in the right upper lobe. ",
+                "Yes, the pulmonary parenchyma appears to be otherwise normal in the image. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.30025863583796,
+                    -41.30025863583796,
+                    -59.2182040845982,
+                    -73.8434500035628,
+                    -98.03440559753403,
+                    -85.664512436304,
+                    -82.7124925958542,
+                    -78.17263979210293,
+                    -78.30628123736983,
+                    -87.2790495556601,
+                    -56.799512963421876
+                ],
+                [
+                    -41.30025863583796,
+                    -41.30025863583796,
+                    -59.2182040845982,
+                    -73.8434500035628,
+                    -98.03440559753403,
+                    -85.664512436304,
+                    -82.7124925958542,
+                    -78.17263979210293,
+                    -78.30628123736983,
+                    -87.2790495556601,
+                    -56.799512963421876
+                ],
+                [
+                    -62.551060700825474,
+                    -62.551060700825474,
+                    -41.526121583479664,
+                    -74.72610661676572,
+                    -92.25080502783726,
+                    -84.40503239478221,
+                    -82.12913651260374,
+                    -74.8399751492384,
+                    -71.56303668642636,
+                    -85.6870986743661,
+                    -56.35613117536559
+                ],
+                [
+                    -65.61275488400315,
+                    -65.61275488400315,
+                    -68.73303047052218,
+                    -42.10756055510916,
+                    -99.35879506736671,
+                    -85.29698907070664,
+                    -86.57746628191512,
+                    -76.00554595797053,
+                    -74.51113445113106,
+                    -67.9507856725117,
+                    -66.10052041237941
+                ],
+                [
+                    -70.29777489966591,
+                    -70.29777489966591,
+                    -70.84436251452996,
+                    -83.28541603726762,
+                    -49.81076767148886,
+                    -93.96399434849945,
+                    -72.39056689339088,
+                    -82.18092420294852,
+                    -72.64383771519846,
+                    -91.7052002941382,
+                    -63.389557198759576
+                ],
+                [
+                    -69.85469211523628,
+                    -69.85469211523628,
+                    -68.27490527395094,
+                    -64.30753809449632,
+                    -98.9959143197483,
+                    -43.04038552897177,
+                    -85.07055347357345,
+                    -69.05012832549846,
+                    -74.21955588743617,
+                    -79.57413670996931,
+                    -57.52210993311019
+                ],
+                [
+                    -70.73584926418744,
+                    -70.73584926418744,
+                    -70.49348979466578,
+                    -74.3268557105198,
+                    -92.47403501324641,
+                    -93.68800579991387,
+                    -43.54711046517798,
+                    -82.8576088487116,
+                    -74.08613535296621,
+                    -88.02947371846267,
+                    -66.21284548211042
+                ],
+                [
+                    -68.97665775399582,
+                    -68.97665775399582,
+                    -72.74328852153303,
+                    -77.19239351551869,
+                    -103.01432276810772,
+                    -76.98045304421521,
+                    -90.54090869464676,
+                    -42.527305949341894,
+                    -86.37006859604162,
+                    -87.48734582356519,
+                    -58.180229062068975
+                ],
+                [
+                    -73.46280576031677,
+                    -73.46280576031677,
+                    -64.75834061414832,
+                    -73.74574407419914,
+                    -86.24648794089597,
+                    -93.35454424106547,
+                    -82.84897977158789,
+                    -79.74643862548555,
+                    -41.0835423310151,
+                    -87.32618894239022,
+                    -63.200620665018505
+                ],
+                [
+                    -65.74511595017066,
+                    -65.74511595017066,
+                    -69.81903940980465,
+                    -52.17491046765718,
+                    -94.22338254797683,
+                    -72.84994952766178,
+                    -89.74373120450537,
+                    -67.03224611940038,
+                    -77.43905432486486,
+                    -42.64547346768413,
+                    -59.27607948439254
+                ],
+                [
+                    -76.69543006448839,
+                    -76.69543006448839,
+                    -78.14315553154847,
+                    -86.54138631380147,
+                    -97.20056338507499,
+                    -85.98498850468286,
+                    -84.31493885189593,
+                    -75.8042724200086,
+                    -79.70855785442961,
+                    -95.46601238017956,
+                    -44.11436116503501
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.0358283093910692
+        ],
+        "posix": 1.0358283093910692
+    }
+}

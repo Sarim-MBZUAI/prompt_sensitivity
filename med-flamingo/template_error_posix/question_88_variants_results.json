@@ -1,0 +1,42 @@
+{
+    "file_name": "question_88_variants.json",
+    "overall_posix": 0.40238051909606193,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.24875621890547261,
+            "Variation 2": 0.4312977099236641,
+            "Variation 3": 0.4606741573033708,
+            "Variation 4": 0.535483870967742,
+            "Variation 5": 0.17460317460317465,
+            "Variation 6": 0.3105022831050228,
+            "Variation 7": 0.5457413249211357,
+            "Variation 8": 0.46739130434782616,
+            "Variation 9": 0.5474683544303798,
+            "Variation 10": 0.3018867924528301
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n I:\n N:\n O:\n R:\n E:\n D:\n E:\n F:\n S:\n I:\n N:\n O:\n R:\n E:",
+                "<s> QUESTION:Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumothorax\n B:\n 3.\n QUESTION:What is the most likely diagnosis?\n",
+                "<s> Q::Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A::Pneumothorax\n B::Pneumomediastinum\n C::Pneumopericardium\n D::Pneumomediastinum and p",
+                "<s> QUESTION:Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n Explanation:\n The X-ray shows a right pneumothorax. The pleural line is not visible on the right side of the chest. The right hemidiaphragm is depressed, and",
+                "<s> q:Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 4.\n 20\n 1.\n 1.\n 2.\n 3.\n 4.\n 5.\n",
+                "<s> q::Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question-Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no]\nAnswer\n<image> The X-ray report describes the presence of pneumothorax.\n Interpretation\n The X-ray report shows a pneumothorax. The pneumothorax is a colection of air in the pleural space",
+                "<s> Q:Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The X-ray report does not describe the presence of pneumothorax.\n 11.Q:What is the most likely diagnosis?\n A:Pneumothorax\n B:P",
+                "<s> Question:Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n 10.Question:Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no],Answer:",
+                "<s> Q:Does the X-ray report describe the presence of pneumothorax? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n 166: Q166: Reproduce the X-ray report\n A:\n B:\n C:\n D:\n E:"
+            ]
+        ],
+        "sensitivities": [
+            0.40238051909606193
+        ],
+        "posix": 0.40238051909606193
+    }
+}

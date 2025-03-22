@@ -1,0 +1,42 @@
+{
+    "file_name": "question_189_variants.json",
+    "overall_posix": 0.3284324862828344,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.17525773195876293,
+            "Variation 2": 0.11351351351351346,
+            "Variation 3": 0.24875621890547261,
+            "Variation 4": 0.17948717948717952,
+            "Variation 5": 0.25520833333333326,
+            "Variation 6": 0.23711340206185572,
+            "Variation 7": 0.5017667844522968,
+            "Variation 8": 0.49275362318840576,
+            "Variation 9": 0.5377049180327869,
+            "Variation 10": 0.5427631578947368
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> QUESTION:Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n ",
+                "<s> q::Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n 19.\n 18.\n 17.\n 1",
+                "<s> Question:Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> QUESTION:Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 1\n 1\n 1\n 1\n 1\n 1\n 1\n 1\n 1\n 1\n 1\n 1\n 1\n 1\n 1",
+                "<s> QUESTION\tIs there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 12\n 12\n 12\n 12\n 12\n 12\n 12\n 12\n 12\n 12\n 12\n",
+                "<s> Q:Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Suggested Response\n 1.The chest radiograph is of a 55-year-old man with a history of smoking. There is a calcified nodule in the left lower lobe.\n The",
+                "<s> Q::Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]\n A::\n B::\n 106\n   Answers10",
+                "<s> question::Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The chest radiograph shows a calcified granuloma in the left lower lobe.\n B: The chest radiograph shows a calcified granuloma in the right lower lobe.\n 10.",
+                "<s> Q:Is there a calcified granuloma in the left lower lobe? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n Suggested Response\n :\n This is a frontal chest radiograph of a skeletaly mature patient. There is a large, calcified,\n right lower lobe mass. The mass is in the right lower"
+            ]
+        ],
+        "sensitivities": [
+            0.3284324862828344
+        ],
+        "posix": 0.3284324862828344
+    }
+}

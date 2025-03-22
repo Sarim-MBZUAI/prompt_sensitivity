@@ -1,0 +1,42 @@
+{
+    "file_name": "question_327_variants.json",
+    "overall_posix": 0.408662516509827,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4186046511627908,
+            "Variation 2": 0.2512820512820513,
+            "Variation 3": 0.22564102564102562,
+            "Variation 4": 0.49097472924187724,
+            "Variation 5": 0.5214521452145214,
+            "Variation 6": 0.5766871165644172,
+            "Variation 7": 0.31775700934579443,
+            "Variation 8": 0.5587301587301587,
+            "Variation 9": 0.29807692307692313,
+            "Variation 10": 0.42741935483870974
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please mark the box corresponding to the answer you have selected.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.",
+                "<s> q:Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Q:Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n E:\n R:\n D:\n N:\n A:\n O:\n B:\n Figure 10.1\n 10.1A10.1B\n ",
+                "<s> QUESTION:Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\n A:\n B:\n 3.\n",
+                "<s> Question::: Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n Discussion:\n The cardiomediastinal contour is normal. The cardiomediastinal contour is normal. The cardiomediastinal contour is normal. The card",
+                "<s> question:Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n Yes, the cardiomediastinal contour of the patient is normal.\n 10.Question:Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no",
+                "<s> q::Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION:Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes]\n Explanation:\n The cardiomediastinal contour is normal. The cardiac silhouette is not enlarged, and the cardiac shadow is not displaced to the right. The cardiac shadow",
+                "<s> q:::Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Is the cardiomediastinal contour of the patient normal? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: Question 166.1: A 55-year-old male patient with a history of aortic valve replacement and mitral"
+            ]
+        ],
+        "sensitivities": [
+            0.408662516509827
+        ],
+        "posix": 0.408662516509827
+    }
+}

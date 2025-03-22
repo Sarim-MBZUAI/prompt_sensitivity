@@ -1,0 +1,42 @@
+{
+    "file_name": "question_331_variants.json",
+    "overall_posix": 0.3558864574892298,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1387283236994219,
+            "Variation 2": 0.5165562913907285,
+            "Variation 3": 0.0,
+            "Variation 4": 0.5163934426229508,
+            "Variation 5": 0.2421052631578947,
+            "Variation 6": 0.613013698630137,
+            "Variation 7": 0.31336405529953915,
+            "Variation 8": 0.303921568627451,
+            "Variation 9": 0.245,
+            "Variation 10": 0.6697819314641744
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there bilateral lung clearances on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Please choose from the following two options: [yes, no]\n<image> 1.Do you have any pain in your chest?\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n ",
+                "<s> Are the lungs clear on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lungs free of opacity on this radiograph? Please choose from the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2.\n What is the most likely diagnosis?\n a. Pneumonia\n b. Pulmonary edema\n c. Pulmonary hemorrhage\n d. Pulmonary",
+                "<s> Is there any evidence of lung consolidation on the X-ray image provided? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Do the lungs appear normal without any pulmonary pathology on the chest film? Please choose from the following two options: [yes, no]\n<image> 1.Yes, the lungs appear normal without any pulmonary pathology on the chest film.\n 2.No, the lungs do not appear normal on the chest film.\n 1.\n 2.",
+                "<s> Are the major airways and lung parenchyma visible without obstruction or infiltration on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there bilateral lung transparency with no signs of disease on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lungs clear and unremarkable without any abnormalities in the X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this X-ray show bilateral lung lucency with no signs of disease or abnormality? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the X-ray shows bilateral lung lucency with no signs of disease or abnormality.\n 2. No, the X-ray shows bilateral lung lucency with signs of disease or abnormal"
+            ]
+        ],
+        "sensitivities": [
+            0.3558864574892298
+        ],
+        "posix": 0.3558864574892298
+    }
+}

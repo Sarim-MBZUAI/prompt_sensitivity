@@ -1,0 +1,189 @@
+{
+    "file_name": "question_336_variants_results.json",
+    "overall_posix": 1.1417416127073574,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.7694645717735271,
+            "Variation 2": 1.3946024723258552,
+            "Variation 3": 0.0,
+            "Variation 4": 1.0620853216597743,
+            "Variation 5": 1.2750859578556,
+            "Variation 6": 1.4355989973733985,
+            "Variation 7": 1.2050455487809255,
+            "Variation 8": 0.9393750164609093,
+            "Variation 9": 1.3690404942416194,
+            "Variation 10": 0.9042874666499046
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "According to the chest X-ray, are the lungs well-inflated and without collapse? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the chest X-ray shows that the lungs are well-inflated and without collapse. ",
+                "Yes, the chest X-ray shows adequate expansion of the lung fields, with no evidence of alveolar collapse. ",
+                "The image is likely related to a question or statement that requires a yes or no answer. Without more context, it's difficult to determine the specific question or statement. However, the image is likely used to visually represent the options or choices for",
+                "Yes, the chest X-ray shows that the lungs are well-inflated and without collapse. ",
+                "Yes, the chest X-ray shows normally inflated lungs with no signs of atelectasis or parenchymal lucency. ",
+                "Yes, the pulmonary fields on the chest radiograph appear to be well-aerated and devoid of any air space collapse. ",
+                "Yes, the chest X-ray shows lungs that are fully expanded, with no indication of volume loss or alveolar atrophy. ",
+                "Yes, the chest radiograph shows that the lung parenchyma and airways are adequately inflated, with no evidence of collapse or compression. ",
+                "The chest x-ray does not show any signs of alveolar hypoplasia or decreased lung volume. this suggests that the lungs appear to be adequately inflated. ",
+                "Yes, the chest radiograph shows lungs with normal aeration and no evidence of atelectasis, pneumonitis, or other pathologic processes. ",
+                "The chest x-ray shows normal lung inflation. this means that the lungs appear to be functioning properly and there are no visible abnormalities in the lung fields. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -43.030644636102636,
+                    -63.80618807398787,
+                    -114.15537072472125,
+                    -43.030644636102636,
+                    -75.95528960755564,
+                    -83.83339528748184,
+                    -87.53421355467799,
+                    -86.41228439221595,
+                    -81.54502031099992,
+                    -90.94706193455931,
+                    -75.5849934354992
+                ],
+                [
+                    -68.49771781260324,
+                    -44.83334576215884,
+                    -115.01772860420715,
+                    -68.49771781260324,
+                    -79.44888123926467,
+                    -84.45487157569733,
+                    -86.91488033866517,
+                    -88.43816982502358,
+                    -86.3008430340069,
+                    -91.27619216963649,
+                    -82.4017811955
+                ],
+                [
+                    -78.07520502175976,
+                    -75.68645973896491,
+                    -63.47161440090895,
+                    -78.07520502175976,
+                    -84.10017768321268,
+                    -97.12870017357636,
+                    -93.62940619724395,
+                    -100.91149548388785,
+                    -98.28109493487864,
+                    -93.82809834867658,
+                    -77.4360598879648
+                ],
+                [
+                    -43.030644636102636,
+                    -63.80618807398787,
+                    -114.15537072472125,
+                    -43.030644636102636,
+                    -75.95528960755564,
+                    -83.83339528748184,
+                    -87.53421355467799,
+                    -86.41228439221595,
+                    -81.54502031099992,
+                    -90.94706193455931,
+                    -75.5849934354992
+                ],
+                [
+                    -72.72655281013908,
+                    -73.82139577598082,
+                    -112.62020441975892,
+                    -72.72655281013908,
+                    -41.76846470717277,
+                    -95.48317919523106,
+                    -87.29076785269808,
+                    -95.01477656353927,
+                    -79.1346187967406,
+                    -83.24085574071387,
+                    -73.32727148896083
+                ],
+                [
+                    -72.44891758906579,
+                    -70.6769171984779,
+                    -114.68806166533932,
+                    -72.44891758906579,
+                    -84.68116624580944,
+                    -43.556362398849274,
+                    -98.52797428300255,
+                    -88.54428071682923,
+                    -93.83678926106586,
+                    -84.789653171596,
+                    -88.3392218044537
+                ],
+                [
+                    -67.99675500187277,
+                    -65.62520756952017,
+                    -114.62712675635794,
+                    -67.99675500187277,
+                    -75.07163110631609,
+                    -93.44268837780692,
+                    -43.51379605959744,
+                    -96.47223662116448,
+                    -79.59058989900586,
+                    -85.88027859645081,
+                    -79.0287292852554
+                ],
+                [
+                    -71.33539446174655,
+                    -69.3068219271081,
+                    -116.11224189925633,
+                    -71.33539446174655,
+                    -83.77853830427193,
+                    -83.45084953977494,
+                    -94.83185722108465,
+                    -44.551401087516524,
+                    -84.78914061849764,
+                    -82.37964497056964,
+                    -88.26685673169413
+                ],
+                [
+                    -74.11182816905875,
+                    -72.08517084791401,
+                    -111.0129416726486,
+                    -74.11182816905875,
+                    -81.70082968038787,
+                    -102.22566955149523,
+                    -92.10759976036024,
+                    -95.467646548208,
+                    -46.48573335374715,
+                    -97.7420006338507,
+                    -75.6989247316269
+                ],
+                [
+                    -75.26303768324215,
+                    -79.87941547991068,
+                    -109.56512238348023,
+                    -75.26303768324215,
+                    -87.06108807610872,
+                    -97.39972680185747,
+                    -96.41026306629647,
+                    -91.29413238736015,
+                    -90.01940947931143,
+                    -42.992311090247654,
+                    -80.1984191911015
+                ],
+                [
+                    -71.97108460660911,
+                    -73.36178076921806,
+                    -108.61647240240472,
+                    -71.97108460660911,
+                    -80.27074514379728,
+                    -103.29444131362834,
+                    -92.50740200400196,
+                    -92.39600323332706,
+                    -77.17510996065539,
+                    -98.82965312406304,
+                    -54.08630190324038
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.1417416127073574
+        ],
+        "posix": 1.1417416127073574
+    }
+}

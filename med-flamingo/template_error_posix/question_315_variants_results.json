@@ -1,0 +1,42 @@
+{
+    "file_name": "question_315_variants.json",
+    "overall_posix": 0.4160223419457504,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.32170542635658916,
+            "Variation 2": 0.439516129032258,
+            "Variation 3": 0.46223564954682783,
+            "Variation 4": 0.439516129032258,
+            "Variation 5": 0.3709677419354839,
+            "Variation 6": 0.42402826855123676,
+            "Variation 7": 0.4032258064516129,
+            "Variation 8": 0.439516129032258,
+            "Variation 9": 0.435483870967742,
+            "Variation 10": 0.42402826855123676
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\n<image> A.  Yes\n B.  No\n 2.\n What is the most likely diagnosis?\n A.  Atelectasis\n B.  Pneumonia\n C.  Tuberculosis\n D.  Sar",
+                "<s> QUESTION:Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n [no]\n [yes]\n [no]\n 10.\n QUESTION:What is the most likely diagnosis?\n [pneumonia]\n [tuberculosis]\n [p",
+                "<s> QUESTION\tIs atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Q:Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Suggested response\n This is a frontal chest radiograph of an adult male patient. There is a right upper lobe consolidation with air bronchograms. There is also a right lower lobe consolid",
+                "<s> Q::: Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q:Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Question:Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Question:\n Is the patient\u2019s condition life-threatening?\n [yes, no]\n 11.Question:\n What is the most likely diagnosis?\n",
+                "<s> Q:Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> question::Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n Atelectasis is suggested by the chest X-ray findings.\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n ",
+                "<s> QUESTION:Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n [yes, no]\n 10.\n 10.\n 10.\n 10.\n 10.\n 10.\n 10.\n 10",
+                "<s> Question:Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Question:\n Is the patient\u2019s condition life-threatening?\n [yes, no]\n 11.Question:\n What is the most likely diagnosis?\n"
+            ]
+        ],
+        "sensitivities": [
+            0.4160223419457504
+        ],
+        "posix": 0.4160223419457504
+    }
+}

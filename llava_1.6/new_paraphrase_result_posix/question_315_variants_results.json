@@ -1,0 +1,189 @@
+{
+    "file_name": "question_315_variants.json",
+    "overall_posix": 0.9400364333078647,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.02255979180336,
+            "Variation 2": 1.8094810342788696,
+            "Variation 3": 0.6818145827243203,
+            "Variation 4": 2.075898094177246,
+            "Variation 5": 0.6891254836862738,
+            "Variation 6": 1.1009069395065307,
+            "Variation 7": 0.6515292084735372,
+            "Variation 8": 1.1048587852054172,
+            "Variation 9": 0.26784978910934093,
+            "Variation 10": 0.6682699160142378
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is atelectasis or scarring suggested by the chest X-ray findings? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the chest X-ray findings do not suggest atelectasis or scarring. The image shows a normal chest X-ray with no signs of atelectasis or scarring.",
+                "No, there is no evidence of atelectasis or scarring visible on the chest X-ray. The image shows a normal chest X-ray with the lungs appearing clear and the heart and other structures in their normal positions.",
+                "Based on the image provided, it is not possible to definitively determine the presence of atelectatic lung tissue or scarring. The X-ray appears to show a normal chest structure, but without more context or a clearer image, it is",
+                "No, there are no changes on the radiograph that are suggestive of atelectasis or scarring. The image shows a normal chest radiograph with no abnormalities.",
+                "No, the chest X-ray findings do not provide enough information to confidently infer the presence of atelectasis or fibrotic changes. The image shows the silhouette of the lungs and heart, but without more specific details or a medical",
+                "No, there is no radiographic evidence of lung scarring or atelectasis present in the image provided. The image shows a normal chest X-ray with clear lung fields and no signs of pathology.",
+                "Based on the image provided, it is not possible to definitively determine the presence of atelectatic or scarred lung tissue. The image is a chest X-ray, which is a common diagnostic tool used to examine the lungs and heart. However",
+                "No, the features visible on the film do not indicate atelectasis or scarring. The image shows a normal chest X-ray with the lungs appearing clear and the heart and diaphragm also visible.",
+                "No, the X-ray image does not indicate the presence of lung damage due to atelectasis or scarring. The lungs appear to be clear, with no visible signs of atelectasis or scarring.",
+                "No, there is no evidence of fibrosis or atelectasis on the chest radiograph. The image shows a normal chest X-ray with clear lung fields and no signs of abnormalities.",
+                "No, the radiographic findings do not suggest atelectasis or scarring. The image shows a normal chest X-ray with the lungs appearing clear and the heart and diaphragm also visible."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -423.1419587135315,
+                    -472.2248287200928,
+                    -513.616010427475,
+                    -397.2330045700073,
+                    -526.9368634223938,
+                    -453.46347999572754,
+                    -478.18730568885803,
+                    -453.1123023033142,
+                    -472.86060404777527,
+                    -434.65949964523315,
+                    -452.54583501815796
+                ],
+                [
+                    -405.31099712848663,
+                    -472.04740369319916,
+                    -508.99352049827576,
+                    -388.5258345603943,
+                    -515.8334391117096,
+                    -458.46434473991394,
+                    -498.22999799251556,
+                    -445.1420042514801,
+                    -445.8976352214813,
+                    -441.8093147277832,
+                    -432.2121479511261
+                ],
+                [
+                    -404.20949363708496,
+                    -495.93021059036255,
+                    -498.8584837913513,
+                    -387.1296800374985,
+                    -488.3084087371826,
+                    -449.47918939590454,
+                    -485.4901876449585,
+                    -447.70939350128174,
+                    -458.8199872970581,
+                    -443.24438095092773,
+                    -441.5247497558594
+                ],
+                [
+                    -435.9646301269531,
+                    -472.5443744659424,
+                    -520.8865474462509,
+                    -390.25090312957764,
+                    -517.6483263969421,
+                    -453.0451571941376,
+                    -493.89592039585114,
+                    -458.9723906517029,
+                    -464.88610458374023,
+                    -425.2706046104431,
+                    -445.20038771629333
+                ],
+                [
+                    -418.8702960014343,
+                    -472.3163938522339,
+                    -493.0141587257385,
+                    -416.510195851326,
+                    -498.04283142089844,
+                    -469.1084337234497,
+                    -488.67188835144043,
+                    -476.34523022174835,
+                    -445.6884911060333,
+                    -453.13818359375,
+                    -435.91140699386597
+                ],
+                [
+                    -426.34970712661743,
+                    -460.3712463378906,
+                    -525.2587351799011,
+                    -407.4135913848877,
+                    -529.9193859100342,
+                    -440.3706796169281,
+                    -488.06251096725464,
+                    -459.6515657901764,
+                    -470.725679397583,
+                    -444.18822729587555,
+                    -443.86934423446655
+                ],
+                [
+                    -418.8702960014343,
+                    -472.3163938522339,
+                    -493.0141587257385,
+                    -416.510195851326,
+                    -498.04283142089844,
+                    -469.1084337234497,
+                    -488.67188835144043,
+                    -476.34523022174835,
+                    -445.6884911060333,
+                    -453.13818359375,
+                    -435.91140699386597
+                ],
+                [
+                    -426.34970712661743,
+                    -460.3712463378906,
+                    -525.2587351799011,
+                    -407.4135913848877,
+                    -529.9193859100342,
+                    -440.3706796169281,
+                    -488.06251096725464,
+                    -459.6515657901764,
+                    -470.725679397583,
+                    -444.18822729587555,
+                    -443.86934423446655
+                ],
+                [
+                    -411.33546805381775,
+                    -481.4909086227417,
+                    -506.6367847919464,
+                    -402.05117082595825,
+                    -505.7099622488022,
+                    -452.27929067611694,
+                    -488.89904403686523,
+                    -462.96168184280396,
+                    -442.99724531173706,
+                    -448.83451223373413,
+                    -436.6946744918823
+                ],
+                [
+                    -435.9646301269531,
+                    -472.5443744659424,
+                    -520.8865474462509,
+                    -390.25090312957764,
+                    -517.6483263969421,
+                    -453.0451571941376,
+                    -493.89592039585114,
+                    -458.9723906517029,
+                    -464.88610458374023,
+                    -425.2706046104431,
+                    -445.20038771629333
+                ],
+                [
+                    -426.34970712661743,
+                    -460.3712463378906,
+                    -525.2587351799011,
+                    -407.4135913848877,
+                    -529.9193859100342,
+                    -440.3706796169281,
+                    -488.06251096725464,
+                    -459.6515657901764,
+                    -470.725679397583,
+                    -444.18822729587555,
+                    -443.86934423446655
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.9400364333078647
+        ],
+        "posix": 0.9400364333078647
+    }
+}

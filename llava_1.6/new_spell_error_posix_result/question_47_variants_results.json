@@ -1,0 +1,189 @@
+{
+    "file_name": "question_47_variants.json",
+    "overall_posix": 3.1542335409391016,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.37890860080718997,
+            "Variation 2": 0.25531539201736453,
+            "Variation 3": 0.623293776512146,
+            "Variation 4": 0.47491455078125,
+            "Variation 5": 0.159517560005188,
+            "Variation 6": 0.6593240761756897,
+            "Variation 7": 19.91988256398369,
+            "Variation 8": 0.7614121294021606,
+            "Variation 9": 0.9370015883445739,
+            "Variation 10": 4.4618949764653255
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities detected in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it is not possible for me to definitively determine if there are any abnormalities in the chest X-ray. Chest X-rays are typically used to diagnose various conditions, such as pneumonia",
+                "Based on the image provided, it appears that there is an abnormality in the chest X-ray. The lung fields are not uniformly filled, which could indicate a condition such as pneumonia, lung infection, or a lung injury.",
+                "Yes, there are agnormalities detected in the chest X-ray. The image shows a significant amount of lung density, which could indicate a variety of conditions such as pneumonia, lung cancer, or other lung diseases. It is important for",
+                "Based on the image provided, it appears that there is an abnormality in the chest X-ray. The lung on the right side appears to be inflated, which could indicate a condition such as pneumonia or lung infection. However,",
+                "Based on the image provided, it is not possible for me to make a definitive assessment of the chest X-ray. The image is of low resolution and quality, which makes it difficult to discern any potential abnormalities. A proper diagnosis",
+                "Based on the image provided, it is not possible for me to make a definitive assessment of the chest X-ray. Abnormalities can be subtle and require medical expertise to diagnose. If you have concerns about the X-ray, it",
+                "Yes, there are abnormalities detected in the chest X-ray. The image shows a significant amount of fluid in the lungs, which could indicate a condition such as pneumonia or heart failure. Additionally, there appears to be a mass or",
+                "Yes, there are abnormalities detected in the chest X-ray.",
+                "Based on the image provided, it is not possible for me to make a definitive assessment of the chest X-ray. I can only describe the visible features, such as the lungs, heart, and bones. However, without medical training and the",
+                "Based on the image provided, it is not possible for me to make a definitive assessment of the chest X-ray. I can only describe what is visible in the image. The X-ray appears to show the lungs, heart, and rib",
+                "No, there are no abnormalities detected in the chest X-ray. The image shows a normal chest X-ray with the lungs, heart, and bones clearly visible."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -507.51887369155884,
+                    -488.57344365119934,
+                    -494.7531040906906,
+                    -476.35418486595154,
+                    -483.77314615249634,
+                    -499.54299569129944,
+                    -474.55266988277435,
+                    -168.88087010383606,
+                    -469.4482672214508,
+                    -460.66879427433014,
+                    -337.96686458587646
+                ],
+                [
+                    -503.7947643995285,
+                    -484.9044603407383,
+                    -509.0103440284729,
+                    -478.69592118263245,
+                    -473.7639173269272,
+                    -469.83848464488983,
+                    -505.4853951931,
+                    -179.85602712631226,
+                    -456.44899594783783,
+                    -438.3671122789383,
+                    -356.38786721229553
+                ],
+                [
+                    -507.51887369155884,
+                    -488.57344365119934,
+                    -494.7531040906906,
+                    -476.35418486595154,
+                    -483.77314615249634,
+                    -499.54299569129944,
+                    -474.55266988277435,
+                    -168.88087010383606,
+                    -469.4482672214508,
+                    -460.66879427433014,
+                    -337.96686458587646
+                ],
+                [
+                    -513.578889131546,
+                    -468.7777910232544,
+                    -495.9286015033722,
+                    -482.152259349823,
+                    -500.2798852920532,
+                    -518.8600561618805,
+                    -473.6443305015564,
+                    -153.81487202644348,
+                    -466.2627611756325,
+                    -450.080630004406,
+                    -345.3183022737503
+                ],
+                [
+                    -513.578889131546,
+                    -468.7777910232544,
+                    -495.9286015033722,
+                    -482.152259349823,
+                    -500.2798852920532,
+                    -518.8600561618805,
+                    -473.6443305015564,
+                    -153.81487202644348,
+                    -466.2627611756325,
+                    -450.080630004406,
+                    -345.3183022737503
+                ],
+                [
+                    -513.578889131546,
+                    -468.7777910232544,
+                    -495.9286015033722,
+                    -482.152259349823,
+                    -500.2798852920532,
+                    -518.8600561618805,
+                    -473.6443305015564,
+                    -153.81487202644348,
+                    -466.2627611756325,
+                    -450.080630004406,
+                    -345.3183022737503
+                ],
+                [
+                    -520.1555752754211,
+                    -468.95119547843933,
+                    -478.27675437927246,
+                    -474.7091704905033,
+                    -495.70550894737244,
+                    -512.7003724575043,
+                    -457.4244763851166,
+                    -150.56799173355103,
+                    -495.2500524520874,
+                    -472.2971611022949,
+                    -344.1403611898422
+                ],
+                [
+                    -520.1555752754211,
+                    -468.95119547843933,
+                    -478.27675437927246,
+                    -474.7091704905033,
+                    -495.70550894737244,
+                    -512.7003724575043,
+                    -457.4244763851166,
+                    -150.56799173355103,
+                    -495.2500524520874,
+                    -472.2971611022949,
+                    -344.1403611898422
+                ],
+                [
+                    -513.578889131546,
+                    -468.7777910232544,
+                    -495.9286015033722,
+                    -482.152259349823,
+                    -500.2798852920532,
+                    -518.8600561618805,
+                    -473.6443305015564,
+                    -153.81487202644348,
+                    -466.2627611756325,
+                    -450.080630004406,
+                    -345.3183022737503
+                ],
+                [
+                    -513.578889131546,
+                    -468.7777910232544,
+                    -495.9286015033722,
+                    -482.152259349823,
+                    -500.2798852920532,
+                    -518.8600561618805,
+                    -473.6443305015564,
+                    -153.81487202644348,
+                    -466.2627611756325,
+                    -450.080630004406,
+                    -345.3183022737503
+                ],
+                [
+                    -520.1555752754211,
+                    -468.95119547843933,
+                    -478.27675437927246,
+                    -474.7091704905033,
+                    -495.70550894737244,
+                    -512.7003724575043,
+                    -457.4244763851166,
+                    -150.56799173355103,
+                    -495.2500524520874,
+                    -472.2971611022949,
+                    -344.1403611898422
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.1542335409391016
+        ],
+        "posix": 3.1542335409391016
+    }
+}

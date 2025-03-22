@@ -1,0 +1,42 @@
+{
+    "file_name": "question_220_variants.json",
+    "overall_posix": 0.4948884856574553,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6214285714285714,
+            "Variation 2": 0.5782312925170068,
+            "Variation 3": 0.15121951219512197,
+            "Variation 4": 0.2657004830917875,
+            "Variation 5": 0.670846394984326,
+            "Variation 6": 0.6146496815286624,
+            "Variation 7": 0.5508771929824562,
+            "Variation 8": 0.32380952380952377,
+            "Variation 9": 0.5567375886524822,
+            "Variation 10": 0.6153846153846154
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray demonstrate the presence of pleural fluid? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is pleural fluid\n b. No, there is no pleural fluid\n 4.\n What is the most likely diagnosis?\n a. Pneumonia\n b. Pleural effusion\n c. Pul",
+                "<s> Are there radiographic findings suggestive of pleural effusion on this image? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a moderate right pleural effusion.\n b. No, there is no pleural effusion.\n 4. What is the most likely diagnosis?\n a. Pneumonia\n b. T",
+                "<s> Is there evidence to support a diagnosis of pleural effusion based on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can you confirm the absence or presence of pleural fluid accumulation on this radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Would you agree that this chest X-ray shows characteristic features of pleural effusion? Please choose from the following two options: [yes, no]\n<image> a. Yes, the X-ray shows a right-sided pleural effusion\n b. No, the X-ray shows a left-sided pleural effusion\n 10. Please select the option that best describes the",
+                "<s> Does the appearance of this chest X-ray indicate the presence of abnormal fluid in the pleural space? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a pleural effusion\n b. No, there is no pleural effusion\n 4.\n What is the most likely diagnosis?\n a. Pneumonia\n b. Tuberculosis\n",
+                "<s> Is there radiologic evidence to support a diagnosis of fluid accumulation within the thoracic cavity? Please choose from the following two options: [yes, no]\n<image> 11. Is there a pleural effusion?\n 12. Is there a pneumothorax?\n 13. Is there a pneumopericardium?\n 14. Is there a p",
+                "<s> Can you confirm whether or not this image demonstrates pleural fluid as an abnormal finding? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there features on this chest X-ray that are suggestive of pleural effusion due to pathology? Please choose from the following two options: [yes, no]\n<image> A. Pleural thickening\n B. Pleural effusion\n C. Pneumothorax\n D. Pneumoperitoneum\n E. Pneumomediastinum\n 4.\n A 25-year",
+                "<s> Does the interpretation of this chest X-ray indicate the absence or presence of pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the X-ray shows a pleural effusion.\n 2. No, the X-ray shows no pleural effusion.\n 1. Yes, the X-ray shows a pleural effusion."
+            ]
+        ],
+        "sensitivities": [
+            0.4948884856574553
+        ],
+        "posix": 0.4948884856574553
+    }
+}

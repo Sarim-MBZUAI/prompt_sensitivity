@@ -1,0 +1,42 @@
+{
+    "file_name": "question_173_variants.json",
+    "overall_posix": 0.38457404685078866,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5648148148148148,
+            "Variation 2": 0.30000000000000004,
+            "Variation 3": 0.11891891891891893,
+            "Variation 4": 0.23711340206185572,
+            "Variation 5": 0.511864406779661,
+            "Variation 6": 0.14754098360655732,
+            "Variation 7": 0.554140127388535,
+            "Variation 8": 0.41532258064516125,
+            "Variation 9": 0.49097472924187724,
+            "Variation 10": 0.5050505050505051
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n Discussion:\n The chest X-ray shows a right upper lobe infiltrate. The patient\u2019s symptoms are consistent with a right upper lobe infection.\n The patient\u2019s symptoms are consistent",
+                "<s> Q::: Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q:Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.\n",
+                "<s> Question:Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question-Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The chest X-ray shows a right upper lobe infiltrate.\n The chest X-ray shows a right upper lobe infiltrate.\n 10.Question-What is the most likely diagn",
+                "<s> Q:Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> QUESTION\tDoes the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n REASONING\n The patient has a history of a recent chest infection. The chest X-ray shows a right upper lobe infiltrate. The patient is likely to have a current ch",
+                "<s> Question:Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n 10.Question:Does the chest X-ray suggest",
+                "<s> Q:Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Pneumonia\n Q:What is the most likely cause of the pneumonia?\n A:Bacterial pneumonia\n Q:What",
+                "<s> Question::: Does the chest X-ray suggest any current lung infection? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n Answer:\n Pulmonary tuberculosis\n 11.\n Question:\n What is the most likely diagnosis?\n Answer:\n"
+            ]
+        ],
+        "sensitivities": [
+            0.38457404685078866
+        ],
+        "posix": 0.38457404685078866
+    }
+}

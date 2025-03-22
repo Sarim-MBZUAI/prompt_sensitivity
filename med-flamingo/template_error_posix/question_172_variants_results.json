@@ -1,0 +1,42 @@
+{
+    "file_name": "question_172_variants.json",
+    "overall_posix": 0.31970496431821005,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4312977099236641,
+            "Variation 2": 0.27441860465116275,
+            "Variation 3": 0.29107981220657275,
+            "Variation 4": 0.3348017621145374,
+            "Variation 5": 0.4398496240601504,
+            "Variation 6": 0.255,
+            "Variation 7": 0.2549019607843137,
+            "Variation 8": 0.3105022831050228,
+            "Variation 9": 0.48398576512455516,
+            "Variation 10": 0.12121212121212122
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n 3.\n QUESTION:What is the most likely diagnosis?\n A:",
+                "<s> Question::: Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> q:::Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n 166: Breathing and Circulation\n 167\n 167: Breathing and Circulation\n ANS",
+                "<s> Question:Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the differential diagnosis?\n A. Pneumonia\n B. Tuberculosis\n C. Lung abscess\n D. Lung cancer\n E. Lymphoma\n",
+                "<s> question::Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> q:Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 18.  A 55-year-old man",
+                "<s> q::Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Q:What is the most likely diagnosis?\n A:Pneumonia\n Q:What is the most likely cause of the pneumonia?\n A:Bacterial pneumonia\n Q:What",
+                "<s> question:Does the patient show signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image> 1.Yes\n 2.No\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 1"
+            ]
+        ],
+        "sensitivities": [
+            0.31970496431821005
+        ],
+        "posix": 0.31970496431821005
+    }
+}

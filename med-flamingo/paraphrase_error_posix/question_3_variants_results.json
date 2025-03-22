@@ -1,0 +1,42 @@
+{
+    "file_name": "question_3_variants.json",
+    "overall_posix": 0.4200741012575834,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.33047210300429186,
+            "Variation 2": 0.5068027210884354,
+            "Variation 3": 0.6178010471204188,
+            "Variation 4": 0.0,
+            "Variation 5": 0.60790273556231,
+            "Variation 6": 0.6934673366834171,
+            "Variation 7": 0.26442307692307687,
+            "Variation 8": 0.24644549763033174,
+            "Variation 9": 0.244131455399061,
+            "Variation 10": 0.6892950391644909
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show a localized area of increased opacity corresponding to a new infiltrate or consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence of focal lung consolidation on the provided chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.  When was the last time you had a chest X-ray?\n [day, week, month, year]\n 12.  What is the most likely diagnosis?\n [pneumonia, t",
+                "<s> Please choose from the following two options: [yes, no]\n<image> 1.Do you have any pain in your chest?\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n \u25c6\n ",
+                "<s> Does the patient have evidence of focal consolidation on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient's chest X-ray demonstrate an abnormality consistent with focal alveolar consolidation? Please choose from the following two options: [yes, no]\n<image> 11.  Is the patient's chest X-ray consistent with a diagnosis of pneumonia? Please choose from the following two options: [yes, no]\n 12.  Is the patient's ch",
+                "<s> Are there any discrete areas of increased density or shadowing visible on the chest X-ray that might suggest focal lung involvement? Please choose from the following two options: [yes, no]\n<image> 11.  Are there any discrete areas of increased density or shadowing visible on the chest X-ray that might suggest focal lung involvement? Please choose from the following two options: [yes, no]\n 12",
+                "<s> Is the chest X-ray suggestive of a localized infiltrate or consolidation within the lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient's imaging study reveal evidence of localized lung parenchymal consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic findings consistent with focal lung consolidation on the provided image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the chest X-ray showing any discrete areas of increased lucency or opacity that could be interpreted as focal consolidation? Please choose from the following two options: [yes, no]\n<image> 11. Is the chest X-ray showing any areas of increased lucency or opacity that could be interpreted as pleural effusion? Please choose from the following two options: [yes, no]\n 12. Is the"
+            ]
+        ],
+        "sensitivities": [
+            0.4200741012575834
+        ],
+        "posix": 0.4200741012575834
+    }
+}

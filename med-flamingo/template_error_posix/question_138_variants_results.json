@@ -1,0 +1,42 @@
+{
+    "file_name": "question_138_variants.json",
+    "overall_posix": 0.3685920404053073,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4763406940063091,
+            "Variation 2": 0.26724137931034475,
+            "Variation 3": 0.5060240963855421,
+            "Variation 4": 0.4764890282131662,
+            "Variation 5": 0.19417475728155342,
+            "Variation 6": 0.5,
+            "Variation 7": 0.3754646840148699,
+            "Variation 8": 0.2703862660944206,
+            "Variation 9": 0.4245614035087719,
+            "Variation 10": 0.1952380952380952
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient has a normal cardiomediastinal silhouette on the chest X-ray.\n 1.The heart is not enlarged.\n 2.The heart is not displaced",
+                "<s> q:::Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n\n 10.Question:Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [",
+                "<s> QUESTION:Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1:Yes\n Option 2:No\n Correct Answer:\n Option 1\n Explanation:\n The chest X-ray shows a normal cardiomediastinal silhouette. The heart is not enlarged",
+                "<s> Q:Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: 166.1: 166.1: 166.1: 166.1\n 16",
+                "<s> Question:Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: Yes\n The patient has a normal cardiomediastinal silhouette on the chest X-ray.\n The cardiomediastinal silhouette is normal.\n The cardiomed",
+                "<s> q:Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 16.  If the answer to question 15 is \u201cyes,\u201d what is the most likely diagnosis?\n a:Aortic dis",
+                "<s> Q::: Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q::Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A::Aortic aneurysm\n B::Aortic dissection\n C::Aortic regurgitation\n D::Aortic stenosis\n",
+                "<s> Q:Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n 16\n 15\n 14\n 13\n 12\n 11\n 10\n 9\n 8\n 7\n 6\n 5\n 4\n"
+            ]
+        ],
+        "sensitivities": [
+            0.3685920404053073
+        ],
+        "posix": 0.3685920404053073
+    }
+}

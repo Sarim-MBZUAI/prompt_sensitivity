@@ -1,0 +1,189 @@
+{
+    "file_name": "question_24_variants.json",
+    "overall_posix": 0.34133178275253945,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5739960295922648,
+            "Variation 2": 0.5014212324467335,
+            "Variation 3": 0.4272727096646978,
+            "Variation 4": 0.6214992110987809,
+            "Variation 5": 0.7703186026338888,
+            "Variation 6": 0.7941863969102391,
+            "Variation 7": 0.38992047380147793,
+            "Variation 8": 0.5123066298994287,
+            "Variation 9": 0.35494708512348283,
+            "Variation 10": 0.3035330945721608
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nAre the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\nAre the lung fields congested or show signs of fluid overload in this",
+                "QUESTION\tAre the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n\n\n\n\n\n\n\n\nQUESTION\tAre the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n\n\n\n\n\n\n\nQUESTION\tAre the lung",
+                "question::Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "QUESTION:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n\n\n\n\n\n\n\n\nQUESTION:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n\n\n\n\n\n\n\nQUESTION:Are the lung",
+                "Q::: Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "q::Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\na::\n\n\n\n\n\n\n\n\nb::\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "q:::Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\na:::\n\n\n\n\n\n\n\n\nb:::\n\n\n\n\n\n\n\nc:::\n\n\n\n\n\n\n\nd:::\n\n\n\n\n\n\n\ne:::\n\n\n\n\n\n\n\nf:::\n\n\n\n\n\n\n\ng:::\n\n\n\n\n\n\n\nh:::\n\n\n\n\n\n\n\ni:::\n\n\n\n\n\n\n\nj:::\n\n\n\n\n\n\n\nk:::",
+                "QUESTION:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n\n\n\n\n\n\n\n\nQUESTION:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n\n\n\n\n\n\n\nQUESTION:Are the lung fields congest",
+                "QUESTION:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nA:\n\n\n\n\n\n\n\n\nQUESTION:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\n\nA:\nQUESTION:Are the lung fields congest",
+                "Question:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]||Answer:\nQuestionQuestion:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]||Answer:\nQuestionQuestion:Are the lung fields congested or show",
+                "Question:Are the lung fields congested or show signs of fluid overload in this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -54.42154030222537,
+                    -108.37716708389826,
+                    -100.05087245487812,
+                    -94.58517501070696,
+                    -112.22096693441199,
+                    -124.52053314190925,
+                    -128.2808752148776,
+                    -90.29422389196134,
+                    -101.5537502529728,
+                    -86.7217250484623,
+                    -82.043051908292
+                ],
+                [
+                    -69.03384355942217,
+                    -53.899103990091135,
+                    -90.90413564023038,
+                    -75.0131319645152,
+                    -104.40570559157277,
+                    -125.7229889609007,
+                    -136.79401237188722,
+                    -87.08183578594071,
+                    -94.47591773704653,
+                    -91.35348250086884,
+                    -76.39637197404227
+                ],
+                [
+                    -65.85519410383131,
+                    -100.86512837970349,
+                    -63.857760813465575,
+                    -81.63841351273345,
+                    -101.31394114048271,
+                    -107.41004318925116,
+                    -119.76040250085134,
+                    -79.25983531739871,
+                    -92.65306691493879,
+                    -87.70053188715201,
+                    -72.0540810835846
+                ],
+                [
+                    -69.24667283162216,
+                    -84.95312868790734,
+                    -89.43535991490353,
+                    -55.9148592454917,
+                    -104.10090228379704,
+                    -122.54555029931362,
+                    -133.15642432273307,
+                    -68.9500327923297,
+                    -77.22096574267425,
+                    -86.69687005210858,
+                    -67.6913853965234
+                ],
+                [
+                    -65.78026272796615,
+                    -105.3454852579714,
+                    -95.33399774385907,
+                    -89.10151956789014,
+                    -65.33962416584473,
+                    -105.6795019496385,
+                    -94.78295064409758,
+                    -91.82264210976336,
+                    -88.13164139621927,
+                    -97.07956648113372,
+                    -83.9139566073427
+                ],
+                [
+                    -67.11693294197084,
+                    -110.66354068170585,
+                    -83.54323766372545,
+                    -91.88353515763538,
+                    -93.54534338171288,
+                    -77.20968217127302,
+                    -93.30191408329847,
+                    -93.25949397532622,
+                    -94.50041545709882,
+                    -97.45623492887262,
+                    -84.09247093070553
+                ],
+                [
+                    -69.9138227516396,
+                    -113.10908085319193,
+                    -98.58322390155081,
+                    -98.09273814850121,
+                    -83.43757353081128,
+                    -92.56018546203632,
+                    -81.71031416253209,
+                    -98.64727104633471,
+                    -104.35165907690498,
+                    -102.1847121106598,
+                    -90.0451503249542
+                ],
+                [
+                    -72.47941209005512,
+                    -94.95837756211859,
+                    -86.76632687886013,
+                    -66.24325474176476,
+                    -102.91373147174454,
+                    -122.3422252248929,
+                    -132.91061343952606,
+                    -55.13301697204315,
+                    -75.90028116863414,
+                    -82.56125608912362,
+                    -57.74536563086804
+                ],
+                [
+                    -71.87058236916982,
+                    -99.02045745738997,
+                    -91.8738142233342,
+                    -68.16958212554437,
+                    -95.94710777719592,
+                    -113.95942656434636,
+                    -127.40461719270388,
+                    -69.75880951447652,
+                    -58.68247469523021,
+                    -89.4683755872793,
+                    -69.87428673415343
+                ],
+                [
+                    -68.35518282866178,
+                    -105.40451479658623,
+                    -98.56197165653793,
+                    -85.43430797091742,
+                    -109.03837632540672,
+                    -125.42315644768678,
+                    -132.82873148369254,
+                    -77.97248437197504,
+                    -96.25327936853819,
+                    -59.146929733978595,
+                    -72.49308956246568
+                ],
+                [
+                    -69.80604846984511,
+                    -96.95451419757956,
+                    -85.6683407846649,
+                    -72.47103697564125,
+                    -100.66792544097189,
+                    -121.69813238589268,
+                    -130.6450244084699,
+                    -60.336340754012326,
+                    -82.7179499998283,
+                    -79.31458644688792,
+                    -56.79777453354109
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.34133178275253945
+        ],
+        "posix": 0.34133178275253945
+    }
+}

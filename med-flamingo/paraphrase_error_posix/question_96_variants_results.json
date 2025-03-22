@@ -1,0 +1,42 @@
+{
+    "file_name": "question_96_variants.json",
+    "overall_posix": 0.3699151221066457,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.17222222222222228,
+            "Variation 2": 0.0,
+            "Variation 3": 0.2978723404255319,
+            "Variation 4": 0.27014218009478674,
+            "Variation 5": 0.27403846153846156,
+            "Variation 6": 0.4818181818181818,
+            "Variation 7": 0.3819742489270386,
+            "Variation 8": 0.5974842767295597,
+            "Variation 9": 0.5211864406779662,
+            "Variation 10": 0.7024128686327078
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of lung collapse visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can a collapsed lung be identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show a pneumothorax as a result of lung collapse? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can the presence of an atelectasis be confirmed on the chest X-ray, indicating lung collapse? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visible sign of pneumatocele formation due to lung collapse on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray demonstrate the expected appearance of lung collapse in an emphysematous patient? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Is there radiographic evidence to suggest that the lung has collapsed and is not expanding normally on inspiration? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can a diagnosis of a pneumothorax resulting from lung collapse be made based on the chest X-ray findings? Please choose from the following two options: [yes, no]\n<image> 1. A pneumothorax can be diagnosed based on the chest X-ray findings.\n 2. A pneumothorax cannot be diagnosed based on the chest X-ray findings.\n",
+                "<s> Does the chest X-ray show an increase in density and loss of volume of the affected lung lobe as a result of collapse? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is there a visible indication on the chest X-ray that the lung has lost its normal aerated appearance due to collapse? Please choose from the following two options: [yes, no]\n<image> 11. Is there a visible indication on the chest X-ray that the lung has lost its normal aerated appearance due to collapse? Please choose from the following two options: [yes, no]\n 12. Is"
+            ]
+        ],
+        "sensitivities": [
+            0.3699151221066457
+        ],
+        "posix": 0.3699151221066457
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_60_variants.json",
+    "overall_posix": 0.4941997053521227,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4948096885813149,
+            "Variation 2": 0.5340136054421769,
+            "Variation 3": 0.5259515570934256,
+            "Variation 4": 0.5121107266435986,
+            "Variation 5": 0.39446366782006925,
+            "Variation 6": 0.42560553633218,
+            "Variation 7": 0.4844290657439446,
+            "Variation 8": 0.5463917525773195,
+            "Variation 9": 0.5224913494809689,
+            "Variation 10": 0.5017301038062284
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\n<image> 2. Is the heart size normal? Please choose from the following two options: [yes, no]\n 3. Is the diaphragm normal? Please choose from the following two options: [yes, no]\n 4",
+                "<s> Q:Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n Q:What is the diagnosis?\n A:Pleural efusion\n B:Pneumothorax\n C:Pneumonia\n D:",
+                "<s> question:Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\nanswer:\n<image> Yes\n [no, yes]\n 3.What is the diagnosis?\n 4.What is the differential diagnosis?\n 5.What is the most likely diagnosis?\n 6.What is the most important differential",
+                "<s> q:Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> question::Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The X-ray image shows a pleural effusion.\n B: The X-ray image does not show a pleural effusion.\n 10.10.2  Case 2\n   Case ",
+                "<s> Q::Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Can pleural effusion be seen on the CT image? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Can pleural effusion be seen on the MRI",
+                "<s> Q:Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Q:Can pleural effusion be seen on the CT image? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no]\n Q:Can pleural effusion",
+                "<s> Q:Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n   Ans:\n C\n Reference:\n 1.Bonney G, et al. Imaging of the chest. 2nd ed. Philadelphia",
+                "<s> Question:Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of right pleural effusion.\n 1.The patient is a 55-year-old man with a history of right ple",
+                "<s> QUESTION:Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n A\n 3.\n QUESTION:What is the diagnosis?\n A:Pleural effusion\n B:Pneumothorax\n C:Pneumonia\n D:",
+                "<s> QUESTION:Can pleural effusion be seen on the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n The X-ray image shows a pleural effusion.\n 10.\n QUESTION:What is the diagnosis?\n Answer:\n Pneumothorax\n 11.\n QUESTION"
+            ]
+        ],
+        "sensitivities": [
+            0.4941997053521227
+        ],
+        "posix": 0.4941997053521227
+    }
+}

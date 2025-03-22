@@ -1,0 +1,189 @@
+{
+    "file_name": "question_155_variants_results.json",
+    "overall_posix": 0.8793996420568917,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.7730542218705642,
+            "Variation 2": 0.0,
+            "Variation 3": 0.7698416491906617,
+            "Variation 4": 0.8827321872913487,
+            "Variation 5": 1.346276049765427,
+            "Variation 6": 0.8330355812985867,
+            "Variation 7": 0.7303025864977161,
+            "Variation 8": 1.3572399560751969,
+            "Variation 9": 0.839802422355991,
+            "Variation 10": 0.8711807182419483
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the report indicate the presence of a pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The report does not mention the presence of a pneumothorax on the chest X-ray. ",
+                "The chest X-ray does not show any evidence of air leak or tension pneumothorax. ",
+                "The report does not mention the presence of a pneumothorax on the chest X-ray. ",
+                "The chest x-ray does not show any radiographic evidence of a pneumopericardium or pneumomediastinum. ",
+                "Yes, the report suggests that there is an abnormal appearance on the chest X-ray, which is suggestive of air in the pleural space. ",
+                "It is not possible to determine if a pneumothorax or air leak is present in the chest radiograph based on the provided imaging data. The image is not available for viewing, and the information provided does not include the specific details of",
+                "The chest x-ray does not show any signs of lung collapse or mediastinal shift due to a pneumothorax. ",
+                "The chest X-ray does not show the presence of free air within the pleural space, which would be indicative of pneumothorax. ",
+                "Yes, a small pneumothorax or bullae can be detected on a chest X-ray based on its characteristic radiographic appearance. These abnormalities typically appear as areas of increased radiolucency (brightness) or as",
+                "The chest x-ray does not show any signs of air in the mediastinum or pericardium, which would suggest a tension pneumothorax. ",
+                "The chest X-ray does not show any signs of pleural effusion or collapse due to a pneumothorax. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -43.78421574230987,
+                    -62.33751706720341,
+                    -43.78421574230987,
+                    -68.41914851641104,
+                    -73.79711011021573,
+                    -112.44429428034664,
+                    -68.77528318126747,
+                    -68.61450368323221,
+                    -113.00345350214491,
+                    -75.69670779183753,
+                    -69.04845657132637
+                ],
+                [
+                    -62.255786094878204,
+                    -42.81046277511143,
+                    -62.255786094878204,
+                    -64.24248369101679,
+                    -85.88529131886207,
+                    -109.95840580128242,
+                    -74.59908297491984,
+                    -71.02493473527329,
+                    -116.61059925146583,
+                    -73.23670900045056,
+                    -77.1715201521547
+                ],
+                [
+                    -43.78421574230987,
+                    -62.33751706720341,
+                    -43.78421574230987,
+                    -68.41914851641104,
+                    -73.79711011021573,
+                    -112.44429428034664,
+                    -68.77528318126747,
+                    -68.61450368323221,
+                    -113.00345350214491,
+                    -75.69670779183753,
+                    -69.04845657132637
+                ],
+                [
+                    -65.7393924873868,
+                    -66.05211396686354,
+                    -65.7393924873868,
+                    -43.820465891630505,
+                    -86.21599901130867,
+                    -120.75887127565147,
+                    -74.61369954011752,
+                    -71.25819230552906,
+                    -114.56789480531734,
+                    -71.54834538003297,
+                    -76.94887794536226
+                ],
+                [
+                    -57.712591735475144,
+                    -65.96201438270873,
+                    -57.712591735475144,
+                    -64.72411960391037,
+                    -43.92296355793087,
+                    -120.9972116961435,
+                    -76.07934815368935,
+                    -67.14968145733565,
+                    -107.73919039956309,
+                    -75.24761062285233,
+                    -71.95395140075925
+                ],
+                [
+                    -69.70508257947256,
+                    -62.28724106109621,
+                    -69.70508257947256,
+                    -71.48786257920892,
+                    -89.85054893348206,
+                    -63.83732791991096,
+                    -77.440480694092,
+                    -79.78690204012446,
+                    -99.90466542607226,
+                    -80.86928718674926,
+                    -78.19935367613652
+                ],
+                [
+                    -58.84276093530093,
+                    -61.23643375088159,
+                    -58.84276093530093,
+                    -62.62335044936299,
+                    -85.19472944476547,
+                    -113.44046699104399,
+                    -44.104967235665356,
+                    -69.47470942247207,
+                    -109.55064675963922,
+                    -72.55646137499002,
+                    -65.46447969588121
+                ],
+                [
+                    -64.88360461651064,
+                    -61.63182618788005,
+                    -64.88360461651064,
+                    -66.63186674963526,
+                    -83.33834777752418,
+                    -118.39032132320176,
+                    -71.89701840173302,
+                    -45.26596212569902,
+                    -114.0276763656052,
+                    -74.2784807525668,
+                    -71.03393810695707
+                ],
+                [
+                    -72.48566752244142,
+                    -73.60646852679474,
+                    -72.48566752244142,
+                    -76.5242057853211,
+                    -88.78213146204507,
+                    -126.80448118989102,
+                    -82.7901601949743,
+                    -80.3616599385291,
+                    -49.88038041304184,
+                    -87.31158904886797,
+                    -79.19925297986447
+                ],
+                [
+                    -66.86405654169175,
+                    -59.62979551098181,
+                    -66.86405654169175,
+                    -60.24915655079553,
+                    -86.17798652533747,
+                    -121.43946746525125,
+                    -72.61740698498033,
+                    -71.99197911679585,
+                    -121.64190545543897,
+                    -44.9925146969681,
+                    -77.1377153326548
+                ],
+                [
+                    -50.10508221248972,
+                    -63.465656532313915,
+                    -50.10508221248972,
+                    -68.9702183872405,
+                    -74.24409319099868,
+                    -116.97017051579155,
+                    -65.18682658455782,
+                    -67.96557087395911,
+                    -114.12297864558786,
+                    -80.01169352617171,
+                    -45.60296513683727
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8793996420568917
+        ],
+        "posix": 0.8793996420568917
+    }
+}

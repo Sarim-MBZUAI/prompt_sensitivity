@@ -1,0 +1,189 @@
+{
+    "file_name": "question_211_variants.json",
+    "overall_posix": 4.0663277953941055,
+    "detailed_scores": [
+        {
+            "Variation 1": 1.3317024436863987,
+            "Variation 2": 6.386715807914734,
+            "Variation 3": 3.2901985900742665,
+            "Variation 4": 2.3058775934306057,
+            "Variation 5": 3.491049349308014,
+            "Variation 6": 2.484637498855591,
+            "Variation 7": 5.53314768184315,
+            "Variation 8": 6.075900186663088,
+            "Variation 9": 3.748349643522693,
+            "Variation 10": 3.2389125912277787
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any focal airspace disease present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, there is focal airspace disease present on the chest X-ray.",
+                "No, there is no focal alveolar consolidation visible on this chest X-ray.",
+                "Based on the image provided, there is no focal airspace disease visible on the chest X-ray. The lungs appear clear, and there are no signs of consolidation, pneumonia, or other focal airspace diseases.",
+                "Yes, there are areas of increased lung opacity on the frontal view, which could suggest possible focal alveolar disease.",
+                "No, the PA chest radiograph does not show evidence of localized pulmonary consolidation.",
+                "Yes, there is focal opacity on the chest X-ray that might be consistent with alveolar filling or consolidation.",
+                "Yes, the chest radiograph shows an area of increased lung density, which could suggest possible airspace disease.",
+                "No, there are no signs of focal air-space disease on the AP chest X-ray, characterized by alveolar consolidation or opacification. The X-ray appears to be normal.",
+                "No, there is no visible localized lung abnormality on this PA chest radiograph that might be indicative of airspace disease. The image shows a normal chest radiograph with no signs of airspace disease.",
+                "No, the frontal view of the chest X-ray does not show evidence of focal alveolar consolidation or opacification.",
+                "Yes, there is a visible area of increased opacity on the AP chest radiograph that might represent focal airspace disease."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -187.7941553592682,
+                    -217.09160912036896,
+                    -507.1299457550049,
+                    -279.91971588134766,
+                    -238.52346241474152,
+                    -285.5435371398926,
+                    -247.42545533180237,
+                    -431.2526533603668,
+                    -467.28556394577026,
+                    -303.9929943084717,
+                    -275.2447953224182
+                ],
+                [
+                    -193.84678959846497,
+                    -216.922625541687,
+                    -486.6052050590515,
+                    -286.4574635028839,
+                    -233.55183172225952,
+                    -285.28416872024536,
+                    -240.30968928337097,
+                    -432.60856080055237,
+                    -490.12715196609497,
+                    -312.6278500556946,
+                    -283.8207769393921
+                ],
+                [
+                    -187.7941553592682,
+                    -217.09160912036896,
+                    -507.1299457550049,
+                    -279.91971588134766,
+                    -238.52346241474152,
+                    -285.5435371398926,
+                    -247.42545533180237,
+                    -431.2526533603668,
+                    -467.28556394577026,
+                    -303.9929943084717,
+                    -275.2447953224182
+                ],
+                [
+                    -193.2045497894287,
+                    -225.84964418411255,
+                    -488.617906332016,
+                    -278.340448141098,
+                    -240.64672183990479,
+                    -280.85892844200134,
+                    -242.95619750022888,
+                    -433.2753531932831,
+                    -456.2153730392456,
+                    -296.5192041397095,
+                    -258.1018123626709
+                ],
+                [
+                    -178.97894620895386,
+                    -221.41909074783325,
+                    -478.7069294452667,
+                    -262.89881801605225,
+                    -219.2292342185974,
+                    -265.1821129322052,
+                    -224.1567286849022,
+                    -443.3201673030853,
+                    -483.98412322998047,
+                    -278.7929803133011,
+                    -270.09019470214844
+                ],
+                [
+                    -193.9729199409485,
+                    -232.70456075668335,
+                    -499.769255399704,
+                    -280.20362544059753,
+                    -226.94336700439453,
+                    -278.3444468975067,
+                    -221.8307567834854,
+                    -460.69293785095215,
+                    -488.3437623977661,
+                    -294.6523838043213,
+                    -262.7877948284149
+                ],
+                [
+                    -194.58595848083496,
+                    -228.75866889953613,
+                    -492.69297337532043,
+                    -287.36873722076416,
+                    -240.36178135871887,
+                    -277.26296734809875,
+                    -241.74468207359314,
+                    -435.6957919597626,
+                    -484.71537041664124,
+                    -302.9145224094391,
+                    -277.7175736427307
+                ],
+                [
+                    -189.34994912147522,
+                    -208.0595564842224,
+                    -507.086443066597,
+                    -286.8870701789856,
+                    -220.95792698860168,
+                    -289.7922377586365,
+                    -231.8833283185959,
+                    -431.58035016059875,
+                    -485.5297808647156,
+                    -317.40510296821594,
+                    -271.522323012352
+                ],
+                [
+                    -193.9729199409485,
+                    -232.70456075668335,
+                    -499.769255399704,
+                    -280.20362544059753,
+                    -226.94336700439453,
+                    -278.3444468975067,
+                    -221.8307567834854,
+                    -460.69293785095215,
+                    -488.3437623977661,
+                    -294.6523838043213,
+                    -262.7877948284149
+                ],
+                [
+                    -184.82319450378418,
+                    -229.43129920959473,
+                    -505.6244788169861,
+                    -273.9638398885727,
+                    -221.0325574874878,
+                    -255.36432421207428,
+                    -220.40986251831055,
+                    -447.72256088256836,
+                    -471.0691657066345,
+                    -278.9538952112198,
+                    -265.81971395015717
+                ],
+                [
+                    -178.97894620895386,
+                    -221.41909074783325,
+                    -478.7069294452667,
+                    -262.89881801605225,
+                    -219.2292342185974,
+                    -265.1821129322052,
+                    -224.1567286849022,
+                    -443.3201673030853,
+                    -483.98412322998047,
+                    -278.7929803133011,
+                    -270.09019470214844
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.0663277953941055
+        ],
+        "posix": 4.0663277953941055
+    }
+}

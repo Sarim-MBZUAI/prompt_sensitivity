@@ -1,0 +1,42 @@
+{
+    "file_name": "question_53_variants.json",
+    "overall_posix": 0.339062288944708,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.12352941176470589,
+            "Variation 2": 0.0,
+            "Variation 3": 0.23391812865497075,
+            "Variation 4": 0.6105919003115264,
+            "Variation 5": 0.1945945945945946,
+            "Variation 6": 0.6705539358600583,
+            "Variation 7": 0.27053140096618356,
+            "Variation 8": 0.617737003058104,
+            "Variation 9": 0.35930735930735924,
+            "Variation 10": 0.3098591549295775
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there pulmonary edema evident on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there pulmonary edema evident on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is pulmonary congestion visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there pulmonary edema evident on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show signs of cardiogenic edema? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic findings indicative of fluid overload in the lungs on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> A. Yes, there is a pleural effusion on the right side of the chest.\n B. No, there is no pleural effusion on the right side of the chest.\n 4.\n What is the most",
+                "<s> Is there evidence of alveolar flooding on the provided chest image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest radiograph display features suggestive of heart failure-associated pulmonary edema? Please choose from the following two options: [yes, no]\n<image> A.  No\n B.  Yes\n 2.\n Does the chest radiograph display features suggestive of heart failure-associated pulmonary edema? Please choose from the following two options: [yes, no]\n",
+                "<s> Are bilateral lung markings indicative of fluid accumulation visible on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the presence of interstitial and alveolar edema evident on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  When the patient is positioned in the supine position, the right hemithorax is\n hyperinflated. What is the most likely cause of this finding?\n A.  Pleural effusion\n B.",
+                "<s> Does this chest X-ray show clinical signs consistent with pulmonary congestion secondary to a left heart failure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there changes in lung density and vascular markings suggestive of edema on the given image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.339062288944708
+        ],
+        "posix": 0.339062288944708
+    }
+}

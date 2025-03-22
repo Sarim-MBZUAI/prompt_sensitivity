@@ -1,0 +1,189 @@
+{
+    "file_name": "question_332_variants_results.json",
+    "overall_posix": 0.708871466959864,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4828669705527956,
+            "Variation 2": 0.0,
+            "Variation 3": 0.7157146221302165,
+            "Variation 4": 0.7508726977373945,
+            "Variation 5": 0.30577166682679663,
+            "Variation 6": 0.6685177691101671,
+            "Variation 7": 0.7413378235118759,
+            "Variation 8": 1.052078963744555,
+            "Variation 9": 0.6202027010649851,
+            "Variation 10": 0.6532622667468997
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a definite pleural line of pneumothorax identified on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no definite pleural line of pneumothorax identified on the chest X-ray. ",
+                "Yes, the chest X-ray shows clear evidence of a pneumothorax, which is characterized by a visible pleural line. ",
+                "No, there is no definite pleural line of pneumothorax identified on the chest X-ray. ",
+                "No, the chest X-ray cannot definitively confirm the presence of a pneumothorax with a distinct pleural line. ",
+                "The chest X-ray image does not show a clearly visible pleural line indicative of a pneumothorax. ",
+                "Yes, the chest X-ray shows radiographic evidence of a pneumothorax, which is a condition where air accumulates in the pleural space, causing the lung to collapse. ",
+                "Yes, the presence or absence of the characteristic pleural line on a chest X-ray can help in the diagnosis of a pneumothorax. A pneumothorax is a condition where air accumulates in the pleural space,",
+                "The chest X-ray does not show an unmistakable pleural line that indicates the presence of a pneumothorax. ",
+                "Yes, the chest X-ray shows sufficient radiographic evidence to support the diagnosis of a pneumothorax with its characteristic pleural line. ",
+                "It appears that the chest x-ray image does not show a pleural line of pneumothorax. ",
+                "Yes, the chest X-ray clearly demonstrates a visible pleural line corresponding to a pneumothorax. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.29652707022353,
+                    -56.2654031573602,
+                    -41.29652707022353,
+                    -62.76796573413003,
+                    -62.32096260687058,
+                    -54.13893707694899,
+                    -75.39093329484206,
+                    -64.27799959909169,
+                    -76.01513287379385,
+                    -57.421797297913145,
+                    -58.93460827238982
+                ],
+                [
+                    -65.32419833722543,
+                    -43.007845673547536,
+                    -65.32419833722543,
+                    -63.75072814941461,
+                    -58.96887429830832,
+                    -54.91843566989701,
+                    -72.68662941407521,
+                    -64.57800972892329,
+                    -74.31067503572649,
+                    -68.24634863758911,
+                    -58.6603635502438
+                ],
+                [
+                    -41.29652707022353,
+                    -56.2654031573602,
+                    -41.29652707022353,
+                    -62.76796573413003,
+                    -62.32096260687058,
+                    -54.13893707694899,
+                    -75.39093329484206,
+                    -64.27799959909169,
+                    -76.01513287379385,
+                    -57.421797297913145,
+                    -58.93460827238982
+                ],
+                [
+                    -71.88586541076802,
+                    -65.0521821437842,
+                    -71.88586541076802,
+                    -43.14371004625582,
+                    -69.49717827776021,
+                    -61.658471239955134,
+                    -70.50445846425706,
+                    -69.07201168731399,
+                    -77.2661431816814,
+                    -73.79783454435892,
+                    -71.64101369171476
+                ],
+                [
+                    -70.84257805097059,
+                    -59.947558962943276,
+                    -70.84257805097059,
+                    -70.05433522564431,
+                    -43.6068516518543,
+                    -60.54980061739536,
+                    -73.90651719756497,
+                    -62.83562102305427,
+                    -83.39603344831107,
+                    -60.184134797038496,
+                    -59.55858464646121
+                ],
+                [
+                    -65.26916564882049,
+                    -62.45148042217386,
+                    -65.26916564882049,
+                    -65.1357009641041,
+                    -72.08397936285257,
+                    -45.98773168552884,
+                    -81.1549241462539,
+                    -73.04086569459787,
+                    -73.85893843977885,
+                    -72.93317449555252,
+                    -71.83510740969677
+                ],
+                [
+                    -68.99598050175246,
+                    -62.91808104852953,
+                    -68.99598050175246,
+                    -69.22645040115356,
+                    -66.88108492400647,
+                    -64.84634293633712,
+                    -46.88175656593512,
+                    -72.09879042255022,
+                    -73.89817181764863,
+                    -73.25692959588014,
+                    -65.65942613331595
+                ],
+                [
+                    -66.86519045768091,
+                    -60.94692747050294,
+                    -66.86519045768091,
+                    -66.24091953468906,
+                    -61.12383690666479,
+                    -57.228506566299984,
+                    -73.0770179522228,
+                    -42.81746926680552,
+                    -78.26276693800628,
+                    -70.10418387410027,
+                    -63.00838659823785
+                ],
+                [
+                    -62.72504331139862,
+                    -54.790267191829116,
+                    -62.72504331139862,
+                    -61.69137309441271,
+                    -65.83734699939168,
+                    -50.185289513725024,
+                    -59.875645525233125,
+                    -67.9236321717392,
+                    -42.87066534596704,
+                    -69.05830446837717,
+                    -63.86266415279829
+                ],
+                [
+                    -57.15904370593148,
+                    -61.663555532112696,
+                    -57.15904370593148,
+                    -64.46943174669877,
+                    -60.49729412212446,
+                    -58.35769311848787,
+                    -75.64674218330873,
+                    -68.67533321072278,
+                    -75.9493999122883,
+                    -47.640137745758466,
+                    -63.418824619084035
+                ],
+                [
+                    -66.50431532676794,
+                    -55.246789970170994,
+                    -66.50431532676794,
+                    -66.7818366396732,
+                    -59.89967865023925,
+                    -57.94565740396513,
+                    -73.68605215196803,
+                    -66.31386719758655,
+                    -80.14879019850832,
+                    -68.04846315915529,
+                    -40.11567235649733
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.708871466959864
+        ],
+        "posix": 0.708871466959864
+    }
+}

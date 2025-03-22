@@ -1,0 +1,189 @@
+{
+    "file_name": "question_129_variants.json",
+    "overall_posix": 8.195040915243943,
+    "detailed_scores": [
+        {
+            "Variation 1": 6.40847972035408,
+            "Variation 2": 0.32579860904000024,
+            "Variation 3": 6.40847972035408,
+            "Variation 4": 57.19483109315237,
+            "Variation 5": 6.40847972035408,
+            "Variation 6": 6.40847972035408,
+            "Variation 7": 0.32579860904000024,
+            "Variation 8": 1.6993934774398805,
+            "Variation 9": 1.8363103532791138,
+            "Variation 10": 0.5861037886419962
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a significant right-sided pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the patient does not have a significant right-sided pleural effusion on the chest X-ray. The X-ray shows a clear lung field without any significant fluid accumulation.",
+                "Yes, the patient has a significant right-sided pleural effusion on the chest X-ray.",
+                "No, the patient does not have a significant right-sided pleural effusion on the chest X-ray. The image shows a normal chest X-ray with no evidence of pleural effusion.",
+                "Yes, the patient has a significant right-sided pleural effusion on the chest X-ray.",
+                "[dno]",
+                "Yes, the patient has a significant right-sided pleural effusion on the chest X-ray.",
+                "Yes, the patient has a significant right-sided pleural effusion on the chest X-ray.",
+                "No, the patient does not have a significant right-sided pleural effusion on the chest X-ray. The image shows a normal chest X-ray with no evidence of pleural effusion.",
+                "Based on the image provided, it appears that there is a significant right-sided pleural effusion on the chest X-ray. The right lung is compressed and the right hemidiaphragm is elevated, which are",
+                "Based on the image provided, it appears that there is a significant right-sided pleural effusion. The right lung is compressed and the right hemidiaphragm is elevated, which are indicative of a pleural",
+                "No, the patient does not have a significant right-sided pleural effusion on the chest X-tray. The X-ray shows a clear lung field without any significant fluid accumulation."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -398.4052999019623,
+                    -244.60178661346436,
+                    -412.7404386997223,
+                    -244.60178661346436,
+                    -55.236313343048096,
+                    -244.60178661346436,
+                    -244.60178661346436,
+                    -412.7404386997223,
+                    -483.3749737739563,
+                    -490.22081756591797,
+                    -423.6077628135681
+                ],
+                [
+                    -402.96369890868664,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -216.21395182609558,
+                    -54.08963108062744,
+                    -216.21395182609558,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -475.7662191390991,
+                    -468.09228387475014,
+                    -399.4590170830488
+                ],
+                [
+                    -402.96369890868664,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -216.21395182609558,
+                    -54.08963108062744,
+                    -216.21395182609558,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -475.7662191390991,
+                    -468.09228387475014,
+                    -399.4590170830488
+                ],
+                [
+                    -402.96369890868664,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -216.21395182609558,
+                    -54.08963108062744,
+                    -216.21395182609558,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -475.7662191390991,
+                    -468.09228387475014,
+                    -399.4590170830488
+                ],
+                [
+                    -402.96369890868664,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -216.21395182609558,
+                    -54.08963108062744,
+                    -216.21395182609558,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -475.7662191390991,
+                    -468.09228387475014,
+                    -399.4590170830488
+                ],
+                [
+                    -402.96369890868664,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -216.21395182609558,
+                    -54.08963108062744,
+                    -216.21395182609558,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -475.7662191390991,
+                    -468.09228387475014,
+                    -399.4590170830488
+                ],
+                [
+                    -427.6248485445976,
+                    -237.274178981781,
+                    -419.81357020139694,
+                    -237.274178981781,
+                    -50.64854836463928,
+                    -237.274178981781,
+                    -237.274178981781,
+                    -419.81357020139694,
+                    -478.22774267196655,
+                    -483.00707840919495,
+                    -425.2558621764183
+                ],
+                [
+                    -397.27023243904114,
+                    -214.35588793456554,
+                    -413.8606586456299,
+                    -214.35588793456554,
+                    -62.15358209609985,
+                    -214.35588793456554,
+                    -214.35588793456554,
+                    -413.8606586456299,
+                    -474.5440194606781,
+                    -478.3194782733917,
+                    -412.0864064693451
+                ],
+                [
+                    -404.614057302475,
+                    -235.06189769506454,
+                    -421.3176500797272,
+                    -235.06189769506454,
+                    -59.50888204574585,
+                    -235.06189769506454,
+                    -235.06189769506454,
+                    -421.3176500797272,
+                    -488.23607778549194,
+                    -502.54799365997314,
+                    -416.6582043170929
+                ],
+                [
+                    -402.96369890868664,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -216.21395182609558,
+                    -54.08963108062744,
+                    -216.21395182609558,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -475.7662191390991,
+                    -468.09228387475014,
+                    -399.4590170830488
+                ],
+                [
+                    -402.96369890868664,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -216.21395182609558,
+                    -54.08963108062744,
+                    -216.21395182609558,
+                    -216.21395182609558,
+                    -403.9362245053053,
+                    -475.7662191390991,
+                    -468.09228387475014,
+                    -399.4590170830488
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            8.195040915243943
+        ],
+        "posix": 8.195040915243943
+    }
+}

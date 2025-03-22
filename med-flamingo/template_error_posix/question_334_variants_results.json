@@ -1,0 +1,42 @@
+{
+    "file_name": "question_334_variants.json",
+    "overall_posix": 0.40614349591343935,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.31924882629107976,
+            "Variation 2": 0.4908424908424909,
+            "Variation 3": 0.22395833333333337,
+            "Variation 4": 0.4964788732394366,
+            "Variation 5": 0.24352331606217614,
+            "Variation 6": 0.54,
+            "Variation 7": 0.2995169082125604,
+            "Variation 8": 0.41463414634146334,
+            "Variation 9": 0.47033898305084754,
+            "Variation 10": 0.5628930817610063
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q::Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION:Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\n A:\n B:\n 3",
+                "<s> QUESTION:Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> QUESTION:Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Correct Answer: Yes\n There is a pleural effusion present on the X-ray.\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumothorax\n B",
+                "<s> question:Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\nanswer:\n<image> - Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21",
+                "<s> Q::Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there a pleural effusion present on the CT scan? - No Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there a pleural effusion present",
+                "<s> q:::Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Q:Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: Reproduce the X-ray and mark the position of the pleural effusion.\n 166.2: Explain your answer.",
+                "<s> Q:Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\t\tIf\tthe\tpatient\thas\ta\tpleural\teffusion,\tthe\tX-ray\twil\tbe\tmarkedly\tdiferent\tfrom\tthe\tnormal\tX-ray",
+                "<s> Question:Is there a pleural effusion present on the X-ray? - No Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of a right pleural effusion. The patient is in acute distress. The patient is in acute distress. The patient is"
+            ]
+        ],
+        "sensitivities": [
+            0.40614349591343935
+        ],
+        "posix": 0.40614349591343935
+    }
+}

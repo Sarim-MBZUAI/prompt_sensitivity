@@ -1,0 +1,42 @@
+{
+    "file_name": "question_153_variants.json",
+    "overall_posix": 0.4918628162421471,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6303030303030303,
+            "Variation 2": 0.0,
+            "Variation 3": 0.24271844660194175,
+            "Variation 4": 0.6854838709677419,
+            "Variation 5": 0.17801047120418845,
+            "Variation 6": 0.6647887323943662,
+            "Variation 7": 0.6156156156156156,
+            "Variation 8": 0.6163522012578616,
+            "Variation 9": 0.6795865633074936,
+            "Variation 10": 0.6057692307692307
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the cardiac silhouette larger than expected on the frontal chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11. Is the cardiac silhouette larger than expected on the lateral chest radiograph? Please choose from the following two options: [yes, no]\n 12. Is the cardiac silhouette larger than",
+                "<s> Is the heart size enlarged on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the heart appear to be hypertrophied or dilated on the anteroposterior chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there an increase in cardiac silhouette size on the PA chest radiograph compared to normal reference values? Please choose from the following two options: [yes, no]\n<image> 11. Is there an increase in cardiac silhouette size on the lateral chest radiograph compared to normal reference values? Please choose from the following two options: [yes, no]\n 12. Is there a",
+                "<s> Are the heart borders visibly larger than expected on the AP chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is cardiomegaly present as indicated by an enlarged cardiac silhouette on the lateral chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11. Is there a pericardial effusion present as indicated by an enlarged pericardial silhouette on the lateral chest radiograph? Please choose from the following two options: [yes, no]",
+                "<s> Does the heart appear to be larger than normal in its longitudinal axis on the oblique chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is the heart size normal in its longitudinal axis on the oblique chest X-ray?\n [yes, no]\n 12. Is the heart size normal in its longitudinal axis on the lateral ch",
+                "<s> Are the cardiac margins visibly enlarged or widened on the frontal chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11. Is the cardiac silhouette enlarged on the lateral chest radiograph? Please choose from the following two options: [yes, no]\n 12. Is the cardiac silhouette enlarg",
+                "<s> Is there an increase in heart size relative to thoracic diameter on the chest X-ray compared to normal reference values? Please choose from the following two options: [yes, no]\n<image> 11. Is there an increase in the size of the heart relative to the thoracic diameter on the chest X-ray compared to normal reference values? Please choose from the following two options: [yes, no]\n 1",
+                "<s> Does the cardiac silhouette appear to be disproportionately large for age and sex on the lateral chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  Is the cardiac silhouette in the mid-axillary line? [yes, no]\n 12.  Is the cardiac silhouette in the mid-axillary line? [yes"
+            ]
+        ],
+        "sensitivities": [
+            0.4918628162421471
+        ],
+        "posix": 0.4918628162421471
+    }
+}

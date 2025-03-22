@@ -1,0 +1,189 @@
+{
+    "file_name": "question_248_variants.json",
+    "overall_posix": 4.979414725968701,
+    "detailed_scores": [
+        {
+            "Variation 1": 3.6607082508228443,
+            "Variation 2": 0.0,
+            "Variation 3": 5.964609105587005,
+            "Variation 4": 2.864925523598989,
+            "Variation 5": 4.4184366025422745,
+            "Variation 6": 3.1485155480248586,
+            "Variation 7": 5.957369446754456,
+            "Variation 8": 3.149973649245042,
+            "Variation 9": 6.11085777759552,
+            "Variation 10": 6.539443430900573
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any visible abnormalities in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there are no visible abnormalities in the lungs on the X-ray.",
+                "No, there are no radiographic abnormalities of lung parenchyma visible on the given X-ray.",
+                "No, there are no visible abnormalities in the lungs on the X-ray.",
+                "Based on the X-ray image provided, the lungs appear to have a normal pattern and architecture. There are no obvious signs of abnormalities such as consolidation, pleural effusion, or significant interstitial markings. The heart",
+                "No, there are no opacities or consolidations visible within the lung fields on the provided radiograph.",
+                "No, the X-ray does not show any abnormalities in the configuration of the lung's vascular markings. The markings appear to be within normal limits.",
+                "No, there are no visible pneumonias or pulmonary infiltrations on the given chest X-ray.",
+                "Yes, the X-ray shows an abnormal silhouette of the lungs. The negative silhouette of the lungs is not uniform, and there are areas where the lung tissue is not visible, which could indicate a lung condition or abnorm",
+                "No, there are no visible lesions or masses within the lung parenchyma on the provided radiograph.",
+                "No, the lungs do not appear to be normally expanded and aeriolarized in terms of their overall architecture on this X-ray. The image shows a significant amount of collapse and consolidation, which is indicative of a lung condition such as",
+                "No, there is no evidence of lung consolidation or parenchymal disease on the given chest radiograph. The lungs appear clear and there are no areas of increased opacity or density that would suggest consolidation or parenchymal disease"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -177.68973016738892,
+                    -276.5288529396057,
+                    -177.68973016738892,
+                    -475.9201854467392,
+                    -246.44794273376465,
+                    -345.59032106399536,
+                    -265.84816551208496,
+                    -475.5582025051117,
+                    -259.58904504776,
+                    -483.2326190471649,
+                    -504.6619017124176
+                ],
+                [
+                    -191.7926845550537,
+                    -272.03774523735046,
+                    -191.7926845550537,
+                    -500.39517509937286,
+                    -240.62430238723755,
+                    -364.0686821937561,
+                    -280.53173065185547,
+                    -490.08877992630005,
+                    -265.5992286205292,
+                    -492.7976293563843,
+                    -522.1223554611206
+                ],
+                [
+                    -177.68973016738892,
+                    -276.5288529396057,
+                    -177.68973016738892,
+                    -475.9201854467392,
+                    -246.44794273376465,
+                    -345.59032106399536,
+                    -265.84816551208496,
+                    -475.5582025051117,
+                    -259.58904504776,
+                    -483.2326190471649,
+                    -504.6619017124176
+                ],
+                [
+                    -176.42161178588867,
+                    -267.1186218261719,
+                    -176.42161178588867,
+                    -511.3428864479065,
+                    -242.34561204910278,
+                    -357.3917782306671,
+                    -286.37565207481384,
+                    -480.82622146606445,
+                    -263.3510150909424,
+                    -488.94029712677,
+                    -523.6798610687256
+                ],
+                [
+                    -179.45537567138672,
+                    -267.2878751754761,
+                    -179.45537567138672,
+                    -519.4506349563599,
+                    -251.81492471694946,
+                    -380.54391527175903,
+                    -292.9606292247772,
+                    -481.4858100414276,
+                    -263.37622356414795,
+                    -498.7200713157654,
+                    -538.2005777359009
+                ],
+                [
+                    -182.73720860481262,
+                    -264.83515095710754,
+                    -182.73720860481262,
+                    -493.4197416305542,
+                    -239.0958731174469,
+                    -346.0627284049988,
+                    -277.8524560928345,
+                    -474.203301936388,
+                    -257.9263095855713,
+                    -456.79816377162933,
+                    -514.8433232307434
+                ],
+                [
+                    -166.53326654434204,
+                    -252.98401379585266,
+                    -166.53326654434204,
+                    -511.7707885503769,
+                    -254.1824562549591,
+                    -362.0690703392029,
+                    -267.2658324241638,
+                    -487.3807530403137,
+                    -263.1638889312744,
+                    -476.0279173851013,
+                    -518.8588352203369
+                ],
+                [
+                    -176.4883041381836,
+                    -265.8101556301117,
+                    -176.4883041381836,
+                    -510.4006381034851,
+                    -247.38893961906433,
+                    -374.43128538131714,
+                    -283.05877137184143,
+                    -492.89890146255493,
+                    -251.71656799316406,
+                    -489.4668915271759,
+                    -525.130407333374
+                ],
+                [
+                    -191.7926845550537,
+                    -272.03774523735046,
+                    -191.7926845550537,
+                    -500.39517509937286,
+                    -240.62430238723755,
+                    -364.0686821937561,
+                    -280.53173065185547,
+                    -490.08877992630005,
+                    -265.5992286205292,
+                    -492.7976293563843,
+                    -522.1223554611206
+                ],
+                [
+                    -189.93920254707336,
+                    -260.9030680656433,
+                    -189.93920254707336,
+                    -506.35890316963196,
+                    -248.90515971183777,
+                    -352.89408230781555,
+                    -261.2071793079376,
+                    -489.04725217819214,
+                    -258.4182894229889,
+                    -477.84113335609436,
+                    -513.4729390144348
+                ],
+                [
+                    -176.4883041381836,
+                    -265.8101556301117,
+                    -176.4883041381836,
+                    -510.4006381034851,
+                    -247.38893961906433,
+                    -374.43128538131714,
+                    -283.05877137184143,
+                    -492.89890146255493,
+                    -251.71656799316406,
+                    -489.4668915271759,
+                    -525.130407333374
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.979414725968701
+        ],
+        "posix": 4.979414725968701
+    }
+}

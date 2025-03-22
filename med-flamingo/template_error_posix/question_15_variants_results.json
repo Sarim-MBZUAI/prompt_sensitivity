@@ -1,0 +1,42 @@
+{
+    "file_name": "question_15_variants.json",
+    "overall_posix": 0.3402333657792505,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1436170212765957,
+            "Variation 2": 0.23115577889447236,
+            "Variation 3": 0.5303514376996805,
+            "Variation 4": 0.5117845117845118,
+            "Variation 5": 0.4202334630350195,
+            "Variation 6": 0.3090909090909091,
+            "Variation 7": 0.25373134328358216,
+            "Variation 8": 0.26066350710900477,
+            "Variation 9": 0.5117056856187291,
+            "Variation 10": 0.22999999999999998
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> QUESTION:Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man with a history of chest pain and shortness of breath. The patient is in acute respiratory distress.\n 1.What is the",
+                "<s> Q::Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there any evidence of",
+                "<s> Question:Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n A.Pleural effusion\n B.Pneumothorax\n C.Pneumonia\n D.Pneumonitis\n E.P",
+                "<s> q::Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> question::Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> question:Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question-Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n 10.\n Question-Is there any evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer\n [Yes,",
+                "<s> Q:Is there any evidence of pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   Examination Room\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n "
+            ]
+        ],
+        "sensitivities": [
+            0.3402333657792505
+        ],
+        "posix": 0.3402333657792505
+    }
+}

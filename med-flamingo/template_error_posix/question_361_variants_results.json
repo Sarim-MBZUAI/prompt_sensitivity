@@ -1,0 +1,42 @@
+{
+    "file_name": "question_361_variants.json",
+    "overall_posix": 0.40790260891350566,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.31155778894472363,
+            "Variation 2": 0.5518394648829431,
+            "Variation 3": 0.192090395480226,
+            "Variation 4": 0.5498281786941581,
+            "Variation 5": 0.5246478873239436,
+            "Variation 6": 0.3317073170731708,
+            "Variation 7": 0.2935323383084577,
+            "Variation 8": 0.5149253731343284,
+            "Variation 9": 0.5371024734982333,
+            "Variation 10": 0.2717948717948717
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there calcifications present in the aorta? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there calcifications present in the aorta? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:::Are there calcifications present in the aorta? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Are there calcifications present in the aorta? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Correct Answer:\n Option 1\n Explanation:\n The aorta is the largest artery in the body. It is the only artery that originates from the heart",
+                "<s> QUESTION:Are there calcifications present in the aorta? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2\n 1\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 11\n 12\n 13\n 14\n",
+                "<s> Question:Are there calcifications present in the aorta? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no], [yes, no], [yes, no], and [yes, no].\n 10.Question:Are there calcifications present in the aorta? Please choose from the following two options: [yes,",
+                "<s> QUESTION\tAre there calcifications present in the aorta? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The patient has aortic valve stenosis. The aortic valve is calcified and the calcifications are seen as\n bright white areas on",
+                "<s> q::Are there calcifications present in the aorta? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question::: Are there calcifications present in the aorta? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q:Are there calcifications present in the aorta? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Aortic dissection\n Q:What is the most likely cause of this aortic dissection?\n A:Takayasu ar",
+                "<s> Question:Are there calcifications present in the aorta? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n Question:Are there calcifications present in the aorta? Please choose from the following two options: [yes, no]\n Answer:\n [yes, no]\n 10\n 10",
+                "<s> question:Are there calcifications present in the aorta? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2."
+            ]
+        ],
+        "sensitivities": [
+            0.40790260891350566
+        ],
+        "posix": 0.40790260891350566
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_256_variants.json",
+    "overall_posix": 0.4004751103635568,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.44688644688644685,
+            "Variation 2": 0.5210355987055016,
+            "Variation 3": 0.2598039215686274,
+            "Variation 4": 0.4948096885813149,
+            "Variation 5": 0.49310344827586206,
+            "Variation 6": 0.3105022831050228,
+            "Variation 7": 0.29107981220657275,
+            "Variation 8": 0.487719298245614,
+            "Variation 9": 0.21717171717171713,
+            "Variation 10": 0.48263888888888884
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tCan a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a right-sided pleural effusion.\n The X-ray shows a right-sided pleural effusion.\n The",
+                "<s> QUESTION:Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Explanation:\n The patient has a right-sided pleural effusion. The pleural effusion is not visible on the chest X-ray.\n The patient has",
+                "<s> Q:Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n   A 166\n 166Answers\n A:Yes\n B:No\n C:Yes\n D:No\n E:",
+                "<s> Question-Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n 100% True or False?\n A pleural effusion can be seen on the patient's chest X-ray.\n The patient's chest X-ray shows a pleural effusion.\n The",
+                "<s> Question:Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n\n 10.Question:\n Is the pleural effusion in the patient's chest X-ray a benign or malignant pleural effusion?\n Please",
+                "<s> Q::Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> q:::Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION:Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n   Answers:\n A.Yes, a pleural effusion can be seen on the patient's chest X-ray.\n B.No, a pleural effusion cannot be seen on the patient's ch",
+                "<s> QUESTION:Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> question::Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The chest X-ray shows a pleural effusion.\n B: The chest X-ray does not show a pleural effusion.\n 10.Question:\n The patient's chest X"
+            ]
+        ],
+        "sensitivities": [
+            0.4004751103635568
+        ],
+        "posix": 0.4004751103635568
+    }
+}

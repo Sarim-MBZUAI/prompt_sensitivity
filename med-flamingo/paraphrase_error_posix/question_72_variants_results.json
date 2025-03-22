@@ -1,0 +1,42 @@
+{
+    "file_name": "question_72_variants.json",
+    "overall_posix": 0.3789330812260413,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.06285714285714283,
+            "Variation 2": 0.25,
+            "Variation 3": 0.5494505494505495,
+            "Variation 4": 0.3070175438596492,
+            "Variation 5": 0.3755656108597285,
+            "Variation 6": 0.5302491103202847,
+            "Variation 7": 0.5691318327974276,
+            "Variation 8": 0.28767123287671237,
+            "Variation 9": 0.6441176470588236,
+            "Variation 10": 0.21327014218009477
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of pneumothorax in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of pneumothorax in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there any visible pneumothorax on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest radiograph show evidence of a spontaneous pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we identify any signs of traumatic pneumothorax on this imaging study? Please choose from the following two options: [yes, no]\n<image> A. Chest radiograph\n B. CT scan\n C. Ultrasound\n D. MRI\n 4.\n What is the most likely diagnosis?\n A. Pneumothorax\n B. Pulmonary cont",
+                "<s> Are there any visible air collections outside the lung parenchyma on the chest X-ray, suggesting pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there an apparent pneumomediastinum or pneumopericardium in the mediastinal area on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Can you confirm the absence of pneumothorax in the current chest X-ray images? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the pneumothorax is clearly visible.\n 2. No, the pneumothorax is not visible.\n 1. Yes, the pneumothorax is clearly visible.\n 2",
+                "<s> Does this chest film reveal any evidence of a tension pneumothorax, requiring immediate medical attention? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a tension pneumothorax.\n b. No, there is no tension pneumothorax.\n 4.\n What is the most likely diagnosis?\n a. Tension p",
+                "<s> Is there a visible pneumatocele or lung air leak on the chest X-ray that might indicate pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any abnormal air-containing structures outside the lungs seen on the chest radiograph, indicating a possible pneumothorax? Please choose from the following two options: [yes, no]\n<image> 11.10.1  Answer\n 11.10.1.1  Answers\n [Yes] There are two abnormal air-containing structures outside the lungs seen on the chest radiograph,",
+                "<s> Can you verify the presence or absence of pneumothorax in this patient's current chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.3789330812260413
+        ],
+        "posix": 0.3789330812260413
+    }
+}

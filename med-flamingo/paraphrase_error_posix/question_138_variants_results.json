@@ -1,0 +1,42 @@
+{
+    "file_name": "question_138_variants.json",
+    "overall_posix": 0.43082722753095204,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4212962962962963,
+            "Variation 2": 0.6637168141592921,
+            "Variation 3": 0.18536585365853653,
+            "Variation 4": 0.2690355329949239,
+            "Variation 5": 0.6457765667574932,
+            "Variation 6": 0.2952380952380953,
+            "Variation 7": 0.23111111111111104,
+            "Variation 8": 0.6063218390804598,
+            "Variation 9": 0.6989528795811518,
+            "Variation 10": 0.29145728643216073
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have a normal cardiomediastinal silhouette on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient's chest X-ray demonstrate a normal cardiac configuration and mediastinal contour? Please choose from the following two options: [yes, no]\n<image> 1.10a\n 1.10b\n 1.10c\n 1.10d\n 1.10e\n 1.10f\n 1.10g\n ",
+                "<s> Is the cardiac silhouette on the chest X-ray of a typical size and shape for the patient's age and sex? Please choose from the following two options: [yes, no]\n<image> 11.  Is the cardiac silhouette on the chest X-ray of a typical size and shape for the patient's age and sex? Please choose from the following two options: [yes, no]\n 1",
+                "<s> Are there any abnormalities in the cardiomediastinal region visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show a normal-sized heart with a smooth, rounded border? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can the chest X-ray be described as having a normal cardiac configuration without any evidence of cardiac or mediastinal pathology? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the chest X-ray shows a normal cardiac configuration without any evidence of cardiac or mediastinal pathology.\n 2.  No, the chest X-ray shows a cardiac enlarg",
+                "<s> Is the patient's mediastinum and cardiac silhouette normal in appearance on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Are there any visible abnormalities or asymmetries in the cardiomediastinal region seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient's chest X-ray display a typical or normal cardiac silhouette without any signs of enlargement or disease? Please choose from the following two options: [yes, no]\n<image> 11. Is the patient's chest X-ray suggestive of any cardiac disease? Please choose from the following two options: [yes, no]\n 12. Is the patient's chest X-ray",
+                "<s> Is the cardiac contour and mediastinum on the chest X-ray within normal limits for the patient's age, sex, and medical history? Please choose from the following two options: [yes, no]\n<image> 2. Is the cardiac contour and mediastinum on the chest X-ray within normal limits for the patient's age, sex, and medical history? Please choose from the following two options: [yes, no]",
+                "<s> Does the chest X-ray show no evidence of abnormal cardiac or mediastinal anatomy? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.43082722753095204
+        ],
+        "posix": 0.43082722753095204
+    }
+}

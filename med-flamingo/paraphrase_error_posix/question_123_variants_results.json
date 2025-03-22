@@ -1,0 +1,42 @@
+{
+    "file_name": "question_123_variants.json",
+    "overall_posix": 0.5117450204162897,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.597864768683274,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6080246913580247,
+            "Variation 4": 0.6666666666666666,
+            "Variation 5": 0.22872340425531912,
+            "Variation 6": 0.62,
+            "Variation 7": 0.6133333333333333,
+            "Variation 8": 0.6253968253968254,
+            "Variation 9": 0.524,
+            "Variation 10": 0.6334405144694534
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does this chest X-ray demonstrate findings consistent with a diagnosis of pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the X-ray demonstrates bilateral alveolar opacities.\n 2.  No, the X-ray demonstrates bilateral alveolar opacities.\n 1. ",
+                "<s> Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic signs suggestive of pulmonary infection on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there are.\n b. No, there are not.\n 2. Are there any radiographic signs suggestive of pneumothorax on this chest X-ray? Please choose from the following two options:",
+                "<s> Is this chest image compatible with the clinical presentation of pneumonia? Please choose from the following two options: [yes, no]\n<image> a. Yes, the patient has pneumonia.\n b. No, the patient does not have pneumonia.\n 2.\n Is this chest image compatible with the clinical presentation of pneumonia? Please choose from the",
+                "<s> Does the patient's chest X-ray exhibit features typical for pneumonia? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any indicators on this chest X-ray that could suggest a diagnosis of pneumonia? Please choose from the following two options: [yes, no]\n<image> a. Pleural effusion\n b. Cardiomegaly\n c. Lung hyperinflation\n d. Lobar atelectasis\n e. Al of the above\n 4.\n What is the most likely diagnosis?",
+                "<s> Does this radiograph show evidence of lung infection consistent with pneumonia? Please choose from the following two options: [yes, no]\n<image> a. Yes\n b. No\n 2.\n Does this radiograph show evidence of cardiac enlargement? Please choose from the following two options: [yes, no]\n a. Yes\n b. No\n 3.",
+                "<s> Is the patient's chest image showing any typical abnormalities associated with pneumonia? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a pleural effusion on the right side of the chest.\n b. No, there is no pleural effusion on the right side of the chest.\n 4.\n Is the patient'",
+                "<s> Can we see on the chest X-ray features that would confirm a diagnosis of pneumonia? Please choose from the following two options: [yes, no]\n<image> a. Yes, we can.\n b. No, we cannot.\n 10.\n a. Yes, we can.\n b. No, we cannot.\n 11.\n a. Yes, we can.\n",
+                "<s> Are there any notable changes on this chest image that might be indicative of pneumonia? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a pleural effusion on the right side of the chest.\n b. No, there is no pleural effusion on the right side of the chest.\n 10.\n What is the"
+            ]
+        ],
+        "sensitivities": [
+            0.5117450204162897
+        ],
+        "posix": 0.5117450204162897
+    }
+}

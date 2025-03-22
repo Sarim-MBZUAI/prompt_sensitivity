@@ -1,0 +1,42 @@
+{
+    "file_name": "question_322_variants.json",
+    "overall_posix": 0.4021160744625159,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4675767918088738,
+            "Variation 2": 0.45704467353951883,
+            "Variation 3": 0.2451923076923077,
+            "Variation 4": 0.5016393442622951,
+            "Variation 5": 0.28054298642533937,
+            "Variation 6": 0.4464285714285714,
+            "Variation 7": 0.4818481848184819,
+            "Variation 8": 0.4206642066420665,
+            "Variation 9": 0.4206642066420665,
+            "Variation 10": 0.29955947136563876
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n [No]\n The chest X-ray shows bilateral infiltrates, which are signs of lung infection or congestion.\n 10.",
+                "<s> Question::: Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumonia\n B. Pulmonary edema\n C. Pulmonary embolism\n D. Tuberculosis\n E",
+                "<s> question::Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> Q::Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of a pneumothorax? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there any evidence of a pneumomediastin",
+                "<s> q:::Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n The chest X-ray shows a right-sided pneumothorax.\n 10.Question:Does the chest X-ray show any",
+                "<s> QUESTION\tDoes the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a history of a recent chest infection. The chest X-ray shows a right upper lobe infiltrate. The patient has",
+                "<s> Question:Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the possible diagnosis?\n A.Pneumonia\n B.Pleural effusion\n C.Atelectasis\n D.Cardiomegaly\n E.Cardiac tam",
+                "<s> Question:Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the possible diagnosis?\n A.Pneumonia\n B.Pleural effusion\n C.Atelectasis\n D.Cardiomegaly\n E.Cardiac tam",
+                "<s> q::Does the chest X-ray show any signs of lung infection or congestion? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::"
+            ]
+        ],
+        "sensitivities": [
+            0.4021160744625159
+        ],
+        "posix": 0.4021160744625159
+    }
+}

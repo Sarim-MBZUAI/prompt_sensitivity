@@ -1,0 +1,42 @@
+{
+    "file_name": "question_353_variants.json",
+    "overall_posix": 0.44811143560165945,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6518771331058021,
+            "Variation 2": 0.5869565217391305,
+            "Variation 3": 0.6388059701492538,
+            "Variation 4": 0.28436018957345977,
+            "Variation 5": 0.1336898395721925,
+            "Variation 6": 0.2816901408450705,
+            "Variation 7": 0.5794392523364486,
+            "Variation 8": 0.4304932735426009,
+            "Variation 9": 0.6086956521739131,
+            "Variation 10": 0.2851063829787235
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of pleural effusion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pleural fluid accumulation on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there evidence of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Is there evidence of pneumomediastin",
+                "<s> Does the chest radiograph depict any features suggestive of pleural effusion? Please choose from the following two options: [yes, no]\n<image> 11.  Is the heart size normal? Please choose from the following two options: [yes, no]\n 12.  Is the cardiac size normal? Please choose from the following two options: [yes, no]",
+                "<s> Are there findings on the chest X-ray consistent with the presence of pleural fluid? Please choose from the following two options: [yes, no]\n<image> 1. Are there findings on the chest X-ray consistent with the presence of pleural fluid? Please choose from the following two options: [yes, no]\n 2. Are there findings on the chest X-",
+                "<s> Can the chest X-ray be interpreted as showing a collection of fluid within the pleural space? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the chest X-ray compatible with the diagnosis of pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiographic image reveal any signs of fluid accumulation in the pleural compartments? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there radiographic features on the chest X-ray that suggest the presence of pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1. Are there any pleural effusions?\n 2. Are there any pleural thickening?\n 3. Are there any calcified pleural plaques?\n 4. Are there any calcified nodules?",
+                "<s> Can the chest X-ray be described as showing a significant accumulation of fluid within the pleural space? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Is there radiological evidence of pleural fluid on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there a pleural effusion on the chest X-ray?\n 12. Is there a pleural effusion on the CT scan?\n 13. Is there a pleural effusion on the",
+                "<s> Does the chest X-ray demonstrate any signs of pleural fluid accumulation, such as blunting of the costophrenic angle? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.44811143560165945
+        ],
+        "posix": 0.44811143560165945
+    }
+}

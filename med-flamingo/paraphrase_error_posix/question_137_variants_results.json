@@ -1,0 +1,42 @@
+{
+    "file_name": "question_137_variants.json",
+    "overall_posix": 0.4320739167872631,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6,
+            "Variation 2": 0.3264248704663213,
+            "Variation 3": 0.34239130434782616,
+            "Variation 4": 0.5092250922509225,
+            "Variation 5": 0.6517571884984026,
+            "Variation 6": 0.2857142857142857,
+            "Variation 7": 0.3173076923076923,
+            "Variation 8": 0.38725490196078427,
+            "Variation 9": 0.617737003058104,
+            "Variation 10": 0.2829268292682927
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of pneumothorax on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of pneumothorax visible on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11. Is there evidence of pneumomediastinum visible on the chest X-ray image? Please choose from the following two options: [yes, no]\n 12. Is there evidence of subcutaneous em",
+                "<s> Does the chest X-ray reveal the presence of pneumothorax in this patient? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n a.\n b.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n",
+                "<s> Can a pneumothorax be identified on the provided chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Are there radiographic signs suggestive of pneumothorax present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there a pneumothorax on the chest X-ray?\n 12. Is there a pneumothorax on the CT scan?\n 13. Is there a pneumothor",
+                "<s> Is pneumothorax indicated by visible lung markings or absence thereof on the image? Please choose from the following two options: [yes, no]\n<image> 11.\n Is the pneumothorax indicated by visible lung markings or absence thereof on the image? Please choose from the following two options: [yes, no]\n 11\n 12.\n Is",
+                "<s> Does the appearance of the diaphragm and mediastinum suggest or exclude pneumothorax? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can a chest X-ray indicate the presence or absence of pneumothorax in this patient's case? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1.\n 2.\n 1",
+                "<s> Are there radiologic features consistent with pneumothorax visible on the given image? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Is there visual evidence supporting or refuting the diagnosis of pneumothorax on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pneumomediastinum on the chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there any evidence of a haem",
+                "<s> Does the provided image demonstrate signs suggestive of a pneumothorax in this patient? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.4320739167872631
+        ],
+        "posix": 0.4320739167872631
+    }
+}

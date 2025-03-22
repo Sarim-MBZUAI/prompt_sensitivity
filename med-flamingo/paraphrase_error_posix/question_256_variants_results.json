@@ -1,0 +1,42 @@
+{
+    "file_name": "question_256_variants.json",
+    "overall_posix": 0.45850858314792575,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.357843137254902,
+            "Variation 2": 0.0,
+            "Variation 3": 0.47247706422018343,
+            "Variation 4": 0.4631578947368421,
+            "Variation 5": 0.6883116883116883,
+            "Variation 6": 0.592948717948718,
+            "Variation 7": 0.2990196078431373,
+            "Variation 8": 0.38288288288288286,
+            "Variation 9": 0.6972972972972973,
+            "Variation 10": 0.6311475409836066
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visible pleural effusion on this patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. ___\n 2. ___\n _\n 3. ___\n _\n 4. ___ _\n 5. ___ _\n 6. ___ _\n 7. ___ _\n",
+                "<s> Can a pleural effusion be seen on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we identify a significant accumulation of fluid in the pleural space on the provided radiograph? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Does the chest X-ray demonstrate a notable presence of pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is there an apparent accumulation of fluid within the pleural space visible on this patient's radiograph? Please choose from the following two options: [yes, no]\n<image> 2. Is there an apparent accumulation of fluid within the pleural space visible on this patient's radiograph? Please choose from the following two options: [yes, no]\n 3. Is there an apparent accumulation of fluid",
+                "<s> Can we confirm the presence of a significant pleural effusion on the given chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. Yes, there is a significant pleural effusion.\n 2. No, there is no significant pleural effusion.\n 1. Yes, there is a significant pleural effusion.\n 2. No,",
+                "<s> Does the provided radiograph show evidence of fluid accumulation in the pleural space? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Can we visualize a notable amount of pleural effusion on this patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1. ___\n A. 10 mm\n 2. ___ B. 15 mm\n 3. ___ C. 20 mm\n 4. ___ D. 25 mm\n ",
+                "<s> Is there an apparent presence of fluid in the pleural space evident on the given radiograph? Please choose from the following two options: [yes, no]\n<image> 2. Is there an apparent presence of fluid in the pleural space evident on the given radiograph? Please choose from the following two options: [yes, no]\n 3. Is there an apparent presence of fluid in the pleural",
+                "<s> Can a substantial amount of fluid be identified within the pleural space on this patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> A. Yes, a substantial amount of fluid can be identified within the pleural space.\n B. No, a substantial amount of fluid cannot be identified within the pleural space.\n 4.\n A. The patient's chest"
+            ]
+        ],
+        "sensitivities": [
+            0.45850858314792575
+        ],
+        "posix": 0.45850858314792575
+    }
+}

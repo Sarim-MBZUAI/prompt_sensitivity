@@ -1,0 +1,42 @@
+{
+    "file_name": "question_101_variants.json",
+    "overall_posix": 0.4145307748066586,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.25142857142857145,
+            "Variation 2": 0.0,
+            "Variation 3": 0.19117647058823528,
+            "Variation 4": 0.6595744680851063,
+            "Variation 5": 0.5886075949367089,
+            "Variation 6": 0.4642857142857143,
+            "Variation 7": 0.36363636363636365,
+            "Variation 8": 0.5867158671586716,
+            "Variation 9": 0.5580645161290323,
+            "Variation 10": 0.4818181818181818
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there cardiomegaly present on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show an enlarged cardiac silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray demonstrate an abnormal cardiac silhouette due to increased size? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the heart shadow larger than expected for age and body habitus on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the heart shadow is larger than expected for age and body habitus.\n 2.  No, the heart shadow is not larger than expected for age and body habitus.\n 1.  Yes, the",
+                "<s> Does this chest X-ray reveal a cardiac silhouette that is enlarged compared to normal values? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the cardiac silhouette is enlarged compared to normal values.\n 2.  No, the cardiac silhouette is not enlarged compared to normal values.\n 1.  Yes",
+                "<s> Is there an increase in cardiac size visible on this frontal chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10a\n 11.10b\n 11.10c\n 11.10d\n 11.10e\n 11.10f\n 1",
+                "<s> Does the chest X-ray show an enlargement of the cardiac silhouette relative to surrounding structures? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is the heart shadow enlarged due to pathologic conditions on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> A.\tYes\n B.\tNo\n 5.\n What is the most likely diagnosis?\n A.\tAortic regurgitation\n B.\tAortic stenosis\n C.\tLeft ventricular",
+                "<s> Does the chest X-ray display a larger-than-normal cardiac silhouette resulting in crowding of the pulmonary vasculature? Please choose from the following two options: [yes, no]\n<image> 11.  Is the heart size normal?\n [yes, no]\n 12.  Is the heart size enlarged?\n [yes, no]\n 13.  Is the heart size decreased?",
+                "<s> Is there an increased cardiac size evident on this AP chest radiograph when compared to normal values? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1"
+            ]
+        ],
+        "sensitivities": [
+            0.4145307748066586
+        ],
+        "posix": 0.4145307748066586
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "file_name": "question_375_variants.json",
+    "overall_posix": 0.29713803785330406,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.7634148772124819,
+            "Variation 2": 0.4343489152198226,
+            "Variation 3": 0.2650394646770211,
+            "Variation 4": 0.31106553441397056,
+            "Variation 5": 0.28279528248523195,
+            "Variation 6": 0.2893288939954396,
+            "Variation 7": 0.34813537607058404,
+            "Variation 8": 0.32557753698763137,
+            "Variation 9": 0.4347063828846008,
+            "Variation 10": 0.2719982425142706
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\n\n\n\n\n\n\n\n\nBase on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\n# -*- coding: utf-8 -*-\nfrom __future__ import unicode",
+                "q::Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\na::\n\n\n\n\n\n\n\n#include <iostream>\n#include <string>\nusing namespace std;\n\nint main()\n{\n    string xray;\n    cin >> xray;\n    if (xray == \"yes\")\n",
+                "Q::: Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nA:::\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "Q:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nA:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "QUESTION:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nANSWER:\n\n\n\n\n\n\n\n\nQUESTION:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nANSWER:\n# -*- coding: utf-8",
+                "Q:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "question:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nanswer:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "question::Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nanswer::\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                "QUESTION:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nA:\n\n\n\n\n\n\n\n\nQUESTION:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\n\nQUESTION:Based on the chest X-ray, are",
+                "QUESTION\tBased on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nANSWER\t\n\n\n\n\n\n\n\n\nQUESTION\tBased on the chest X-ray, are the patient's lungs considered to be normal? Please choose from the following two options: [yes, no]\nANSWER\t\n\n\n\n\n\n\n\nQUESTION\tBased on the chest",
+                "QUESTION:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n\n\n\n\n\n\n\n\nQUESTION:Based on the chest X-ray, are the patient's lungs considered to be abnormal? Please choose from the following two options: [yes, no]\nAnswer:\n\n\n\n\n\n\n\n\nQUESTION:Based on the chest X"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -71.24467185632238,
+                    -139.95201080544575,
+                    -111.20477205654606,
+                    -95.09822367725428,
+                    -100.17376655682165,
+                    -96.69624727999326,
+                    -97.28427231591195,
+                    -102.57685570267495,
+                    -100.87222772219684,
+                    -111.67236546459026,
+                    -95.99651192512101
+                ],
+                [
+                    -75.78477316382487,
+                    -86.1843674983752,
+                    -91.03583307773806,
+                    -83.25396058172919,
+                    -92.66903261136031,
+                    -91.10400248062797,
+                    -87.14566740975715,
+                    -80.92366653244244,
+                    -87.24281663645525,
+                    -111.7504357615544,
+                    -93.3330228162522
+                ],
+                [
+                    -74.5337534502687,
+                    -113.23233823092778,
+                    -64.13266218439094,
+                    -78.78529631113634,
+                    -91.22930260862631,
+                    -91.90515086753294,
+                    -89.26964322011918,
+                    -96.7199755453039,
+                    -85.07809351832839,
+                    -106.29517815628788,
+                    -93.56677802230115
+                ],
+                [
+                    -78.17399890243541,
+                    -117.48795534936289,
+                    -88.87129898415878,
+                    -60.26997121149907,
+                    -76.89098033652408,
+                    -74.61452510679374,
+                    -80.698130742996,
+                    -90.72554636513814,
+                    -64.75523041581619,
+                    -100.89917484016041,
+                    -75.01065071017365
+                ],
+                [
+                    -80.70966822376795,
+                    -134.3028997448946,
+                    -101.13726876676083,
+                    -79.69216134538874,
+                    -58.93048550139065,
+                    -77.63071815716103,
+                    -75.05974139645696,
+                    -88.09976155287586,
+                    -77.12356960424222,
+                    -89.68849146194407,
+                    -69.94509556710545
+                ],
+                [
+                    -78.03155113282992,
+                    -124.18952033430105,
+                    -99.81479108054191,
+                    -75.6732138034422,
+                    -73.05311142784194,
+                    -59.09183402755298,
+                    -72.43713495449629,
+                    -84.94068702170625,
+                    -77.18097241595387,
+                    -99.28764502971899,
+                    -59.662123654808966
+                ],
+                [
+                    -76.65192916604428,
+                    -128.4848110840967,
+                    -100.87874704110436,
+                    -79.99060619121883,
+                    -75.01080771813577,
+                    -75.29854712786619,
+                    -58.34068898804253,
+                    -74.2640897675883,
+                    -82.0419830334722,
+                    -99.84500485676108,
+                    -71.49011310760397
+                ],
+                [
+                    -75.15468460434931,
+                    -113.53794675032441,
+                    -95.15200452320278,
+                    -81.35570677765645,
+                    -80.7681177349441,
+                    -78.48386519239284,
+                    -72.90831743704621,
+                    -62.31969219027087,
+                    -88.79949238130939,
+                    -100.31999571280903,
+                    -78.59824485007266
+                ],
+                [
+                    -83.28029023109411,
+                    -127.23581074279082,
+                    -94.99974503624253,
+                    -63.687625664053485,
+                    -71.01700336755312,
+                    -77.01057476154529,
+                    -82.10064159636386,
+                    -92.78221593983471,
+                    -57.03161479529808,
+                    -103.1562317070202,
+                    -70.51903366127226
+                ],
+                [
+                    -78.06415483384626,
+                    -133.95260538182538,
+                    -101.99215702177025,
+                    -85.551073802053,
+                    -76.80880181684915,
+                    -88.49379691050854,
+                    -84.82993284007534,
+                    -92.54573138896376,
+                    -93.88608607088099,
+                    -56.383852912986185,
+                    -87.45963687021867
+                ],
+                [
+                    -82.07288750973385,
+                    -133.750197971337,
+                    -99.18763594282791,
+                    -77.22738153312821,
+                    -68.53238137364679,
+                    -64.96466511872131,
+                    -72.1869255960919,
+                    -85.39831005805172,
+                    -74.80103094209335,
+                    -97.3170026067528,
+                    -54.31502623248525
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.29713803785330406
+        ],
+        "posix": 0.29713803785330406
+    }
+}

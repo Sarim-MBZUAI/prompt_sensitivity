@@ -1,0 +1,42 @@
+{
+    "file_name": "question_6_variants.json",
+    "overall_posix": 0.44709363808048613,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3090128755364807,
+            "Variation 2": 0.0,
+            "Variation 3": 0.6501547987616099,
+            "Variation 4": 0.3838862559241707,
+            "Variation 5": 0.4518828451882846,
+            "Variation 6": 0.4525862068965517,
+            "Variation 7": 0.48917748917748916,
+            "Variation 8": 0.6324786324786325,
+            "Variation 9": 0.6515580736543909,
+            "Variation 10": 0.45019920318725104
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.2.1.1\n 11.2.1.2\n 11.2.1.3\n 11.2.1.4\n 11.2.1.5\n",
+                "<s> Are there any visible pulmonary lesions on the chest X-ray image that could potentially be indicative of pathology? Please choose from the following two options: [yes, no]\n<image> 11.2.1.1\n 11.2.1.2\n 11.2.1.3\n 11.2.1.4\n 11.2.1.5\n",
+                "<s> Are there any suspicious pulmonary opacities visible on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.2.1.1\n 11.2.1.2\n 11.2.1.3\n 11.2.1.4\n 11.2.1.5\n",
+                "<s> Is there evidence of abnormal lung parenchymal opacification on the provided chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.  When the patient\u2019s chest radiograph was obtained, was there evidence of abnormal lung parenchymal opacification?\n [yes, no]\n 12.  If the answer to Question",
+                "<s> Do any abnormalities suggestive of a pulmonary process appear on the given chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any visible areas of increased lung density or opacity on the chest X-ray that could be concerning for disease? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest radiograph reveal any suspicious or abnormal pulmonary findings that warrant further investigation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a visible lung lesion or mass on the provided chest X-ray image that could be associated with pathology? Please choose from the following two options: [yes, no]\n<image> 2.2\n 2.4\n 2.6\n 2.8\n 2.10\n 2.12\n 2.14\n 2.16\n 2.18\n",
+                "<s> Are any abnormalities indicative of pulmonary disease visible on the given chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1. Are any abnormalities indicative of pulmonary disease visible on the given chest X-ray image? Please choose from the following two options: [yes, no]\n 2. Are any abnormalities indicative",
+                "<s> Does the chest radiograph depict any areas of abnormal lung opacification or consolidation that could be concerning for infection or other pathology? Please choose from the following two options: [yes, no]\n<image> 11.  Is the heart size and cardiac size within normal limits?\n [yes, no]\n 12.  Is there any evidence of pulmonary edema?\n [yes, no]\n 13",
+                "<s> Are there any visible pulmonary abnormalities on the provided chest X-ray image that would necessitate further imaging or evaluation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.44709363808048613
+        ],
+        "posix": 0.44709363808048613
+    }
+}

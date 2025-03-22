@@ -1,0 +1,42 @@
+{
+    "file_name": "question_201_variants.json",
+    "overall_posix": 0.37384503924127876,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.15217391304347827,
+            "Variation 2": 0.27368421052631575,
+            "Variation 3": 0.26344086021505375,
+            "Variation 4": 0.6559766763848397,
+            "Variation 5": 0.26315789473684204,
+            "Variation 6": 0.323943661971831,
+            "Variation 7": 0.26168224299065423,
+            "Variation 8": 0.5955882352941176,
+            "Variation 9": 0.6656976744186046,
+            "Variation 10": 0.2831050228310502
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the X-ray show any signs of lung congestion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray demonstrate evidence of pulmonary congestion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic proof of fluid overload in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there visible signs of alveolar edema present on the lung X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the imaging study suggest that the patient has developed acute respiratory distress syndrome (ARDS)? Please choose from the following two options: [yes, no]\n<image> a. Yes, the patient has developed ARDS.\n b. No, the patient has not developed ARDS.\n 10. Please select from the following two options: [yes, no]\n a. Yes, the patient has",
+                "<s> Can the chest X-ray confirm the presence of cardiogenic pulmonary edema? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there radiographic evidence to support a diagnosis of atelectasis in the lungs on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the X-ray show any indication of pleural effusion or fluid accumulation in the lung tissue? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there visible signs of interstitial lung disease (ILD) present on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there a history of rheumatoid arthritis (RA) or systemic lupus erythematosus (SLE) present?\n [yes, no]\n 12. Is",
+                "<s> Can the imaging findings suggest that the patient has developed acute exacerbation of chronic obstructive pulmonary disease (AECOPD)? Please choose from the following two options: [yes, no]\n<image> a. Yes, the patient has AECOPD.\n b. No, the patient does not have AECOPD.\n 4. Which of the following is the most likely diagnosis?\n a. AECOPD\n",
+                "<s> Does the X-ray display any characteristic features of pneumonia, such as consolidation or cavitation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.37384503924127876
+        ],
+        "posix": 0.37384503924127876
+    }
+}

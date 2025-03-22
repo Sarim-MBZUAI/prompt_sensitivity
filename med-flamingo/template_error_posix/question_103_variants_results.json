@@ -1,0 +1,42 @@
+{
+    "file_name": "question_103_variants.json",
+    "overall_posix": 0.3843857109032529,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3119266055045872,
+            "Variation 2": 0.2971698113207547,
+            "Variation 3": 0.4965277777777778,
+            "Variation 4": 0.546583850931677,
+            "Variation 5": 0.20634920634920628,
+            "Variation 6": 0.31081081081081074,
+            "Variation 7": 0.4296577946768061,
+            "Variation 8": 0.295774647887324,
+            "Variation 9": 0.5,
+            "Variation 10": 0.4490566037735849
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166\n 166: Chest X-Ray\n 167\n 167: Chest X-Ray\n Correct Answer: D",
+                "<s> Question:Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient has an enlarged heart on the chest X-ray.\n 1.The heart is enlarged because of:\n A.Hyperthyroidism\n B.Hyperparath",
+                "<s> Question-Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n The patient has an enlarged heart on the chest X-ray.\n The heart is enlarged in the anteroposterior dimension.\n The heart is enlarged in the transverse dimension.\n The heart",
+                "<s> Q:Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 3:\n E:\n D:\n 1:\n 2:\n 3:\n 4:\n 5:\n 6:\n 7:\n",
+                "<s> question:Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n You have scored 100% on this quiz.\n 100%:100%:\n 1",
+                "<s> QUESTION\tDoes the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient has a cardiomegaly. The cardiothoracic ratio is 0.65, which is greater than 0.5.",
+                "<s> Q::: Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Question:Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The patient has an enlarged heart on the chest X-ray. The cardiothoracic ratio is 0.6, which is greater than 0.",
+                "<s> QUESTION:Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Aortic dissection\n B:Pericardial effusion\n C:Pericardial tamponade\n D:"
+            ]
+        ],
+        "sensitivities": [
+            0.3843857109032529
+        ],
+        "posix": 0.3843857109032529
+    }
+}

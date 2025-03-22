@@ -1,0 +1,42 @@
+{
+    "file_name": "question_128_variants.json",
+    "overall_posix": 0.3872785394939869,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.48046875,
+            "Variation 2": 0.4054054054054055,
+            "Variation 3": 0.5592105263157895,
+            "Variation 4": 0.3733333333333333,
+            "Variation 5": 0.3349753694581281,
+            "Variation 6": 0.20467836257309946,
+            "Variation 7": 0.51985559566787,
+            "Variation 8": 0.25274725274725274,
+            "Variation 9": 0.47580645161290325,
+            "Variation 10": 0.2663043478260869
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Is the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes]\n 11.\n Q:Is the trachea deviating to the right? Please choose from the following two options: [yes, no]\n Answer:\n [Yes]\n 12.\n Q:",
+                "<s> Question:Is the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes, no]\n [yes",
+                "<s> Question::: Is the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question: Is the heart deviating from the midline? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n 11.\n Question: Is the heart deviating",
+                "<s> question::Is the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The mediastinum is normal.\n B: The mediastinum is abnormal.\n 10.\n 11.\n 12.\n 13.\n 14.\n",
+                "<s> q::Is the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Is the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16\n 15\n 14\n 13\n 12\n 11\n 10\n 9\n 8\n 7\n ",
+                "<s> QUESTION\tIs the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The patient is a 10-year-old boy who presents with a history of recurrent chest pain. The chest pain is\n typicaly brought",
+                "<s> QUESTION:Is the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION:Is the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n\n 10.\n QUESTION:What is the most likely diagnosis?\n [pulmonary sequestration]\n [pulmonary artery sling]\n [pulmon",
+                "<s> q:Is the mediastinum exhibiting any anomalies? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:"
+            ]
+        ],
+        "sensitivities": [
+            0.3872785394939869
+        ],
+        "posix": 0.3872785394939869
+    }
+}

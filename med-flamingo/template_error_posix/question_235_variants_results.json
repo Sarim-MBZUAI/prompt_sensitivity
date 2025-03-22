@@ -1,0 +1,42 @@
+{
+    "file_name": "question_235_variants.json",
+    "overall_posix": 0.3630020881300148,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.28837209302325584,
+            "Variation 2": 0.2941176470588236,
+            "Variation 3": 0.1624365482233503,
+            "Variation 4": 0.46875,
+            "Variation 5": 0.410569105691057,
+            "Variation 6": 0.5198776758409785,
+            "Variation 7": 0.31277533039647576,
+            "Variation 8": 0.5630498533724341,
+            "Variation 9": 0.29729729729729737,
+            "Variation 10": 0.31277533039647576
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Q:Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]||A:\n<image> B:\n C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Is there a",
+                "<s> q:::Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> q:Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> QUESTION\tIs there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n This is a frontal chest X-ray of a 55-year-old man who presented to the emergency department with a 2-week",
+                "<s> Q:Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2022\tThe\tX-ray\timage\tshows\ta\tdevice\twithin\tthe\tright\tchest.\n \u2022\tThe\tdevice\tis\ta\tpacemaker.\n \u2022\tThe\t",
+                "<s> Question::: Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n Is the device present within the right chest on the CT image? Please choose from the following two options: [yes, no]\n Answer:\n Yes\n 11.\n Question:",
+                "<s> q::Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The patient is a 55-year-old man who has been complaining of shortness of breath. He has a history of coronary artery disease and has been taking warfarin for the past ",
+                "<s> Q::: Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q::Is there a device present within the right chest on the X-ray image? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::"
+            ]
+        ],
+        "sensitivities": [
+            0.3630020881300148
+        ],
+        "posix": 0.3630020881300148
+    }
+}

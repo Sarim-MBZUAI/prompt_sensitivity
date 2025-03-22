@@ -1,0 +1,42 @@
+{
+    "file_name": "question_178_variants.json",
+    "overall_posix": 0.3939164328814483,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3790322580645161,
+            "Variation 2": 0.5158227848101266,
+            "Variation 3": 0.4237918215613383,
+            "Variation 4": 0.23786407766990292,
+            "Variation 5": 0.5158227848101266,
+            "Variation 6": 0.4336917562724014,
+            "Variation 7": 0.4733096085409252,
+            "Variation 8": 0.3745019920318725,
+            "Variation 9": 0.30222222222222217,
+            "Variation 10": 0.2831050228310502
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Does the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 3:\n Q:What is the most likely diagnosis?\n A:Pneumonia\n B:Tuberculosis\n C:Pulmonary edema\n D",
+                "<s> Question:Does the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Question:What is the most likely diagnosis?\n Option 1: Pneumonia\n Option 2: Tuberculosis\n Question:What is the most likely cause of the",
+                "<s> QUESTION\tDoes the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n EXPLANATION\n Fig. 1.1.1: Chest X-ray showing opacities in the right upper lobe and left lower lobe.\n 1",
+                "<s> q:Does the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Question:Does the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Option 1: Yes\n Option 2: No\n Question:What is the most likely diagnosis?\n Option 1: Pneumonia\n Option 2: Tuberculosis\n Question:What is the most likely cause of the",
+                "<s> Question:Does the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10.Question:What is the possible diagnosis?\n A.Pneumonia\n B.Pneumothorax\n C.Pleural effusion\n D.Tuberculosis\n 11.Question",
+                "<s> Q:Does the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the differential diagnosis?\n [Asthma, pneumonia, tuberculosis, bronchiectasis, pulmonary edema, pulmonary embolism,",
+                "<s> QUESTION:Does the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:\n What is the diagnosis?\n A:\n pneumonia\n B:\n pneumothorax\n C:\n pneumomediastinum\n D:\n p",
+                "<s> Q::Does the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> q:::Does the patient have any opacities in the lungs as per the X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::"
+            ]
+        ],
+        "sensitivities": [
+            0.3939164328814483
+        ],
+        "posix": 0.3939164328814483
+    }
+}

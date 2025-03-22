@@ -1,0 +1,42 @@
+{
+    "file_name": "question_36_variants.json",
+    "overall_posix": 0.3607975564630005,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3090909090909091,
+            "Variation 2": 0.504885993485342,
+            "Variation 3": 0.43609022556390975,
+            "Variation 4": 0.5273311897106109,
+            "Variation 5": 0.26291079812206575,
+            "Variation 6": 0.5134228187919463,
+            "Variation 7": 0.2559241706161137,
+            "Variation 8": 0.2160804020100502,
+            "Variation 9": 0.3090909090909091,
+            "Variation 10": 0.27314814814814814
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q::Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question-Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\nAnswer\n<image> 1.Yes\n 2.No\n Question-Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\n Answer\n 1.Yes\n 2.No\n",
+                "<s> QUESTION:Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pulmonary nodule\n B:\n 3.\n QUESTION:What is the most likely diagnosis?",
+                "<s> Question:Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n 10.Question:Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no],Answer:\n [yes, no]\n 11.",
+                "<s> question::Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\nanswer::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q:Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\nAnswer:\n<image>\nYes\n Q:What is the most likely diagnosis?\n A:Aortic dissection\n Q:What is the most likely diagnosis?\n A:Aortic dissection\n Q:What is the most likely diagnosis",
+                "<s> QUESTION:Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\nAnswer:\n<image>\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No",
+                "<s> QUESTION:Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\nANSWER:\n<image>\n 1.Yes\n 2.No\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19",
+                "<s> Q::Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question::: Is the previous study performed in XXXX available for review? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n"
+            ]
+        ],
+        "sensitivities": [
+            0.3607975564630005
+        ],
+        "posix": 0.3607975564630005
+    }
+}

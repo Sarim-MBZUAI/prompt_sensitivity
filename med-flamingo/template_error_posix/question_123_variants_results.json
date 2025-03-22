@@ -1,0 +1,42 @@
+{
+    "file_name": "question_123_variants.json",
+    "overall_posix": 0.3780174169394638,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5468277945619335,
+            "Variation 2": 0.2146596858638743,
+            "Variation 3": 0.2857142857142857,
+            "Variation 4": 0.47491638795986624,
+            "Variation 5": 0.47122302158273377,
+            "Variation 6": 0.24257425742574257,
+            "Variation 7": 0.15025906735751293,
+            "Variation 8": 0.4377358490566038,
+            "Variation 9": 0.44160583941605847,
+            "Variation 10": 0.5146579804560261
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0The patient has a chest X-ray in the emergency department. The patient has a history of coughing and fever. The patient is not on any medications.\n 1.The patient",
+                "<s> Q:Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 166.1: 166.1: 166.1: 166.1: 166.1:\n 1",
+                "<s> q:::Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question-Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> 1.Yes\n 2.No\n Correct Answer:\n 1.Yes\n 2.No\n The patient has bilateral infiltrates in the lung fields, which are consistent with pneumonia.\n The patient",
+                "<s> Question:Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the differential diagnosis?\n \u2756\u2756What is the most likely diagnosis?\n \u2756\u2756What is the best way to manage this patient?",
+                "<s> QUESTION:Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> q:Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> Q::Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A::Pneumonia\n B::Pneumothorax\n C::Pneumomediastinum\n D::Pneumonitis\n E::Pulmonary",
+                "<s> QUESTION:Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n 3.\n QUESTION:What is the most likely cause of the patient\u2019s",
+                "<s> QUESTION:Does the patient have any signs of pneumonia on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> (a)Yes, the patient has bilateral infiltrates.\n (b)No, the patient does not have any signs of pneumonia.\n Explanation:\n The patient has bilateral infiltrates"
+            ]
+        ],
+        "sensitivities": [
+            0.3780174169394638
+        ],
+        "posix": 0.3780174169394638
+    }
+}

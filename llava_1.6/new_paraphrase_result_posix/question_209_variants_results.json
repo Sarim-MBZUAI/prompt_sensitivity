@@ -1,0 +1,189 @@
+{
+    "file_name": "question_209_variants.json",
+    "overall_posix": 1.2191355717352923,
+    "detailed_scores": [
+        {
+            "Variation 1": 2.7633327537112766,
+            "Variation 2": 3.422239189147949,
+            "Variation 3": 3.733664946258068,
+            "Variation 4": 3.807113218307495,
+            "Variation 5": 4.176121478080749,
+            "Variation 6": 3.575169253349304,
+            "Variation 7": 3.8393749499320986,
+            "Variation 8": 4.482248101234436,
+            "Variation 9": 3.6145272779464723,
+            "Variation 10": 3.5984918880462646
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any sign of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, there is a sign of chronic lung disease on the chest X-ray. The presence of a nodule in the lung suggests chronic lung disease.",
+                "No, there is no evidence of emphysema or other chronic lung changes on this chest X-ray. The X-ray appears to be normal, with no signs of lung disease or abnormalities.",
+                "Yes, there is a sign of chronic lung disease on the chest X-ray. The presence of a nodule in the lung suggests the possibility of chronic lung disease, such as emphysema or bronchitis. However, it is important",
+                "No, the chest X-ray does not show any features suggestive of long-standing respiratory disease such as cystic fibrosis or COPD. The image appears to be a normal chest X-ray with no signs of chronic",
+                "Yes, there is radiographic evidence of chronic lung pathology on this imaging study. The image shows a chest X-ray with a visible opacity in the right lung, which could be indicative of chronic lung pathology such as a scar,",
+                "Based on the image provided, it is not possible for me to definitively determine if there are signs of irreversible lung damage or disease such as fibrosis or scarring. The image is a black and white X-ray, which may",
+                "Yes, there is a visible sign of long-standing airway obstruction or other chronic respiratory compromise on this image. The presence of a large bulla, which is an air-filled cavity in the chest wall, is indicative",
+                "Yes, the chest X-ray displays typical radiographic features of cystic fibrosis or other chronic lung diseases. These features include hyperinflation of the lungs, which is evident by the increased size of the lung fields, and the presence",
+                "Yes, the image shows a chest X-ray with findings consistent with a history of chronic respiratory disease, such as asthma or chronic obstructive pulmonary disease (COPD). The presence of hyperinflation, flatt",
+                "Based on the image provided, it appears that there are some areas of the lungs that may suggest irreversible changes in lung architecture due to long-standing disease. The presence of scarring or fibrosis, as well as the possible presence of",
+                "Based on the image provided, there is no clear evidence of chronic lung damage or pathology. The lungs appear to be relatively clear, with no visible signs of fibrosis, emphysema, or other chronic lung conditions. The image is"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -325.9045853614807,
+                    -450.25455927848816,
+                    -497.0165448188782,
+                    -512.5878326743841,
+                    -516.2602462768555,
+                    -534.7106592655182,
+                    -504.6630480289459,
+                    -517.8733328580856,
+                    -550.0169904232025,
+                    -506.6309492588043,
+                    -505.82917976379395
+                ],
+                [
+                    -302.11377239227295,
+                    -454.17613220214844,
+                    -473.0110756158829,
+                    -493.54746294021606,
+                    -471.63822734355927,
+                    -492.77257311344147,
+                    -479.399600982666,
+                    -510.8896013498306,
+                    -534.7046699523926,
+                    -502.60724806785583,
+                    -510.58195066452026
+                ],
+                [
+                    -325.9045853614807,
+                    -450.25455927848816,
+                    -497.0165448188782,
+                    -512.5878326743841,
+                    -516.2602462768555,
+                    -534.7106592655182,
+                    -504.6630480289459,
+                    -517.8733328580856,
+                    -550.0169904232025,
+                    -506.6309492588043,
+                    -505.82917976379395
+                ],
+                [
+                    -335.9202518463135,
+                    -440.83427596092224,
+                    -498.18208742141724,
+                    -512.7598180770874,
+                    -502.9137964248657,
+                    -492.3539161682129,
+                    -512.323540687561,
+                    -514.8317353725433,
+                    -541.5723195075989,
+                    -477.1635181903839,
+                    -488.23554253578186
+                ],
+                [
+                    -317.9142792224884,
+                    -453.98546862602234,
+                    -485.5456209182739,
+                    -519.5171134471893,
+                    -480.7251373529434,
+                    -525.1274268627167,
+                    -507.73611855506897,
+                    -511.8356521129608,
+                    -531.9120563268661,
+                    -508.32208228111267,
+                    -525.2853655815125
+                ],
+                [
+                    -337.1051230430603,
+                    -434.94786465168,
+                    -517.0583343505859,
+                    -490.3652663230896,
+                    -464.6716811656952,
+                    -504.8697280883789,
+                    -493.1831750869751,
+                    -497.6454002857208,
+                    -509.7045543193817,
+                    -488.28542947769165,
+                    -489.388614654541
+                ],
+                [
+                    -323.05703353881836,
+                    -433.50309228897095,
+                    -489.67181062698364,
+                    -512.0960102081299,
+                    -473.9290864467621,
+                    -487.23897981643677,
+                    -488.40479588508606,
+                    -503.85756278038025,
+                    -505.7654266357422,
+                    -475.32981288433075,
+                    -481.55661499500275
+                ],
+                [
+                    -346.47379541397095,
+                    -441.5246857404709,
+                    -518.9190728664398,
+                    -502.6447021961212,
+                    -483.1137977838516,
+                    -476.31636250019073,
+                    -485.3378658145666,
+                    -498.4729174375534,
+                    -520.65562915802,
+                    -506.9726481437683,
+                    -505.5601968765259
+                ],
+                [
+                    -346.47379541397095,
+                    -441.5246857404709,
+                    -518.9190728664398,
+                    -502.6447021961212,
+                    -483.1137977838516,
+                    -476.31636250019073,
+                    -485.3378658145666,
+                    -498.4729174375534,
+                    -520.65562915802,
+                    -506.9726481437683,
+                    -505.5601968765259
+                ],
+                [
+                    -323.05703353881836,
+                    -433.50309228897095,
+                    -489.67181062698364,
+                    -512.0960102081299,
+                    -473.9290864467621,
+                    -487.23897981643677,
+                    -488.40479588508606,
+                    -503.85756278038025,
+                    -505.7654266357422,
+                    -475.32981288433075,
+                    -481.55661499500275
+                ],
+                [
+                    -313.09326362609863,
+                    -454.43080043792725,
+                    -482.76430559158325,
+                    -523.3246121406555,
+                    -478.29663848876953,
+                    -516.5953931808472,
+                    -506.04448556900024,
+                    -520.4237289428711,
+                    -550.1768279075623,
+                    -517.7060832977295,
+                    -502.69814336299896
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.2191355717352923
+        ],
+        "posix": 1.2191355717352923
+    }
+}

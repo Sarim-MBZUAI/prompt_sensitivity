@@ -1,0 +1,42 @@
+{
+    "file_name": "question_205_variants.json",
+    "overall_posix": 0.35031630040405337,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.277056277056277,
+            "Variation 2": 0.4810126582278481,
+            "Variation 3": 0.28695652173913044,
+            "Variation 4": 0.27555555555555555,
+            "Variation 5": 0.4368600682593857,
+            "Variation 6": 0.27876106194690264,
+            "Variation 7": 0.2465753424657534,
+            "Variation 8": 0.26415094339622636,
+            "Variation 9": 0.49844236760124616,
+            "Variation 10": 0.45779220779220786
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 12.\n a.\n b.\n 13.\n a.\n b.\n 14.\n a.\n b.\n 15.\n a.\n b.\n 16.\n a",
+                "<s> q::Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question-Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n 100% True. The X-ray shows a cardiomegaly.\n The heart is enlarged, and the right ventricle is more prominent than the left ventricle.\n The heart is enlarg",
+                "<s> Question:Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\t\tNo.\n \u2022\t\tYes.\n \u2022\t\tNo.\n \u2022\t\tYes.\n \u2022\t\tNo.\n \u2022\t\tYes.\n \u2022\t\tNo.\n \u2022\t",
+                "<s> q:::Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> question:Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n A.Yes, there is an enlarged heart on the chest X-ray.\n B.No, there is no enlarged heart on the chest X-ray.\n C.Yes, there is an enlarg",
+                "<s> Q::: Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n E:\n F:\n G:\n H:\n I:\n J:\n K:\n L:\n M:\n N:\n O:\n P:\n Q:Is there",
+                "<s> question::Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Question:Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The patient's chest X-ray shows an enlarged heart. The heart is enlarged in the anteroposterior dimension, and the cardiac silhou",
+                "<s> Question::: Is there any evidence of an enlarged heart on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Congestive heart failure\n B. Pulmonary embolism\n C. Aortic dissection\n D. Pericardial"
+            ]
+        ],
+        "sensitivities": [
+            0.35031630040405337
+        ],
+        "posix": 0.35031630040405337
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_304_variants.json",
+    "overall_posix": 0.37687492780638415,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5540983606557377,
+            "Variation 2": 0.2421052631578947,
+            "Variation 3": 0.47916666666666674,
+            "Variation 4": 0.25654450261780104,
+            "Variation 5": 0.24083769633507857,
+            "Variation 6": 0.18229166666666663,
+            "Variation 7": 0.519163763066202,
+            "Variation 8": 0.24338624338624337,
+            "Variation 9": 0.5511551155115512,
+            "Variation 10": 0.5
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question-Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n Reasoning\n The X-ray shows a right-sided pleural effusion. The left lung is not visible. The right\n hemidiaphragm is raised, and the left hemidiaphragm is depressed",
+                "<s> QUESTION:Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question:Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n \u2022\tThe\tchest\tX-ray\tshows\ta\tleft\tpleural\teffusion.\n \u2022\tThe\tchest\tX-ray\tshows\ta\tleft\tpleural\teffusion",
+                "<s> q:Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> QUESTION\tCan we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question:Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no].\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11",
+                "<s> QUESTION:Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Correct answer:\n [yes]\n The patient has a right-sided pleural effusion.\n The chest X-ray shows a right-sided pleural effusion.\n The chest X",
+                "<s> QUESTION:Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> question:Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\nyes\n Yes, there is a pleural effusion on the left side of the chest.\n 3.What is the differential diagnosis of the pleural effusion?\n [pleural tuberculosis, pleural em",
+                "<s> Q:Can we see any pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The patient has a right-sided pleural effusion.\n Q:What is the most likely diagnosis?\n A:Pulmonary embolism\n B:Pulmonary infarction"
+            ]
+        ],
+        "sensitivities": [
+            0.37687492780638415
+        ],
+        "posix": 0.37687492780638415
+    }
+}

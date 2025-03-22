@@ -1,0 +1,42 @@
+{
+    "file_name": "question_208_variants.json",
+    "overall_posix": 0.3518763880387829,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.1542553191489362,
+            "Variation 2": 0.14516129032258063,
+            "Variation 3": 0.3119266055045872,
+            "Variation 4": 0.462962962962963,
+            "Variation 5": 0.43846153846153846,
+            "Variation 6": 0.2412060301507537,
+            "Variation 7": 0.4714285714285714,
+            "Variation 8": 0.4291187739463602,
+            "Variation 9": 0.43846153846153846,
+            "Variation 10": 0.42578125
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> Q:Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q::Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q::Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n 11.\n Q::Did the chest X-ray show any signs of scoliosis? Please choose from the following two options: [yes, no]\n A::\n B",
+                "<s> Question:Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n A. Pectus excavatum\n B. Pectus carinatum\n C. Pectus carinatum\n D. Pectus",
+                "<s> question::Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question::: Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Congenital scoliosis\n B. Congenital kyphoscoliosis\n C. Congenital kyph",
+                "<s> QUESTION\tDid the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n \u2022\tThe chest X-ray shows a normal cardiothoracic ratio (0.5) and a normal cardiac size.\n \u2022\t",
+                "<s> Question:Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n A. Pectus excavatum\n B. Pectus carinatum\n C. Pectus carinatum\n D. Pectus",
+                "<s> QUESTION:Did the chest X-ray show signs of any chest wall deformity? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n [no, yes]\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pleural effusion\n C.P"
+            ]
+        ],
+        "sensitivities": [
+            0.3518763880387829
+        ],
+        "posix": 0.3518763880387829
+    }
+}

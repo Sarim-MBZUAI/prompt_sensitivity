@@ -1,0 +1,42 @@
+{
+    "file_name": "question_399_variants.json",
+    "overall_posix": 0.3884768032792806,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.42490842490842495,
+            "Variation 2": 0.5411764705882353,
+            "Variation 3": 0.46153846153846156,
+            "Variation 4": 0.2417061611374407,
+            "Variation 5": 0.47796610169491527,
+            "Variation 6": 0.26106194690265494,
+            "Variation 7": 0.4564459930313589,
+            "Variation 8": 0.31932773109243695,
+            "Variation 9": 0.4967532467532467,
+            "Variation 10": 0.2038834951456311
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::Are there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A::Pneumonia\n B::Tuberculosis\n C::Pulmonary edema\n D::Pneumothorax\n E::Pneumonitis",
+                "<s> Q:Are there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Suggested response\n These are two spot views of the left lung. There is a large area of consolidation in the left upper lobe. This is most likely due to pneumonia. There is also a small area",
+                "<s> QUESTION\tAre there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n REASONING\n The chest X-ray is normal. There are no signs of focal airspace disease.\n However, there is a large left-sided pneum",
+                "<s> question::Are there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Question-Are there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2756\u2756What is the most likely diagnosis?\n \u2756\u2756What is the most likely cause of this condition?\n \u2756\u2756What is the most likely differential diagn",
+                "<s> Question::: Are there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q:Are there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The patient has a right-sided pneumothorax.\n Q:What is the most likely cause of the pneumothorax?\n A:Traumatic\n B:Spontaneous\n",
+                "<s> Question:Are there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n \u2022\tYes\n \u2022\tNo\n",
+                "<s> Question:Are there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The chest X-ray shows a right upper lobe cavitary lesion.\n The patient is a 55-year-old man with a history of smoking",
+                "<s> QUESTION:Are there any signs of focal airspace disease noted on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n B\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n"
+            ]
+        ],
+        "sensitivities": [
+            0.3884768032792806
+        ],
+        "posix": 0.3884768032792806
+    }
+}

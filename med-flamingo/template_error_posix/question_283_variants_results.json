@@ -1,0 +1,42 @@
+{
+    "file_name": "question_283_variants.json",
+    "overall_posix": 0.41556418014073354,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5065359477124183,
+            "Variation 2": 0.5145631067961165,
+            "Variation 3": 0.46232876712328763,
+            "Variation 4": 0.5145631067961165,
+            "Variation 5": 0.2534562211981567,
+            "Variation 6": 0.41417910447761197,
+            "Variation 7": 0.46996466431095407,
+            "Variation 8": 0.24637681159420288,
+            "Variation 9": 0.4727891156462585,
+            "Variation 10": 0.3008849557522124
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any mention of a pneumothorax in the chest CT findings? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there any mention",
+                "<s> Question:Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 10.Question:Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\n Answer:\n",
+                "<s> Question::: Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumothorax\n B. Pulmonary embolism\n C. Pulmonary infarction\n D. Pulmonary",
+                "<s> Question:Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 10.Question:Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\n Answer:\n",
+                "<s> question:Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> QUESTION:Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:\n What is the most likely diagnosis?\n A:\n Acute pneumonia\n B:\n Acute bronchitis\n C:\n Acute pneumothorax",
+                "<s> Question-Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, pneumothorax]\n [No, no pneumothorax]\n\n 10.Question-Is there any mention of a pneumothorax in the chest X-ray findings? Please",
+                "<s> question::Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Question:Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The radiograph shows a right pneumothorax.\n 1.The patient is a 65-year-old man with a history of a right pneumothorax.\n 2.",
+                "<s> q::Is there any mention of a pneumothorax in the chest X-ray findings? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::"
+            ]
+        ],
+        "sensitivities": [
+            0.41556418014073354
+        ],
+        "posix": 0.41556418014073354
+    }
+}

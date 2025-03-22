@@ -1,0 +1,42 @@
+{
+    "file_name": "question_287_variants.json",
+    "overall_posix": 0.41424678287970834,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.37230769230769223,
+            "Variation 2": 0.2668621700879765,
+            "Variation 3": 0.43384615384615377,
+            "Variation 4": 0.48615384615384616,
+            "Variation 5": 0.4492307692307692,
+            "Variation 6": 0.48307692307692307,
+            "Variation 7": 0.19252873563218387,
+            "Variation 8": 0.5046153846153846,
+            "Variation 9": 0.5015384615384615,
+            "Variation 10": 0.4523076923076923
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray?\n 12.  Does the patient exhibit any signs of increased pulmonary vascular",
+                "<s> q:Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.  Describe the findings on the chest X-ray.\n 11.  What is the most likely diagnosis?",
+                "<s> QUESTION:Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n The patient exhibits signs of increased pulmonary vascularity on the chest X-ray.\n The patient\u2019s chest X-ray shows a right-sided pleural effusion. The effusion",
+                "<s> Q:Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Aortic dissection\n Q:What is the most likely diagnosis?\n A:Aortic dissection\n Q:What is the most",
+                "<s> Question::: Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question:Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n c.I don\u2019t know\n d.I don\u2019t know yet\n e.I don\u2019t know yet, but I think it\u2019s yes\n 10.Question:Does the",
+                "<s> Q::Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question-Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n The patient exhibits signs of increased pulmonary vascularity on the chest X-ray.\n The patient exhibits signs of increased pulmonary vascularity on the chest X-ray",
+                "<s> question::Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> QUESTION:Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Does the patient exhibit any signs of increased pulmonary vascularity on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:Please indicate your answer by marking the circle in front of the appropriate choice.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7."
+            ]
+        ],
+        "sensitivities": [
+            0.41424678287970834
+        ],
+        "posix": 0.41424678287970834
+    }
+}

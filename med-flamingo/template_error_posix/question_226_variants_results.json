@@ -1,0 +1,42 @@
+{
+    "file_name": "question_226_variants.json",
+    "overall_posix": 0.3640773623590105,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3058252427184466,
+            "Variation 2": 0.16022099447513816,
+            "Variation 3": 0.48913043478260865,
+            "Variation 4": 0.4872727272727273,
+            "Variation 5": 0.28645833333333326,
+            "Variation 6": 0.15083798882681565,
+            "Variation 7": 0.5123674911660777,
+            "Variation 8": 0.4669260700389105,
+            "Variation 9": 0.3222748815165877,
+            "Variation 10": 0.45945945945945943
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::: Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q:Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> QUESTION:Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n The chest X-ray shows a right-sided pleural effusion.\n 10.\n QUESTION:What is the most likely diagnosis?",
+                "<s> QUESTION\tDoes the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a right-sided pleural effusion. The right lung is hyperlucent and the left lung is hyperlucent.",
+                "<s> Question:Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Q:Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> Question:Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:The radiograph shows a right-sided pleural effusion.\n 1.The pleural effusion is caused by:\n A.Pneumonia\n B.Pulmonary embolism\n",
+                "<s> Q:Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n Q:Does the chest X-ray show signs of pneumothorax? Please choose from the following two options: [yes, no]||A:",
+                "<s> q::Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q::Does the chest X-ray show signs of pleural effusion? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is the heart size normal?\n A::\n B::\n Q::Is the cardiac silhouette normal?\n A::\n B::\n Q::Is the cardiac size normal?\n A::\n B"
+            ]
+        ],
+        "sensitivities": [
+            0.3640773623590105
+        ],
+        "posix": 0.3640773623590105
+    }
+}

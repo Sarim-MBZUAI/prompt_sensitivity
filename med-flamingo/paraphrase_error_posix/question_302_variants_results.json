@@ -1,0 +1,42 @@
+{
+    "file_name": "question_302_variants.json",
+    "overall_posix": 0.3357941081844142,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.21243523316062174,
+            "Variation 2": 0.0,
+            "Variation 3": 0.33333333333333326,
+            "Variation 4": 0.4444444444444444,
+            "Variation 5": 0.21739130434782605,
+            "Variation 6": 0.4482758620689655,
+            "Variation 7": 0.4208333333333334,
+            "Variation 8": 0.5689655172413793,
+            "Variation 9": 0.41409691629955947,
+            "Variation 10": 0.2981651376146789
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there cardiomegaly (heart enlargement) evident on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the patient have an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the cardiac silhouette appear enlarged compared to the patient's frame size on this X-ray? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is there an abnormal increase in the heart's transverse diameter visible on this chest radiograph? Please choose from the following two options: [yes, no]\n<image> 11.10a\n 11.10b\n 11.10c\n 11.10d\n 11.10e\n 11.10f\n 1",
+                "<s> Can you identify cardiac enlargement (cardiomegaly) on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the cardiac silhouette abnormally large in comparison to the patient's chest circumference on this X-ray image? Please choose from the following two options: [yes, no]\n<image> 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 23\n 24\n 2",
+                "<s> Does the heart appear enlarged and occupying more space than normal within the thoracic cavity as seen on this radiograph? Please choose from the following two options: [yes, no]\n<image> 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n",
+                "<s> Is there clear evidence of cardiac hypertrophy (enlargement) visible in this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.2.10  Answer\n 11.2.10.1  Yes\n The cardiac silhouette is enlarged, and the right ventricle is clearly visible. The right ventricle",
+                "<s> Does the patient's heart appear dilated and expanded beyond its normal boundaries on this radiographic image? Please choose from the following two options: [yes, no]\n<image> 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n 21.\n 22.\n 23.\n 24.\n",
+                "<s> Can you confirm whether there is excessive cardiac enlargement (cardiomegaly) as seen on this X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.3357941081844142
+        ],
+        "posix": 0.3357941081844142
+    }
+}

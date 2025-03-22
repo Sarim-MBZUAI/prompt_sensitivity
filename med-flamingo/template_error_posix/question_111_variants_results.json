@@ -1,0 +1,42 @@
+{
+    "file_name": "question_111_variants.json",
+    "overall_posix": 0.3467393614352191,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5211726384364821,
+            "Variation 2": 0.24019607843137258,
+            "Variation 3": 0.19791666666666663,
+            "Variation 4": 0.30493273542600896,
+            "Variation 5": 0.25943396226415094,
+            "Variation 6": 0.5196078431372549,
+            "Variation 7": 0.46953405017921146,
+            "Variation 8": 0.30493273542600896,
+            "Variation 9": 0.5083056478405316,
+            "Variation 10": 0.1413612565445026
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The chest X-ray image shows an enlarged pulmonary vascularity. The pulmonary vascularity is increased, and the pulmonary ar",
+                "<s> q:Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Q:Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 0:\n 1:\n 2:\n 3:\n 4:\n 5:\n 6:\n 7",
+                "<s> q::Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> question::Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n1answer::\n no\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 2",
+                "<s> Question:Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n\n 10.Question:Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\n Answer:\n [",
+                "<s> QUESTION:Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\nA:\n<image> B:\nANSWER:\n B\n 10.\n A 25-year-old man with a history of cocaine abuse presents to the emergency department with fever, chills, and a 2",
+                "<s> Q::Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> QUESTION:Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n\n 10.\n QUESTION:Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\n Answer:",
+                "<s> Q:Is the pulmonary vascularity increased on the chest X-ray image? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9."
+            ]
+        ],
+        "sensitivities": [
+            0.3467393614352191
+        ],
+        "posix": 0.3467393614352191
+    }
+}

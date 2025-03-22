@@ -1,0 +1,189 @@
+{
+    "file_name": "question_149_variants_results.json",
+    "overall_posix": 0.9807854913629535,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.7207430145211157,
+            "Variation 2": 0.0,
+            "Variation 3": 1.1300551785659374,
+            "Variation 4": 1.0248695911615187,
+            "Variation 5": 1.6014925700920508,
+            "Variation 6": 1.1535895003362222,
+            "Variation 7": 1.6775346818031462,
+            "Variation 8": 0.937708052106606,
+            "Variation 9": 1.2550824898800985,
+            "Variation 10": 0.876294871893168
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of focal consolidation? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray does not show any signs of focal consolidation. ",
+                "Yes, the chest X-ray shows an area of abnormal lung density, which is suggestive of focal consolidation. ",
+                "The chest x-ray does not show any signs of focal consolidation. ",
+                "Yes, the chest radiograph shows a localized region of increased opacification, which may indicate focal consolidation. ",
+                "Yes, the chest X-ray shows findings consistent with the presence of focal lung consolidation, which is an area of increased lung density. ",
+                "The radiographic image does not show any features suggestive of a localized lung lesion that may be associated with focal consolidation. ",
+                "The chest x-ray does not show any radiologic evidence of focal inflammation or infection in the lungs. ",
+                "The chest film does not show any indication of a discrete region of lung consolidation that may be indicative of an infectious or inflammatory process. ",
+                "The chest x-ray does not show any radiographic findings compatible with focal pneumonia or consolidation in the lungs. ",
+                "Yes, the chest X-ray suggests that there is an area of localized lung abnormality that may be due to focal consolidation or another condition. ",
+                "The chest x-ray does not show any characteristics that would suggest the presence of focal consolidation in the lungs. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -41.0135328989586,
+                    -61.915080320070956,
+                    -41.0135328989586,
+                    -72.65507789880485,
+                    -73.8093598161272,
+                    -90.65980257181218,
+                    -73.31403890837282,
+                    -99.72724676206872,
+                    -68.20706641005017,
+                    -86.19650253464215,
+                    -64.67349444007414
+                ],
+                [
+                    -47.49781588197948,
+                    -44.40610605160634,
+                    -47.49781588197948,
+                    -72.82219039821302,
+                    -67.5673630851361,
+                    -89.06071664590854,
+                    -72.06088798213023,
+                    -96.72062873569303,
+                    -69.05275902656285,
+                    -80.29427365725314,
+                    -62.163128890719236
+                ],
+                [
+                    -41.0135328989586,
+                    -61.915080320070956,
+                    -41.0135328989586,
+                    -72.65507789880485,
+                    -73.8093598161272,
+                    -90.65980257181218,
+                    -73.31403890837282,
+                    -99.72724676206872,
+                    -68.20706641005017,
+                    -86.19650253464215,
+                    -64.67349444007414
+                ],
+                [
+                    -51.19204684352735,
+                    -66.91341006882612,
+                    -51.19204684352735,
+                    -42.23436978226232,
+                    -80.38814119776362,
+                    -82.56241193571623,
+                    -75.44092298287433,
+                    -93.70336709517687,
+                    -72.44532843856723,
+                    -87.00733557590775,
+                    -67.43939168061479
+                ],
+                [
+                    -54.35739311682846,
+                    -64.23554006664017,
+                    -54.35739311682846,
+                    -81.6949982350693,
+                    -44.70956764707489,
+                    -93.90364635003789,
+                    -74.15314349691471,
+                    -99.97504022384146,
+                    -71.64442046180193,
+                    -86.2889792466558,
+                    -67.66351377467436
+                ],
+                [
+                    -52.39045947193517,
+                    -64.9887013232501,
+                    -52.39045947193517,
+                    -69.58327301341797,
+                    -75.84246144560166,
+                    -43.07552162787857,
+                    -76.45797973012668,
+                    -94.94007159861394,
+                    -71.48231117276009,
+                    -81.3878364113807,
+                    -64.85641069778649
+                ],
+                [
+                    -53.66224100488398,
+                    -68.63219707694952,
+                    -53.66224100488398,
+                    -83.9955569459853,
+                    -75.52193770567646,
+                    -96.68863631316344,
+                    -43.4933220367202,
+                    -98.21108303912843,
+                    -65.00870301555915,
+                    -85.947037745731,
+                    -65.6867580195285
+                ],
+                [
+                    -55.98171063515474,
+                    -74.22061526494508,
+                    -55.98171063515474,
+                    -79.51316745020449,
+                    -81.26140503574425,
+                    -90.91085947737884,
+                    -71.32553192874184,
+                    -42.79606548810645,
+                    -74.30838985272567,
+                    -95.84595598430678,
+                    -70.63451719965087
+                ],
+                [
+                    -52.26672310055437,
+                    -65.65424789211283,
+                    -52.26672310055437,
+                    -82.4091596938215,
+                    -72.91825594292641,
+                    -92.07469230446804,
+                    -72.7235123981045,
+                    -103.97120215993755,
+                    -43.11499191425992,
+                    -89.51297065744257,
+                    -66.23353179089281
+                ],
+                [
+                    -50.85276802700173,
+                    -59.51020625291733,
+                    -50.85276802700173,
+                    -75.42535051827076,
+                    -75.65142366131022,
+                    -82.76937279204867,
+                    -75.27154616257758,
+                    -97.9953559293267,
+                    -73.8087792753904,
+                    -45.32750298143941,
+                    -67.08780166230281
+                ],
+                [
+                    -46.2851896701377,
+                    -62.245940872971005,
+                    -46.2851896701377,
+                    -77.28391440200585,
+                    -73.09472088649363,
+                    -77.79805805640717,
+                    -72.0697561101988,
+                    -100.21997940515166,
+                    -63.608844880523975,
+                    -87.4017125827404,
+                    -44.757469930027355
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.9807854913629535
+        ],
+        "posix": 0.9807854913629535
+    }
+}

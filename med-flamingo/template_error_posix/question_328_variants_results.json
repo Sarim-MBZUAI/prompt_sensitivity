@@ -1,0 +1,42 @@
+{
+    "file_name": "question_328_variants.json",
+    "overall_posix": 0.4059317875444622,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4701986754966887,
+            "Variation 2": 0.459016393442623,
+            "Variation 3": 0.22499999999999998,
+            "Variation 4": 0.2211981566820277,
+            "Variation 5": 0.513677811550152,
+            "Variation 6": 0.45364238410596025,
+            "Variation 7": 0.4285714285714286,
+            "Variation 8": 0.5348837209302325,
+            "Variation 9": 0.431095406360424,
+            "Variation 10": 0.3220338983050848
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Are there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Q:What is the most likely diagnosis?\n A:Pneumocystis pneumonia\n Q:What is the most likely cause of the patient\u2019s symptoms?\n A:HIV infection\n 1",
+                "<s> QUESTION:Are there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n [No]\n The correct answer is [yes]. There is a left pneumothorax with a visible pleural line (arrow).\n 10.\n Q",
+                "<s> Q:Are there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n\nC:\n\nD:\n\nE:\n\nF:\n\nG:\n\nH:\n\nI:\n\nJ:\n\nK:\n\nL:\n\nM:\n\nN:",
+                "<s> q:Are there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n 16.2.10  Answer\n 16",
+                "<s> Q::Are there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Is there any evidence of atelectasis? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Is there any evidence of pleural effusion? Please choose from",
+                "<s> Question:Are there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no],Answer:\n<image> Yes\n Instructions:\u00a0The radiograph is of a 55-year-old man with a history of a cough. He has no other complaints.\n 1.The lungs are clear.\n 2.",
+                "<s> QUESTION:Are there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n The patient has a left pneumothorax.\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumothorax\n B.Pneumonia\n C.P",
+                "<s> Question:Are there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Model Answer:\n This is a frontal chest radiograph of a 55-year-old man with a history of chronic obstructive airways disease. There is a large area of consolidation in the right",
+                "<s> Q:Are there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Figure 10.1\n 10.1A 10-year-old boy was brought to the emergency department with a 2-day history of fever, sore throat, and cough",
+                "<s> QUESTION\tAre there any signs of infection or consolidation in the lungs on the image? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 15.1\t\u2022\tPulmonary\tinfections\t(Fig.\t15.1)\n 15.1.1\t\tPneumonia\n 15."
+            ]
+        ],
+        "sensitivities": [
+            0.4059317875444622
+        ],
+        "posix": 0.4059317875444622
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_70_variants.json",
+    "overall_posix": 0.45427279218518646,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.572992700729927,
+            "Variation 2": 0.37623762376237624,
+            "Variation 3": 0.46116504854368934,
+            "Variation 4": 0.5824561403508772,
+            "Variation 5": 0.2590673575129534,
+            "Variation 6": 0.46153846153846156,
+            "Variation 7": 0.44493392070484583,
+            "Variation 8": 0.4915254237288136,
+            "Variation 9": 0.5233333333333333,
+            "Variation 10": 0.3694779116465863
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any masses or nodules present in the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> What pulmonary abnormalities are identified on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> A. \u2191 Right heart border\n B. \u2191 Left heart border\n C. \u2191 Pulmonary vascular markings\n D. \u2191 Pulmonary vascular markings and pleural effusion\n E. ",
+                "<s> Are there any parenchymal lesions visible in the thoracic cavity on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n 22\n 2",
+                "<s> Does this image reveal any soft tissue masses within the mediastinum or lung parenchyma? Please choose from the following two options: [yes, no]\n<image> 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Is there evidence of a solitary pulmonary nodule (SPN) on this chest film? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a 1.5 cm nodule in the right upper lobe.\n b. No, there is no SPN on this film.\n 2.\n Is there evidence of a solitary pulmonary",
+                "<s> Please confirm if you see any nodular or mass-like densities in the thorax. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any focal opacities present in the lung fields on this radiograph that suggest the presence of a neoplasm? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Does this image demonstrate any pulmonary lesions, masses, or nodules that could be indicative of malignancy? Please choose from the following two options: [yes, no]\n<image> 2\n 3\n 4\n 5\n 6\n 7\n 8\n 9\n 10\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n ",
+                "<s> Is there a visible mass lesion within the chest cavity on this X-ray that could be suggestive of a pathologic process? Please choose from the following two options: [yes, no]\n<image> 11.10.1\n 11.10.2\n 11.10.3\n 11.10.4\n 11.10.5\n 11.1",
+                "<s> Are there any discrete, well-defined masses or nodules present in the lung parenchyma on this radiograph? Please choose from the following two options: [yes, no]\n<image> 11.What is the most likely diagnosis?\n A.Pulmonary metastasis\n B.Pulmonary infarct\n C.Pulmonary abscess\n D.Pulmonary granuloma",
+                "<s> Please confirm if you identify any abnormalities suggestive of a pulmonary nodule or mass within the thoracic cavity on this image. Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.45427279218518646
+        ],
+        "posix": 0.45427279218518646
+    }
+}

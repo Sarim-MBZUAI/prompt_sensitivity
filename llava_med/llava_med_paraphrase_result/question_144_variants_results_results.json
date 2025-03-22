@@ -1,0 +1,189 @@
+{
+    "file_name": "question_144_variants_results.json",
+    "overall_posix": 1.0026059117487587,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.49319938160036997,
+            "Variation 2": 0.0,
+            "Variation 3": 1.0032970708253732,
+            "Variation 4": 1.1673050385203352,
+            "Variation 5": 1.014683775972617,
+            "Variation 6": 1.2602029024935768,
+            "Variation 7": 1.365099718100295,
+            "Variation 8": 0.7471972762925407,
+            "Variation 9": 1.327643774399524,
+            "Variation 10": 1.010748984545667
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the chest X-ray suggestive of any congestion in the pulmonary vasculature? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest X-ray does not show any congestion in the pulmonary vasculature. ",
+                "The chest x-ray does not show any evidence of increased pulmonary vascular markings suggesting congestion. ",
+                "The chest X-ray does not show any congestion in the pulmonary vasculature. ",
+                "The chest radiograph does not show signs suggestive of pulmonary venous hypertension, such as Kerley B lines or cardiomegaly. ",
+                "The chest X-ray does not show any findings that would be indicative of fluid overload or increased pulmonary blood volume, consistent with congestive heart failure. ",
+                "Yes, the chest radiograph suggests that there is an abnormality in the distribution and density of pulmonary vascular markings, which could be indicative of congestion. ",
+                "The chest x-ray does not show signs of increased interstitial fluid or edema within the lungs. ",
+                "The chest radiograph does not show any appearance consistent with fluid overload in the pulmonary vasculature, such as perihilar haze or alveolar consolidation. ",
+                "The chest X-ray does not show any evidence of increased pulmonary vascular markings due to congestion or fluid overload. ",
+                "Yes, the chest radiograph suggests the presence of cardiomegaly and Kerley B lines, which may indicate possible congestive heart failure. ",
+                "Yes, the pulmonary vascular markings on the chest X-ray are suggestive of increased blood volume or fluid overload, which is consistent with congestive heart failure. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -43.174964116330045,
+                    -56.491347419540034,
+                    -43.174964116330045,
+                    -79.29365866604348,
+                    -87.53255558010278,
+                    -84.77699893120734,
+                    -75.94023958116304,
+                    -97.77895284034184,
+                    -67.08527695769135,
+                    -88.31485244591386,
+                    -84.6156724827024
+                ],
+                [
+                    -53.88035056748595,
+                    -43.33655737594222,
+                    -53.88035056748595,
+                    -79.61313469047673,
+                    -89.27368309950498,
+                    -81.026656415047,
+                    -76.07583342346334,
+                    -102.75171465205494,
+                    -61.271006662131754,
+                    -86.50702360774812,
+                    -76.986471967748
+                ],
+                [
+                    -43.174964116330045,
+                    -56.491347419540034,
+                    -43.174964116330045,
+                    -79.29365866604348,
+                    -87.53255558010278,
+                    -84.77699893120734,
+                    -75.94023958116304,
+                    -97.77895284034184,
+                    -67.08527695769135,
+                    -88.31485244591386,
+                    -84.6156724827024
+                ],
+                [
+                    -68.44958774009137,
+                    -73.8794108793636,
+                    -68.44958774009137,
+                    -42.19828236635709,
+                    -100.95946172256026,
+                    -87.63216717882278,
+                    -83.27282090297376,
+                    -102.88776848784619,
+                    -79.22485250906266,
+                    -71.78562815165287,
+                    -89.67177265015198
+                ],
+                [
+                    -62.35779418658058,
+                    -67.4834338803646,
+                    -62.35779418658058,
+                    -81.02396555718587,
+                    -46.30567549429179,
+                    -93.1005956910085,
+                    -76.02701146484833,
+                    -96.79296128786518,
+                    -66.95488665222501,
+                    -83.06249168778413,
+                    -67.50573421342415
+                ],
+                [
+                    -59.45276280453254,
+                    -62.447613201893546,
+                    -59.45276280453254,
+                    -76.11100842813539,
+                    -94.427260621821,
+                    -44.8009406656341,
+                    -80.62115054643073,
+                    -97.62773973571893,
+                    -72.7196555103219,
+                    -79.98131334982827,
+                    -86.44506816583544
+                ],
+                [
+                    -62.790613203565954,
+                    -65.53581143353767,
+                    -62.790613203565954,
+                    -84.10025818845315,
+                    -83.51685387119505,
+                    -90.85653827639908,
+                    -43.3444051107391,
+                    -104.79578206906444,
+                    -71.4263008206799,
+                    -82.45384747626849,
+                    -81.55101065657345
+                ],
+                [
+                    -60.894890977559044,
+                    -70.81742741891321,
+                    -60.894890977559044,
+                    -75.0923200891848,
+                    -84.40335054571278,
+                    -87.80731500748334,
+                    -76.96526714377978,
+                    -43.65178707563717,
+                    -71.84928083747945,
+                    -84.67008636925857,
+                    -81.4030281307023
+                ],
+                [
+                    -58.178846063660785,
+                    -54.71840189160454,
+                    -58.178846063660785,
+                    -88.58759978675153,
+                    -86.5341224102811,
+                    -88.57132867538348,
+                    -77.06666988708457,
+                    -101.04475976971298,
+                    -42.20401016424943,
+                    -92.04232454148587,
+                    -76.61878525066822
+                ],
+                [
+                    -63.65117603039835,
+                    -67.98435510120544,
+                    -63.65117603039835,
+                    -65.66684145060708,
+                    -88.35747462709514,
+                    -82.0229389375454,
+                    -78.62327217803977,
+                    -98.74159222984599,
+                    -74.64999247891683,
+                    -42.32310117534797,
+                    -83.06546381887892
+                ],
+                [
+                    -60.638425564855424,
+                    -65.71025759303802,
+                    -60.638425564855424,
+                    -84.01582343747941,
+                    -71.57683519174998,
+                    -93.78506225484989,
+                    -77.76193553654593,
+                    -100.61938277334411,
+                    -66.471660153411,
+                    -89.00036832661317,
+                    -42.872696907804425
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            1.0026059117487587
+        ],
+        "posix": 1.0026059117487587
+    }
+}

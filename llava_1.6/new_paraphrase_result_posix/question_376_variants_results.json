@@ -1,0 +1,189 @@
+{
+    "file_name": "question_376_variants.json",
+    "overall_posix": 4.404953635629169,
+    "detailed_scores": [
+        {
+            "Variation 1": 5.4197529745101924,
+            "Variation 2": 0.1920135902321857,
+            "Variation 3": 1.6337476869424183,
+            "Variation 4": 4.649606068929036,
+            "Variation 5": 5.847040672302246,
+            "Variation 6": 2.169275999069214,
+            "Variation 7": 5.2812007448889995,
+            "Variation 8": 3.053058297403397,
+            "Variation 9": 5.713408517837524,
+            "Variation 10": 5.761936559677124
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of a pneumothorax in the X-ray image? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no evidence of a pneumothorax in the X-ray image.",
+                "No, the X-ray does not show the presence of air in the pleural space surrounding the lung. The image appears to be a lateral chest X-ray, and there is no visible air collection or pneumothorax. The",
+                "Yes, there is evidence of pneumothorax visible on the provided chest X-ray image.",
+                "No, there is no free-air sign indicative of pneumothorax in this radiograph.",
+                "Yes, the X-ray demonstrates a separation of the visceral and parietal pleura due to air accumulation. This is commonly referred to as a pneumothorax.",
+                "Yes, the image suggests an abnormal collection of air outside the lung tissue itself. This is commonly referred to as a pneumothorax, which is a medical condition where air accumulates in the pleural space outside the lungs.",
+                "No, pneumoperitoneum (air within the pleural space) is not present on this chest X-ray.",
+                "No, I cannot confirm or deny the presence of pneumothorax based on the features visible in this radiograph. The image is too blurry and lacks clear details to make an accurate assessment.",
+                "No, there is no visible gap between the visceral and parietal pleura in this image, indicative of air accumulation.",
+                "Yes, the image shows evidence of an abnormal interface between lung tissue and the surrounding pleural space. There is a visible pleural effusion, which is a collection of fluid in the pleural space that separates the lungs from the chest wall",
+                "No, there is no indication of air accumulation outside the normal confines of the lung on this X-ray image. The image shows the chest area with the lungs visible, but there is no evidence of any abnormalities or foreign objects."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -208.56081175804138,
+                    -479.548460483551,
+                    -212.97712433338165,
+                    -247.77075624465942,
+                    -403.8442666530609,
+                    -500.9128453731537,
+                    -269.30053973197937,
+                    -440.93364453315735,
+                    -303.2056189775467,
+                    -494.2312376499176,
+                    -496.6576397418976
+                ],
+                [
+                    -213.60459995269775,
+                    -485.5021505355835,
+                    -224.88393783569336,
+                    -245.14406490325928,
+                    -405.8599901199341,
+                    -484.1289367675781,
+                    -268.1570210456848,
+                    -440.19267547130585,
+                    -318.79824608564377,
+                    -489.4765305519104,
+                    -471.3106074333191
+                ],
+                [
+                    -213.60459995269775,
+                    -485.5021505355835,
+                    -224.88393783569336,
+                    -245.14406490325928,
+                    -405.8599901199341,
+                    -484.1289367675781,
+                    -268.1570210456848,
+                    -440.19267547130585,
+                    -318.79824608564377,
+                    -489.4765305519104,
+                    -471.3106074333191
+                ],
+                [
+                    -205.88833022117615,
+                    -463.44144916534424,
+                    -219.20371079444885,
+                    -247.4008994102478,
+                    -423.61817145347595,
+                    -507.3583948612213,
+                    -262.89745342731476,
+                    -441.54031920433044,
+                    -330.73604345321655,
+                    -503.93830943107605,
+                    -498.36466217041016
+                ],
+                [
+                    -184.6998827457428,
+                    -433.1856219768524,
+                    -202.63251543045044,
+                    -229.52285718917847,
+                    -408.9766433238983,
+                    -479.0472501516342,
+                    -261.86864614486694,
+                    -424.84392499923706,
+                    -305.9826900959015,
+                    -482.25794434547424,
+                    -495.2892003059387
+                ],
+                [
+                    -194.52065110206604,
+                    -460.57270789146423,
+                    -218.0398805141449,
+                    -245.4131804704666,
+                    -408.7064034938812,
+                    -511.6594498157501,
+                    -255.9253906607628,
+                    -447.5113082230091,
+                    -336.3968963623047,
+                    -518.4878287315369,
+                    -511.62378191947937
+                ],
+                [
+                    -205.88833022117615,
+                    -463.44144916534424,
+                    -219.20371079444885,
+                    -247.4008994102478,
+                    -423.61817145347595,
+                    -507.3583948612213,
+                    -262.89745342731476,
+                    -441.54031920433044,
+                    -330.73604345321655,
+                    -503.93830943107605,
+                    -498.36466217041016
+                ],
+                [
+                    -205.88833022117615,
+                    -463.44144916534424,
+                    -219.20371079444885,
+                    -247.4008994102478,
+                    -423.61817145347595,
+                    -507.3583948612213,
+                    -262.89745342731476,
+                    -441.54031920433044,
+                    -330.73604345321655,
+                    -503.93830943107605,
+                    -498.36466217041016
+                ],
+                [
+                    -202.0555076599121,
+                    -455.8655574321747,
+                    -208.79008626937866,
+                    -237.5375304222107,
+                    -411.1420211791992,
+                    -488.58852910995483,
+                    -283.4792265892029,
+                    -443.4872908592224,
+                    -313.4560298919678,
+                    -502.0513184070587,
+                    -492.7447485923767
+                ],
+                [
+                    -207.54792523384094,
+                    -474.60397601127625,
+                    -222.59375375509262,
+                    -248.36797738075256,
+                    -408.1156402826309,
+                    -468.458379983902,
+                    -265.4099078178406,
+                    -445.0612666606903,
+                    -323.8385547399521,
+                    -526.2117664813995,
+                    -510.81002283096313
+                ],
+                [
+                    -205.88833022117615,
+                    -463.44144916534424,
+                    -219.20371079444885,
+                    -247.4008994102478,
+                    -423.61817145347595,
+                    -507.3583948612213,
+                    -262.89745342731476,
+                    -441.54031920433044,
+                    -330.73604345321655,
+                    -503.93830943107605,
+                    -498.36466217041016
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            4.404953635629169
+        ],
+        "posix": 4.404953635629169
+    }
+}

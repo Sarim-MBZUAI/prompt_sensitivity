@@ -1,0 +1,42 @@
+{
+    "file_name": "question_233_variants.json",
+    "overall_posix": 0.33364067122015495,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5034013605442177,
+            "Variation 2": 0.41004184100418417,
+            "Variation 3": 0.25380710659898476,
+            "Variation 4": 0.22959183673469385,
+            "Variation 5": 0.4649446494464944,
+            "Variation 6": 0.149171270718232,
+            "Variation 7": 0.2806122448979591,
+            "Variation 8": 0.43190661478599224,
+            "Variation 9": 0.3162790697674418,
+            "Variation 10": 0.2966507177033493
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION\tDoes the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a collapsed left lung. The left hemidiaphragm is lower than the right. The left lung is not visible. The right",
+                "<s> Question-Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2756\u2756What is the possible diagnosis?\n 1.Pneumothorax\n 2.Hemothorax\n 3.Pneumomediastinum\n 4.Pneum",
+                "<s> Q:Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n E:\n R:\n D:\n E:\n L:\n U:\n S:\n E:\n R:\n D:\n E:\n L:\n U:\n S:",
+                "<s> QUESTION:Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n 1.1\n 1.2\n 1.3\n 1.4\n 1.5\n 1.6\n 1.7\n 1.8\n 1.9",
+                "<s> question::Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The chest X-ray shows a collapsed left lung.\n B: The chest X-ray shows no signs of a collapsed lung.\n 10.2.10  Case 10:",
+                "<s> q:Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\na:\n<image> b:\n d:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.",
+                "<s> Question:Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Q:Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The chest X-ray shows a collapsed left lung.\n 11.\n Q:What is the most likely diagnosis?\n A:Pneumothorax\n 12.\n Q",
+                "<s> Q::Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> q:::Does the chest X-ray show any signs of a collapsed lung? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::"
+            ]
+        ],
+        "sensitivities": [
+            0.33364067122015495
+        ],
+        "posix": 0.33364067122015495
+    }
+}

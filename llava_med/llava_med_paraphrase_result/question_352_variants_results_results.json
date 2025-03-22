@@ -1,0 +1,189 @@
+{
+    "file_name": "question_352_variants_results.json",
+    "overall_posix": 0.9777285328109493,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5890668414900492,
+            "Variation 2": 1.1314823991843856,
+            "Variation 3": 0.9909766410508947,
+            "Variation 4": 0.5315012150742012,
+            "Variation 5": 0.6223256054741199,
+            "Variation 6": 1.5271119767456398,
+            "Variation 7": 1.1445640184677326,
+            "Variation 8": 0.8952962594757264,
+            "Variation 9": 1.2597661513813472,
+            "Variation 10": 0.9146662836788151
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of lung consolidation on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Yes, the chest X-ray shows evidence of lung consolidation. ",
+                "Yes, the chest X-ray shows opacity, which is indicative of lung consolidation. ",
+                "Yes, the radiographic findings show consolidation in the lung fields. ",
+                "Yes, the chest X-ray demonstrates a pattern consistent with alveolar filling, which is indicative of consolidation. ",
+                "Yes, the provided image shows signs of consolidation within the lungs. Consolidation refers to an area of the lung where the air spaces (alveoli) are filled with fluid, pus, or other cellular material, making the lung",
+                "Yes, lung consolidation can be identified by the presence of homogeneous opacification on a chest X-ray. Consolidation refers to the filling of the lung's air spaces with fluid, pus, or other material, which can",
+                "Yes, the radiograph shows increased opacity corresponding to lung consolidation. ",
+                "The chest x-ray does not show features suggestive of parenchymal disease leading to lung consolidation. ",
+                "Yes, the chest X-ray shows radiographic findings that indicate the presence of consolidation in the lungs. ",
+                "Yes, consolidation within the lung tissue can be visualized as a result of pulmonary pathology on the provided image. Consolidation refers to the process by which the lung tissue becomes filled with fluid, pus, or other cellular",
+                "Yes, the increased density and opacification seen on the chest X-ray are indicative of lung consolidation. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -40.44850667381161,
+                    -53.40797718659269,
+                    -59.68370745994616,
+                    -69.18682926428755,
+                    -67.55506864259587,
+                    -72.18711255299172,
+                    -66.40941027848748,
+                    -71.35173517244039,
+                    -62.83091316070477,
+                    -104.69658039426031,
+                    -65.14449633313961
+                ],
+                [
+                    -47.00230168010239,
+                    -42.32224989047427,
+                    -65.55614949821029,
+                    -67.82040915212929,
+                    -66.42001486557842,
+                    -71.54084116860565,
+                    -63.83537131984485,
+                    -73.60399999546644,
+                    -62.122825267360895,
+                    -108.01436538967573,
+                    -64.32163900029263
+                ],
+                [
+                    -49.87348426575045,
+                    -60.23954319868244,
+                    -41.32523802557262,
+                    -71.67466826281861,
+                    -68.56414706419741,
+                    -78.53126951434547,
+                    -70.64010012429208,
+                    -77.93108151295382,
+                    -58.304560380136536,
+                    -101.876596207484,
+                    -72.12984733360645
+                ],
+                [
+                    -54.836387226035185,
+                    -63.30861510140903,
+                    -65.25964920793194,
+                    -41.78402895099555,
+                    -73.62730080862048,
+                    -80.3034188026403,
+                    -73.22053110273555,
+                    -76.6514901792616,
+                    -64.73927039881255,
+                    -107.23317190623084,
+                    -75.48947750525531
+                ],
+                [
+                    -53.51557316081744,
+                    -63.36579037428805,
+                    -63.91378658794565,
+                    -73.02237245270499,
+                    -46.25869523808103,
+                    -83.35849435025693,
+                    -71.18683919124305,
+                    -79.70707408839371,
+                    -64.45185869409761,
+                    -91.42144843408187,
+                    -70.06502678196557
+                ],
+                [
+                    -62.17682255990621,
+                    -63.61952792809643,
+                    -74.517412699759,
+                    -78.81126964949453,
+                    -80.78191853422595,
+                    -45.94223011463725,
+                    -74.86738360172603,
+                    -85.20887076215149,
+                    -74.24100176754109,
+                    -106.85340878692568,
+                    -67.54202531126975
+                ],
+                [
+                    -53.86857959452027,
+                    -55.9050779989966,
+                    -62.671485767059494,
+                    -70.50281313705545,
+                    -67.13847862195894,
+                    -79.62342372509966,
+                    -42.418803670479974,
+                    -76.08873565172689,
+                    -65.59049685490027,
+                    -107.8289679758218,
+                    -67.78371066657564
+                ],
+                [
+                    -52.42193152100481,
+                    -59.69711304042494,
+                    -67.49051676382078,
+                    -71.95475858491864,
+                    -72.59230332766492,
+                    -78.4177071956019,
+                    -71.3726145454566,
+                    -41.9053786339681,
+                    -67.58717015477305,
+                    -104.51021750284372,
+                    -73.01488002391307
+                ],
+                [
+                    -49.38476391669974,
+                    -57.62936337319297,
+                    -50.45049116254086,
+                    -66.27508197690054,
+                    -60.801539913448664,
+                    -73.28145516517566,
+                    -66.9130859899451,
+                    -74.76189605015679,
+                    -42.49967033311441,
+                    -98.67730267456864,
+                    -69.7316555119105
+                ],
+                [
+                    -59.61006902551162,
+                    -69.78541808318005,
+                    -68.33733277546708,
+                    -77.92708244320784,
+                    -63.07385814545978,
+                    -73.18248334411373,
+                    -75.47023402585182,
+                    -80.502450157961,
+                    -73.20791578511125,
+                    -43.91557281236612,
+                    -77.57846825901652
+                ],
+                [
+                    -49.38894505782355,
+                    -57.829950677932175,
+                    -64.83827453677077,
+                    -73.59230550226539,
+                    -69.64820389179249,
+                    -70.60570188905967,
+                    -66.05836057796841,
+                    -76.95576740848628,
+                    -67.2054913331649,
+                    -101.1753551185293,
+                    -44.17724392235834
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.9777285328109493
+        ],
+        "posix": 0.9777285328109493
+    }
+}

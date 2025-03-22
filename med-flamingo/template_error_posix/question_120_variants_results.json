@@ -1,0 +1,42 @@
+{
+    "file_name": "question_120_variants.json",
+    "overall_posix": 0.35272081659312293,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.28054298642533937,
+            "Variation 2": 0.501577287066246,
+            "Variation 3": 0.29955947136563876,
+            "Variation 4": 0.46453900709219864,
+            "Variation 5": 0.13567839195979903,
+            "Variation 6": 0.23786407766990292,
+            "Variation 7": 0.5128205128205128,
+            "Variation 8": 0.2645739910313901,
+            "Variation 9": 0.28378378378378377,
+            "Variation 10": 0.5462686567164179
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> q:::Are there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> QUESTION\tAre there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a right upper lobe consolidation. The left lung is clear. The right heart border is clear. The left heart border is clear",
+                "<s> q::Are there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question-Are there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \u2756\u2756What is the differential diagnosis?\n \u2756\u2756What is the most likely diagnosis?\n \u2756\u2756What is the best way to confirm the diagnosis",
+                "<s> QUESTION:Are there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 1",
+                "<s> QUESTION:Are there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 100\n 10",
+                "<s> Question:Are there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correction: [yes, no]\n The correct response is [yes, no]. The chest X-ray shows a focal area of lung consolidation in the right upper lobe. This is",
+                "<s> Question::: Are there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Q::: Are there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Are there any focal areas of lung consolidation on this chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct Answer: Yes\n The patient has a left lower lobe consolidation. The left lower lobe consolidation is the most common site of lung infection in patients with pneumonia.\n Q:"
+            ]
+        ],
+        "sensitivities": [
+            0.35272081659312293
+        ],
+        "posix": 0.35272081659312293
+    }
+}

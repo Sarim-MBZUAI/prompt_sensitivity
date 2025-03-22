@@ -1,0 +1,189 @@
+{
+    "file_name": "question_191_variants_results.json",
+    "overall_posix": 0.7105109118184866,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.47418993801516585,
+            "Variation 2": 0.0,
+            "Variation 3": 0.7215942624578879,
+            "Variation 4": 0.5810248104187963,
+            "Variation 5": 1.0541145779234935,
+            "Variation 6": 0.870918883839227,
+            "Variation 7": 1.1221521230260614,
+            "Variation 8": 0.22977392347169093,
+            "Variation 9": 0.4807366925014458,
+            "Variation 10": 0.7966812115290156
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show a presence of pneumothorax on the right side? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest X-ray does not show a presence of pneumothorax on the right side. ",
+                "Yes, the chest X-ray shows evidence of a pneumothorax on the right hemithorax. ",
+                "The chest X-ray does not show a presence of pneumothorax on the right side. ",
+                "Yes, the radiograph demonstrates air in the pleural space on the right side, which is consistent with a pneumothorax. ",
+                "Yes, the chest X-ray shows a visible separation of the lung parenchyma from the chest wall on the right side, which is consistent with a pneumothorax. ",
+                "Yes, the chest radiograph shows increased lucency or clarity within the right hemithorax, which is suggestive of a pneumothorax. ",
+                "Yes, the chest X-ray shows the presence of air along the lung edge and separation from the chest wall, which is indicative of a pneumothorax on the right side. ",
+                "Yes, the radiographic image shows air in the pleural space extending to the periphery on the right side, which is characteristic of a pneumothorax. ",
+                "Yes, the chest X-ray shows a visible pneumothorax on the right side. ",
+                "Yes, the chest X-ray shows an increased distance between the lung edge and the chest wall on the right side, which is indicative of a pneumothorax. ",
+                "Yes, the chest X-ray shows evidence of air in the pleural space along the lung edge on the right side, which is consistent with a pneumothorax. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -42.768493961038416,
+                    -55.571622287447894,
+                    -42.768493961038416,
+                    -65.85951035969083,
+                    -67.17153599862786,
+                    -79.66250418836069,
+                    -79.34708708228595,
+                    -84.28812251300269,
+                    -48.05329420088731,
+                    -61.5172249685948,
+                    -73.83906121067002
+                ],
+                [
+                    -61.399567295373345,
+                    -41.33713922431059,
+                    -61.399567295373345,
+                    -67.09251206917548,
+                    -69.71501858866355,
+                    -76.56828236639177,
+                    -81.28763817292804,
+                    -86.06980877950298,
+                    -53.139156923321764,
+                    -63.769279151461404,
+                    -72.22519934639428
+                ],
+                [
+                    -42.768493961038416,
+                    -55.571622287447894,
+                    -42.768493961038416,
+                    -65.85951035969083,
+                    -67.17153599862786,
+                    -79.66250418836069,
+                    -79.34708708228595,
+                    -84.28812251300269,
+                    -48.05329420088731,
+                    -61.5172249685948,
+                    -73.83906121067002
+                ],
+                [
+                    -61.5614821624888,
+                    -58.206548335034654,
+                    -61.5614821624888,
+                    -44.41011762088553,
+                    -68.3879405014145,
+                    -72.70501248764072,
+                    -79.98166599795104,
+                    -73.20617868311638,
+                    -54.17729682175138,
+                    -64.64542964297488,
+                    -68.10580821931637
+                ],
+                [
+                    -61.69116165536252,
+                    -57.27814992324147,
+                    -61.69116165536252,
+                    -63.64591837548397,
+                    -41.972484101392354,
+                    -80.65937220892988,
+                    -72.09680001318094,
+                    -83.29570249320966,
+                    -51.05689033724411,
+                    -63.48090792996615,
+                    -68.85439212923188
+                ],
+                [
+                    -69.65072094557354,
+                    -63.18725432000747,
+                    -69.65072094557354,
+                    -69.4666338733291,
+                    -76.56021210933193,
+                    -42.89816322490398,
+                    -93.13667700229178,
+                    -90.71438257468719,
+                    -62.31461083267823,
+                    -71.53025902519096,
+                    -82.56096260952506
+                ],
+                [
+                    -59.47420333552691,
+                    -55.64378481131368,
+                    -59.47420333552691,
+                    -65.67286273797978,
+                    -63.76992009011053,
+                    -81.5718903520372,
+                    -45.5302120571603,
+                    -82.62801082236172,
+                    -49.95440894609453,
+                    -58.69008624012801,
+                    -57.43420808954167
+                ],
+                [
+                    -65.44887543757159,
+                    -60.24515146420663,
+                    -65.44887543757159,
+                    -56.644923260171595,
+                    -69.61504377263805,
+                    -77.0356722700235,
+                    -83.40860151103323,
+                    -42.55800166517594,
+                    -56.169018667923865,
+                    -66.61777978690793,
+                    -68.38170429622278
+                ],
+                [
+                    -56.85332327435344,
+                    -54.055273859329304,
+                    -56.85332327435344,
+                    -67.37988773579173,
+                    -64.58290949775846,
+                    -60.218569468672854,
+                    -78.69094133231306,
+                    -82.93613327415096,
+                    -44.187903872256015,
+                    -63.77733418441733,
+                    -74.35716317307049
+                ],
+                [
+                    -61.53329692102352,
+                    -58.60989385583014,
+                    -61.53329692102352,
+                    -69.39703336761431,
+                    -64.68298152766488,
+                    -78.47672851373522,
+                    -72.53169937184941,
+                    -87.43892408541478,
+                    -53.96550278745917,
+                    -43.45198683975792,
+                    -67.54046707470309
+                ],
+                [
+                    -64.03161178041864,
+                    -58.90123905092014,
+                    -64.03161178041864,
+                    -59.27485024275188,
+                    -63.975448736473936,
+                    -82.1543062795306,
+                    -71.01935972092656,
+                    -77.91974487903622,
+                    -53.33075373242889,
+                    -60.36598548845379,
+                    -42.5449086860377
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.7105109118184866
+        ],
+        "posix": 0.7105109118184866
+    }
+}

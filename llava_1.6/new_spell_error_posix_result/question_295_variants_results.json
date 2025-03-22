@@ -1,0 +1,189 @@
+{
+    "file_name": "question_295_variants.json",
+    "overall_posix": 5.140591056014606,
+    "detailed_scores": [
+        {
+            "Variation 1": 5.859847110509873,
+            "Variation 2": 4.750416789736066,
+            "Variation 3": 6.273626428842545,
+            "Variation 4": 3.328502342700958,
+            "Variation 5": 4.0000465297698975,
+            "Variation 6": 6.368841940164566,
+            "Variation 7": 3.422671573162079,
+            "Variation 8": 0.0,
+            "Variation 9": 6.273626428842545,
+            "Variation 10": 2.8954996373918322
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient demonstrate cardiomegaly on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the patient does not demonstrate cardiomegaly on the chest X-ray. The heart shadow appears to be within normal limits.",
+                "Yes, the patient demonstrates cardiomegaly on the chest X-ray.",
+                "No, the patient does not demonstrate cardiomegaly on the chest X-ray.",
+                "Yes, the patient in the chest X-ray demonstrates cardiomegaly.",
+                "The image you've provided appears to be an X-ray of the chest, but it's not clear enough to make a definitive assessment of whether the patient demonstrates cardiomegaly. Cardiomegaly is typically characterized",
+                "Based on the image provided, the patient does not demonstrate cardiomegaly on the chest X-ray. The heart shadow appears to be within normal limits, and there are no signs of cardiomegaly such as enlargement or",
+                "Yes, the patient in the chest X-ray demonstrates cardiomegalu.",
+                "No, the image you've provided does not show cardiomegaly on the chest X-ray. Cardiomegaly refers to an abnormal heart shape or position, which is not visible in this X-ray. The X",
+                "No, the patient does not demonstrate cardiomegaly on the chest X-ray. The heart shadow appears to be within normal limits.",
+                "Yes, the patient in the chest X-ray demonstrates cardiomegaly.",
+                "No, the patient does not demonstrate cardiomegaly on the chest X-ray. Cardiomegaly is typically characterized by an enlarged heart shadow, which is not present in this image."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -281.5974692106247,
+                    -164.40052700042725,
+                    -181.8387166261673,
+                    -156.1249406337738,
+                    -448.0225863456726,
+                    -481.59979569911957,
+                    -154.22063040733337,
+                    -452.73104786872864,
+                    -281.5974692106247,
+                    -156.1249406337738,
+                    -411.89495289325714
+                ],
+                [
+                    -291.78042554855347,
+                    -179.15167951583862,
+                    -197.14162731170654,
+                    -175.78001737594604,
+                    -477.4201581478119,
+                    -487.1507225036621,
+                    -176.75532579421997,
+                    -457.4257001876831,
+                    -291.78042554855347,
+                    -175.78001737594604,
+                    -439.45136046409607
+                ],
+                [
+                    -291.78042554855347,
+                    -179.15167951583862,
+                    -197.14162731170654,
+                    -175.78001737594604,
+                    -477.4201581478119,
+                    -487.1507225036621,
+                    -176.75532579421997,
+                    -457.4257001876831,
+                    -291.78042554855347,
+                    -175.78001737594604,
+                    -439.45136046409607
+                ],
+                [
+                    -287.931205034256,
+                    -180.80729866027832,
+                    -183.4689826965332,
+                    -184.68206071853638,
+                    -470.60244584083557,
+                    -487.42618787288666,
+                    -183.01768970489502,
+                    -461.3866614103317,
+                    -287.931205034256,
+                    -184.68206071853638,
+                    -412.9181411266327
+                ],
+                [
+                    -291.78042554855347,
+                    -179.15167951583862,
+                    -197.14162731170654,
+                    -175.78001737594604,
+                    -477.4201581478119,
+                    -487.1507225036621,
+                    -176.75532579421997,
+                    -457.4257001876831,
+                    -291.78042554855347,
+                    -175.78001737594604,
+                    -439.45136046409607
+                ],
+                [
+                    -290.16198921203613,
+                    -192.08311367034912,
+                    -184.8299913406372,
+                    -186.79464864730835,
+                    -488.9815101623535,
+                    -477.948205947876,
+                    -185.24541854858398,
+                    -451.591579914093,
+                    -290.16198921203613,
+                    -186.79464864730835,
+                    -405.4939224720001
+                ],
+                [
+                    -291.78042554855347,
+                    -179.15167951583862,
+                    -197.14162731170654,
+                    -175.78001737594604,
+                    -477.4201581478119,
+                    -487.1507225036621,
+                    -176.75532579421997,
+                    -457.4257001876831,
+                    -291.78042554855347,
+                    -175.78001737594604,
+                    -439.45136046409607
+                ],
+                [
+                    -291.78042554855347,
+                    -179.15167951583862,
+                    -197.14162731170654,
+                    -175.78001737594604,
+                    -477.4201581478119,
+                    -487.1507225036621,
+                    -176.75532579421997,
+                    -457.4257001876831,
+                    -291.78042554855347,
+                    -175.78001737594604,
+                    -439.45136046409607
+                ],
+                [
+                    -285.4324679374695,
+                    -181.30399096012115,
+                    -183.35150718688965,
+                    -168.08037281036377,
+                    -452.42826998233795,
+                    -483.97803473472595,
+                    -167.40854263305664,
+                    -464.82650542259216,
+                    -285.4324679374695,
+                    -168.08037281036377,
+                    -416.35237741470337
+                ],
+                [
+                    -285.4324679374695,
+                    -181.30399096012115,
+                    -183.35150718688965,
+                    -168.08037281036377,
+                    -452.42826998233795,
+                    -483.97803473472595,
+                    -167.40854263305664,
+                    -464.82650542259216,
+                    -285.4324679374695,
+                    -168.08037281036377,
+                    -416.35237741470337
+                ],
+                [
+                    -287.931205034256,
+                    -180.80729866027832,
+                    -183.4689826965332,
+                    -184.68206071853638,
+                    -470.60244584083557,
+                    -487.42618787288666,
+                    -183.01768970489502,
+                    -461.3866614103317,
+                    -287.931205034256,
+                    -184.68206071853638,
+                    -412.9181411266327
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            5.140591056014606
+        ],
+        "posix": 5.140591056014606
+    }
+}

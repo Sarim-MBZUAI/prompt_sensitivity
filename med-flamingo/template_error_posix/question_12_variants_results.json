@@ -1,0 +1,42 @@
+{
+    "file_name": "question_12_variants.json",
+    "overall_posix": 0.43637398591097715,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4982078853046594,
+            "Variation 2": 0.4516129032258065,
+            "Variation 3": 0.4702194357366771,
+            "Variation 4": 0.4946236559139785,
+            "Variation 5": 0.4946236559139785,
+            "Variation 6": 0.4516129032258065,
+            "Variation 7": 0.42452830188679247,
+            "Variation 8": 0.4192439862542956,
+            "Variation 9": 0.42258064516129035,
+            "Variation 10": 0.2364864864864865
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> a. Yes, there is a right pleural effusion.\n b. No, there is no pleural effusion.\n 4.\n What is the most likely diagnosis?\n a. Pneumonia\n b. Tuber",
+                "<s> question::Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> q::Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n Model Answer:\n This is a frontal chest radiograph of a 55-year-old man with a history of a recent right-sided pleural effusion. There is a right-sided pleural eff",
+                "<s> QUESTION:Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> QUESTION\tAre there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> Question:Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, no]\n [no, yes]\n [no, yes]\n [yes, no]\n [yes, no]\n [no, yes]\n [yes, no]\n [yes",
+                "<s> QUESTION:Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Explanation:\n The patient has a right-sided pleural effusion. The right hemidiaphragm is lower than the left, and the right costophrenic angle is blunted.\n",
+                "<s> Question::: Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: No\n Option 2: Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Pneumothorax\n B. Pleural effusion\n C. Pulmonary ed",
+                "<s> QUESTION:Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n   Answer: B\n \u2022Option A: There are no signs of pleural effusion in this patient's chest X-ray.\n \u2022Option B: There are signs of pleural effusion in this patient's",
+                "<s> question:Are there signs of pleural effusion in this patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n A.Yes, there is a right pleural effusion.\n B.No, there is no pleural effusion.\n C.Yes, there is a left pleural effusion.\n D.No, there is no ple"
+            ]
+        ],
+        "sensitivities": [
+            0.43637398591097715
+        ],
+        "posix": 0.43637398591097715
+    }
+}

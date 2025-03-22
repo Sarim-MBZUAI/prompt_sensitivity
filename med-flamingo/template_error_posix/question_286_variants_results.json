@@ -1,0 +1,42 @@
+{
+    "file_name": "question_286_variants.json",
+    "overall_posix": 0.3750213862698032,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4227642276422765,
+            "Variation 2": 0.2850678733031674,
+            "Variation 3": 0.4172932330827068,
+            "Variation 4": 0.24038461538461542,
+            "Variation 5": 0.24637681159420288,
+            "Variation 6": 0.32352941176470584,
+            "Variation 7": 0.4061302681992337,
+            "Variation 8": 0.5096153846153846,
+            "Variation 9": 0.46621621621621623,
+            "Variation 10": 0.4328358208955223
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n \u2022\t\tThe\tchest\tX-ray\tshows\tcardiomegaly\tand\ta\tcardiothoracic\tratio\tof\t50%.\n \u2022\t\tThe\tchest\t",
+                "<s> Q::: Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> [yes, no]\n 10.\n QUESTION:What is the most likely diagnosis?\n A.Pneumonia\n B.Pneumothorax\n C.Pneumomediastinum\n D.",
+                "<s> Q:Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n T:\n E:\n R:\n D:\n E:\n F:\n I:\n L:\n U:\n S:\n E:\n R:\n D:\n E:\n F:",
+                "<s> question::Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n 100\n 101\n 102\n 103\n 104\n 105\n 106\n 107\n 108\n 10",
+                "<s> Question-Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n \ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd",
+                "<s> QUESTION:Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Aortic dissection\n B:Aortic aneurysm\n 3.\n QUESTION:What is",
+                "<s> Question:Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n Correct Answer: [yes]\n The chest X-ray shows cardiomegaly with pulmonary congestion.\n The patient has congestive heart failure.\n The patient is a 65",
+                "<s> Question::: Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Congestive heart failure\n B. Pulmonary edema\n C. Pneumonia\n D. Atelectasis\n E.",
+                "<s> Q::Are there any signs of congestive heart failure on the chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::What is the most likely diagnosis?\n A::Aortic dissection\n B::Aortic aneurysm\n C::Aortic rupture\n D::Aortic thrombosis"
+            ]
+        ],
+        "sensitivities": [
+            0.3750213862698032
+        ],
+        "posix": 0.3750213862698032
+    }
+}

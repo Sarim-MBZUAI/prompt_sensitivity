@@ -1,0 +1,42 @@
+{
+    "file_name": "question_104_variants.json",
+    "overall_posix": 0.38042592383975843,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5289855072463768,
+            "Variation 2": 0.26344086021505375,
+            "Variation 3": 0.21839080459770122,
+            "Variation 4": 0.31499999999999995,
+            "Variation 5": 0.48015873015873023,
+            "Variation 6": 0.3317073170731708,
+            "Variation 7": 0.25,
+            "Variation 8": 0.4044444444444444,
+            "Variation 9": 0.4831460674157304,
+            "Variation 10": 0.5289855072463768
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n [yes, no]\n 10.Question:Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer",
+                "<s> q:Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> Q:Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]||A:\n<image> B:\n S:\n R:\n T:\n 2:\n 1:\n 10:\n 3:\n 4:\n 5:\n 6:\n 7:\n 8:\n ",
+                "<s> Q::: Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> Q:Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n Q:Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n 1.\n 2.\n 3.",
+                "<s> q::Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> QUESTION:Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question:Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n [yes, yes]\n [no, no]\n [yes, yes]\n [yes, no]\n [no, yes]\n [yes, yes]\n [yes, no]\n [no",
+                "<s> Question::: Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the diagnosis?\n Answer:\n Pneumothorax\n 11.\n Question:\n What is the treatment?\n Answer:\n Chest tube\n 1",
+                "<s> Question:Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes, no]\n [yes, no]\n 10.Question:Can a pneumothorax be seen on the chest X-ray? Please choose from the following two options: [yes, no]\n Answer"
+            ]
+        ],
+        "sensitivities": [
+            0.38042592383975843
+        ],
+        "posix": 0.38042592383975843
+    }
+}

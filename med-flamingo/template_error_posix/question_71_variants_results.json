@@ -1,0 +1,42 @@
+{
+    "file_name": "question_71_variants.json",
+    "overall_posix": 0.3738061662364843,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.29824561403508776,
+            "Variation 2": 0.4866666666666667,
+            "Variation 3": 0.38095238095238093,
+            "Variation 4": 0.22009569377990434,
+            "Variation 5": 0.4918032786885246,
+            "Variation 6": 0.2792792792792793,
+            "Variation 7": 0.4833333333333334,
+            "Variation 8": 0.5,
+            "Variation 9": 0.45993031358885017,
+            "Variation 10": 0.1377551020408163
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q::Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Q:Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n The patient's chest X-ray shows a collapsed left lung.\n Q:What is the most likely diagnosis?\n A:Pneumothorax\n Q:What is the most likely cause",
+                "<s> Question:Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\t\tNo\n \u2022\t\tYes\n \u2022\t\tUnsure\n \u2022\t\tDon't know\n \u2022\t\tRefused\n \u2022\t\tAborted\n \u2022\t\tNot applicable\n \u2022\t",
+                "<s> QUESTION\tIs there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> [yes, no]\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n 10\n",
+                "<s> QUESTION:Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer:\n [Yes]\n [No]\n The patient's chest X-ray shows a collapsed left lung.\n The patient's chest X-ray shows a collapsed left lung",
+                "<s> q:::Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question:Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n Instructions:\u00a0On the patient's chest X-ray, there is evidence of collapsed lung.\n 1.What is the most likely diagnosis?\n A.Pneumothorax\n B.P",
+                "<s> question:Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n A.Yes, there is evidence of collapsed lung on the patient's chest X-ray.\n B.No, there is not evidence of collapsed lung on the patient's chest X-ray.\n 1",
+                "<s> QUESTION:Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n   Answer: B\n \u2022\tThe patient's chest X-ray shows a collapsed left lung.\n \u2022\tThe patient's chest X-ray shows a collapsed right lung.\n 3.\n",
+                "<s> Q:Is there any evidence of collapsed lung on the patient's chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9."
+            ]
+        ],
+        "sensitivities": [
+            0.3738061662364843
+        ],
+        "posix": 0.3738061662364843
+    }
+}

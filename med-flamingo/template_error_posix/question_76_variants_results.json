@@ -1,0 +1,42 @@
+{
+    "file_name": "question_76_variants.json",
+    "overall_posix": 0.35776176185367464,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.49473684210526314,
+            "Variation 2": 0.31336405529953915,
+            "Variation 3": 0.4552238805970149,
+            "Variation 4": 0.27040816326530615,
+            "Variation 5": 0.31336405529953915,
+            "Variation 6": 0.5120274914089347,
+            "Variation 7": 0.2777777777777778,
+            "Variation 8": 0.2777777777777778,
+            "Variation 9": 0.36909871244635195,
+            "Variation 10": 0.29383886255924163
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n 100\n 101\n REASONING:\n The chest X-ray shows a right lower lobe consolidation. The right lower lobe consolidation is a sign of pneumonia.",
+                "<s> Q::Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> QUESTION:Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Pneumonia\n B:\n Acute respiratory distress syndrome\n C:\n Pulmonary edema\n D",
+                "<s> Q::: Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n 10.10.10.10.10.10.10.10.10.10",
+                "<s> q::Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Q:Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Correct answer: [Yes]\n The chest X-ray shows a right lower lobe consolidation.\n The patient is a 65-year-old man with a history of diabetes and",
+                "<s> Question:Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> Question:Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> question::Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A chest X-ray shows a left-sided pneumothorax.\n 10.10.10  Answer 10.10.9\n 10.10.11",
+                "<s> q:::Does the chest X-ray show any signs of lung consolidation? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::"
+            ]
+        ],
+        "sensitivities": [
+            0.35776176185367464
+        ],
+        "posix": 0.35776176185367464
+    }
+}

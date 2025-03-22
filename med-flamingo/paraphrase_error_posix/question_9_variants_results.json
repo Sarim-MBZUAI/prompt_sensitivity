@@ -1,0 +1,42 @@
+{
+    "file_name": "question_9_variants.json",
+    "overall_posix": 0.32357844586212875,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.0,
+            "Variation 2": 0.5933333333333334,
+            "Variation 3": 0.12,
+            "Variation 4": 0.25139664804469275,
+            "Variation 5": 0.23036649214659688,
+            "Variation 6": 0.17877094972067042,
+            "Variation 7": 0.6774193548387096,
+            "Variation 8": 0.6363636363636364,
+            "Variation 9": 0.24615384615384617,
+            "Variation 10": 0.301980198019802
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the lung field clear on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of lung parenchymal opacification on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11.  Is there evidence of a pleural effusion on the chest X-ray? Please choose from the following two options: [yes, no]\n 12.  Is there evidence of a pneumothor",
+                "<s> Are the lung fields unremarkable on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest X-ray show a normal appearing lung parenchyma? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a lack of abnormal lung markings or opacities on the chest film? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are the lungs clear of any pathological changes on the X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the radiograph demonstrate normal lung fields without evidence of disease? Please choose from the following two options: [yes, no]\n<image> 1.  Yes, the radiograph demonstrates normal lung fields without evidence of disease.\n 2.  No, the radiograph demonstrates abnormal lung fields with evidence of disease.\n 1.  Yes, the radiograph",
+                "<s> Is the lung parenchyma unremarkable and devoid of any abnormal findings on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is the heart normal in size and shape? Please choose from the following two options: [yes, no]\n 12. Is the heart enlarged? Please choose from the following two options: [yes, no",
+                "<s> Are there no abnormalities or lung opacities visible on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the chest film show a normal lung morphology without any evidence of pathology? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.32357844586212875
+        ],
+        "posix": 0.32357844586212875
+    }
+}

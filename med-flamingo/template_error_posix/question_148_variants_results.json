@@ -1,0 +1,42 @@
+{
+    "file_name": "question_148_variants.json",
+    "overall_posix": 0.47646551984947455,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.3062730627306274,
+            "Variation 2": 0.5055762081784386,
+            "Variation 3": 0.5947955390334573,
+            "Variation 4": 0.3754646840148699,
+            "Variation 5": 0.29109589041095885,
+            "Variation 6": 0.5539033457249071,
+            "Variation 7": 0.5539033457249071,
+            "Variation 8": 0.5055762081784386,
+            "Variation 9": 0.5464684014869888,
+            "Variation 10": 0.5315985130111525
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\n<image> a. Yes, the chest X-ray is normal in appearance.\n b. No, the chest X-ray is abnormal in appearance.\n 10. Please select from the following two options: [yes, no]",
+                "<s> Q:Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]||A:\n<image> B:\n Suggested Response\n 1. The chest X-ray is normal in appearance.\n 2. The chest X-ray is abnormal in appearance.\n The chest X-ray is normal in appearance.",
+                "<s> Question:Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n 10.Question:What is the most likely diagnosis?\n a.Pneumonia\n b.Asthma\n c.Acute bronchitis\n d.Chronic obstruct",
+                "<s> Question-Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\nAnswer\n<image> [yes, no]\n 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1",
+                "<s> QUESTION:Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\n A:\n B:\n 3.\n QUEST",
+                "<s> question::Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The chest X-ray is normal in appearance.\n B: The chest X-ray is abnormal in appearance.\n 10.Question: Is the chest X-ray normal in appearance? Please choose",
+                "<s> Q::Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n C::\n D::\n E::\n F::\n G::\n H::\n I::\n J::\n K::\n L::\n M::\n N::\n O::\n P::\n Q::\n R::",
+                "<s> Question::: Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> Question:Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\nAnswer:\n<image> a.Yes\n b.No\n 10.Question:What is the most likely diagnosis?\n a.Pneumonia\n b.Asthma\n c.Acute bronchitis\n d.Chronic obstruct",
+                "<s> Q:Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> q::Is the chest X-ray normal in appearance? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::"
+            ]
+        ],
+        "sensitivities": [
+            0.47646551984947455
+        ],
+        "posix": 0.47646551984947455
+    }
+}

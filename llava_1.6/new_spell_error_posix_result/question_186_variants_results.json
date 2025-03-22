@@ -1,0 +1,189 @@
+{
+    "file_name": "question_186_variants.json",
+    "overall_posix": 2.09261358825886,
+    "detailed_scores": [
+        {
+            "Variation 1": 6.041330136358738,
+            "Variation 2": 0.40435334205627443,
+            "Variation 3": 0.11081782341003418,
+            "Variation 4": 0.7108886337280274,
+            "Variation 5": 6.041330136358738,
+            "Variation 6": 1.9220621946246126,
+            "Variation 7": 0.27429293155670165,
+            "Variation 8": 4.161467281547752,
+            "Variation 9": 0.028532776832580566,
+            "Variation 10": 0.025947623252868653
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient show any signs of cardiomegaly on the X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, the X-ray does not show any signs of cardiomegaly. The image appears to be a standard chest X-ray, and there are no indications of cardiac enlargement or other signs of cardiomegal",
+                "No, the X-ray does not show any signs of cardiomegaly. The patient appears to have a normal chest X-ray.",
+                "No, the X-ray does not show any signs of cardiomegaly. The image appears to be a standard chest X-ray, and there is no evidence of cardiomegaly, which is typically characterized by an enlarg",
+                "No, the X-ray does not show any signs of cardiomegaly. The image appears to be a standard frontal chest X-ray, and there are no visible signs of cardiomegaly such as enlarged heart",
+                "No, the X-ray does not show any signs of carduomegaly. The image shows a lateral chest X-ray, which is typically used to examine the lungs and heart. However, the heart is not visible in this type",
+                "No, the X-ray does not show any signs of cardiomegaly. The patient appears to have a normal chest X-ray.",
+                "Based on the X-ray image provided, there are no visible signs of cardiomegaly. The image shows the chest and lungs, but there is no indication of any cardiovascular issues.",
+                "Based on the X-ray image provided, there are no clear signs of cardiomegaly. The heart appears to be in a normal position and there are no obvious signs of enlargement or abnormalities. However, it is important",
+                "No, the X-ray does not show any signs of cardiomegaly. The image shows a normal chest X-ray with the lungs and heart clearly visible.",
+                "Based on the X-ray image provided, there are no visible signs of cardiomegaly. The image shows the chest area with the lungs and heart clearly visible, but there are no indications of cardiomegaly such as en",
+                "Based on the X-ray image provided, there are no clear signs of cardiomegaly. The lungs appear to be clear, and there are no visible signs of heart enlargement or other cardiac abnormalities. The image is"
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -485.128568649292,
+                    -291.8060042858124,
+                    -464.91090154647827,
+                    -479.5876774787903,
+                    -449.5841369628906,
+                    -291.8060042858124,
+                    -402.47989428043365,
+                    -471.4139220714569,
+                    -331.15427923202515,
+                    -483.70192980766296,
+                    -486.4259498119354
+                ],
+                [
+                    -497.356737613678,
+                    -289.5634231567383,
+                    -473.2856855392456,
+                    -468.0475254058838,
+                    -449.13387846946716,
+                    -289.5634231567383,
+                    -390.70822525024414,
+                    -472.7672848701477,
+                    -342.89142417907715,
+                    -467.1921772956848,
+                    -468.85740089416504
+                ],
+                [
+                    -485.128568649292,
+                    -291.8060042858124,
+                    -464.91090154647827,
+                    -479.5876774787903,
+                    -449.5841369628906,
+                    -291.8060042858124,
+                    -402.47989428043365,
+                    -471.4139220714569,
+                    -331.15427923202515,
+                    -483.70192980766296,
+                    -486.4259498119354
+                ],
+                [
+                    -482.8875744342804,
+                    -289.024986743927,
+                    -451.82342433929443,
+                    -460.603218793869,
+                    -451.62007188796997,
+                    -289.024986743927,
+                    -393.5708894729614,
+                    -483.85117387771606,
+                    -352.13310980796814,
+                    -483.4124138355255,
+                    -491.61131286621094
+                ],
+                [
+                    -503.18682420253754,
+                    -309.8517150878906,
+                    -489.8301525115967,
+                    -477.6343848705292,
+                    -459.56281185150146,
+                    -309.8517150878906,
+                    -413.74737668037415,
+                    -501.0047507286072,
+                    -348.93763256073,
+                    -483.86673498153687,
+                    -500.69516706466675
+                ],
+                [
+                    -503.18682420253754,
+                    -309.8517150878906,
+                    -489.8301525115967,
+                    -477.6343848705292,
+                    -459.56281185150146,
+                    -309.8517150878906,
+                    -413.74737668037415,
+                    -501.0047507286072,
+                    -348.93763256073,
+                    -483.86673498153687,
+                    -500.69516706466675
+                ],
+                [
+                    -497.356737613678,
+                    -289.5634231567383,
+                    -473.2856855392456,
+                    -468.0475254058838,
+                    -449.13387846946716,
+                    -289.5634231567383,
+                    -390.70822525024414,
+                    -472.7672848701477,
+                    -342.89142417907715,
+                    -467.1921772956848,
+                    -468.85740089416504
+                ],
+                [
+                    -503.18682420253754,
+                    -309.8517150878906,
+                    -489.8301525115967,
+                    -477.6343848705292,
+                    -459.56281185150146,
+                    -309.8517150878906,
+                    -413.74737668037415,
+                    -501.0047507286072,
+                    -348.93763256073,
+                    -483.86673498153687,
+                    -500.69516706466675
+                ],
+                [
+                    -497.356737613678,
+                    -289.5634231567383,
+                    -473.2856855392456,
+                    -468.0475254058838,
+                    -449.13387846946716,
+                    -289.5634231567383,
+                    -390.70822525024414,
+                    -472.7672848701477,
+                    -342.89142417907715,
+                    -467.1921772956848,
+                    -468.85740089416504
+                ],
+                [
+                    -497.356737613678,
+                    -289.5634231567383,
+                    -473.2856855392456,
+                    -468.0475254058838,
+                    -449.13387846946716,
+                    -289.5634231567383,
+                    -390.70822525024414,
+                    -472.7672848701477,
+                    -342.89142417907715,
+                    -467.1921772956848,
+                    -468.85740089416504
+                ],
+                [
+                    -484.0130178928375,
+                    -290.1201891899109,
+                    -467.4233982563019,
+                    -485.8440685272217,
+                    -459.77568793296814,
+                    -290.1201891899109,
+                    -396.7261083126068,
+                    -482.2346110343933,
+                    -338.42903983592987,
+                    -471.3147749900818,
+                    -493.6281957626343
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            2.09261358825886
+        ],
+        "posix": 2.09261358825886
+    }
+}

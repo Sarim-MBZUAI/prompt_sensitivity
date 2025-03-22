@@ -1,0 +1,42 @@
+{
+    "file_name": "question_141_variants.json",
+    "overall_posix": 0.4975696685635257,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5035971223021583,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5691699604743083,
+            "Variation 4": 0.6561264822134387,
+            "Variation 5": 0.5928853754940712,
+            "Variation 6": 0.49230769230769234,
+            "Variation 7": 0.6521739130434783,
+            "Variation 8": 0.40065146579804556,
+            "Variation 9": 0.6403162055335968,
+            "Variation 10": 0.46846846846846846
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n<image> 11. Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n 11. 100.11. 100.",
+                "<s> Is the chest radiograph entirely unremarkable? Please choose from the following two options: [yes, no]\n<image> a. Yes, the chest radiograph is entirely unremarkable\n b. No, the chest radiograph shows a right-sided pleural effusion\n 11. What is the most likely diagnosis?\n a.",
+                "<s> Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n<image> 11. Is the patient's chest X-ray completely unremarkable? Please choose from the following two options: [yes, no]\n 11. 100.11. 100.",
+                "<s> Does the patient's chest X-ray demonstrate a completely normal appearance? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Are there any notable abnormalities or findings on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the chest radiograph devoid of significant pathology? Please choose from the following two options: [yes, no]\n<image> A.  No\n B.  Yes\n 2.\n What is the most likely diagnosis?\n A.  Pneumothorax\n B.  Hemothorax\n C.  Tension pneumothorax",
+                "<s> Does the patient's chest X-ray show a completely normal mediastinum and lung fields? Please choose from the following two options: [yes, no]\n<image> 1. Yes, the chest X-ray shows a completely normal mediastinum and lung fields.\n 2. No, the chest X-ray shows a partially or completely collapsed left lung and a mediastinum",
+                "<s> Are there any unusual or unexpected features on the chest radiograph? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is the chest X-ray free of notable opacities or abnormalities in the lung parenchyma? Please choose from the following two options: [yes, no]\n<image> 11. Is the chest X-ray free of any abnormalities in the chest bones? Please choose from the following two options: [yes, no]\n 12. Is the chest X-ray free",
+                "<s> Does the patient's chest radiograph demonstrate a completely normal thoracic spine and upper abdomen silhouette? Please choose from the following two options: [yes, no]\n<image> 11.\n 12.\n 13.\n 14.\n 15.\n 16.\n 17.\n 18.\n 19.\n 20.\n",
+                "<s> Is there any significant abnormality or pathology visible on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 11. Is there any significant abnormality or pathology visible on the chest X-ray? Please choose from the following two options: [yes, no]\n 12. Is there any significant abnormality or path"
+            ]
+        ],
+        "sensitivities": [
+            0.4975696685635257
+        ],
+        "posix": 0.4975696685635257
+    }
+}

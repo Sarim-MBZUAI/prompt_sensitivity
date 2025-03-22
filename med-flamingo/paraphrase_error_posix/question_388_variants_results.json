@@ -1,0 +1,42 @@
+{
+    "file_name": "question_388_variants.json",
+    "overall_posix": 0.40556462076876737,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.6917960088691796,
+            "Variation 2": 0.0,
+            "Variation 3": 0.5866261398176292,
+            "Variation 4": 0.557632398753894,
+            "Variation 5": 0.3416666666666667,
+            "Variation 6": 0.2624434389140271,
+            "Variation 7": 0.3487394957983193,
+            "Variation 8": 0.3579335793357934,
+            "Variation 9": 0.5798611111111112,
+            "Variation 10": 0.32894736842105265
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has there been any change in the heart and lungs since the previous interval? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Has there been any change in the heart and lungs since the previous interval? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> What is the radiographic appearance of the heart and lungs on the current examination compared to the prior study, indicating any interval changes? Please choose from the following two options: [yes, no]\n<image> The heart and lungs are normal on the current study compared to the prior study, indicating no interval changes.\n [yes, no]\n The heart and lungs are abnormal on the current study compared to the prior study, indicating interval changes",
+                "<s> Has there been any change in the heart and lungs since the previous interval? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any notable alterations in cardiac and pulmonary anatomy or morphology since the preceding imaging interval? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of pulmonary embolism (PE) on the chest radiograph?\n [yes, no]\n 12. Is there any evidence of pulmonary embolism (PE)",
+                "<s> Does the current chest radiograph demonstrate any differences in heart and lung appearance compared to the previous examination? Please choose from the following two options: [yes, no]\n<image> 11. Is there any evidence of a pleural effusion?\n [yes, no]\n 12. Is there any evidence of a pneumothorax?\n [yes, no]\n 13. Is",
+                "<s> Are there any observable changes in cardiac or pulmonary morphology on the current imaging study versus the preceding one? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there evidence of interval change in heart and lung anatomy on the current radiographic examination? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Does the comparison between the current and prior chest X-rays reveal any alterations in cardiac or pulmonary structure? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Is there a notable difference in heart and lung appearance on the current imaging study compared to the previous examination, indicating interval change? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Are there any radiographic findings suggestive of interval change in cardiac or pulmonary anatomy? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n Are there any other pertinent findings on the chest radiograph? Please check all that apply:\n 1.\n 2.\n 3.\n 4.\n 5.\n",
+                "<s> Does the comparison between current and prior imaging studies reveal any changes in heart and lung morphology? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12."
+            ]
+        ],
+        "sensitivities": [
+            0.40556462076876737
+        ],
+        "posix": 0.40556462076876737
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "file_name": "question_134_variants.json",
+    "overall_posix": 0.4050279265187471,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.08522727272727271,
+            "Variation 2": 0.4698795180722892,
+            "Variation 3": 0.31313131313131315,
+            "Variation 4": 0.56,
+            "Variation 5": 0.4628099173553719,
+            "Variation 6": 0.2648648648648648,
+            "Variation 7": 0.5756578947368421,
+            "Variation 8": 0.46484375,
+            "Variation 9": 0.3429951690821256,
+            "Variation 10": 0.5108695652173914
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> QUESTION:Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.\n",
+                "<s> Question:Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no],Answer:\n<image> [yes, no]\n 10.Question:What is the most likely diagnosis?\n A.Pulmonary edema\n B.Pneumonia\n C.Pneumothorax\n D.Pulmonary",
+                "<s> q:::Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question::: Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Option 1: No\n Option 2: Yes\n Correct Answer: Option 2\n Explanation:\n The patient has a pulmonary edema pattern. The cardiac silhouette is not enlarged, but the card",
+                "<s> Q:Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n\n Q:What is the most likely diagnosis?\n A:Pulmonary edema\n B:Pneumonia\n C:Pneumothorax\n D:Pulmonary embolism",
+                "<s> q:Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n h:\n i:\n j:\n k:\n l:\n m:\n n:\n o:\n p:\n q:\n r:",
+                "<s> QUESTION:Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\nANSWER:\n<image> Yes\n Discussion:\n This is a frontal chest radiograph of a 55-year-old man with a history of hypertension and hyperlipidemia. The patient was admitted to the hospital with a ",
+                "<s> question:Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\nanswer:\n<image>\n1.Yes\n 2.No\n 1.Yes\n 2.No\n You have marked [2] for \"yes.\"\n Please select from the following two options: [yes, no]\n answer:\n 1",
+                "<s> Question:Is the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n \u2022\tNo\n",
+                "<s> QUESTION\tIs the pattern suggestive of pulmonary edema? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The chest radiograph shows bilateral pulmonary edema. The heart size is normal. The cardiac silhouette is not enlarged."
+            ]
+        ],
+        "sensitivities": [
+            0.4050279265187471
+        ],
+        "posix": 0.4050279265187471
+    }
+}

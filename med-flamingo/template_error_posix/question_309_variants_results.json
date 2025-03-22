@@ -1,0 +1,42 @@
+{
+    "file_name": "question_309_variants.json",
+    "overall_posix": 0.3876423713150125,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.5484848484848485,
+            "Variation 2": 0.24882629107981225,
+            "Variation 3": 0.42490842490842495,
+            "Variation 4": 0.5468277945619335,
+            "Variation 5": 0.2863636363636364,
+            "Variation 6": 0.14871794871794874,
+            "Variation 7": 0.26635514018691586,
+            "Variation 8": 0.30222222222222217,
+            "Variation 9": 0.5484848484848485,
+            "Variation 10": 0.5552325581395349
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question:Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2752Based on the radiograph, the radiologist has identified a mass in the right lung.\n \u2752Based on the radiograph, the radiologist has not identified any masses or nodules in the",
+                "<s> QUESTION\tHas the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tNo\n 2.\tYes\n 3.\tNo\n 4.\tYes\n 5.\tNo\n 6.\tYes\n 7.\tNo\n 8.\tYes\n 9",
+                "<s> Question:Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]||Answer:\n<image> Yes\n 10.Question:What is the most likely diagnosis?\n A.Pleural effusion\n B.Pneumonia\n C.Pneumothorax\n D.Pneumonitis\n 11.",
+                "<s> Q::Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\nA::\n<image> B::\n Q::Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\n A::\n B::\n Q::Has the radiologist identified any masses or",
+                "<s> Q::: Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> q:Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 10.\n 11.\n 12.\n 13.\n 14.\n 15.\n 1",
+                "<s> Q:Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]||A:\n<image> B:\n   C:\n D:\n   E:\n   F:\n   G:\n   H:\n   I:\n   J:\n   K:\n   L:\n   M:\n   N:\n",
+                "<s> q::Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> Question:Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n \u2752Based on the radiograph, the radiologist has identified a mass in the right lung.\n \u2752Based on the radiograph, the radiologist has not identified any masses or nodules in the",
+                "<s> Question-Has the radiologist identified any masses or nodules in the lungs? Please choose from the following two options: [yes, no]\nAnswer\n<image> Yes\n Question-What is the most likely diagnosis?\n Answer\n Lung cancer\n Question-What is the most likely location of the tumor?\n Answer\n Peripheral\n Question-What is the most likely histology of"
+            ]
+        ],
+        "sensitivities": [
+            0.3876423713150125
+        ],
+        "posix": 0.3876423713150125
+    }
+}

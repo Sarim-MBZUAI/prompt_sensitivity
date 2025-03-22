@@ -1,0 +1,42 @@
+{
+    "file_name": "question_241_variants.json",
+    "overall_posix": 0.349282041004482,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.13432835820895517,
+            "Variation 2": 0.4037037037037037,
+            "Variation 3": 0.21698113207547176,
+            "Variation 4": 0.27312775330396477,
+            "Variation 5": 0.25764192139737996,
+            "Variation 6": 0.5138461538461538,
+            "Variation 7": 0.21698113207547176,
+            "Variation 8": 0.5213414634146342,
+            "Variation 9": 0.5031446540880503,
+            "Variation 10": 0.4517241379310345
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Q:Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n C:\n D:\n E:\n 16.\n 15.\n 14.\n 13.\n 12.\n 11.\n 10.\n 9.",
+                "<s> QUESTION:Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Aortic dissection\n B:Aortic aneurysm\n C:Aortic thrombosis\n D",
+                "<s> Question:Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> q:::Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\na:::\n<image> b:::\n c:::\n d:::\n e:::\n f:::\n g:::\n h:::\n i:::\n j:::\n k:::\n l:::\n m:::\n n::",
+                "<s> Question::: Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n 1.Yes\n 2.No\n",
+                "<s> question:Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer:\n<image>\nyes\n 1.The patient is a 55-year-old man with a history of a cough and fever. He has a history of a previous left lung transplantation. The patient is in acute respir",
+                "<s> Question:Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Question-Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer\n<image> [Yes, no]\n Comments: The chest X-ray shows a right-sided mediastinal mass. The mass is located in the anterior mediastinum and is seen to be in contact with the trachea.",
+                "<s> question::Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: There are no abnormalities in the mediastinum as seen on the chest X-ray.\n B: There are abnormalities in the mediastinum as seen on the chest X-ray.",
+                "<s> Q:Are there any abnormalities in the mediastinum as seen on the chest X-ray? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [Yes, no]\n Q:What is the most likely diagnosis?\n A:Lymphoma\n Q:What is the most likely location of the lymphoma?\n A:Subcarinal\n Q:What is"
+            ]
+        ],
+        "sensitivities": [
+            0.349282041004482
+        ],
+        "posix": 0.349282041004482
+    }
+}

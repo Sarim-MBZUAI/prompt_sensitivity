@@ -1,0 +1,189 @@
+{
+    "file_name": "question_167_variants_results.json",
+    "overall_posix": 0.8689421836393709,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.7407265822437492,
+            "Variation 2": 0.0,
+            "Variation 3": 0.44181563914618754,
+            "Variation 4": 1.143347029042559,
+            "Variation 5": 0.5097600178630092,
+            "Variation 6": 1.0051746867649434,
+            "Variation 7": 0.9143855600105503,
+            "Variation 8": 0.9794704778000889,
+            "Variation 9": 1.165560707591489,
+            "Variation 10": 0.944287696180682
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the patient have a radiological sign of congestive heart failure on this chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "The chest x-ray does not show any radiological signs of congestive heart failure. ",
+                "The chest x-ray does not show any evidence of fluid overload. ",
+                "The chest x-ray does not show any radiological signs of congestive heart failure. ",
+                "The chest x-ray does not show any radiographic findings that would be indicative of congestive heart failure. ",
+                "The chest x-ray does not show any signs suggestive of cardiac decompensation due to left-sided volume overload. ",
+                "The chest x-ray does not show any radiographic evidence of pulmonary venous congestion. ",
+                "The chest x-ray does not show signs of cardiomegaly and/or pleural effusion. ",
+                "Yes, the chest X-ray shows radiographic findings suggestive of increased interstitial lung markings, which could be indicative of fluid overload. ",
+                "The chest x-ray does not show any signs indicative of left atrial enlargement and/or left ventricular hypertrophy consistent with congestive heart failure. ",
+                "The chest x-ray does not show any radiographic evidence of kerley b lines or other interstitial lung markings suggestive of pulmonary edema. ",
+                "The chest x-ray does not show any signs of alveolar consolidation or atelectasis that could be related to congestive heart failure. "
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -42.41443502423681,
+                    -55.747513504624294,
+                    -42.41443502423681,
+                    -54.34345728118387,
+                    -79.0015399535987,
+                    -55.15843547081204,
+                    -68.54897688012534,
+                    -75.33231518461662,
+                    -82.57272461404045,
+                    -86.70574191271339,
+                    -74.52021669438
+                ],
+                [
+                    -57.918260314982035,
+                    -41.65351396740516,
+                    -57.918260314982035,
+                    -63.04726470071546,
+                    -81.26399592259258,
+                    -57.42293463120586,
+                    -70.13278317199001,
+                    -67.01127716510155,
+                    -93.47725108246414,
+                    -84.92774400784015,
+                    -80.07210514835606
+                ],
+                [
+                    -42.41443502423681,
+                    -55.747513504624294,
+                    -42.41443502423681,
+                    -54.34345728118387,
+                    -79.0015399535987,
+                    -55.15843547081204,
+                    -68.54897688012534,
+                    -75.33231518461662,
+                    -82.57272461404045,
+                    -86.70574191271339,
+                    -74.52021669438
+                ],
+                [
+                    -50.846268108216464,
+                    -56.762005726326606,
+                    -50.846268108216464,
+                    -44.54308356418733,
+                    -79.32950494682245,
+                    -53.543288215743814,
+                    -70.76433617567454,
+                    -69.09604743477757,
+                    -81.79423764628791,
+                    -85.1533483970752,
+                    -74.17550813946582
+                ],
+                [
+                    -57.75852278610546,
+                    -53.87019215896726,
+                    -57.75852278610546,
+                    -62.028327703883406,
+                    -40.86267830673205,
+                    -55.96044143385734,
+                    -74.28197049503433,
+                    -70.99557579662269,
+                    -84.21656075316241,
+                    -83.61346271397724,
+                    -80.81993478783261
+                ],
+                [
+                    -60.305761479507055,
+                    -59.25697485429919,
+                    -60.305761479507055,
+                    -62.67714358283047,
+                    -85.3198218839334,
+                    -43.14009026676172,
+                    -74.92321866152997,
+                    -81.88375982006619,
+                    -93.53434575988467,
+                    -84.27791837869336,
+                    -81.25559182935831
+                ],
+                [
+                    -51.15102137370195,
+                    -57.951195949577595,
+                    -51.15102137370195,
+                    -56.16653324255458,
+                    -80.13460763984858,
+                    -58.44806438003798,
+                    -43.78305508566757,
+                    -75.32177483711166,
+                    -76.47717469809504,
+                    -87.0993910280713,
+                    -72.98747533366259
+                ],
+                [
+                    -62.119941814373306,
+                    -53.20574109102745,
+                    -62.119941814373306,
+                    -62.38354082650767,
+                    -82.96814048801116,
+                    -57.702634830593524,
+                    -72.75384814336576,
+                    -44.08903984148981,
+                    -94.95161108501907,
+                    -75.87834437416177,
+                    -79.15305006851122
+                ],
+                [
+                    -52.84257270685703,
+                    -57.953146884618036,
+                    -52.84257270685703,
+                    -54.39525968837552,
+                    -76.32598704722704,
+                    -57.37369965442849,
+                    -67.35994406847385,
+                    -74.92291615339036,
+                    -40.48142616663369,
+                    -84.91544378099161,
+                    -75.17115440169073
+                ],
+                [
+                    -64.1938518585448,
+                    -62.33823251751528,
+                    -64.1938518585448,
+                    -65.65595480301636,
+                    -89.04153272250869,
+                    -59.500573311210246,
+                    -76.27307783990182,
+                    -70.03302232572605,
+                    -97.57028231957247,
+                    -43.37411269901667,
+                    -83.62769713291345
+                ],
+                [
+                    -52.860208913311,
+                    -61.00249124909715,
+                    -52.860208913311,
+                    -56.37390698667332,
+                    -82.66499564750757,
+                    -59.41401451577076,
+                    -74.49871355605683,
+                    -77.35438511051916,
+                    -86.8903425604367,
+                    -85.48757071595173,
+                    -42.619813630374665
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8689421836393709
+        ],
+        "posix": 0.8689421836393709
+    }
+}

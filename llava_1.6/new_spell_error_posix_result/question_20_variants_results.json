@@ -1,0 +1,189 @@
+{
+    "file_name": "question_20_variants.json",
+    "overall_posix": 0.8028136816734757,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.31001753568649293,
+            "Variation 2": 0.4123896813392639,
+            "Variation 3": 0.7083132788538933,
+            "Variation 4": 0.06938563108444214,
+            "Variation 5": 0.4005353569984436,
+            "Variation 6": 0.02229954481124878,
+            "Variation 7": 1.0736946511268615,
+            "Variation 8": 0.36989962816238403,
+            "Variation 9": 0.0,
+            "Variation 10": 3.4019143184026084
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of chronic lung disease on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "Based on the image provided, it is not possible for me to definitively determine if there is evidence of chronic lung disease on the chest X-ray. The image is of low resolution and quality, which makes it difficult to discern specific details that",
+                "Yes, the X-ray shows evidence of chronic lung disease. The presence of hyperinflation, which is indicated by the increased size of the lung fields, is a common finding in patients with chronic obstructive pulmonary disease (COPD",
+                "Based on the image provided, it is not possible for me to definitively diagnose or rule out chronic lung disease. The image appears to be a chest X-ray, but the quality and resolution of the image are not sufficient for a detailed analysis",
+                "Based on the image provided, there is no clear evidence of chronic lung disease on the chest X-ray. The image appears to be of low quality and does not show any specific abnormalities that would suggest chronic lung disease.",
+                "Based on the image provided, it is not possible to definitively diagnose chronic lung diseases such as emphysema or chronic obstructive pulmonary disease (COPD) from a chest X-ray alone. The X-ray shows",
+                "Based on the image provided, it is not possible to definitively diagnose chronic lung disease. The X-ray shows the silhouette of the lungs, but without more context or a clearer image, it is not possible to make a diagnosis",
+                "Based on the image provided, it is not possible to definitively diagnose chronic lung disease. The X-ray shows the chest and lungs, but without a clear view of the lung fields and without medical training, it is not appropriate to make a",
+                "Based on the image provided, it is not possible for me to definitively diagnose or comment on the presence of chronic lung disease. The image appears to be a chest X-ray, but without specific medical training and knowledge of the patient's",
+                "Based on the image provided, there is no clear evidence of chronic obstructive pulmonary disease (COPD) on the chest X-ray. The lungs appear to be relatively clear, with no visible signs of emphysema or other",
+                "Based on the image provided, it is not possible for me to definitively determine if there is evidence of chronic lung disease on the chest X-ray. The image is of low resolution and quality, which makes it difficult to discern specific details that",
+                "No, there is no evidence of chronic lung disease on the chest X-ray. The image shows a normal chest X-ray with no signs of lung disease or abnormalities."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -506.6620959043503,
+                    -491.16121912002563,
+                    -486.0426118373871,
+                    -472.6630585193634,
+                    -503.1928143501282,
+                    -486.6353280544281,
+                    -505.54711866378784,
+                    -452.9773633480072,
+                    -525.1570773124695,
+                    -506.6620959043503,
+                    -373.98743748664856
+                ],
+                [
+                    -498.8130593299866,
+                    -501.9796242713928,
+                    -497.716100692749,
+                    -466.0047106742859,
+                    -503.50830459594727,
+                    -477.3554747104645,
+                    -481.652713060379,
+                    -485.41434478759766,
+                    -499.69100189208984,
+                    -498.8130593299866,
+                    -358.5354413986206
+                ],
+                [
+                    -498.8130593299866,
+                    -501.9796242713928,
+                    -497.716100692749,
+                    -466.0047106742859,
+                    -503.50830459594727,
+                    -477.3554747104645,
+                    -481.652713060379,
+                    -485.41434478759766,
+                    -499.69100189208984,
+                    -498.8130593299866,
+                    -358.5354413986206
+                ],
+                [
+                    -498.8130593299866,
+                    -501.9796242713928,
+                    -497.716100692749,
+                    -466.0047106742859,
+                    -503.50830459594727,
+                    -477.3554747104645,
+                    -481.652713060379,
+                    -485.41434478759766,
+                    -499.69100189208984,
+                    -498.8130593299866,
+                    -358.5354413986206
+                ],
+                [
+                    -491.2908892631531,
+                    -523.9600491523743,
+                    -479.65742111206055,
+                    -496.3538372516632,
+                    -515.7057862281799,
+                    -490.49394726753235,
+                    -484.9998915195465,
+                    -475.398109793663,
+                    -504.99983644485474,
+                    -491.2908892631531,
+                    -371.3948966264725
+                ],
+                [
+                    -491.2908892631531,
+                    -523.9600491523743,
+                    -479.65742111206055,
+                    -496.3538372516632,
+                    -515.7057862281799,
+                    -490.49394726753235,
+                    -484.9998915195465,
+                    -475.398109793663,
+                    -504.99983644485474,
+                    -491.2908892631531,
+                    -371.3948966264725
+                ],
+                [
+                    -491.2908892631531,
+                    -523.9600491523743,
+                    -479.65742111206055,
+                    -496.3538372516632,
+                    -515.7057862281799,
+                    -490.49394726753235,
+                    -484.9998915195465,
+                    -475.398109793663,
+                    -504.99983644485474,
+                    -491.2908892631531,
+                    -371.3948966264725
+                ],
+                [
+                    -491.47962260246277,
+                    -513.5179326534271,
+                    -474.1678247451782,
+                    -462.77743649482727,
+                    -515.050196647644,
+                    -491.7863097190857,
+                    -480.7066626548767,
+                    -462.6960070133209,
+                    -505.69543194770813,
+                    -491.47962260246277,
+                    -374.16658186912537
+                ],
+                [
+                    -498.8130593299866,
+                    -501.9796242713928,
+                    -497.716100692749,
+                    -466.0047106742859,
+                    -503.50830459594727,
+                    -477.3554747104645,
+                    -481.652713060379,
+                    -485.41434478759766,
+                    -499.69100189208984,
+                    -498.8130593299866,
+                    -358.5354413986206
+                ],
+                [
+                    -491.2908892631531,
+                    -523.9600491523743,
+                    -479.65742111206055,
+                    -496.3538372516632,
+                    -515.7057862281799,
+                    -490.49394726753235,
+                    -484.9998915195465,
+                    -475.398109793663,
+                    -504.99983644485474,
+                    -491.2908892631531,
+                    -371.3948966264725
+                ],
+                [
+                    -491.2908892631531,
+                    -523.9600491523743,
+                    -479.65742111206055,
+                    -496.3538372516632,
+                    -515.7057862281799,
+                    -490.49394726753235,
+                    -484.9998915195465,
+                    -475.398109793663,
+                    -504.99983644485474,
+                    -491.2908892631531,
+                    -371.3948966264725
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            0.8028136816734757
+        ],
+        "posix": 0.8028136816734757
+    }
+}

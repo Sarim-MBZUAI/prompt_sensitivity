@@ -1,0 +1,189 @@
+{
+    "file_name": "question_290_variants.json",
+    "overall_posix": 3.0380637030692066,
+    "detailed_scores": [
+        {
+            "Variation 1": 7.395854495820545,
+            "Variation 2": 0.0,
+            "Variation 3": 1.3925575843224158,
+            "Variation 4": 2.9708889007568358,
+            "Variation 5": 3.2503498458862303,
+            "Variation 6": 1.6106402948498726,
+            "Variation 7": 0.7185976505279541,
+            "Variation 8": 0.4155144546971177,
+            "Variation 9": 2.2057375797005587,
+            "Variation 10": 1.4076334834098816
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Is there evidence of an enlarged heart on the chest X-ray? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "No, there is no evidence of an enlarged heart on the chest X-ray. The image shows a normal-sized heart within the chest cavity.",
+                "No, there is no visible cardiomegaly on the provided chest X-ray.",
+                "No, there is no evidence of an enlarged heart on the chest X-ray. The image shows a normal-sized heart within the chest cavity.",
+                "No, the chest X-ray does not demonstrate an increased cardiac silhouette suggestive of cardiac enlargement. The silhouette appears to be of normal size.",
+                "No, there are no radiographic signs indicative of cardiomegaly present on the given X-ray. The image shows a lateral chest X-ray, which is a type of chest X-ray that is taken from the side",
+                "No, the chest X-ray does not show evidence of an increased cardiothoracic ratio, suggesting cardiac enlargement. The cardiothoracic ratio is typically measured by dividing the cardiac silhouette by",
+                "No, there is no visible evidence of heart expansion on the provided chest X-ray. The image shows the lungs and the heart is not expanded.",
+                "No, the radiograph does not show signs consistent with an enlarged cardiac silhouette. The cardiac silhouette appears to be of normal size.",
+                "No, the chest X-ray suggests cardiomegaly. The heart shadow appears enlarged, which could indicate cardiomegaly.",
+                "No, there is no visible increase in cardiac silhouette size on the provided X-ray that would be consistent with heart enlargement. The silhouette appears to be of normal size.",
+                "No, the chest radiograph does not indicate an increased cardiac contour, suggesting cardiomegaly. The cardiac silhouette appears to be of normal size and shape."
+            ]
+        ],
+        "logprob_matrices": [
+            [
+                [
+                    -357.67397451400757,
+                    -202.36103010177612,
+                    -357.67397451400757,
+                    -411.9837203025818,
+                    -506.21841955184937,
+                    -520.1914668083191,
+                    -306.13348507881165,
+                    -383.5434899330139,
+                    -343.9619975090027,
+                    -452.5206904411316,
+                    -413.97931385040283
+                ],
+                [
+                    -357.67397451400757,
+                    -202.36103010177612,
+                    -357.67397451400757,
+                    -411.9837203025818,
+                    -506.21841955184937,
+                    -520.1914668083191,
+                    -306.13348507881165,
+                    -383.5434899330139,
+                    -343.9619975090027,
+                    -452.5206904411316,
+                    -413.97931385040283
+                ],
+                [
+                    -357.67397451400757,
+                    -202.36103010177612,
+                    -357.67397451400757,
+                    -411.9837203025818,
+                    -506.21841955184937,
+                    -520.1914668083191,
+                    -306.13348507881165,
+                    -383.5434899330139,
+                    -343.9619975090027,
+                    -452.5206904411316,
+                    -413.97931385040283
+                ],
+                [
+                    -329.80984139442444,
+                    -196.8284729719162,
+                    -329.80984139442444,
+                    -408.01969838142395,
+                    -510.9144606590271,
+                    -549.9740357398987,
+                    -322.5774025917053,
+                    -398.8894557952881,
+                    -326.3676424026489,
+                    -456.09692764282227,
+                    -430.23547291755676
+                ],
+                [
+                    -354.76070261001587,
+                    -216.85333681106567,
+                    -354.76070261001587,
+                    -413.88957166671753,
+                    -482.18237257003784,
+                    -543.4252066612244,
+                    -327.39748334884644,
+                    -371.568785995245,
+                    -317.759019613266,
+                    -471.2694606781006,
+                    -441.376277923584
+                ],
+                [
+                    -333.554368019104,
+                    -182.26863837242126,
+                    -333.554368019104,
+                    -434.67341899871826,
+                    -481.7718405723572,
+                    -518.6419076919556,
+                    -311.4231252670288,
+                    -396.61649107933044,
+                    -333.75545740127563,
+                    -450.17529833316803,
+                    -428.7786452770233
+                ],
+                [
+                    -332.1770839691162,
+                    -198.29472041130066,
+                    -332.1770839691162,
+                    -407.47396206855774,
+                    -496.98348903656006,
+                    -527.6675128936768,
+                    -297.5761955976486,
+                    -370.8608102798462,
+                    -330.5236625522375,
+                    -451.80859899520874,
+                    -417.9408850669861
+                ],
+                [
+                    -348.3711414337158,
+                    -207.3863639831543,
+                    -348.3711414337158,
+                    -410.4908871650696,
+                    -484.7408058643341,
+                    -539.8410058021545,
+                    -298.884343624115,
+                    -360.67349314689636,
+                    -330.8717918395996,
+                    -450.5194787979126,
+                    -418.95967388153076
+                ],
+                [
+                    -354.3781270980835,
+                    -221.58552742004395,
+                    -354.3781270980835,
+                    -426.5608494281769,
+                    -502.949645280838,
+                    -527.9625871181488,
+                    -317.00919914245605,
+                    -402.50455951690674,
+                    -336.72564363479614,
+                    -457.2091979980469,
+                    -437.47788393497467
+                ],
+                [
+                    -354.3781270980835,
+                    -221.58552742004395,
+                    -354.3781270980835,
+                    -426.5608494281769,
+                    -502.949645280838,
+                    -527.9625871181488,
+                    -317.00919914245605,
+                    -402.50455951690674,
+                    -336.72564363479614,
+                    -457.2091979980469,
+                    -437.47788393497467
+                ],
+                [
+                    -338.56717586517334,
+                    -202.66261768341064,
+                    -338.56717586517334,
+                    -401.53853130340576,
+                    -487.6228332519531,
+                    -518.1014614105225,
+                    -317.99569177627563,
+                    -372.01883935928345,
+                    -322.3829712867737,
+                    -469.6601037979126,
+                    -406.5294189453125
+                ]
+            ]
+        ],
+        "prompt_sensitivities": [
+            3.0380637030692066
+        ],
+        "posix": 3.0380637030692066
+    }
+}

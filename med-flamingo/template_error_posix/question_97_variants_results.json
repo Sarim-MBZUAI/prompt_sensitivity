@@ -1,0 +1,42 @@
+{
+    "file_name": "question_97_variants.json",
+    "overall_posix": 0.3472150925471912,
+    "detailed_scores": [
+        {
+            "Variation 1": 0.4412811387900356,
+            "Variation 2": 0.49504950495049505,
+            "Variation 3": 0.22330097087378642,
+            "Variation 4": 0.42741935483870974,
+            "Variation 5": 0.28037383177570097,
+            "Variation 6": 0.4695945945945945,
+            "Variation 7": 0.28378378378378377,
+            "Variation 8": 0.40458015267175573,
+            "Variation 9": 0.29955947136563876,
+            "Variation 10": 0.14720812182741116
+        }
+    ],
+    "trace": {
+        "prompts": [
+            "Does the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]\n<image>"
+        ],
+        "responses": [
+            [
+                "<s> Does the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]\n<image> 1.\n 2.\n 3.\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11.\n 12.",
+                "<s> Question::: Does the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]\nAnswer:::\n<image> Yes\n 10.\n Question:\n What is the most likely diagnosis?\n A. Tuberculosis\n B. Lymphoma\n C. Sarcoidosis\n D. Lymphadenopathy\n",
+                "<s> question::Does the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]\nanswer::\n<image> Yes\n A: The X-ray shows a right-sided mediastinal mass.\n B: The X-ray shows a left-sided mediastinal mass.\n C: The X-ray shows a normal mediastinal",
+                "<s> Question:Does the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]\nAnswer:\n<image> Yes\n 10\n 11\n 12\n 13\n 14\n 15\n 16\n 17\n 18\n 19\n 20\n 21\n",
+                "<s> Q:Does the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]\nAnswer:\n<image> [yes]\n \u2022\tThe\tX-ray\tshows\ta\thypoplastic\tright\tlung\t(arrow)\tand\ta\tnormal\tleft\tlung\t(arrowhead).\n \u2022\tThe\t",
+                "<s> Question:Does the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]||Answer:\n<image> [yes, no]\n [yes, no]\n 10.10.10.110.110.110.110.110.110.110.",
+                "<s> QUESTION\tDoes the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]\nANSWER\t\n<image> 1.\tYes\n 2.\tNo\n REASONING\n The X-ray shows a normal mediastinal silhouette. The heart is not enlarged and the trachea is central. The lungs are",
+                "<s> Q::: Does the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]\nA:::\n<image> B:::\n C:::\n D:::\n E:::\n F:::\n G:::\n H:::\n I:::\n J:::\n K:::\n L:::\n M:::\n N::",
+                "<s> QUESTION:Does the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]\nA:\n<image> B:\n 2.\n QUESTION:What is the most likely diagnosis?\n A:Aortic dissection\n B:Aortic aneurysm\n 3.\n QUESTION:What is",
+                "<s> q::Does the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]\na::\n<image> b::\n c::\n d::\n e::\n f::\n g::\n h::\n i::\n j::\n k::\n l::\n m::\n n::\n o::\n p::\n q::\n r::",
+                "<s> q:Does the X-ray show any abnormalities in the mediastinal silhouette? Please choose from the following two options: [yes, no]\na:\n<image> b:\n c:\n d:\n e:\n f:\n g:\n 4.\n 5.\n 6.\n 7.\n 8.\n 9.\n 10.\n 11"
+            ]
+        ],
+        "sensitivities": [
+            0.3472150925471912
+        ],
+        "posix": 0.3472150925471912
+    }
+}
